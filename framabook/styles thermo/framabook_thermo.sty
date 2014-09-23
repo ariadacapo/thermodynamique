@@ -81,8 +81,11 @@
 \newcommand{\uneminitoc}{} % nothing, minitoc are not used anymore in Framabook
 
 \newcommand{\unresumedechapitre}[1]{%
-		\footnotesize \rule{25ex}{1ex}\hspace{\stretch{1}} \textsc{Le chapitre \thechapter \ en bref}\hspace{\stretch{1}}\rule{25ex}{1ex}
-		\vspace{1em}\hrule\vspace{1em}
+		\footnotesize
+		\begin{center}
+			\raisebox{0.5ex}{\rule{25ex}{\arrayrulewidth}}\hspace{\stretch{1}} \textsc{Le chapitre \thechapter \ en bref}\hspace{\stretch{1}}\raisebox{0.5ex}{\rule{25ex}{\arrayrulewidth}}
+		\end{center}
+		\vspace{-1.2em}
 				\textit{#1}
 		\vspace{1em}\hrule
 		\vspace{2em}
