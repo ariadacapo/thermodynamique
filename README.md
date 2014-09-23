@@ -4,8 +4,7 @@ Thermodynamique de l’ingénieur
 Un livre de thermodynamique destiné à des étudiants en école d’ingénieurs.
 
 
-Auteurs
-=======
+## Auteurs
 
 Olivier Cleynen
 
@@ -15,8 +14,16 @@ Olivier Cleynen
 Ce document est édité par un groupe de travail Framabook en vue de sa publication sous forme de livre à l’automne 2014. Un wiki de travail est mis à disposition à l’adresse http://dokuwiki.framabook.org/doku.php?id=framabookthermodynamique
 
 
-Licence
-=======
+## Structure du projet
+
+* Le contenu proprement dit du livre (texte et figures) est découpé par chapitre, dans le dossier `contenu`
+* Le dossier `framabook` contient tous les fichiers nécessaires à la compilation du manuel dans sa forme "Framabook"
+* Le dossier `amphibooks` contient les fichiers utilisés pour la compilation des (nombreux) documents utilisés en cours.
+
+Les deux compilations `framabook` et `amphibooks` font référence aux mêmes fichiers source, au travers de liens relatifs.
+
+
+## Licence
 
 Le manuel est placé sous licence Creative Commons BY-SA
 http://creativecommons.org/licenses/by-sa/3.0/deed.fr
@@ -24,8 +31,7 @@ http://creativecommons.org/licenses/by-sa/3.0/deed.fr
 Attention, beaucoup de figures utilisées ici (photos, schémas) sont placées sous licence compatible mais pas identique. Leur licence et auteur(s) sont indiqués à chaque fois dans le corps du manuel.
 
 
-Notes
-=====
+## Notes
 
 Ce dépôt intègre les fichiers de la maquette framabook-thermodynamique,
 https://github.com/ariadacapo/framaquette-thermo.git
