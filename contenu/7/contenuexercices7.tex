@@ -1,0 +1,202 @@
+\begin{boiboiboite}
+	\propeau
+	\propair
+	\isentropiques
+\end{boiboiboite}
+
+\subsubsection{Efficacité maximale d’un moteur}
+
+	Quelle est l’efficacité maximale qu’un moteur puisse atteindre en opérant dans de l’air à température ambiante (\SI{15}{\degreeCelsius}), et dont la température maximale est de~\SI{800}{\degreeCelsius} ?
+
+\subsubsection{Efficacité maximale d’un réfrigérateur}
+
+	Quelle est l’efficacité maximale théorique qu’un congélateur domestique pourrait atteindre en fonctionnant entre les températures de~\SI{-6}{\degreeCelsius} et~\SI{20}{\degreeCelsius} ?
+	
+	Pour quelle(s) raison(s) les rendements atteints par les congélateurs usuels (environ \num{3}) sont-ils inférieurs ?
+	
+\subsubsection{Efficacité maximale d’une pompe à chaleur}
+
+	Une personne souhaite installer une thermopompe pour chauffer son domicile avec une puissance de~\SI{10}{\kilo\watt}.
+
+	\begin{enumerate}
+	
+		\item Expliquez brièvement pourquoi la performance d’une pompe à chaleur s’exprime selon :
+			\begin{equation}
+				\eta_\text{thermopompe} = \left| \frac{\dot{Q}_\text{out}}{\dot{W}_\text{net}} \right|
+			\end{equation}
+
+		\item Estimez la consommation minimale théorique de la pompe un soir de grand froid ($T_\text{ext.} = \SI{-2}{\degreeCelsius}$; $T_\text{int.} = \SI{20}{\degreeCelsius}$)
+		
+		\item Quelle sera la consommation minimale de la pompe à chaleur lorsque les températures interne et externe seront de~\SI{17}{\degreeCelsius}  et~\SI{16}{\degreeCelsius} respectivement ? 
+		
+		\item Quelle sera la consommation minimale théorique de la pompe dans le cas où les températures interne et externe sont identiques ?  Que se passe-t-il en théorie si la température externe est plus grande qu’à l’intérieur ?
+
+	\end{enumerate}
+
+
+\subsubsection{Cycle de Carnot}
+
+	\begin{enumerate}
+	
+		\item Décrivez brièvement les quatre phases d’un cycle moteur de Carnot, en indiquant le sens des transferts de chaleur.
+	
+		\item Pourquoi les transferts de chaleur sont-ils isothermes ?
+		
+		\item Est-il préférable d’utiliser un gaz parfait ou un mélange liquide-vapeur pour effectuer ce cycle ?
+		
+		\item Quels problèmes pratiques le cycle de Carnot pose-t-il ? 
+
+	\end{enumerate}
+
+
+\subsubsection{Moteur de Carnot à vapeur}
+
+	On tente de mettre en place une centrale à vapeur basée sur le cycle de Carnot pour fabriquer de l’électricité. La chaudière fonctionne à température maximale de~\SI{275}{\degreeCelsius} et admet de l’eau à l’état de liquide saturé. Lorsque l’eau sort de la chaudière et rentre dans la turbine, elle est à l’état de vapeur saturée.
+	
+	\begin{enumerate}
+	
+		\item Tracez le cycle suivi par l’eau sur un diagramme pression-volume, en indiquant la courbe de saturation (prendre garde aux particularités des mélanges liquide-vapeur !)
+		
+		\item À quelle pression environ faudrait-il refroidir la vapeur pour obtenir un rendement de~\SI{40}{\percent} ?
+		
+		\item Quelle serait la puissance fournie par l’installation si son débit massique était de~\SI{3}{\kilogram\per\second} ?
+		
+		\item \textit{[Question difficile\footnote{Il peut être utile de se référer au~\S\ref{ch_lv_isothermes} ici.}]} À quoi ressembleraient le cycle et la machine si l’on continuait à chauffer la vapeur à température constante de~\SI{275}{\degreeCelsius} à la sortie de la chaudière ? Comment varierait alors l’efficacité du moteur ?
+		
+	\end{enumerate}
+
+
+\subsubsection{Réversibilité des machines}
+
+	De la même façon qu’en \cref{fig_plus_que_machine_de_carnot}, démontrez par l’absurde qu’on ne peut concevoir une pompe à chaleur (ou un réfrigérateur) de rendement supérieur à une machine thermique réversible.
+
+
+\subsubsection{Moteur à turbine idéal}
+
+	\wherefrom{[DS n°2 2012, 11pts]}
+
+	Un groupe d’ingénieurs dans un bureau d’études travaille sur la conception d’un moteur à air, fonctionnant en régime continu à l’aide de turbines et de compresseurs.
+
+	Les ingénieurs utilisent le cycle de Carnot pour point de départ. Ils prévoient de pouvoir effectuer l’apport de chaleur à température de~\SI{600}{\degreeCelsius} et le rejet de chaleur à température de~\SI{20}{\degreeCelsius}. La pression est de~\SI{1}{\bar} à l’entrée du compresseur adiabatique et de~\SI{30}{\bar} à l’entrée de la turbine adiabatique. Ces caractéristiques confèrent au moteur une puissance mécanique spécifique de~\SI{70}{\kilo\joule\per\kilogram}.
+
+	\begin{enumerate}
+		\item Représentez l’agencement général de ce moteur hypothétique, en y représentant le circuit suivi par l’air, et tous les transferts de chaleur et de travail.
+		\item À partir de la définition du rendement d’un moteur, montrez que l’efficacité d’un moteur réversible est quantifiable selon l’équation
+			\begin{equation}
+				\eta_{\text{moteur Carnot}} = 1 - \frac{T_B}{T_H} \tag{\ref{eq_efficacité_moteur_carnot_température}}
+			\end{equation}
+	
+		\item Quelle puissance sous forme de chaleur faudra-il fournir au moteur ?
+		\item Quelle sera alors la puissance rejetée sous forme de chaleur ?
+	\end{enumerate}
+
+	Bien sûr, le cycle de Carnot est impraticable dans une application industrielle et le groupe d’ingénieurs adopte une modification, car pour pouvoir effectuer l’apport de chaleur par combustion interne, il faut pouvoir ensuite renouveler l’air du moteur. Ils décident ainsi d’interrompre la détente dans la turbine adiabatique lorsque la pression atteint \SI{1}{\bar}, et de rejeter l’air «~usagé~» dans l’atmosphère.
+	
+	Ainsi, dans ce nouveau moteur :
+		\begin{itemize}
+			\item La turbine adiabatique fonctionne désormais entre \SI{30}{\bar} \SI{1}{\bar} ;
+			\item Le rejet de chaleur s’effectue dans l’atmosphère à pression constante de~\SI{1}{\bar}.
+		\end{itemize}
+	Le reste du moteur n’est pas affecté.
+	
+	\begin{enumerate}
+		\shift{4}
+		\item Représentez le nouveau cycle sur un diagramme pression-volume, en le comparant au cycle de Carnot plus haut.
+		\item Quelle est la température de l’air lorsqu’il est rejeté du moteur à la sortie de la turbine adiabatique ?
+		\item Quelle est ainsi la réduction de la puissance de la turbine adiabatique par rapport au moteur idéal ?
+		\item Quelle puissance mécanique est économisée par la suppression du compresseur qui effectuait le rejet de chaleur ?
+		\item Quelle est désormais l’efficacité du moteur ?
+	\end{enumerate}
+
+
+\subsubsection{Cycle idéal et réel d’un réfrigérateur}
+
+	\wherefrom{[DS n°2 2011, 4pts]}
+
+	Nous nous proposons d’étudier le fonctionnement d’un réfrigérateur en partant d’un cycle théorique permettant un rendement maximal.
+	
+	Le réfrigérateur fonctionne strictement sur un cycle de Carnot, en régime permanent, avec un mélange liquide-vapeur.
+	
+	\begin{itemize}
+		\item Représentez le cycle de réfrigération sur un diagramme température-entropie ou pression-volume, en indiquant le sens des transferts de chaleur et de travail.
+	\end{itemize}
+	
+	Bien sûr, en pratique, la compression et la détente ne peuvent se faire de façon réversible.
+	
+	\begin{itemize}
+		\item Représentez le cycle irréversible sur le diagramme température-entropie ou pression-volume.
+		\item De quelle façon variera chacun des transferts de chaleur et de travail par rapport au cas théorique ?
+		\item Montrez brièvement que ces variations conduisent à une baisse du rendement («~COP~») du réfrigérateur.
+	\end{itemize}
+
+
+\subsubsection{Cycle réversible de réfrigération}
+
+	\wherefrom{[DS n°2 2012, 7pts]}
+
+	Une usine chimique utilise un système de réfrigération pour contrôler la température de produits dangereux. Nous cherchons à étudier le système de réfrigération le moins inefficace pour l’équiper, ici basé sur le cycle de Carnot.
+	
+	La température minimale de réfrigération est de~\SI{-50}{\degreeCelsius} et la chaleur est rejetée à~\SI{40}{\degreeCelsius}.
+	
+		\begin{enumerate}
+			\item Représentez un cycle de réfrigération basé sur un cycle de Carnot sur un diagramme pression-volume ou température-entropie.
+		\end{enumerate}
+		
+	En étudiant le cycle, un/e ingénieur/e constate que le rendement du réfrigérateur augmente si la température de rejet de chaleur est abaissée.
+	
+	Il/elle propose de configurer le réfrigérateur de telle sorte à ce qu’il rejette de la chaleur à~\SI{10}{\degreeCelsius} seulement. Cette chaleur à~\SI{10}{\degreeCelsius} serait captée par une pompe à chaleur qui la mènerait enfin à~\SI{40}{\degreeCelsius}. 
+	
+		\begin{enumerate}
+		\shift{1}
+			\item Montrez que le si le réfrigérateur fonctionne sur un cycle réversible, la modification proposée ne pourra qu’augmenter (ou au mieux, garder identique) la consommation totale du système de réfrigération.
+			\item Représentez le cycle de la pompe à chaleur telle que le propose l’ingénieur/e, sur le diagramme pression-volume ou température-entropie plus haut.
+			\item Représentez, sur un diagramme température-entropie ou pression-volume, les cycles suivis par les deux machines si leurs phases de détentes étaient adiabatiques (sans transfert de chaleur) mais non-réversibles.
+		\end{enumerate}
+		
+
+\subsubsection{Moteur essence basé sur un cycle de Carnot}
+
+	On souhaite quantifier la consommation d’essence minimale que pourrait engendrer un moteur automobile générant \SI{100}{\kilo\watt} de puissance (environ \SI{130}{ch}), étant données quelques contraintes pratiques imposées par le faible volume disponible et les limites de poids :
+		
+	\begin{itemize}
+		\item Le taux de compression (c’est-à-dire le rapport $\frac{v_\text{max.}}{v_\text{min.}}$) est de~\num{12} lors des phases adiabatiques (afin de limiter les contraintes mécaniques) ;
+		\item La température maximale est de~\SI{1300}{\kelvin} (imposée par la résistance des matériaux) ;
+		\item Le moteur aurait quatre cylindres effectuant chacun \num{400} cycles par minute.
+	\end{itemize}
+	
+	Le moteur est alimenté par de l’essence dont la chaleur spécifique de combustion est de~\SI{40}{\mega\joule\per\kilogram}.
+	
+	Si l’on considère le meilleur moteur que l’on puisse concevoir :
+	
+	\begin{enumerate}
+		\item À quelle température la chaleur serait-elle rejetée ?
+		\item Quel serait le rendement du moteur ?
+		\item Quelle serait la quantité de chaleur à fournir pour chaque combustion, et la masse de carburant correspondante ?
+		\item Quelle serait la consommation horaire d’essence ?
+	\end{enumerate}
+
+\exercisesolutionpage
+\subsubsection*{Résultats}
+	\linktosolutionsblurb
+
+	\begin{description}
+		\item [7.1] \tab \SI{73,1}{\percent}
+		\item [7.2] \tab $COP_\text{réf.} = \num{10,3}$
+		\item [7.3] \tab 1) cf. \S\ref{ch_rendement_thermopompe}	
+						\tab 2) $\dot{W}_\text{net} = \SI{750,8}{\watt}$ 
+						\tab 3) $\dot{W}_\text{net} = \SI{34,5}{\watt}$ (!) 
+						\tab 4) $\dot{W}_\text{net} = \SI{0}{\watt}$ ; travail net négatif : la pompe devient moteur…
+		\item [7.5] \tab 2) \SI{0,1285}{\bar} 
+						\tab 3) ${q}_\text{in} = h_{LV} = \SI{1574,3}{\kilo\joule\per\kilogram}$ : on obtient $\dot{W}_\text{net} = \SI{1,889}{\watt}$ 
+						\tab 4) Efficacité inchangée
+		\item [7.7] \tab 3) ${q}_\text{in} = \SI{105,4}{\kilo\joule\per\kilogram}$ 
+						\tab 4) ${q}_\text{out} = \SI{-35,4}{\kilo\joule\per\kilogram}$ 
+						\tab 6) ${T}_{E} = \SI{330,4}{\kelvin}$ 
+						\tab 7) ${w}_\text{perdue} = \SI{37,54}{\kilo\joule\per\kilogram}$ 
+						\tab 8) ${w}_\text{économisée} = \SI{+35,4}{\kilo\joule\per\kilogram}$ 
+						\tab 9) \SI{64,38}{\percent}
+		\item [7.10] 	\tab 1) ${T}_\text{rejet} = \SI{208}{\degreeCelsius}$ 
+							\tab 2) \SI{63}{\percent} 
+							\tab 3) $\dot{Q}_\text{in} = \SI{158,8}{\kilo\watt}$ donc ${Q}_\text{comb.} = \SI{5,955}{\kilo\joule}$ à chaque combustion. ${m}_\text{carb.comb.} = \SI{0,148}{\gram}$ 
+							\tab 4) $\dot{m}_\text{carb.} = \SI{14,3}{\kilogram\per\hour}$
+	\end{description}

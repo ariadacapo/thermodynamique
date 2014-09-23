@@ -1,0 +1,582 @@
+% Olivier’s custom layout for the thermodynamics framabook
+
+
+%%%%%%%%%%%%%%%%%
+% Packages
+%%%%%%%%%%%%%%%%%
+
+% Fonts and encoding stuff for documents typed in French
+
+\frenchbsetup{AutoSpacePunctuation=false} % Prevent frenchb from automatically adding spaces before :;! if they are not typed (pain in the butt in hyperlinks etc).
+
+% A few hacks for French language
+\AtBeginDocument{\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}} % restore bullets instead of the French-style dashes
+\newcommand{\iieme}{\up{e}\xspace}
+\hyphenation{Lors-que}
+\hyphenation{mê-me}
+\hyphenation{mê-mes}
+\hyphenation{aug-men-ter}
+\hyphenation{figure}
+
+
+\usepackage{subfigure}
+\usepackage{caption}
+\usepackage[section]{placeins} 	% All floats (figures & tables) must be cleared before a new section
+\usepackage{flafter}					% so figures/tables are always displayed after insertion (does not seem to work here)
+\usepackage[hyperref=true,sorting=ynt,backend=biber]{biblatex} % Bibliography
+	\addbibresource{annexes/thermobib.bib}
+%%\usepackage[bottom]{footmisc}		% So footnotes go below floats
+
+%%%% Misc %%%%
+
+\usepackage{mdframed} 		% Better framed boxes than framed
+\usepackage{titlesec}		% for customizing section titles with \titleformat
+\usepackage{pdflscape}		% so individual pages can be set to landscape
+
+\usepackage[export]{adjustbox}	% Allow use of "max width" argument in \includegraphics
+											%'export' allows adjustbox keys in \includegraphics
+\let\oldincludegraphics\includegraphics % Make sure \includegraphics never exceeds text width line
+\renewcommand{\includegraphics}[2][]{\oldincludegraphics[#1,max width=\columnwidth]{#2}}
+
+
+%%%% Tables %%%%
+
+%\usepackage{tabulary}		% tabulary breaks when using arydshln so now we use tabularx instead
+\usepackage{tabularx}		% For long tables split over several pages
+\usepackage{longtable}		% so we can use tables spreading over several pages
+\usepackage{booktabs}		% Needed for tables
+\usepackage{arydshln}		% so we can get dotted lines in tables
+
+
+%%%%%%%%%%%%%%%%%
+% Tables of content
+%%%%%%%%%%%%%%%%%
+
+% Initialize a few dummy commands that are re-named at each chapter
+\newcommand{\nomducours}{XXX} % need to initialize command
+\newcommand{\sousnomducours}{XXX} % need to initialize command
+\newcommand{\chapterlabel}{XXX} % need to initialize command
+
+\usepackage[subfigure]{tocloft}			% Tocloft allows control of Table of Contents format. Option [subfigure] to prevent clash with subfigure package
+	\renewcommand{\cftdot}{} 				% remove dots
+	\setcounter{tocdepth}{1} 				% depth of ToC
+	\setlength{\cftbeforechapskip}{1cm} 	% space before "parts" in ToC
+	\setlength{\cftbeforesecskip}{0.3cm}	% space before subsections in ToC
+	\setlength{\cftsecindent}{1.25cm}		% indent before subsections in ToC
+	\setlength{\cftsecnumwidth}{3em}			% length of number width in ToC for \section
+	\setlength{\cftsubsecnumwidth}{3em}		% length of number width in ToC for \subsection
+	\setlength{\cftsubsubsecnumwidth}{4em}	% length of number width in ToC for \subsubsection
+\renewcommand{\cfttoctitlefont}{\center \huge}
+
+
+\usepackage[tight, undotted]{minitoc} % mini ToC. (mini table of contents at start of each chapter)
+	\nomtcrule 							% no horizontal lines
+	\renewcommand{\mtctitle}{} 	% no "contents" title
+	%\mtcsetfont{minitoc}{section}{\normalfont\small} % no bold numbers, fix interaction with tocloft
+	\renewcommand*\l@section{\@dottedtocline{1}{0em}{2.3em}}
+	\renewcommand*\l@subsection{\@dottedtocline{2}{2.6em}{3em}}
+	\renewcommand{\mtcgapbeforeheads}{200pt}
+
+% Shortcut to insert minitoc in main .tex file
+\newcommand{\uneminitoc}{%
+	\clearpage
+	\renewcommand{\baselinestretch}{1.2}%
+	\small\minitoc%
+	\renewcommand{\baselinestretch}{1.0}% back to original value
+}
+
+\newcommand{\unresumedechapitre}[1]{%
+	\vspace{\stretch{1}}
+	\begin{center}
+		\begin{minipage}{0.875\textwidth}
+		\footnotesize \rule{25ex}{1ex}\hspace{\stretch{1}} \textsc{Le chapitre \thechapter \ en bref}\hspace{\stretch{1}}\rule{25ex}{1ex}
+		\vspace{1em}\hrule\vspace{1em}
+				#1
+		\vspace{1em}\hrule
+		\end{minipage}
+	\end{center}
+	\vspace{\stretch{1}}
+}
+
+
+
+%%%%%%%%%%%%%%%%%
+% Overall appearance
+%%%%%%%%%%%%%%%%%
+
+% page size
+\geometry{a4paper,
+				top=1.5cm,
+				bottom=1cm,
+				includeall,
+				inner=2.5cm,
+				outer=2.5cm,
+				marginparwidth=3.6cm,
+				marginparsep=0.4cm,
+				headheight=1cm,
+				headsep=1cm,
+				}
+
+\newcommand{\fancyheaddefaultvalue}{4cm} % so we can use this value dynamically elsewhere
+\newcommand{\fancyfootdefaultvalue}{3.4cm} % so we can use this value dynamically elsewhere
+\newcommand{\restoredefaultheadoffset}{\fancyheadoffset[LE,RO]{\fancyheaddefaultvalue}}
+\restoredefaultheadoffset % initializing value
+
+% Redefine mainmatter (!) to get rid of useless repetitions in header
+\renewcommand\mainmatter{%
+  \cleardoublepage
+  \@mainmattertrue
+  \@frontmatterfalse
+  \pagenumbering{arabic}
+  \let\index\indexORI
+  \fancyfoot{}
+  \fancyhead[LE]{\entetefont \thepage}
+  \fancyhead[RO]{\entetefont \thepage}
+  \fancyhead[LO]{}
+  \fancyhead[RE]{\entetefont Chapitre \thechapter~:~\leftmark}
+ }
+
+% Redefine plain fancyhdr style to get rid of page number in chapter page (who is going to find it there anyway??)
+\fancypagestyle{plain}{%
+  \fancyhf{}
+  \fancyfoot{}
+ }
+
+% Create shortcut to restore default (as defined in framatex_entete_titres.sty) footers and headers
+\newcommand{\restoredefaultfootersandheaders}{%
+	\fancyhead[LE,RO]{\entetefont \thepage}
+	\fancyhead[LO]{\rightmark}
+	\fancyhead[RE]{\leftmark}
+}
+
+% \Large is for wimps
+\newcommand\QuiteHuge{\@setfontsize\Huge{40}{40}} 
+\newcommand\HUGE{\@setfontsize\Huge{50}{50}}
+\newcommand\MEGAHUGE{\@setfontsize\Huge{70}{70}} 
+
+% typeset hyphens outside of paragraph body
+\usepackage[]{microtype} 
+
+% Prevent pagebreaks at the start of lists
+\@beginparpenalty=10000
+
+% Control spacing above figures
+\setlength{\textfloatsep}{20pt plus 0pt minus 0pt}  % ne marche pas apparemment
+
+% Make figure placement less strict with regards to text
+\renewcommand{\topfraction}{.85}
+\renewcommand{\bottomfraction}{.7}
+\renewcommand{\textfraction}{.15}
+\renewcommand{\floatpagefraction}{.66}
+\renewcommand{\dbltopfraction}{.66}
+\renewcommand{\dblfloatpagefraction}{.66}
+\setcounter{topnumber}{9}
+\setcounter{bottomnumber}{9}
+\setcounter{totalnumber}{20}
+\setcounter{dbltopnumber}{9}
+
+% Remove paragraph indents
+\parindent 0pt
+
+
+% Gadgets
+\usepackage{ccicons} 	% Use Creative Commons icons in text
+\usepackage{niceframe} 	% Complètement inutile, donc totalement indispensable...
+\usepackage{swrule}		% Totalement inutile aussi =)
+
+%%%%%%%%%%%%%%%%%
+% Numbering and titles
+%%%%%%%%%%%%%%%%%
+
+% Create a shortcut for recreating the default (as described in framatex_entete_titres.sty) section style
+\newcommand{\restoredefaultsectionstyle}{%
+		\renewcommand{\section}{%
+		 	\@startsection%
+		 	{section}%
+		 	{1}%
+		 	{\sectiontitleindent}%
+		 	{-3.5ex plus -1ex minus -.2ex}%
+		 	{2.3ex plus.2ex}%
+			{\sectionfont\large}}
+}
+
+% And create a shortcut for making an alternate version of it
+\newcommand{\centeredsectionstyle}{%
+		\renewcommand{\section}{%
+		 	\@startsection%
+		 	{section}%
+		 	{1}%
+		 	{0pt}%
+		 	{0pt}%
+		 	{0pt}%
+			{\large}}
+}
+
+% Table and figure numbering
+\renewcommand{\thefigure}{\thechapter.\arabic{figure}}
+\renewcommand{\thetable}{\thechapter.\arabic{table}}
+
+% Replace "Table" with "Tableau" (French)
+\AtBeginDocument{%
+  \renewcommand\tablename{\textsc{Tableau}}
+}
+
+% Custom equation numbering
+\renewcommand{\theequation}{\thechapter/\arabic{equation}}
+
+\titleformat{\subsubsection}{\vspace{1em}\pagebreak[3]\titlerule\vspace{0.08em}\normalsize}{\thesubsubsection\nopagebreak}{1em}{}[] %encourage pagebreak with [1] before subsub, prevent it immediately afterwards. \wherefrom also prevents pagebreaks
+\renewcommand\thesubsubsection{E\thechapter.\arabic{subsubsection}} % cheat for renumbering, pretend it’s a subsection
+\setlength{\subsubsectiontitleindent}{0cm} % remove indent
+\newcommand\subsectionbreak{\clearfloats}	% clear floats before each subsection
+\newcommand\subsubsectionbreak{\clearfloats}	% clear floats before each subsubsection (exercise)
+
+% Use cref (cleveref) to make internal links; configure French language.
+	\usepackage[french,nameinlink]{cleveref}
+   \crefformat{equation}{#2équation~#1#3}
+
+%%%%%%%%%%%%%%%%%
+% Style changes inside the book
+%%%%%%%%%%%%%%%%%
+
+\newcommand{\exercisepagegeometry}{\newgeometry{twocolumn, columnsep=2.5em, top=1cm, bottom=1cm, includeall, marginparwidth=0pt, marginparsep=0pt, inner=2.5cm, outer=1.5cm}}
+\newcommand{\solutionpagegeometry}{\newgeometry{top=3cm,bottom=1cm,includeall,marginparwidth=0pt,marginparsep=0pt,inner=2.5cm,outer=1.5cm}}
+\newcommand{\widecenteredpagegeometry}{\newgeometry{inner=3.5cm,outer=3.5cm,top=2cm,bottom=2cm,ignoreall,marginparwidth=0pt, marginparsep=0pt}}
+\newcommand{\narrowcenteredpagegeometry}{\newgeometry{inner=5cm,outer=5cm,top=2cm,bottom=2cm,ignoreall,marginparwidth=0pt, marginparsep=0pt}}
+\newcommand{\twocolumnpagegeometry}{\newgeometry{twocolumn, columnsep=2.5em, top=1cm, bottom=1cm, includeall, marginparwidth=0pt, marginparsep=0pt, inner=2.5cm, outer=2.5cm}}
+
+\newcommand{\atstartofexercices}{%
+	\centeredsectionstyle
+	\exercisepagegeometry%
+	\fancyheadoffset[LE,RO]{0cm}%
+	\begin{spacing}{1}%
+	\begin{footnotesize}
+	\section{Exercices}
+}
+
+\newcommand{\exercisesolutionpage}{%
+	\clearpage
+	\solutionpagegeometry
+}
+
+\newcommand{\atendofexercices}{%
+	\end{footnotesize}
+	\end{spacing}%
+	\restoredefaultsectionstyle%
+	\restoregeometry%
+	\restoredefaultheadoffset%
+}
+
+%%%%%%%%%%%%%%%%%
+% General styles, colors, and math settings
+% Used to be trucscommunsdolivier.sty (settings common to all of Olivier’s LaTeX documents)
+%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%% Misc useful %%%%%%%%%% 
+
+\usepackage[numbered]{bookmark} % Configures table of contents in PDF bookmarks
+\usepackage{comment} % so sections can be commented with \begin{comment}, \end{comment}
+\usepackage{tabto} % emulate "Tab" key with \tab
+\TabPositions{0.5\columnwidth} % position of tab. Can also use \NumTabs{4} (number of tabs in line)
+\usepackage{eurosym} % Use euro symbol with \euro{}
+\usepackage{xspace}	% to use the command \xspace (trailing space sensitive to whether character that follows is punctuation or not)
+
+
+%%%%%%%%%%% Math %%%%%%%%%% 
+
+\usepackage{amsmath}			% equations
+\usepackage{amssymb}			% Math symbols
+\usepackage[retainorgcmds]{IEEEtrantools} 	% robust multi-line equation alignment
+\usepackage{siunitx}			% for SI units and numbers
+	\sisetup{retain-explicit-plus = true,
+				exponent-product = \cdot,
+				output-decimal-marker = {,},
+				unit-color = unitcolor,
+				group-digits = integer, % groups numbers together, but not in decimals
+				group-minimum-digits = 3,
+				table-number-alignment = center, % numbers in tables centered --requires each column is described with "table-format = X.Y" where X is integers and Y is decimals.
+				}
+
+\DeclareSIUnit[number-unit-product = { }]
+	\euroo{\euro{}} % so "\euroo" can be used as a normal unit
+\DeclareSIUnit\bar{bar}
+\DeclareSIUnit\lbf{lb_f}
+\DeclareSIUnit\foot{ft}
+\DeclareSIUnit\cheval{ch}
+\DeclareSIUnit\horsepower{hp}
+\DeclareSIUnit\usi{u.\textsc{si}}
+
+
+% In order to retain conventional "/" when writing units to obtain, say, kg/(kWh)
+% use [per-mode = symbol] argument when calling \SI
+				
+%\thickmuskip=10mu minus 8mu % increase spacing around the equal sign in equations
+
+% Code that enables \ztag{} (to replace \tag{}) inside IEEEeqnarray equations
+\makeatletter
+\newcommand\ztag[1]{%
+\def\@currentlabel{#1}%
+\gdef\tmp{%
+\addtocounter{equation}{-1}%
+\def\theequation{#1}}%
+\aftergroup\aftergroup\aftergroup\aftergroup\aftergroup\aftergroup
+\aftergroup\aftergroup\aftergroup\aftergroup\aftergroup\aftergroup
+\aftergroup\aftergroup\aftergroup\aftergroup\aftergroup\aftergroup
+\aftergroup\aftergroup\aftergroup\aftergroup\aftergroup\aftergroup
+\aftergroup\aftergroup\aftergroup\aftergroup\aftergroup\aftergroup
+\aftergroup %wehee ! From https://tex.stackexchange.com/questions/149370/ieeeeqnarray-tag-like-command
+\tmp}
+
+
+%%%%%%%%%% Colors %%%%%%%%%%
+
+\usepackage[]{xcolor}			% provides library of colors (used in siunitx + hyperref)
+	\definecolor{unitcolor}{HTML}{333333} % → also check out svgnames for pre-defined colors
+	\definecolor{vocabcolor}{HTML}{460b00}
+	\definecolor{externallinkcolor}{HTML}{0b0051}
+	\definecolor{internallinkcolor}{HTML}{001951}
+	\definecolor{examplebackgroundcolor}{rgb}{.95,.95,.95} % this is html f3f3f3ff
+	\definecolor{slidetitlecolor}{HTML}{000000}
+	\definecolor{slidetextcolor}{HTML}{0a0a0a}
+	\definecolor{slidecolor}{HTML}{460b00}
+	\definecolor{slideboxcolor}{rgb}{.95,.95,.95}
+	\definecolor{slidesectioncolor}{HTML}{000000}
+	\definecolor{slidesubsectioncolor}{HTML}{333333}
+	\definecolor{quotebackgroundcolor}{rgb}{.95,.95,.95}
+	\definecolor{exampletextcolor}{HTML}{333333}
+
+
+%%%%%%%%%% Useful custom tools %%%%%%%%%%
+
+% Custom command to *not* break page. Simply type \dontbreakpage  (used after each "introduction" section)
+\newcommand\dontbreakpage{\par\nobreak\@afterheading}
+
+% "diff" symbol in math equations
+\newcommand{\diff}{\,\mathrm{d}}
+
+% shortcuts for commonly-used subscripts in equations
+\newcommand{\fromatob}{{\text{A}\to\text{B}}}
+\newcommand{\frombtoa}{{\text{B}\to\text{A}}}
+\newcommand{\frombtoc}{{\text{B}\to\text{C}}}
+\newcommand{\fromctod}{{\text{C}\to\text{D}}}
+\newcommand{\fromdtoa}{{\text{D}\to\text{A}}}
+\newcommand{\A}{\text{A}}
+\newcommand{\B}{\text{B}}
+\newcommand{\C}{\text{C}}
+\newcommand{\D}{\text{D}}
+
+% a more intuitive command for clearing figure & table floats
+\newcommand{\clearfloats}{\FloatBarrier}
+
+% Nicer name to shift numbering in {enumerate}: \shift{2}
+\newcommand{\shift}[1]{\setcounter{enumi}{#1}}
+
+% Simplify writing vectors
+\newcommand{\lvec}{\overrightarrow}
+
+\renewcommand{\ieme}{\up{e}\xspace}
+
+
+%%%%%%%%%% Custom styles %%%%%%%%%%
+
+% Custom style for "principe"
+\newenvironment{principe}{\begin{framed}\begin{center}\rule{1ex}{1ex}\hspace{\stretch{1}}}{\hspace{\stretch{1}}\rule{1ex}{1ex}\end{center}\end{framed}}
+%\newenvironment{principe}{\begin{mdframed}\begin{center}\rule[-1.5em]{1ex}{1ex}\hspace{2em}}{\hspace{2em}\rule[1.5em]{1ex}{1ex}\end{center}\end{mdframed}} (previous format)
+
+% Custom style for "trucimportant"
+\mdfsetup{frametitlealignment=\centering} % Cannot be specified in local {mdframed} options
+\newenvironment{trucimportant}{\begin{mdframed}[topline=false, bottomline=false, linewidth=3pt, innerrightmargin=10pt, leftmargin=0pt, innerleftmargin=10pt, skipabove=8pt, skipbelow=8pt]\begin{center}}{\end{center}\end{mdframed}}
+
+
+% Custom style for a \supercaption{}{} to be used where figures need credits
+\newcommand{\supercaption}[2]{%
+	\footnotesize \selectfont{}
+	\captionsetup{singlelinecheck=off}	
+	\caption[ding]{#1
+			\begin{credits}#2\end{credits}
+		}
+}
+
+% Custom style for "credits" (usually used in \supercaption caption). Usage:
+% \captionsetup{singlelinecheck=off}
+% \caption[mandatorytext]{A nice figure  \begin{credits}Drawing \pd by Jane Smith\end{credits}  }
+\newenvironment{credits}{\vspace{-0.8em}\scriptsize\slshape\begin{flushright}}{\end{flushright}\normalsize\upshape} % Environment, used now.
+\newcommand{\credit}[1]{\textit{\footnotesize{#1}}} % Command, for backwards compatibility. Not used anymore.
+
+\newcounter{anexamplecounter}[chapter] % [chapter] argument at end to reset to zero at every chapter 
+\renewcommand{\theanexamplecounter}{\thechapter.\arabic{anexamplecounter}} 
+
+% Custom style for examples
+\newenvironment{anexample}{\pagebreak[3]\refstepcounter{anexamplecounter}\begin{mdframed}[frametitle=Exemple \theanexamplecounter, frametitlefont=\normalfont, frametitlerule=false, splittopskip=1em, linewidth=0pt, linecolor=examplebackgroundcolor, backgroundcolor=examplebackgroundcolor, roundcorner=2pt, innerrightmargin=10pt, leftmargin=0pt, innerleftmargin=10pt, innertopmargin=1em, skipabove=8pt, skipbelow=8pt, footnoteinside=true]}{\end{mdframed}}
+
+% Custom style for answer box (used inside "anexample" boxes)
+\newenvironment{answer}
+	{\begin{list}{}{%
+		\setlength{\listparindent}{\parindent}%
+		\setlength{\itemindent}{\parindent}%
+		\setlength{\leftmargin}{0.6cm}%
+		\setlength{\rightmargin}{0cm}%
+	}\item }%
+	{\end{list}}
+
+% Custom style for "remarks" (used inside "answer" boxes)
+\newcommand{\hand}{\protect\raisebox{-0.5ex}{\includegraphics[height = 2ex]{images/hand.png}}~}
+\newcommand{\info}{\protect\raisebox{-0.3ex}{\includegraphics[height = 2ex]{images/i.png}}~}
+\newenvironment{remark}
+	{\begin{list}{}{%
+		\setlength{\listparindent}{\parindent}%
+		\setlength{\itemindent}{\parindent}%
+		\setlength{\leftmargin}{0.5cm}%
+		\setlength{\rightmargin}{0cm}%
+		\small%
+	}\item \hand~}%
+	{\end{list}}
+
+% Custom style for "vocab".
+\newcommand{\vocab}[1]{\textsl{\textcolor{vocabcolor}{#1}}}
+\newcommand{\vocabe}[1]{\textit{\textcolor{vocabcolor}{#1}}} 	% meant for English vocab words
+\newcommand{\imp}[1]{\textit{\textcolor{vocabcolor}{#1}}}		% backwards compatibility
+
+% Custom style for "boiboite" (used at the start of exercise sheets)
+\newenvironment{boiboite}{\begin{framed}\centering}{\end{framed}}
+
+% Custom style for "boiboiboite" (same as boiboite but not centered!)
+\newenvironment{boiboiboite}{\begin{mdframed}[linewidth=0.1pt, linecolor=gray, innerrightmargin=10pt, innerleftmargin=10pt, innertopmargin=10pt, innerbottommargin=10pt, skipabove=8pt, skipbelow=8pt, roundcorner=2pt]}{\end{mdframed}}
+
+% Custom style for indicating where exercices come from (DS)
+\newcommand{\wherefrom}[1]{\nopagebreak} % don’t display anything, but prevent page breaks
+
+\newcommand{\atstartofhistorysection}{\clearpage}
+\newcommand{\atendofhistorysection}{} % don’t display anything
+
+% Remove link to http://thermo.ariadacapo.net/ for solutions at the start of exercice sheets
+\newcommand{\linktosolutionsblurb}{} % nothing
+
+% Custom style for floating quotes aside the text. For some reason an environment does not work.
+\newcommand{\thermoquotebegin}[1]{\setlength{\intextsep}{0cm}\begin{wrapfigure}{#1}[\marginparwidth+\marginparsep]{\marginparwidth}\scriptsize\linespread{0.8}\makebox(18,5){\color{gray}\scalebox{2}{«}}}
+\newcommand{\thermoquoteend}[2]{\nolinebreak\makebox(18,5){\color{gray}\scalebox{2}{»}}\par\vspace{-0.3cm}\begin{flushright}#1\\#2\vspace{-2em}\end{flushright}\end{wrapfigure}}
+
+% Custom style for equation terms description
+\newenvironment{equationterms}{\dontbreakpage\begin{itemize}\itemsep-4pt \parskip0pt \parsep0pt \renewcommand{\labelitemi}{} \renewcommand{\labelitemii}{} \TabPositions{0.5cm,1cm,1.2cm,1.4cm,1.6cm,2cm,3cm}}{\end{itemize}}
+
+% Custom style for chapter "funny" subtitle
+\newcommand{\chaptersubtitle}[1]{\begin{center}\begin{large}\textit{\raisebox{0.2em}{\rule{5ex}{0.2ex}}\hspace{1em} ou \hspace{1em}\raisebox{0.2em}{\rule{5ex}{0.2ex}}\\#1}\end{large}\end{center}}
+
+%%%%%%%%%% Short-hands %%%%%%%%%%
+
+% Simple commands to make links to licenses for re-used pieces of work. Trailing space on purpose.
+\newcommand{\pd}{domaine public }
+\renewcommand{\cczero}{\textsl{\textsc{\href{https://creativecommons.org/publicdomain/zero/1.0/deed.fr}{CC-0}}}\xspace}
+\renewcommand{\ccby}{\textsl{\textsc{\href{https://creativecommons.org/licenses/by/2.5/deed.fr}{CC-by}}} }
+\renewcommand{\ccbysa}{\textsl{\textsc{\href{https://creativecommons.org/licenses/by-sa/3.0/deed.fr}{CC-by-sa}}}\xspace}
+\newcommand{\ccbysatwozerofr}{\textsl{\textsc{\href{https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en}{CC-by-sa-2.0-fr}}}\xspace}
+\newcommand{\ccbynctwofive}{\textsl{\textsc{\href{https://creativecommons.org/licenses/by-nc/2.5/}{\textcolor{white}{CC-by-nc-2.5}}}}\xspace}
+\newcommand{\gfdl}{\textsl{\textsc{\href{https://www.gnu.org/licenses/old-licenses/fdl-1.2.html}{\textcolor{white}{gfdl1.2}}}}\xspace}
+\newcommand{\myccbysa}{\textsc{\href{https://creativecommons.org/licenses/by-sa/3.0/deed.fr}{\textcolor{black}{CC-by-sa}}}\xspace}
+\newcommand{\myccbysaen}{\textsc{\href{https://creativecommons.org/licenses/by-sa/3.0/}{\textcolor{black}{CC-by-sa}}}\xspace}
+\newcommand{\thermoariadacapo}{\href{http://thermo.ariadacapo.net}{\textcolor{black}{thermo.ariadacapo.net}}}
+\newcommand{\httpthermoariadacapo}{\href{http://thermo.ariadacapo.net}{\textcolor{black}{http://thermo.ariadacapo.net/}}}
+\newcommand{\intromecaariadacapo}{\href{http://intromeca.ariadacapo.net}{\textcolor{black}{introméca.ariadacapo.net}}}
+\newcommand{\aircraftariadacapo}{\href{http://aircraft.ariadacapo.net}{\textcolor{black}{aircraft.ariadacapo.net}}}
+\newcommand{\olivier}{\href{http://www.ariadacapo.net}{\textcolor{black}{Olivier Cleynen}}}
+\newcommand{\oc}{\href{http://www.ariadacapo.net}{\textcolor{black}{\textsc{o.c.}}}}
+
+
+% Macro that creates a wikipedia link.
+% Syntax : 	\wf{Article en Français} 	or \wfd{Article}{texte différent du nom de l’article}
+% Syntax : 	\we{English article} 		or \wed{Article}{some text different from the article title}
+% Code structure: \wikipedialinkfr → \urlwhitespacereplace → \wf
+\usepackage{xstring}			% package for link macro to work
+
+\newcommand{\wikipedialinkfr}[1]{https://fr.wikipedia.org/wiki/#1} % Makes proper URL only if fed text with underscores
+\newcommand{\wikipedialinken}[1]{https://en.wikipedia.org/wiki/#1}
+
+\newcommand{\urlwhitespacereplace}[1]{\StrSubstitute{#1}{ }{_}[\wpLink]} % sustitute spaces for underscores
+
+\newcommand{\wf}[1]{\urlwhitespacereplace{#1}\href{\wikipedialinkfr{\wpLink}}{#1}}
+\newcommand{\wfd}[2]{\urlwhitespacereplace{#1}\href{\wikipedialinkfr{\wpLink}}{#2}}
+
+\newcommand{\we}[1]{\urlwhitespacereplace{#1}\href{\wikipedialinken{\wpLink}}{#1}}
+\newcommand{\wed}[2]{\urlwhitespacereplace{#1}\href{\wikipedialinken{\wpLink}}{#2}}
+
+% Link to Commons user page
+\newcommand{\wcu}[1]{\href{https://commons.wikimedia.org/wiki/user:#1}{l’utilisateur$\cdot$rice Commons #1}}
+\newcommand{\wcun}[2]{\href{https://commons.wikimedia.org/wiki/user:#1}{#2}}
+\newcommand{\wcfile}[2]{\href{https://commons.wikimedia.org/wiki/file:#1}{#2}}
+
+% Link to Flickr user page. Doesn’t seem to work anymore since user URLs do not match user names anymore.
+\newcommand{\flickru}[1]{\href{https://secure.flickr.com/people/#1}{l’utilisateur$\cdot$rice Flickr #1}}
+\newcommand{\flickrun}[2]{\href{https://secure.flickr.com/people/#1}{#2}}
+
+\newcommand{\myfootertext}{} % Quelque chose pendant la compilation demande un \myfootertext. Mais QUI???? #fixme
+
+
+\newcommand{\propeau}{%
+{\centering Les propriétés de l’eau sont toutes tabulées dans les abaques n°1, 2 et 3.\par}
+}
+
+\newcommand{\propair}{%
+{\centering L’air est considéré comme un gaz parfait.\par}
+\vspace{-0.8cm}
+	\begin{align*}
+		c_{v \text{(air)}} & = \SI{718}{\joule\per\kilogram\per\kelvin} 	& R_\text{air} 		& = \SI{287}{\joule\per\kilogram\per\kelvin} \\
+		c_{p \text{(air)}} & = \SI{1005}{\joule\per\kilogram\per\kelvin} 	& \gamma_\text{air} & = \num{1,4}
+	\end{align*}
+}
+
+\newcommand{\propgaz}{%
+\begin{align*}
+		c_{v \text{(gaz)}} & = \SI{823}{\joule\per\kilogram\per\kelvin} 	& R_\text{gaz} 		& = \SI{327}{\joule\per\kilogram\per\kelvin} \\
+		c_{p \text{(gaz)}} & = \SI{1150}{\joule\per\kilogram\per\kelvin} 	& \gamma_\text{gaz} & = \num{1,333}
+\end{align*}
+}
+
+\newcommand{\isentropiques}{%
+Nous admettons que pour une évolution adiabatique réversible (sans apport de chaleur et infiniment lente) les propriétés de l’air suivent les trois relations suivantes :
+		\begin{IEEEeqnarray}{rCl}
+			\left( \frac{T_1}{T_2} \right)	& = & \left( \frac{v_2}{v_1} \right)^{\gamma -1}		\ztag{\ref{eq_isentropique_horrible1}}\\
+			\left( \frac{T_1}{T_2} \right)	& = & \left( \frac{p_1}{p_2} \right)^{\frac{\gamma -1}{\gamma}} \ztag{\ref{eq_isentropique_horrible2}}\\
+			\left( \frac{p_1}{p_2} \right)	& = & \left( \frac{v_2}{v_1} \right)^{\gamma}		\ztag{\ref{eq_isentropique_horrible3}}
+		\end{IEEEeqnarray}
+}
+
+\newcommand{\isentropiquesdeux}{% To be called outside of book, so no \ref call is available for eq number.
+Nous admettons que pour une évolution adiabatique réversible (sans apport de chaleur et infiniment lente) les propriétés de l’air suivent les trois relations suivantes :
+		\begin{IEEEeqnarray}{rCl}
+			\left( \frac{T_1}{T_2} \right)	& = & \left( \frac{v_2}{v_1} \right)^{\gamma -1}		\ztag{4/36}\\
+			\left( \frac{T_1}{T_2} \right)	& = & \left( \frac{p_1}{p_2} \right)^{\frac{\gamma -1}{\gamma}} \ztag{4/37}\\
+			\left( \frac{p_1}{p_2} \right)	& = & \left( \frac{v_2}{v_1} \right)^{\gamma}		\ztag{4/38}
+		\end{IEEEeqnarray}
+}
+
+
+\newcommand{\isothermes}{%
+Nous admettons également que lors d’une évolution isotherme réversible (à température constante et infiniment lente) d’un gaz parfait, le transfert de travail engendré en système ouvert ou fermé s’exprime selon la relation :
+		\begin{equation}
+			w_{1\to2} 	= R T_\text{cste.} \ln \left(\frac{p_2}{p_1}\right) = R T_\text{cste.} \ln \left(\frac{v_1}{v_2}\right) \tag{\ref{eq_travail_température_constante_rep}}
+		\end{equation}
+}
+
+\newcommand{\isothermesdeux}{% To be called outside of book, so no \ref call is available for eq number.
+Nous admettons également que lors d’une évolution isotherme réversible (à température constante et infiniment lente) d’un gaz parfait, le transfert de travail engendré en système ouvert ou fermé s’exprime selon la relation :
+		\begin{equation}
+			w_{1\to2} 	= R T_\text{cste.} \ln \left(\frac{p_2}{p_1}\right) = R T_\text{cste.} \ln \left(\frac{v_1}{v_2}\right) \tag{4/29}
+		\end{equation}
+}
+
+\newcommand{\deltaentropie}{%
+Nous admettons également que la variation d’entropie d’un gaz parfait, pour n’importe quelle évolution, est quantifiée par les relations suivantes :
+	\begin{IEEEeqnarray}{rCl}
+				\Delta s	= s_2 - s_1 & = & c_v \ln \frac{T_2}{T_1} + R \ln \frac{v_2}{v_1} 	\ztag{\ref{eq_delta_s_gp_v}}\\
+				\Delta s	= s_2 - s_1 & = & c_p \ln \frac{T_2}{T_1} - R \ln \frac{p_2}{p_1} 	\ztag{\ref{eq_delta_s_gp_p}}
+	\end{IEEEeqnarray}
+}
+
+\newcommand{\deltaentropiedeux}{% To be called outside of book, so no \ref call is available for eq number.
+Nous admettons également que la variation d’entropie d’un gaz parfait, pour n’importe quelle évolution, est quantifiée par les relations suivantes :
+	\begin{IEEEeqnarray}{rCl}
+				\Delta s	= s_2 - s_1 & = & c_v \ln \frac{T_2}{T_1} + R \ln \frac{v_2}{v_1} 	\ztag{8/12}\\
+				\Delta s	= s_2 - s_1 & = & c_p \ln \frac{T_2}{T_1} - R \ln \frac{p_2}{p_1} 	\ztag{8/13}
+	\end{IEEEeqnarray}
+}
+
+\usepackage[all]{hypcap}		% so links to figures point to the image, not the caption. Must be loaded after hyperref. Broken when caption{} is redefined. Needs a paragraph before it’s called!

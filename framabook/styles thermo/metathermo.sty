@@ -1,0 +1,81 @@
+% Shortcuts for name of individual thermodynamics chapters.
+% \nobreakspace{} replaces symbol ~ for non-breakable spaces to ensure framabook compatibility.
+\newcommand{\nomcoursun}{Notions fondamentales}
+\newcommand{\nomcoursdeux}{Les systèmes\nobreakspace{}fermés}
+\newcommand{\nomcourstrois}{Les systèmes\nobreakspace{}ouverts}
+\newcommand{\nomcoursquatre}{Le\nobreakspace{}gaz parfait}
+\newcommand{\nomcourscinq}{Liquides et\nobreakspace{}vapeurs}
+\newcommand{\nomcourssix}{Cycles thermodynamiques}
+\newcommand{\nomcourssept}{Le\nobreakspace{}second principe}
+\newcommand{\nomcourshuit}{L’entropie}
+\newcommand{\nomcoursneuf}{Cycles moteurs à\nobreakspace{}vapeur}
+\newcommand{\nomcoursdix}{Cycles moteurs à\nobreakspace{}gaz}
+
+\newcommand{\sousnomcoursun}{L’indispensable panoplie du petit thermodynamicien}
+\newcommand{\sousnomcoursdeux}{}
+\newcommand{\sousnomcourstrois}{}
+\newcommand{\sousnomcoursquatre}{L’invraisemblable thermomètre du savant Clapeyron}
+\newcommand{\sousnomcourscinq}{}
+\newcommand{\sousnomcourssix}{Concis de sorcellerie mécano-thermique}
+\newcommand{\sousnomcourssept}{L’inquiétante découverte de l’ingénieur Carnot}
+\newcommand{\sousnomcourshuit}{L’effroyable prophétie du professeur Clausius}
+\newcommand{\sousnomcoursneuf}{Le mystère de la machine à eau}
+\newcommand{\sousnomcoursdix}{Les mugissements de la machine à air}
+
+% Shortcuts for recalling the name of individual thermodynamics chapters. Special xspace trailing space on purpose.
+\newcommand{\coursun}{\cref{chap_un} {\footnotesize(\textit{\MakeLowercase{\nomcoursun}})}\xspace}
+\newcommand{\coursdeux}{\cref{chap_deux} {\footnotesize(\textit{\MakeLowercase{\nomcoursdeux}})}\xspace}
+\newcommand{\courstrois}{\cref{chap_trois} {\footnotesize(\textit{\MakeLowercase{\nomcourstrois}})}\xspace}
+\newcommand{\coursquatre}{\cref{chap_quatre} {\footnotesize(\textit{\MakeLowercase{\nomcoursquatre}})}\xspace}
+\newcommand{\courscinq}{\cref{chap_cinq} {\footnotesize(\textit{\MakeLowercase{\nomcourscinq}})}\xspace}
+\newcommand{\courssix}{\cref{chap_six} {\footnotesize(\textit{\MakeLowercase{\nomcourssix}})}\xspace}
+\newcommand{\courssept}{\cref{chap_sept} {\footnotesize(\textit{\MakeLowercase{\nomcourssept}})}\xspace}
+\newcommand{\courshuit}{\cref{chap_huit} {\footnotesize(\textit{\MakeLowercase{\nomcourshuit}})}\xspace}
+\newcommand{\coursneuf}{\cref{chap_neuf} {\footnotesize(\textit{\MakeLowercase{\nomcoursneuf}})}\xspace}
+\newcommand{\coursdix}{\cref{chap_dix} {\footnotesize(\textit{\MakeLowercase{\nomcoursdix}})}\xspace}
+
+\newcommand{\coursunshort}{\cref{chap_un}\xspace}
+\newcommand{\coursdeuxshort}{\cref{chap_deux}\xspace}
+\newcommand{\courstroisshort}{\cref{chap_trois}\xspace}
+\newcommand{\coursquatreshort}{\cref{chap_quatre}\xspace}
+\newcommand{\courscinqshort}{\cref{chap_cinq}\xspace}
+\newcommand{\courssixshort}{\cref{chap_six}\xspace}
+\newcommand{\coursseptshort}{\cref{chap_sept}\xspace}
+\newcommand{\courshuitshort}{\cref{chap_huit}\xspace}
+\newcommand{\coursneufshort}{\cref{chap_neuf}\xspace}
+\newcommand{\coursdixshort}{\cref{chap_dix}\xspace}
+
+\newcommand{\un}{\ref{chap_un}\xspace}
+\newcommand{\deux}{\ref{chap_deux}\xspace}
+\newcommand{\trois}{\ref{chap_trois}\xspace}
+\newcommand{\quatre}{\ref{chap_quatre}\xspace}
+\newcommand{\cinq}{\ref{chap_cinq}\xspace}
+\newcommand{\six}{\ref{chap_six}\xspace}
+\newcommand{\sept}{\ref{chap_sept}\xspace}
+\newcommand{\huit}{\ref{chap_huit}\xspace}
+\newcommand{\neuf}{\ref{chap_neuf}\xspace}
+\newcommand{\dix}{\ref{chap_dix}\xspace}
+
+% Shortcuts for recalling the content of the summary of individual thermodynamics chapters.
+\newcommand{\contentsummaryducours}{} % initialize placeholder
+
+\newcommand{\contentsummarycoursun}{Le premier principe stipule que l’énergie est constante et indestructible : on la \emph{transforme} d’une forme à une autre. Le travail est un transfert associant une force à un déplacement. La chaleur est un transfert chaotique, associé à un potentiel, la température. }
+
+\newcommand{\contentsummarycoursdeux}{Un système fermé contient une quantité de masse fixe. Les transferts de chaleur et de travail y font varier l’\emph{énergie interne} du fluide. Pour que le travail puisse être réversible, il faut un mouvement infiniment lent.}
+
+\newcommand{\contentsummarycourstrois}{Un système ouvert est traversé par un débit de masse. Les transferts de chaleur et travail y font varier l’\emph{enthalpie} du fluide. Pour que le travail puisse être réversible, il faut un mouvement infiniment lent.}
+
+\newcommand{\contentsummarycoursquatre}{Le gaz parfait est un modèle mathématique qui permet de prévoir les propriétés (énergie interne, enthalpie) d’un gaz simplement en fonction de sa température. Par approximation, l’air est un gaz parfait.}
+
+\newcommand{\contentsummarycourscinq}{L’eau suit globalement les mêmes tendances qu’un gaz parfait, mais lorsqu’elle se condense ou s’évapore, ses propriétés changent très brutalement. On ne peut pas les \emph{calculer} comme celles d’un gaz parfait : il faut les tabuler.}
+
+\newcommand{\contentsummarycourssix}{Lorsqu’on chauffe un fluide comprimé, il fournit plus de travail à la détente qu’on en avait dépensé à la compression. En détendant un fluide, on fait chuter sa température et on peut ainsi absorber de la chaleur d’un corps plus «\nobreakspace{}froid\nobreakspace{}». Avec ces deux méthodes, on transforme chaleur en travail et inversement.}
+
+\newcommand{\contentsummarycourssept}{La chaleur ne se déplace que vers un corps de température plus basse. Cela pose une limite fondamentale à l’efficacité des transformations travail-chaleur. Elle est dictée par les températures extrêmes des machines, et usuellement très basse ($\sim$\SI{50}{\percent}). Carnot décrit un moteur de rendement maximal.}
+
+\newcommand{\contentsummarycourshuit}{L’entropie est une propriété des corps. Ses variations permettent de mesurer l’irréversibilité des transferts d’énergie (toujours indésirable pour l’ingénieur). L’entropie totale augmente toujours au cours des transferts irréversibles : de travail (avec mouvement brutal), de chaleur (avec gradient de température).}
+
+\newcommand{\contentsummarycoursneuf}{Les moteurs à vapeur sont efficaces à faible température, coûteux et lourds. De nombreuses modifications sont apportées aux cycles idéaux pour réduire le coût et augmenter la puissance des machines.}
+
+\newcommand{\contentsummarycoursdix}{Les moteurs à gaz sont moins complexes et plus légers. De nombreux compromis thermodynamiques sont apportés pour s’adapter aux limites de vitesse, de température, et de pression des composants moteur.}
+

@@ -1,0 +1,57 @@
+\appendix
+\newgeometry{top=1.5cm, bottom=1.5cm, left=3cm, right=3cm}%
+\setlength{\fancyfootoffset}{0cm}%
+	\vspace*{\stretch{1}}
+		{\center \normalsize \QuiteHuge Annexes\par}
+		\addcontentsline{toc}{chapter}{Annexes}
+			\vspace{3em}
+			\hypersetup{linkcolor=black}% make links black
+			\uneminitoc
+			\hypersetup{linkcolor=internallinkcolor}% back to normal link color
+	\vspace*{\stretch{1}}\restoregeometry
+	\renewcommand\thesection{A\arabic{section}}
+\restoregeometry
+\clearpage\restoredefaultfootoffset
+
+%abaques
+	\newgeometry{top=1.5cm, bottom=1.5cm, left=3cm, right=3cm}%
+	\setlength{\fancyfootoffset}{0cm}%
+	\section{Abaques de vapeur}
+	\vspace*{\stretch{1}}
+		\input{contenu_blurb_abaques_vapeur}
+	\vspace*{\stretch{1}}\restoregeometry
+	\clearpage\restoredefaultfootoffset
+
+	\begin{spacing}{1.06}
+	\pagestyle{empty}
+	\newgeometry{top=1cm, bottom=1cm, left=1cm, right=1cm}
+	\titleformat{\subsection}{\normalsize\center}{\thesection.}{0.5em}{}[\vspace{-0.5cm}]
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		% LEZABAK LEZABAK
+			\input{contenu_abaques_vapeur}
+		% LEZABAK LEZABAK
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\pagestyle{fancy}
+	\end{spacing}%
+	\restoregeometry%
+	%\setlength{\fancyfootoffset}{\fancyfootdefaultvalue}%
+	%\restoredefaultsectionstyle% back to default section style -- not needed, was not redefined
+
+%pression
+	\newgeometry{top=1.5cm, bottom=1.5cm, left=3cm, right=3cm}%
+	\setlength{\fancyfootoffset}{0cm}%
+	\section[Pression indiquée et pression réelle]{Distinction entre pression indiquée et pression réelle}
+	\label{ch_annexe_pression}
+
+		\input{contenu_annexe_pression}
+
+%conventions	
+	\clearpage	
+	\section{Conventions de notation}
+		
+		\input{contenu_annexe_conventions}
+
+	\clearpage\restoredefaultfootoffset%
+	\restoregeometry%
+	\restoredefaultsectionstyle% back to default section style
+

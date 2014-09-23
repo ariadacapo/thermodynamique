@@ -1,0 +1,529 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 1.7 $
+% $ biber version 0.9.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber or bibtex as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \entry{gaylussac1807}{article}{}
+    \name{labelname}{1}{}{%
+      {{hash=af587fe445a31a44f6ba63746bf836e8}{Gay-Lussac}{G\bibinithyphendelim L\bibinitperiod}{Louis\bibnamedelima Joseph}{L\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=af587fe445a31a44f6ba63746bf836e8}{Gay-Lussac}{G\bibinithyphendelim L\bibinitperiod}{Louis\bibnamedelima Joseph}{L\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {french}%
+    }
+    \list{publisher}{1}{%
+      {J.J. Bernard}%
+    }
+    \strng{namehash}{af587fe445a31a44f6ba63746bf836e8}
+    \strng{fullhash}{af587fe445a31a44f6ba63746bf836e8}
+    \field{sortinit}{1}
+    \field{journaltitle}{Mémoires de physique et de chimie de la Société d’Arcueil}
+    \field{title}{Premier essai pour déterminer les variations de température qu’éprouvent les gaz en changeant de densité, et considérations sur leur capacité pour le calorique}
+    \field{volume}{1}
+    \field{year}{1807}
+    \field{pages}{180\bibrangedash 203}
+  \endentry
+
+  \entry{carnot1824}{book}{}
+    \name{labelname}{1}{}{%
+      {{hash=844d04a3a96394192f87db97e7d1a743}{Carnot}{C\bibinitperiod}{Sadi}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=844d04a3a96394192f87db97e7d1a743}{Carnot}{C\bibinitperiod}{Sadi}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {french}%
+    }
+    \list{location}{1}{%
+      {Paris, France}%
+    }
+    \list{publisher}{1}{%
+      {Bachelier}%
+    }
+    \strng{namehash}{844d04a3a96394192f87db97e7d1a743}
+    \strng{fullhash}{844d04a3a96394192f87db97e7d1a743}
+    \field{sortinit}{1}
+    \field{title}{Réflexions sur la puissance motrice du feu et sur les machines propres à développer cette puissance}
+    \field{year}{1824}
+  \endentry
+
+  \entry{pambour1835}{book}{}
+    \name{labelname}{1}{}{%
+      {{hash=d79aad4939c1121ca8485eacf3e22272}{Pambour}{P\bibinitperiod}{François-Marie\bibnamedelima Guyonneau}{F\bibinithyphendelim M\bibinitperiod\bibinitdelim G\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=d79aad4939c1121ca8485eacf3e22272}{Pambour}{P\bibinitperiod}{François-Marie\bibnamedelima Guyonneau}{F\bibinithyphendelim M\bibinitperiod\bibinitdelim G\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+    }
+    \list{language}{1}{%
+      {french}%
+    }
+    \list{location}{1}{%
+      {Paris, France}%
+    }
+    \list{publisher}{1}{%
+      {Bachelier}%
+    }
+    \strng{namehash}{d79aad4939c1121ca8485eacf3e22272}
+    \strng{fullhash}{d79aad4939c1121ca8485eacf3e22272}
+    \field{sortinit}{1}
+    \field{edition}{1}
+    \field{title}{Traité théorique et pratique des machines locomotives}
+    \field{year}{1835}
+  \endentry
+
+  \entry{pambour1839}{book}{}
+    \name{labelname}{1}{}{%
+      {{hash=d79aad4939c1121ca8485eacf3e22272}{Pambour}{P\bibinitperiod}{François-Marie\bibnamedelima Guyonneau}{F\bibinithyphendelim M\bibinitperiod\bibinitdelim G\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=d79aad4939c1121ca8485eacf3e22272}{Pambour}{P\bibinitperiod}{François-Marie\bibnamedelima Guyonneau}{F\bibinithyphendelim M\bibinitperiod\bibinitdelim G\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+    }
+    \list{language}{1}{%
+      {french}%
+    }
+    \list{location}{1}{%
+      {Paris, France}%
+    }
+    \list{publisher}{1}{%
+      {Bachelier}%
+    }
+    \strng{namehash}{d79aad4939c1121ca8485eacf3e22272}
+    \strng{fullhash}{d79aad4939c1121ca8485eacf3e22272}
+    \field{sortinit}{1}
+    \field{edition}{1}
+    \field{title}{Théorie de la machine à vapeur}
+    \field{year}{1839}
+  \endentry
+
+  \entry{joule1845}{article}{}
+    \name{labelname}{1}{}{%
+      {{hash=73a34803607dfdf6ea923af5e1ef1413}{Joule}{J\bibinitperiod}{James\bibnamedelima Prescott}{J\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=73a34803607dfdf6ea923af5e1ef1413}{Joule}{J\bibinitperiod}{James\bibnamedelima Prescott}{J\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {english}%
+    }
+    \list{publisher}{1}{%
+      {Taylor \& Francis}%
+    }
+    \strng{namehash}{73a34803607dfdf6ea923af5e1ef1413}
+    \strng{fullhash}{73a34803607dfdf6ea923af5e1ef1413}
+    \field{sortinit}{1}
+    \field{annotation}{Reproduit en 1898 par Ames}
+    \field{journaltitle}{The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science}
+    \field{number}{174}
+    \field{title}{On the Changes of Temperature Produced by the Rarefaction and Condensation of Air}
+    \field{volume}{26}
+    \field{year}{1845}
+    \field{pages}{369\bibrangedash 383}
+  \endentry
+
+  \entry{kelvin1848}{article}{}
+    \name{labelname}{1}{}{%
+      {{hash=d16ad10768d744dcb918487f85fe6727}{Kelvin}{K\bibinitperiod}{William\bibnamedelimb Thomson\bibnamedelima Baron}{W\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=d16ad10768d744dcb918487f85fe6727}{Kelvin}{K\bibinitperiod}{William\bibnamedelimb Thomson\bibnamedelima Baron}{W\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {english}%
+    }
+    \strng{namehash}{d16ad10768d744dcb918487f85fe6727}
+    \strng{fullhash}{d16ad10768d744dcb918487f85fe6727}
+    \field{sortinit}{1}
+    \field{annotation}{Où est définie une première échelle de température absolue, abandonnée par la suite car incompatible avec l’échelle Celsius}
+    \field{journaltitle}{The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science}
+    \field{title}{On an Absolute Thermometric Scale founded on Carnot’s Theory of the Motive Power of Heat and calculated from Regnaut’s observations}
+    \field{year}{1848}
+  \endentry
+
+  \entry{clausius1850}{article}{}
+    \name{labelname}{1}{}{%
+      {{hash=589b57f365a8719268c5efb7cc869c21}{Clausius}{C\bibinitperiod}{Rudolf\bibnamedelimb Julius\bibnamedelima Emanuel}{R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=589b57f365a8719268c5efb7cc869c21}{Clausius}{C\bibinitperiod}{Rudolf\bibnamedelimb Julius\bibnamedelima Emanuel}{R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {german}%
+    }
+    \strng{namehash}{589b57f365a8719268c5efb7cc869c21}
+    \strng{fullhash}{589b57f365a8719268c5efb7cc869c21}
+    \field{sortinit}{1}
+    \field{journaltitle}{Annalen der Physik}
+    \field{title}{Über die bewegende Kraft der Wärme und die Gesetze, welche sigh daraus für die Wärmelehre selbst ableiten lassen}
+    \field{volume}{79}
+    \field{year}{1850}
+    \field{pages}{368\bibrangedash 397, 500\bibrangedash 524}
+  \endentry
+
+  \entry{clausius1850en}{article}{}
+    \name{labelname}{1}{}{%
+      {{hash=589b57f365a8719268c5efb7cc869c21}{Clausius}{C\bibinitperiod}{Rudolf\bibnamedelimb Julius\bibnamedelima Emanuel}{R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=589b57f365a8719268c5efb7cc869c21}{Clausius}{C\bibinitperiod}{Rudolf\bibnamedelimb Julius\bibnamedelima Emanuel}{R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{translator}{1}{}{%
+      {{hash=41c0bd99e524ea34ba7a5014a7791d56}{Tyndall}{T\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {english}%
+    }
+    \strng{namehash}{589b57f365a8719268c5efb7cc869c21}
+    \strng{fullhash}{589b57f365a8719268c5efb7cc869c21}
+    \field{sortinit}{1}
+    \field{journaltitle}{The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science}
+    \field{origlanguage}{german}
+    \field{origtitle}{Über die bewegende Kraft der Wärme und die Gesetze, welche sigh daraus für die Wärmelehre selbst ableiten lassen}
+    \field{series}{4}
+    \field{title}{On the Moving Force of Heat, and the Laws regarding the Nature of Heat itself which are deducible therefrom}
+    \field{volume}{2}
+    \field{year}{1851}
+    \field{pages}{1\bibrangedash 21, 102\bibrangedash 119}
+  \endentry
+
+  \entry{clausius1854}{article}{}
+    \name{labelname}{1}{}{%
+      {{hash=589b57f365a8719268c5efb7cc869c21}{Clausius}{C\bibinitperiod}{Rudolf\bibnamedelimb Julius\bibnamedelima Emanuel}{R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=589b57f365a8719268c5efb7cc869c21}{Clausius}{C\bibinitperiod}{Rudolf\bibnamedelimb Julius\bibnamedelima Emanuel}{R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {german}%
+    }
+    \strng{namehash}{589b57f365a8719268c5efb7cc869c21}
+    \strng{fullhash}{589b57f365a8719268c5efb7cc869c21}
+    \field{sortinit}{1}
+    \field{annotation}{où est introduit le terme "entropie"}
+    \field{journaltitle}{Annalen der Physik}
+    \field{number}{12}
+    \field{title}{Über eine veränderte Form des zweiten Hauptsatzes der mechanischen Wärmetheorie}
+    \field{volume}{169}
+    \field{year}{1854}
+    \field{pages}{481\bibrangedash 506}
+  \endentry
+
+  \entry{clausius1850fr}{book}{}
+    \name{labelname}{1}{}{%
+      {{hash=589b57f365a8719268c5efb7cc869c21}{Clausius}{C\bibinitperiod}{Rudolf\bibnamedelimb Julius\bibnamedelima Emanuel}{R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=589b57f365a8719268c5efb7cc869c21}{Clausius}{C\bibinitperiod}{Rudolf\bibnamedelimb Julius\bibnamedelima Emanuel}{R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{translator}{1}{}{%
+      {{hash=841be768cd254fcac5d2f8a45543c04b}{Folie}{F\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {french}%
+    }
+    \list{location}{1}{%
+      {Paris, France}%
+    }
+    \list{publisher}{1}{%
+      {Eugène Lacroix}%
+    }
+    \strng{namehash}{589b57f365a8719268c5efb7cc869c21}
+    \strng{fullhash}{589b57f365a8719268c5efb7cc869c21}
+    \field{sortinit}{1}
+    \field{origlanguage}{german}
+    \field{origtitle}{Über die bewegende Kraft der Wärme und die Gesetze, welche sigh daraus für die Wärmelehre selbst ableiten lassen}
+    \field{title}{Sur la force motrice de la chaleur et les lois qui s’en déduisent pour la théorie de la chaleur}
+    \field{year}{1868}
+  \endentry
+
+  \entry{feynman1963}{book}{}
+    \name{labelname}{3}{}{%
+      {{hash=76c376c1c6574c7dad0b40422ddcb0af}{Feynman}{F\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=578f0c0b9691bd5d440369ee39ec9301}{Leighton}{L\bibinitperiod}{Robert\bibnamedelima Benjamin}{R\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      {{hash=4f87088a881a2ce53ad4cf6dac2c63fb}{Sands}{S\bibinitperiod}{Matthew}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{3}{}{%
+      {{hash=76c376c1c6574c7dad0b40422ddcb0af}{Feynman}{F\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=578f0c0b9691bd5d440369ee39ec9301}{Leighton}{L\bibinitperiod}{Robert\bibnamedelima Benjamin}{R\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      {{hash=4f87088a881a2ce53ad4cf6dac2c63fb}{Sands}{S\bibinitperiod}{Matthew}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {english}%
+    }
+    \list{location}{1}{%
+      {Reading, Mass., USA}%
+    }
+    \list{publisher}{1}{%
+      {Addison-Wesley Pub. Co}%
+    }
+    \strng{namehash}{b7f528e75b636d81a778ff345e9150b2}
+    \strng{fullhash}{b7f528e75b636d81a778ff345e9150b2}
+    \field{sortinit}{1}
+    \field{isbn}{0201020106}
+    \field{title}{The Feynman Lectures on Physics}
+    \field{volumes}{3}
+    \field{year}{1963}
+    \verb{url}
+    \verb http://feynmanlectures.caltech.edu/
+    \endverb
+  \endentry
+
+  \entry{1dc89daa06c9a105ff670f4181e38f3b}{book}{dataonly}
+    \name{labelname}{3}{}{%
+      {{hash=76c376c1c6574c7dad0b40422ddcb0af}{Feynman}{F\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=578f0c0b9691bd5d440369ee39ec9301}{Leighton}{L\bibinitperiod}{Robert\bibnamedelima Benjamin}{R\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      {{hash=4f87088a881a2ce53ad4cf6dac2c63fb}{Sands}{S\bibinitperiod}{Matthew}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{3}{}{%
+      {{hash=76c376c1c6574c7dad0b40422ddcb0af}{Feynman}{F\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=578f0c0b9691bd5d440369ee39ec9301}{Leighton}{L\bibinitperiod}{Robert\bibnamedelima Benjamin}{R\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      {{hash=4f87088a881a2ce53ad4cf6dac2c63fb}{Sands}{S\bibinitperiod}{Matthew}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {english}%
+    }
+    \list{location}{1}{%
+      {Reading, Mass., USA}%
+    }
+    \list{publisher}{1}{%
+      {Addison-Wesley Pub. Co}%
+    }
+    \strng{namehash}{b7f528e75b636d81a778ff345e9150b2}
+    \strng{fullhash}{b7f528e75b636d81a778ff345e9150b2}
+    \field{sortinit}{1}
+    \field{isbn}{0201020106}
+    \field{title}{The Feynman Lectures on Physics}
+    \field{volumes}{3}
+    \field{year}{1963}
+    \verb{url}
+    \verb http://feynmanlectures.caltech.edu/
+    \endverb
+  \endentry
+
+  \entry{feynman1963fr}{book}{}
+    \name{labelname}{3}{}{%
+      {{hash=76c376c1c6574c7dad0b40422ddcb0af}{Feynman}{F\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=578f0c0b9691bd5d440369ee39ec9301}{Leighton}{L\bibinitperiod}{Robert\bibnamedelima Benjamin}{R\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      {{hash=4f87088a881a2ce53ad4cf6dac2c63fb}{Sands}{S\bibinitperiod}{Matthew}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{3}{}{%
+      {{hash=76c376c1c6574c7dad0b40422ddcb0af}{Feynman}{F\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=578f0c0b9691bd5d440369ee39ec9301}{Leighton}{L\bibinitperiod}{Robert\bibnamedelima Benjamin}{R\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      {{hash=4f87088a881a2ce53ad4cf6dac2c63fb}{Sands}{S\bibinitperiod}{Matthew}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \name{translator}{1}{}{%
+      {{hash=340ee67bb4c7448523167c227a6f10bc}{Delacote}{D\bibinitperiod}{Goéry}{G\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {french}%
+    }
+    \list{location}{1}{%
+      {Paris, France}%
+    }
+    \list{publisher}{1}{%
+      {InterEditions}%
+    }
+    \strng{namehash}{b7f528e75b636d81a778ff345e9150b2}
+    \strng{fullhash}{b7f528e75b636d81a778ff345e9150b2}
+    \field{sortinit}{1}
+    \field{isbn}{2729600272}
+    \field{origlanguage}{english}
+    \field{origtitle}{The Feynman Lectures on Physics}
+    \field{related}{1dc89daa06c9a105ff670f4181e38f3b}
+    \field{relatedtype}{translation}
+    \field{title}{Le cours de physique de Feynman}
+    \field{volumes}{3}
+    \field{year}{1979}
+  \endentry
+
+  \entry{rogersetal1992}{book}{}
+    \name{labelname}{2}{}{%
+      {{hash=fbef8a08278a242e3ce867c6c551ffef}{Rogers}{R\bibinitperiod}{Gordon\bibnamedelimb Frederick\bibnamedelima Crichton}{G\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      {{hash=4d40271cde86c96789d04960e73fc582}{Mayhew}{M\bibinitperiod}{Yon\bibnamedelima Richard}{Y\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{hash=fbef8a08278a242e3ce867c6c551ffef}{Rogers}{R\bibinitperiod}{Gordon\bibnamedelimb Frederick\bibnamedelima Crichton}{G\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      {{hash=4d40271cde86c96789d04960e73fc582}{Mayhew}{M\bibinitperiod}{Yon\bibnamedelima Richard}{Y\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {english}%
+    }
+    \list{location}{1}{%
+      {Harlow, UK \& New York, USA}%
+    }
+    \list{publisher}{1}{%
+      {Longman Scientific \& Technical Wiley}%
+    }
+    \strng{namehash}{f50e0944f84824a1a3a4120111737519}
+    \strng{fullhash}{f50e0944f84824a1a3a4120111737519}
+    \field{sortinit}{1}
+    \field{edition}{4}
+    \field{isbn}{0582045665}
+    \field{subtitle}{Work and Heat Transfer}
+    \field{title}{Engineering Thermodynamics}
+    \field{year}{1992}
+  \endentry
+
+  \entry{eastopetal1993}{book}{}
+    \name{labelname}{2}{}{%
+      {{hash=474d124ee759d6d60cb8089b225f8c49}{Eastop}{E\bibinitperiod}{Thomas\bibnamedelima D.}{T\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      {{hash=45c9aed6d439a09adb1e58512e65c365}{McConkey}{M\bibinitperiod}{Allan}{A\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{hash=474d124ee759d6d60cb8089b225f8c49}{Eastop}{E\bibinitperiod}{Thomas\bibnamedelima D.}{T\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      {{hash=45c9aed6d439a09adb1e58512e65c365}{McConkey}{M\bibinitperiod}{Allan}{A\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {english}%
+    }
+    \list{location}{1}{%
+      {Essex, UK}%
+    }
+    \list{publisher}{1}{%
+      {Prentice Hall}%
+    }
+    \strng{namehash}{a5a175017f5b1e9d5fb9e796470a03db}
+    \strng{fullhash}{a5a175017f5b1e9d5fb9e796470a03db}
+    \field{sortinit}{1}
+    \field{edition}{5}
+    \field{isbn}{0582091934}
+    \field{title}{Applied Thermodynamics for Engineering Technologists}
+    \field{year}{1993}
+  \endentry
+
+  \entry{depondt2001}{book}{}
+    \name{labelname}{1}{}{%
+      {{hash=5bcd6471f194c1360ab292ed9469a7de}{Depondt}{D\bibinitperiod}{Philippe}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=5bcd6471f194c1360ab292ed9469a7de}{Depondt}{D\bibinitperiod}{Philippe}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {french}%
+    }
+    \list{location}{1}{%
+      {Paris, France}%
+    }
+    \list{publisher}{1}{%
+      {Cassini}%
+    }
+    \strng{namehash}{5bcd6471f194c1360ab292ed9469a7de}
+    \strng{fullhash}{5bcd6471f194c1360ab292ed9469a7de}
+    \field{sortinit}{2}
+    \field{isbn}{2842250443}
+    \field{subtitle}{Le roman de la thermodynamique}
+    \field{title}{L’Entropie et tout ça}
+    \field{year}{2001}
+  \endentry
+
+  \entry{watzky2007}{book}{}
+    \name{labelname}{1}{}{%
+      {{hash=f6c505df66606ec4af9eb219571686fc}{Watzky}{W\bibinitperiod}{Alexandre}{A\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=f6c505df66606ec4af9eb219571686fc}{Watzky}{W\bibinitperiod}{Alexandre}{A\bibinitperiod}{}{}{}{}}%
+    }
+    \name{foreword}{1}{}{%
+      {{hash=d6e55b1ff1b22ac136721683509ad354}{Coirier}{C\bibinitperiod}{Jean}{J\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {french}%
+    }
+    \list{location}{2}{%
+      {Bruxelles, Belgique}%
+      {Paris, France}%
+    }
+    \list{publisher}{1}{%
+      {De Boeck}%
+    }
+    \strng{namehash}{f6c505df66606ec4af9eb219571686fc}
+    \strng{fullhash}{f6c505df66606ec4af9eb219571686fc}
+    \field{sortinit}{2}
+    \field{isbn}{9782804152383}
+    \field{subtitle}{À l'usage des étudiants en sciences de l'ingénieur}
+    \field{title}{Thermodynamique macroscopique}
+    \field{year}{2007}
+  \endentry
+
+  \entry{cengeletal2008en}{book}{}
+    \name{labelname}{2}{}{%
+      {{hash=c92cec56179265c61adfa033855513c1}{Çengel}{Ç\bibinitperiod}{Yunus\bibnamedelima A.}{Y\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      {{hash=0843769a5b3a06b688dc808f5e79db20}{Boles}{B\bibinitperiod}{Michael\bibnamedelima A.}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{hash=c92cec56179265c61adfa033855513c1}{Çengel}{Ç\bibinitperiod}{Yunus\bibnamedelima A.}{Y\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      {{hash=0843769a5b3a06b688dc808f5e79db20}{Boles}{B\bibinitperiod}{Michael\bibnamedelima A.}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {english}%
+    }
+    \list{location}{1}{%
+      {New York, USA}%
+    }
+    \list{publisher}{1}{%
+      {McGraw-Hill}%
+    }
+    \strng{namehash}{0de24aefe2846e2442ea60fad4f19149}
+    \strng{fullhash}{0de24aefe2846e2442ea60fad4f19149}
+    \field{sortinit}{2}
+    \field{edition}{6}
+    \field{isbn}{0073305375}
+    \field{subtitle}{An Engineering Approach}
+    \field{title}{Thermodynamics}
+    \field{year}{2008}
+  \endentry
+
+  \entry{cengeletal2008fr}{book}{}
+    \name{labelname}{2}{}{%
+      {{hash=c92cec56179265c61adfa033855513c1}{Çengel}{Ç\bibinitperiod}{Yunus\bibnamedelima A.}{Y\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      {{hash=0843769a5b3a06b688dc808f5e79db20}{Boles}{B\bibinitperiod}{Michael\bibnamedelima A.}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{hash=c92cec56179265c61adfa033855513c1}{Çengel}{Ç\bibinitperiod}{Yunus\bibnamedelima A.}{Y\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      {{hash=0843769a5b3a06b688dc808f5e79db20}{Boles}{B\bibinitperiod}{Michael\bibnamedelima A.}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+    }
+    \name{translator}{1}{}{%
+      {{hash=4a9eef2f0d7f4084b68527e63e99b687}{Lacroix}{L\bibinitperiod}{Marcel}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {french}%
+    }
+    \list{location}{1}{%
+      {Montréal, Québec \& Bruxelles, Belgique}%
+    }
+    \list{publisher}{2}{%
+      {Chenelière McGraw-Hill}%
+      {De Boeck}%
+    }
+    \strng{namehash}{0de24aefe2846e2442ea60fad4f19149}
+    \strng{fullhash}{0de24aefe2846e2442ea60fad4f19149}
+    \field{sortinit}{2}
+    \field{annotation}{Traduction de la 6\ieme édition de \textit{Thermodynamics}}
+    \field{isbn}{9782765105114}
+    \field{origlanguage}{english}
+    \field{origtitle}{Thermodynamics}
+    \field{subtitle}{Une approche pragmatique}
+    \field{title}{Thermodynamique}
+    \field{year}{2008}
+  \endentry
+
+\endrefsection
+\endinput
+

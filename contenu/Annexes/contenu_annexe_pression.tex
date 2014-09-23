@@ -1,0 +1,21 @@
+		
+		La pression indiquée sur un baromètre n’est pas toujours la pression réelle du fluide.
+		
+		En effet, on mesure souvent la pression à l’aide de manomètres qui sont calibrés sur la pression atmosphérique. Par exemple, lorsque l’on regonfle un pneu en station-service, le manomètre indique \SI{0}{\bar} à pression ambiante --\ toutes les pressions qu’il indiquera seront décalées de la valeur de la pression atmosphérique. Nous nommons cette valeur indiquée la \textbf{\vocab{pression jaugée}}.
+
+		La pression jaugée se définit comme :
+		\begin{equation*}
+		p_{\text{j}} \equiv  p_{\text{réelle}} - p_{\text{atm.}}
+		\end{equation*}
+		
+		\begin{equationterms}
+			\item où \tab $p_{\text{j}}$ 		\tab\tab\tab\tab est la pression jaugée, indiquée au cadran (\si{\pascal}),
+			\item \tab $p_{\text{réelle}}$ 	\tab est la pression réelle au sein du réservoir où nous mesurons la pression (\si{\pascal}),
+			\item et \tab $p_{\text{atm.}}$ 	\tab\tab est la pression atmosphérique ambiante (\si{\pascal}).
+		\end{equationterms}
+
+		Un manomètre jaugé indique donc \SI{0}{\bar} quelle que soit la pression ambiante, s’il est laissé à l’air libre. La pression indiquée lors d’une mesure dépendra de la pression atmosphérique ambiante ; elle peut être positive (pneu) ou parfois négative (conduit d’eau ou de pétrole).
+		
+		La pression jaugée est intéressante parce qu’elle indique \emph{la différence} de pression entre chacun des côtés des parois du réservoir (pneu, canalisation) ; elle révèle donc les contraintes qu’elles subissent. La pression réelle de l’air à l’intérieur du pneu n’a pas d’intérêt en tant que telle pour l’automobiliste.
+
+		En revanche, c’est la pression réelle dont nous avons besoin pour prédire l’état des fluides. Nous utilisons donc \textbf{toujours la pression réelle} dans nos calculs.

@@ -1,0 +1,39 @@
+\appendix
+\chapter*{Annexes}\thispagestyle{empty}
+\addcontentsline{toc}{chapter}{Annexes}
+\clearpage
+
+	\section{Abaques de vapeur}\thispagestyle{empty}
+	\titleformat{\subsection}{\normalsize\center}{\thesection.}{0.5em}{}[\vspace{-0.5cm}]
+
+	\vspace*{\stretch{1}}
+		\input{contenu_blurb_abaques_vapeur}
+	\vspace*{\stretch{1}}\restoregeometry
+	\clearpage\restoredefaultheadoffset
+
+	\begin{spacing}{1.06}
+	\pagestyle{empty}\fancyhead{}\fancyhf{}\renewcommand{\headrulewidth}{0pt}\renewcommand{\footrulewidth}{0pt} % fuck, what one has to do to get rid of a header…	
+	\newgeometry{top=1cm, bottom=1cm, left=1cm, right=1cm}
+	
+	\titleformat{\subsection}{\normalsize\center}{\thesection.}{0.5em}{}[\vspace{-0.5cm}]
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		% LEZABAK LEZABAK
+			%\input{contenu_abaques_vapeur}
+		% LEZABAK LEZABAK
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\pagestyle{fancy}
+	\end{spacing}%
+	\restoregeometry%
+
+\widecenteredpagegeometry
+	\section[Pression indiquée et pression réelle]{Distinction entre pression indiquée et pression réelle}
+	\label{ch_annexe_pression}
+
+		\input{contenu_annexe_pression}
+	
+	\clearpage	
+	\section{Conventions de notation}
+		
+		\input{contenu_annexe_conventions}		
+
+
