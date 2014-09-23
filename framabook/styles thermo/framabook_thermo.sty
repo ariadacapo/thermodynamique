@@ -78,22 +78,15 @@
 	\renewcommand{\mtcgapbeforeheads}{200pt}
 
 % Shortcut to insert minitoc in main .tex file
-\newcommand{\uneminitoc}{%
-	\clearpage
-	\renewcommand{\baselinestretch}{1.2}%
-	\small\minitoc%
-	\renewcommand{\baselinestretch}{1.0}% back to original value
-}
+\newcommand{\uneminitoc}{} % nothing, minitoc are not used anymore in Framabook
 
 \newcommand{\unresumedechapitre}[1]{%
 	\vspace{\stretch{1}}
 	\begin{center}
-		\begin{minipage}{0.875\textwidth}
 		\footnotesize \rule{25ex}{1ex}\hspace{\stretch{1}} \textsc{Le chapitre \thechapter \ en bref}\hspace{\stretch{1}}\rule{25ex}{1ex}
 		\vspace{1em}\hrule\vspace{1em}
 				#1
 		\vspace{1em}\hrule
-		\end{minipage}
 	\end{center}
 	\vspace{\stretch{1}}
 }
