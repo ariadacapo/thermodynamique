@@ -19,9 +19,7 @@
 % Méta
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%
-
-\mainmatter % au début pour n’avoir qu’un seul numérotage de pages
+\frontmatter
 
 
 % Blabla disclaimer temporaire
@@ -48,19 +46,17 @@
 
 % Objectifs
 	\input{annexes/frame_objectifs.tex}
-	
+
+% Intro
+	\input{annexes/frame_introduction.tex}
+
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Allez hop!
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%
-
-% Intro
-	\input{annexes/frame_introduction.tex}
-
 \setcounter{mtc}{0} % Pour que minitoc se démêle les pieds parmi ses 140 fichiers temporaires
-
+\mainmatter % début de la numérotation "normale"
 
 %%%%%%%%% 1
 
@@ -88,7 +84,7 @@
 	\atstartofexercices
 		\input{1/contenuexercices1.tex}
 	\atendofexercices
-	
+
 
 %%%%%%%%% 2
 
@@ -332,7 +328,7 @@
 % Annexes
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-
+\backmatter
 
 \input{annexes/frame_annexes.tex}
 	% qui elle-même appelle:
@@ -346,6 +342,5 @@
 
 \input{annexes/contenu_epitaphe.tex}
 
-%\backmatter
 
 \end{document}
