@@ -1,7 +1,9 @@
 \appendix
 \chapter*{Annexes}
+\thispagestyle{empty}
 \addcontentsline{toc}{chapter}{Annexes}
 \renewcommand{\chaptermark}{Annexes}
+\renewcommand\thesection{A\arabic{section}}
 
 	\clearpage
 	\section{Abaques de vapeur}
@@ -15,10 +17,11 @@
 	\titleformat{\subsection}{\normalsize\center}{\thesection.}{0.5em}{}[\vspace{-0.5cm}]
 		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 		% LEZABAK LEZABAK
+			\input{contenu_fake_abaques}
 			%\input{contenu_abaques_vapeur}
 		% LEZABAK LEZABAK
 		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\pagestyle{fancy}
+	\clearpage\pagestyle{fancy}
 	\end{spacing}%
 	\restoregeometry%
 
