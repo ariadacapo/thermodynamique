@@ -117,7 +117,7 @@
 \newcommand{\restoredefaultheadoffset}{\fancyheadoffset[LE,RO]{\fancyheaddefaultvalue}}
 \restoredefaultheadoffset % initializing value
 
-% Redefine mainmatter (!) to get rid of useless repetitions in header
+% Redefine mainmatter and backmatter (!!!!!!) to get rid of useless repetitions in header
 \renewcommand\mainmatter{%
   \cleardoublepage
   \@mainmattertrue
@@ -130,6 +130,19 @@
   \fancyhead[LO]{}
   \fancyhead[RE]{\entetefont Chapitre \thechapter~:~\leftmark}
  }
+
+\renewcommand\backmatter{%
+  \cleardoublepage
+  \@mainmatterfalse
+  \@frontmatterfalse
+  \fancyfoot{}
+  \fancyhead[LE]{\entetefont \thepage}
+  \fancyhead[RO]{\entetefont \thepage}
+  \fancyhead[LO]{}
+  \fancyhead[RE]{\entetefont \chaptermark}
+ % \renewcommand{\toclevel@chapter}{-1}% pour avoir le bookmark au même niveau que part
+}
+
 
 % Redefine plain fancyhdr style to get rid of page number in chapter page (who is going to find it there anyway??)
 \fancypagestyle{plain}{%
