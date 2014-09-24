@@ -38,7 +38,7 @@
 \usepackage[export]{adjustbox}	% Allow use of "max width" argument in \includegraphics
 											%'export' allows adjustbox keys in \includegraphics
 \let\oldincludegraphics\includegraphics % Make sure \includegraphics never exceeds text width line
-\renewcommand{\includegraphics}[2][]{\oldincludegraphics[#1,max width=\textwidth]{#2}}
+\renewcommand{\includegraphics}[2][]{\oldincludegraphics[#1,max width=\columnwidth]{#2}}
 
 
 %%%% Tables %%%%
@@ -233,9 +233,9 @@
 % Custom equation numbering
 \renewcommand{\theequation}{\thechapter/\arabic{equation}}
 
-\titleformat{\subsubsection}{\vspace{1em}\pagebreak[3]\normalsize}{\thesubsubsection\nopagebreak}{1em}{}[] %encourage pagebreak with [1] before subsub, prevent it immediately afterwards. \wherefrom also prevents pagebreaks
+\titleformat{\subsubsection}{\vspace{1em}\pagebreak[3]\titlerule\vspace{0.08em}\normalsize}{\thesubsubsection\nopagebreak}{1em}{}[] %encourage pagebreak with [1] before subsub, prevent it immediately afterwards. \wherefrom also prevents pagebreaks
 \renewcommand\thesubsubsection{E\thechapter.\arabic{subsubsection}} % cheat for renumbering, pretend it’s a subsection
-\setlength{\subsubsectiontitleindent}{-0.8cm} % remove indent
+\setlength{\subsubsectiontitleindent}{0cm} % remove indent
 \newcommand\subsectionbreak{\clearfloats}	% clear floats before each subsection
 \newcommand\subsubsectionbreak{\clearfloats}	% clear floats before each subsubsection (exercise)
 
@@ -247,14 +247,13 @@
 % Style changes inside the book
 %%%%%%%%%%%%%%%%%
 
-\newcommand{\exercisepagegeometry}{}
-\newcommand{\solutionpagegeometry}{}
+\newcommand{\exercisepagegeometry}{\newgeometry{twocolumn, columnsep=2.5em, top=1cm, bottom=1cm, includeall, marginparwidth=0pt, marginparsep=0pt, inner=2.5cm, outer=1.5cm}}
+\newcommand{\solutionpagegeometry}{\newgeometry{top=3cm,bottom=1cm,includeall,marginparwidth=0pt,marginparsep=0pt,inner=2.5cm,outer=1.5cm}}
 \newcommand{\widecenteredpagegeometry}{}
 \newcommand{\narrowcenteredpagegeometry}{\newgeometry{inner=5cm,outer=5cm,top=2cm,bottom=2cm,ignoreall,marginparwidth=0pt, marginparsep=0pt}}
 \newcommand{\twocolumnpagegeometry}{\newgeometry{twocolumn, columnsep=2.5em, top=1cm, bottom=1cm, includeall, marginparwidth=0pt, marginparsep=0pt, inner=2.5cm, outer=2.5cm}}
 
 \newcommand{\atstartofexercices}{%
-	\clearpage
 	\centeredsectionstyle
 	\exercisepagegeometry%
 	\fancyheadoffset[LE,RO]{0cm}%
