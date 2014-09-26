@@ -322,7 +322,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 
 		\begin{figure}
 			\begin{center}
-			\includegraphics[width=\textwidth]{images/pv_transfert_chaleur.png}
+			\includegraphics[width=9cm]{images/pv_transfert_chaleur.png}
 			\end{center}
 			\caption{Comportement d’un fluide lorsqu’on le comprime infiniment lentement.
 Plus on lui apporte de chaleur pendant la compression, et plus la pression augmente fort. La courbe adiabatique représente le cas où aucun apport ni perte de chaleur n’a lieu ($Q = 0$).}
@@ -393,12 +393,12 @@ Plus on lui apporte de chaleur pendant la compression, et plus la pression augme
 
 		\thermoquotebegin{O}
 			Nous avons dit qu’à l’origine du mouvement l’équilibre de pression s’établit entre la chaudière et le cylindre, mais à mesure que la vitesse du piston s’accroît, celui-ci fuit en quelque sorte devant la vapeur sans lui donner le temps d’établir cet équilibre, et la pression dans le cylindre baisse \mbox{nécessairement}.
-		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1835}{\textit{Traité théorique et pratique des machines locomotives}~\cite{pambour1835}}
+		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1835}{\textit{Traité théorique et pratique des machines locomotives}~\cite{pambour1835}\vspace{3em}} %FIXME : vspace ajouté à la main
 		Les choses se compliquent lorsque nous comprimons et détendons notre fluide de façon rapide (\cref{fig_molécules_rapide}). Il se produit alors un phénomène complexe et d’importance critique en thermodynamique : \textbf{la pression sur la paroi est différente de la «~pression moyenne~» à l’intérieur du fluide}.
 
 		\begin{figure}
 			\begin{center}
-			\includegraphics[width=10cm]{images/particules_compression_rapide.png}
+			\includegraphics[width=9cm]{images/particules_compression_rapide.png}
 			\end{center}
 			\caption{Compression et détente irréversibles. Lorsqu’on comprime un fluide de façon brutale (gauche), la pression sur la paroi du piston est augmentée. Lors d’une détente brutale (droite) cette pression est diminuée.}
 			\label{fig_molécules_rapide}
@@ -406,7 +406,7 @@ Plus on lui apporte de chaleur pendant la compression, et plus la pression augme
 
 		Pour décrire ce qui se passe à l’intérieur du fluide, nous pouvons prendre l’exemple de l’eau d’une baignoire que l’on pousse avec les mains --\ comme la paroi mobile dans le réservoir représenté en \cref{fig_baignoire}. Lorsque le piston est éloigné et rapproché brutalement, la pression sur ses parois n’est pas la même que lorsqu’il est déplacé lentement.
 
-		\begin{figure}
+		\begin{figure}[htb!]%handmade: Là il faut poser les figures avant de continuer, sinon ça devient trop dur à suivre.
 			\begin{center}
 				\includegraphics[width=\textwidth]{images/mouvement_rapide_niveau_eau.png}
 			\end{center}
@@ -414,8 +414,6 @@ Plus on lui apporte de chaleur pendant la compression, et plus la pression augme
 			\label{fig_baignoire}
 		\end{figure}
 		
-		\clearfloats % Là il faut poser les figures avant de continuer, sinon ça devient trop dur à suivre.
-
 		Dans chacun des cas, la quantité de travail consommé à la compression est plus grande, et la quantité de travail fourni à la détente est plus petite.
 		
 		Nous nommons ce phénomène l’\vocab{irréversibilité}. Elle nous sera d’un grand embarras dans notre étude quantitative de la thermodynamique, et elle rendra encore plus ardues nos conversions de travail et chaleur.
@@ -440,7 +438,7 @@ Plus on lui apporte de chaleur pendant la compression, et plus la pression augme
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=\textwidth]{images/pv_compression_irreversible.png}
+				\includegraphics[width=9cm]{images/pv_compression_irreversible.png}
 			\end{center}
 			\supercaption{Compression irréversible adiabatique sur un diagramme pression-volume.\\
 				Nous représentons l’évolution du gaz en pointillés : il ne s’agit pas d’une série d’états continue car la pression du fluide n’est pas homogène pendant le trajet.\\
@@ -453,7 +451,7 @@ Plus on lui apporte de chaleur pendant la compression, et plus la pression augme
 
 		\begin{figure}
 			\begin{center}
-			\includegraphics[width=\textwidth]{images/pv_detente_irreversible.png}
+			\includegraphics[width=9cm]{images/pv_detente_irreversible.png}
 			\end{center}
 			\supercaption{Détente irréversible adiabatique sur un diagramme pression-volume.\\ Le travail reçu par le piston est plus faible qu’il ne l’aurait été avec un mouvement lent. Le trajet suivi par le fluide est représenté en pointillés (la pression n’étant pas homogène pendant le mouvement).}{}
 			\label{fig_p-v_détente_irr}
