@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  23 SEP 2014 10:51
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  26 SEP 2014 20:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2544,6 +2544,9 @@ LaTeX Info: Redefining \addtolength on input line 77.
 )
 Package: xstring 2010/03/28  v1.5d  String manipulations (C Tellechea)
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3c reserve vertical space
+)
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box64
@@ -2696,16 +2699,16 @@ File: french.mld 2006/03/21
 
 
 Package hyperref Warning: Option `pdftex' has already been used,
-(hyperref)                setting the option has no effect on input line 354.
+(hyperref)                setting the option has no effect on input line 368.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 354.
+Package hyperref Info: Option `colorlinks' set `true' on input line 368.
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 354.
+(hyperref)                setting the option has no effect on input line 368.
 
-Package hyperref Info: Option `unicode' set `false' on input line 354.
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 354.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 354.
+Package hyperref Info: Option `unicode' set `false' on input line 368.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 368.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 368.
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/hypcap.sty
 Package: hypcap 2011/02/16 v1.11 Adjusting the anchors of captions (HO)
 ) (./a/steer.tex)
@@ -2979,28 +2982,28 @@ File: MinionPro-FontDef.sty 2007/02/01 v2.2 font definition macros
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
-* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
+* modes: includehead includefoot includemp twoside 
+* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
+* v-part:(T,H,B)=(28.45274pt, 788.14136pt, 28.45274pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=426.79135pt
-* \textheight=759.6886pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
-* \topmargin=-29.59087pt
+* \textwidth=512.14963pt
+* \textheight=773.915pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-43.81725pt
 * \headheight=0.0pt
 * \headsep=0.0pt
 * \topskip=12.0pt
 * \footskip=14.22636pt
-* \marginparwidth=125.19194pt
-* \marginparsep=11.38092pt
-* \columnsep=10.0pt
+* \marginparwidth=0.0pt
+* \marginparsep=0.0pt
+* \columnsep=30.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
-* \@twocolumnfalse
+* \@twocolumntrue
 * \@twosidetrue
 * \@mparswitchtrue
 * \@reversemarginfalse
@@ -3008,7 +3011,55 @@ File: MinionPro-FontDef.sty 2007/02/01 v2.2 font definition macros
 
  (./10/contenuexercices10.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
- [322
+
+Overfull \hbox (2.67278pt too wide) in paragraph at lines 10--11
+\T1/MinionPro-LF/m/n/10 (-20) simple flux mo-no-tur-bine sur un dia-gramme pres
+sion-volume
+ []
+
+
+Overfull \hbox (34.56885pt too wide) in paragraph at lines 30--31
+[]\T1/MinionPro-LF/m/n/10 (-20) Quelle est la puis-sance mé-ca-nique dé-ve-lop-
+pée par l'installation? 
+ []
+
+<images/circuit_turboprop.png, id=15, 539.616pt x 240.9pt>
+File: images/circuit_turboprop.png Graphic file (type png)
+
+<use images/circuit_turboprop.png>
+Package pdftex.def Info: images/circuit_turboprop.png used on input line 53.
+(pdftex.def)             Requested size: 312.9803pt x 139.72575pt.
+LaTeX Font Info:    Font shape `T1/MinionPro-LF/m/sl' in size <8> not available
+
+(Font)              Font shape `T1/MinionPro-LF/m/it' tried instead on input li
+ne 55.
+LaTeX Font Info:    Font shape `T1/MinionPro-LF/m/scsl' in size <8> not availab
+le
+(Font)              Font shape `T1/MinionPro-LF/m/scit' tried instead on input 
+line 55.
+LaTeX Font Info:    Font shape `T1/MinionPro-LF/m/sl' in size <12> not availabl
+e
+(Font)              Font shape `T1/MinionPro-LF/m/it' tried instead on input li
+ne 55.
+
+Overfull \hbox (18.78998pt too wide) in paragraph at lines 59--60
+[]\T1/MinionPro-LF/m/n/10 (-20) Pendant la croi-sière, le dé-bit d'air au sein 
+du mo-teur est de [][][],
+ []
+
+
+Overfull \hbox (4.70198pt too wide) in paragraph at lines 67--68
+\T1/MinionPro-LF/m/n/10 (-20) axe aux frot-te-ments né-gli-geables), et l'hélic
+e (par l'intermédiaire
+ []
+
+
+Overfull \hbox (17.44444pt too wide) in paragraph at lines 72--73
+[]\T1/MinionPro-LF/m/n/10 (-20) Tracez le cycle suivi par l'air sur un dia-gram
+me température-
+ []
+
+[296
 
 
 
@@ -3040,105 +3091,141 @@ nation with the same identifier (name{equation.10.6.16}) has been already used,
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.37 
-     ] <images/circuit_turboprop.png, id=43, 539.616pt x 240.9pt>
-File: images/circuit_turboprop.png Graphic file (type png)
-
-<use images/circuit_turboprop.png>
-Package pdftex.def Info: images/circuit_turboprop.png used on input line 53.
-(pdftex.def)             Requested size: 312.9803pt x 139.72575pt.
-LaTeX Font Info:    Font shape `T1/MinionPro-LF/m/sl' in size <8> not available
-
-(Font)              Font shape `T1/MinionPro-LF/m/it' tried instead on input li
-ne 55.
-LaTeX Font Info:    Font shape `T1/MinionPro-LF/m/scsl' in size <8> not availab
-le
-(Font)              Font shape `T1/MinionPro-LF/m/scit' tried instead on input 
-line 55.
-LaTeX Font Info:    Font shape `T1/MinionPro-LF/m/sl' in size <12> not availabl
-e
-(Font)              Font shape `T1/MinionPro-LF/m/it' tried instead on input li
-ne 55.
-
-<images/photo_pwc_pw123.jpg, id=47, 1606.0pt x 638.385pt>
+l.83 	\end{enumerate}
+                      <./10/images/circuit_turboprop.png>]
+<images/photo_pwc_pw123.jpg, id=62, 1606.0pt x 638.385pt>
 File: images/photo_pwc_pw123.jpg Graphic file (type jpg)
 
 <use images/photo_pwc_pw123.jpg>
 Package pdftex.def Info: images/photo_pwc_pw123.jpg used on input line 87.
-(pdftex.def)             Requested size: 263.04263pt x 104.56178pt.
+(pdftex.def)             Requested size: 315.65605pt x 125.47415pt.
 
-<images/photo_dash8.jpg, id=48, 1284.8pt x 856.19875pt>
+<images/photo_dash8.jpg, id=63, 1284.8pt x 856.19875pt>
 File: images/photo_dash8.jpg Graphic file (type jpg)
 
 <use images/photo_dash8.jpg>
 Package pdftex.def Info: images/photo_dash8.jpg used on input line 88.
-(pdftex.def)             Requested size: 156.89436pt x 104.56178pt.
- [323 <./10/images/circuit_turboprop.png>]
-<images/photo_pw_j52_1.jpg, id=79, 790.152pt x 355.3275pt>
+(pdftex.def)             Requested size: 188.28108pt x 125.47415pt.
+
+Overfull \hbox (6.59398pt too wide) in paragraph at lines 108--109
+\T1/MinionPro-LF/m/n/10 (-20) cycle ther-mo-dy-na-mique suivi par l'air sur un 
+dia-gramme
+ []
+
+<images/photo_pw_j52_1.jpg, id=72, 790.152pt x 355.3275pt>
 File: images/photo_pw_j52_1.jpg Graphic file (type jpg)
 
 <use images/photo_pw_j52_1.jpg>
 Package pdftex.def Info: images/photo_pw_j52_1.jpg used on input line 123.
-(pdftex.def)             Requested size: 256.2538pt x 115.23547pt.
+(pdftex.def)             Requested size: 307.50697pt x 138.28258pt.
 
-<images/photo_pw_j52_2.jpg, id=80, 1398.22375pt x 1017.8025pt>
+<images/photo_pw_j52_2.jpg, id=73, 1398.22375pt x 1017.8025pt>
 File: images/photo_pw_j52_2.jpg Graphic file (type jpg)
 
 <use images/photo_pw_j52_2.jpg>
 Package pdftex.def Info: images/photo_pw_j52_2.jpg used on input line 124.
-(pdftex.def)             Requested size: 158.30681pt x 115.23547pt.
- [324 <./10/images/photo_pwc_pw123.jpg> <./10/images/photo_dash8.jpg>]
-<images/photo_continental_io-550.jpg, id=103, 411.136pt x 255.354pt>
+(pdftex.def)             Requested size: 189.96817pt x 138.28258pt.
+ [297 <./10/images/photo_pwc_pw123.jpg> <./10/images/photo_dash8.jpg> <./10/ima
+ges/photo_pw_j52_1.jpg> <./10/images/photo_pw_j52_2.jpg>] <images/photo_contine
+ntal_io-550.jpg, id=96, 411.136pt x 255.354pt>
 File: images/photo_continental_io-550.jpg Graphic file (type jpg)
 
 <use images/photo_continental_io-550.jpg>
 Package pdftex.def Info: images/photo_continental_io-550.jpg used on input line
  148.
-(pdftex.def)             Requested size: 216.46442pt x 134.4403pt.
+(pdftex.def)             Requested size: 259.75731pt x 161.32837pt.
 
-<images/photo_sr22.jpg, id=104, 1284.8pt x 854.19125pt>
+<images/photo_sr22.jpg, id=97, 1284.8pt x 854.19125pt>
 File: images/photo_sr22.jpg Graphic file (type jpg)
 
 <use images/photo_sr22.jpg>
 Package pdftex.def Info: images/photo_sr22.jpg used on input line 149.
-(pdftex.def)             Requested size: 202.20023pt x 134.4403pt.
- [325 <./10/images/photo_pw_j52_1.jpg> <./10/images/photo_pw_j52_2.jpg> <./10/i
-mages/photo_continental_io-550.jpg> <./10/images/photo_sr22.jpg>] <images/photo
-_diesel_generateur.jpg, id=129, 803.0pt x 602.25pt>
+(pdftex.def)             Requested size: 242.6442pt x 161.32837pt.
+
+Overfull \hbox (1.73969pt too wide) in paragraph at lines 157--158
+[]\T1/MinionPro-LF/m/n/10 (-20) La cha-leur spé-ci-fique four-nie chaque cycle 
+est de [][][]; 
+ []
+
+
+Overfull \hbox (2.09799pt too wide) in paragraph at lines 162--163
+[]\T1/MinionPro-LF/m/n/10 (-20) Tracez le cycle suivi sur un dia-gramme pressio
+n-volume
+ []
+
+
+Overfull \hbox (11.00008pt too wide) in paragraph at lines 166--167
+[]\T1/MinionPro-LF/m/n/10 (-20) En pra-tique, l'évolution de l'air sur le dia-g
+ramme pression-
+ []
+
+<images/photo_diesel_generateur.jpg, id=106, 803.0pt x 602.25pt>
 File: images/photo_diesel_generateur.jpg Graphic file (type jpg)
 
 <use images/photo_diesel_generateur.jpg>
 Package pdftex.def Info: images/photo_diesel_generateur.jpg used on input line 
 179.
-(pdftex.def)             Requested size: 209.1301pt x 156.8478pt.
+(pdftex.def)             Requested size: 250.95612pt x 188.21184pt.
 
-<images/photo_diesel_propulsion.jpg, id=130, 803.0pt x 602.25pt>
+<images/photo_diesel_propulsion.jpg, id=107, 803.0pt x 602.25pt>
 File: images/photo_diesel_propulsion.jpg Graphic file (type jpg)
 
 <use images/photo_diesel_propulsion.jpg>
 Package pdftex.def Info: images/photo_diesel_propulsion.jpg used on input line 
 180.
-(pdftex.def)             Requested size: 209.1301pt x 156.8478pt.
- [326 <./10/images/photo_diesel_generateur.jpg> <./10/images/photo_diesel_propu
-lsion.jpg>]
+(pdftex.def)             Requested size: 250.95612pt x 188.21184pt.
+ [298 <./10/images/photo_continental_io-550.jpg> <./10/images/photo_sr22.jpg> <
+./10/images/photo_diesel_generateur.jpg> <./10/images/photo_diesel_propulsion.j
+pg>] [299
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot includemp twoside 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(28.45274pt, 788.14136pt, 28.45274pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=773.915pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-43.81725pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=12.0pt
+* \footskip=14.22636pt
+* \marginparwidth=0.0pt
+* \marginparsep=0.0pt
+* \columnsep=0.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 Package mdframed Info: mdframed works in twoside mode on input line 205.
 
-<images/i.png, id=148, 14.39862pt x 14.39862pt>
+<images/i.png, id=144, 14.39862pt x 14.39862pt>
 File: images/i.png Graphic file (type png)
  <use images/i.png>
 Package pdftex.def Info: images/i.png used on input line 205.
 (pdftex.def)             Requested size: 8.75984pt x 8.75998pt.
-LaTeX Font Info:    Font shape `T1/MinionPro-LF/bx/n' in size <12> not availabl
+LaTeX Font Info:    Font shape `T1/MinionPro-LF/bx/n' in size <10> not availabl
 e
 (Font)              Font shape `T1/MinionPro-LF/b/n' tried instead on input lin
 e 208.
-) [327
-
- <./10/images/i.png>] [328
+) [300
 
 
-
-])
+ <./10/images/i.png>])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the amphibook.maf file.
@@ -3178,11 +3265,11 @@ Package logreq Info: Writing requests to 'amphibook.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
- 43731 strings out of 494957
- 815203 string characters out of 3179219
- 1035175 words of memory out of 3000000
- 45408 multiletter control sequences out of 15000+200000
- 535606 words of font info for 312 fonts, out of 3000000 for 9000
+ 43820 strings out of 494957
+ 817317 string characters out of 3179219
+ 1043719 words of memory out of 3000000
+ 45460 multiletter control sequences out of 15000+200000
+ 590259 words of font info for 351 fonts, out of 3000000 for 9000
  64 hyphenation exceptions out of 8191
  96i,20n,93p,1078b,1304s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{figure.caption.214} has been referenced but does 
@@ -3211,21 +3298,22 @@ xist, replaced by a fixed one
 
 {/usr/local/share/texmf/fonts/enc/dvips/MnSymbol/MnSymbolA.enc}{/usr/local/shar
 e/texmf/fonts/enc/dvips/MinionPro/base-MinionPro-aa.enc}{/usr/local/share/texmf
-/fonts/enc/dvips/MinionPro/base-MinionPro-ab.enc}{/usr/local/share/texmf/fonts/
-enc/dvips/MinionPro/base-MinionPro-ac.enc}{/usr/local/share/texmf/fonts/enc/dvi
-ps/MnSymbol/MnSymbolC.enc}{/usr/local/share/texmf/fonts/enc/dvips/MnSymbol/MnSy
+/fonts/enc/dvips/MnSymbol/MnSymbolC.enc}{/usr/local/share/texmf/fonts/enc/dvips
+/MinionPro/base-MinionPro-ab.enc}{/usr/local/share/texmf/fonts/enc/dvips/Minion
+Pro/base-MinionPro-ac.enc}{/usr/local/share/texmf/fonts/enc/dvips/MnSymbol/MnSy
 mbolE.enc}{/usr/local/share/texmf/fonts/enc/dvips/MinionPro/base-MinionPro-ae.e
 nc}{/usr/local/share/texmf/fonts/enc/dvips/MnSymbol/MnSymbolD.enc}</usr/local/s
 hare/texmf/fonts/type1/adobe/MinionPro/MinionPro-Bold.pfb></usr/local/share/tex
 mf/fonts/type1/adobe/MinionPro/MinionPro-It.pfb></usr/local/share/texmf/fonts/t
 ype1/adobe/MinionPro/MinionPro-Regular.pfb></usr/local/share/texmf/fonts/type1/
-public/MnSymbol/MnSymbol12.pfb></usr/local/share/texmf/fonts/type1/public/MnSym
-bol/MnSymbol6.pfb></usr/local/share/texmf/fonts/type1/public/MnSymbol/MnSymbol8
-.pfb>
-Output written on amphibook.pdf (7 pages, 1965123 bytes).
+public/MnSymbol/MnSymbol10.pfb></usr/local/share/texmf/fonts/type1/public/MnSym
+bol/MnSymbol5.pfb></usr/local/share/texmf/fonts/type1/public/MnSymbol/MnSymbol6
+.pfb></usr/local/share/texmf/fonts/type1/public/MnSymbol/MnSymbol7.pfb></usr/lo
+cal/share/texmf/fonts/type1/public/MnSymbol/MnSymbol8.pfb>
+Output written on amphibook.pdf (5 pages, 1989749 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 192 compressed objects within 2 object streams
- 58 named destinations out of 1000 (max. 500000)
- 83015 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 215 PDF objects out of 1000 (max. 8388607)
+ 186 compressed objects within 2 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 89671 words of extra memory for PDF output out of 106986 (max. 10000000)
 
