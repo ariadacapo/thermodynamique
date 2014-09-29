@@ -10,7 +10,6 @@
 \frenchbsetup{AutoSpacePunctuation=false} % Prevent frenchb from automatically adding spaces before :;! if they are not typed (pain in the butt in hyperlinks etc).
 
 % A few hacks for French language
-\AtBeginDocument{\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}} % restore bullets instead of the French-style dashes
 \newcommand{\iieme}{\up{e}\xspace}
 \hyphenation{Lors-que}
 \hyphenation{mê-me}
@@ -481,7 +480,9 @@
 \newcommand{\chaptersubtitle}[1]{\begin{center}\begin{large}\textit{\raisebox{0.2em}{\rule{5ex}{0.2ex}}\hspace{1em} ou \hspace{1em}\raisebox{0.2em}{\rule{5ex}{0.2ex}}\\#1}\end{large}\end{center}}
 
 % Ignore code that is called within an \onlyamphibook{}
+% Do run code that is called within an \onlyframabook{}
 \newcommand{\onlyamphibook}[1]{}
+\newcommand{\onlyframabook}[1]{#1}
 
 %%%%%%%%%% Short-hands %%%%%%%%%%
 
