@@ -230,8 +230,8 @@
 % Custom equation numbering
 \renewcommand{\theequation}{\thechapter/\arabic{equation}}
 
-\titleformat{\subsubsection}{\vspace{1em}\pagebreak[3]\titlerule\vspace{0.08em}\normalsize}{\thesubsubsection\nopagebreak}{1em}{}[] %encourage pagebreak with [1] before subsub, prevent it immediately afterwards. \wherefrom also prevents pagebreaks
-\renewcommand\thesubsubsection{E\thechapter.\arabic{subsubsection}} % cheat for renumbering, pretend it’s a subsection
+\titleformat{\subsubsection}{\vspace{1em}\pagebreak[3]\needspace{10em}\titlerule\vspace{0.08em}\normalsize}{\thesubsubsection\nopagebreak}{1em}{}[] %encourage pagebreak with [1] before subsub, prevent it immediately afterwards. \wherefrom also prevents pagebreaks
+\renewcommand\thesubsubsection{E~\thechapter.\arabic{subsubsection}} % cheat for renumbering, pretend it’s a subsection
 \setlength{\subsubsectiontitleindent}{0cm} % remove indent
 \newcommand\subsectionbreak{\clearfloats}	% clear floats before each subsection
 \newcommand\subsubsectionbreak{\clearfloats}	% clear floats before each subsubsection (exercise)
