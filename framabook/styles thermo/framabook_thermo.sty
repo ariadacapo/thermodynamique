@@ -256,7 +256,16 @@
 	\fancyheadoffset[LE,RO]{0cm}%
 	\begin{spacing}{1}%
 	\begin{footnotesize}
+	\keepvalues\setlength{\parindent}{0pt}
 	\section{Exercices}
+}
+
+% Commande de stockage et de restauration des valeurs par défaut de \parindent et \parskip
+\newcommand{\keepvalues}{%
+  \edef\restorevalues{%
+    \parindent=\the\parindent
+    \parskip=\the\parskip
+  }%
 }
 
 \newcommand{\exercisesolutionpage}{%
@@ -268,6 +277,7 @@
 \newcommand{\titreresultats}{\noindent\begin{large}Résultats\end{large}}
 
 \newcommand{\atendofexercices}{%
+	\restorevalues
 	\end{footnotesize}
 	\end{spacing}%
 	\restoredefaultsectionstyle%
