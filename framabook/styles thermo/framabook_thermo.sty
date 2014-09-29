@@ -412,7 +412,7 @@
 \renewcommand{\theanexamplecounter}{\thechapter.\arabic{anexamplecounter}} 
 
 % Custom style for examples
-\newenvironment{anexample}{\pagebreak[3]\refstepcounter{anexamplecounter}\begin{mdframed}[frametitle=Exemple \theanexamplecounter, frametitlefont=\normalfont, frametitlerule=false, splittopskip=1em, linewidth=0pt, linecolor=examplebackgroundcolor, backgroundcolor=examplebackgroundcolor, roundcorner=2pt, innerrightmargin=10pt, leftmargin=0pt, innerleftmargin=10pt, innertopmargin=1em, skipabove=8pt, skipbelow=8pt, footnoteinside=true]}{\end{mdframed}}
+\newenvironment{anexample}{\pagebreak[3]\refstepcounter{anexamplecounter}\begin{mdframed}[frametitle=Exemple \theanexamplecounter, frametitlefont=\normalfont\bfseries, frametitlerule=false, splittopskip=1em, linewidth=0pt, linecolor=examplebackgroundcolor, backgroundcolor=examplebackgroundcolor, roundcorner=2pt, innerrightmargin=10pt, leftmargin=0pt, innerleftmargin=10pt, innertopmargin=1em, skipabove=8pt, skipbelow=8pt, footnoteinside=true]}{\end{mdframed}}
 
 % Custom style for answer box (used inside "anexample" boxes)
 \newenvironment{answer}
