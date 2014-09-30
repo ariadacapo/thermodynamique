@@ -3,7 +3,7 @@
 	
 	Ce \coursquatre se propose de répondre à deux questions :
 	\begin{itemize}
-		\item Comment peut-on décrire le comportement de l’air losqu’on le chauffe ou le comprime ?
+		\item Comment peut-on décrire le comportement de l’air lorsqu’il est chauffé ou comprimé ?
 		\item Comment peut-on prévoir les valeurs de $u$ et de $h$ lorsqu’on utilise de l’air ?
 	\end{itemize}
 	Ce chapitre est incompatible avec le \courscinq, où nous devrons oublier tout ce qui est appris ici. \dontbreakpage \vspace{2em}
@@ -14,22 +14,22 @@
 	\subsection{Le manomètre comme thermomètre}
 	\label{ch_le_manomètre_comme_thermomètre}
 
-		Nous retiendrons de prime abord la définition suivante :
+		Commençons par le plus important :
 
 		\begin{trucimportant}
 			Le gaz parfait est un \textit{modèle mathématique},\linebreak
 			permettant de prédire la température d’un gaz en fonction de sa pression.
 		\end{trucimportant}
 
-		Le gaz parfait est une proposition de définition de la température. On propose simplement de mesurer la température absolue $T$ avec un manomètre, en stipulant qu’elle est directement proportionnelle à la pression $p$ et inversement proportionnelle à la masse volumique $\rho$.
+		Le modèle du gaz parfait définit de lui-même une échelle de température. On propose simplement de mesurer la température absolue $T$ avec un manomètre, en stipulant qu’elle est directement proportionnelle à la pression $p$ et inversement proportionnelle à la masse volumique $\rho$.
 
-		On peut ainsi dire que le gaz parfait ne décrit pas la réalité des choses, que ce n’est pas un principe physique, mais bien simplement un modèle simplifié du comportement des gaz. Sa plage de validité est limitée et floue.
+		On peut ainsi dire que le gaz parfait ne décrit pas la réalité des choses, que ce n’est pas un principe physique, mais bien seulement un modèle simplifié du comportement des gaz. Sa plage de validité est limitée et floue.
 
 
 
 		\subsection{Définition : l’équation d’état}
 
-		Nous appellerons \vocab{gaz parfait} un fluide à l’état gazeux dont le multiple de la pression et du volume, $p v$ , reste proportionnel à sa température. La constante de proportionnalité est nommée \vocab{constante du gaz}, et notée $R$ ; elle dépend de la nature du gaz.
+		Nous appellerons \vocab{gaz parfait} un fluide à l’état gazeux dont le multiple de la pression et du volume, $p v$, reste proportionnel à sa température. La constante de proportionnalité est nommée \vocab{constante du gaz}, et notée $R$ ; elle dépend de la nature du~gaz.
 
 		\begin{equation}
 			p v = R T
@@ -55,7 +55,7 @@
 			\item et \tab $m$ \tab la masse de gaz considérée (\si{\kilogram}).
 		\end{equationterms}
 
-		Parce qu’elle est étroitement liée à la définition de la température (pour laquelle elle définit un degré zéro), il a fallu 150 ans pour que cette équation prenne sa forme définitive, telle qu’énoncée par \wf{Émile Clapeyron} en 1834.
+		Parce qu’elle est indissociable du concept de température absolue, il a fallu 150 ans pour que cette équation prenne sa forme définitive, telle qu’énoncée par \wf{Émile Clapeyron} en 1834.
 
 
 	\subsection{Que représente un gaz parfait ?}
@@ -76,17 +76,17 @@
 		
 		Dans ce chaos, la température est une mesure de l’énergie cinétique des molécules. On la quantifie en mesurant la force résultant de l’impact des molécules sur une paroi du récipient --\ c’est-à-dire avec la pression. Avec ce modèle, nous pouvons proposer une échelle de température telle que $T \propto p$.
 		
-		Maintenant, pour générer une pression donnée, plus le nombre de molécules impactant la surface est faible, et plus il faut qu’elles l’impactent fortement. Ainsi, lorsque la masse volumique $\rho$ diminue à une pression donnée, c’est que la température augmente. On peut donc également proposer $T \propto \frac{1}{\rho}$.
+		Plus le nombre de molécules impactant la surface est faible, et plus il faut qu’elles l’impactent fortement pour générer une pression donnée. Ainsi, lorsque la masse volumique $\rho$ diminue à une pression donnée, c’est que la température augmente. On peut donc également proposer $T \propto \frac{1}{\rho}$.
 		
-		Traduisons ces deux propositions en une équation, et nous obtenons un modèle simple pour quantifier la température : $T \propto p v$.
+		Si ces deux propositions sont réunies en une seule équation, nous obtenons un modèle simple pour quantifier la température : $T \propto p v$.
 		
 		
 	\subsection{Que ne représente pas un gaz parfait ?}
 	\label{ch_pas_gaz_parfait}		
 		
-		Le comportement réel des molécules lorsqu’elles sont proches les unes des autres est en réalité très complexe, car les forces d’attraction y jouent un rôle déterminant. L’influence de ces forces d’attraction augmente aussi lorsque les molécules sont structurellement complexes\footnote{Ainsi par exemple, l’interaction entre deux molécules d’hydrocarbone est plus difficile à modéliser que l’interaction entre deux molécules d’hélium.} et lentes.
+		Le comportement des molécules lorsqu’elles sont proches les unes des autres est en réalité très complexe, car les forces d’attraction y jouent un rôle déterminant. L’influence de ces forces est d’autant plus grande que les molécules sont lentes et structurellement complexes (l’interaction entre deux molécules d’hydrocarbone, par exemple, est plus difficile à modéliser que l’interaction entre deux molécules d’hélium).
 
-		Les conséquences à l’échelle macroscopique de ces interactions, et les conditions dans lesquelles elles ne sont plus négligeables, font l’objet du \courscinq.
+		Les conséquences à l’échelle macroscopique de ces interactions, et les conditions dans lesquelles elles ne doivent plus être négligées, font l’objet du \courscinq.
 
 		Nous retiendrons pour l’instant que le modèle du gaz parfait fonctionne mieux :
 
@@ -100,11 +100,11 @@
 
 	\subsection{Limites du modèle}
 
-		Il ne faudra pas longtemps à l’étudiant/e pour trouver les limites de l’\cref{eq_pV=mRT}, qui indique qu’une masse non-nulle de gaz parfait occupe \textit{un volume nul} à température nulle. Strictement parlant, le gaz parfait ne peut exister --\ le modèle mathématique ci-haut perd son sens à très basse température puisqu’il ne tient pas compte du volume des molécules lui-même.
+		Il ne faudra pas longtemps à l’étudiant/e pour trouver les limites de l’\cref{eq_pV=mRT}, qui indique qu’une masse non-nulle de gaz parfait occupe \textit{un volume nul} à température nulle. Strictement parlant, le gaz parfait ne peut exister --\ le modèle mathématique ci-haut perd son sens à très basse température puisqu’il ne tient pas compte du volume des molécules elles-mêmes.
 
 		Plusieurs autres équations d’état peuvent être utilisées pour correspondre aux gaz réels sur une plus grande plage de propriétés.
 
-		Ainsi, l’équation de \textit{Van der Waals}, proposée dès la fin du \textsc{xviii}\ieme siècle, est formulée selon :
+		Ainsi, l’\vocab{équation de Van der Waals}, proposée dès la fin du \textsc{xviii}\ieme siècle, propose :
 		\begin{equation}
 			\left(p + \frac{a}{v ^2}\right) (v - b) = R T
 		\end{equation}
@@ -113,7 +113,7 @@
 			\item où $a$ et $b$ sont deux constantes.
 		\end{equationterms}
 
-		Cette équation a l’intérêt de tenir compte de deux facteurs ignorés dans l’équation d’état~\ref{eq_pV=mRT} : la force d’attraction entre les molécules (le terme $a/v^2$, qui devient partie de l’expression de la pression) et le volume occupé par les molécules elles-mêmes (le terme $b$ qui se retranche au volume disponible).
+		Cette équation a l’intérêt de tenir compte de deux facteurs ignorés dans l’équation d’état~\ref{eq_pv=RT} : la force d’attraction entre les molécules (le terme $a/v^2$, qui devient partie de l’expression de la pression) et le volume occupé par les molécules elles-mêmes (le terme $b$ qui se retranche au volume disponible).
 
 		Malgré les difficultés inhérentes à la quantification des termes $a$ et  $b$, ces modifications ont considérablement étendu la plage d’application des équations d’état. Elles ont valu à leur auteur, \wf{Johannes Diderik van der Waals}, le prix Nobel de physique en 1910.
 
@@ -147,7 +147,7 @@
 			\label{fig_expérience_diff_chaleurs_massiques}
 		\end{figure}
 
-		Pourtant, deux valeurs particulières (\cref{fig_cp_et_cv}) suffisent pour décrire l’ensemble de ces comportements pour un gaz parfait :
+		Parmi celles-ci, deux valeurs particulières (\cref{fig_cp_et_cv}) nous servent de référence pour décrire le comportement d’un gaz parfait :
 
 		\begin{figure}
 			\begin{center}
@@ -162,12 +162,11 @@
 			\item[la chaleur massique à pression constante :]$c_p$~.
 		\end{description}
 
-
-		Par définition, pour un gaz parfait, $c_v$ et $c_p$ sont indépendantes de la température. Pour les gaz réels, elles varient avec la température (\cref{fig_valeurs_de_cp_cv_gamma}), mais pour la plupart des applications une valeur moyenne peut être utilisée sans grande imprécision. Nous retiendrons les valeurs $c_{v  (air)} = \SI{718}{\joule\per\kilogram\per\kelvin}$ et $c_{p (air)} = \SI{1005}{\joule\per\kilogram\per\kelvin}$ pour l’air.
+		Ces deux propriétés vont nous servir très bientôt pour quantifier l’énergie dans les gaz. $c_v$ et $c_p$ sont indépendantes de la température dans un gaz parfait. Dans les gaz réels, elles varient avec la température (\cref{fig_valeurs_de_cp_cv_gamma}), mais pour la plupart des applications en ingénierie il est raisonnable d’utiliser des valeurs moyennes. Pour l’air, nous retenons $c_{v\text{(air)}} = \SI{718}{\joule\per\kilogram\per\kelvin}$ et $c_{p\text{(air)}} = \SI{1005}{\joule\per\kilogram\per\kelvin}$.
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=15cm, inner]{images/cours4-img7.png}
+				\includegraphics[width=15cm, inner]{images/valeurs_cp_cv_air.png}
 			\end{center}
 			\supercaption{Capacité calorifique de l’air en fonction de sa température. On note une variation sensible des valeurs dans la gamme de températures utilisée en ingénierie, que nous négligerons dans le cadre de notre étude de la thermodynamique.}%
 				{Données issues du circulaire NBS 564 “Tables of Thermal Properties of Gases” (1955) jusqu’à~\SI{1000}{\kelvin}, calculées selon le modèle de B. G. Kyle in “Chemical and Process Thermodynamics” (1984) ensuite, et publiées par Israel Urieli (\href{http ://www.ohio.edu/mechanical/thermo/}{ohio.edu/mechanical/thermo/})}
@@ -194,8 +193,6 @@
 			\end{equation}
 
 		Pour le corps B à droite, comme la pression $p_\text{cste}$ est constante, nous pouvons écrire :
-
-
 			\begin{equation}
 				\left\{
 					\begin{array}{rl}
@@ -209,7 +206,6 @@
 		En combinant les deux systèmes~\ref{eq_sectionmathschiante_0} et~\ref{eq_sectionmathschiante_1}%
 			\footnote{En étant véritablement rigoureux, pour affirmer que $\Delta u_A$ et  $\Delta u_B$ sont égaux, il nous faudrait attendre l’\cref{eq_principe_de_joule} qui arrive à la section suivante.}%
 		, nous obtenons
-
 		\begin{equation}
 			c_v \ \Delta T = c_p \ \Delta T - p_\text{cste} \ \Delta v
 		\end{equation}
@@ -217,10 +213,9 @@
 		qui stipule simplement que la différence entre les deux chaleurs fournies est retrouvée dans le travail fourni par le gaz de droite.
 
 		Une brève manipulation amène :
-
 		\begin{IEEEeqnarray}{rCl}
 			(c_p - c_v) \Delta T 	& = & p_\text{cste} \ \Delta v	\nonumber \\
-			(c_p - c_v) 				& = & \frac{pv_2 - pv_1}{\Delta T} = \frac{R T_2 - R T_1}{\Delta T_\B } = \frac{R \ \Delta T}{\Delta T}	\nonumber \\
+			(c_p - c_v) 				& = & \frac{pv_2 - pv_1}{\Delta T} = \frac{R T_2 - R T_1}{\Delta T} = \frac{R \ \Delta T}{\Delta T}	\nonumber \\
 			c_p - c_v 					& = & R
 		\label{eq_sectionmathschiante_2}
 		\end{IEEEeqnarray}
@@ -228,7 +223,7 @@
 		Cette expression a pour seul intérêt de nous permettre de simplifier l’\cref{eq_h_fonction_de_T} que nous allons écrire plus bas.
 
 
-		\subsection{Quotient des chaleurs massiques}
+	\subsection{Quotient des chaleurs massiques}
 
 		Le ratio des chaleurs massiques à pression et à volume constants est nommé $\gamma $. Ainsi :
 		\begin{equation}
@@ -236,36 +231,36 @@
 			\label{def_gamma}
 		\end{equation}
 
-		En retournant à la \cref{fig_cp_et_cv} il apparaît rapidement que $c_p$ doit être supérieur à $c_v$ ; ainsi $\gamma$ est toujours supérieur à~1. La valeur de $\gamma$ est d’environ \num{1,4} pour l’air.
+		En retournant à la \cref{fig_cp_et_cv} il apparaît rapidement que $c_p$ doit être supérieur à $c_v$ ; ainsi $\gamma$ est toujours supérieur à~\num{1}. Nous retenons $\gamma_\text{air} = \num{1,4}$.
 		
 		
 
 \section{Énergie et température}
 
+	\subsection{Contexte historique}
+	
+		Au tout début du \textsc{xix}\ieme siècle ont lieu les premiers travaux de recherche visant à explorer la notion de température. La communauté scientifique s’intéresse alors beaucoup aux gaz -- on s’aperçoit qu’il y a \emph{deux} manières de faire augmenter leur température : en les chauffant, mais aussi en les comprimant.
+		
+		Le français \wf{Louis Joseph Gay-Lussac} cherche à comprendre pourquoi la température d’un gaz chute lorsqu’il se détend (il cherche en fait, selon les concepts d’alors, à identifier la source du \textit{calorique} et les raisons pour lesquelles il s’écoule). Il s’efforce ainsi de produire des détentes de gaz aussi simples que possible, et d’y mesurer la température. Une trentaine d’années plus tard, l’anglais \wf{James Prescott Joule} reprend et approfondit ces expériences\footnote{Les travaux méticuleux de Joule mèneront à la première expression formelle du premier principe de la thermodynamique, et à la fin de la théorie du \textit{calorique} selon laquelle la chaleur était un fluide très peu dense et invisible. Ils vaudront à son nom de famille l’utilisation que l’on sait aujourd’hui.} ; mais cette fois, en quantifiant la chaleur en tant qu’\textit{équivalence de travail}. Ces expériences avec ballons de gaz et thermomètres sont tout sauf spectaculaires -- mais elles vont jouer un rôle pivot en thermodynamique, parce qu’elles permettent de distinguer pour la première fois chaleur, travail, énergie et température.
+
 	\subsection{La loi de Joule}
 	\label{ch_principe_de_joule}
 
-		Alors qu’il se pose des questions sur la nature de la chaleur et du travail%
-			\footnote{Ces questions surviennent au cours d’une série de travaux soignés qui mèneront à la première expression formelle du premier principe de la thermodynamique, et à la fin de la théorie du \textit{calorique} selon laquelle la chaleur était un fluide très peu dense et invisible. Ils vaudront à son nom de famille l’utilisation que l’on sait aujourd’hui.}%
-		, \wf{James Prescott Joule} étudie dans les années 1840 la relation entre l’énergie interne d’un gaz et sa température.
-
-		Lors d’une de ses expériences les plus remarquables, il cherche à faire varier la pression et le volume d’un gaz \textit{sans lui transférer de chaleur ou de travail}. Pour cela, il laisse un gaz comprimé se détendre dans un second récipient vide (\cref{fig_detente_joule}), et mesure le flux de chaleur vers le gaz. Le travail effectué est nul%
-		\footnote{Le travail effectué est nul car l’évolution est parfaitement irréversible : aucune surface n’a été déplacée.}%
-		, et… il ne se passe rien ! Joule ne mesure ni flux de chaleur, ni variation de température.
+		Dans leur expérience la plus remarquable, Joule et Gay-Lussac cherchent à faire varier la pression et le volume d’un gaz \textit{sans lui transférer de chaleur ou de travail}. Pour cela, ils laissent un gaz comprimé se détendre dans un second récipient vide (\cref{fig_detente_joule}). Le travail effectué est nul, car aucune surface n’a été déplacée (l’évolution est entièrement irréversible). La température est mesurée et… il ne se passe rien ! Joule et Gay-Lussac ne mesurent ni transferts de chaleur, ni variation de température.
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=9cm]{images/cours4-img8.png}
+				\includegraphics[width=9cm]{images/detente_joule_gay-lussac.png}
 			\end{center}
-			\supercaption{La détente de Joule, parfois appelée \wfd{D\%C3\%A9tente de Joule-Gay-Lussac}{détente de Joule et Gay-Lussac}.\\			
+			\supercaption{La \wfd{D\%C3\%A9tente de Joule-Gay-Lussac}{détente de Joule et Gay-Lussac}.\\			
 		Un gaz est initialement prisonnier d’un réservoir à gauche ; on le laisse se détendre en ouvrant la vanne (au centre) qui le sépare d’un réservoir entièrement vide à droite.\\		
-		Joule s’intéresse aux variations de température mesurées dans chaque réservoir. Plus les propriétés du gaz rapprochent son comportement du modèle des gaz parfaits (\S\ref{ch_pas_gaz_parfait}), et plus les variations de température qu’il mesure sont faibles, jusqu’à devenir indétectables pour certains gaz simples à haute température).\par}{}
+		Joule et Gay-Lussac s’intéressent aux variations de température mesurées dans chaque réservoir. Plus les propriétés du gaz rapprochent son comportement du modèle des gaz parfaits (\S\ref{ch_pas_gaz_parfait}), et plus les variations de température qu’il mesure sont faibles, jusqu’à devenir indétectables pour certains gaz simples à haute température).}{schéma \cczero \olivier}
 			\label{fig_detente_joule}
 		\end{figure}
 
 		Joule effectue une multitude d’expériences différentes au cours desquelles il observe que quel que soit le travail fourni, la relation entre énergie interne (qui ne varie qu’avec travail et chaleur) et température reste sensiblement la même --\ et il suggère que pour un gaz parfait, elle reste toujours identique.
 
-		Ce postulat est connu sous le nom de \vocab{principe de Joule} et est posé comme vrai pour tout gaz parfait. On peut le résumer ainsi :
+		Ce postulat est connu sous le nom de \vocab{loi de Joule} et est posé comme vrai pour tout gaz parfait. On peut le résumer ainsi :
 
 		\begin{trucimportant}
 			La température d’un gaz parfait ne varie qu’avec son énergie interne.
@@ -297,7 +292,7 @@
 
 		Tant que notre fluide se comporte comme un gaz parfait, cette relation~\ref{eq_principe_de_joule} reste vraie. Elle fonctionne pendant toute évolution, réversible ou non, et quelles que soient les contraintes de volume, de pression ou température.
 
-		Par contre, il faut bien noter que cette \cref{eq_principe_de_joule}, qui découle du principe de Joule, n’est pas du tout valable dans le cas des liquides et vapeurs. On peut, par exemple, ajouter de l’énergie à une masse d’eau bouillante, sans que sa température n’augmente. Nous étudierons les liquides et vapeurs dans le \courscinqshort.
+		Par contre, il faut bien noter que cette \cref{eq_principe_de_joule}, qui découle de la loi de Joule, n’est pas du tout valable dans le cas des liquides et vapeurs. On peut, par exemple, ajouter de l’énergie à une masse d’eau bouillante, sans que sa température n’augmente. Nous étudierons les liquides et vapeurs dans le \courscinqshort.
 
 
 
@@ -320,23 +315,22 @@
 			\begin{equationterms}
 				\item Pour tout gaz parfait,
 				\item quelle que soit l’évolution (réversible ou non),
-				\item où \tab $h$ \tab est l’enthalpie spécifique (\si{\joule\per\kilogram}) ;
-				\item \tab $T$ \tab est la température (\si{\kelvin}) ;
-				\item et \tab $c_p$ \tab est la capacité calorifique massique à pression constante (\si{\joule\per\kilogram\per\kelvin}).
+				\item où \tab $h$ 	\tab est l’enthalpie spécifique (\si{\joule\per\kilogram}) ;
+				\item 	\tab $T$ 	\tab est la température (\si{\kelvin}) ;
+				\item et \tab $c_p$ 	\tab est la capacité calorifique massique à pression constante (\si{\joule\per\kilogram\per\kelvin}).
 			\end{equationterms}
 
 
 	\subsection{Interlude : Que retenir du gaz parfait jusqu’ici ?}
 
 		Le gaz parfait est un modèle pour quantifier la température d’un gaz. Selon ce modèle, les trois principales formes d’énergie que nous avons utilisées jusqu’à présent —~l’énergie interne~$u$, l’enthalpie spécifique~$h$ et le terme~$p v$~— sont directement proportionnelles à la température~$T$ :
-
 		\begin{IEEEeqnarray*}{rClC}
 			u 	& = & c_v T 	& \qquad (\si{\joule\per\kilogram})	\\
 			h 	& = & c_p T	& \qquad (\si{\joule\per\kilogram}) 	\\
 			p v 	& = & R T 	& \qquad (\si{\joule\per\kilogram})
 		\end{IEEEeqnarray*}
 
-		Si l’on contrôle la température d’un gaz (par exemple avec un transfert de chaleur), alors on affecte directement et simultanément ces trois formes d’énergie.
+		Si l’on mesure la température absolue d’un gaz, alors on peut quantifier immédiatement ces trois formes d’énergie.
 
 
 
@@ -370,7 +364,7 @@
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=10cm]{images/pression_constante.png}
+				\includegraphics[width=8cm]{images/pression_constante.png}
 			\end{center}
 			\caption{Évolution à pression constante (isobare) d’un gaz parfait. En système fermé (à gauche), le piston exerce une force constante tout au long de l’évolution. En système ouvert (à droite), aucun travail n’est effectué.}
 			\label{fig_gp_pression_constante}
@@ -378,21 +372,19 @@
 		
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=8cm]{images/pv_isobare.png}
+				\includegraphics[width=\pvdiagramwidth]{images/pv_isobare.png}
 			\end{center}
 			\caption{Réchauffement à pression constante d’un gaz parfait, représenté sur un diagramme pression-volume.}
 			\label{fig_gp_pression_constante_pv}
 		\end{figure}		
 
 		Lorsque la pression est constante, les propriétés du gaz varient selon la relation
-		
 		\begin{equation}
 			\frac{T}{v} = \text{constante}
 		\end{equation}
 		
 		
-		En système fermé, nous avons $q_{1\to2} + w_{1\to2} = \Delta u$, et, si l’évolution est réversible, la chaleur et le travail peuvent être facilement reliés à la température :
-		
+		En système fermé, nous avons $q_{1\to2} + w_{1\to2} = \Delta u$ (\ref{eq_premier_principe_sf_min}) et, si l’évolution est réversible, la chaleur et le travail peuvent être facilement reliés à la température :
 		\begin{IEEEeqnarray}{rCl}
 			w_{1\to2} 	& = & - \int _1^2 p \diff v  = -p_\text{cste} \int _1^2 \diff v = -p_\text{cste} \ \Delta v	\nonumber \\
 			w_{1 \to 2} 	& = & - R \ \Delta T
@@ -404,7 +396,6 @@
 		On remarque que le travail est de signe opposé à la variation de température. 
 		
 		La chaleur peut être quantifiée aisément :
-		
 		\begin{IEEEeqnarray}{rCl}
 			q_{1\to2} 	& = & \Delta u - w_{1\to2} = \Delta u + p_\text{cste} \ \Delta v = \Delta h \nonumber \\
 			q_{1 \to 2} 	& = & c_p \ \Delta T
@@ -414,8 +405,7 @@
 		\end{equationterms}
 
 		
-		Lorsque l’évolution se fait en système ouvert, nous avons $q_{1\to2} + w_{1\to2} = \Delta h$, et, si l’évolution est réversible, la chaleur et le travail se quantifient sans peine :
-		
+		Lorsque l’évolution se fait en système ouvert, nous avons $q_{1\to2} + w_{1\to2} = \Delta h$ (\ref{eq_petite_sfee_deltas_h}), et, si l’évolution est réversible, la chaleur et le travail se quantifient sans peine :		
 		\begin{IEEEeqnarray}{rCl}
 			w_{1\to2} 	& = & \int _1^2 v \diff p \nonumber \\
 			w_{1\to2} 	& = & 0
@@ -427,7 +417,6 @@
 		Le travail est bien sûr nul, puisqu’aucune pièce mobile n’est présente pour extraire de l’énergie mécanique du gaz.
 
 		La chaleur est alors responsable de l’entièreté de la variation de température :
-		
 		\begin{IEEEeqnarray}{rCl}
 			q_{1\to2} 	& = & \Delta h - w_{1\to2} = \Delta h \nonumber \\
 			q_{1 \to 2} 	& = & c_p \ \Delta T
@@ -450,7 +439,7 @@
 		
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=10cm]{images/volume_constant.png}
+				\includegraphics[width=8cm]{images/volume_constant.png}
 			\end{center}
 			\caption{Évolution à volume constant (isochore) d’un gaz parfait. En système fermé (à gauche), le volume est bloqué et aucun travail n’est effectué. En système ouvert (à droite), on doit comprimer le gaz pendant qu’on le chauffe et le détendre pendant qu’on le refroidit, pour pouvoir maintenir le volume spécifique constant.}
 			\label{fig_gp_volume_constant}
@@ -458,14 +447,13 @@
 		
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=8cm]{images/pv_isochore.png}
+				\includegraphics[width=\pvdiagramwidth]{images/pv_isochore.png}
 			\end{center}
 			\caption{Refroidissement à volume constant d’un gaz parfait, représenté sur un diagramme pression-volume.}
 			\label{fig_gp_volume_constant_pv}
 		\end{figure}		
 
 		Lorsque le volume spécifique d’un gaz parfait est constant, ses propriétés varient selon la relation 
-		
 		\begin{equation}
 			\frac{T}{p} = \text{constante}
 		\end{equation}
@@ -473,7 +461,6 @@
 		En système fermé, nous avons $q_{1\to2} + w_{1\to2} = \Delta u$, et, si l’évolution est réversible, la chaleur et le travail peuvent être facilement reliés à la température.
 
 		Le volume ne variant pas, le travail est bien sûr nul :
-		
 		\begin{IEEEeqnarray}{rCl}
 			w_{1\to2} 	& = & - \int _1^2 p \diff v	\nonumber \\
 			w_{1\to2} 	& = & 0
@@ -483,7 +470,6 @@
 		\end{equationterms}
 
 		La chaleur peut être quantifiée aisément :
-		
 		\begin{IEEEeqnarray}{rCl}
 			q_{1\to2} 	& = & \Delta u - w_{1\to2} = \Delta u \nonumber \\
 			q_{1\to2} 	& = & c_v \ \Delta T
@@ -494,7 +480,6 @@
 
 		
 		Lorsque l’évolution se fait en système ouvert, nous avons $q_{1\to2} + w_{1\to2} = \Delta h$, et, si l’évolution est réversible, la chaleur et le travail peuvent être quantifiés, bien qu’avec un peu plus de difficulté :
-		
 		\begin{IEEEeqnarray}{rCl}
 			w_{1\to2} 	& = & \int _1^2 v \diff p = v_\text{cste} \int_1^2 \diff p = v_\text{cste} \int_1^2 \frac{R}{v_\text{cste}} \diff T = R \int_1^2 \diff T  \nonumber \\
 			w_{1\to2} 	& = & R \ \Delta T
@@ -504,7 +489,6 @@
 		\end{equationterms}
 
 		On peut alors quantifier facilement la chaleur à fournir :
-		
 		\begin{IEEEeqnarray}{rCl}
 			q_{1\to2} 	& = & \Delta h - w_{1\to2} = c_p \ \Delta T - R \ \Delta T \nonumber \\
 			q_{1\to2} 	& = & c_v \ \Delta T
@@ -521,7 +505,7 @@
 		
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=10cm]{images/temperature_constante.png}
+				\includegraphics[width=8cm]{images/temperature_constante.png}
 			\end{center}
 			\caption{Évolution à température constante (isotherme) d’un gaz parfait. En système fermé (à gauche), on laisse travailler le gaz sur un piston pendant qu’on le chauffe, et à l’inverse, on lui fournit du travail lorsqu’on le refroidit. En système ouvert (à droite), les mêmes manipulations sont effectuées en flux continu.}
 			\label{fig_gp_température_constante}
@@ -529,7 +513,7 @@
 		
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=8cm]{images/pv_isotherme.png}
+				\includegraphics[width=\pvdiagramwidth]{images/pv_isotherme.png}
 			\end{center}
 			\caption{Détente (réchauffement) à température constante d’un gaz parfait, représenté sur un diagramme pression-volume.}
 			\label{fig_gp_température_constante_pv}
@@ -540,7 +524,6 @@
 		En pratique, cette complexité fait que les transferts de chaleur isothermes sont rarement utilisés dans l’industrie. Ils revêtent par contre une importance théorique capitale, que nous étudierons au \courssept.
 		
 		Lorsque la température d’un gaz parfait reste constante, ses propriétés varient selon la relation 
-		
 		\begin{equation}
 			p \ v = \text{constante}
 			\label{eq_pvconstante}
@@ -548,10 +531,9 @@
 		
 
 		En système fermé, nous avons $q_{1\to2} + w_{1\to2} = \Delta u$, et, si l’évolution est réversible, la chaleur et le travail peuvent être reliés aux propriétés du gaz, non sans une certaine difficulté.
-
 		\begin{IEEEeqnarray}{rCl}
 			w_{1\to2} 	& = & - \int _1^2 p \diff v = - \int \frac{R T_\text{cste}}{v} \diff v = - R T_\text{cste} \int_1^2 \frac{1}{v} \diff v = - R T_\text{cste} [\ln v]_{v_1}^{v_2} \nonumber \\
-			w_{1\to2} 	& = & R T_\text{cste} \ln \left(\frac{v_1}{v_2}\right)
+			w_{1\to2} 	& = & R \ T_\text{cste} \ln \left(\frac{v_1}{v_2}\right)
 			\label{eq_travail_température_constante}
 		\end{IEEEeqnarray}
 		\begin{equationterms}
@@ -559,13 +541,11 @@
 		\end{equationterms}
 
 		On peut aussi exprimer le travail en fonction de la pression, puisqu’avec l’\cref{eq_pvconstante} on~a :
-		
 		\begin{equation*}
 			\frac{v_1}{v_2} = \frac{p_2}{p_1}
 		\end{equation*}
 		
 		ainsi :
-		
 		\begin{equation}
 			w_{1\to2} 	 = R T_\text{cste} \ln \left(\frac{p_2}{p_1}\right)
 			\label{eq_gp_travail_isotherme_sf}
@@ -575,7 +555,6 @@
 		\end{equationterms}
 
 		La chaleur peut être quantifiée aisément. En effet, l’énergie interne ne varie pas :
-		
 		\begin{IEEEeqnarray}{rCl}
 			q_{1\to2} 	& = & \Delta u - w_{1\to2} = 0 - w_{1\to2} \nonumber \\
 			q_{1\to2} 	& = & -w_{1\to2}
@@ -587,7 +566,6 @@
 
 		
 		Lorsque l’évolution se fait en système ouvert, nous avons $q_{1\to2} + w_{1\to2} = \Delta h$, et, si l’évolution est réversible, la chaleur et le travail peuvent être quantifiés de la même façon :
-		
 		\begin{IEEEeqnarray}{rCl}
 			w_{1\to2} 	& = & \int _1^2 v \diff p = \int_1^2 \frac{R T_\text{cste}}{p} \diff p = R T_\text{cste} \int_1^2 \frac{1}{p} \diff p = R T_\text{cste} [\ln v]_{p_1}^{p_2} \nonumber \\
 			w_{1\to2} 	& = & R T_\text{cste} \ln \left(\frac{p_2}{p_1}\right) = R T_\text{cste} \ln \left(\frac{v_1}{v_2}\right) \label{eq_travail_température_constante_rep}
@@ -596,10 +574,9 @@
 			\item lors d’une évolution réversible à température constante, en système ouvert.
 		\end{equationterms}
 		
-		Cette relation, identique à l’\cref{eq_travail_température_constante}, n’aura pas surpris l’étudiant/e perspicace, puisque la relation $p v = \text{cste}$ assure que pour deux points donnés en \cref{fig_gp_température_constante_pv}, l’aire sous la courbe soit toujours égale à l’aire à gauche de la courbe.
+		Cette relation, identique à l’\cref{eq_travail_température_constante}, n’aura pas surpris l’étudiant/e perspicace, puisque la relation $p v = \text{cste.}$ assure que pour deux points donnés en \cref{fig_gp_température_constante_pv}, l’aire sous la courbe soit toujours égale à l’aire à gauche de la courbe.
 
 		La chaleur à fournir se quantifie bien sûr sans peine :
-		
 		\begin{IEEEeqnarray}{rCl}
 			q_{1\to2} 	& = & \Delta h - w_{1\to2} = 0 - w_{1\to2} \nonumber \\
 			q_{1\to2} 	& = & - w_{1\to2}
@@ -616,22 +593,21 @@
 
 		Une évolution \vocab{adiabatique} est une évolution au cours de laquelle il n’y a aucun échange de chaleur (\cref{fig_gp_isentropique}). On peut forcer cela en recouvrant le récipient ou le conduit de gaz que l’on compresse ou détend avec une épaisse couche d’isolant thermique.
 		
-		Bien sûr, même s’il n’y a strictement aucun transfert de chaleur, la température est nécessairement amenée à varier dans une telle évolution, puisque le travail est non-nul. Cette variation de température est d’ailleurs très souvent l’effet escompté, comme nous pourrons le voir au \courssept.
+		Attention, même s’il n’y a strictement aucun transfert de chaleur, la température est nécessairement amenée à varier dans une telle évolution, puisque le travail est non-nul. Cette variation de température est d’ailleurs très souvent l’effet escompté, comme nous pourrons le voir au \courssept.
 		
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=10cm]{images/isentropique.png}
+				\includegraphics[width=8cm]{images/isentropique.png}
 			\end{center}
 			\caption{Évolution adiabatique réversible (isentropique) d’un gaz parfait. En système fermé (à gauche) comme en système ouvert (à droite), l’appareil est parfaitement isolé, de sorte qu’il n’y ait aucun transfert de chaleur, même si la température du gaz varie.}
 			\label{fig_gp_isentropique}
 		\end{figure}
 		
-	
 		Une évolution \vocab{adiabatique réversible} est effectuée infiniment lentement. Un piston dans un cylindre devra pour cela être déplacé infiniment lentement, et un compresseur en flux continu devra pour cela être infiniment long. Plus tard, dans le \courshuit, nous appellerons ces transformations \vocab{isentropiques}.
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=8cm]{images/pv_isentropique.png}
+				\includegraphics[width=\pvdiagramwidth]{images/pv_isentropique.png}
 			\end{center}
 			\caption{Détente adiabatique réversible d’un gaz parfait, représentée sur un diagramme pression-volume.}
 			\label{fig_gp_isentropique_pv}
@@ -639,15 +615,12 @@
 
 		
 		En système fermé, nous avons $q_{1\to2} + w_{1\to2} = \Delta u$, et, si l’évolution est réversible, la chaleur et le travail sont quantifiés sans la moindre difficulté :
-		
 		\begin{equation}
 			q_{1\to2} = 0
 		\end{equation}
 		\begin{equationterms}
 			\item lors d’une évolution adiabatique réversible, par définition.
 		\end{equationterms}
-		
-		
 		\begin{IEEEeqnarray}{rCl}
 			w_{1\to2} 	& = & \Delta u - q_{1\to2} = \Delta u  \nonumber \\
 			w_{1 \to 2} 	& = & c_v \ \Delta T
@@ -659,7 +632,6 @@
 
 		
 		Lorsque l’évolution se fait en système ouvert, nous avons $q_{1\to2} + w_{1\to2} = \Delta h$, et nous pouvons de même écrire :
-		
 		\begin{IEEEeqnarray}{rCl}
 			q_{1\to2} 	& = & 0 	\\
 			w_{1\to2} 	& = & c_p \ \Delta T
@@ -670,26 +642,22 @@
 		\end{equationterms}
 
 		
-		
 		Malheureusement, ces deux équations~\ref{eq_gp_travail_isentropique_sf} et~\ref{eq_gp_travail_isentropique_so} ne sont d’aucune utilité tant que l’on a pas prédit la température $T_2$ à la fin de l’évolution. Or, dans une évolution adiabatique réversible, rien ne reste constant : le volume spécifique, la pression et la température varient tous les trois. Comment quantifier ces propriétés ?
 		
 		
 		Partons d’une évolution adiabatique infiniment courte dans un système fermé. Lorsque l’évolution est réversible, $\diff w = -p \diff v $ et alors :
-
 		\begin{IEEEeqnarray*}{rCl}
 			\diff q = \diff u - \diff w 	& = & 0		\nonumber \\
 			\diff u + p \diff v  		& = & 0
 		\end{IEEEeqnarray*}
 
 		Comme $\diff u = c_v \diff T$ pour un gaz parfait et que $p = R T/v $, on peut ré-écrire cette équation ainsi :
-
 		\begin{IEEEeqnarray*}{rCl}
 			c_v \diff T + \frac{R T}{v} \diff v  				& = & 0	\nonumber \\
 			\frac{1}{T} \diff T + \frac{R}{c_v} \frac{1}{v} \diff v  	& = & 0
 		\end{IEEEeqnarray*}
 	
 		En intégrant entre deux états 1 et 2 :
-
 		\begin{IEEEeqnarray}{rCl}
 			\ln \left( \frac{T_2}{T_1} \right) + \frac{R}{c_v} \ln \left( \frac{v_2}{v_1} \right) 	& = & 0	\nonumber \\
 			\ln \left( \frac{T_2}{T_1} \right) + \ln \left( \frac{v_2}{v_1} \right)^{\frac{R}{c_v}} 	& = & 0	\nonumber \\
@@ -705,13 +673,11 @@
 		Nous avons donc lié température et volume spécifique lorsque l’évolution est adiabatique réversible (privée d’échange de chaleur, et infiniment lente).
 
 		Quelques manipulations algébriques, qu’il est laissé à l’étudiant/e de réviser, nous permettent de décliner cette expression en fonction de la pression, et on obtient donc les trois relations :
-
 		\begin{IEEEeqnarray}{rCl}
 			\left( \frac{T_1}{T_2} \right)	& = & \left( \frac{v_2}{v_1} \right)^{\gamma -1}		\label{eq_isentropique_horrible1}\\
 			\left( \frac{T_1}{T_2} \right)	& = & \left( \frac{p_1}{p_2} \right)^{\frac{\gamma -1}{\gamma}}	\label{eq_isentropique_horrible2}\\
 			\left( \frac{p_1}{p_2} \right)	& = & \left( \frac{v_2}{v_1} \right)^{\gamma}			\label{eq_isentropique_horrible3}
 		\end{IEEEeqnarray}
-
 		\begin{equationterms}
 			\item pour toute évolution adiabatique réversible.
 		\end{equationterms}
@@ -735,7 +701,7 @@
 		
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=8cm]{images/pv_coeur.png}
+				\includegraphics[width=\pvdiagramwidth]{images/pv_coeur.png}
 			\end{center}
 			\caption{Évolution entièrement arbitraire d’un gaz parfait représentée sur un diagramme pression-volume. Une telle évolution requiert une combinaison complexe de transferts de chaleur et de travail, que l’étudiant/e est invité/e à se représenter.}
 			\label{fig_gp_pv_coeur}
