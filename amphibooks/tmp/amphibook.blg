@@ -1,16 +1,16 @@
-[0] Config.pm:300> INFO - This is Biber 0.9.9
+[1] Config.pm:300> INFO - This is Biber 0.9.9
 [1] Config.pm:303> INFO - Logfile is 'amphibook.blg'
-[1] biber:145> INFO - === Fri Sep 26, 2014, 20:10:06
+[2] biber:145> INFO - === Tue Sep 30, 2014, 16:46:48
 [2] Biber.pm:271> INFO - Reading 'amphibook.bcf'
-[21] Biber.pm:586> INFO - Found 18 citekeys in bib section 0
-[37] Biber.pm:2585> INFO - Processing bib section 0
-[64] Biber.pm:2677> INFO - Looking for bibtex format file '/home/olivier/aero/global/publishing/latex/sty/thermobib.bib' for section 0
-[66] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
-[87] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
-[87] bibtex.pm:704> INFO - Found BibTeX data source '/home/olivier/aero/global/publishing/latex/sty/thermobib.bib'
-[179] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
-[179] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
-[219] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
-[219] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
-[249] bbl.pm:427> INFO - Writing 'amphibook.bbl' with encoding 'UTF-8'
-[251] bbl.pm:498> INFO - Output to amphibook.bbl
+[23] Biber.pm:586> INFO - Found 18 citekeys in bib section 0
+[36] Biber.pm:2585> INFO - Processing bib section 0
+[66] Biber.pm:2677> INFO - Looking for bibtex format file '/home/olivier/aero/global/publishing/latex/sty/thermobib.bib' for section 0
+[68] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
+[92] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
+[93] bibtex.pm:704> INFO - Found BibTeX data source '/home/olivier/aero/global/publishing/latex/sty/thermobib.bib'
+[196] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
+[197] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
+[240] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
+[241] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
+[274] bbl.pm:427> INFO - Writing 'amphibook.bbl' with encoding 'UTF-8'
+[276] bbl.pm:498> INFO - Output to amphibook.bbl
