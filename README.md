@@ -11,7 +11,7 @@ Téléchargeable sur http://thermo.ariadacapo.net/ .
 <a href="http://www.ariadacapo.net/">Olivier Cleynen</a>.
 
 * De nombreuses illustrations d’auteurs divers sous licences compatibles sont intégrées à ce document ; leurs licence et auteur sont indiquées dans chaque cas.
-* De nombreuses améliorations ont été apportées par Antoine L., Hamassala David Dicko, Kévin R., Florianne B., Julien D., Anthony Jouny, Thomas N., Amazigh.L.H, Victor D., Daniel C.-N., Pierrick Degardin, Arthur A., Ulrick M., Solène J., Florian Paupert, Gatien Bovyn, Mehdi Z., Jean-Bernard Marcon, Luc Benoit, et d’autres encore. 
+* D’innombrables améliorations ont été apportées par Antoine L., Hamassala David Dicko, Kévin R., Florianne B., Julien D., Anthony Jouny, Thomas N., Amazigh.L.H, Victor D., Daniel C.-N., Pierrick Degardin, Arthur A., Ulrick M., Solène J., Florian Paupert, Gatien Bovyn, Mehdi Z., Jean-Bernard Marcon, Luc Benoit, Christophe Masutti, qui sont vivement remerciés.
 
 Ce document est édité par un groupe de travail Framabook en vue de sa publication sous forme de livre à l’automne 2014. Un wiki de travail est mis à disposition <a href="http://dokuwiki.framabook.org/doku.php?id=framabookthermodynamique">sur le wiki Framabook</a>.
 
