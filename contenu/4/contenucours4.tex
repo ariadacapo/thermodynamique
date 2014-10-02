@@ -28,8 +28,8 @@
 		\begin{equationterms}
 			\item par définition pour un gaz parfait,
 			\item où \tab $p$ \tab est la pression (\si{\pascal}),
-			\item \tab $v$ \tab le volume spécifique (\si{\metre\cubed\per\kilogram}),
-			\item \tab $T$ \tab la température (\si{\kelvin}),
+			\item 	\tab $v$ \tab le volume spécifique (\si{\metre\cubed\per\kilogram}),
+			\item 	\tab $T$ \tab la température (\si{\kelvin}),
 			\item et \tab $R$ \tab la constante du gaz considéré (\si{\joule\per\kelvin\per\kilogram}).
 		\end{equationterms}
 
@@ -45,6 +45,24 @@
 		\end{equationterms}
 
 		Parce qu’elle est indissociable du concept de température absolue, il a fallu 150 ans pour que cette équation prenne sa forme définitive, telle qu’énoncée par \wf{Émile Clapeyron} en 1834.
+
+			\begin{anexample}
+				Une masse de \SI{2}{\kilogram} de gaz dont la constante est $R = \SI{100}{\joule\per\kelvin\per\kilogram}$ est contenue dans un réservoir de \SI{200}{\liter} à pression de \SI{3}{\bar}. Quelle est sa température ?
+				\begin{answer}
+					Nous partons de l’\cref{eq_pV=mRT} pour exprimer la température : $T = \frac{p \ V}{m \ R} = \frac{\num{3e5} \times \num{0,2}}{2 \times \num{100}} = \SI{300}{\kelvin} = \SI{26,85}{\degreeCelsius}$.
+				\end{answer}
+					\begin{remark}Admirable Émile ! La simplicité de ce calcul nous manquera au chapitre prochain.\end{remark}
+					\begin{remark}La seule épine dans cette équation concerne les unités, qu’il faut bien convertir en \textsc{si} : $\SI{200}{\liter} = \SI{0,2}{\metre\cubed}$ et $\SI{3}{\bar} = \SI{3e5}{\pascal}$. La température est toujours en \si{kelvins}. \end{remark}
+			\end{anexample}
+
+			\begin{anexample}
+				L’air atmosphérique peut être modélisé par un gaz parfait avec $R_\text{air} = \SI{287}{\joule\per\kilogram\per\kelvin}$. Aux conditions ambiantes (\SI{1}{\bar}, \SI{20}{\degreeCelsius}), quels sont le volume spécifique et la masse volumique de l’atmosphère ?
+				\begin{answer}
+					Nous partons de l’\cref{eq_pv=RT} pour exprimer le volume spécifique : $v = \frac{R \ T}{p} = \frac{\num{287} \times (\num{20} + \num{273,15})}{\num{1e5}} = \SI{0,841}{\metre\cubed\per\kilogram}$. La masse volumique suit simplement : $\rho = \frac{1}{v} = \SI{1,189}{\kilogram\per\metre\cubed}$. 
+				\end{answer}
+					\begin{remark}Là encore, une erreur dans les unités de température serait fatale (on s’en convaincra en prenant $T = \SI{0}{\degreeCelsius}$)\end{remark}
+					\begin{remark}Dans un mètre cube nous n’avons que \SI{1,2}{\kilogram} d’air. C’est très peu, surtout si l’on compare à l’eau liquide (\SI{1000}{\kilogram} pour le même volume). Les machines à air fonctionnent usuellement avec des débits volumiques importants.\end{remark}
+			\end{anexample}
 
 
 	\subsection{Que représente un gaz parfait ?}
@@ -235,7 +253,7 @@
 	\subsection{La loi de Joule}
 	\label{ch_principe_de_joule}
 
-		Dans leur expérience la plus remarquable, Joule et Gay-Lussac cherchent à faire varier la pression et le volume d’un gaz \textit{sans lui transférer de chaleur ou de travail}. Pour cela, ils laissent un gaz comprimé se détendre dans un second récipient vide (\cref{fig_detente_joule}). Le travail effectué est nul, car aucune surface n’a été déplacée (l’évolution est entièrement irréversible). La température est mesurée et… il ne se passe rien ! Joule et Gay-Lussac ne mesurent ni transferts de chaleur, ni variation de température.
+		Dans leur expérience la plus remarquable, Joule et Gay-Lussac cherchent à faire varier la pression et le volume d’un gaz \textit{sans lui transférer de chaleur ou de travail}. Pour cela, ils laissent un gaz comprimé se détendre dans un second récipient vide (\cref{fig_detente_joule}). Le travail effectué est nul, car aucune surface n’a été déplacée – l’évolution est entièrement irréversible. La température est mesurée et… il ne se passe rien ! Joule et Gay-Lussac ne mesurent ni transferts de chaleur, ni variation de température.
 
 		\begin{figure}
 			\begin{center}
@@ -277,11 +295,22 @@
 		Pour une masse $m$ de gaz parfait, on a bien sûr :
 		\begin{equation}
 			U = m \ c_v \ T
+			\label{eq_principe_de_joule_m}
 		\end{equation}
 
 		Tant que notre fluide se comporte comme un gaz parfait, cette relation~\ref{eq_principe_de_joule} reste vraie. Elle fonctionne pendant toute évolution, réversible ou non, et quelles que soient les contraintes de volume, de pression ou température.
 
 		Par contre, il faut bien noter que cette \cref{eq_principe_de_joule}, qui découle de la loi de Joule, n’est pas du tout valable dans le cas des liquides et vapeurs. On peut, par exemple, ajouter de l’énergie à une masse d’eau bouillante, sans que sa température n’augmente. Nous étudierons les liquides et vapeurs dans le \courscinqshort.
+		
+		\begin{anexample}
+			La chaleur massique à volume constant de l’air est mesurée à $c_{v\text{(air)}} = \SI{718}{\joule\per\kilogram\per\kelvin}$.\\
+			On prend une masse de \SI{0,5}{\kilogram} d’air à \SI{20}{\degreeCelsius} et on lui transfère \SI{+15}{\kilo\joule} sous forme de chaleur et \SI{-10}{\kilo\joule} sous forme de travail. Quelle est sa température finale ?
+				\begin{answer}
+					Nous savons que l’énergie a varié avec les transferts : $\Delta U = W_\fromatob + Q_\fromatob = m \ c_v \ \Delta T$. Ainsi, la température a varié en proportion : $T_\B = T_\A + \frac{\Delta U}{m \ c_v} = T_\A + \frac{W_\fromatob + Q_\fromatob}{m \ c_v} = \num{20} + \frac{\num{-10e3} + (\num{+15e3})}{\num{0,5} \times \num{718}} = \SI{33,92}{\degreeCelsius}$
+				\end{answer}
+					\begin{remark}Sacré James ! Il nous suffit de quantifier les variations d’énergie pour connaître la température, et vice-versa.\end{remark}
+					\begin{remark}Ici les températures ne sont qu’additionnées, et une conversion en \si{kelvins} n’aurait pas modifié le résultat. En cas de doute, il vaut mieux ne pas prendre ce raccourci. \end{remark}
+		\end{anexample}
 
 
 
@@ -308,6 +337,17 @@
 				\item 	\tab $T$ 	\tab est la température (\si{\kelvin}) ;
 				\item et \tab $c_p$ 	\tab est la capacité calorifique massique à pression constante (\si{\joule\per\kilogram\per\kelvin}).
 			\end{equationterms}
+		
+		
+		\begin{anexample}
+			La chaleur massique à pression constante de l’air est mesurée à $c_{p\text{(air)}} = \SI{1005}{\joule\per\kilogram\per\kelvin}$.\\
+			Un débit de \SI{2}{\kilogram\per\second} d’air passe dans un compresseur, où sa température augmente de \SI{150}{\degreeCelsius}. Quelle est la puissance consommée par le compresseur ?
+				\begin{answer}
+					Nous savons que l’énergie est directement proportionnelle à la variation de température. Avec les équations \ref{eq_grande_sfee_deltas_h} et \ref{eq_h=cpT}, nous obtenons : $\dot W_\fromatob + \dot Q_\fromatob = \dot m \ \Delta h = \dot m \ c_p \ \Delta T = 2 \times \num{1005} \times (\num{+150}) = \SI{+301,5}{\kilo\watt}$. 
+				\end{answer}
+					\begin{remark}Avec un gaz parfait, un simple thermomètre suffit pour quantifier l’énergie…\end{remark}
+					\begin{remark}…mais pas à différencier travail et chaleur. Ici nous ne pouvons pas séparer $\dot W_\fromatob$ de $\dot Q_\fromatob$. Nous ne pouvons pas non plus prédire l’état du gaz à la sortie, c’est à dire sa pression $p$ et son volume spécifique $v$ (seulement leur multiple). Pour cela, il faudrait une description précise de ce qui se passe entre l’entrée et la sortie.\end{remark}
+		\end{anexample}
 
 
 	\subsection{Interlude : Que retenir du gaz parfait jusqu’ici ?}
@@ -387,7 +427,7 @@
 		La chaleur peut être quantifiée aisément :
 		\begin{IEEEeqnarray}{rCl}
 			q_{1\to2} 	& = & \Delta u - w_{1\to2} = \Delta u + p_\text{cste} \ \Delta v = \Delta h \nonumber \\
-			q_{1 \to 2} 	& = & c_p \ \Delta T
+			q_{1 \to 2} 	& = & c_p \ \Delta T \label{eq_q_gp_sf_isobare}
 		\end{IEEEeqnarray}
 		\begin{equationterms}
 			\item lors d’une évolution réversible à pression constante, en système fermé.
@@ -414,7 +454,18 @@
 			\item lors d’une évolution réversible à pression constante, en système ouvert.
 		\end{equationterms}
 
-
+		\begin{anexample}
+			Pour l’air, on mesure $c_{p\text{(air)}} = \SI{1005}{\joule\per\kilogram\per\kelvin}$, $c_{v\text{(air)}} = \SI{718}{\joule\per\kilogram\per\kelvin}$, $R_\text{air} = \SI{287}{\joule\per\kilogram\per\kelvin}$.
+			Combien faut-il d’énergie pour chauffer l’air dans un appartement de \SI{30}{\metre\squared} depuis \SI{10}{\degreeCelsius} jusqu’à \SI{20}{\degreeCelsius} ?
+				\begin{answer}
+					Le réchauffement se fera vraisemblablement à pression constante (à moins que l’appartement ne soit fermé hermétiquement, la pression sera partout atmosphérique et l’air «~fuira~» sous les portes). Nous supposons une pression de \SI{1}{\bar} et une hauteur de plafond de \SI{2}{\metre}. Nous utilisons un système fermé englobant tout l’air réchauffé.
+					
+					Nous avons un volume de \SI{60}{\metre\cubed}, ce qui mène la masse totale d’air à $m_\A = \frac{p_\A \ V_\A}{R \ T_\A} = \frac{\num{1e5} \times \num{60}}{\num{287} \times (\num{10} + \num{273,15})} = \SI{73,83}{\kilogram}$.\\
+					La chaleur nécessaire pour chauffer cette quantité d’air à pression constante est quantifiable avec l’\cref{eq_q_gp_sf_isobare} : $Q_\fromatob = m \ c_p \ \Delta T = \num{73,83} \times \num{1005} \times (\num{20} - \num{10}) = \SI{+7,42e5}{\joule} = \SI{+742}{\kilo\joule}$.
+				\end{answer}
+					\begin{remark}Ce résultat représente le transfert final \emph{net} de chaleur vers l’air (incluant les pertes vers les murs et les fenêtres, et les transferts qui les compensent).\end{remark}
+					\begin{remark}À l’inverse, un refroidissement provoquerait l’arrivée d’air extérieur, dont il faudrait tenir compte dans le calcul de la masse.\end{remark}
+		\end{anexample}
 
 	\subsection{Évolutions à volume constant}
 	\label{ch_gp_isochores}
@@ -444,7 +495,7 @@
 
 		Lorsque le volume spécifique d’un gaz parfait est constant, ses propriétés varient selon la relation 
 		\begin{equation}
-			\frac{T}{p} = \text{constante}
+			\frac{T}{p} = \text{constante} \label{eq_gp_isochore}
 		\end{equation}
 		
 		En système fermé, nous avons $q_{1\to2} + w_{1\to2} = \Delta u$, et, si l’évolution est réversible, la chaleur et le travail peuvent être facilement reliés à la température.
@@ -452,7 +503,7 @@
 		Le volume ne variant pas, le travail est bien sûr nul :
 		\begin{IEEEeqnarray}{rCl}
 			w_{1\to2} 	& = & - \int _1^2 p \diff v	\nonumber \\
-			w_{1\to2} 	& = & 0
+			w_{1\to2} 	& = & 0 \label{eq_w_gp_sf_isochore}
 		\end{IEEEeqnarray}
 		\begin{equationterms}
 			\item lors d’une évolution réversible à volume constant, en système fermé.
@@ -461,7 +512,7 @@
 		La chaleur peut être quantifiée aisément :
 		\begin{IEEEeqnarray}{rCl}
 			q_{1\to2} 	& = & \Delta u - w_{1\to2} = \Delta u \nonumber \\
-			q_{1\to2} 	& = & c_v \ \Delta T
+			q_{1\to2} 	& = & c_v \ \Delta T \label{eq_q_gp_sf_isochore}
 		\end{IEEEeqnarray}
 		\begin{equationterms}
 			\item lors d’une évolution réversible à volume constant, en système fermé.
@@ -486,6 +537,18 @@
 			\item lors d’une évolution réversible à volume constant, en système ouvert.
 		\end{equationterms}
 
+		\begin{anexample}
+			Pour l’air, on mesure $c_{p\text{(air)}} = \SI{1005}{\joule\per\kilogram\per\kelvin}$, $c_{v\text{(air)}} = \SI{718}{\joule\per\kilogram\per\kelvin}$, $R_\text{air} = \SI{287}{\joule\per\kilogram\per\kelvin}$.\\
+			Dans un cylindre de moteur à essence, de l’air se trouve à pression de \SI{17}{\bar} avec une masse volumique de \SI{9,4}{\kilogram\per\metre\cubed}. La combustion du carburant (si rapide que le volume n’a pas le temps de varier) se traduit par l’apport de \SI{1450}{\kilo\joule\per\kilogram} de chaleur. Quelles valeur atteignent la température et la pression ?
+				\begin{answer}
+					Au départ, la température est $T_\A = \frac{p_\A v_\A}{R} = \frac{p_\A}{\rho_A R} = \frac{\num{17e5}}{\num{9,4} \times \num{287}} = \SI{630,1}{\kelvin} = \SI{357}{\degreeCelsius}$.\\
+					Nous utilisons un système fermé constitué par la masse d’air. Le volume ne variant pas, le travail est nul (\ref{eq_w_gp_sf_isochore}) et c’est la chaleur qui fait varier l’énergie interne (\ref{eq_q_gp_sf_isochore}) : $q_\fromatob = \Delta u - w_\fromatob = \Delta u = c_v \ \Delta T$ ; ainsi $T_\B = T_\A + \frac{q_\fromatob}{c_v} = \num{630,1} + \frac{\num{1450e3}}{\num{718}} = \SI{2649,6}{\kelvin} = \SI{2376,5}{\degreeCelsius}$.\\
+					La pression finale s’obtient en comparant les conditions finale et initiale (\ref{eq_gp_isochore}) : $\frac{R T_\A}{p_\A} = v_\A = v_\B = \frac{R T_\B}{p_\B} $ ; ainsi $p_\B = \frac{T_\B}{T_\A} p_\A = \frac{\num{2649,6}}{\num{630,1}} \times \num{17e5} = \SI{7,148e6}{\pascal} = \SI{71,5}{\bar}$.
+						\begin{remark}Attention à bien compter les températures en \si{kelvins} dans les fractions.\end{remark}
+						\begin{remark}La température maximale, supérieure à \SI{2300}{\degreeCelsius}, dépasse la température de fonte de la plupart des métaux. Dans un moteur essence, cette température n’est atteinte que sporadiquement, à chaque combustion.\end{remark}
+						\begin{remark}Les données de cet exemple imitent celles de l’exercice \ref{exo_cycle_moteur_essence}. Cette fois, nous savons prédire les conditions finales sans devoir faire de mesure.\end{remark}
+				\end{answer}
+		\end{anexample}
 
 	\subsection{Évolutions à température constante}
 	\label{ch_gp_isothermes}
@@ -515,15 +578,15 @@
 		Lorsque la température d’un gaz parfait reste constante, ses propriétés varient selon la relation 
 		\begin{equation}
 			p \ v = \text{constante}
-			\label{eq_pvconstante}
+			\label{eq_gp_isotherme}
 		\end{equation}
 		
 
 		En système fermé, nous avons $q_{1\to2} + w_{1\to2} = \Delta u$, et, si l’évolution est réversible, la chaleur et le travail peuvent être reliés aux propriétés du gaz, non sans une certaine difficulté.
 		\begin{IEEEeqnarray}{rCl}
-			w_{1\to2} 	& = & - \int _1^2 p \diff v = - \int \frac{R T_\text{cste}}{v} \diff v = - R T_\text{cste} \int_1^2 \frac{1}{v} \diff v = - R T_\text{cste} [\ln v]_{v_1}^{v_2} \nonumber \\
+			w_{1\to2} 	& = & - \int _1^2 p \diff v = - \int \frac{R \ T_\text{cste}}{v} \diff v = - R \ T_\text{cste} \int_1^2 \frac{1}{v} \diff v = - R \ T_\text{cste} [\ln v]_{v_1}^{v_2} \nonumber \\
 			w_{1\to2} 	& = & R \ T_\text{cste} \ln \left(\frac{v_1}{v_2}\right)
-			\label{eq_travail_température_constante}
+			\label{eq_gp_travail_isotherme_sf1}
 		\end{IEEEeqnarray}
 		\begin{equationterms}
 			\item lors d’une évolution réversible à température constante, en système fermé.
@@ -536,8 +599,8 @@
 		
 		ainsi :
 		\begin{equation}
-			w_{1\to2} 	 = R T_\text{cste} \ln \left(\frac{p_2}{p_1}\right)
-			\label{eq_gp_travail_isotherme_sf}
+			w_{1\to2} 	 = R \ T_\text{cste} \ln \left(\frac{p_2}{p_1}\right)
+			\label{eq_gp_travail_isotherme_sf2}
 		\end{equation}
 		\begin{equationterms}
 			\item lors d’une évolution réversible à température constante, en système fermé.
@@ -556,8 +619,8 @@
 		
 		Lorsque l’évolution se fait en système ouvert, nous avons $q_{1\to2} + w_{1\to2} = \Delta h$, et, si l’évolution est réversible, la chaleur et le travail peuvent être quantifiés de la même façon :
 		\begin{IEEEeqnarray}{rCl}
-			w_{1\to2} 	& = & \int _1^2 v \diff p = \int_1^2 \frac{R T_\text{cste}}{p} \diff p = R T_\text{cste} \int_1^2 \frac{1}{p} \diff p = R T_\text{cste} [\ln v]_{p_1}^{p_2} \nonumber \\
-			w_{1\to2} 	& = & R T_\text{cste} \ln \left(\frac{p_2}{p_1}\right) = R T_\text{cste} \ln \left(\frac{v_1}{v_2}\right) \label{eq_travail_température_constante_rep}
+			w_{1\to2} 	& = & \int _1^2 v \diff p = \int_1^2 \frac{R \ T_\text{cste}}{p} \diff p = R \ T_\text{cste} \int_1^2 \frac{1}{p} \diff p = R \ T_\text{cste} [\ln v]_{p_1}^{p_2} \nonumber \\
+			w_{1\to2} 	& = & R \ T_\text{cste} \ln \left(\frac{p_2}{p_1}\right) = R \ T_\text{cste} \ln \left(\frac{v_1}{v_2}\right) \label{eq_travail_température_constante_rep}
 		\end{IEEEeqnarray}
 		\begin{equationterms}
 			\item lors d’une évolution réversible à température constante, en système ouvert.
@@ -574,6 +637,23 @@
 			\item lors d’une évolution réversible à température constante, en système ouvert.
 		\end{equationterms}
 
+		\begin{anexample}
+			Pour l’air, on mesure $c_{p\text{(air)}} = \SI{1005}{\joule\per\kilogram\per\kelvin}$, $c_{v\text{(air)}} = \SI{718}{\joule\per\kilogram\per\kelvin}$, $R_\text{air} = \SI{287}{\joule\per\kilogram\per\kelvin}$.\\
+			Une masse de \SI{2,5}{\kilogram} d’air dans un réservoir est à pression de \SI{2}{\bar} et température de \SI{800}{\degreeCelsius}. On souhaite lui fournir \SI{100}{\kilo\joule} de chaleur sans modifier sa température. Quel doit être le transfert de travail ? Quels seront le volume et la pression au final ?
+			\begin{answer}
+				Le travail est facile à déterminer : $W_\fromatob + Q_\fromatob = \Delta U = 0$ ici car la température ne varie pas. Ainsi $W_\fromatob = - Q_\fromatob = \SI{-100}{\kilo\joule}$ (le gaz doit dépenser autant de travail qu’il reçoit de chaleur).\\
+				Les propriétés finales sont obtenues grâce à l’\cref{eq_gp_travail_isotherme_sf1} :
+						\begin{IEEEeqnarray*}{rCl}
+							w_\fromatob 	& = & R \ T_\text{cste} \ln \left(\frac{v_\A}{v_\B}\right) = R \ T_\text{cste} \ln \left(\frac{V_\A}{V_\B}\right)\\
+							\frac{V_\A}{V_\B} & = & \exp \left[\frac{w_\fromatob}{R \ T_\text{cste}}\right] = \exp \left[\frac{W_\fromatob}{m \ R \ T_\text{cste}}\right]\\
+							 &=& \exp \left[\frac{\num{-100e3}}{\num{2,5} \times 287 \times (\num{800} + \num{273,15})}\right] = \num{0,878207}
+						\end{IEEEeqnarray*}
+				Et comme $V_\A = \frac{R \ T_\A}{p_\A} = \frac{\num{287} \times (\num{800} + \num{273,15})}{\num{2e5}} = \SI{1,54}{\metre\cubed}$, nous obtenons un volume final $V_\B = \frac{V_\A}{\num{0,878207}} = \SI{1,715}{\metre\cubed}$.\\
+				La pression finale, enfin, s’obtient en comparant les états final et initial : $p_\A V_\A = m \ R \ T_\A = m \ R \ T_\B = p_\B V_\B$ (ou avec l’\cref{eq_gp_travail_isotherme_sf2}) : $p_\B = p_\A \frac{V_\A}{V_\B} = \num{2e5} \times \num{0,878207} = \SI{1,786e5}{\pascal} = \SI{1,786}{\bar}$.
+			\end{answer}
+				\begin{remark}Le volume augmente, et la pression diminue, puisque le gaz travaille en se détendant et en recevant de la chaleur.\end{remark}
+				\begin{remark}Il est difficile de cacher que ce type d’évolution est rarement utilisé en pratique, mais il nous servira pour élaborer un prodigieux thermomètre-moteur-réfrigérateur absolu, au \courssept.\end{remark}
+		\end{anexample}
 
 
 
@@ -682,6 +762,21 @@
 		\end{equationterms}
 
 		Nous disposons donc d’une relation simple entre pression et volume pour un gaz parfait suivant une évolution réversible adiabatique ; chaque gaz possédant sa propre valeur de $\gamma$. Remarquons une dernière fois que même si par définition aucune chaleur n’est échangée, la température varie systématiquement, comme l’indique la relation~\ref{eq_isentropique_horrible1}.
+		
+		\begin{anexample}
+			Pour l’air, on mesure $c_{p\text{(air)}} = \SI{1005}{\joule\per\kilogram\per\kelvin}$, $c_{v\text{(air)}} = \SI{718}{\joule\per\kilogram\per\kelvin}$, $R_\text{air} = \SI{287}{\joule\per\kilogram\per\kelvin}$, et $\gamma_\text{air} = \num{1,4}$.\\
+			Un réservoir d’air comprimé de \SI{50}{\liter} contient de l’air à \SI{40}{\bar} et \SI{50}{\degreeCelsius}. L’atmosphère ambiante est à \SI{1}{\bar}. Quelle est la quantité maximale de travail que l’on peut extraire de l’air comprimer sans lui fournir de chaleur ?
+				\begin{answer}
+					Le travail maximal sera obtenu si la détente est réversible. Comme nous ne pouvons pas apporter de chaleur, notre meilleure option est donc ici d’effectuer une détente adiabatique réversible depuis \SI{40}{\bar} jusqu’à \SI{1}{\bar}.\\
+					Nous voulons calculer la température finale, car c’est elle qui nous donnera la variation d’énergie, et donc le travail perdu par le gaz. Des trois intimidantes relations \ref{eq_isentropique_horrible1} à \ref{eq_isentropique_horrible3}, c’est la seconde qui nous intéresse : $\left( \frac{T_\A}{T_\B} \right)	= \left( \frac{p_\A}{p_\B} \right)^{\frac{\gamma -1}{\gamma}}$. Ainsi : $T_\B = T_\A \left( \frac{p_\A}{p_\B} \right)^{-\frac{\gamma -1}{\gamma}} = (\num{50} + \num{273,15}) \left( \frac{40}{1} \right)^{\frac{\num{1,4} -1}{\num{1,4}}} = \SI{112,6}{\kelvin} = \SI{-160,5}{\degreeCelsius}$.\\
+					Le travail effectué par le système fermé constitué par le gaz est donc $w_\fromatob = \Delta u - q_\fromatob = c_v \ \Delta T - 0 = \num{718} \times (\num{-160,5} - \num{50}) = \SI{-1,5115e5}{\joule\per\kilogram} = \SI{-151,1}{\kilo\joule\per\kilogram}$.\\
+					En calculant la masse $m_\A = \frac{p_\A V_\A}{R \ T_\A} = \frac{\num{40e5} \times \num{0,2}}{287 \times \ (\num{50} + \num{273,15})} = \SI{8,626}{\kilogram}$, nous obtenons $W_\fromatob = m_\A w_\fromatob = \num{8,626} \times \num{-151,1e3} = \SI{-1,3038e6}{\joule} = \SI{-1,304}{\mega\joule}$.
+					\begin{remark} Cela représente suffisamment d’énergie pour accélérer sans frottement un véhicule de \SI{1}{\tonne} jusqu’à une vitesse $C = \left[\frac{\num{1,3038e6}}{\frac{1}{2} \times \num{1000}}\right]^{\num{0,5}} = \SI{51,1}{\metre\per\second} \approx \SI[per-mode = symbol]{180}{\kilo\metre\per\hour}$.\end{remark}
+					\begin{remark}La température finale, \SI{-160}{\degreeCelsius} (!), nous rappelle qu’il ne faut pas confondre «~adiabatique~» et «~à température constante~».\end{remark}
+					\begin{remark}Les pressions peuvent être laissées en \si{bars} dans les fractions, mais les températures ne peuvent rester en~\si{\degreeCelsius}.\end{remark}
+					\begin{remark}La détente correspond au maximum de travail car elle est réversible. Si elle ne l’était pas, alors la température du gaz chuterait moins et le travail serait plus faible (nous aurions toujours $w = c_v \Delta T$). Dans le cas le plus extrême, celui de la détente de Joule et Gay-Lussac (\S\ref{ch_principe_de_joule}), la température resterait fixe à~\SI{50}{\degreeCelsius} et aucun travail ne serait développé.\end{remark}
+				\end{answer}
+		\end{anexample}
 
 		
 	\subsection{Évolutions arbitraires}
