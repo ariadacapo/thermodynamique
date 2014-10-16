@@ -168,6 +168,7 @@
 
 
 	\subsection{Le diagramme pression-volume ($p$-$v$)}
+	\label{ch_lv_bain_marie}
 
 		Pour bien cerner le phénomène de changement de phase, imaginons maintenant une expérience légèrement différente. 
 		
@@ -628,14 +629,14 @@
 		En système fermé, nous avons $q_{1\to2} + w_{1\to2} = \Delta u$ (\ref{eq_premier_principe_sf_min}). Si l’évolution est réversible, la chaleur et le travail peuvent être chacun quantifiés :
 		\begin{IEEEeqnarray}{rCl}
 			w_{1\to2} 	& = & - \int _1^2 p \diff v  = -p_\text{cste} \int _1^2 \diff v	\nonumber \\
-			w_{1 \to 2} 	& = & -p_\text{cste} \ \Delta v
+			w_{1 \to 2} 	& = & -p_\text{cste} \ \Delta v \label{eq_lv_sf_travail_isobare}
 		\end{IEEEeqnarray}
 		\begin{equationterms}
 			\item lors d’une évolution réversible à pression constante $p_\text{cste}$, en système fermé.
 		\end{equationterms}
 		\begin{IEEEeqnarray}{rCl}
 			q_{1\to2} 	& = & \Delta u - w_{1\to2} = \Delta u + p_\text{cste} \ \Delta v \nonumber \\
-			q_{1 \to 2} 	& = & \Delta h
+			q_{1 \to 2} 	& = & \Delta h \label{eq_lv_sf_chaleur_isobare}
 		\end{IEEEeqnarray}
 		\begin{equationterms}
 			\item lors d’une évolution réversible à pression constante, en système fermé.
@@ -716,14 +717,14 @@ pharaonique. Pour s’en affranchir, il faudra monter en température : ce sera 
 		En système fermé, nous avons $q_{1\to2} + w_{1\to2} = \Delta u$. La chaleur et le travail peuvent être chacun quantifiés :
 		\begin{IEEEeqnarray}{rCl}
 			w_{1\to2} 	& = & - \int _1^2 p \diff v	\nonumber \\
-			w_{1\to2} 	& = & 0
+			w_{1\to2} 	& = & 0 \label{eq_lv_sf_travail_isochore}
 		\end{IEEEeqnarray}
 		\begin{equationterms}
 			\item lors d’une évolution à volume constant, en système fermé.
 		\end{equationterms}
 		\begin{IEEEeqnarray}{rCl}
 			q_{1\to2} 	& = & \Delta u - w_{1\to2} \nonumber \\
-			q_{1\to2} 	& = & \Delta u
+			q_{1\to2} 	& = & \Delta u \label{eq_lv_sf_chaleur_isochore}
 		\end{IEEEeqnarray}
 		\begin{equationterms}
 			\item lors d’une évolution à volume constant, en système fermé.

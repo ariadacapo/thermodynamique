@@ -20,7 +20,7 @@
 
 \usepackage{subfigure}
 \usepackage{caption}
-\usepackage[section]{placeins} 	% All floats (figures & tables) must be cleared before a new section
+\usepackage[section,above]{placeins} 	% All floats (figures & tables) must be cleared before a new section
 \usepackage{flafter}					% so figures/tables are always displayed after insertion (does not seem to work here)
 \usepackage[hyperref=true,sorting=ynt,backend=biber]{biblatex} % Bibliography
 	\addbibresource{annexes/thermobib.bib}
@@ -184,6 +184,11 @@
 
 % Tool to prevent pagebreaks in exercises (with \needspace{10cm})
 \usepackage{needspace}
+
+% Shift margin in descriptions by a teensie bit right 
+% so that tabs in exercise solutions do not break indentation
+\usepackage{enumitem}
+\setlist[description]{leftmargin=1.2cm} % default is around 1cm
 
 %%%%%%%%%%%%%%%%%
 % Numbering and titles
@@ -377,6 +382,9 @@
 \newcommand{\B}{\text{B}}
 \newcommand{\C}{\text{C}}
 \newcommand{\D}{\text{D}}
+\newcommand{\E}{\text{E}}
+\newcommand{\F}{\text{F}}
+\newcommand{\G}{\text{G}}
 
 % a more intuitive command for clearing figure & table floats
 \newcommand{\clearfloats}{\FloatBarrier}
