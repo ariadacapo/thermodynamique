@@ -33,9 +33,9 @@
 		
 	\subsection{Comment se représenter la liquéfaction et l’ébullition ?}
 		
-		Lorsque nous avions exploré le modèle du gaz parfait en \S\ref{ch_gaz_parfait_kezako}, nous nous étions représentés les molécules comme de très petites boules de billard en mouvement chaotique, se percutant sans jamais s’attirer (\cref{fig_gaz_boules}). En réalité, les molécules sont soumises à des forces d’attraction respectives, et cela modifie leur comportement.
+		Lorsque nous avions exploré le modèle du gaz parfait en \S\ref{ch_gaz_parfait_kezako}, nous nous étions représentés les molécules comme de très petites boules de billard en mouvement chaotique, se percutant sans jamais s’attirer (\cref{fig_gaz_boules}). En réalité, les molécules sont soumises à des forces d’attraction respective qui affectent beaucoup leur comportement.
 		
-		Imaginons, pour commencer, deux très petites boules de billard attirées respectivement par une force magnétique, et qui se percutent sans frottement à très grande vitesse (\cref{fig_billard_grande_vitesse}). La force d’attraction modifie la trajectoire lorsque les boules sont très proches ; mais une fois qu’elles se sont éloignées, l’influence devient négligeable.
+		Imaginons, pour commencer, deux très petites boules de billard attirées respectivement par une force magnétique, et qui se percutent sans frottement à très grande vitesse (\cref{fig_billard_grande_vitesse}). La force d’attraction modifie leur trajectoire lorsque les boules sont très proches l’une de l’autre ; mais une fois qu’elles se sont éloignées, l’influence devient négligeable.
 
 		
 		\begin{figure}
@@ -56,7 +56,7 @@
   		\label{fig_billard_faible_vitesse}
 		\end{figure}
 
-		Ce modèle simpliste est une bonne première approche pour décrire le phénomène de liquéfaction. Lorsque l’on réduit l’énergie cinétique des molécules d’un gaz (par refroidissement), passé un seuil critique elles s’assemblent de façon beaucoup plus compacte, tout en continuant à se percuter à la même vitesse moyenne (température inchangée). Plus l’on prélève de chaleur au gaz, plus le nombre de molécules en interaction compacte augmente. Elles forment de petits groupes ; les groupes de~\num{e14} molécules\footnote{c’est-à-dire seulement cent mille milliards de molécules…} deviennent visibles à l’œil nu (car ils diffusent la lumière) s’ils sont suffisamment nombreux ; dès que le nombre de molécules atteint \num{e21} on peut identifier des gouttes de liquide. 
+		Ce modèle simpliste est une bonne première approche pour décrire le phénomène de liquéfaction. Lorsque l’on réduit l’énergie cinétique des molécules d’un gaz (par refroidissement), passé un seuil critique elles s’assemblent de façon beaucoup plus compacte, tout en continuant à se percuter à la même vitesse moyenne (température inchangée). Plus l’on prélève de chaleur au gaz, plus le nombre de molécules en interaction compacte augmente. Elles forment de petits groupes ; s’ils sont suffisemment nombreux, les groupes de~\num{e14} molécules (cent mille milliards) diffusent la lumière et forment une suspension visible à l’œil nu. Dès que le nombre de molécules atteint \num{e21} l’œil humain peut identifier des gouttes de liquide. 
 		
 		On peut ainsi liquéfier n’importe quel gaz en le refroidissant et réduisant son volume. La température et la pression à atteindre pour la liquéfaction dépendent de la taille et de la géométrie des molécules qui le composent. Dans les sections suivantes, nous allons quantifier précisément les quantités d’énergie et les gammes de propriétés nécessaires pour vaporiser et liquéfier l’eau.
 	
@@ -67,7 +67,7 @@
 
 		Sous forme de vapeur, un fluide a le comportement d’un gaz et occupe spontanément tout le volume qui lui est accordé. On l’utilise souvent sous cette forme pour déplacer des pièces mécaniques (piston dans un cylindre, pales de turbine).
 		
-		Sous forme liquide, le fluide a une densité très nettement supérieure. On l’utilise souvent sous cette forme pour transférer de la chaleur (réchauffement ou refroidissement) car la taille des conduits peut être très faible\footnote{Par exemple, un radiateur rempli d’air ou de vapeur devrait être environ mille fois plus grand qu’un radiateur empli de liquide pour avoir la même puissance.}\nolinebreak.
+		Sous forme liquide, le fluide a une densité très nettement supérieure. On l’utilise souvent sous cette forme pour transférer de la chaleur (réchauffement ou refroidissement) car la taille des conduits peut être très faible. Par exemple, un radiateur rempli d’air ou de vapeur devrait être environ mille fois plus grand qu’un radiateur empli de liquide pour avoir la même puissance.
 		
 		Historiquement, l’eau a été utilisée dans les tous premiers moteurs de l’histoire pour ces raisons, et parce que les variations de volume lors des changements de phase permettent un contrôle plus aisé des machines avec une technologie faible. De nos jours, les liquides/vapeurs sont surtout utilisés dans deux grands types d’applications :
 			\begin{description}
@@ -118,52 +118,51 @@
 			\begin{center}
 				\includegraphics[width=\textwidth]{images/etats_vapeur_pression_constante.png}
 			\end{center}
-			\caption{Réchauffement d’une quantité fixe d’eau à pression constante.\\
-				A : liquide comprimé ; B : mélange liquide-vapeur ; C : vapeur saturée ; D : vapeur sèche.}
+			\supercaption{Réchauffement d’une quantité fixe d’eau à pression constante.\\
+				A : liquide comprimé ; B : mélange liquide-vapeur ; C : vapeur saturée ; D : vapeur sèche.}{\cczero \oc}
 			\label{fig_changement_phase}
 		\end{figure}
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=12cm]{images/etats_vapeur_t_v.png}
+				\includegraphics[width=\didacticpvdiagramwidth]{images/etats_vapeur_t_v.png}
 			\end{center}
-			\caption{Vocabulaire : état de l’eau pendant une évolution à pression constante.}
+			\supercaption{Vocabulaire : état de l’eau pendant une évolution à pression constante.}{\cczero \oc}
 			\label{fig_T-v_construction_1}
 		\end{figure}
 
-		Au départ, lorsque l’eau est liquide, la température augmente linéairement avec le volume, avec un fort gradient. On parle alors de \vocab{liquide comprimé}\footnote{\vocab{Liquide comprimé} ou \vocab{sous-refroidi} (en anglais : \vocabe{unsaturated}, \vocabe{compressed} or \vocabe{subcooled liquid})}.
+		Au départ, lorsque l’eau est liquide, la température augmente linéairement avec le volume, avec un fort gradient. On parle alors de \vocab{liquide comprimé}\footnote{\vocab{Liquide comprimé} ou \vocab{sous-refroidi}}. % en anglais : \vocabe{unsaturated}, \vocabe{compressed} or \vocabe{subcooled liquid})
 
 		Puis, soudainement, alors que le volume continue de croître, la température cesse d’augmenter. Le mélange dans le cylindre est alors di-phasique : une partie est liquide, et l’autre gazeuse. L’ajout de chaleur ne provoque aucune augmentation de température (contrairement à un gaz parfait), mais seulement la transformation de liquide en vapeur : c’est l’ébullition. 
 
 		Dans cet état, la substance est appelée \vocab{mélange liquide-vapeur}\footnote{Rigoureusement, le mélange est nommé \vocab{mélange liquide-vapeur saturé}, puisqu’il est composé de \vocab{liquide saturé} (parfois dit \vocab{saturant}) et de \vocab{vapeur saturée} (parfois dite \vocab{saturante}). En anglais : \vocabe{wet vapour}.}\nolinebreak.
 
-		Enfin, lorsque la dernière goutte de liquide a été transformée en vapeur, la température reprend son augmentation au fur et à mesure que l’on apporte de la chaleur. Le fluide est alors dans un état dit de \vocab{vapeur sèche}\footnote{\vocab{Vapeur surchauffée} ou \vocab{sèche} (en anglais : \vocabe{superheated} ou \vocabe{dry vapour}).}\nolinebreak.
+		Enfin, lorsque la dernière goutte de liquide a été transformée en vapeur, la température reprend son augmentation au fur et à mesure que l’on apporte de la chaleur. Le fluide est alors dans un état dit de \vocab{vapeur sèche}\footnote{\vocab{Vapeur sèche} ou \vocab{surchauffée}.}\nolinebreak.%(en anglais : \vocabe{superheated} ou \vocabe{dry vapour})
 
-		\clearfloats L’expérience peut être renouvelée à des pressions différentes (\cref{fig_T-v_construction_2}). Lorsque la pression que l’on impose augmente, on observe deux faits importants :
-
+		\clearfloats %handmade
+		L’expérience peut être renouvelée à des pressions différentes (\cref{fig_T-v_construction_2}). Lorsque la pression que l’on impose augmente, on observe deux faits importants :
 		\begin{itemize}
 			\item La température de changement de phase augmente ;
 			\item La plage de volume parcourue pendant le changement de phase diminue.
 		\end{itemize}
 
-
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=10cm]{images/t_v_liquidevapeur_construction.png}
+				\includegraphics[width=\didacticpvdiagramwidth]{images/t_v_liquidevapeur_construction.png}
 			\end{center}
-			\caption{Propriétés de l’eau tracées sur un diagramme température-volume, lorsque l’on effectue l’expérience décrite en \cref{fig_changement_phase} à différentes pressions. On observe que plus la pression est grande, et plus la plage d’ébullition est petite.}
+			\supercaption{Propriétés de l’eau tracées sur un diagramme température-volume, lorsque l’on effectue l’expérience décrite en \cref{fig_changement_phase} à différentes pressions. On observe que plus la pression est grande, et plus la plage d’ébullition est petite.}{\cczero \oc}
 			\label{fig_T-v_construction_2}
 		\end{figure}
 
 		Au-dessus d’une certaine pression nommée \vocab{pression critique} $p_\text{cr.}$, le changement de phase se fait de façon indistincte et il n’y a plus de plage de température constante. Le liquide devient vapeur sans bouillir !
 
-		Au final, on peut relier entre eux tous les points de changement de phase, à toutes les pressions différentes : on obtient une courbe nommée \vocab{courbe de saturation}\footnote{Parfois divisée en deux parties peu judicieusement nommées \vocab{courbe de rosée} à droite et \vocab{courbe d’ébullition} à gauche.}. Toutes ces informations peuvent être regroupées sur un diagramme température-volume ($T$-$v$) représenté en \cref{fig_t-v_eau}, qui décrit bien les propriétés des mélanges liquide-vapeur. L’étudiant/e est encouragé/e à s’entraîner à le reproduire.
+		Au final, on peut relier entre eux tous les points de changement de phase, à toutes les pressions différentes : on obtient une courbe nommée \vocab{courbe de saturation}\footnote{La \vocab{courbe de saturation} est parfois divisée arbitrairement en deux parties nommées \vocab{courbe de rosée} à droite et \vocab{courbe d’ébullition} à gauche.}. Toutes ces informations peuvent être regroupées sur un diagramme température-volume ($T$-$v$) représenté en \cref{fig_t-v_eau}, qui décrit bien les propriétés des mélanges liquide-vapeur. L’étudiant/e est encouragé/e à s’entraîner à le reproduire.
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=10cm]{images/t_v_liquidevapeur.png}
+				\includegraphics[width=\didacticpvdiagramwidth]{images/t_v_liquidevapeur.png}
 			\end{center}
-			\caption{Diagramme température-volume de l’eau, représenté avec une évolution à pression constante (isobare). La courbe de saturation est représentée en bleu.}
+			\supercaption{Diagramme température-volume de l’eau, représenté avec une évolution à pression constante (isobare). La courbe de saturation est représentée en bleu.}{\cczero \oc}
 			\label{fig_t-v_eau}
 		\end{figure}
 
@@ -172,27 +171,27 @@
 
 		Pour bien cerner le phénomène de changement de phase, imaginons maintenant une expérience légèrement différente. 
 		
-		On se propose de faire varier le volume d’une masse donnée d’eau, en maintenant sa température constante (par exemple en plongeant le récipient dans un bain-marie). On observe ainsi la pression à l’intérieur du récipient (\cref{fig_p-v_construction_1}).
+		On se propose de faire varier le volume d’une masse donnée d’eau, en maintenant sa température constante (par exemple en plongeant le récipient dans un bain-marie). On observe alors la pression à l’intérieur du récipient (\cref{fig_p-v_construction_1}).
 		
 		Tant que l’eau est liquide, on observe que la pression chute très fortement au fur et à mesure que l’on augmente son volume. Puis, soudainement, la pression reste parfaitement constante, alors que volume continue d’augmenter : à l’intérieur du cylindre, l’eau se met à bouillir et on a un mélange liquide-vapeur. Enfin, lorsque la dernière goutte d’eau liquide s’est évaporée, la pression reprend sa décroissance.
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=10cm]{images/p_v_liquidevapeur_construction.png}
+				\includegraphics[width=\didacticpvdiagramwidth]{images/p_v_liquidevapeur_construction.png}
 			\end{center}
-			\caption{Propriétés de l’eau tracées sur un diagramme pression-volume, lorsque l’on maintient la température constante en faisant varier le volume.}
+			\supercaption{Propriétés de l’eau tracées sur un diagramme pression-volume, lorsque l’on maintient la température constante en faisant varier le volume.}{\cczero \oc}
 			\label{fig_p-v_construction_1}
 		\end{figure}
 
 		Si l’on reproduit l’expérience à différentes températures, on constate que plus la température est haute, et plus la plage de changement de phase est courte. au-dessus d’une température, dite critique ($T_\text{cr.}$), la plage disparaît tout à fait.
 
-		Le comportement d’un liquide-vapeur peut être ainsi décrit sur un diagramme pression-volume ($p-v$) comme montré en \cref{fig_p-v_eau}. L’étudiant/e est également encouragé/e à savoir reproduire ce schéma.
+		Le comportement d’un liquide-vapeur peut être ainsi décrit sur un diagramme pression-volume ($p-v$) comme montré en \cref{fig_p-v_eau}. L’étudiant/e est également encouragé/e à reconstruire ce schéma.
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=10cm]{images/p_v_liquidevapeur.png}
+				\includegraphics[width=\didacticpvdiagramwidth]{images/p_v_liquidevapeur.png}
 			\end{center}
-			\caption{Diagramme pression-volume de l’eau, représenté avec une évolution à température constante (isotherme). La courbe de saturation est représentée en bleu.}
+			\supercaption{Diagramme pression-volume de l’eau, représenté avec une évolution à température constante (isotherme). La courbe de saturation est représentée en bleu.}{\cczero \oc}
 			\label{fig_p-v_eau}
 		\end{figure}  
 
@@ -203,7 +202,6 @@
 		La notion la plus importante à retenir du comportement des liquides-vapeurs est que contrairement aux gaz parfaits, \emph{la température y est complètement déréglée}. Elle ne dicte plus simplement les autres propriétés.
 		
 		Insistons bien. Pour un fluide proche d’un changement de phase :
-					
 			\begin{IEEEeqnarray}{rCl}
 				p v 	& \not\propto 	& T \\
 				u 		& \not\propto 	& T \\
@@ -225,12 +223,9 @@
 				\begin{center}
 					\includegraphics[width=6cm]{images/taza_azul.jpg}
 				\end{center}
-				\captionsetup{singlelinecheck=off}
-				\caption[shoo]{L’eau visible au-dessus d’un récipient de liquide chaud, parfois nommée \vocab{buée}, est à l’état liquide et non gazeux. Ces gouttelettes sont observables à l’œil nu.\\
-				\begin{credits}Photo \pd \wcfile{Taza_azul.jpg}{par Jorge Barrios} (recadrée)\end{credits}
-				}
+				\supercaption{L’eau visible au-dessus d’un récipient de liquide chaud, parfois nommée \vocab{buée}, est à l’état liquide et non gazeux. Ces gouttelettes sont observables à l’œil nu.}{Photo \pd \wcfile{Taza_azul.jpg}{par Jorge Barrios} (recadrée)}
 				\label{fig_tazaazul}
-			\end{figure}  
+			\end{figure}
 				
 				\item L’air est partiellement constitué de vapeur d’eau (et sa capacité massique à porter de l’eau augmente avec la température). Lorsque l’on fait bouillir de l’eau liquide à l’air libre, il ne faut pas oublier que c’est l’air qui accueille la vapeur d’eau ; l’ébullition se déroule donc sensiblement différemment de l’expérience décrite en \cref{fig_changement_phase}\footnote{On peut noter, par exemple, que la température de l’eau liquide chute sensiblement lors d’une évaporation à pression constante dans l’air. Autre différence, la condensation est catalysée par la présence de particules de poussière dans l’air.}\nolinebreak.
 			\end{itemize}
@@ -306,7 +301,7 @@
  		\label{tab_abaque1extrait}
  		\end{table}
 
-		\clearfloats
+		\clearfloats %handmade
 		Cet abaque~nous permet de répondre à de nombreuses questions. Quelques exemples :
 			
 			\begin{anexample}
@@ -466,7 +461,7 @@
 
 	\subsection{Le mélange liquide-vapeur}
 	
-		Nous voulons également quantifier les propriétés de l’eau \emph{entre} les points de saturation, c’est-à-dire lorsqu’elle n’est que partiellement liquide. L’expérience montre que l’eau se comporte alors de façon linéaire, et ses propriétés peuvent être quantifiées simplement.
+		Nous voulons enfin quantifier les propriétés de l’eau \emph{entre} les points de saturation, c’est-à-dire lorsqu’elle n’est que partiellement liquide. L’expérience montre que l’eau se comporte alors de façon linéaire, et ses propriétés peuvent être quantifiées simplement.
 
 		Pour «~positionner~» un mélange liquide-vapeur entre les deux points de saturation, on définit \vocab{le titre} :
 
@@ -474,17 +469,15 @@
 		Le titre $x$ est la proportion massique de vapeur saturée\\ contenue dans un mélange liquide-vapeur.
 		\end{trucimportant}
 
-		Par exemple, une masse de~\SI{1}{\kilogram} d’eau avec un titre de~\num{0,2} contient \SI{0,8}{\kilogram} de liquide saturé et~\SI{0,2}{\kilogram} de vapeur saturée (ces \SI{0,2}{\kilogram} occupent toutefois la majorité du volume disponible). 
+		Par exemple, une masse de~\SI{1}{\kilogram} d’eau avec un titre de~\num{0,2} contient \SI{0,8}{\kilogram} de liquide saturé et~\SI{0,2}{\kilogram} de vapeur saturée. Ces \SI{0,2}{\kilogram} occupent toutefois la majorité du volume disponible. On pourrait ainsi dire que le titre quantifie la progression d’un mélange liquide-vapeur entre ses deux points de saturation (\cref{fig_notion_de_titre}).
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=12cm]{images/titre_tv_v1.png}
+				\includegraphics[width=\didacticpvdiagramwidth]{images/titre_tv_v1.png}
 			\end{center}
-			\caption{Le titre de la vapeur représenté par la position du point sur un diagramme $T-v$.}
+			\supercaption{Le titre de la vapeur représenté par la position du point sur un diagramme $T-v$.}{\cczero \oc}
 			\label{fig_notion_de_titre}
 		\end{figure}
-
-		On pourrait ainsi dire que le titre quantifie la progression d’un mélange liquide-vapeur entre ses deux points de saturation (\cref{fig_notion_de_titre}).
 		
 		Nous pouvons maintenant exprimer les propriétés $u$, $h$, et $v$ en fonction du titre :
 
@@ -499,16 +492,16 @@
 				\end{IEEEeqnarray}
 				
 				\begin{equationterms}     
-					\item où \tab $h_x$ \tab est l’enthalpie spécifique du mélange étudié (\si{\joule\per\kilogram}),
-					\item \tab $x$ \tab son titre (sans unité),
+					\item où \tab $h_x$ 	\tab est l’enthalpie spécifique du mélange étudié (\si{\joule\per\kilogram}),
+					\item 	\tab $x$ 	\tab son titre (sans unité),
 					\item et \tab $h_{LV} \equiv h_V - h_L $ \tab (valeur tabulée) l’enthalpie spécifique de vaporisation à sa température (\si{\joule\per\kilogram}).
 				\end{equationterms}
 
 				\begin{figure}
 					\begin{center}
-						\includegraphics[width=12cm]{images/titre_tv_h.png}
+						\includegraphics[width=\didacticpvdiagramwidth]{images/titre_tv_h.png}
 					\end{center}
-					\caption {Enthalpie $h_x$ d’un mélange en fonction des enthalpies à l’état saturé et de vaporisation.}
+					\supercaption{Enthalpie $h_x$ d’un mélange en fonction des enthalpies à l’état saturé et de vaporisation.}{\cczero \oc}
 					\label{fig_titre_h}
 				\end{figure}
 			} %end item
@@ -520,13 +513,13 @@
 				\end{equation}
 
 				\begin{equationterms}
-					\item où \tab $u_x$ \tab est l’énergie spécifique du mélange étudié (\si{\joule\per\kilogram}),
-					\item \tab $x$ \tab son titre (sans unité),
+					\item où \tab $u_x$ 	\tab est l’énergie spécifique du mélange étudié (\si{\joule\per\kilogram}),
+					\item 	\tab $x$ 	\tab son titre (sans unité),
 					\item et \tab $u_{LV} \equiv  u_V - u_L$ \tab (valeur tabulée) la différence des énergies internes spécifiques à saturation, à sa température (\si{\joule\per\kilogram}).
 				\end{equationterms}
 			} %end item
 
-			\clearfloats
+			\clearfloats %handmade
 			\item[Le volume spécifique]{d’un mélange liquide-vapeur, enfin, se quantifie encore plus simplement. Le volume total du mélange est égal au volume du gaz plus celui du liquide, et donc :
 				\begin{equation*}
 					v_x = (1-x) v_L + x \ v_V
@@ -541,19 +534,19 @@
 				\end{equation}
 
 				\begin{equationterms}
-					\item où \tab $v_x$ \tab est le volume spécifique du mélange étudié (\si{\metre\cubed\per\kilogram}),
-					\item \tab $x$ \tab son titre (sans unité),
-					\item et \tab $v_V$ \tab (valeur tabulée) le volume spécifique de la vapeur saturée, à sa température (\si{\metre\cubed\per\kilogram}).
+					\item où \tab $v_x$ 	\tab\tab est le volume spécifique du mélange étudié (\si{\metre\cubed\per\kilogram}),
+					\item 	\tab $x$ 	\tab\tab son titre (sans unité),
+					\item et \tab $v_V$ 	\tab (valeur tabulée) le volume spécifique de la vapeur saturée, à sa température (\si{\metre\cubed\per\kilogram}).
 				\end{equationterms}
 
 				Cette approximation est illustrée en \cref{fig_titre_v}.
 
 				\begin{figure}
 					\begin{center}
-						\includegraphics[width=12cm]{images/titre_tv_v2.png}
+						\includegraphics[width=\didacticpvdiagramwidth]{images/titre_tv_v2.png}
 					\end{center}
-					\caption{Approximations utilisées dans le calcul du volume occupé par un mélange liquide-vapeur.
-				Il faut noter que l’échelle en abscisse est logarithmique  : l’approximation n’est pas mise en valeur graphiquement.}
+					\supercaption{Approximations utilisées dans le calcul du volume occupé par un mélange liquide-vapeur.
+				Il faut noter que l’échelle en abscisse est logarithmique  : l’approximation n’est pas mise en valeur graphiquement.}{\cczero \oc}
 					\label{fig_titre_v}
 				\end{figure}
 			} % end item
@@ -602,7 +595,7 @@
 
 		\begin{enumerate}
 			\item Le comportement d’un liquide/vapeur est intrinsèquement complexe. Ces évolutions élémentaires font figure de gymnastique et permettent d’apprendre à le décrire étape par étape ;
-			\item Ces évolutions élémentaires sont des outils conceptuels que nous assemblerons plus tard, d’abord pour quantifier les limites théoriques des machines (au \coursseptshort), et enfin pour décrire le comportement des gaz à l’intérieur des machines réelles (au \coursneufshort).
+			\item Ces évolutions élémentaires sont des outils conceptuels que nous assemblerons plus tard, d’abord pour quantifier les limites théoriques des machines (au \coursseptshort), et enfin pour décrire le comportement des fluides à l’intérieur des machines réelles (au \coursneufshort).
 		\end{enumerate}
 
 
@@ -618,17 +611,17 @@
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=12cm]{images/lv_isobare.png}
+				\includegraphics[width=11cm]{images/lv_isobare.png}
 			\end{center}
-			\caption{Évolution à pression constante (isobare) d’un liquide/vapeur. En système fermé (à gauche), le piston exerce une force constante tout au long de l’évolution. En système ouvert (à droite), aucun travail n’est effectué.}
+			\supercaption{Évolution à pression constante (isobare) d’un liquide/vapeur. En système fermé (à gauche), le piston exerce une force constante tout au long de l’évolution. En système ouvert (à droite), aucun travail n’est effectué.}{\ccbysa \olivier}
 			\label{fig_lv_pression_constante}
 		\end{figure}
 		
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=8cm]{images/pv_lv_isobare.png}
+				\includegraphics[width=\pvdiagramwidth]{images/pv_lv_isobare.png}
 			\end{center}
-			\caption{Réchauffement à pression constante d’un liquide/vapeur, représenté sur un diagramme pression-volume.}
+			\supercaption{Réchauffement à pression constante d’un liquide/vapeur, représenté sur un diagramme pression-volume.}{\cczero \oc}
 			\label{fig_lv_pression_constante_pv}
 		\end{figure}	
 
@@ -657,7 +650,6 @@
 		\begin{equationterms}
 			\item lors d’une évolution réversible à pression constante, en système ouvert.
 		\end{equationterms}
-		
 		\begin{IEEEeqnarray}{rCl}
 			q_{1\to2} 	& = & \Delta h - w_{1\to2} \nonumber \\
 			q_{1 \to 2} 	& = & \Delta h
@@ -702,17 +694,17 @@ pharaonique. Pour s’en affranchir, il faudra monter en température : ce sera 
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=10cm]{images/lv_isochore.png}
+				\includegraphics[width=8cm]{images/lv_isochore.png}
 			\end{center}
-			\caption{Évolution à volume constant (isochore) d’un liquide/vapeur. En système fermé (à gauche), le volume est bloqué et aucun travail n’est effectué. En système ouvert (à droite), on doit comprimer le fluide pendant qu’on le chauffe et le détendre pendant qu’on le refroidit, pour pouvoir maintenir le volume spécifique constant.}
+			\supercaption{Évolution à volume constant (isochore) d’un liquide/vapeur. En système fermé (à gauche), le volume est bloqué et aucun travail n’est effectué. En système ouvert (à droite), on doit comprimer le fluide pendant qu’on le chauffe et le détendre pendant qu’on le refroidit, pour pouvoir maintenir le volume spécifique constant.}{\ccbysa \olivier}
 			\label{fig_lv_isochore}
 		\end{figure}
 		
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=8cm]{images/pv_lv_isochore.png}
+				\includegraphics[width=\pvdiagramwidth]{images/pv_lv_isochore.png}
 			\end{center}
-			\caption{Refroidissement à volume constant d’un liquide/vapeur, représenté sur un diagramme pression-volume.}
+			\supercaption{Refroidissement à volume constant d’un liquide/vapeur, représenté sur un diagramme pression-volume.}{\cczero \oc}
 			\label{fig_pv_lv_isochore}
 		\end{figure}	
 
@@ -766,17 +758,17 @@ pharaonique. Pour s’en affranchir, il faudra monter en température : ce sera 
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=12cm]{images/lv_isotherme.png}
+				\includegraphics[width=11cm]{images/lv_isotherme.png}
 			\end{center}
-			\caption{Évolution à température constante (isotherme) d’un liquide/vapeur. En système fermé (à gauche), on laisse travailler le gaz sur un piston pendant qu’on le chauffe, et à l’inverse, on lui fournit du travail lorsqu’on le refroidit. En système ouvert (à droite), les mêmes manipulations sont effectuées en flux continu.}
+			\supercaption{Évolution à température constante (isotherme) d’un liquide/vapeur. En système fermé (à gauche), on laisse travailler le gaz sur un piston pendant qu’on le chauffe, et à l’inverse, on lui fournit du travail lorsqu’on le refroidit. En système ouvert (à droite), les mêmes manipulations sont effectuées en flux continu.}{\ccbysa \olivier}
 			\label{fig_lv_isotherme}
 		\end{figure}
 		
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=8cm]{images/pv_lv_isotherme.png}
+				\includegraphics[width=\pvdiagramwidth]{images/pv_lv_isotherme.png}
 			\end{center}
-			\caption{Détente (réchauffement) à température constante d’un liquide/vapeur, représenté sur un diagramme pression-volume.}
+			\supercaption{Détente (réchauffement) à température constante d’un liquide/vapeur, représenté sur un diagramme pression-volume.}{\cczero \oc}
 			\label{fig_pv_lv_isotherme}
 		\end{figure}
 
@@ -795,7 +787,7 @@ pharaonique. Pour s’en affranchir, il faudra monter en température : ce sera 
 				\begin{answer}
 				On observe d’abord l’état final. Le volume final sera $v_2 = \frac{V_2}{m} = \SI{0,5}{\metre\cubed\per\kilogram} $, ce qui est inférieur à $v_V$ à notre température. Conclusion : même à la fin du réchauffement, l’eau sera toujours partiellement liquide.
 				
-				L’évolution se fera donc aussi à pression constante (la pression de saturation, $p_{\text{sat.} \SI{130}{\degreeCelsius}} = \SI{0,27028}{\mega\pascal} $). Le calcul est exactement le même que pour l’exemple développé en \S\ref{ch_lv_isobare}. On obtient un titre de~\num{0,749}, une quantité de travail $W_{1\to2} = \SI{-269,7}{\kilo\joule}$ et de chaleur $Q_{1\to2} = \SI{+3256,2}{\kilo\joule}$.				
+				L’évolution se fera donc aussi à pression constante (à la pression de saturation, $p_{\text{sat.} \SI{130}{\degreeCelsius}} = \SI{0,27028}{\mega\pascal} $). Le calcul est exactement le même que pour l’exemple développé en \S\ref{ch_lv_isobare}. On obtient un titre de~\num{0,749}, une quantité de travail $W_{1\to2} = \SI{-269,7}{\kilo\joule}$ et de chaleur $Q_{1\to2} = \SI{+3256,2}{\kilo\joule}$.				
 				
 				\begin{remark}Tant que l’on est en mélange liquide/vapeur (sous la courbe de saturation), température constante = pression constante. Aucun problème.\end{remark}\end{answer}
 			\end{anexample}
@@ -828,17 +820,17 @@ pharaonique. Pour s’en affranchir, il faudra monter en température : ce sera 
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=10cm]{images/lv_isentropique.png}
+				\includegraphics[width=8cm]{images/lv_isentropique.png}
 			\end{center}
-			\caption{Évolution adiabatique réversible (isentropique) d’un liquide/vapeur. En système fermé (à gauche) comme en système ouvert (à droite), le fluide est parfaitement isolé, de sorte qu’il n’y ait aucun transfert de chaleur, même si sa température varie.}
+			\supercaption{Évolution adiabatique réversible (isentropique) d’un liquide/vapeur. En système fermé (à gauche) comme en système ouvert (à droite), le fluide est parfaitement isolé, de sorte qu’il n’y ait aucun transfert de chaleur, même si sa température varie.}{\ccbysa \olivier}
 			\label{fig_lv_isentropique}
 		\end{figure}
 		
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=8cm]{images/pv_lv_isentropique.png}
+				\includegraphics[width=\pvdiagramwidth]{images/pv_lv_isentropique.png}
 			\end{center}
-			\caption{Détente adiabatique réversible d’un liquide/vapeur, représentée sur un diagramme pression-volume.}
+			\supercaption{Détente adiabatique réversible d’un liquide/vapeur, représentée sur un diagramme pression-volume.}{\cczero \oc}
 			\label{fig_pv_lv_isentropique}
 		\end{figure}
 
@@ -848,27 +840,22 @@ pharaonique. Pour s’en affranchir, il faudra monter en température : ce sera 
 			q_{1\to2} = 0
 			\label{eq_lv_travail_adiabatique}
 		\end{equation}
-
 		\begin{equationterms}
 			\item pour toute évolution adiabatique.
 		\end{equationterms}
 
 		Le travail s’exprime donc simplement :
-		
 		\begin{equation}
 			w_{1\to2} = \Delta u
 			\label{eq_lv_travail_adiabatique_sf}
 		\end{equation}
-
 		\begin{equationterms}
 			\item pour toute évolution adiabatique en système fermé ;
 		\end{equationterms}
-
 		\begin{equation}
 			w_{1\to2} = \Delta h
 			\label{eq_lv_travail_adiabatique_so}
 		\end{equation}
-
 		\begin{equationterms}
 			\item pour toute évolution adiabatique en système ouvert.
 		\end{equationterms}
@@ -895,9 +882,9 @@ pharaonique. Pour s’en affranchir, il faudra monter en température : ce sera 
 		
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=8cm]{images/pv_lv_moustache.png}
+				\includegraphics[width=\pvdiagramwidth]{images/pv_lv_moustache.png}
 			\end{center}
-			\caption{Évolution entièrement arbitraire d’un liquide/vapeur représentée sur un diagramme pression-volume. Outre un sens de l’humour déplorable, une telle évolution requiert une combinaison extrêmement complexe de transferts de chaleur et de travail que l’étudiant/e est invité/e à se représenter.}
+			\supercaption{Évolution entièrement arbitraire d’un liquide/vapeur représentée sur un diagramme pression-volume. Outre un sens de l’humour déplorable, une telle évolution requiert une combinaison extrêmement complexe de transferts de chaleur et de travail que l’étudiant/e est invité/e à se représenter.}{\cczero \oc}
 			\label{fig_lv_pv_moustache}
 		\end{figure}
 		
