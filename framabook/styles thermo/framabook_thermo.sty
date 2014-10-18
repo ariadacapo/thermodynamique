@@ -17,7 +17,6 @@
 \hyphenation{aug-men-ter}
 \hyphenation{figure}
 
-
 \usepackage{subfigure}
 \usepackage{caption}
 \usepackage[section,above]{placeins} 	% All floats (figures & tables) must be cleared before a new section
@@ -608,5 +607,13 @@ Nous admettons également que la variation d’entropie d’un gaz parfait, pour
 				\Delta s	= s_2 - s_1 & = & c_p \ln \frac{T_2}{T_1} - R \ln \frac{p_2}{p_1} 	\ztag{8/13}
 	\end{IEEEeqnarray}
 }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Load font Libertine, overriding the fonts from Framaquette
+\usepackage{libertine}
+\usepackage[libertine]{newtxmath}
+\renewcommand{\entetefont}{}
+\renewcommand{\sectionfont}{}
 
 \usepackage[all]{hypcap}		% so links to figures point to the image, not the caption. Must be loaded after hyperref. Broken when caption{} is redefined. Needs a paragraph before it’s called!

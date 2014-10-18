@@ -1,8 +1,9 @@
 #!/bin/bash
 
 # Script pour automatiser la compilation du Framabook de thermodynamique
+# Attention — écrit selon la méthode de la Rhâche par un complet amateur
 # Doit être configuré pour fonctionner
-# Mise à jour du 2014-09-20
+# Mise à jour du 2014-10-17
 
 
 # CONFIGURATION
@@ -24,8 +25,22 @@
 
 ###############################################################
 
-# Ménage -- effacement des fichiers temporaires
-rm -rfv tmp/*	
+# Rapatriement des fichiers temporaires utiles produits lors de la dernière compilation
+# (éviter si la compilation est reprise depuis zéro)
+	mv -v tmp/thermodynamique.aux tmp/thermodynamique.bbl tmp/thermodynamique.bcf tmp/thermodynamique.blg tmp/thermodynamique.maf tmp/thermodynamique.mtc* tmp/thermodynamique.toc ./
+	mv -v tmp/chapitre_1.aux 1/
+	mv -v tmp/chapitre_2.aux 2/
+	mv -v tmp/chapitre_3.aux 3/
+	mv -v tmp/chapitre_4.aux 4/
+	mv -v tmp/chapitre_5.aux 5/
+	mv -v tmp/chapitre_6.aux 6/
+	mv -v tmp/chapitre_7.aux 7/
+	mv -v tmp/chapitre_8.aux 8/
+	mv -v tmp/chapitre_9.aux 9/
+	mv -v tmp/chapitre_10.aux 10/
+	mv -v tmp/trucsdelafin.aux tmp/trucsdudebut.aux tmp/
+# Suppression du reste
+	rm -rfv tmp/*
 
 # on dit ce qu’on va faire
 echo "##############################################"
@@ -54,8 +69,8 @@ echo "############# Compilation n°2 ################"
 echo "##############################################"
 echo "##############################################"
 sleep 2s
-mv thermodynamique.pdf tmp/thermodynamique_compil1.pdf  # pour les curieux
-mv thermodynamique.log tmp/thermodynamique_compil1.log # pour les curieux
+mv thermodynamique.pdf tmp/thermodynamique_compil1.pdf 	# pour les curieux
+mv thermodynamique.log tmp/thermodynamique_compil1.log	# pour les curieux
 
 pdflatex -file-line-error thermodynamique.tex | colout -t latex
 bibtex thermodynamique.aux
@@ -73,11 +88,13 @@ echo "##############################################"
 sleep 2s
 mv thermodynamique.pdf tmp/thermodynamique_compil2.pdf 	# pour les curieux
 mv thermodynamique.log tmp/thermodynamique_compil2.log	# pour les curieux
+
 pdflatex -file-line-error thermodynamique.tex | colout -t latex
 
 
 # on déplace les fichiers temporaires pour faire de la place.
-mv -v thermodynamique.aux thermodynamique.bbl thermodynamique.bcf thermodynamique.blg thermodynamique.log thermodynamique.maf thermodynamique.mtc thermodynamique.mtc0 thermodynamique.mtc1 thermodynamique.mtc2 thermodynamique.mtc3 thermodynamique.mtc4 thermodynamique.mtc5 thermodynamique.mtc6 thermodynamique.mtc7 thermodynamique.mtc8 thermodynamique.mtc9 thermodynamique.mtc10 thermodynamique.mtc11 thermodynamique.mtc12 thermodynamique.mtc13 thermodynamique.run.xml thermodynamique.toc tmp/
+mv -v thermodynamique.aux thermodynamique.bbl thermodynamique.bcf thermodynamique.blg thermodynamique.log thermodynamique.maf thermodynamique.toc thermodynamique.run.xml thermodynamique.mtc* tmp/
+mv -v */*.aux tmp/
 
 echo "#"
 echo "#"

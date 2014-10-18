@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  17 OCT 2014 02:39
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  17 OCT 2014 21:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2516,11 +2516,7 @@ Package: translator 2010/06/12 ver 1.10
 \decimalpart=\count470
 )
 Package: xstring 2010/03/28  v1.5d  String manipulations (C Tellechea)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/hypcap.sty
-Package: hypcap 2011/02/16 v1.11 Adjusting the anchors of captions (HO)
 )
-(/home/olivier/aero/global/publishing/latex/sty/framabook_metathermo.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/libertine-legacy/libertine.sty
 Package: libertine 2011/06/06 - 5.1.2: Font libertine - (License GPL) Michael N
 iedermair
@@ -2617,7 +2613,11 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
 (Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 155.
 LaTeX Info: Redefining \not on input line 1231.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/hypcap.sty
+Package: hypcap 2011/02/16 v1.11 Adjusting the anchors of captions (HO)
 )
+(/home/olivier/aero/global/publishing/latex/sty/framabook_metathermo.sty)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -2628,74 +2628,79 @@ Package biblatex Info: ... file 'french.lbx' found.
 (/usr/share/texmf/tex/latex/biblatex/lbx/french.lbx
 File: french.lbx 2011/11/13 v1.7 biblatex localization
 ) (./thermodynamique.aux
+(./annexes/trucsdudebut.aux)
 Package biblatex Info: Trying to load language 'francais'...
 Package biblatex Info: ... file 'francais.lbx' not found.
 
 
 Package biblatex Warning: Language 'francais' not supported.
-(biblatex)                Using fallback language 'french' on input line 23.
+(biblatex)                Using fallback language 'french' on input line 24.
 
-)
+(./1/chapitre_1.aux) (./2/chapitre_2.aux) (./3/chapitre_3.aux)
+(./4/chapitre_4.aux) (./5/chapitre_5.aux) (./6/chapitre_6.aux)
+(./7/chapitre_7.aux) (./8/chapitre_8.aux) (./9/chapitre_9.aux)
+(./10/chapitre_10.aux) (./annexes/trucsdelafin.aux))
 \openout1 = `thermodynamique.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 16.
-LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 16
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 12.
+LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 12
 .
- (/usr/share/texlive/texmf-dist/tex/latex/newtx/omlnxlmi.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/omlnxlmi.fd
 File: omlnxlmi.fd 2012/05/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 16.
-LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 16
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 12.
+LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 12
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/omsntxsy.fd
 File: omsntxsy.fd 2012/04/10 Fontinst v1.933 font definitions for OMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/ntxex/m/n on input line 16.
-LaTeX Font Info:    Try loading font information for OMX+ntxex on input line 16
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/ntxex/m/n on input line 12.
+LaTeX Font Info:    Try loading font information for OMX+ntxex on input line 12
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/omxntxex.fd
 File: omxntxex.fd 2012/04/18 Fontinst v1.933 font definitions for OMX/ntxex.
 )
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 16.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 16.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 12.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 12.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 16.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 16.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 12.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 12.
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/lgrcmr.fd
 File: lgrcmr.fd 2008/06/17 v2.3 Greek Computer Modern
 )
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 16.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 12.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Try loading font information for T1+fxl on input line 16.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Try loading font information for T1+fxl on input line 12.
 
 (/usr/share/texlive/texmf-dist/tex/latex/libertine-legacy/t1fxl.fd
 File: t1fxl.fd 2011/06/06 scaled font definitions for libertine T1/fxl (Nm).
 )
 LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
-(Font)              scaled to size 12.0pt on input line 16.
+(Font)              scaled to size 12.0pt on input line 12.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2732,13 +2737,13 @@ LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \degres on input line 16.
-LaTeX Info: Redefining \dots on input line 16.
+LaTeX Info: Redefining \degres on input line 12.
+LaTeX Info: Redefining \dots on input line 12.
 
 Package frenchb.ldf Warning: Setting CompactItemize=false for compatibility
-(frenchb.ldf)                with enumitem package, on input line 16.
+(frenchb.ldf)                with enumitem package, on input line 12.
 
-LaTeX Info: Redefining \up on input line 16.
+LaTeX Info: Redefining \up on input line 12.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count471
@@ -2767,7 +2772,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box97
-Package hyperref Info: Link coloring ON on input line 16.
+Package hyperref Info: Link coloring ON on input line 12.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -2777,9 +2782,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count477
 )
-LaTeX Info: Redefining \ref on input line 16.
-LaTeX Info: Redefining \pageref on input line 16.
-LaTeX Info: Redefining \nameref on input line 16.
+LaTeX Info: Redefining \ref on input line 12.
+LaTeX Info: Redefining \pageref on input line 12.
+LaTeX Info: Redefining \nameref on input line 12.
 
 pdfTeX warning (Object streams): \pdfobjcompresslevel > 0 requires \pdfminorver
 sion > 4. Object streams disabled now.
@@ -2795,8 +2800,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thermodynamique.bbl' found.
 (./thermodynamique.bbl)
-Package biblatex Info: Reference section=0 on input line 16.
-Package biblatex Info: Reference segment=0 on input line 16.
+Package biblatex Info: Reference section=0 on input line 12.
+Package biblatex Info: Reference segment=0 on input line 12.
 \c@minilofdepth=\count479
 \c@minilotdepth=\count480
 \c@partlofdepth=\count481
@@ -2841,7 +2846,7 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                --- It may be the consequence 
 (minitoc(hints))                of loading the ``hyperref'' package.
 
-LaTeX Info: Redefining \microtypecontext on input line 16.
+LaTeX Info: Redefining \microtypecontext on input line 12.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2864,59 +2869,64 @@ File: siunitx-binary.cfg 2012/05/03 v2.5c siunitx: Binary units
 )
 \c_siunitx_mathsf_int=\count485
 LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
-(Font)              scaled to size 8.8pt on input line 16.
+(Font)              scaled to size 8.8pt on input line 12.
 LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
-(Font)              scaled to size 6.6pt on input line 16.
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 16.
+(Font)              scaled to size 6.6pt on input line 12.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 12.
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+ntxsya on input line 16.
+LaTeX Font Info:    Try loading font information for U+ntxsya on input line 12.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsya.fd
 File: untxsya.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsya.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyb on input line 16.
+LaTeX Font Info:    Try loading font information for U+ntxsyb on input line 12.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyb.fd
 File: untxsyb.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyb.
 )
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 16.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 12.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 16.
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 12.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Font Info:    Try loading font information for T1+fxb on input line 16.
+LaTeX Font Info:    Try loading font information for T1+fxb on input line 12.
 
 (/usr/share/texlive/texmf-dist/tex/latex/libertine-legacy/t1fxb.fd
 File: t1fxb.fd 2011/06/06 scaled font definitions for libertine T1/fxb (Nm).
 )
 LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
-(Font)              scaled to size 12.0pt on input line 16.
+(Font)              scaled to size 12.0pt on input line 12.
 LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
-(Font)              scaled to size 8.8pt on input line 16.
+(Font)              scaled to size 8.8pt on input line 12.
 LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
-(Font)              scaled to size 6.6pt on input line 16.
+(Font)              scaled to size 6.6pt on input line 12.
 \c_siunitx_mathtt_int=\count486
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 16.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 12.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
+\openout2 = `annexes/trucsdudebut.aux'.
+
+
+(./annexes/trucsdudebut.tex
 LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
-(Font)              scaled to size 17.28pt on input line 31.
+(Font)              scaled to size 17.28pt on input line 6.
 LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
-(Font)              scaled to size 17.28pt on input line 31.
+(Font)              scaled to size 17.28pt on input line 6.
  [1
+
 
 
 
@@ -3066,14 +3076,19 @@ LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
  (./annexes/contenu_introduction.tex
 LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
 (Font)              scaled to size 7.79993pt on input line 5.
- [9]) [10])
+ [9]) [10]))
+\openout2 = `1/chapitre_1.aux'.
+
+ (./1/chapitre_1.tex
 Chapitre 1.
 LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
-(Font)              scaled to size 24.88pt on input line 68.
+(Font)              scaled to size 24.88pt on input line 6.
 (./1/contenuintrocours1.tex) (./1/contenucours1.tex
 LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
 (Font)              scaled to size 14.4pt on input line 1.
  [1
+
+
 
 
 
@@ -3438,7 +3453,10 @@ Package pdftex.def Info: images/fdl_ressorts_moteur.png used on input line 283.
 
 
 
- <./1/images/fdl_ressorts_moteur.png>]
+ <./1/images/fdl_ressorts_moteur.png>])
+\openout2 = `2/chapitre_2.aux'.
+
+ (./2/chapitre_2.tex
 Chapitre 2.
 (./2/contenuintrocours2.tex) (./2/contenucours2.tex
 <images/diesel_engine_cutaway.jpg, id=506, 1215.54124pt x 963.6pt>
@@ -3449,6 +3467,8 @@ Package pdftex.def Info: images/diesel_engine_cutaway.jpg used on input line 13
 .
 (pdftex.def)             Requested size: 227.62204pt x 180.4393pt.
  [25
+
+
 
 
 ]
@@ -3858,7 +3878,13 @@ Package pdftex.def Info: images/exo_pv_prelever.png used on input line 266.
  <./2/images/exo_pv_1.png> <./2/images/exo_pv_camion.png> <./2/images/exo_pv_mo
 teur_essence.png> <./2/images/exo_pv_quatre_cylindres.png>]) [55
 
- <./2/images/exo_pv_prelever.png>] [56
+ <./2/images/exo_pv_prelever.png>])
+\openout2 = `3/chapitre_3.aux'.
+
+ (./3/chapitre_3.tex
+[56
+
+
 
 
 ]
@@ -4214,7 +4240,13 @@ Package pdftex.def Info: images/exo_pv_2.png used on input line 350.
 
 
 
- <./3/images/exo_pv_2.png>] [78
+ <./3/images/exo_pv_2.png>])
+\openout2 = `4/chapitre_4.aux'.
+
+ (./4/chapitre_4.tex
+[78
+
+
 
 
 ]
@@ -4719,7 +4751,13 @@ Underfull \hbox (badness 3547) in paragraph at lines 357--358
 ) [113
 
  <./4/images/ex_pv_turbojet_compressor.png> <./4/images/ex_pv_diesel.png> <./4/
-images/ex_pv_turbojet_1.png> <./4/images/ex_pv_turbojet_2.png>] [114
+images/ex_pv_turbojet_1.png> <./4/images/ex_pv_turbojet_2.png>])
+\openout2 = `5/chapitre_5.aux'.
+
+
+(./5/chapitre_5.tex [114
+
+
 
 
 ]
@@ -5251,7 +5289,11 @@ m/n/10 (+20) 1 donne $\OML/nxlmi/m/it/10 h[] \U/ntxmia/m/it/10 =
 
 ) [156
 
- <./5/images/ex_tv_newcomen.png> <./5/images/ex_pv_newcomen.png>]
+ <./5/images/ex_tv_newcomen.png> <./5/images/ex_pv_newcomen.png>])
+\openout2 = `6/chapitre_6.aux'.
+
+
+(./6/chapitre_6.tex
 Chapitre 6.
 (./6/contenuintrocours6.tex) (./6/contenucours6.tex
 <images/cours6-img3.png, id=2165, 536.7796pt x 424.29485pt>
@@ -5268,6 +5310,8 @@ File: images/cours6-img4.png Graphic file (type png)
 Package pdftex.def Info: images/cours6-img4.png used on input line 21.
 (pdftex.def)             Requested size: 227.62204pt x 230.65723pt.
  [157
+
+
 
 
 ] [158 <./6/images/cours6-img3.png> <./6/images/cours6-img4.png>]
@@ -5488,7 +5532,12 @@ Underfull \hbox (badness 1112) in paragraph at lines 207--208
 
 
 
-] [176
+])
+\openout2 = `7/chapitre_7.aux'.
+
+ (./7/chapitre_7.tex [176
+
+
 
 
 ]
@@ -5663,8 +5712,8 @@ l.540 		\begin{equation}
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.219 	\atstartofexercices
-                          ]
+l.17 \atstartofexercices
+                        ]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5745,7 +5794,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
 
 
-] [202
+])
+\openout2 = `8/chapitre_8.aux'.
+
+ (./8/chapitre_8.tex [202
+
+
 
 
 ]
@@ -6099,9 +6153,14 @@ Underfull \hbox (badness 2158) in paragraph at lines 110--112
 
 
 
-]
+])
+\openout2 = `9/chapitre_9.aux'.
+
+ (./9/chapitre_9.tex
 Chapitre 9.
 (./9/contenuintrocours9.tex) (./9/contenucours9.tex [233
+
+
 
 
 ] [234pdfTeX warning (ext4): destination with the same identifier (name{equatio
@@ -6424,9 +6483,14 @@ $\T1/fxl/m/n/10 (+20) , $\OML/nxlmi/m/it/10 h[] \U/ntxmia/m/it/10 =
 
 
 
-]
+])
+\openout2 = `10/chapitre_10.aux'.
+
+ (./10/chapitre_10.tex
 Chapitre 10.
 (./10/contenuintrocours10.tex) (./10/contenucours10.tex [259
+
+
 
 
 ] [260]
@@ -6858,7 +6922,12 @@ ages/photo_continental_io-550.jpg> <./10/images/photo_sr22.jpg>] [293
 
 
 
-] (./annexes/frame_annexes.tex [295
+])
+\openout2 = `annexes/trucsdelafin.aux'.
+
+ (./annexes/trucsdelafin.tex (./annexes/frame_annexes.tex [295
+
+
 
 
 
@@ -6970,7 +7039,7 @@ LaTeX Font Info:    Font shape `TS1/fxl/m/n' will be
 (Font)              scaled to size 14.4pt on input line 5.
  [306
 
-])
+]))
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the thermodynamique.maf file.
@@ -6987,17 +7056,24 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the thermodynamique.log file.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 313.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 32.
 [307
 
+
+\FN@pp@footnotehinttrue 
+
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 313.
- (./thermodynamique.aux
-Package cleveref Info: loaded `french' language definitions on input line 23.
-Package cleveref Info: loaded `french' language definitions on input line 31.
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 313.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 313.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 32.
+ (./thermodynamique.aux (./annexes/trucsdudebut.aux)
+Package cleveref Info: loaded `french' language definitions on input line 24.
+Package cleveref Info: loaded `french' language definitions on input line 32.
+ (./1/chapitre_1.aux)
+(./2/chapitre_2.aux) (./3/chapitre_3.aux) (./4/chapitre_4.aux)
+(./5/chapitre_5.aux) (./6/chapitre_6.aux) (./7/chapitre_7.aux)
+(./8/chapitre_8.aux) (./9/chapitre_9.aux) (./10/chapitre_10.aux)
+(./annexes/trucsdelafin.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 32.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 32.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -7009,7 +7085,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package logreq Info: Writing requests to 'thermodynamique.run.xml'.
 \openout1 = `thermodynamique.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 313.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 32.
  )
 (\end occurred inside a group at level 2)
 
@@ -7017,13 +7093,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 313.
 ### simple group (level 1) entered at line 402 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 51299 strings out of 494957
- 850847 string characters out of 3179219
- 1469936 words of memory out of 3000000
- 50062 multiletter control sequences out of 15000+200000
+ 51395 strings out of 494957
+ 852502 string characters out of 3179219
+ 1501771 words of memory out of 3000000
+ 50074 multiletter control sequences out of 15000+200000
  1493931 words of font info for 1994 fonts, out of 3000000 for 9000
  64 hyphenation exceptions out of 8191
- 45i,24n,74p,1263b,1823s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,24n,76p,1286b,1832s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.96} has been referenced b
 ut does not exist, replaced by a fixed one
 
@@ -7332,7 +7408,7 @@ r/share/texlive/texmf-dist/fonts/type1/public/newtx/txsy7.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/courier/ucrr8a.pfb>
-Output written on thermodynamique.pdf (319 pages, 18765289 bytes).
+Output written on thermodynamique.pdf (319 pages, 18765294 bytes).
 PDF statistics:
  4428 PDF objects out of 5155 (max. 8388607)
  1393 named destinations out of 1440 (max. 500000)

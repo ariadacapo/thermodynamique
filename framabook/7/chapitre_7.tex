@@ -1,0 +1,20 @@
+\renewcommand{\nomducours}{\nomcourssept}
+\renewcommand{\chapterlabel}{chap_sept}
+\renewcommand{\sousnomducours}{\sousnomcourssept}
+\renewcommand{\contentsummaryducours}{\contentsummarycourssept}
+
+\chapter{\nomducours}
+\thispagestyle{empty}
+\label{\chapterlabel}
+\uneminitoc
+
+\begin{tetedechapitre}[\contentsummaryducours]
+	\input{contenuintrocours7.tex}\par
+\end{tetedechapitre}
+
+\input{contenucours7.tex}
+
+\atstartofexercices
+	\input{contenuexercices7.tex}
+\atendofexercices
+
