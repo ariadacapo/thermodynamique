@@ -320,40 +320,40 @@
 \exercisesolutionpage
 \titreresultats
 
-	\begin{description}
-		\item [\ref{exo_turbine_vapeur}] 
-						\tab 1) $w_\fromatob = \SI{-730,3}{\kilo\joule\per\kilogram}$
-						\tab 2) $\dot m = \frac{\dot{W}_\fromatob}{w_\fromatob} = \SI{5,477}{\kilogram\per\second}$
-		\item [\ref{exo_generatrice_electrique}]
-						\includegraphics[width=2.5cm]{images/exo_pv_1.png}
-						\tab 1) $\dot{W}_\fromatob = \SI{+4,219}{\mega\watt}$
-						\tab 2) $\dot{W}_\fromctod = \SI{-6,349}{\mega\watt}$
-						\tab 3) $\dot{E}_\text{génératrice} = \eta_\text{génératrice} \eta_\text{transmission} \left(\dot{W}_\fromatob + \dot{W}_\fromctod\right) = \SI{-1,774}{\mega\watt}$
-						\tab 5) $\dot{Q}_\text{refroidissement} = - \dot{W}_\fromatob - \dot{Q}_\text{combustion} - \dot{W}_\fromctod = \SI{-2,897}{\mega\watt}$ (soit plus de la moitié de la chaleur de combustion…)
-		\item [\ref{exo_chaudiere_vapeur}] 
-						\tab 1) $\dot{m}_\text{déchets} \geq \SI{93,59}{\tonne\per\hour}$
-		\item [\ref{exo_tuyere_turboreacteur}] 
-						\tab 1) $C_2 = \SI{626}{\metre\per\second}$ (environ \SI[per-mode=symbol]{1700}{\kilo\metre\per\hour}…)
-						\tab 2) $\dot{V}_1 = \dot m \ v_1 = \SI{35,4}{\metre\cubed\per\second}$ \& $\dot{V}_2 = \SI{66,3}{\metre\cubed\per\second}$.
-		\item [\ref{exo_turbine_eau}]
-						\tab 1) $\dot{W}_\fromatob = \SI{-3,5}{\mega\watt}$
-						\tab 2) $\dot{W}_{\fromatob2} = \SI{-6,45}{\mega\watt}$
-		\item [\ref{exo_postcombustion}] 
-						\tab 1) \SI{+52}{\percent} par rapport à la poussée sèche ($C_{3\text{b}} = \SI{950,1}{\metre\per\second}$)
-						\tab 2) $\dot{m}_\text{carburant} = \frac{\dot{m}_\text{air} \ q_{1\to 2\text{b}}}{q_\text{carburant}} = \SI[per-mode=symbol]{4157}{\kilogram\per\hour}$
-						\tab 3) $\dot{V}_{3\text{b}} = \SI{145,9}{\metre\cubed\per\second} $
-						\tab 4) $\eta_\text{postcombustion} = \frac{\frac{1}{2}\left(C_{3\text{b}}^2 - C_2^2\right)}{q_{1\to 2\text{b}}} =  \SI{19,3}{\percent}$ (raison pour laquelle elle n’est jamais utilisée sur les appareils civils)
-		\item [\ref{exo_turbine_vapeur_2}]
-						\tab 1) $\Delta e_c = \SI{+63}{\kilo\joule\per\kilogram}$, $\Delta e_p = \SI{+0,0294}{\kilo\joule\per\kilogram}$ (!), $\Delta h = \SI{-435,6}{\kilo\joule\per\kilogram}$.
-						\tab 2) Dans l’\cref{eq_petite_sfee_deltas_h}, imposer $q_{1 \to 2} = 0$ ne garantit pas que $w_{1 \to 2}$ augmentera. Il est probable que les conditions de sortie soient modifiées : les \SI{3}{\kilo\watt} seront au moins en partie retrouvés dans les $\Delta$ calculés ci-dessus.
-		\item [\ref{exo_detente_turbine_turbomoteur}]
-						\includegraphics[width=2.5cm]{images/exo_pv_2.png}
-						\tab 1) cf. \S\ref{ch_reversibilite}
-						\tab 2) $\dot{W}_\fromatob = \dot m k^{\frac{1}{\num{1,4}}} \left[\frac{1}{-\frac{1}{\num{1,4}} +1} p^{-\frac{1}{\num{1,4}} +1}\right]_{p_\A}^{p_\B} = \SI{-354,1}{\kilo\watt}$
-						\tab 4) Sous forme de $\Delta h$ (volume spécifique et température (énergie interne) plus importants). Peut-être également sous forme d’énergie cinétique.
-		\item [\ref{exo_compresseur_turbine_turbopropulseur}] 
-						\tab 1) $w_\fromatob \geq \int_\A^\B v \diff p = \SI{+312}{\kilo\joule\per\kilogram}$
-						\tab 2) \& 3) cf. \cref{fig_pv_evolution_irr_so}
-						\tab 4) $w_\fromctod = \SI{-729,3}{\kilo\joule\per\kilogram}$
-						\tab 5) $\dot{m}_\text{air} = \frac{\dot{W}_\text{hélices}}{w_\text{hélices}} = \frac{\dot{W}_\text{hélices}}{w_\fromatob + w_\fromctod} = \SI{1,438}{\kilogram\per\second}$.
-	\end{description}
+\begin{description}
+	\item [\ref{exo_turbine_vapeur}] 
+					\tab 1) $w_\fromatob = \SI{-730,3}{\kilo\joule\per\kilogram}$
+					\tab 2) $\dot m = \frac{\dot{W}_\fromatob}{w_\fromatob} = \SI{5,477}{\kilogram\per\second}$
+	\item [\ref{exo_generatrice_electrique}]
+					\includegraphics[width=\solutiondiagramwidth]{images/exo_pv_1.png}
+					\tab 1) $\dot{W}_\fromatob = \SI{+4,219}{\mega\watt}$
+					\tab 2) $\dot{W}_\fromctod = \SI{-6,349}{\mega\watt}$
+					\tab 3) $\dot{E}_\text{génératrice} = \eta_\text{génératrice} \eta_\text{transmission} \left(\dot{W}_\fromatob + \dot{W}_\fromctod\right) = \SI{-1,774}{\mega\watt}$
+					\tab 5) $\dot{Q}_\text{refroidissement} = - \dot{W}_\fromatob - \dot{Q}_\text{combustion} - \dot{W}_\fromctod = \SI{-2,897}{\mega\watt}$ (soit plus de la moitié de la chaleur de combustion…)
+	\item [\ref{exo_chaudiere_vapeur}] 
+					\tab 1) $\dot{m}_\text{déchets} \geq \SI{93,59}{\tonne\per\hour}$
+	\item [\ref{exo_tuyere_turboreacteur}] 
+					\tab 1) $C_2 = \SI{626}{\metre\per\second}$ (environ \SI[per-mode=symbol]{1700}{\kilo\metre\per\hour}…)
+					\tab 2) $\dot{V}_1 = \dot m \ v_1 = \SI{35,4}{\metre\cubed\per\second}$ \& $\dot{V}_2 = \SI{66,3}{\metre\cubed\per\second}$.
+	\item [\ref{exo_turbine_eau}]
+					\tab 1) $\dot{W}_\fromatob = \SI{-3,5}{\mega\watt}$
+					\tab 2) $\dot{W}_{\fromatob2} = \SI{-6,45}{\mega\watt}$
+	\item [\ref{exo_postcombustion}] 
+					\tab 1) \SI{+52}{\percent} par rapport à la poussée sèche ($C_{3\text{b}} = \SI{950,1}{\metre\per\second}$)
+					\tab 2) $\dot{m}_\text{carburant} = \frac{\dot{m}_\text{air} \ q_{1\to 2\text{b}}}{q_\text{carburant}} = \SI[per-mode=symbol]{4157}{\kilogram\per\hour}$
+					\tab 3) $\dot{V}_{3\text{b}} = \SI{145,9}{\metre\cubed\per\second} $
+					\tab 4) $\eta_\text{postcombustion} = \frac{\frac{1}{2}\left(C_{3\text{b}}^2 - C_2^2\right)}{q_{1\to 2\text{b}}} =  \SI{19,3}{\percent}$ (raison pour laquelle elle n’est jamais utilisée sur les appareils civils)
+	\item [\ref{exo_turbine_vapeur_2}]
+					\tab 1) $\Delta e_c = \SI{+63}{\kilo\joule\per\kilogram}$, $\Delta e_p = \SI{+0,0294}{\kilo\joule\per\kilogram}$ (!), $\Delta h = \SI{-435,6}{\kilo\joule\per\kilogram}$.
+					\tab 2) Dans l’\cref{eq_petite_sfee_deltas_h}, imposer $q_{1 \to 2} = 0$ ne garantit pas que $w_{1 \to 2}$ augmentera. Il est probable que les conditions de sortie soient modifiées : les \SI{3}{\kilo\watt} seront au moins en partie retrouvés dans les $\Delta$ calculés ci-dessus.
+	\item [\ref{exo_detente_turbine_turbomoteur}]
+					\includegraphics[width=\solutiondiagramwidth]{images/exo_pv_2.png}
+					\tab 1) cf. \S\ref{ch_reversibilite}
+					\tab 2) $\dot{W}_\fromatob = \dot m k^{\frac{1}{\num{1,4}}} \left[\frac{1}{-\frac{1}{\num{1,4}} +1} p^{-\frac{1}{\num{1,4}} +1}\right]_{p_\A}^{p_\B} = \SI{-354,1}{\kilo\watt}$
+					\tab 4) Sous forme de $\Delta h$ (volume spécifique et température (énergie interne) plus importants). Peut-être également sous forme d’énergie cinétique.
+	\item [\ref{exo_compresseur_turbine_turbopropulseur}] 
+					\tab 1) $w_\fromatob \geq \int_\A^\B v \diff p = \SI{+312}{\kilo\joule\per\kilogram}$
+					\tab 2) \& 3) cf. \cref{fig_pv_evolution_irr_so}
+					\tab 4) $w_\fromctod = \SI{-729,3}{\kilo\joule\per\kilogram}$
+					\tab 5) $\dot{m}_\text{air} = \frac{\dot{W}_\text{hélices}}{w_\text{hélices}} = \frac{\dot{W}_\text{hélices}}{w_\fromatob + w_\fromctod} = \SI{1,438}{\kilogram\per\second}$.
+\end{description}
