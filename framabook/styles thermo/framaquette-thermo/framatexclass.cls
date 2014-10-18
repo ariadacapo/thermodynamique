@@ -3,7 +3,10 @@
 % David Dauvergne (la Poule ou l'Œuf),  puis par Christophe
 % Masutti (Framasoft), ré-organisé par Olivier Cleynen
 
-% Dernière modification le 2014-09-05
+% Modifié pour les besoins du livre de thermodynamique,
+% aussi peu que possible
+
+% Dernière modification le 2014-10-18
 
 
 % =================================================================================================
@@ -114,14 +117,14 @@
 \RequirePackage{textcomp,relsize}
 \RequirePackage{mflogo,bbm,pifont}
 %\RequirePackage{fouriernc}
-\RequirePackage{times}
-\RequirePackage{helvet}
+%\RequirePackage{times} %thermo
+%\RequirePackage{helvet} %thermo
 \RequirePackage[LGRx,T1]{fontenc}  % LGRx so we can type smart-ass greek words with \textgreek{ἐνέργεια}
 %\RequirePackage{xspace}	% Espaces
-\RequirePackage{soul}		% Pour souligner
+%\RequirePackage{soul}		% Pour souligner %thermo
 
 % Pour reconfigurer txttt dans le texte (police machine à écrire)
-\renewcommand{\texttt}[1]{\begin{sffamily}{#1}\end{sffamily}}
+%\renewcommand{\texttt}[1]{\begin{sffamily}{#1}\end{sffamily}} %thermo
 
 
 %-----------------------------------------------------------------------
@@ -506,7 +509,8 @@
 % Footnotes (notes de bas de page)
 
 % Réinitialiser le compteur de notes de bas de page à chaque page
-\RequirePackage[perpage]{footmisc} 
+% et toujours positionner les notes en dessous des flottaisons
+\RequirePackage[perpage,bottom]{footmisc} 
 
 
 %-----------------------------------------------------------------------

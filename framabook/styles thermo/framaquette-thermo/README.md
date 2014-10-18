@@ -1,7 +1,8 @@
-framaquette
-===========
+framaquette-thermo
+==================
 
 * La maquette de base LaTeX pour Framabook
+* Modifications minimales pour les besoins du livre de thermodynamique
 
 
 Remerciements
