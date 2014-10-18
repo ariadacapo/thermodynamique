@@ -7,6 +7,12 @@
 
 % Fonts and encoding stuff for documents typed in French
 
+% Load font Libertine, overriding the fonts from Framaquette
+\usepackage{libertine}
+\usepackage[libertine]{newtxmath}
+\renewcommand{\entetefont}{}
+\renewcommand{\sectionfont}{}
+
 \frenchbsetup{AutoSpacePunctuation=false} % Prevent frenchb from automatically adding spaces before :;! if they are not typed (pain in the butt in hyperlinks etc).
 
 % A few hacks for French language
@@ -23,7 +29,7 @@
 \usepackage{flafter}					% so figures/tables are always displayed after insertion (does not seem to work here)
 \usepackage[hyperref=true,sorting=ynt,backend=biber]{biblatex} % Bibliography
 	\addbibresource{annexes/thermobib.bib}
-%%\usepackage[bottom]{footmisc}		% So footnotes go below floats
+
 
 %%%% Misc %%%%
 
@@ -51,9 +57,9 @@
 %%%%%%%%%%%%%%%%%
 
 % Initialize a few dummy commands that are re-named at each chapter
-\newcommand{\nomducours}{XXX} % need to initialize command
-\newcommand{\sousnomducours}{XXX} % need to initialize command
-\newcommand{\chapterlabel}{XXX} % need to initialize command
+\newcommand{\nomducours}{XXX} 		% need to initialize command
+\newcommand{\sousnomducours}{XXX} 	% need to initialize command
+\newcommand{\chapterlabel}{XXX} 		% need to initialize command
 
 \usepackage[subfigure]{tocloft}			% Tocloft allows control of Table of Contents format. Option [subfigure] to prevent clash with subfigure package
 	\renewcommand{\cftdot}{} 				% remove dots
@@ -65,18 +71,9 @@
 	\setlength{\cftsubsecnumwidth}{3em}		% length of number width in ToC for \subsection
 	\setlength{\cftsubsubsecnumwidth}{4em}	% length of number width in ToC for \subsubsection
 \renewcommand{\cfttoctitlefont}{\center \huge}
+\renewcommand*\l@section{\@dottedtocline{1}{0em}{2.3em}}
+\renewcommand*\l@subsection{\@dottedtocline{2}{2.6em}{3em}}
 
-
-\usepackage[tight, undotted]{minitoc} % mini ToC. (mini table of contents at start of each chapter)
-	\nomtcrule 							% no horizontal lines
-	\renewcommand{\mtctitle}{} 	% no "contents" title
-	%\mtcsetfont{minitoc}{section}{\normalfont\small} % no bold numbers, fix interaction with tocloft
-	\renewcommand*\l@section{\@dottedtocline{1}{0em}{2.3em}}
-	\renewcommand*\l@subsection{\@dottedtocline{2}{2.6em}{3em}}
-	\renewcommand{\mtcgapbeforeheads}{200pt}
-
-% Shortcut to insert minitoc in main .tex file
-\newcommand{\uneminitoc}{} % nothing, minitoc are not used anymore in Framabook
 
 % Environment to write chapter summary and intro
 \newenvironment{tetedechapitre}[1][]{%
@@ -156,13 +153,15 @@
 \newcommand\MEGAHUGE{\@setfontsize\Huge{70}{70}} 
 
 % typeset hyphens outside of paragraph body
+% Warning: if microtype package is too old (e.g. v2.4) compilation times
+% rise dramatically (from ~ 8 min to ~ 6 hours)!
 \usepackage[]{microtype} 
 
 % Prevent pagebreaks at the start of lists
 \@beginparpenalty=10000
 
 % Control spacing above figures
-\setlength{\textfloatsep}{20pt plus 0pt minus 0pt}  % ne marche pas apparemment
+\setlength{\textfloatsep}{20pt plus 0pt minus 0pt}
 
 % Make figure placement less strict with regards to text
 \renewcommand{\topfraction}{.85}
@@ -178,16 +177,15 @@
 
 % Gadgets
 \usepackage{ccicons} 	% Use Creative Commons icons in text
-\usepackage{niceframe} 	% Complètement inutile, donc totalement indispensable...
-\usepackage{swrule}		% Totalement inutile aussi =)
 
 % Tool to prevent pagebreaks in exercises (with \needspace{10cm})
 \usepackage{needspace}
 
 % Shift margin in descriptions by a teensie bit right 
-% so that tabs in exercise solutions do not break indentation
+% (so that tabs in exercise solutions do not break indentation)
 \usepackage{enumitem}
-\setlist[description]{leftmargin=1.2cm} % default is around 1cm
+	\setlist[description]{leftmargin=1.2cm} % default is around 1cm
+
 
 %%%%%%%%%%%%%%%%%
 % Numbering and titles
@@ -284,6 +282,7 @@
 	\restoredefaultheadoffset%
 }
 
+
 %%%%%%%%%%%%%%%%%
 % General styles, colors, and math settings
 % Used to be trucscommunsdolivier.sty (settings common to all of Olivier’s LaTeX documents)
@@ -294,7 +293,7 @@
 \usepackage[numbered]{bookmark} % Configures table of contents in PDF bookmarks
 \usepackage{comment} % so sections can be commented with \begin{comment}, \end{comment}
 \usepackage{tabto} % emulate "Tab" key with \tab
-\TabPositions{0.5\columnwidth} % position of tab. Can also use \NumTabs{4} (number of tabs in line)
+	\TabPositions{0.5\columnwidth} % position of tab. Can also use \NumTabs{4} (number of tabs in line)
 \usepackage{eurosym} % Use euro symbol with \euro{}
 \usepackage{xspace}	% to use the command \xspace (trailing space sensitive to whether character that follows is punctuation or not)
 
@@ -409,7 +408,6 @@
 % Custom style for "trucimportant"
 \mdfsetup{frametitlealignment=\centering} % Cannot be specified in local {mdframed} options
 \newenvironment{trucimportant}{\begin{mdframed}[topline=false, bottomline=false, linewidth=3pt, innerrightmargin=10pt, leftmargin=0pt, innerleftmargin=10pt, skipabove=8pt, skipbelow=8pt]\begin{center}}{\end{center}\end{mdframed}}
-
 
 % Custom style for a \supercaption{}{} to be used where figures need credits
 \newcommand{\supercaption}[2]{%
@@ -568,27 +566,10 @@ Nous admettons que pour une évolution adiabatique réversible (sans apport de c
 		\end{IEEEeqnarray}
 }
 
-\newcommand{\isentropiquesdeux}{% To be called outside of book, so no \ref call is available for eq number.
-Nous admettons que pour une évolution adiabatique réversible (sans apport de chaleur et infiniment lente) les propriétés de l’air suivent les trois relations suivantes :
-		\begin{IEEEeqnarray}{rCl}
-			\left( \frac{T_1}{T_2} \right)	& = & \left( \frac{v_2}{v_1} \right)^{\gamma -1}		\ztag{4/36}\\
-			\left( \frac{T_1}{T_2} \right)	& = & \left( \frac{p_1}{p_2} \right)^{\frac{\gamma -1}{\gamma}} \ztag{4/37}\\
-			\left( \frac{p_1}{p_2} \right)	& = & \left( \frac{v_2}{v_1} \right)^{\gamma}		\ztag{4/38}
-		\end{IEEEeqnarray}
-}
-
-
 \newcommand{\isothermes}{%
 Nous admettons également que lors d’une évolution isotherme réversible (à température constante et infiniment lente) d’un gaz parfait, le transfert de travail engendré en système ouvert ou fermé s’exprime selon la relation :
 		\begin{equation}
 			w_{1\to2} 	= R \ T_\text{cste.} \ln \left(\frac{p_2}{p_1}\right) = R \ T_\text{cste.} \ln \left(\frac{v_1}{v_2}\right) \tag{\ref{eq_travail_température_constante_rep}}
-		\end{equation}
-}
-
-\newcommand{\isothermesdeux}{% To be called outside of book, so no \ref call is available for eq number.
-Nous admettons également que lors d’une évolution isotherme réversible (à température constante et infiniment lente) d’un gaz parfait, le transfert de travail engendré en système ouvert ou fermé s’exprime selon la relation :
-		\begin{equation}
-			w_{1\to2} 	= R \ T_\text{cste.} \ln \left(\frac{p_2}{p_1}\right) = R \ T_\text{cste.} \ln \left(\frac{v_1}{v_2}\right) \tag{4/29}
 		\end{equation}
 }
 
@@ -600,20 +581,5 @@ Nous admettons également que la variation d’entropie d’un gaz parfait, pour
 	\end{IEEEeqnarray}
 }
 
-\newcommand{\deltaentropiedeux}{% To be called outside of book, so no \ref call is available for eq number.
-Nous admettons également que la variation d’entropie d’un gaz parfait, pour n’importe quelle évolution, est quantifiée par les relations suivantes :
-	\begin{IEEEeqnarray}{rCl}
-				\Delta s	= s_2 - s_1 & = & c_v \ln \frac{T_2}{T_1} + R \ln \frac{v_2}{v_1} 	\ztag{8/12}\\
-				\Delta s	= s_2 - s_1 & = & c_p \ln \frac{T_2}{T_1} - R \ln \frac{p_2}{p_1} 	\ztag{8/13}
-	\end{IEEEeqnarray}
-}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% Load font Libertine, overriding the fonts from Framaquette
-\usepackage{libertine}
-\usepackage[libertine]{newtxmath}
-\renewcommand{\entetefont}{}
-\renewcommand{\sectionfont}{}
 
 \usepackage[all]{hypcap}		% so links to figures point to the image, not the caption. Must be loaded after hyperref. Broken when caption{} is redefined. Needs a paragraph before it’s called!
