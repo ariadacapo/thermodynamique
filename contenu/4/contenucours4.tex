@@ -18,13 +18,16 @@
 
 		\subsection{Définition : l’équation d’état}
 
+				\thermoquotebegin{O}
+			Le changement de température occasioné dans les gaz par le changement de volume peut être regardé comme l’un des faits les plus importans de la physique, à cause des nombreuses conséquences qu’il entraîne, et en même temps comme l’un des plus difficiles à éclaircir et à mesurer par des expériences décisives. Il semble présenter dans plusieurs circonstances des anomalies singulières.\nolinebreak\makebox(18,5){\color{gray}\scalebox{2}{»}}\par\vspace{-0.3cm}\begin{flushright}Sadi Carnot, 1824~\cite{carnot1824}\end{flushright}
+		\makebox(18,5){\color{gray}\scalebox{2}{«}}
+		M. S. Carnot, évitant l’emploi de l’analyse mathématique, arrive par une série de raisonnemens délicats et difficiles à saisir, à des résultats qui se déduisent sans peine d’une loi plus générale, que je vais chercher à établir.
+		\thermoquoteend{Émile Clapeyron, 1834~\cite{clapeyron1834}}{}
 		Nous appellerons \vocab{gaz parfait} un fluide à l’état gazeux dont le multiple de la pression et du volume, $p v$, reste proportionnel à sa température. La constante de proportionnalité est nommée \vocab{constante du gaz}, et notée $R$ ; elle dépend de la nature du~gaz.
-
 		\begin{equation}
 			p v = R T
 			\label{eq_pv=RT}
 		\end{equation}
-
 		\begin{equationterms}
 			\item par définition pour un gaz parfait,
 			\item où \tab $p$ \tab est la pression (\si{\pascal}),
@@ -38,12 +41,11 @@
 			p V = m R T
 			\label{eq_pV=mRT}
 		\end{equation}
-		
 		\begin{equationterms}
 			\item où \tab $V$ \tab est le volume (\si{\metre\cubed}),
 			\item et \tab $m$ \tab la masse de gaz considérée (\si{\kilogram}).
 		\end{equationterms}
-
+		
 		Parce qu’elle est indissociable du concept de température absolue, il a fallu 150 ans pour que cette équation prenne sa forme définitive, telle qu’énoncée par \wf{Émile Clapeyron} en 1834~\cite{clapeyron1834}.
 
 			\begin{anexample}
@@ -89,8 +91,12 @@
 		
 		
 	\subsection{Que ne représente pas un gaz parfait ?}
-	\label{ch_pas_gaz_parfait}		
-		
+	\label{ch_pas_gaz_parfait}
+	
+		\thermoquotebegin{O}
+			Quiconque veut étudier les propriétés de la matière dans un problème réel peut désirer partir en écrivant les équations fondamentales et puis essayer de les résoudre mathématiquement. Bien qu’il y ait des gens qui essayent d’emprunter une telle approche, ces personnes sont des ratés de ce domaine ; les véritables réussites sont le fait de ceux qui partent d’un point de vue \emph{physique}, de ceux qui ont une idée approximative de l’endroit où ils vont et qui commencent en faisant la bonne approximation, sachant ce qui est grand et ce qui est petit dans une situation donnée qui est compliquée.
+		\thermoquoteend{Richard Feynman, 1963}{\textit{The Feynman Lectures on \mbox{Physics}} \mbox{\cite{feynman1963, feynman1963fr}}}
+	
 		Le comportement des molécules lorsqu’elles sont proches les unes des autres est en réalité très complexe, car les forces d’attraction y jouent un rôle déterminant. L’influence de ces forces est d’autant plus grande que les molécules sont lentes et structurellement complexes (l’interaction entre deux molécules d’hydrocarbone, par exemple, est plus difficile à modéliser que l’interaction entre deux molécules d’hélium).
 
 		Les conséquences à l’échelle macroscopique de ces interactions, et les conditions dans lesquelles elles ne doivent plus être négligées, font l’objet du \courscinq.
@@ -248,11 +254,18 @@
 	
 		Au tout début du \textsc{xix}\ieme siècle ont lieu les premiers travaux de recherche visant à explorer la notion de température. La communauté scientifique s’intéresse alors beaucoup aux gaz -- on s’aperçoit qu’il y a \emph{deux} manières de faire augmenter leur température : en les chauffant, mais aussi en les comprimant.
 		
+		\thermoquotebegin{O}
+			M’étant assuré de ce fait important, que plus un espace est vide, et plus il s’en dégage de la chaleur lorsque l’air extérieur y pénètre, j’ai cherché à déterminer, par des expériences exactes, quelle relation il y avoit entre le calorique absorbé dans l’un des récipiens et celui dégagé dans l’autre, et comment ces variations de température dépendoient de celles de la variation de la densité de l’air.
+		\thermoquoteend{Louis Joseph Gay-Lussac, 1807~\cite{gaylussac1807}}{\vspace{1em}} %handmade vspace
+		
 		Le français \wf{Louis Joseph Gay-Lussac} cherche à comprendre pourquoi la température d’un gaz chute lorsqu’il se détend (il cherche en fait, selon les concepts d’alors, à identifier la source du \textit{calorique} et les raisons pour lesquelles il s’écoule). Il s’efforce ainsi de produire des détentes de gaz aussi simples que possible, et d’y mesurer la température. Une trentaine d’années plus tard, l’anglais \wf{James Prescott Joule} reprend et approfondit ces expériences\footnote{Les travaux méticuleux de Joule mèneront à la première expression formelle du premier principe de la thermodynamique, et à la fin de la théorie du \textit{calorique} selon laquelle la chaleur était un fluide très peu dense et invisible. Ils vaudront à son nom de famille l’utilisation que l’on sait aujourd’hui.} ; mais cette fois, en quantifiant la chaleur en tant qu’\textit{équivalence de travail}. Ces expériences avec ballons de gaz et thermomètres sont tout sauf spectaculaires -- mais elles vont jouer un rôle pivot en thermodynamique, parce qu’elles permettent de distinguer pour la première fois chaleur, travail, énergie et température.
 
 	\subsection{La loi de Joule}
 	\label{ch_principe_de_joule}
 
+		\thermoquotebegin{O}
+			J’ai pris deux ballons à deux tubulures, chacun de douze litres de capacité. A l’une des tubulures de chaque ballon étoit adapté un robinet, et à l’autre un thermomètre à alcool très-sensible, dont les degrés centigrades pouvoient être facilement divisés en centièmes. […] Le vide étant fait dans les deux ballons, et m’étant assuré qu’ils le retenoient exactement, je remploissois l’un d’eux avec le gaz sur lequel je voulois opérer. Environ douze heures après, j’établissois entre eux une communication au moyen d’un tuyau de plomb, et en ouvrant les robinets, le gaz se précipitoit alors dans le ballon vide jusqu’à ce que l’équilibre de pression fût rétablit de part et d’autre. Pendant ce tems, le thermomètre éprouvoit des variations que je notois avec soin.
+		\thermoquoteend{Louis Joseph Gay-Lussac, 1807~\cite{gaylussac1807}}{\vspace{-1em}} %handmade vspace
 		Dans leur expérience la plus remarquable, Joule et Gay-Lussac cherchent à faire varier la pression et le volume d’un gaz \textit{sans lui transférer de chaleur ou de travail}. Pour cela, ils laissent un gaz comprimé se détendre dans un second récipient vide (\cref{fig_detente_joule}). Le travail effectué est nul, car aucune surface n’a été déplacée – l’évolution est entièrement irréversible. La température est mesurée et… il ne se passe rien ! Joule et Gay-Lussac ne mesurent ni transferts de chaleur, ni variation de température.
 
 		\begin{figure}
@@ -273,6 +286,10 @@
 			La température d’un gaz parfait ne varie qu’avec son énergie interne.
 		\end{trucimportant}
 
+
+		\thermoquotebegin{O}
+La différence entre les moyennes des expansions et des expériences-témoin étant exactement telle que ce que à quoi nous avons attribué l’effet croissant de la température ambiante dans le dernier cas, nous arrivons à la conclusion qu’\emph{il n’y a pas de changement de température lorsque l’on laisse l’air se détendre d’une façon telle qu’il ne développe pas de puissance mécanique}.
+		\thermoquoteend{James Joule, 1845~\cite{joule1845}}{}
 		Mathématiquement, nous pouvons l’écrire ainsi :
 		\begin{equation}
 			u = f(T)
@@ -553,6 +570,9 @@
 	\subsection{Évolutions à température constante}
 	\label{ch_gp_isothermes}
 	
+		\thermoquotebegin{O}
+			Il est facile d’imaginer une petite quantité de combustible gazeux ou liquide, ou bien de la poussière de charbon, que l’on insèrerait dans un volume d’air comprimé et très chaud, et qui brûlerait suite à un allumage séparé ou spontané. Le piston est chassé en même temps de sorte à ce qu’aucune augmentation de température n’ait lieu, car la chaleur développée par chaque particule de combustible est instanément absorbée par le refroidissement du à l’expansion. De cette façon l’ensemble de la chaleur est transformée en travail.
+		\thermoquoteend{Rudolf Diesel, 1893}{\textit{Theorie und Konstruktion eines rationellen Wärmemotors zum Ersatz der Dampfmaschinen und der heute bekannten Verbrennungsmotoren}~\mbox{\cite{diesel1893,diesel1893en}}\vspace{6em}} %handmade vspace
 		Il est possible de chauffer ou refroidir un gaz en maintenant sa température constante (\cref{fig_gp_température_constante}). Une évolution à température constante est parfois dite \vocab{isotherme}. 
 		
 		\begin{figure}
@@ -592,6 +612,10 @@
 			\item lors d’une évolution réversible à température constante, en système fermé.
 		\end{equationterms}
 
+		\thermoquotebegin{O}
+			\emph{Lorsqu’un gaz varie de volume sans changer de température, les quantités de chaleur absorbées ou dégagées par ce gaz sont en progression arithmétique, si les accroissemens ou les réductions de volume se trouvent être en progression géométrique.}
+			Lorsque l’on comprime un litre d’air maintenu à la température 10°, et qu’on le réduit à 1/2 litre, il se dégage une certaine quantité de chaleur. cette quantité se trouvera toujours la même si l’on réduit de nouveau le volume de 1/2 litre à de 1/4 de litre, de 1/4 de litre à 1/8, ainsi de suite.
+		\thermoquoteend{Sadi Carnot, 1824~\cite{carnot1824}}{}
 		On peut aussi exprimer le travail en fonction de la pression, puisqu’avec l’\cref{eq_gp_isotherme} on~a :
 		\begin{equation*}
 			\frac{v_1}{v_2} = \frac{p_2}{p_1}
