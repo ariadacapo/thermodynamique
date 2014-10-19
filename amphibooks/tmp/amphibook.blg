@@ -1,16 +1,16 @@
-[1] Config.pm:300> INFO - This is Biber 0.9.9
-[1] Config.pm:303> INFO - Logfile is 'amphibook.blg'
-[2] biber:145> INFO - === Fri Oct 17, 2014, 09:48:05
-[3] Biber.pm:271> INFO - Reading 'amphibook.bcf'
-[25] Biber.pm:586> INFO - Found 19 citekeys in bib section 0
-[36] Biber.pm:2585> INFO - Processing bib section 0
-[58] Biber.pm:2677> INFO - Looking for bibtex format file '/home/olivier/aero/global/publishing/latex/sty/thermobib.bib' for section 0
-[60] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
-[80] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
-[80] bibtex.pm:704> INFO - Found BibTeX data source '/home/olivier/aero/global/publishing/latex/sty/thermobib.bib'
-[164] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
-[164] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
-[205] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
-[205] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
-[229] bbl.pm:427> INFO - Writing 'amphibook.bbl' with encoding 'UTF-8'
-[231] bbl.pm:498> INFO - Output to amphibook.bbl
+[0] Config.pm:300> INFO - This is Biber 0.9.9
+[0] Config.pm:303> INFO - Logfile is 'amphibook.blg'
+[1] biber:145> INFO - === Sun Oct 19, 2014, 18:45:48
+[1] Biber.pm:271> INFO - Reading 'amphibook.bcf'
+[19] Biber.pm:586> INFO - Found 24 citekeys in bib section 0
+[29] Biber.pm:2585> INFO - Processing bib section 0
+[49] Biber.pm:2677> INFO - Looking for bibtex format file '/home/olivier/aero/global/publishing/latex/sty/thermobib.bib' for section 0
+[51] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
+[69] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
+[70] bibtex.pm:704> INFO - Found BibTeX data source '/home/olivier/aero/global/publishing/latex/sty/thermobib.bib'
+[159] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
+[159] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
+[209] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
+[209] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
+[237] bbl.pm:427> INFO - Writing 'amphibook.bbl' with encoding 'UTF-8'
+[238] bbl.pm:498> INFO - Output to amphibook.bbl

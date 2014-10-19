@@ -246,6 +246,27 @@
     \field{pages}{481\bibrangedash 506}
   \endentry
 
+  \entry{clausius1856}{article}{}
+    \name{labelname}{1}{}{%
+      {{hash=589b57f365a8719268c5efb7cc869c21}{Clausius}{C\bibinitperiod}{Rudolf\bibnamedelimb Julius\bibnamedelima Emanuel}{R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=589b57f365a8719268c5efb7cc869c21}{Clausius}{C\bibinitperiod}{Rudolf\bibnamedelimb Julius\bibnamedelima Emanuel}{R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {german}%
+    }
+    \strng{namehash}{589b57f365a8719268c5efb7cc869c21}
+    \strng{fullhash}{589b57f365a8719268c5efb7cc869c21}
+    \field{sortinit}{1}
+    \field{journaltitle}{Annalen der Physik}
+    \field{number}{12}
+    \field{title}{Über die Anwendung der mechanischen Wärmetheorie auf die Dampfmaschine}
+    \field{volume}{173}
+    \field{year}{1856}
+    \field{pages}{441\bibrangedash 476}
+  \endentry
+
   \entry{clausius1850fr}{book}{}
     \name{labelname}{1}{}{%
       {{hash=589b57f365a8719268c5efb7cc869c21}{Clausius}{C\bibinitperiod}{Rudolf\bibnamedelimb Julius\bibnamedelima Emanuel}{R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
@@ -272,6 +293,111 @@
     \field{origtitle}{Über die bewegende Kraft der Wärme und die Gesetze, welche sigh daraus für die Wärmelehre selbst ableiten lassen}
     \field{title}{Sur la force motrice de la chaleur et les lois qui s’en déduisent pour la théorie de la chaleur}
     \field{year}{1868}
+  \endentry
+
+  \entry{diesel1893}{book}{}
+    \name{labelname}{1}{}{%
+      {{hash=8212fdd04eaf271b4d1bd6f93553cf39}{Diesel}{D\bibinitperiod}{Rudolf}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=8212fdd04eaf271b4d1bd6f93553cf39}{Diesel}{D\bibinitperiod}{Rudolf}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {german}%
+    }
+    \list{location}{1}{%
+      {Berlin, Allemagne}%
+    }
+    \list{publisher}{1}{%
+      {J. Springer}%
+    }
+    \strng{namehash}{8212fdd04eaf271b4d1bd6f93553cf39}
+    \strng{fullhash}{8212fdd04eaf271b4d1bd6f93553cf39}
+    \field{sortinit}{1}
+    \field{title}{Theorie und Konstruktion eines rationellen Wärmemotors zum Ersatz der Dampfmaschinen und der heute bekannten Verbrennungsmotoren}
+    \field{year}{1893}
+  \endentry
+
+  \entry{diesel1893en}{book}{}
+    \name{labelname}{1}{}{%
+      {{hash=8212fdd04eaf271b4d1bd6f93553cf39}{Diesel}{D\bibinitperiod}{Rudolf}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=8212fdd04eaf271b4d1bd6f93553cf39}{Diesel}{D\bibinitperiod}{Rudolf}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \name{translator}{1}{}{%
+      {{hash=205b6e079add5ab837374be75b5ef51a}{Donkin}{D\bibinitperiod}{Sydney\bibnamedelima Bryan}{S\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {english}%
+    }
+    \list{location}{2}{%
+      {London, UK}%
+      {New York, USA}%
+    }
+    \list{publisher}{1}{%
+      {E. \& F. N. Spon}%
+    }
+    \strng{namehash}{8212fdd04eaf271b4d1bd6f93553cf39}
+    \strng{fullhash}{8212fdd04eaf271b4d1bd6f93553cf39}
+    \field{sortinit}{1}
+    \field{origlanguage}{german}
+    \field{origtitle}{Theorie und Konstruktion eines rationellen Wärmemotors zum Ersatz der Dampfmaschinen und der heute bekannten Verbrennungsmotoren}
+    \field{title}{Theory and Construction of a Rational Heat Motor}
+    \field{year}{1894}
+  \endentry
+
+  \entry{stodola1904}{book}{}
+    \name{labelname}{1}{}{%
+      {{hash=18f0c58f8e8225820f16e0a556e2cc6a}{Stodola}{S\bibinitperiod}{Aurel\bibnamedelima Boreslav}{A\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=18f0c58f8e8225820f16e0a556e2cc6a}{Stodola}{S\bibinitperiod}{Aurel\bibnamedelima Boreslav}{A\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {german}%
+    }
+    \list{location}{1}{%
+      {Berlin, Allemagne}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag GmbH}%
+    }
+    \strng{namehash}{18f0c58f8e8225820f16e0a556e2cc6a}
+    \strng{fullhash}{18f0c58f8e8225820f16e0a556e2cc6a}
+    \field{sortinit}{1}
+    \field{subtitle}{mit einem Anhänge über die Aussichten der Wärmekraftmaschinen und über die Gasturbine}
+    \field{title}{Die Dampfturbinen}
+    \field{year}{1904}
+  \endentry
+
+  \entry{stodola1905}{book}{}
+    \name{labelname}{1}{}{%
+      {{hash=18f0c58f8e8225820f16e0a556e2cc6a}{Stodola}{S\bibinitperiod}{Aurel\bibnamedelima Boreslav}{A\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=18f0c58f8e8225820f16e0a556e2cc6a}{Stodola}{S\bibinitperiod}{Aurel\bibnamedelima Boreslav}{A\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+    }
+    \name{translator}{1}{}{%
+      {{hash=b9c5d25d0756c1140b6df34f8b3a2184}{Loewenstein}{L\bibinitperiod}{Louis}{L\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {english}%
+    }
+    \list{location}{1}{%
+      {London, UK}%
+    }
+    \list{publisher}{1}{%
+      {Archibald Constable \& co. ltd.}%
+    }
+    \strng{namehash}{18f0c58f8e8225820f16e0a556e2cc6a}
+    \strng{fullhash}{18f0c58f8e8225820f16e0a556e2cc6a}
+    \field{sortinit}{1}
+    \field{origlanguage}{german}
+    \field{origtitle}{Die Dampfturbinen}
+    \field{subtitle}{With an appendix on gas turbines and the future of heat engines}
+    \field{title}{The Steam Turbine}
+    \field{year}{1905}
   \endentry
 
   \entry{feynman1963}{book}{}
