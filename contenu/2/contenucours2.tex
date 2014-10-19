@@ -74,7 +74,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 
 	\thermoquotebegin{O}
 		Ainsi, appelons $Q$ la quantité de chaleur qui doit être impartie à un corps pendant son passage, d’une manière donnée, d’une condition à une autre, toute chaleur prélevée au corps étant comptée comme une quantité négative. Alors, $Q$ peut être divisée en trois parties, parmi lesquelles la première peut être employée à augmenter la chaleur existant véritablement dans le corps, la seconde à produire le travail intérieur, et la troisième à produire le travail extérieur. Ce que nous avons déjà dit de la seconde partie s’applique aussi à la première -- elle est indépendante du chemin suivi dans le passage du corps d’un état à un autre : en conséquence ces deux parties ensemble peuvent être représentés par une fonction $U$, que nous savons être entièrement déterminée par les états initial et final du corps.
-	\thermoquoteend{Rudolf Clausius, 1854}{\textit{Über eine veränderte Form des zweiten Hauptsatzes der mechanischen Wärmetheorie~\cite{clausius1854}}}
+	\thermoquoteend{Rudolf Clausius, 1854}{\textit{Über eine veränderte Form des zweiten Hauptsatzes der mechanischen Wärmetheorie~\cite{clausius1854}}\vspace{1em}} %handmade vspace
 	Le premier principe stipule que l’énergie est indestructible (\S\ref{ch_premier_principe}). Si on fournit \SI{100}{\joule} de travail à un système fermé et qu’il perd \SI{80}{\joule} sous forme de chaleur, c’est donc que «~son~» énergie a augmenté de~\SI{20}{\joule}. Nous nommons cette variation la \vocab{variation d’énergie interne}, $\Delta U$. 
 	
 	Sous forme d’équation, le premier principe dans un système fermé se traduit par l’équation :
@@ -277,9 +277,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 			\label{fig_piston_fluide_lent}
 		\end{figure}
 
-		\thermoquotebegin{O}
-			S’il était vrai que la vapeur se dépensât par le cylindre à une pression égale à celle de la chaudière, ou qui fût à celle-ci dans un rapport fixe indiqué par un coefficient quelconque, puisqu’il faut toujours à une même locomotive le même nombre de tours de roue, ou le même nombre de coups de piston pour parcourir la même distance, il s’en suivrait que tant que ces machines travaillent à la même pression, elles devraient consommer dans tous les cas la même quantité d’eau pour la même distance.
-		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1839}{\textit{Théorie de la machine à vapeur} \cite{pambour1839}}
+		
 		Si cette condition est respectée, nous pouvons exprimer le travail reçu ou perdu par le système de la même façon qu’avec le ressort de la section précédente :		
 		\begin{IEEEeqnarray}{rCl}
 			W_\fromatob 	& = & - \int_\A^\B {p \diff V}	\nonumber \\
@@ -294,6 +292,9 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 			\item et \onlyamphibook{\tab} $\diff v $ 		\onlyamphibook{\tab} la variation du volume spécifique (\si{\metre\cubed\per\kilogram}). % floating quote messes with the tabs in Framabook, so they are commented out here.
 		\end{equationterms}
 		
+		\thermoquotebegin{O}
+			Cela posé, prenons un gaz quelconque à la température $T$ […]; représentons son volume $v_o$ par l’abscisse \textsc{ab}, et sa pression par l’ordonnée \textsc{cb}.[…] Le gaz, pendant sa dilatation, aura développé une quantité d’action mécanique qui aura pour valeur l’intégrale du produit de la pression, par la différentielle du volume, et qui sera représentée géométriquement par la surface comprise entre l’axe des abscisses, les deux coordonnées \textsc{cb}, \textsc{de}, et de la portion d’hyperbole~\textsc{ce}.
+		\thermoquoteend{Benoît Paul Émile Clapeyron, 1834\\ {\tiny(le premier diagramme $p-v$…)}}{\textit{Mémoire sur la puissance motrice de~la~chaleur}~\cite{clapeyron1834}\vspace{6em}} %handmade vspace
 		Sur un graphique représentant la pression en fonction du volume spécifique, ce travail $w_\fromatob$ est représenté par la surface sous la courbe de A à B, exactement comme la \cref{fig_p-v_ressort}. La forme de la courbe, c’est-à-dire la relation entre $p$ et $v$ au fur et à mesure de l’évolution, déterminera la quantité $w_\fromatob$ .
 
 		\begin{figure}
@@ -304,6 +305,9 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 			\label{fig_p-v_pvx}
 		\end{figure}
 
+		\thermoquotebegin{O}
+			S’il était vrai que la vapeur se dépensât par le cylindre à une pression égale à celle de la chaudière, ou qui fût à celle-ci dans un rapport fixe indiqué par un coefficient quelconque, puisqu’il faut toujours à une même locomotive le même nombre de tours de roue, ou le même nombre de coups de piston pour parcourir la même distance, il s’en suivrait que tant que ces machines travaillent à la même pression, elles devraient consommer dans tous les cas la même quantité d’eau pour la même distance.
+		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1839}{\textit{Théorie de la machine à vapeur} \cite{pambour1839}\vspace{4em}} %handmade vspace
 		Comment les fluides se comportent-t-ils lorsque l’on les comprime --\ autrement dit, par quel type de «~ressort~» peut-on les modéliser ? On constate expérimentalement losqu’on les comprime, la plupart des gaz voient leur pression et leur volume liés par une relation de type $p\ v^{x} = \text{cste.}$ avec $x$ une constante lorsque l’on les comprime (\cref{fig_p-v_pvx})%
 			\footnote{Toutefois, nous verrons au \courscinqshort que les liquides/vapeurs ne se comportent pas du tout comme cela sur une plage de propriétés donnée, même si la tendance globale reste la même.}%
 		.
@@ -385,7 +389,7 @@ Plus on lui apporte de chaleur pendant la compression, et plus la pression augme
 
 		\thermoquotebegin{O}
 			Nous avons dit qu’à l’origine du mouvement l’équilibre de pression s’établit entre la chaudière et le cylindre, mais à mesure que la vitesse du piston s’accroît, celui-ci fuit en quelque sorte devant la vapeur sans lui donner le temps d’établir cet équilibre, et la pression dans le cylindre baisse \mbox{nécessairement}.
-		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1835}{\textit{Traité théorique et pratique des machines locomotives}~\cite{pambour1835}\vspace{3em}} %FIXME : vspace ajouté à la main
+		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1835}{\textit{Traité théorique et pratique des machines locomotives}~\cite{pambour1835}\vspace{3em}} %handmade vspace
 		Les choses se compliquent lorsque nous comprimons et détendons notre fluide de façon rapide (\cref{fig_molécules_rapide}). Il se produit alors un phénomène complexe et d’importance critique en thermodynamique : \textbf{la pression sur la paroi est différente de la «~pression moyenne~» à l’intérieur du fluide}.
 
 		\begin{figure}
@@ -481,7 +485,7 @@ Plus on lui apporte de chaleur pendant la compression, et plus la pression augme
 		
 		\thermoquotebegin{O}
 		D’où vient l’irréversibilité ? elle ne vient pas des lois de Newton. Si nous partons de l’idée que le comportement de toutes choses doit être en définitive compris en termes des lois de la physique, et s’il apparaît également que toutes les équations ont cette propriété fantastique d’avoir une autre solution [valide] lorsque nous remplaçons $t$ par $-t$, alors chaque phénomène est réversible. Comment se fait-il alors que dans la nature, à une grande échelle, les choses ne soient pas réversibles ?
-		\thermoquoteend{Richard Feynman, 1963}{\textit{The Feynman Lectures on \mbox{Physics}} \mbox{\cite{feynman1963, feynman1963fr}}}
+		\thermoquoteend{Richard Feynman, 1963}{\textit{The Feynman Lectures on \mbox{Physics}} \mbox{\cite{feynman1963, feynman1963fr}}\vspace{1em}} %handmade vspace
 		Du point de vue de la physique, le phénomène d’irréversibilité est fascinant. En effet, nous partons de collisions de molécules, un phénomène tout à fait réversible, pour fabriquer une transformation irréversible : une évolution qui ne va que dans un sens ! Pour ramener le gaz dans l’état où il était avant de le comprimer brutalement, nous sommes obligés de lui prendre de la chaleur. Il est surprenant que sans aller à l’encontre des lois de Newton, nous ayons créé une situation où \emph{on ne peut pas revenir en arrière en «~faisant l’inverse~»}. Existe-t-il d’autres transformations irréversibles ? Peut-on quantifier l’irréversibilité ? Nous tenterons de répondre à ces questions dans les \courssept et \courshuit.
 
 		En attendant, nous admettrons qu’il faut respecter trois conditions pour qu’une évolution soit réversible :
