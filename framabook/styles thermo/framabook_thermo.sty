@@ -235,9 +235,7 @@
 \newcommand\subsectionbreak{\clearfloats}		% clear floats before each subsection
 \newcommand\subsubsectionbreak{\clearfloats}	% clear floats before each subsubsection (exercise)
 
-% Use cref (cleveref) to make internal links; configure French language.
-	\usepackage[french,nameinlink]{cleveref}
-   \crefformat{equation}{#2équation~#1#3}
+% internal links use \cref (package cleveref) which is called very late to workaround some conflict bug.
 
 %%%%%%%%%%%%%%%%%
 % Style changes inside the book
@@ -578,6 +576,10 @@ Nous admettons également que la variation d’entropie d’un gaz parfait, pour
 				\Delta s	= s_2 - s_1 & = & c_p \ln \frac{T_2}{T_1} - R \ln \frac{p_2}{p_1} 	\ztag{\ref{eq_delta_s_gp_p}}
 	\end{IEEEeqnarray}
 }
+
+% Use cref (cleveref) to make internal links; configure French language.
+\usepackage[french,nameinlink]{cleveref}
+   \crefformat{equation}{#2équation~#1#3}
 
 
 \usepackage[all]{hypcap}		% so links to figures point to the image, not the caption. Must be loaded after hyperref. Broken when caption{} is redefined. Needs a paragraph before it’s called!
