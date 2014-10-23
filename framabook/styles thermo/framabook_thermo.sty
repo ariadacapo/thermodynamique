@@ -26,7 +26,7 @@
 \usepackage{subfigure}
 \usepackage{caption}
 	\captionsetup{font={footnotesize}}
-\usepackage[section,above]{placeins} 	% All floats (figures & tables) must be cleared before a new section
+\usepackage[section]{placeins} 	% All floats (figures & tables) must be cleared before a new section
 \usepackage{flafter}					% so figures/tables are always displayed after insertion (does not seem to work here)
 \usepackage[hyperref=true,sorting=ynt,backend=biber]{biblatex} % Bibliography
 	\addbibresource{annexes/thermobib.bib}
@@ -201,7 +201,7 @@
 		 	{\sectiontitleindent}%
 		 	{-3.5ex plus -1ex minus -.2ex}%
 		 	{2.3ex plus.2ex}%
-			{\sectionfont\large}}
+			{\clearfloats\sectionfont\large}}
 }
 
 % And create a shortcut for making an alternate version of it
@@ -231,7 +231,8 @@
 \titleformat{\subsubsection}{\vspace{1em}\pagebreak[3]\needspace{10em}\titlerule\vspace{0.08em}\normalsize}{\thesubsubsection\nopagebreak}{1em}{}[] %encourage pagebreak with [1] before subsub, prevent it immediately afterwards. \wherefrom also prevents pagebreaks
 \renewcommand\thesubsubsection{E~\thechapter.\arabic{subsubsection}} % cheat for renumbering, pretend it’s a subsection
 \setlength{\subsubsectiontitleindent}{0cm} % remove indent
-\newcommand\subsectionbreak{\clearfloats}	% clear floats before each subsection
+\newcommand\sectionbreak{\clearfloats}			% clear floats before each section
+\newcommand\subsectionbreak{\clearfloats}		% clear floats before each subsection
 \newcommand\subsubsectionbreak{\clearfloats}	% clear floats before each subsubsection (exercise)
 
 % Use cref (cleveref) to make internal links; configure French language.
