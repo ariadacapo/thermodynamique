@@ -184,13 +184,13 @@
 % y compris en faisant des références
 % Voir aussi déclarations en fin de ce document.
 
-\usepackage{hyperref}
-\hypersetup{colorlinks=true,
-				citecolor=black,
-				filecolor=black,
-				linkcolor=black,
-				urlcolor=black,
-				bookmarks=false}
+%\usepackage{hyperref} %thermo
+%\hypersetup{colorlinks=true,
+%				citecolor=black,
+%				filecolor=black,
+%				linkcolor=black,
+%				urlcolor=black,
+%				bookmarks=false}
 
 
 %-----------------------------------------------------------------------

@@ -577,6 +577,18 @@ Nous admettons également que la variation d’entropie d’un gaz parfait, pour
 	\end{IEEEeqnarray}
 }
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Packages that all want to be loaded last to avoid conflicts
+
+
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,
+				citecolor=black,
+				filecolor=black,
+				linkcolor=black,
+				urlcolor=black,
+				bookmarks=false}
+
 % Use cref (cleveref) to make internal links; configure French language.
 \usepackage[french,nameinlink]{cleveref}
    \crefformat{equation}{#2équation~#1#3}
