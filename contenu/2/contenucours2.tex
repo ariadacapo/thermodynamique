@@ -2,8 +2,8 @@
 
 		À partir de maintenant, nous voulons décrire et quantifier les transferts d’énergie dans les fluides. Nous pouvons adopter deux points de vue différents pour observer le fluide :
 		\begin{itemize}
-			\item Soit nous «~découpons~» un petit morceau de masse, que nous suivons de près lorsqu’il évolue, et nous quantifions l’énergie qui lui est transférée : c’est ce que nous appelons un \vocab{système fermé} ;
-			\item Soit nous choisissons un morceau de volume fixe, qui est \emph{traversé} en permanence par un débit de masse, et nous quantifions les transferts d’énergie vers le volume : c’est ce que nous appelons un \vocab{système ouvert}.
+			\item Soit nous «~découpons~» un petit morceau de masse, que nous suivons de près lorsqu’il évolue, puis nous quantifions l’énergie qui lui est transférée : c’est ce que nous appelons un \vocab{système fermé} ;
+			\item Soit nous choisissons un morceau de volume fixe, qui est \emph{traversé} en permanence par un débit de masse, puis nous quantifions les transferts d’énergie vers le volume : c’est ce que nous appelons un \vocab{système ouvert}.
 		\end{itemize}
 		
 		Bien sûr, ces deux méthodes sont équivalentes : elles vont produire les mêmes résultats. Le choix de l’une ou l’autre rendra simplement l’analyse et la quantification des transferts plus aisée.
@@ -17,7 +17,7 @@
 				\label{fig_diesel_engine_cutaway}
 		\end{figure}
 		
-		L’utilisation d’un système fermé est judicieuse pour analyser les machines à mouvement alternatif (moteurs automobiles, pompes et compresseurs, et généralement toutes les machines à pistons/cylindres). Ces machines divisent le fluide en petites quantités qui sont emprisonnées dans une enclave, dans laquelle elles sont chauffées ou refroidies, et comprimées ou détendues (\cref{fig_diesel_engine_cutaway}). Il est alors facile d’identifier une quantité de masse donnée et de quantifier les transferts qu’elle subit.
+		L’utilisation d’un système fermé est judicieuse pour analyser les machines à mouvement alternatif (moteurs automobiles, pompes et compresseurs et généralement toutes les machines à pistons/cylindres). Ces machines divisent le fluide en petites quantités qui sont emprisonnées dans une enclave, dans laquelle elles sont chauffées, refroidies, comprimées ou détendues (\cref{fig_diesel_engine_cutaway}). Il est alors facile d’identifier une quantité de masse donnée et de quantifier les transferts qu’elle subit.
 		
 		À l’inverse, pour étudier ce qui se passe dans une tuyère de turboréacteur par exemple, nous aurions des difficultés pour identifier un groupe donné de particules et quantifier le changement de ses propriétés. Il sera alors judicieux d’utiliser un système ouvert, comme nous l’étudierons au \courstrois.
 		
@@ -27,7 +27,7 @@
 			\begin{center}
 			\includegraphics[width=\textwidth]{images/fonctionnement_base_moteur.png}
 			\end{center}
-			\supercaption{Principe de fonctionnement d’un moteur. Lorsque l’on fournit de la chaleur à un fluide dans un réservoir fermé, il augmente les forces qu’il exerce sur les parois du réservoir. En laissant le réservoir se déformer, on fait effectuer un travail au fluide.}{schéma \cczero \oc}
+			\supercaption{Principe de fonctionnement d’un moteur. Lorsque l’on fournit de la chaleur à un fluide dans un réservoir fermé, celui-ci augmente les forces qu’il exerce sur les parois du réservoir. En laissant le réservoir se déformer, on fait effectuer un travail au fluide.}{schéma \cczero \oc}
 			\label{fig_moteur_sf}
 		\end{figure}
 
@@ -61,11 +61,11 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 			\begin{center}
 				\includegraphics[width=9cm]{images/convention_systeme_ferme.png}
 			\end{center}
-			\caption{Conventions de signe pour un système fermé. Les flux entrants sont positifs, et les flux sortants sont négatifs ; ils sont tous représentés avec des flèches rentrantes. La quantité de masse est fixe.}
+			\caption{Conventions de signe pour un système fermé. Les flux entrants sont positifs, les flux sortants sont négatifs ; ils sont tous représentés avec des flèches rentrantes. La quantité de masse est fixe.}
 			\label{fig_convention_signe_sf}
 		\end{figure}
 
-		Ainsi, dans les équations, nous pouvons systématiquement additionner les termes, sans avoir à connaître le sens des transformations. Les transferts sont comptabilisés comme sur  un compte bancaire : les dépenses sont négatives et les recettes positives.
+		Ainsi, dans les équations, nous pouvons systématiquement additionner les termes sans avoir à connaître le sens des transformations. Les transferts sont comptabilisés comme sur  un compte bancaire : les dépenses sont négatives et les recettes positives.
 
 
 
@@ -73,7 +73,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 \label{ch_premier_principe_sf}
 
 	\thermoquotebegin{O}
-		Ainsi, appelons $Q$ la quantité de chaleur qui doit être impartie à un corps pendant son passage, d’une manière donnée, d’une condition à une autre, toute chaleur prélevée au corps étant comptée comme une quantité négative. Alors, $Q$ peut être divisée en trois parties, parmi lesquelles la première peut être employée à augmenter la chaleur existant véritablement dans le corps, la seconde à produire le travail intérieur, et la troisième à produire le travail extérieur. Ce que nous avons déjà dit de la seconde partie s’applique aussi à la première -- elle est indépendante du chemin suivi dans le passage du corps d’un état à un autre : en conséquence ces deux parties ensemble peuvent être représentés par une fonction $U$, que nous savons être entièrement déterminée par les états initial et final du corps.
+		Ainsi, appelons $Q$ la quantité de chaleur qui doit être impartie à un corps pendant son passage, d’une manière donnée, d’une condition à une autre, toute chaleur prélevée au corps étant comptée comme une quantité négative. Alors, $Q$ peut être divisée en trois parties, parmi lesquelles la première peut être employée à augmenter la chaleur existant véritablement dans le corps, la seconde à produire le travail intérieur et la troisième à produire le travail extérieur. Ce que nous avons déjà dit de la seconde partie s’applique aussi à la première -- elle est indépendante du chemin suivi dans le passage du corps d’un état à un autre : en conséquence ces deux parties ensemble peuvent être représentés par une fonction $U$, que nous savons être entièrement déterminée par les états initial et final du corps.
 	\thermoquoteend{Rudolf Clausius, 1854}{\textit{Über eine veränderte Form des zweiten Hauptsatzes der mechanischen Wärmetheorie~\cite{clausius1854}}\vspace{1em}} %handmade vspace
 	Le premier principe stipule que l’énergie est indestructible (\S\ref{ch_premier_principe}). Si on fournit \SI{100}{\joule} de travail à un système fermé et qu’il perd \SI{80}{\joule} sous forme de chaleur, c’est donc que «~son~» énergie a augmenté de~\SI{20}{\joule}. Nous nommons cette variation la \vocab{variation d’énergie interne}, $\Delta U$. 
 	
@@ -118,12 +118,9 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 		\item et \tab $Q_{\text{cycle}}$ \tab est la chaleur reçue par le système (\si{\joule}).
 	\end{equationterms}
 
-	Cette \cref{eq_premier_principe_cycle} est la raison pour laquelle on énonce souvent le premier principe de la façon suivante :
+	Cette \cref{eq_premier_principe_cycle} est la raison pour laquelle on énonce souvent le premier principe de la façon suivante, sans pourtant apporter grand’chose à notre simple affirmation du \coursunshort :
 
 	«~Lorsqu’un système a parcouru un cycle thermodynamique complet, la somme algébrique de la chaleur fournie et du travail effectué est nulle.~»
-
-	Même si elle est beaucoup plus impressionnante que notre simple affirmation du \coursunshort (\S\ref{ch_premier_principe}), cette phrase ne mérite pas autant l’attention de l’étudiant/e.
-
 
 
 
@@ -257,7 +254,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 
 	\subsection{Travail d’un fluide en évolution lente}
 
-		Lorsque l’on comprime un fluide, les molécules qui le composent sont plus rapprochées les unes des autres (\cref{fig_molécules_compression_lente}), et les collisions entre elles et contre les parois deviennent plus fréquentes. À l’échelle macroscopique, cette augmentation se traduit par une augmentation de la pression.
+		Lorsque l’on comprime un fluide, les molécules qui le composent sont plus rapprochées les unes des autres (\cref{fig_molécules_compression_lente}) et les collisions entre elles et contre les parois deviennent plus fréquentes. À l’échelle macroscopique, cette augmentation se traduit par une augmentation de la pression.
 		
 		\begin{figure}
 			\begin{center}
@@ -308,11 +305,11 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 		\thermoquotebegin{O}
 			S’il était vrai que la vapeur se dépensât par le cylindre à une pression égale à celle de la chaudière, ou qui fût à celle-ci dans un rapport fixe indiqué par un coefficient quelconque, puisqu’il faut toujours à une même locomotive le même nombre de tours de roue, ou le même nombre de coups de piston pour parcourir la même distance, il s’en suivrait que tant que ces machines travaillent à la même pression, elles devraient consommer dans tous les cas la même quantité d’eau pour la même distance.
 		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1839}{\textit{Théorie de la machine à vapeur} \cite{pambour1839}\vspace{4em}} %handmade vspace
-		Comment les fluides se comportent-t-ils lorsque l’on les comprime --\ autrement dit, par quel type de «~ressort~» peut-on les modéliser ? On constate expérimentalement losqu’on les comprime, la plupart des gaz voient leur pression et leur volume liés par une relation de type $p\ v^{x} = \text{cste.}$ avec $x$ une constante lorsque l’on les comprime (\cref{fig_p-v_pvx})%
+		Comment les fluides se comportent-t-ils lorsqu’on les comprime --\ autrement dit, par quel type de «~ressort~» peut-on les modéliser ? On constate expérimentalement que, losqu’on les comprime, la plupart des gaz voient leur pression et leur volume liés par une relation de type $p\ v^{x} = \text{cste.}$ avec $x$ une constante lorsqu’on les comprime (\cref{fig_p-v_pvx})%
 			\footnote{Toutefois, nous verrons au \courscinqshort que les liquides/vapeurs ne se comportent pas du tout comme cela sur une plage de propriétés donnée, même si la tendance globale reste la même.}%
 		.
 
-		Lorsque l’on apporte de la chaleur au fluide pendant qu’on le comprime, on «~durcit~» son comportement, et la pression augmente plus rapidement (\cref{fig_p-v_ajout_retrait_chaleur}). À~l’inverse, lorsque l’on lui prélève de la chaleur pendant la compression, la pression augmente moins rapidement. Ces transferts de chaleur font donc varier la quantité de travail à fournir pour comprimer le fluide entre deux volumes donnés.
+		Lorsqu’on apporte de la chaleur au fluide pendant qu’on le comprime, on «~durcit~» son comportement, et la pression augmente plus rapidement (\cref{fig_p-v_ajout_retrait_chaleur}). À~l’inverse, lorsqu’on lui prélève de la chaleur pendant la compression, la pression augmente moins rapidement. Ces transferts de chaleur font donc varier la quantité de travail à fournir pour comprimer le fluide entre deux volumes donnés.
 		
 		Le cas où l’on apporte pas de chaleur est nommé \vocab{adiabatique} : $Q = 0$. Attention : adiabatique ne veut pas dire «~à température constante~». Lorsque l’on comprime un fluide sans apport de chaleur, sa température augmente. Dans un moteur diesel, par exemple, l’air dans les cylindres peut atteindre \SI{900}{\degreeCelsius} avant la combustion -- ce qui est désirable, comme nous le verrons au \courssept.
 
@@ -321,12 +318,12 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 			\includegraphics[width=9cm]{images/pv_transfert_chaleur.png}
 			\end{center}
 			\caption{Comportement d’un fluide lorsqu’on le comprime infiniment lentement.
-Plus on lui apporte de chaleur pendant la compression, et plus la pression augmente fort. La courbe adiabatique représente le cas où aucun apport ni perte de chaleur n’a lieu ($Q = 0$).}
+Plus on lui apporte de chaleur pendant la compression, plus la pression augmente fortement. La courbe adiabatique représente le cas où aucun apport ni perte de chaleur n’a lieu ($Q = 0$).}
 			\label{fig_p-v_ajout_retrait_chaleur}
 		\end{figure}
 
 
-		Dans les trois évolutions de la \cref{fig_p-v_ajout_retrait_chaleur}, la relation de type $p v^{x} = \text{cste.}$ reste une modélisation appropriée. Plus on apporte de chaleur pendant la compression, et plus la pression augmente rapidement --\ l’exposant $x$ est alors plus important.
+		Dans les trois évolutions de la \cref{fig_p-v_ajout_retrait_chaleur}, la relation de type $p v^{x} = \text{cste.}$ reste une modélisation appropriée. Plus on apporte de chaleur pendant la compression, plus la pression augmente rapidement --\ l’exposant $x$ est alors plus important.
 
 		Inversement, si l’on prélève de la chaleur pendant la compression, la pression augmente moins rapidement et on obtient une courbe plus proche de l’horizontale (avec un exposant  $x$ plus faible). En prélevant suffisamment de chaleur, on peut même maintenir la pression constante, comme nous le verrons aux chapitres~\quatre et~\cinq. L’exposant $x$ est alors nul et on a $p = p_\text{cste.}$.
 		
@@ -334,7 +331,7 @@ Plus on lui apporte de chaleur pendant la compression, et plus la pression augme
 				Un gaz dans un cylindre est comprimé lentement par un piston. On observe que sa pression est liée à son volume par la relation $p v^{\num{1,2}} = k$ (en unités \textsc{si}, et où $k$ est une constante). Au début de la compression, ses propriétés sont $p_\A = \SI{1}{\bar}$ et $v_\A = \SI{1}{\metre\cubed\per\kilogram}$. On le comprime jusqu’à ce que son volume ait atteint $v_\B = \SI{0,167}{\metre\cubed\per\kilogram}$. \\
 				Quelle quantité de travail spécifique le gaz a-t-il fourni ou reçu ?				
 					\begin{answer}
-						L’évolution peut être représentée qualitativement sur un diagramme pression-volume ainsi:
+						L’évolution peut être représentée qualitativement ainsi, sur un diagramme pression-volume :
 							\begin{center}
 								\includegraphics[width=3cm]{images/ex_pv_exp1.png}
 							\end{center}
@@ -351,7 +348,7 @@ Plus on lui apporte de chaleur pendant la compression, et plus la pression augme
 				Au début de la détente, la pression est à \SI{12}{\bar} et le volume est de \SI{0,25}{\liter}. Une fois détendu, le gaz arrive à pression ambiante de \SI{1}{\bar} avec un volume de \SI{1,76}{\liter}.\\
 				Quel travail le gaz a-t-il dégagé pendant la détente ?				
 					\begin{answer}
-						L’évolution peut être représentée qualitativement sur un diagramme pression-volume ainsi:
+						L’évolution peut être représentée qualitativement ainsi, sur un diagramme pression-volume :
 							\begin{center}
 								\includegraphics[width=3cm]{images/ex_pv_exp2.png}
 							\end{center}
@@ -365,7 +362,7 @@ Plus on lui apporte de chaleur pendant la compression, et plus la pression augme
 								k_1 &=& \frac{\ln\left(\frac{p_\B }{p_\A}\right)}{\ln\left(\frac{v_\A}{v_\B }\right)} = \frac{\ln\left(\frac{1}{12}\right)}{\ln\left(\frac{0,833}{5,867}\right)} = \num{1,2733}
 							\end{IEEEeqnarray*}
 						Et avec $k_1$, nous pouvons calculer $k_2 = p_\A v_\A^{k_1} = \num{12e5} \times \num{0,833}^{\num{1,2733}} = \SI{9,514e5}{\usi}$. 
-							\begin{remark}$k_1$ est un exposant et n’a pas d’unités. Celles de $k_2$ ne nous intéressent pas.\end{remark}
+							\begin{remark}$k_1$ est un exposant et n’a pas d’unités. Les unités de $k_2$ ne nous intéressent pas.\end{remark}
 							\begin{remark}Même si elle peut paraître laborieuse, cette démarche «~nous avons un modèle général pour la tendance, quels sont les paramètres pour ce cas particulier ?~» est très courante en physique, et extrêmement utile pour l’ingénieur/e.\end{remark}
 						Nous savons maintenant décrire quantitativement les propriétés pendant l’évolution : $p v^{\num{1,2733}} = \num{5,914e5}$.	Il n’y a plus qu’à effectuer notre intégration habituelle : $w_\fromatob = - \int_\A^\B p \diff v = - k_2 \int_\A^\B v^{-k_1} \diff v = \frac{\num{-9,514e5}}{\num{-0,2733}} \left[v^{-0,2733}\right]_{\num{0,833}}^{\num{0,587}} = \SI{-3,333e6}{\joule\per\kilogram} = \SI{-3333}{\kilo\joule\per\kilogram}$. Nous multiplions par la masse de gaz pour obtenir le travail : $W_{\A\to\B} = m \ w_\fromatob = \SI{-1}{\kilo\joule}$. 
 							\begin{remark}Ce calcul peut être effectué de façon plus rapide, sans calculer les valeurs de $v_\A$, $v_\B $ et $k_2$. Toutefois, pour être certain/e de parvenir au résultat, il est plus sûr et plus facile de quantifier $p$ et $v$ (en \textsc{si}) à tous les stades de l’évolution avant de débuter une intégration.\end{remark}
@@ -375,7 +372,7 @@ Plus on lui apporte de chaleur pendant la compression, et plus la pression augme
 			\begin{anexample}
 				Un gaz enfermé dans un réservoir hermétique est chauffé lentement. Son volume reste bloqué à \SI{12}{\liter}, et sa pression évolue de \SI{1}{\bar} jusqu’à \SI{40}{\bar}. Quel est le travail développé ?
 					\begin{answer}
-						L’évolution peut être représentée qualitativement sur un diagramme pression-volume ainsi:
+						L’évolution peut être représentée qualitativement ainsi sur un diagramme pression-volume :
 							\begin{center}
 								\includegraphics[width=3cm]{images/ex_pv_isochore.png}
 							\end{center}
@@ -396,7 +393,7 @@ Plus on lui apporte de chaleur pendant la compression, et plus la pression augme
 			\begin{center}
 			\includegraphics[width=9cm]{images/particules_compression_rapide.png}
 			\end{center}
-			\caption{Compression et détente irréversibles. Lorsqu’on comprime un fluide de façon brutale (gauche), la pression sur la paroi du piston est augmentée. Lors d’une détente brutale (droite) cette pression est diminuée.}
+			\caption{Compression et détente irréversibles. Lorsqu’on comprime un fluide de façon brutale (schéma de gauche), la pression sur la paroi du piston est augmentée. Lors d’une détente brutale (schéma de droite) cette pression est diminuée.}
 			\label{fig_molécules_rapide}
 		\end{figure}
 
@@ -410,9 +407,9 @@ Plus on lui apporte de chaleur pendant la compression, et plus la pression augme
 			\label{fig_baignoire}
 		\end{figure}
 		
-		Dans chacun des cas, la quantité de travail consommé à la compression est plus grande, et la quantité de travail fourni à la détente est plus petite.
+		Dans chacun des cas, la quantité de travail consommé à la compression est plus grande et la quantité de travail fourni à la détente est plus petite.
 		
-		Nous nommons ce phénomène l’\vocab{irréversibilité}. Elle nous sera d’un grand embarras dans notre étude quantitative de la thermodynamique, et elle rendra encore plus ardues nos conversions de travail et chaleur.
+		Nous nommons ce phénomène l’\vocab{irréversibilité}. Elle nous sera d’un grand embarras dans notre étude quantitative de la thermodynamique et elle rendra encore plus ardues nos conversions de travail et chaleur.
 
 		Que se passe-t-il donc dans le cylindre empli de fluide, lorsqu’on ne le comprime pas de façon infiniment lente ? Lors d’une compression brutale, la pression sur la paroi du piston est plus grande que la pression moyenne à l’intérieur du cylindre (\cref{fig_piston_fluide_rapide}). On dépense \emph{plus d’énergie que nécessaire} pour effectuer le déplacement.
 
@@ -484,7 +481,7 @@ Plus on lui apporte de chaleur pendant la compression, et plus la pression augme
 		Du point de vue de l’ingénieur/e, une évolution lente est un cas limite : celui où les dissipations sont minimisées. Par exemple, le travail qu’il faut investir pour comprimer un gaz jusqu’à~\SI{10}{\bar} est minimal lorsque la compression est réversible. De même, une turbine dans laquelle la détente est réversible extraira le maximum de travail d’un fluide comprimé. Et au contraire, dans un amortisseur automobile, on rend les évolutions très irréversibles pour qu’il fournisse lors du chemin retour un travail plus faible qu’à l’aller.
 		
 		\thermoquotebegin{O}
-		D’où vient l’irréversibilité ? elle ne vient pas des lois de Newton. Si nous partons de l’idée que le comportement de toutes choses doit être en définitive compris en termes des lois de la physique, et s’il apparaît également que toutes les équations ont cette propriété fantastique d’avoir une autre solution [valide] lorsque nous remplaçons $t$ par $-t$, alors chaque phénomène est réversible. Comment se fait-il alors que dans la nature, à une grande échelle, les choses ne soient pas réversibles ?
+		D’où vient l’irréversibilité ? elle ne vient pas des lois de Newton. Si nous partons de l’idée que le comportement de toutes choses doit être en définitive compris en termes des lois de la physique et s’il apparaît également que toutes les équations ont cette propriété fantastique d’avoir une autre solution [valide] lorsque nous remplaçons $t$ par $-t$, alors chaque phénomène est réversible. Comment se fait-il alors que dans la nature, à une grande échelle, les choses ne soient pas réversibles ?
 		\thermoquoteend{Richard Feynman, 1963}{\textit{The Feynman Lectures on \mbox{Physics}} \mbox{\cite{feynman1963, feynman1963fr}}\vspace{1em}} %handmade vspace
 		Du point de vue de la physique, le phénomène d’irréversibilité est fascinant. En effet, nous partons de collisions de molécules, un phénomène tout à fait réversible, pour fabriquer une transformation irréversible : une évolution qui ne va que dans un sens ! Pour ramener le gaz dans l’état où il était avant de le comprimer brutalement, nous sommes obligés de lui prendre de la chaleur. Il est surprenant que sans aller à l’encontre des lois de Newton, nous ayons créé une situation où \emph{on ne peut pas revenir en arrière en «~faisant l’inverse~»}. Existe-t-il d’autres transformations irréversibles ? Peut-on quantifier l’irréversibilité ? Nous tenterons de répondre à ces questions dans les \courssept et \courshuit.
 
@@ -502,7 +499,7 @@ Plus on lui apporte de chaleur pendant la compression, et plus la pression augme
 
 \section{Quantifier la chaleur avec un système fermé}
 
-		Au risque de frustrer l’étudiant/e, il nous faut tout de suite avouer que \emph{nous ne savons pas quantifier les transferts de chaleur directement}. Nous allons toujours procéder par déduction : en quantifiant la variation d’énergie, et en y soustrayant les transferts sous forme de travail, on obtient la quantité de chaleur qui a été échangée. Mathématiquement, dans un système fermé, nous ne faisons que ré-utiliser l’\cref{eq_premier_principe_sf_maj} pour obtenir :
+		Au risque de frustrer l’étudiant/e, il nous faut tout de suite avouer que \emph{nous ne savons pas quantifier directement les transferts de chaleur}. Nous allons toujours procéder par déduction : en quantifiant la variation d’énergie, et en y soustrayant les transferts sous forme de travail, on obtient la quantité de chaleur qui a été échangée. Mathématiquement, dans un système fermé, nous ne faisons que réutiliser l’\cref{eq_premier_principe_sf_maj} pour obtenir :
 	\begin{IEEEeqnarray}{rCl}
 		Q_{1 \to 2} 	& = & 	\Delta U \ - \  W_{1 \to 2} \\
 		q_{1 \to 2} 	& = & 	\Delta u \ - \  w_{1 \to 2}
