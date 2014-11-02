@@ -1,8 +1,8 @@
 \section{Pourquoi utiliser un système ouvert ?}
 
-	Dans de nombreuses machines, le fluide utilisé pour échanger de la chaleur et du travail circule de façon continue. Il peut alors être difficile d’identifier une quantité de masse fixe pour comptabiliser les transferts d’énergie avec un système fermé. Par exemple, dans une tuyère de turboréacteur, l’air se détend et accélère continûment : à un instant donné il n’y a pas de volume identifiable qui aurait \emph{une} vitesse ou \emph{une} pression particulière.
+	Dans de nombreuses machines, le fluide utilisé pour échanger de la chaleur et du travail circule de façon continue. Il peut alors être difficile d’identifier une quantité de masse fixe pour en faire un système fermé et y quantifier les transferts d’énergie. Par exemple, dans une tuyère de turboréacteur, l’air se détend et accélère continûment : à un instant donné il n’y a pas de volume identifiable qui aurait \emph{une} vitesse ou \emph{une} pression particulière.
 	
-	Un système ouvert est un outil utile pour comptabiliser l’énergie dans les flux. Plutôt que de séparer les étapes dans le temps (avant/après la compression, etc.) nous allons quantifier les transferts de travail et de chaleur en séparant les étapes dans l’espace (en amont/aval du compresseur, etc.).
+	L’emploi d’un système ouvert nous est très utile pour comptabiliser l’énergie dans les flux. Plutôt que de séparer les étapes dans le temps (avant/après la compression, etc.) nous allons quantifier les transferts de travail et de chaleur en séparant les étapes dans l’espace (en amont/aval du compresseur, etc.).
 
 \section{Conventions de comptabilité}
 
@@ -44,11 +44,11 @@
 
 	Nous avons vu que dans un système fermé le principe de conservation de l’énergie se traduisait par l’expression $q + w = \Delta u$ (\ref{eq_premier_principe_sf_maj}). Dans un système ouvert, la situation est un peu différente et nous devons tenir compte d’autres formes d’énergie.
 
-	\subsection{Rentrer et sortir du système : le travail d’écoulement}
+	\subsection{Entrer et sortir du système : le travail d’écoulement}
 
-		Imaginons un système ouvert en régime continu contenant une petite pompe à eau. Pour insérer l’eau dans la pompe à une pression donnée, il faut fournir au système de l’énergie. Au contraire, pour repousser l’eau à l’extérieur (à une pression plus haute), le système doit fournir de l’énergie. Comment quantifier cette énergie ?
+		Imaginons un système ouvert en régime continu contenant une petite pompe à eau. Pour insérer l’eau dans la pompe à une pression donnée, il faut fournir de l’énergie au système. Au contraire, pour repousser l’eau à l’extérieur (à une pression plus haute), le système doit fournir de l’énergie. Comment quantifier cette énergie ?
 
-		Considérons le cas d’un \vocab{élément de fluide} (\cref{fig_travail_ecoulement}), c’est-à-dire une petite quantité de fluide en transit, de volume $V$, et qui pénètre à l’intérieur de notre système à la pression $p_1$.
+		Considérons le cas d’un \vocab{élément de fluide} (c’est-à-dire une petite quantité de fluide en transit, de volume $V$) et qui pénètre à l’intérieur de notre système à la pression $p_1$ (\cref{fig_travail_ecoulement}).
 
 		\begin{figure}
 			\begin{center}
@@ -89,7 +89,7 @@
 			w_\text{extraction} 			& = & - p_2 \ v_2
 		\end{IEEEeqnarray}
 
-		La somme nette de ces deux puissances aux frontières est nommée \vocab{puissance d’écoulement}, $\dot{W}_\text{écoulement} \equiv \dot{W}_\text{insertion} + \dot{W}_\text{extraction}$ . Son signe dépend des conditions d’opération -- l’étudiant/e est encouragé/e à se représenter et formuler les conditions dans lesquelles la puissance d’écoulement peut être négative, nulle, ou positive.
+		La somme nette de ces deux puissances aux frontières est nommée \vocab{puissance d’écoulement}, $\dot{W}_\text{écoulement} \equiv \dot{W}_\text{insertion} + \dot{W}_\text{extraction}$ . Son signe dépend des conditions d’opération -- l’étudiant/e est encouragé/e à se représenter et à formuler les conditions dans lesquelles la puissance d’écoulement peut être négative, nulle, ou positive.
 
 
 	\subsection{Bilan énergétique}
@@ -110,15 +110,15 @@
 			\label{eq_w_int1}
 		\end{equation}
 
-		De même, le fluide possède une quantité d’énergie mécanique spécifique $e_\text{méca1}$ (\ref{def_énergie_mécanique_spécifique}), et le système reçoit donc également une puissance $\dot{E}_\text{méca1}$ :
+		De même, le fluide possède une quantité d’énergie mécanique spécifique $e_\text{méca1}$ (\ref{def_énergie_mécanique_spécifique}) et le système reçoit donc également une puissance $\dot{E}_\text{méca1}$ :
 		\begin{equation}
 			\dot{E}_\text{méca1} = \dot m \ e_\text{méca1} = \dot{m} \ \left(\frac{1}{2} \ C_1^2 + g \ z_1\right)
 			\label{eq_w_méc1}
 		\end{equation}
 
-		Ces expressions~\ref{eq_w_int1} et~\ref{eq_w_méc1} sont de signe opposé à la sortie, où nous utilisons l’indice~2.
+		Ces expressions~\ref{eq_w_int1} et~\ref{eq_w_méc1} sont de signe opposé à la sortie du système, où nous leur attribuons l’indice~2.
 		
-		Nous avons donc fait le tour des formes d’énergie que l’on peut observer dans un système ouvert. Puisque le premier principe stipule que l’énergie est indestructible (\S\ref{ch_premier_principe}), l’ajout d’une puissance $\dot Q$ sous forme de chaleur ou $\dot W$ sous forme de travail ne peut faire varier que ces formes-là. Cela se traduit par l’équation :
+		Nous avons donc fait le tour des formes d’énergie que l’on peut observer dans un système ouvert : travail d’écoulement, énergie interne, et énergie mécanique. Puisque le premier principe stipule que l’énergie est indestructible (\S\ref{ch_premier_principe}), l’ajout d’une puissance $\dot Q$ sous forme de chaleur ou $\dot W$ sous forme de travail ne peut faire varier que ces trois formes-là. Cela se traduit par l’équation :
 		\begin{IEEEeqnarray}{rCl}
 			\dot{Q}_{1 \to 2} + \dot{W}_{1 \to 2} + \left(\dot{W}_\text{insertion} + \dot{U}_{1} + \dot{E}_\text{méca1}\right) + \left(\dot{W}_\text{extraction} + \dot{U}_{2} + \dot{E}_\text{méca2}\right) = 0	\nonumber\\
 			\label{eq_somme_puissances}
@@ -128,7 +128,7 @@
 			\item où tous les termes sont exprimés en \si{watts}.
 		\end{equationterms}
 
-		Nous pouvons ré-exprimer cette \cref{eq_somme_puissances} en fonction de grandeurs directement mesurables :
+		Nous pouvons ré-exprimer l’\cref{eq_somme_puissances} en fonction de grandeurs directement mesurables :
 		\begin{IEEEeqnarray}{rCl}
 			\dot{Q}_{1 \to 2} + \dot{W}_{1 \to 2}  + \dot{m} \ \left(p_1 \ v_1 + u_1 + \frac{1}{2} C_1^2 + g \ z_1\right) &=& \dot{m} \ \left(p_2 \ v_2 + u_2 + \frac{1}{2} C_2^2 + g \ z_2\right)\nonumber\\
 			\label{eq_grande_sfee}
@@ -146,10 +146,10 @@
 		
 		Les équations~\ref{eq_grande_sfee} et~\ref{eq_petite_sfee_deltas} sont extrêmement utiles en thermodynamique, puisqu’elles permettent de quantifier par déduction les puissances en jeu dans les écoulements. Elles nous permettent notamment de prédire les propriétés du fluide à la sortie d’un dispositif dont on connaît la puissance mécanique et les émissions de chaleur. Par exemple, on peut connaître l’énergie restante dans l’air à la sortie d’une turbine dont on connaît la puissance.
 
-		%Cette équation est parfois nommée \vocab{bilan énergétique en régime continu}. Pour éviter l’utilisation d’un acronyme malheureux, nous nous accrocherons à la littérature anglophone : \vocab{Steady Flow Energy Equation}, ou \textit{SFEE}.
+		%Cette équation est parfois nommée \vocab{bilan énergétique en régime continu}. Pour éviter l’utilisation d’un acronyme malheureux, nous emprunterons à la littérature anglophone : \vocab{Steady Flow Energy Equation}, ou \textit{SFEE}.
 		
 		\begin{anexample}
-			Un compresseur de turboréacteur admet \SI{1,5}{\kilogram\per\second} d’air à une pression de \SI{0,8}{\bar}, énergie interne de \SI{192,5}{\kilo\joule\per\kilogram}, et volume spécifique de \SI{0,96}{\metre\cubed\per\kilogram}. Il compresse l’air jusqu’à \SI{30}{\bar}, le restituant avec une énergie interne de \SI{542,3}{\kilo\joule\per\kilogram} et un volume spécifique de \SI{6,19e-2}{\metre\cubed\per\kilogram}. La vitesse et l’altitude de l’air sont inchangés.
+			Un compresseur de turboréacteur admet \SI{1,5}{\kilogram\per\second} d’air à une pression de \SI{0,8}{\bar}, énergie interne de \SI{192,5}{\kilo\joule\per\kilogram} et volume spécifique de \SI{0,96}{\metre\cubed\per\kilogram}. Il compresse l’air jusqu’à \SI{30}{\bar}, le restituant avec une énergie interne de \SI{542,3}{\kilo\joule\per\kilogram} et un volume spécifique de \SI{6,19e-2}{\metre\cubed\per\kilogram}. La vitesse et l’altitude de l’air sont inchangés.
 			
 			Quelle est la puissance du compresseur, si ses transferts de chaleur sont négligeables ?
 				\begin{answer}
@@ -270,7 +270,7 @@
 					w_\text{extraction} = -(p + \diff p) (v + \diff v)
 				\end{equation}
 				
-			\item [La puissance spécifique reçue de l’extérieur $\diff w_\text{S.O.}$] est la puissance qui alimente la compression, et la grandeur que nous souhaitons quantifier.
+			\item [La puissance spécifique reçue de l’extérieur $\diff w_\text{S.O.}$] est la puissance qui alimente la compression : c’est la grandeur que nous souhaitons quantifier.
 
 		\end{description}
 
@@ -338,7 +338,7 @@
 		\begin{anexample}
 			Une pompe à liquide compresse lentement un débit d’eau de \SI{2}{\kilogram\per\second} depuis \SI{1}{\bar} jusqu’à \SI{20}{\bar}. Pendant la compression, le volume spécifique de l’eau reste constant à $v_L = \SI{e-3}{\metre\cubed\per\kilogram}$. Quelle est la puissance consommée sous forme de travail ?
 				\begin{answer}
-					L’évolution peut être représentée qualitativement sur un diagramme pression-volume ainsi:
+					L’évolution peut être représentée qualitativement sur un diagramme pression-volume ainsi :
 							\begin{center}
 								\includegraphics[width=3cm]{images/ex_pv_isochore_so.png}
 							\end{center}
@@ -352,7 +352,7 @@
 			Un compresseur compresse lentement un débit d’air de \SI{2}{\kilogram\per\second} depuis \SI{1}{\bar} jusqu’à \SI{20}{\bar}. Pendant la compression, le volume spécifique et la pression de l’air sont liés par la relation $p \ v^{\num{1,35}} = k$. À l’entrée, le volume spécifique de l’air est de $v_\A = \SI{0,8}{\metre\cubed\per\kilogram}$.\\
 			Quelle est la puissance consommée sous forme de travail ?
 				\begin{answer}
-				L’évolution peut être représentée qualitativement sur un diagramme pression-volume ainsi:
+				L’évolution peut être représentée qualitativement sur un diagramme pression-volume ainsi :
 							\begin{center}
 								\includegraphics[width=3cm]{images/ex_pv_exp_so.png}
 							\end{center}
@@ -372,9 +372,9 @@
 
 	\subsection{Travail d’un fluide en évolution rapide}
 	
-		Lorsque le fluide évolue de façon rapide (ce qui est toujours le cas en pratique), nous retrouvons les phénomènes que nous avons décrit au chapitre précédent (\S\ref{ch_évolutions_irr_sf}) : la pression exercée sur les parois mobiles ne correspond plus à la pression «~moyenne~» à l’intérieur du fluide. Le travail à fournir dans les compressions est plus grand, et le le travail réceptionné pendant les détentes plus faible, que lors des évolutions lentes.
+		Lorsque le fluide évolue de façon rapide (ce qui est toujours le cas en pratique), nous retrouvons les phénomènes que nous avons décrits au chapitre précédent (\S\ref{ch_évolutions_irr_sf}) : la pression exercée sur les parois mobiles ne correspond plus à la pression «~moyenne~» à l’intérieur du fluide. Le travail à fournir dans les compressions est plus grand et le travail réceptionné pendant les détentes est plus faible que lors des évolutions lentes.
 		
-		Le fait d’utiliser un système ouvert pour comptabiliser les transferts d’énergie ne change bien sûr rien au problème. Nous n’avons pas les moyens de prédire analytiquement le travail à fournir pour une compression à une vitesse donnée. Le problème (calculer la distribution spatiale de la pression à l’intérieur du fluide) relève de la mécanique des fluides, et sera de toute façon résolu au cas-par-cas.
+		Le fait d’utiliser un système ouvert pour comptabiliser les transferts d’énergie ne change bien sûr rien au problème. Nous n’avons pas les moyens de prédire analytiquement le travail à fournir pour une compression à une vitesse donnée. Le problème –calculer la distribution spatiale de la pression à l’intérieur du fluide en fonction du temps– relève de la mécanique des fluides, et sera quoi qu’il en soit résolu au cas-par-cas.
 		
 		Sur nos diagrammes pression-volume, nous représentons les évolutions irréversibles avec un trait en pointillés, pour bien les différencier des évolutions réversibles (\cref{fig_pv_evolution_irr_so}).
 		
@@ -408,7 +408,7 @@
 \section{Quantifier la chaleur avec un système ouvert}
 
 	Avec un système ouvert nous allons utiliser la même méthode qu’avec un système fermé : comme nous ne savons pas quantifier les transferts de chaleur directement, nous allons toujours procéder par déduction.
-	Mathématiquement, nous ne faisons que ré-utiliser l’\cref{eq_grande_sfee_deltas_h} pour obtenir :
+	Mathématiquement, nous ne faisons que réutiliser l’\cref{eq_grande_sfee_deltas_h} pour obtenir :
 	\begin{IEEEeqnarray}{rCl}
 		\dot{Q}_{1 \to 2} & = & \dot{m} \left( \Delta h + \Delta e_\text{méca.}\right) - \dot{W}_{1 \to 2} \\
 			q_{1 \to 2} 	& = & \Delta h + \Delta e_\text{méca.}  - w_{1 \to 2}
