@@ -31,7 +31,7 @@
 \subsubsection{Suspension pneumatique de camion}
 \label{exo_pneumatique_camion}
 
-	Le système de suspension pneumatique d’une remorque de camion contient avec un réservoir d’air. Lorsque la remorque est chargée, les pistons qui la relient au chassis descendent, l’air qui du réservoir (\cref{fig_camion}).
+	Le système de suspension pneumatique d’une remorque de camion peut être modélisée avec un cylindre d’air. Lorsque la remorque est chargée, le piston fixé à la remorque descend à l’intérieur du cylindre qui est fixé à l’arbre des roues, écrasant l’air qui y est prisonnier (\cref{fig_camion}).
 
 	\begin{figure}
 	\begin{center}
@@ -167,7 +167,7 @@
 		
 		Bien sûr, le rôle de chaque cylindre change deux fois par tour. Nous étudions ici les transferts de travail sur un demi-tour moteur.
 
-		Même si les cylindres B et C ne sont pas des systèmes fermés, nous pouvons ici modéliser leurs évolutions comme si c’était le cas, sans induire d’erreur.
+		Même si les cylindres B et C ne sont pas des systèmes fermés, pour les besoins de l’exercice nous pouvons modéliser leurs évolutions comme si c’était le cas, sans induire d’erreur.
 
 		Les conditions atmosphériques sont de~\SI{1}{\bar} et \SI{1,225}{\kilogram\per\metre\cubed}.	La cylindrée du moteur est de~\SI{1,5}{\liter} et le taux de compression (c’est à dire le rapport des volumes minimal et maximal au sein de chaque cylindre) est de~\num{22}. 
 		
@@ -197,7 +197,7 @@
 	Au départ, l’air dans le cylindre occupe un volume de~\SI{0,5}{\liter}. La pression et la température sont celles de la pièce (\SI{1}{bar} ; \SI{18}{\degreeCelsius}).
 
 	\begin{description}
-		\item[de A à B] L’étudiant/e isole bien le cylindre avec un isolant thermique, et détend lentement le gaz en augmentant son volume jusqu’à~\SI{4,5}{\liter}. Nous savons\footnote{Nous verrons d’où vient cette relation et apprendrons à calculer cette température au \coursquatre.} que pendant ce type de détente, la pression et le volume sont liés par la relation 
+		\item[de A à B] L’étudiant/e isole bien le cylindre avec un isolant thermique, et détend lentement le gaz en augmentant son volume jusqu’à~\SI{4,5}{\liter}. Nous savons\footnote{Nous verrons d’où vient cette relation et apprendrons à calculer cette température au \coursquatre.} que, pendant ce type de détente, la pression et le volume sont liés par la relation 
 			\begin{equation*}
 				p v^{1,4} = k_2
 			\end{equation*}
@@ -214,14 +214,14 @@
 	
 	\begin{enumerate}
 		\item Schématisez l’évolution sur un diagramme pression-volume.
-		\item {Montrez que lors d’une évolution réversible d’un sytème fermé dont les propriétés sont liés par une relation de type $p v^{k_1} = k_2$ (où $k_1 \neq 1$ et $k_2$ sont des constantes), le travail spécifique développé est :
+		\item {Montrez que lors d’une évolution réversible d’un sytème fermé dont les propriétés sont liées par une relation de type $p v^{k_1} = k_2$ (où $k_1 \neq 1$ et $k_2$ sont des constantes), le travail spécifique développé est :
 				\begin{equation*}
 				w_{\A\to\B} = \frac{p_\B v_\B - p_\A v_\A}{k_1 - 1}
 				\end{equation*}}
 		\item Quel est le travail spécifique fourni par le gaz pendant la détente ?
 		\item La capacité thermique de l’air lorsque l’on bloque son volume est égale à~\SI{718}{\joule\per\kilo\gram\per\kelvin}. Quelle quantité de chaleur a-t-elle été rejetée ou prélevée de l’air extérieur ?
 		\item Quelle quantité de travail sera nécessaire pour effectuer le retour C$\to$ A à pression constante ?
-		\item Sur l’entièreté du cycle, l’étudiant/e aura-t-il ou elle dépensé ou reçu du travail ?
+		\item Sur l’entièreté du cycle, l’étudiant/e aura-t-il/elle dépensé ou reçu du travail ?
 		\item {[question difficile]} Le chemin du retour à pression constante nécessite un transfert de chaleur. Dans quel sens, et en quelle quantité ? Pourquoi ce transfert ne peut-t-il (malheureusement) pas être entièrement effectué à l’intérieur du bâtiment ?
 	\end{enumerate}
 
