@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  5 NOV 2014 08:48
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  5 NOV 2014 16:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3687,15 +3687,15 @@ File: images/particules_compression_lente.png Graphic file (type png)
 Package pdftex.def Info: images/particules_compression_lente.png used on input 
 line 261.
 (pdftex.def)             Requested size: 256.0748pt x 188.47737pt.
-
-<images/travail_cylindre_2.png, id=612, 383.73451pt x 214.57155pt>
+ [33 <./2/images/ex_pv_isobare.png> <./2/images/ex_pv_prop.png>]
+<images/travail_cylindre_2.png, id=619, 383.73451pt x 214.57155pt>
 File: images/travail_cylindre_2.png Graphic file (type png)
 
 <use images/travail_cylindre_2.png>
 Package pdftex.def Info: images/travail_cylindre_2.png used on input line 271.
 (pdftex.def)             Requested size: 284.52756pt x 159.1013pt.
- [33 <./2/images/ex_pv_isobare.png> <./2/images/ex_pv_prop.png>] [34 <./2/image
-s/particules_compression_lente.png> <./2/images/travail_cylindre_2.png>]
+ [34 <./2/images/particules_compression_lente.png> <./2/images/travail_cylindre
+_2.png>]
 Underfull \hbox (badness 1648) in paragraph at lines 292--294
 \T1/fxl/m/n/8 quel-conque à la tem-pé-ra-ture $\OML/nxlmi/m/it/8 T$
  []
@@ -3927,6 +3927,10 @@ File: images/piston_camion.png Graphic file (type png)
 <use images/piston_camion.png>
 Package pdftex.def Info: images/piston_camion.png used on input line 38.
 (pdftex.def)             Requested size: 154.2104pt x 227.62204pt.
+
+Underfull \hbox (badness 7540) in paragraph at lines 63--64
+[]\T1/fxl/m/n/10 (+20) Représentez l'évo-lu-tion sur le dia-gramme
+ []
 
 <images/compresseur_air.png, id=774, 256.57988pt x 140.47748pt>
 File: images/compresseur_air.png Graphic file (type png)
@@ -4313,55 +4317,57 @@ File: images/boiler.png Graphic file (type png)
 Package pdftex.def Info: images/boiler.png used on input line 105.
 (pdftex.def)             Requested size: 230.46567pt x 284.52756pt.
 
-[73 <./3/images/boiler.png>]
-<images/symbole_tuyere.png, id=1090, 389.7762pt x 309.3156pt>
+<images/symbole_tuyere.png, id=1079, 389.7762pt x 309.3156pt>
 File: images/symbole_tuyere.png Graphic file (type png)
 
 <use images/symbole_tuyere.png>
 Package pdftex.def Info: images/symbole_tuyere.png used on input line 123.
 (pdftex.def)             Requested size: 213.33081pt x 169.29684pt.
 
-<images/nozzle_f100.jpg, id=1091, 934.24031pt x 722.7pt>
+<images/nozzle_f100.jpg, id=1080, 934.24031pt x 722.7pt>
 File: images/nozzle_f100.jpg Graphic file (type jpg)
 
 <use images/nozzle_f100.jpg>
 Package pdftex.def Info: images/nozzle_f100.jpg used on input line 125.
 (pdftex.def)             Requested size: 218.84799pt x 169.29684pt.
-
-<images/water_turbine_1.png, id=1099, 722.7pt x 334.24875pt>
+ [73 <./3/images/boiler.png> <./3/images/symbole_tuyere.png> <./3/images/nozzle
+_f100.jpg>]
+<images/water_turbine_1.png, id=1102, 722.7pt x 334.24875pt>
 File: images/water_turbine_1.png Graphic file (type png)
 
 <use images/water_turbine_1.png>
 Package pdftex.def Info: images/water_turbine_1.png used on input line 165.
 (pdftex.def)             Requested size: 284.52756pt x 131.59583pt.
 
-<images/water_turbine_2.png, id=1103, 722.7pt x 334.24875pt>
+<images/water_turbine_2.png, id=1106, 722.7pt x 334.24875pt>
 File: images/water_turbine_2.png Graphic file (type png)
 
 <use images/water_turbine_2.png>
 Package pdftex.def Info: images/water_turbine_2.png used on input line 183.
 (pdftex.def)             Requested size: 284.52756pt x 131.59583pt.
- [74 <./3/images/symbole_tuyere.png> <./3/images/nozzle_f100.jpg> <./3/images/w
-ater_turbine_1.png> <./3/images/water_turbine_2.png>] <images/postcombustion.pn
-g, id=1123, 411.1458pt x 236.19951pt>
+
+<images/postcombustion.png, id=1112, 411.1458pt x 236.19951pt>
 File: images/postcombustion.png Graphic file (type png)
 
 <use images/postcombustion.png>
 Package pdftex.def Info: images/postcombustion.png used on input line 202.
 (pdftex.def)             Requested size: 256.0748pt x 147.11615pt.
-
+ [74 <./3/images/water_turbine_1.png> <./3/images/water_turbine_2.png> <./3/ima
+ges/postcombustion.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 271--272
 []\T1/fxl/m/n/10 (+20) Le com-pres-seur au sein d'un tur-bo-pro-pul-seur
  []
 
-<images/circuit_turboprop.png, id=1129, 539.616pt x 240.9pt>
+<images/circuit_turboprop.png, id=1133, 539.616pt x 240.9pt>
 File: images/circuit_turboprop.png Graphic file (type png)
 
 <use images/circuit_turboprop.png>
 Package pdftex.def Info: images/circuit_turboprop.png used on input line 275.
 (pdftex.def)             Requested size: 341.43306pt x 152.42944pt.
- [75 <./3/images/postcombustion.png>]
-[76 <./3/images/circuit_turboprop.png>]
+ [75 <./3/images/circuit_turboprop.png>]
+[76
+
+]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -4850,6 +4856,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.4.5.
 l.85 		\item Q
               uelle condition lâ€™Ã©tudiant/e doit-il/elle maintenir pour ob...
  <./4/images/compresseur_air_reservoir.jpg>]
+Underfull \hbox (badness 4699) in paragraph at lines 96--97
+[]\T1/fxl/m/n/10 (+20) Représentez l'évo-lu-tion sur un dia-gramme
+ []
+
+
 Underfull \hbox (badness 1603) in paragraph at lines 108--109
 []\T1/fxl/m/n/10 (+20) Ensuite, le re-froi-dis-se-ment est conti-nué à vo-lume
  []
@@ -4970,6 +4981,10 @@ File: images/turbojet.png Graphic file (type png)
 Package pdftex.def Info: images/turbojet.png used on input line 249.
 (pdftex.def)             Requested size: 483.69687pt x 141.57066pt.
  [110 <./4/images/turbojet.png>]
+Underfull \hbox (badness 4699) in paragraph at lines 286--287
+[]\T1/fxl/m/n/10 (+20) Représentez l'évo-lu-tion sur un dia-gramme
+ []
+
 <images/atar_compressor.jpg, id=1632, 1284.8pt x 856.19875pt>
 File: images/atar_compressor.jpg Graphic file (type jpg)
 
@@ -5485,6 +5500,10 @@ File: images/exercice_cafe.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/exercice_cafe.jpg used on input line 23.
 (pdftex.def)             Requested size: 142.26378pt x 106.41228pt.
 
+Underfull \hbox (badness 4699) in paragraph at lines 35--36
+[]\T1/fxl/m/n/10 (+20) Représentez l'évo-lu-tion sur un dia-gramme
+ []
+
 <images/exercice_boiling.jpg, id=2114, 770.88pt x 578.16pt>
 File: images/exercice_boiling.jpg Graphic file (type jpg)
 
@@ -5502,6 +5521,10 @@ Package pdftex.def Info: images/exercice_super_cocotte.jpg used on input line 7
  [151
 
  <./5/images/exercice_cafe.jpg> <./5/images/exercice_boiling.jpg>]
+Underfull \hbox (badness 4699) in paragraph at lines 95--96
+[]\T1/fxl/m/n/10 (+20) Représentez l'évo-lu-tion sur un dia-gramme
+ []
+
 <images/exercice_moteur_simple.png, id=2146, 260.44472pt x 499.98112pt>
 File: images/exercice_moteur_simple.png Graphic file (type png)
 
@@ -6538,6 +6561,11 @@ Package mdframed Info: Not enough space on this page on input line 601.
  (./8/contenuexercices8.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
+Underfull \hbox (badness 4699) in paragraph at lines 15--16
+[]\T1/fxl/m/n/10 (+20) Représentez l'évo-lu-tion sur un dia-gramme
+ []
+
+
 Underfull \hbox (badness 1694) in paragraph at lines 20--21
 []\T1/fxl/m/n/10 (+20) Parmi les évo-lu-tions d'un gaz par-fait dé-crites en
  []
@@ -6565,30 +6593,28 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.8.5.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.38 \subsubsection{Cycle de Carnot}
-                                    pdfTeX warning (ext4): destination with the
- same identifier (name{equation.8.5.19}) has been already used, duplicate ignor
-ed
+l.44 \subsubsection{Turbine Ã  vapeur}
+                                      pdfTeX warning (ext4): destination with t
+he same identifier (name{equation.8.5.19}) has been already used, duplicate ign
+ored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.38 \subsubsection{Cycle de Carnot}
-                                    pdfTeX warning (ext4): destination with the
- same identifier (name{equation.8.5.20}) has been already used, duplicate ignor
-ed
+l.44 \subsubsection{Turbine Ã  vapeur}
+                                      pdfTeX warning (ext4): destination with t
+he same identifier (name{equation.8.5.20}) has been already used, duplicate ign
+ored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.38 \subsubsection{Cycle de Carnot}
-                                     <./8/images/tsel1.png> <./8/images/tsel2.p
-ng>]
+l.44 \subsubsection{Turbine Ã  vapeur}
+                                       <./8/images/tsel1.png> <./8/images/tsel2
+.png>]
 Underfull \hbox (badness 2158) in paragraph at lines 110--112
 []\T1/fxl/m/n/10 (+20) L'eau est chauf-fée à pres-sion constante
  []
 
-[230] [231
-
-]
+[230] [231]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -7549,7 +7575,7 @@ Package logreq Info: Writing requests to 'thermodynamique.run.xml'.
 Here is how much of TeX's memory you used:
  49805 strings out of 494957
  831845 string characters out of 3179219
- 1115527 words of memory out of 3000000
+ 1116527 words of memory out of 3000000
  48549 multiletter control sequences out of 15000+200000
  1486356 words of font info for 2012 fonts, out of 3000000 for 9000
  64 hyphenation exceptions out of 8191
@@ -7577,7 +7603,7 @@ e1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tx
 fonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsy5.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsy7.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb>
-Output written on thermodynamique.pdf (318 pages, 18830512 bytes).
+Output written on thermodynamique.pdf (318 pages, 18831298 bytes).
 PDF statistics:
  4590 PDF objects out of 5155 (max. 8388607)
  1475 named destinations out of 1728 (max. 500000)
