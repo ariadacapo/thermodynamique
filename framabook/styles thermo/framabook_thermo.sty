@@ -480,7 +480,9 @@
 \newcommand{\thermoquoteend}[2]{\nolinebreak\makebox(18,5){\color{gray}\scalebox{2}{»}}\par\vspace{-0.3cm}\begin{flushright}#1\\#2\vspace{-2em}\end{flushright}\end{spacing}\end{wrapfigure}}
 
 % Custom style for equation terms description
-\newenvironment{equationterms}{\dontbreakpage\begin{itemize}\itemsep-4pt \parskip0pt \parsep0pt \renewcommand{\labelitemi}{} \renewcommand{\labelitemii}{} \TabPositions{1.3em,2.6em,3em,3.5em,4em,4.5em,5em,5.5em,6em,6.5em,7em,7.5em,8em,8.5em,9em,9.5em,10em,10.5em,11em,11.5em,12em,12.5em,13em,13.5em,14em,14.5em,15em,15.5em,16em,16.5em,17em,17.5em,18em,18.5em,19em,19.5em,20em,20.5em,21em,21.5em,22em,22.5em,23em,23.5em,24em,24.5em,25em}}{\end{itemize}}
+\newenvironment{equationterms}{\dontbreakpage\begin{itemize}\itemsep-4pt \parskip0pt \parsep0pt \renewcommand{\labelitemi}{} \renewcommand{\labelitemii}{} \TabPositions{1.3em,2.6em,3em,3.5em,4em,4.5em,5em,5.5em,6em,6.5em,7em,7.5em,8em,8.5em,
+9em,9.5em,10em,10.5em,11em,11.5em,12em,12.5em,13em,13.5em,14em,14.5em,15em,15.5em,16em,16.5em,17em,17.5em,18em,18.5em,
+19em,19.5em,20em,20.5em,21em,21.5em,22em,22.5em,23em,23.5em,24em,24.5em,25em}}{\end{itemize}}
 
 % Custom style for chapter "funny" subtitle
 \newcommand{\chaptersubtitle}[1]{\begin{center}\begin{large}\textit{\raisebox{0.2em}{\rule{5ex}{0.2ex}}\hspace{1em} ou \hspace{1em}\raisebox{0.2em}{\rule{5ex}{0.2ex}}\\#1}\end{large}\end{center}}
@@ -536,9 +538,6 @@
 \newcommand{\flickru}[1]{\href{https://secure.flickr.com/people/#1}{l’utilisateur$\cdot$rice Flickr #1}}
 \newcommand{\flickrun}[2]{\href{https://secure.flickr.com/people/#1}{#2}}
 
-\newcommand{\myfootertext}{} % Quelque chose pendant la compilation demande un \myfootertext. Mais QUI???? #fixme
-
-
 \newcommand{\propeau}{%
 {\centering Les propriétés de l’eau sont toutes tabulées dans les abaques n°1, 2 et 3.\par}
 }
@@ -581,6 +580,15 @@ Nous admettons également que la variation d’entropie d’un gaz parfait, pour
 				\Delta s	= s_2 - s_1 & = & c_v \ln \frac{T_2}{T_1} + R \ln \frac{v_2}{v_1} 	\ztag{\ref{eq_delta_s_gp_v}}\\
 				\Delta s	= s_2 - s_1 & = & c_p \ln \frac{T_2}{T_1} - R \ln \frac{p_2}{p_1} 	\ztag{\ref{eq_delta_s_gp_p}}
 	\end{IEEEeqnarray}
+}
+
+\newcommand{\efficacitescarnot}{%
+Nous admettons enfin que les efficacités des machines thermiques basées sur un cycle de Carnot s’expriment en fonction des températures absolues ainsi :
+		\begin{IEEEeqnarray}{rCl}
+			\eta_\text{moteur Carnot} 				&=& 1 - \frac{T_B}{T_H} \ztag{\ref{eq_efficacité_moteur_carnot_température}}\\
+			\eta_\text{réfrigérateur Carnot} 	&=& \frac{1}{\frac{T_H}{T_B} - 1} \ztag{\ref{eq_efficacité_réfrigérateur_carnot_température}}\\
+			\eta_\text{thermopompe Carnot} 		&=& \frac{1}{1 - \frac{T_B}{T_H}} \ztag{\ref{eq_efficacité_thermopompe_carnot_température}}
+		\end{IEEEeqnarray}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

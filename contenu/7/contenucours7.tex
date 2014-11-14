@@ -545,6 +545,7 @@
 		Pour résumer, nous répondrons ainsi à la question de Carnot : plus la température à laquelle est brûlé le charbon est haute, plus la température ambiante est basse, et moins les pertes en chaleur --\ \emph{inévitables}\ -- du moteur seront grandes.
 		
 		\begin{anexample}
+		\label{ex_efficacite_moteur_carnot}
 			La température maximale atteignable dans un moteur est de \SI{600}{\degreeCelsius}, et la température à la quelle sont rejetés les gaz d’échappement est de \SI{100}{\degreeCelsius}. Quel est le rendement maximal atteignable par le moteur ?
 				\begin{answer}
 					Pour atteindre la conversion la plus efficace, il faudrait que le moteur soit réversible. On aurait alors, avec l’\cref{eq_efficacité_moteur_carnot_température} : $\eta_\text{moteur} = \eta_\text{moteur Carnot} = 1 - \frac{T_B}{T_H} = 1 - \frac{\num{100}\plustwoseventhree}{\num{600}\plustwoseventhree} = \SI{57,3}{\percent}$.
@@ -578,6 +579,7 @@
 		Les mêmes remarques que plus haut s’appliquent ici : D’une part, le rendement d’un réfrigérateur ou d’un climatiseur n’atteint jamais l’infini (un réfrigérateur de \textsc{cop} infini fonctionnerait sans apport de travail, même s’il est parfaitement isolé et doté d’un mécanisme idéal). D’autre part, cette efficacité est d’autant plus faible que la température de réfrigération $T_B$ est basse. Autrement dit, lorsque l’on refroidit un objet avec un réfrigérateur idéal, la sélection d’une température plus basse est plus coûteuse non seulement parce qu’il faut extraire plus de chaleur de l’objet, mais aussi parce que l’efficacité de l’extraction diminue. 
 		 
 		 \begin{anexample}
+		 \label{ex_efficacite_refrigerateur_carnot}
 		 	Un réfrigérateur doit amener la chambre froide à~\SI{-15}{\degreeCelsius} dans une pièce à~\SI{25}{\degreeCelsius}. Quel est le rendement maximal atteignable ?
 		 		\begin{answer}
 		 			L’efficacité maximale serait atteinte avec un réfrigérateur réversible, ce qui nous permettrait d’obtenir, avec l’\cref{eq_efficacité_réfrigérateur_carnot_température}, $\eta_\text{réfrigérateur} = \eta_\text{réfrigérateur Carnot} = \frac{1}{\frac{T_H}{T_B} - 1} = \frac{1}{\frac{\num{25}\plustwoseventhree}{\num{-5}\plustwoseventhree} - 1} = \num{8,94}$.
