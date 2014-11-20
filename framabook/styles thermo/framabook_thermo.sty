@@ -78,14 +78,16 @@
 
 % Environment to write chapter summary and intro
 \newenvironment{tetedechapitre}[1][]{%
+	\vspace*{\stretch{1}}
 	\begin{center}
 		\begin{minipage}{0.8\textwidth}
 			\begin{center}Le chapitre en bref\end{center}
 			\begin{itshape}
 				#1\par
 			\end{itshape}
+			\begin{center}\ding{105}\end{center}
 }
-{\end{minipage}\end{center}\begin{center}\ding{105}\end{center}}
+{\end{minipage}\end{center}\vspace*{\stretch{1}}\clearpage}
 
 
 %%%%%%%%%%%%%%%%%
