@@ -78,11 +78,14 @@
 
 % Environment to write chapter summary and intro
 \newenvironment{tetedechapitre}[1][]{%
-		\begin{center}Le chapitre en bref\end{center}
-		\begin{itshape}
-			#1\par
-		\end{itshape}
-}{}% no closing arguments
+	\begin{center}
+		\begin{minipage}{0.8\textwidth}
+			\begin{center}Le chapitre en bref\end{center}
+			\begin{itshape}
+				#1\par
+			\end{itshape}
+}
+{\end{minipage}\end{center}\begin{center}\ding{105}\end{center}}
 
 
 %%%%%%%%%%%%%%%%%
@@ -178,6 +181,7 @@
 
 % Gadgets
 \usepackage{ccicons} 	% Use Creative Commons icons in text
+\usepackage{pifont}		% Use \ding{105} in chapter intros
 
 % Tool to prevent pagebreaks in exercises (with \needspace{10cm})
 \usepackage{needspace}
