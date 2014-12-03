@@ -277,19 +277,19 @@
 			\tab 1) Par interpolation entre $T_\text{sat} = \SI{85}{\degreeCelsius}$ et $T_\text{sat} = \SI{90}{\degreeCelsius}$ dans l’abaque n°2, on obtient $p_\text{sat} = \SI{0,67}{\bar}$
 			\tab 2) Par interpolation entre $p_\text{sat} = \SI{0,016}{\mega\pascal}$ et $p_\text{sat} = \SI{0,018}{\mega\pascal}$ dans l’abaque n°3, on obtient $T_\text{sat} = \SI{56,8}{\degreeCelsius}$ (berk!)
 	\item [\ref{exo_evaporation_eau}]
-			\includegraphics[width=\solutiondiagramwidth]{images/ex_tv_ebullition.png}
+			\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_tv_ebullition.png}
 			\tab 1) Pour chauffer l’eau jusqu’à ébullition (B) puis évaporation totale (C) : $Q_{\A \to \C} = m (q_\fromatob + q_\frombtoc) = \frac{V_\A}{v_\A}(h_{L \SI{0,1}{\mega\pascal}} - h_\A + h_{LV \SI{0,1}{\mega\pascal}}) = \SI{+6582}{\kilo\joule}$. 
 			\tab 3) $\Delta t = \frac{Q_{\A \to \C}}{\dot Q_\text{moyenne}} = \SI{1}{\hour} ~\SI{21}{\minute}$ pour un coût effarant de \num{0,29}\euro{}.
 	\item [\ref{exo_cours_vapeur_isotherme}]
-			\includegraphics[width=\solutiondiagramwidth]{images/ex_tv_generation_vapeur.png}
+			\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_tv_generation_vapeur.png}
 			\tab cf. \S\ref{ch_lv_bain_marie} \& \cref{fig_p-v_eau}.
 	\item [\ref{exo_generation_vapeur}] 
 			\tab 1) Par lecture dans l’abaque n°1 @ $p_\A = \SI{0,6}{\mega\pascal}$, $h_\A = \SI{42,6}{\kilo\joule\per\kilogram}$. En interpolant entre \num{800} et \SI{900}{\degreeCelsius} dans cette même table, on obtient $h_\B = \SI{4336,6}{\kilo\joule\per\kilogram}$. Ainsi avec l’\cref{eq_lv_chaleur_isobare} (, $\dot{Q}_\fromatob = \dot m \Delta h = \SI{+8,59}{\mega\watt}$. $\dot{W}\fromatob = \SI{0}{\watt}$ (\ref{eq_lv_travail_isobare}).
 	\item [\ref{exo_cocotteminute}] 
 			\tab 1) $p_\text{intérieur} = p_\text{bouchon} + p_\text{atm.} = \frac{F_\text{poids}}{S_\text{bouche}} + \SI{1}{\bar} = \SI{2,0797}{\bar}$. Par interpolation dans l’abaque n°2, $T_{\text{sat.} p=\SI{2,0797}{\bar}} = \SI{121,37}{\degreeCelsius}$.
 	\item [\ref{exo_moteur_basique_vapeur}]
-			\includegraphics[width=\solutiondiagramwidth]{images/ex_tv_moteur_basique_1.png}
-			\includegraphics[width=\solutiondiagramwidth]{images/ex_pv_moteur_basique_2.png}
+			\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_tv_moteur_basique_1.png}
+			\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_pv_moteur_basique_2.png}
 			\tab 2) $W_\fromatob \approx 0$ (\ref{eq_lv_sf_travail_isochore}) ; avec $m = \frac{V_\B}{v_\B}$ et $v_\D = \frac{V_\D}{m}$, on calcule $W_{\B \to \D} = - m p_\text{cste.} (v_\D - v_\B) = \SI{-59,6}{\kilo\joule}$ (\ref{eq_lv_sf_travail_isobare}).
 			\tab 3) Avec $v_\D$ on calcule le titre $x_\D \approx \frac{v_\D}{v_{V \SI{0,2}{\mega\pascal}}} = \num{0,1697}$. 
 				Ainsi, ${Q}_{\B \to \D} = m (h_\D - h_\B) = m (h_L + x_\D h_{LV} - h_\B) = \SI{+1585,2}{\kilo\joule}$ (\ref{eq_lv_sf_chaleur_isobare}), soit vingt-cinq fois plus…
@@ -309,8 +309,8 @@
 					\tab 4) $m_\text{condensée} = \SI{4,9138}{\kilogram}$ ;
 					\tab 5) ${Q}_\fromatob = \SI{-1,878}{\mega\joule}$.
 	\item [\ref{exo_moteur_newcomen}]
-			\includegraphics[width=\solutiondiagramwidth]{images/ex_tv_newcomen.png} 
-			\includegraphics[width=\solutiondiagramwidth]{images/ex_pv_newcomen.png}
+			\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_tv_newcomen.png} 
+			\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_pv_newcomen.png}
 			\tab 2) Une lecture de l’abaque n°1 donne $h_\A = \SI{0,1511}{\kilo\joule\per\kilogram}$. Par interpolation nous obtenons $h_\B = \SI{2975}{\kilo\joule\per\kilogram}$ et $m = \frac{V_\B}{v_\B} = \SI{0,7354}{\kilogram}$. Ainsi nous calculons ${Q}_\fromatob = m \Delta h = \SI{+2185}{\kilo\joule}$ (\ref{eq_lv_sf_chaleur_isobare}).
 			\tab 3) Dans le même tableau que $h_\B$ nous obtenons $v_\B = \SI{2,406}{\metre\cubed\per\kilogram}$. Ainsi ${W}_{\text{piston} \to \text{arbre}} = W_{\text{atm.} \to \text{piston}} + W_{\text{piston} \to \text{vapeur}} = m (p_\C - p_\text{ext.}) (v_\D - v_\C) = \SI{-159}{\kilo\joule}$.
 			\tab 4) $\eta \equiv \frac{Q_\text{fournie}}{W_\text{utile}} = \SI{7,28}{\percent}$ (valeur réaliste).

@@ -203,8 +203,8 @@
 					\tab 3) Cela n’a aucune importance !
 					\tab 4) Son encombrement, son rapport des puissances sont très grands, et sa puissance est infiniment faible…
 		\item [\ref{exo_moteur_carnot_vapeur}] 
-					\includegraphics[width=\solutiondiagramwidth]{images/exo_pv_carnot_lv_1.png}
-					\includegraphics[width=\solutiondiagramwidth]{images/exo_pv_carnot_lv_2.png}
+					\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_pv_carnot_lv_1.png}
+					\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_pv_carnot_lv_2.png}
 					Nous voyons que lorsqu’il est effectué sous la courbe de saturation, le cycle de Carnot est déjà moins complexe à réaliser en pratique, puisque les échanges de chaleur se font à pression constante (et ne nécessitent ainsi pas de pièce mobile)  ;
 					\tab 2) $T_B = (1 - \eta) T_H = \SI{55,74}{\degreeCelsius}$ ; ainsi par interpolation entre \num{55} et \SI{60}{\degreeCelsius} on obtient $p_\text{sat. \SI{55,74}{\degreeCelsius}} = \SI{0,1285}{\bar}$. Le condenseur est donc dépressurisé  ;
 					\tab 3) $q_\inn = h_{LV\SI{275}{\degreeCelsius}} = \SI{+1574,3}{\kilo\joule\per\kilogram}$ : on obtient $\dot W_\net = -\dot m \eta q_\inn = \SI{-566,7}{\kilo\watt}$  ;
@@ -213,7 +213,7 @@
 					\includegraphics[width=5cm]{images/carnot_thermopompe_plusplus.png}
 					\tab\tab Une telle pompe à chaleur pourrait être alimentée par un moteur de Carnot ; l’ensemble formerait une machine capable de porter de la chaleur depuis $T_B$ jusqu’à $T_H$ sans apport de travail extérieur (avec les valeurs arbitraires motrées ici, $\dot Q_{\out \text ensemble} = \SI{-40}{\watt}$).
 		\item [\ref{exo_moteur_turbine_ideal}]
-					\includegraphics[width=\solutiondiagramwidth]{images/exo_pv_carnot_turbine.png}
+					\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_pv_carnot_turbine.png}
 					\tab 1) C’est l’agencement représenté en \cref{fig_carnot_quatre_etapes_so} ; ;
 					\tab 2) En partant de l’\cref{def_rendement_moteur}  : $\eta_\text{moteur} 
 						\equiv \left| \frac{\dot W_\net}{\dot Q_\inn} \right|
@@ -229,13 +229,13 @@
 					\tab 8) $w_\text{économisée} = w_\text{compresseur isentropique} = \SI{+35,4}{\kilo\joule\per\kilogram}$ ;
 					\tab 9) $\eta_\text{moteur 2} = \SI{64,4}{\percent}$, soit \SI{-2}{points}, fort honorable au vu de la simplification considérable de la machine !
 		\item [\ref{exo_cours_refrigerateur_carnot}]
-					\includegraphics[width=\solutiondiagramwidth]{images/exo_pv_carnot_refrigerateur_transferts.png}
-					\includegraphics[width=\solutiondiagramwidth]{images/exo_pv_carnot_refrigerateur_irreversibilites.png}
+					\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_pv_carnot_refrigerateur_transferts.png}
+					\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_pv_carnot_refrigerateur_irreversibilites.png}
 					\tab 3) $w_{1\to 4}$ diminue, $w_{4\to 3}$ et $w_{3\to 2}$ augmentent, $w_{2\to 1}$ diminue ; $q_{3\to 2}$ augmente et $q_{1\to 4}$ diminue  ;
 					\tab 4) Comme $w_\net$ augmente et que $q_\inn = q_{1\to 4}$ diminue, le $\textsc{cop} = \frac{q_\inn}{w_\net}$ diminue nécessairement.
 		\item [\ref{exo_refrigeration_etages}]
-					\includegraphics[height=\solutiondiagramwidth]{images/exo_pv_refrigeration_etages_1.png}
-					\includegraphics[height=\solutiondiagramwidth]{images/exo_pv_refrigeration_etages_2.png}
+					\includegraphics[height=\solutiondiagramwidth]{images/exo_sol_pv_refrigeration_etages_1.png}
+					\includegraphics[height=\solutiondiagramwidth]{images/exo_sol_pv_refrigeration_etages_2.png}
 					\tab 1) Gageons que l’étudiant/e aura fait mieux que l’ingénieur/e débutant/e de l’exercice : avec deux systèmes réversibles en série pompant une quantité $q_\inn$ de chaleur à température $T_1 = \SI{-50}{\degreeCelsius}$, avec température d’échange $T_2 = \SI{10}{\degreeCelsius}$ et température haute finale $T_3 = \SI{40}{\degreeCelsius}$, le travail nécessaire est $w_\text{total} 
 						= w_{\net1} + w_{\net2}
 						= \eta_1 q_\inn + \eta_2 (q_\inn + w_{\net1})

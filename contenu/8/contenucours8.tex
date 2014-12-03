@@ -275,7 +275,7 @@
 			
 				\begin{answer}
 					L’évolution peut être dessinée de façon approximative sur un diagramme $T-s$ :\\
-						\begin{center}\includegraphics[width=6cm]{images/ts_example_1.png}\end{center}
+						\begin{center}\includegraphics[width=6cm]{images/exe_ts_1.png}\end{center}
 					Pour calculer $\Delta S$ nous partons de l’\cref{eq_delta_s_gp_p}, $\Delta s = c_p \ln \frac{T_2}{T_1} - R \ln \frac{p_2}{p_1}$ et ici $p_2=p_1$. Nous avons donc $\Delta s = c_p \ln \frac{T_2}{T_1} = \num{1005} \ln \frac{100+273,15}{10+273,15} =  \SI{+277,4}{\joule\per\kelvin\per\kilogram}$. \\L’entropie varie donc de $\Delta S = m \Delta s = 2 \times 277,4 = \SI{+554,8}{\joule\per\kelvin}$. 
 				
 				\begin{remark}Nous écrivons bien que «~l’entropie de l’air augmente~» et non pas qu’«~on lui donne de l’entropie~» (\S\ref{ch_entropie_propriete}).\end{remark}\end{answer}
@@ -287,7 +287,7 @@
 			
 				\begin{answer}
 					L’évolution peut être dessinée de façon approximative sur un diagramme $T-s$ :\\
-						\begin{center}\includegraphics[width=6cm]{images/ts_example_2.png}\end{center}
+						\begin{center}\includegraphics[width=6cm]{images/exe_ts_2.png}\end{center}
 					Pour quantifier $\Delta S$ nous partons de l’\cref{eq_delta_s_gp_p}, $\Delta s = c_p \ln \frac{T_2}{T_1} - R \ln \frac{p_2}{p_1}$ et ici $T_2=T_1$. Nous avons donc $\Delta s = -R \ln \frac{p_2}{p_1} = \num{287} \ln \frac{5}{1} =  \SI{-461,9}{\joule\per\kelvin\per\kilogram}$. \\L’entropie varie donc de $\Delta S = m \Delta s = \num{0,5} \times \num{-461,9} = \SI{-231}{\joule\per\kelvin}$. 
 					
 					Comme l’évolution est réversible, la chaleur prélevée s’obtient avec l’\cref{eq_q_tds_maj} : $Q_{1\to2} = \int_1^2 T \diff S = T_\text{cste} \int_1^2 \diff S = T_\text{cste} \Delta S = (50+273,15) \times \num{-231} = \SI{-74,6}{\kilo\joule}$. 
@@ -300,7 +300,7 @@
 			
 				\begin{answer}
 					L’évolution peut être dessinée de façon approximative sur un diagramme $T-s$ :\\
-						\begin{center}\includegraphics[width=6cm]{images/ts_example_3.png}\end{center}
+						\begin{center}\includegraphics[width=6cm]{images/exe_ts_3.png}\end{center}
 					Pour quantifier $\Delta S$ nous partons encore de l’\cref{eq_delta_s_gp_p} : $\Delta s = c_p \ln \frac{T_2}{T_1} - R \ln \frac{p_2}{p_1}$ et ici $\Delta s = 0$ :\vspace{-1cm}
 					
 						\begin{IEEEeqnarray*}{rCl}
@@ -394,7 +394,7 @@
 			
 				\begin{answer}
 					Après un coup d’œil aux abaques, l’évolution peut être dessinée de façon approximative sur un diagramme $T-s$ :\\
-						\begin{center}\includegraphics[width=6cm]{images/ts_example_4.png}\end{center}
+						\begin{center}\includegraphics[width=6cm]{images/exe_ts_4.png}\end{center}
 					Nous lisons $s_1$ par interpolation dans l’abaque n°1 à~\SI{0,6}{\mega\pascal} entre \SI{200}{\degreeCelsius} et~\SI{300}{\degreeCelsius} : $s_1= \num{6,9683} + \frac{40}{100}\times(\num{7,374}-\num{6,9683}) = \SI{7,1306}{\kilo\joule\per\kelvin\per\kilogram} $.\\
 					À l’arrivée, l’eau est en mélange liquide-vapeur (puisque $u_2<u_{V\SI{130}{\degreeCelsius}}$), nous lisons donc en abaque n°2 (\ref{eq_titre_energie_interne}) : $x_2 = \frac{u_2 - u_L}{u_{LV}} = \frac{\num{1000}-\num{546,1}}{\num{1993,5}}= \num{0,228} $ ; ainsi avec l’\cref{eq_titre_entropie} nous pouvons calculer l’entropie : $s_2= s_L + x_2 \ s_{LV} = \num{1,6346}+ \num{0,228}\times\num{5,3918} = \SI{2,8623}{\kilo\joule\per\kelvin\per\kilogram}$.\\
 					Nous voyons que l’entropie a diminué : $\Delta s = s_2 - s_1 = \SI{-4,268}{\kilo\joule\per\kelvin\per\kilogram} $.
@@ -408,7 +408,7 @@
 			
 				\begin{answer}
 					Après un coup d’œil aux abaques, l’évolution peut être dessinée de façon approximative sur un diagramme $T-s$ :\\
-						\begin{center}\includegraphics[width=6cm]{images/ts_example_5.png}\end{center}
+						\begin{center}\includegraphics[width=6cm]{images/exe_ts_5.png}\end{center}
 				Comme l’évolution est réversible nous allons pouvoir calculer $Q_{1\to2}$ en intégrant le terme $T \diff s$ entre $1$ et $2$. \\
 				Nous lisons $s_1$ dans l’abaque n°2 : $s_1 = s_{L\SI{300}{\degreeCelsius}} = \SI{3,2552}{\kilo\joule\per\kilogram}$.\\
 				À l’arrivée le volume spécifique est $v_2 = \frac{V_2}{m} = \frac{2}{2} = \SI{1}{\metre\cubed\per\kilogram} $ ; pour obtenir $s_2$ il faut interpoler entre deux blocs de l’abaque n°1 (entre \SI{0,2}{\mega\pascal} et~\SI{0,4}{\mega\pascal} à~\SI{300}{\degreeCelsius}). 
@@ -426,7 +426,7 @@
 			
 				\begin{answer}
 					Après un coup d’œil aux abaques, l’évolution peut être dessinée de façon approximative sur un diagramme $T-s$ :\\
-						\begin{center}\includegraphics[width=6cm]{images/ts_example_6.png}\end{center}
+						\begin{center}\includegraphics[width=6cm]{images/exe_ts_6.png}\end{center}
 				Ici $q_{1\to2} = 0$ car la turbine est adiabatique, et nous cherchons $w_{1\to2} = \Delta h$. Il nous faut donc trouver un moyen de quantifier $h_2$.
 				
 				En $1$ nous lisons dans l’abaque n°1, à~\SI{4}{\mega\pascal} : $h_1 = \SI{3446}{\kilo\joule\per\kilogram}$ et $s_1 = \SI{7,0922}{\kilo\joule\per\kelvin\per\kilogram}$.
@@ -570,7 +570,7 @@
 					
 					Nous avons donc $\Delta s > \int_X^Y \left(\frac{\diff q}{T}\right)_\text{chemin réel}$ et l’évolution est irréversible. Si nous voulions revenir en arrière, de $Y$ à $X$, nous serions obligés de retirer de la chaleur.		
 					L’évolution peut être dessinée de façon approximative sur un diagramme $T-s$ :\\
-						\begin{center}\includegraphics[width=6cm]{images/ts_example_7.png}\end{center}
+						\begin{center}\includegraphics[width=6cm]{images/exe_ts_7.png}\end{center}
 				\end{answer}
 		\end{anexample}
 
@@ -593,7 +593,7 @@
 					De l’autre côté, nous pouvons calculer l’intégrale $\int_X^Y \left(\frac{\diff q}{T}\right)_\text{chemin réel}$ car nous savons que la chaleur a été apportée lorsque la température était fixée à~\SI{130}{\degreeCelsius}. Ainsi $\int_X^Y \left(\frac{\diff q}{T}\right)_\text{chemin réel} = \frac{1}{T} \int_X^Y \left(\diff q\right)_\text{chemin réel} = \frac{q_{X\to Y}}{T} = \frac{\num{1e6}}{170+273,15} = \SI{+2,26}{\kilo\joule\per\kelvin\per\kilogram}$.
 					
 					L’évolution peut être dessinée de façon approximative sur un diagramme $T-s$ :\\
-						\begin{center}\includegraphics[width=6cm]{images/ts_example_8.png}\end{center}
+						\begin{center}\includegraphics[width=6cm]{images/exe_ts_8.png}\end{center}
 					
 					Ici, nous avons $\Delta s > \int_X^Y \left(\frac{\diff q}{T}\right)_\text{chemin réel}$ et l’évolution est irréversible. Si nous voulions revenir en arrière, de $Y$ à $X$, nous serions obligés de refroidir le gaz en lui retirant \emph{nécessairement} une quantité plus grande que \SI{1}{\mega\joule\per\kilogram}.
 				

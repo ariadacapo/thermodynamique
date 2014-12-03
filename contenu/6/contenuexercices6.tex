@@ -379,8 +379,8 @@
 	\item [\ref{exo_refrigeration_soufflerie}] 
 			\tab Les \SI{50}{\mega\watt} dépensés par la soufflante sont entièrement dissipés sous forme de frottements dans la soufflerie, et donc convertis en chaleur qu’il faut prélever si l’on veut maintenir la température constante. Ainsi $\dot W_\net = \frac{\dot Q_\inn}{\eta_\text{réfrigération}} = \SI{+62,5}{\mega\watt}$ (un sacré réfrigérateur…). Il suit que $\dot Q_\text{out} = -\dot Q_\inn - \dot W_\net = \SI{-112,5}{\mega\watt}$.
 	\item [\ref{exo_generatrice_electricite_turbine}] 
-			\includegraphics[height=\solutiondiagramwidth]{images/ex_pv_turbomoteur_1.png}
-			\includegraphics[height=\solutiondiagramwidth]{images/ex_pv_turbomoteur_2.png}
+			\includegraphics[height=\solutiondiagramwidth]{images/exo_sol_pv_turbomoteur_1.png}
+			\includegraphics[height=\solutiondiagramwidth]{images/exo_sol_pv_turbomoteur_2.png}
 			\tab 2) Avec l’\cref{eq_isentropique_horrible2}, $T_\B = T_\A \left(\frac{p_\B}{p_\B}\right)^{\frac{\gamma - 1}{\gamma}} = \SI{774,7}{\kelvin}$ ;
 			\tab 3) Avec les équations \ref{eq_grande_sfee_deltas_h} et \ref{eq_h=cpT}, $\dot W_\fromatob = \dot m c_p (T_\B - T_\A) = \SI{+242}{\kilo\watt}$  ;
 			\tab 4) Avec l’\cref{eq_isentropique_horrible2}, $T_\D = T_\C \left(\frac{p_\D}{p_\C}\right)^{\frac{\gamma - 1}{\gamma}} = T_\C \left(\frac{p_\B}{p_\A}\right)^{-\frac{\gamma - 1}{\gamma}} = \SI{481,8}{\kelvin}$. Ainsi, l’air rejeté doit perdre $\dot Q_\fromdtoa = c_p \Delta T = \SI{-94,8}{\kilo\watt}$ pour revenir à son état initial (\S\ref{ch_construction_cycle}) ;
@@ -390,8 +390,8 @@
 						Néanmoins, on a encore $\dot W_{\fromctod_2} < \dot W_\fromctod$ et $T_{\D_2} > T_\D$ dans la turbine. La puissance $\dot W_\net$ diminue, le rejet $\dot Q_\out$ augmente. Nous montrerons au \courssept que le rendement diminue également.\\
 					\textit{N.B. Nous avions déjà étudié ce moteur aux exercices \ref{exo_turbomoteur_puissances_spe} et surtout \ref{exo_generatrice_electrique}. Notre capacité d’analyse et de quantification des performances s’améliore à chaque fois…}		
 	\item [\ref{exo_centrale_vapeur_cycle}] 
-			\includegraphics[height=\solutiondiagramwidth]{images/ex_tv_moteur_vapeur.png}
-			\includegraphics[height=\solutiondiagramwidth]{images/ex_pv_moteur_vapeur.png}
+			\includegraphics[height=\solutiondiagramwidth]{images/exo_sol_tv_moteur_vapeur.png}
+			\includegraphics[height=\solutiondiagramwidth]{images/exo_sol_pv_moteur_vapeur.png}
 			\tab 1) Pour s’aider à construire ces diagrammes, on peut réviser les figures~\ref{fig_t-v_eau} et~\ref{fig_p-v_eau}, ainsi que la section \S\ref{ch_lv_evolutions_elementaires}.
 			\tab 2)	$h_\A = h_{L \SI{0,5}{\bar}}$ ; 
 						$h_\B = h_\A + \int_\A^\B v \diff p = h_\A + v_L \Delta p $ (\ref{eq_lv_so_travail_isochore} \& \label{eq_lv_so_chaleur_isochore} avec $q_\fromatob = 0$) ;
@@ -405,8 +405,8 @@
 			En hiver, la chaleur à apporter par les pompes à chaleur est augmentée, et il faut donc ajouter une dépense supplémentaire de \SI{10,9}{\kilo\watt} au niveau des pompes à chaleur.\\
 			Au final, cela représente une économie annuelle de~\SI{1,672e12}{\joule} soit~\SI{69,7}{\kilo\euroo} par supermarché, qu’il faut comparer à l’investissement requis et aux coûts engendrés (notamment l’appel à votre expertise…).
 	\item [\ref{exo_fonctionnement_climatiseur}]
-				\includegraphics[height=\solutiondiagramwidth]{images/ex_pv_climatiseur.png}
-				\includegraphics[height=\solutiondiagramwidth]{images/ex_pv_thermopompe.png}
+				\includegraphics[height=\solutiondiagramwidth]{images/exo_sol_pv_climatiseur.png}
+				\includegraphics[height=\solutiondiagramwidth]{images/exo_sol_pv_thermopompe.png}
 				\tab 2) Avec l’\cref{eq_isentropique_horrible2}, $\frac{p_\B }{p_\A} = \left(\frac{T_\B}{T_\A}\right)^{\frac{\gamma}{\gamma - 1}} = \num{1,565}$ ;
 				\tab 3) Idem, détente C $\to$ D adiabatique réversible, $T_\D = T_\C \left(\frac{p_\C}{p_\D}\right)^{\frac{\gamma - 1}{\gamma}} = T_\C \left(\frac{p_\B}{p_\A}\right)^{\frac{\gamma - 1}{\gamma}} = T_\C \frac{T_\B}{T_\A} = \SI{275,6}{\kelvin}$ soit \SI{2,4}{\degreeCelsius} ;
 				\tab 4) Avec les équations \ref{eq_petite_sfee_deltas_h} et \ref{eq_h=cpT}, $w_\inn = \SI{+40,2}{\kilo\joule\per\kilogram}$ ; 
@@ -420,10 +420,10 @@
 				\tab 6) Pour minimiser $\dot m_\text{air extérieur}$, il faut maximiser sa température de sortie $T_4$. Or on a nécessairement $T_4 \leq T_\B$, sinon le transfert de chaleur se fait dans le mauvais sens. Ainsi $\dot m_\text{air extérieur min.} = \frac{-\dot Q_\text{out climatiseur}}{c_p (T_{4 \text{max.}} - T_3)} = -\frac{-\dot Q_\inn - \dot W_\net}{c_p (T_{4 \text{max.}} - T_3)} = \SI{0,208}{\kilogram\per\second}$ (minimum théorique).
 				\tab\tab 7) En principe il suffit d’inverser la position du compresseur et de la turbine. Il faudra, en pratique, également décaler les plages de températures pour permettre l’absorption de chaleur par temps froid.
 	\item[\ref{exo_pack_conditonnement}]
-			\includegraphics[width=0.9\textwidth]{images/ex_circuit_acm.png}\onlyamphibook{\\}
-			\includegraphics[height=\solutiondiagramwidth]{images/ex_pv_pack_1.png}
-			\includegraphics[height=\solutiondiagramwidth]{images/ex_pv_pack_2.png}
-			\includegraphics[width=\solutiondiagramwidth]{images/ex_pv_pack_3.png}
+			\includegraphics[width=0.9\textwidth]{images/exo_sol_circuit_acm.png}\onlyamphibook{\\}
+			\includegraphics[height=\solutiondiagramwidth]{images/exo_sol_pv_pack_1.png}
+			\includegraphics[height=\solutiondiagramwidth]{images/exo_sol_pv_pack_2.png}
+			\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_pv_pack_3.png}
 			\tab\onlyframabook{\tab} 1) Si le circuit \textsc{ram} est fermé, alors $T_{3\A} = T_{2\A}$ ; et puisque $T_{4\A} = T_{3\A}$ (\S\ref{ch_principe_de_joule}) on obtient $T_{4\A}
 			= T_{1\A} \left(\frac{p_{2\B}}{p_{1\B}}\right)^{\frac{\gamma-1}{\gamma}}
 			= \SI{377,19}{\kelvin} = \SI{104,1}{\degreeCelsius}$.

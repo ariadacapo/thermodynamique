@@ -146,8 +146,8 @@
 	\begin{figure}[!bh]
 		\begin{center}
 			%\vspace{-0.1cm}%handmade
-			\includegraphics[width=0.4\textwidth, max width=0.6\columnwidth]{images/exo_elementaires_pv1.png}
-			\includegraphics[width=0.4\textwidth, max width=0.6\columnwidth]{images/exo_elementaires_pv2.png}
+			\includegraphics[width=0.4\textwidth, max width=0.6\columnwidth]{images/exo_pv_elementaires1.png}
+			\includegraphics[width=0.4\textwidth, max width=0.6\columnwidth]{images/exo_pv_elementaires2.png}
 			%\vspace{-0.1cm}%handmade
 		\end{center}
 		\caption{Évolutions élémentaires d’un gaz parfait}
@@ -317,36 +317,36 @@
 					\tab 1) Avec l’\cref{eq_petite_sfee_deltas_h}, $w_\text{turbine} = c_p (T_\B - T_\A) + \frac{1}{2}(C_\B^2 - C_\A^2) - q_\fromatob = \SI{-275}{\kilo\joule\per\kilogram}$ 	
 					\tab 2) $\dot m = \frac{\dot W_\text{turbine}}{w_\text{turbine}} = \SI{3,64}{\kilogram\per\second}$
 	\item [\ref{exo_gp_isotherme}]
-					\includegraphics[width=\solutiondiagramwidth]{images/ex_pv_isoth.png}
+					\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_pv_isoth.png}
 					\tab 2) Avec l’\cref{eq_gp_travail_isotherme_sf1}, $w_{1 \to 2} = \SI{+257,58}{\kilo\joule\per\kilogram}$ (donc un travail reçu) ; $W_{1 \to 2} = \SI{+901,2}{\kilo\joule}$ ; $Q_{1 \to 2} = - W_{1 \to 2}$ (donc une dépense de chaleur)\\
 				 	\tab 3) Oui, on aurait $v_{2 \text{ad.rév.}} = v_1 \left(\frac{p_1}{p_2}\right)^{\frac{1}{\gamma}} > v_{2 \text{isoth.}} =  v_1 \left(\frac{p_1}{p_2}\right)$. 
 	\item [\ref{exo_gp_isobare_isochore}] 
-					\includegraphics[width=\solutiondiagramwidth]{images/ex_pv_isob_isoch.png}
+					\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_pv_isob_isoch.png}
 					\tab 2) $W_{1 \to 3} = -\int_1^2 p \diff V  - \int_2^3 p \diff V = -p_\text{cste} \Delta V - 0 = \SI{+153,6}{\kilo\joule}$	
 					\tab 3) $Q_{1 \to 3} = U_3 - U_1 - W_{1 \to 3} = m c_v \left(T_3 - \frac{p_1 V_1}{m R}\right) - W_{1 \to 3} = \SI{-625,3}{\kilo\joule}$
 	\item [\ref{exo_gp_isentropique}]
-					\includegraphics[width=\solutiondiagramwidth]{images/ex_pv_isentr.png}
+					\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_pv_isentr.png}
 						\tab Cas optimal : compression adiabatique réversible. Avec l’\cref{eq_isentropique_horrible2}, on calcule $T_\B = \SI{896,4}{\kelvin}$ ; $W_\text{minimal} = m \ c_v (T_\B - T_\A) = \SI{+2,157}{\mega\joule}$.
 	\item [\ref{exo_bete_mechant}] 
 						\tab Isotherme $2 \to 3$, isochore $1 \to 2$.
 	\item [\ref{exo_retrouver_pv}] 
 						\tab \textit{Dans le sens horaire, en débutant à l’horizontale, sur les deux graphiques :} isobare ($p$~cste.), isotherme ($T$~cste.), adiabatique réversible, isochore ($v$~cst.).
 	\item [\ref{exo_compresseur_turboreacteur}]
-						\includegraphics[width=\solutiondiagramwidth]{images/ex_pv_turbojet_compressor.png}
+						\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_pv_turbojet_compressor.png}
 						\tab 1) Remplacer $v_2$ par $\frac{R T_2}{p_2}$, faire de même avec $v_1$. Dérouiller son algèbre et le résultat vient tout seul.
 						\tab 2) Avec l’\cref{eq_isentropique_horrible2}, on obtient $T_\B = \SI{600,3}{\kelvin}$, ainsi $\dot{W}_{\fromatob} = \SI{+2,654}{\mega\watt}$ 
 						\tab 3) \S\ref{ch_gp_isentropiques}
 						\tab 5) $T_{\C} = \SI{279,6}{\kelvin}$ ; $T_\D = \SI{752,6}{\kelvin}$ ; Ainsi $\dot{W}_\text{compresseur réel} = \dot{W}_{\text{pertes frottement} \A \to \C} + \dot{W}_\fromctod = \SI{+3,726}{\mega\watt}$ (\SI{+40}{\percent}).
 	\item [\ref{exo_compression_combustion_diesel}]
-						\includegraphics[width=\solutiondiagramwidth]{images/ex_pv_diesel.png}
+						\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_pv_diesel.png}
 						\tab 1) voir \S\ref{ch_travail_pdv} \& \S\ref{ch_travail_fdl}
 					 	\tab 2) $W_{\fromatob} = - m \int_\A^\B p \diff v = \SI{+1,298}{\kilo\joule}$ 	
 						\tab 3) Avec $p_\B = k v_\B^{\num{-1,5}} = \SI{31,6}{\bar}$, on a $T_\B = \SI{926,3}{\kelvin}$. Enfin, $Q_{\fromatob} = \Delta U - W_{\fromatob} = \SI{+0,3254}{\kilo\joule}$.
 						\tab 5) À pression constante, avec l’\cref{eq_q_gp_sf_isobare},  $T_\C = \frac{Q_\frombtoc}{m \ c_p} + T_\B = \SI{1483,7}{\kelvin}$ (\SI{1211}{\degreeCelsius}).
 						\tab 6) $S < \frac{F_\text{max.}}{p_\C} = \SI{3,164e-3}{\metre\squared}$ (diamètre $D_\text{max} = \SI{6,35}{\centi\metre}$).
 	\item [\ref{exo_turboreacteur_simple_flux}]
-						\includegraphics[width=\solutiondiagramwidth]{images/ex_pv_turbojet_1.png}
-						\includegraphics[width=\solutiondiagramwidth]{images/ex_pv_turbojet_2.png}
+						\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_pv_turbojet_1.png}
+						\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_pv_turbojet_2.png}
 						\tab 2) Avec l’\cref{eq_isentropique_horrible2}, $T_\B = \SI{664,83}{\kelvin}$
 						\tab 3) Avec l’\cref{eq_petite_sfee_deltas_h}, $w_\text{compresseur} = w_\fromatob = \SI{+338,61}{\kilo\joule\per\kilogram}$
 						\tab 4) $T_\C = \SI{1373,15}{\kelvin}$ ; ainsi $q_\text{combustion} = q_\frombtoc = \SI{+711,86}{\kilo\joule\per\kilogram}$
