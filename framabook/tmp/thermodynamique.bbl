@@ -224,6 +224,27 @@
     \field{pages}{1\bibrangedash 21, 102\bibrangedash 119}
   \endentry
 
+  \entry{kelvin1852}{article}{}
+    \name{labelname}{1}{}{%
+      {{hash=d16ad10768d744dcb918487f85fe6727}{Kelvin}{K\bibinitperiod}{William\bibnamedelimb Thomson\bibnamedelima Baron}{W\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=d16ad10768d744dcb918487f85fe6727}{Kelvin}{K\bibinitperiod}{William\bibnamedelimb Thomson\bibnamedelima Baron}{W\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {english}%
+    }
+    \strng{namehash}{d16ad10768d744dcb918487f85fe6727}
+    \strng{fullhash}{d16ad10768d744dcb918487f85fe6727}
+    \field{sortinit}{1}
+    \field{journaltitle}{The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science}
+    \field{number}{25}
+    \field{title}{On a Universal Tendency in Nature to the Dissipation of Mechanical Energy}
+    \field{volume}{4}
+    \field{year}{1852}
+    \field{pages}{304\bibrangedash 306}
+  \endentry
+
   \entry{clausius1854}{article}{}
     \name{labelname}{1}{}{%
       {{hash=589b57f365a8719268c5efb7cc869c21}{Clausius}{C\bibinitperiod}{Rudolf\bibnamedelimb Julius\bibnamedelima Emanuel}{R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
@@ -418,6 +439,80 @@
     \field{title}{Sur la force motrice de la chaleur et les lois qui s’en déduisent pour la théorie de la chaleur}
     \field{year}{1868}
     \field{pages}{17\bibrangedash 84}
+  \endentry
+
+  \entry{clausius1868fr3}{incollection}{}
+    \name{labelname}{1}{}{%
+      {{hash=589b57f365a8719268c5efb7cc869c21}{Clausius}{C\bibinitperiod}{Rudolf\bibnamedelimb Julius\bibnamedelima Emanuel}{R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{annotator}{1}{}{%
+      {{hash=589b57f365a8719268c5efb7cc869c21}{Clausius}{C\bibinitperiod}{Rudolf\bibnamedelimb Julius\bibnamedelima Emanuel}{R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=589b57f365a8719268c5efb7cc869c21}{Clausius}{C\bibinitperiod}{Rudolf\bibnamedelimb Julius\bibnamedelima Emanuel}{R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{introduction}{1}{}{%
+      {{hash=841be768cd254fcac5d2f8a45543c04b}{Folie}{F\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+    }
+    \name{translator}{1}{}{%
+      {{hash=841be768cd254fcac5d2f8a45543c04b}{Folie}{F\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {french}%
+    }
+    \list{location}{1}{%
+      {Paris, France}%
+    }
+    \list{publisher}{1}{%
+      {Eugène Lacroix}%
+    }
+    \strng{namehash}{589b57f365a8719268c5efb7cc869c21}
+    \strng{fullhash}{589b57f365a8719268c5efb7cc869c21}
+    \field{sortinit}{1}
+    \field{annotation}{Recueil en français publié et annoté par Clausius de ses travaux}
+    \field{booktitle}{Théorie mécanique de la chaleur}
+    \field{origlanguage}{german}
+    \field{origtitle}{Über die Anwendung der mechanischen Wärmetheorie auf die Dampfmaschine}
+    \field{title}{Sur l’application de la théorie mécanique de la chaleur à la machine à vapeur}
+    \field{year}{1868}
+    \field{pages}{161\bibrangedash 245}
+  \endentry
+
+  \entry{clausius1868fr4}{incollection}{}
+    \name{labelname}{1}{}{%
+      {{hash=589b57f365a8719268c5efb7cc869c21}{Clausius}{C\bibinitperiod}{Rudolf\bibnamedelimb Julius\bibnamedelima Emanuel}{R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{annotator}{1}{}{%
+      {{hash=589b57f365a8719268c5efb7cc869c21}{Clausius}{C\bibinitperiod}{Rudolf\bibnamedelimb Julius\bibnamedelima Emanuel}{R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=589b57f365a8719268c5efb7cc869c21}{Clausius}{C\bibinitperiod}{Rudolf\bibnamedelimb Julius\bibnamedelima Emanuel}{R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{introduction}{1}{}{%
+      {{hash=841be768cd254fcac5d2f8a45543c04b}{Folie}{F\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+    }
+    \name{translator}{1}{}{%
+      {{hash=841be768cd254fcac5d2f8a45543c04b}{Folie}{F\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {french}%
+    }
+    \list{location}{1}{%
+      {Paris, France}%
+    }
+    \list{publisher}{1}{%
+      {Eugène Lacroix}%
+    }
+    \strng{namehash}{589b57f365a8719268c5efb7cc869c21}
+    \strng{fullhash}{589b57f365a8719268c5efb7cc869c21}
+    \field{sortinit}{1}
+    \field{annotation}{Recueil en français publié et annoté par Clausius de ses travaux}
+    \field{booktitle}{Théorie mécanique de la chaleur}
+    \field{origlanguage}{german}
+    \field{origtitle}{Über eine veränderte Form des zweiten Hauptsatzes der mechanischen Wärmetheorie}
+    \field{title}{Sur une nouvelle forme du second principe de la théorie mécanique de la chaleur}
+    \field{year}{1868}
+    \field{pages}{131\bibrangedash 160}
   \endentry
 
   \entry{diesel1893}{book}{}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  16 DEC 2014 12:56
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  19 DEC 2014 17:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3465,8 +3465,6 @@ LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
 (Font)              scaled to size 10.95pt on input line 19.
 LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
 (Font)              scaled to size 10.95pt on input line 19.
-LaTeX Font Info:    Font shape `T1/fxl/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 19.
 
 [6
 
@@ -3665,6 +3663,8 @@ File: images/crashed_citroen_c3.jpg Graphic file (type jpg)
 <use images/crashed_citroen_c3.jpg>
 Package pdftex.def Info: images/crashed_citroen_c3.jpg used on input line 32.
 (pdftex.def)             Requested size: 177.82996pt x 102.87685pt.
+LaTeX Font Info:    Font shape `T1/fxl/m/sc' will be
+(Font)              scaled to size 10.95pt on input line 34.
 LaTeX Font Info:    Font shape `T1/fxl/m/sl' will be
 (Font)              scaled to size 8.0pt on input line 34.
 LaTeX Font Info:    Font shape `T1/fxl/m/sc' will be
@@ -5602,7 +5602,7 @@ uplicate ignored
 l.89 ...ns Ã©lÃ©mentaires : Compression isotherme}
                                                    <./4/images/compresseur_air_
 reservoir.jpg>]
-Overfull \hbox (1.25833pt too wide) in paragraph at lines 123--123
+Overfull \hbox (1.25833pt too wide) in paragraph at lines 125--125
  |[]\T1/fxl/m/n/14.4 (-20) Évolutions élé-men-taires : vo-ca-bu-laire| 
  []
 
@@ -5610,14 +5610,14 @@ Overfull \hbox (1.25833pt too wide) in paragraph at lines 123--123
 File: images/exo_elementaires.png Graphic file (type png)
 
 <use images/exo_elementaires.png>
-Package pdftex.def Info: images/exo_elementaires.png used on input line 130.
+Package pdftex.def Info: images/exo_elementaires.png used on input line 132.
 (pdftex.def)             Requested size: 512.14963pt x 115.511pt.
 
 <images/exo_pv_elementaires1.png, id=1953, 903.375pt x 895.84688pt>
 File: images/exo_pv_elementaires1.png Graphic file (type png)
 
 <use images/exo_pv_elementaires1.png>
-Package pdftex.def Info: images/exo_pv_elementaires1.png used on input line 149
+Package pdftex.def Info: images/exo_pv_elementaires1.png used on input line 151
 .
 (pdftex.def)             Requested size: 204.85672pt x 203.14252pt.
 
@@ -5625,7 +5625,7 @@ Package pdftex.def Info: images/exo_pv_elementaires1.png used on input line 149
 File: images/exo_pv_elementaires2.png Graphic file (type png)
 
 <use images/exo_pv_elementaires2.png>
-Package pdftex.def Info: images/exo_pv_elementaires2.png used on input line 150
+Package pdftex.def Info: images/exo_pv_elementaires2.png used on input line 152
 .
 (pdftex.def)             Requested size: 204.85672pt x 203.14252pt.
 
@@ -5633,10 +5633,10 @@ Package pdftex.def Info: images/exo_pv_elementaires2.png used on input line 150
 File: images/entree_genx2b.jpg Graphic file (type jpg)
 
 <use images/entree_genx2b.jpg>
-Package pdftex.def Info: images/entree_genx2b.jpg used on input line 165.
+Package pdftex.def Info: images/entree_genx2b.jpg used on input line 167.
 (pdftex.def)             Requested size: 409.72125pt x 307.28128pt.
 
-Overfull \hbox (1.90804pt too wide) in paragraph at lines 171--172
+Overfull \hbox (1.90804pt too wide) in paragraph at lines 173--174
 []\T1/fxl/m/n/10 (-20) Pendant la croi-sière (at-mo-sphère : [][][]; [][][]; []
 [][]),
  []
@@ -5645,24 +5645,24 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.4.5.
 40}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.175 			\begin{equation}
+l.177 			\begin{equation}
                          pdfTeX warning (ext4): destination with the same ident
 ifier (name{equation.4.5.40}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.175 			\begin{equation}
+l.177 			\begin{equation}
                          pdfTeX warning (ext4): destination with the same ident
 ifier (name{equation.4.5.40}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.175 			\begin{equation}
+l.177 			\begin{equation}
                          pdfTeX warning (ext4): destination with the same ident
 ifier (name{equation.4.5.40}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.175 			\begin{equation}
+l.177 			\begin{equation}
                          
-Overfull \hbox (1.587pt too wide) in paragraph at lines 177--179
+Overfull \hbox (1.587pt too wide) in paragraph at lines 179--181
 \T1/fxl/m/n/10 (-20) d'un gaz par-fait, mon-trez (sans uti-li-ser l'[][]équatio
 n 4/36[][])
  []
@@ -5671,31 +5671,31 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.4.5.
 40}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.179 			\begin{equation}
+l.181 			\begin{equation}
                          pdfTeX warning (ext4): destination with the same ident
 ifier (name{equation.4.5.40}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.179 			\begin{equation}
+l.181 			\begin{equation}
                          pdfTeX warning (ext4): destination with the same ident
 ifier (name{equation.4.5.40}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.179 			\begin{equation}
+l.181 			\begin{equation}
                          pdfTeX warning (ext4): destination with the same ident
 ifier (name{equation.4.5.40}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.179 			\begin{equation}
+l.181 			\begin{equation}
                           [119 <./4/images/exo_elementaires.png (PNG copy)> <./
 4/images/exo_pv_elementaires1.png> <./4/images/exo_pv_elementaires2.png>]
-Overfull \hbox (2.30338pt too wide) in paragraph at lines 195--196
+Overfull \hbox (2.30338pt too wide) in paragraph at lines 197--198
 \T1/fxl/m/n/10 (-20) et cette nou-velle évo-lu-tion sur un dia-gramme pression-
 
  []
 
 
-Overfull \hbox (21.54712pt too wide) in paragraph at lines 195--196
+Overfull \hbox (21.54712pt too wide) in paragraph at lines 197--198
 \T1/fxl/m/n/10 (-20) volume. Représentez-y gra-phi-que-ment le tra-vail consomm
 é
  []
@@ -5705,55 +5705,55 @@ File: images/Dieselmotor_1898_retouched.jpg Graphic file (type jpg)
 
 <use images/Dieselmotor_1898_retouched.jpg>
 Package pdftex.def Info: images/Dieselmotor_1898_retouched.jpg used on input li
-ne 208.
+ne 210.
 (pdftex.def)             Requested size: 256.07481pt x 300.42616pt.
 pdfTeX warning (ext4): destination with the same identifier (name{equation.4.5.
 40}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.223 			\begin{equation}
+l.225 			\begin{equation}
                          pdfTeX warning (ext4): destination with the same ident
 ifier (name{equation.4.5.40}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.223 			\begin{equation}
+l.225 			\begin{equation}
                          pdfTeX warning (ext4): destination with the same ident
 ifier (name{equation.4.5.40}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.223 			\begin{equation}
+l.225 			\begin{equation}
                          pdfTeX warning (ext4): destination with the same ident
 ifier (name{equation.4.5.40}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.223 			\begin{equation}
+l.225 			\begin{equation}
                           [120 <./4/images/entree_genx2b.jpg> <./4/images/Diese
 lmotor_1898_retouched.jpg>]
 <images/turbojet.png, id=2010, 513.5988pt x 150.3216pt>
 File: images/turbojet.png Graphic file (type png)
 
 <use images/turbojet.png>
-Package pdftex.def Info: images/turbojet.png used on input line 249.
+Package pdftex.def Info: images/turbojet.png used on input line 251.
 (pdftex.def)             Requested size: 512.14963pt x 149.90604pt.
 
-Overfull \hbox (3.74135pt too wide) in paragraph at lines 260--262
+Overfull \hbox (3.74135pt too wide) in paragraph at lines 262--264
 []\T1/fxl/m/n/10 (-20) permet d'ef-fec-tuer un ré-chauf-
  []
 
 
-Overfull \hbox (1.587pt too wide) in paragraph at lines 274--276
+Overfull \hbox (1.587pt too wide) in paragraph at lines 276--278
 \T1/fxl/m/n/10 (-20) d'un gaz par-fait, mon-trez (sans uti-li-ser l'[][]équatio
 n 4/36[][])
  []
 
 
-Overfull \hbox (0.67317pt too wide) in paragraph at lines 281--282
+Overfull \hbox (0.67317pt too wide) in paragraph at lines 283--284
 []\T1/fxl/m/n/10 (-20) Quelle est la puis-sance spé-ci-fique ap-por-tée sous fo
 rme
  []
 
 
-Overfull \hbox (1.36734pt too wide) in paragraph at lines 287--288
+Overfull \hbox (1.36734pt too wide) in paragraph at lines 289--290
 []\T1/fxl/m/n/10 (-20) Sur le même dia-gramme pression-volume, tra-cez l'évo-
  []
 
@@ -5761,7 +5761,7 @@ Overfull \hbox (1.36734pt too wide) in paragraph at lines 287--288
 File: images/atar_compressor.jpg Graphic file (type jpg)
 
 <use images/atar_compressor.jpg>
-Package pdftex.def Info: images/atar_compressor.jpg used on input line 293.
+Package pdftex.def Info: images/atar_compressor.jpg used on input line 295.
 (pdftex.def)             Requested size: 409.72125pt x 273.03548pt.
  [121 <./4/images/turbojet.png> <./4/images/atar_compressor.jpg>]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -5801,10 +5801,10 @@ Package pdftex.def Info: images/atar_compressor.jpg used on input line 293.
 File: images/exo_sol_pv_isoth.png Graphic file (type png)
 
 <use images/exo_sol_pv_isoth.png>
-Package pdftex.def Info: images/exo_sol_pv_isoth.png used on input line 320.
+Package pdftex.def Info: images/exo_sol_pv_isoth.png used on input line 322.
 (pdftex.def)             Requested size: 71.13188pt x 71.52925pt.
 
-Overfull \hbox (3.63878pt too wide) in paragraph at lines 321--322
+Overfull \hbox (3.63878pt too wide) in paragraph at lines 323--324
 |   \T1/fxl/m/n/10 (-20) 2) Avec l'[][]équation 4/26[][], $\OML/nxlmi/m/it/10 w
 [] \U/ntxmia/m/it/10 = [] []$
  []
@@ -5814,24 +5814,24 @@ File: images/exo_sol_pv_isob_isoch.png Graphic file (type png)
 
 <use images/exo_sol_pv_isob_isoch.png>
 Package pdftex.def Info: images/exo_sol_pv_isob_isoch.png used on input line 32
-4.
+6.
 (pdftex.def)             Requested size: 71.13188pt x 71.52925pt.
 
 <images/exo_sol_pv_isentr.png, id=2058, 265.23836pt x 266.72845pt>
 File: images/exo_sol_pv_isentr.png Graphic file (type png)
 
 <use images/exo_sol_pv_isentr.png>
-Package pdftex.def Info: images/exo_sol_pv_isentr.png used on input line 328.
+Package pdftex.def Info: images/exo_sol_pv_isentr.png used on input line 330.
 (pdftex.def)             Requested size: 71.13188pt x 71.52925pt.
 
 <images/exo_sol_pv_turbojet_compressor.png, id=2063, 265.23836pt x 266.72845pt>
 File: images/exo_sol_pv_turbojet_compressor.png Graphic file (type png)
 <use images/exo_sol_pv_turbojet_compressor.png>
 Package pdftex.def Info: images/exo_sol_pv_turbojet_compressor.png used on inpu
-t line 335.
+t line 337.
 (pdftex.def)             Requested size: 71.13188pt x 71.52925pt.
 
-Overfull \hbox (23.4415pt too wide) in paragraph at lines 339--340
+Overfull \hbox (23.4415pt too wide) in paragraph at lines 341--342
 |   \T1/fxl/m/n/10 (-20) 5) $\OML/nxlmi/m/it/10 T[] \U/ntxmia/m/it/10 = [] []$\
 T1/fxl/m/n/10 (-20) ; $\OML/nxlmi/m/it/10 T[] \U/ntxmia/m/it/10 = [] []$\T1/fxl
 /m/n/10 (-20) ; Ainsi $[] \U/ntxmia/m/it/10 =
@@ -5841,7 +5841,7 @@ T1/fxl/m/n/10 (-20) ; $\OML/nxlmi/m/it/10 T[] \U/ntxmia/m/it/10 = [] []$\T1/fxl
 File: images/exo_sol_pv_diesel.png Graphic file (type png)
 
 <use images/exo_sol_pv_diesel.png>
-Package pdftex.def Info: images/exo_sol_pv_diesel.png used on input line 341.
+Package pdftex.def Info: images/exo_sol_pv_diesel.png used on input line 343.
 (pdftex.def)             Requested size: 71.13188pt x 71.52925pt.
  [122
 
@@ -5852,16 +5852,16 @@ images/exo_sol_pv_isentr.png> <./4/images/exo_sol_pv_turbojet_compressor.png>]
 File: images/exo_sol_pv_turbojet_1.png Graphic file (type png)
 
 <use images/exo_sol_pv_turbojet_1.png>
-Package pdftex.def Info: images/exo_sol_pv_turbojet_1.png used on input line 34
-8.
+Package pdftex.def Info: images/exo_sol_pv_turbojet_1.png used on input line 35
+0.
 (pdftex.def)             Requested size: 71.13188pt x 66.8366pt.
 
 <images/exo_sol_pv_turbojet_2.png, id=2084, 283.86464pt x 266.72845pt>
 File: images/exo_sol_pv_turbojet_2.png Graphic file (type png)
 
 <use images/exo_sol_pv_turbojet_2.png>
-Package pdftex.def Info: images/exo_sol_pv_turbojet_2.png used on input line 34
-9.
+Package pdftex.def Info: images/exo_sol_pv_turbojet_2.png used on input line 35
+1.
 (pdftex.def)             Requested size: 71.13188pt x 66.8366pt.
 ) [123 <./4/images/exo_sol_pv_diesel.png> <./4/images/exo_sol_pv_turbojet_1.png
 > <./4/images/exo_sol_pv_turbojet_2.png>] [124
@@ -6417,7 +6417,7 @@ File: images/exercice_boiling.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/exercice_boiling.jpg used on input line 41.
 (pdftex.def)             Requested size: 142.26378pt x 106.69325pt.
 
-Overfull \hbox (7.72913pt too wide) in paragraph at lines 50--51
+Overfull \hbox (7.72913pt too wide) in paragraph at lines 51--52
 \T1/fxl/m/n/10 (-20) quide sous-refroidie. Re-pré-sen-tez l'évo-lu-tion sur un 
 dia-gramme
  []
@@ -6426,8 +6426,8 @@ dia-gramme
 File: images/exercice_super_cocotte.jpg Graphic file (type jpg)
 
 <use images/exercice_super_cocotte.jpg>
-Package pdftex.def Info: images/exercice_super_cocotte.jpg used on input line 7
-8.
+Package pdftex.def Info: images/exercice_super_cocotte.jpg used on input line 8
+0.
 (pdftex.def)             Requested size: 227.62204pt x 227.61766pt.
  [159
 
@@ -6437,7 +6437,7 @@ Package pdftex.def Info: images/exercice_super_cocotte.jpg used on input line 7
 
 
  <./5/images/exercice_cafe.jpg> <./5/images/exercice_boiling.jpg>]
-Overfull \hbox (10.26953pt too wide) in paragraph at lines 88--89
+Overfull \hbox (10.26953pt too wide) in paragraph at lines 90--91
 \T1/fxl/m/n/10 (-20) l'idée de mettre au point un pe-tit mo-teur très simple ([
 ][]figure 5.29[][]) 
  []
@@ -6447,18 +6447,18 @@ File: images/exercice_moteur_simple.png Graphic file (type png)
 
 <use images/exercice_moteur_simple.png>
 Package pdftex.def Info: images/exercice_moteur_simple.png used on input line 1
-03.
+05.
 (pdftex.def)             Requested size: 113.81102pt x 218.48944pt.
 
 <images/exercice_pompe_eau.png, id=2672, 374.53133pt x 608.15887pt>
 File: images/exercice_pompe_eau.png Graphic file (type png)
 
 <use images/exercice_pompe_eau.png>
-Package pdftex.def Info: images/exercice_pompe_eau.png used on input line 122.
+Package pdftex.def Info: images/exercice_pompe_eau.png used on input line 124.
 (pdftex.def)             Requested size: 142.26378pt x 231.00998pt.
  [160 <./5/images/exercice_super_cocotte.jpg> <./5/images/exercice_moteur_simpl
 e.png> <./5/images/exercice_pompe_eau.png>]
-Overfull \hbox (19.51283pt too wide) in paragraph at lines 178--179
+Overfull \hbox (19.51283pt too wide) in paragraph at lines 180--181
 []\T1/fxl/m/n/10 (-20) À leur époque, au-tour de 1720, les mo-teurs New-co-men 
 ([][]figure 5.23[][])
  []
@@ -6467,21 +6467,21 @@ Overfull \hbox (19.51283pt too wide) in paragraph at lines 178--179
 File: images/moteur_newcomen_2.png Graphic file (type png)
 
 <use images/moteur_newcomen_2.png>
-Package pdftex.def Info: images/moteur_newcomen_2.png used on input line 194.
+Package pdftex.def Info: images/moteur_newcomen_2.png used on input line 196.
 (pdftex.def)             Requested size: 256.0748pt x 289.37903pt.
  [161 <./5/images/moteur_newcomen_2.png>]
 <images/catapulte_vapeur_1.jpg, id=2727, 176.0979pt x 246.4407pt>
 File: images/catapulte_vapeur_1.jpg Graphic file (type jpg)
 
 <use images/catapulte_vapeur_1.jpg>
-Package pdftex.def Info: images/catapulte_vapeur_1.jpg used on input line 233.
+Package pdftex.def Info: images/catapulte_vapeur_1.jpg used on input line 235.
 (pdftex.def)             Requested size: 193.91058pt x 271.37138pt.
 
 <images/catapulte_vapeur_2.jpg, id=2729, 751.80875pt x 500.87125pt>
 File: images/catapulte_vapeur_2.jpg Graphic file (type jpg)
 
 <use images/catapulte_vapeur_2.jpg>
-Package pdftex.def Info: images/catapulte_vapeur_2.jpg used on input line 240.
+Package pdftex.def Info: images/catapulte_vapeur_2.jpg used on input line 242.
 (pdftex.def)             Requested size: 242.38731pt x 161.48196pt.
 
 <images/exercice_turbine_centrale2.jpg, id=2734, 308.352pt x 215.8464pt>
@@ -6489,7 +6489,7 @@ File: images/exercice_turbine_centrale2.jpg Graphic file (type jpg)
 
 <use images/exercice_turbine_centrale2.jpg>
 Package pdftex.def Info: images/exercice_turbine_centrale2.jpg used on input li
-ne 266.
+ne 268.
 (pdftex.def)             Requested size: 241.44519pt x 169.0103pt.
 
 <images/exercice_turbine_centrale1.jpg, id=2735, 308.352pt x 205.0059pt>
@@ -6497,7 +6497,7 @@ File: images/exercice_turbine_centrale1.jpg Graphic file (type jpg)
 
 <use images/exercice_turbine_centrale1.jpg>
 Package pdftex.def Info: images/exercice_turbine_centrale1.jpg used on input li
-ne 267.
+ne 269.
 (pdftex.def)             Requested size: 254.21474pt x 169.0103pt.
  [162 <./5/images/catapulte_vapeur_1.jpg> <./5/images/catapulte_vapeur_2.jpg>] 
 [163
@@ -6542,7 +6542,7 @@ File: images/exo_sol_tv_ebullition.png Graphic file (type png)
 
 <use images/exo_sol_tv_ebullition.png>
 Package pdftex.def Info: images/exo_sol_tv_ebullition.png used on input line 28
-1.
+3.
 (pdftex.def)             Requested size: 71.13188pt x 72.5453pt.
 
 <images/exo_sol_tv_generation_vapeur.png, id=2763, 262.25815pt x 267.47351pt>
@@ -6550,7 +6550,7 @@ File: images/exo_sol_tv_generation_vapeur.png Graphic file (type png)
 
 <use images/exo_sol_tv_generation_vapeur.png>
 Package pdftex.def Info: images/exo_sol_tv_generation_vapeur.png used on input 
-line 285.
+line 287.
 (pdftex.def)             Requested size: 71.13188pt x 72.5453pt.
 
 <images/exo_sol_tv_moteur_basique_1.png, id=2771, 262.25815pt x 267.47351pt>
@@ -6558,7 +6558,7 @@ File: images/exo_sol_tv_moteur_basique_1.png Graphic file (type png)
 
 <use images/exo_sol_tv_moteur_basique_1.png>
 Package pdftex.def Info: images/exo_sol_tv_moteur_basique_1.png used on input l
-ine 292.
+ine 294.
 (pdftex.def)             Requested size: 71.13188pt x 72.5453pt.
 
 <images/exo_sol_pv_moteur_basique_2.png, id=2772, 265.23836pt x 266.72845pt>
@@ -6566,14 +6566,14 @@ File: images/exo_sol_pv_moteur_basique_2.png Graphic file (type png)
 
 <use images/exo_sol_pv_moteur_basique_2.png>
 Package pdftex.def Info: images/exo_sol_pv_moteur_basique_2.png used on input l
-ine 293.
+ine 295.
 (pdftex.def)             Requested size: 71.13188pt x 71.52925pt.
 
 <images/exo_sol_tv_newcomen.png, id=2780, 262.25815pt x 267.47351pt>
 File: images/exo_sol_tv_newcomen.png Graphic file (type png)
 
 <use images/exo_sol_tv_newcomen.png>
-Package pdftex.def Info: images/exo_sol_tv_newcomen.png used on input line 313.
+Package pdftex.def Info: images/exo_sol_tv_newcomen.png used on input line 315.
 
 (pdftex.def)             Requested size: 71.13188pt x 72.5453pt.
 
@@ -6581,7 +6581,7 @@ Package pdftex.def Info: images/exo_sol_tv_newcomen.png used on input line 313.
 File: images/exo_sol_pv_newcomen.png Graphic file (type png)
 
 <use images/exo_sol_pv_newcomen.png>
-Package pdftex.def Info: images/exo_sol_pv_newcomen.png used on input line 314.
+Package pdftex.def Info: images/exo_sol_pv_newcomen.png used on input line 316.
 
 (pdftex.def)             Requested size: 71.13188pt x 71.52925pt.
  [164
@@ -7601,7 +7601,7 @@ s?
 File: images/circuit_carnot_vapeur.png Graphic file (type png)
 
 <use images/circuit_carnot_vapeur.png>
-Package pdftex.def Info: images/circuit_carnot_vapeur.png used on input line 68
+Package pdftex.def Info: images/circuit_carnot_vapeur.png used on input line 69
 .
 (pdftex.def)             Requested size: 199.16928pt x 180.39648pt.
 
@@ -7609,7 +7609,7 @@ Package pdftex.def Info: images/circuit_carnot_vapeur.png used on input line 68
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (5.60757pt too wide) in paragraph at lines 82--83
+Overfull \hbox (5.60757pt too wide) in paragraph at lines 83--84
 \T1/fxl/m/n/10 (-20) conti-nuait à chauf-fer la va-peur à tem-pé-ra-ture consta
 nte
  []
@@ -7624,71 +7624,71 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.7.6.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.87 \subsubsection{RÃ©versibilitÃ© des machines}
+l.88 \subsubsection{RÃ©versibilitÃ© des machines}
                                                  pdfTeX warning (ext4): destina
 tion with the same identifier (name{equation.7.6.9}) has been already used, dup
 licate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.87 \subsubsection{RÃ©versibilitÃ© des machines}
+l.88 \subsubsection{RÃ©versibilitÃ© des machines}
                                                  pdfTeX warning (ext4): destina
 tion with the same identifier (name{equation.7.6.9}) has been already used, dup
 licate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.87 \subsubsection{RÃ©versibilitÃ© des machines}
+l.88 \subsubsection{RÃ©versibilitÃ© des machines}
                                                  pdfTeX warning (ext4): destina
 tion with the same identifier (name{equation.7.6.10}) has been already used, du
 plicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.87 \subsubsection{RÃ©versibilitÃ© des machines}
+l.88 \subsubsection{RÃ©versibilitÃ© des machines}
                                                  pdfTeX warning (ext4): destina
 tion with the same identifier (name{equation.7.6.10}) has been already used, du
 plicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.87 \subsubsection{RÃ©versibilitÃ© des machines}
+l.88 \subsubsection{RÃ©versibilitÃ© des machines}
                                                  pdfTeX warning (ext4): destina
 tion with the same identifier (name{equation.7.6.9}) has been already used, dup
 licate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.87 \subsubsection{RÃ©versibilitÃ© des machines}
+l.88 \subsubsection{RÃ©versibilitÃ© des machines}
                                                  ]pdfTeX warning (ext4): destin
 ation with the same identifier (name{equation.7.6.10}) has been already used, d
 uplicate ignored
 <to be read again> 
                    \relax 
-l.104 			\begin{equation}
+l.106 			\begin{equation}
                          pdfTeX warning (ext4): destination with the same ident
 ifier (name{equation.7.6.10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.104 			\begin{equation}
+l.106 			\begin{equation}
                          pdfTeX warning (ext4): destination with the same ident
 ifier (name{equation.7.6.10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.104 			\begin{equation}
+l.106 			\begin{equation}
                          pdfTeX warning (ext4): destination with the same ident
 ifier (name{equation.7.6.10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.104 			\begin{equation}
+l.106 			\begin{equation}
                          
-Overfull \hbox (4.04274pt too wide) in paragraph at lines 132--133
+Overfull \hbox (4.04274pt too wide) in paragraph at lines 134--135
 []\T1/fxl/m/n/10 (-20) Représentez le cycle de ré-fri-gé-ra-tion sur un dia-gra
 mme
  []
 
 
-Overfull \hbox (11.74223pt too wide) in paragraph at lines 158--159
+Overfull \hbox (11.74223pt too wide) in paragraph at lines 160--161
 \T1/fxl/m/n/10 (-20) qu'aug-men-ter (ou au mieux, gar-der iden-tique) la consom
 -
  []
@@ -7734,7 +7734,7 @@ File: images/exo_sol_pv_carnot_lv_1.png Graphic file (type png)
 
 <use images/exo_sol_pv_carnot_lv_1.png>
 Package pdftex.def Info: images/exo_sol_pv_carnot_lv_1.png used on input line 2
-06.
+08.
 (pdftex.def)             Requested size: 71.13188pt x 70.73003pt.
 
 <images/exo_sol_pv_carnot_lv_2.png, id=3819, 265.23836pt x 263.74825pt>
@@ -7742,7 +7742,7 @@ File: images/exo_sol_pv_carnot_lv_2.png Graphic file (type png)
 
 <use images/exo_sol_pv_carnot_lv_2.png>
 Package pdftex.def Info: images/exo_sol_pv_carnot_lv_2.png used on input line 2
-07.
+09.
 (pdftex.def)             Requested size: 71.13188pt x 70.73003pt.
 
 <images/carnot_thermopompe_plusplus.png, id=3821, 559.1188pt x 453.5267pt>
@@ -7750,7 +7750,7 @@ File: images/carnot_thermopompe_plusplus.png Graphic file (type png)
 
 <use images/carnot_thermopompe_plusplus.png>
 Package pdftex.def Info: images/carnot_thermopompe_plusplus.png used on input l
-ine 213.
+ine 215.
 (pdftex.def)             Requested size: 142.26378pt x 115.39519pt.
 
 <images/exo_sol_pv_carnot_turbine.png, id=3823, 265.23836pt x 266.72845pt>
@@ -7758,23 +7758,17 @@ File: images/exo_sol_pv_carnot_turbine.png Graphic file (type png)
 
 <use images/exo_sol_pv_carnot_turbine.png>
 Package pdftex.def Info: images/exo_sol_pv_carnot_turbine.png used on input lin
-e 216.
+e 218.
 (pdftex.def)             Requested size: 71.13188pt x 71.52925pt.
 
-Overfull \hbox (1.83307pt too wide) in paragraph at lines 217--218
-|   \T1/fxl/m/n/10 (-20) 1) C'est l'agen-ce-ment re-pré-senté en [][]figure 7.9
-[][];;
- []
-
-
-Overfull \hbox (22.58415pt too wide) in paragraph at lines 228--229
+Overfull \hbox (22.58415pt too wide) in paragraph at lines 230--231
 |   \T1/fxl/m/n/10 (-20) 7) $\OML/nxlmi/m/it/10 w[] \U/ntxmia/m/it/10 = \OML/nx
 lmi/m/it/10 w[] \OMS/ntxsy/m/n/10 ^^@ \OML/nxlmi/m/it/10 w[] \U/ntxmia/m/it/10 
 =
  []
 
 
-Overfull \hbox (25.89255pt too wide) in paragraph at lines 229--230
+Overfull \hbox (25.89255pt too wide) in paragraph at lines 231--232
 |   \T1/fxl/m/n/10 (-20) 8) $\OML/nxlmi/m/it/10 w[] \U/ntxmia/m/it/10 = \OML/nx
 lmi/m/it/10 w[] \U/ntxmia/m/it/10 = [] []$\T1/fxl/m/n/10 (-20) ;
  []
@@ -7786,7 +7780,7 @@ File: images/exo_sol_pv_carnot_refrigerateur_transferts.png Graphic file (type
 png)
  <use images/exo_sol_pv_carnot_refrigerateur_transferts.png>
 Package pdftex.def Info: images/exo_sol_pv_carnot_refrigerateur_transferts.png 
-used on input line 232.
+used on input line 234.
 (pdftex.def)             Requested size: 71.13188pt x 71.52925pt.
 
 <images/exo_sol_pv_carnot_refrigerateur_irreversibilites.png, id=3831, 265.2383
@@ -7796,7 +7790,7 @@ File: images/exo_sol_pv_carnot_refrigerateur_irreversibilites.png Graphic file
 
 <use images/exo_sol_pv_carnot_refrigerateur_irreversibilites.png>
 Package pdftex.def Info: images/exo_sol_pv_carnot_refrigerateur_irreversibilite
-s.png used on input line 233.
+s.png used on input line 235.
 (pdftex.def)             Requested size: 71.13188pt x 71.52925pt.
  [226
 
@@ -7809,7 +7803,7 @@ pt>
 File: images/exo_sol_pv_refrigeration_etages_1.png Graphic file (type png)
  <use images/exo_sol_pv_refrigeration_etages_1.png>
 Package pdftex.def Info: images/exo_sol_pv_refrigeration_etages_1.png used on i
-nput line 237.
+nput line 239.
 (pdftex.def)             Requested size: 70.73302pt x 71.13188pt.
 
 <images/exo_sol_pv_refrigeration_etages_2.png, id=3844, 279.39433pt x 266.72845
@@ -7817,7 +7811,7 @@ pt>
 File: images/exo_sol_pv_refrigeration_etages_2.png Graphic file (type png)
  <use images/exo_sol_pv_refrigeration_etages_2.png>
 Package pdftex.def Info: images/exo_sol_pv_refrigeration_etages_2.png used on i
-nput line 238.
+nput line 240.
 (pdftex.def)             Requested size: 74.50809pt x 71.13188pt.
 ) [227 <./7/images/exo_sol_pv_carnot_refrigerateur_transferts.png> <./7/images/
 exo_sol_pv_carnot_refrigerateur_irreversibilites.png> <./7/images/exo_sol_pv_re
@@ -7934,293 +7928,380 @@ Package pdftex.def Info: images/water_jump_3.jpg used on input line 13.
  [231
 
 
-] [232 <./8/images/water_jump_1.jpg> <./8/images/water_jump_2.jpg> <./8/images/
-water_jump_3.jpg>] [233
+]
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+[][] \T1/fxl/m/n/8 Pour cela nous ima-gi-nons
+ []
+
+
+Underfull \hbox (badness 4024) in paragraph at lines 31--33
+\T1/fxl/m/n/8 sou-hai-tons étu-dier de cette fa-çon,
+ []
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 31--33
+\T1/fxl/m/n/8 la masse est ra-me-née à son état
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 31--33
+\T1/fxl/m/n/8 ini-tial par une opé-ra-tion ré-ver-sible.
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 31--33
+\T1/fxl/m/n/8 De cette fa-çon, nous ob-te-nons un
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 31--33
+\T1/fxl/m/n/8 pe-tit pro-ces-sus cy-clique, à la-quelle
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 31--33
+\T1/fxl/m/n/8 l'équa-tion (II) s'ap-plique aussi bien
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 31--33
+\T1/fxl/m/n/8 qu'à l'en-semble. Si [le long de ce
+ []
+
+
+Underfull \hbox (badness 5908) in paragraph at lines 31--33
+\T1/fxl/m/n/8 pro-ces-sus] l'on connaît éga-le-ment
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 31--33
+\T1/fxl/m/n/8 les quan-ti-tés de cha-leur qu'a reçu
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 31--33
+\T1/fxl/m/n/8 la masse pen-dant ce der-nier ainsi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+\T1/fxl/m/n/8 que les tem-pé-ra-tures aux-quelles
+ []
+
+
+Underfull \hbox (badness 7685) in paragraph at lines 31--33
+\T1/fxl/m/n/8 né-ga-tive $\OMS/ntxsy/m/n/8 ^^@ [] []$ \T1/fxl/m/n/8 nous donne 
+la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+\T1/fxl/m/n/8 trans-for-ma-tion non-compensée
+ []
+
+[232 <./8/images/water_jump_1.jpg> <./8/images/water_jump_2.jpg> <./8/images/wa
+ter_jump_3.jpg>] [233
 
 ]
-Package mdframed Info: mdframed works in twoside mode on input line 95.
+Package mdframed Info: mdframed works in twoside mode on input line 99.
 File: images/hand.png Graphic file (type png)
-
-<use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 105.
+ <use images/hand.png>
+Package pdftex.def Info: images/hand.png used on input line 110.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 106.
-(pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
-File: images/hand.png Graphic file (type png)
- <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 107.
+Package pdftex.def Info: images/hand.png used on input line 111.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 File: images/hand.png Graphic file (type png)
 
 <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 118.
+Package pdftex.def Info: images/hand.png used on input line 112.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 119.
+Package pdftex.def Info: images/hand.png used on input line 123.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 120.
+Package pdftex.def Info: images/hand.png used on input line 124.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 File: images/hand.png Graphic file (type png)
 
 <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 121.
+Package pdftex.def Info: images/hand.png used on input line 125.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
-Package mdframed Info: Box was splittet wrong
-(mdframed)              on input line 123.
+File: images/hand.png Graphic file (type png)
+ <use images/hand.png>
+Package pdftex.def Info: images/hand.png used on input line 126.
+(pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
  [234] [235]
-<images/pv_reversible_irreversible.png, id=3978, 915.15816pt x 897.09065pt>
+<images/pv_reversible_irreversible.png, id=3983, 915.15816pt x 897.09065pt>
 File: images/pv_reversible_irreversible.png Graphic file (type png)
 
 <use images/pv_reversible_irreversible.png>
 Package pdftex.def Info: images/pv_reversible_irreversible.png used on input li
-ne 172.
+ne 177.
 (pdftex.def)             Requested size: 227.62204pt x 223.12227pt.
  [236
 
  <./8/images/pv_reversible_irreversible.png>]
-Overfull \hbox (10.73198pt too wide) in paragraph at lines 197--198
+Overfull \hbox (10.73198pt too wide) in paragraph at lines 202--203
 []\T1/fxl/m/n/10.95 (-20) Alors, nous al-lons pou-voir re-pré-sen-ter les évo-l
 u-tions sur un [][]\T1/fxl/m/sl/10.95 (-20) diagramme température-
  []
 
-<images/ts_reversible_irreversible.png, id=3994, 903.375pt x 904.19624pt>
+<images/ts_reversible_irreversible.png, id=3999, 903.375pt x 904.19624pt>
 File: images/ts_reversible_irreversible.png Graphic file (type png)
 
 <use images/ts_reversible_irreversible.png>
 Package pdftex.def Info: images/ts_reversible_irreversible.png used on input li
-ne 201.
+ne 206.
 (pdftex.def)             Requested size: 227.62204pt x 227.82831pt.
  [237 <./8/images/ts_reversible_irreversible.png>] <images/ts_basics_1.png, id=
-4008, 623.91367pt x 616.63467pt>
+4013, 623.91367pt x 616.63467pt>
 File: images/ts_basics_1.png Graphic file (type png)
 
 <use images/ts_basics_1.png>
-Package pdftex.def Info: images/ts_basics_1.png used on input line 216.
+Package pdftex.def Info: images/ts_basics_1.png used on input line 221.
 (pdftex.def)             Requested size: 167.16058pt x 165.20454pt.
 
-<images/ts_basics_2.png, id=4009, 623.91367pt x 616.63467pt>
+<images/ts_basics_2.png, id=4014, 623.91367pt x 616.63467pt>
 File: images/ts_basics_2.png Graphic file (type png)
 
 <use images/ts_basics_2.png>
-Package pdftex.def Info: images/ts_basics_2.png used on input line 217.
+Package pdftex.def Info: images/ts_basics_2.png used on input line 222.
 (pdftex.def)             Requested size: 167.16058pt x 165.20454pt.
  [238 <./8/images/ts_basics_1.png> <./8/images/ts_basics_2.png>] <images/ts_cyc
-le.png, id=4024, 903.375pt x 905.63344pt>
+le.png, id=4029, 903.375pt x 905.63344pt>
 File: images/ts_cycle.png Graphic file (type png)
 
 <use images/ts_cycle.png>
-Package pdftex.def Info: images/ts_cycle.png used on input line 234.
+Package pdftex.def Info: images/ts_cycle.png used on input line 239.
 (pdftex.def)             Requested size: 227.62204pt x 228.19043pt.
  [239 <./8/images/ts_cycle.png>]
-<images/pv_carnot_gp.png, id=4037, 903.375pt x 895.84688pt>
+<images/pv_carnot_gp.png, id=4042, 903.375pt x 895.84688pt>
 File: images/pv_carnot_gp.png Graphic file (type png)
 
 <use images/pv_carnot_gp.png>
-Package pdftex.def Info: images/pv_carnot_gp.png used on input line 245.
+Package pdftex.def Info: images/pv_carnot_gp.png used on input line 250.
 (pdftex.def)             Requested size: 174.2753pt x 172.82355pt.
 
-<images/pv_carnot_lv.png, id=4038, 903.375pt x 905.63344pt>
+<images/pv_carnot_lv.png, id=4043, 903.375pt x 905.63344pt>
 File: images/pv_carnot_lv.png Graphic file (type png)
 
 <use images/pv_carnot_lv.png>
-Package pdftex.def Info: images/pv_carnot_lv.png used on input line 246.
+Package pdftex.def Info: images/pv_carnot_lv.png used on input line 251.
 (pdftex.def)             Requested size: 174.2753pt x 174.71153pt.
 
-<images/ts_carnot.png, id=4039, 903.375pt x 905.63344pt>
+<images/ts_carnot.png, id=4044, 903.375pt x 905.63344pt>
 File: images/ts_carnot.png Graphic file (type png)
 
 <use images/ts_carnot.png>
-Package pdftex.def Info: images/ts_carnot.png used on input line 249.
+Package pdftex.def Info: images/ts_carnot.png used on input line 254.
 (pdftex.def)             Requested size: 227.62204pt x 228.19043pt.
  [240 <./8/images/pv_carnot_gp.png> <./8/images/pv_carnot_lv.png> <./8/images/t
-s_carnot.png>] [241]
-<images/ts_gp_isobares_isochores.png, id=4080, 903.375pt x 905.63344pt>
+s_carnot.png>]
+<images/ts_gp_isobares_isochores.png, id=4075, 903.375pt x 905.63344pt>
 File: images/ts_gp_isobares_isochores.png Graphic file (type png)
 
 <use images/ts_gp_isobares_isochores.png>
 Package pdftex.def Info: images/ts_gp_isobares_isochores.png used on input line
- 306.
+ 315.
 (pdftex.def)             Requested size: 284.52756pt x 285.23459pt.
- [242 <./8/images/ts_gp_isobares_isochores.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 313.
- <images/exe_ts_1.png, id=4091, 274.17897pt x 267.47351pt>
+ [241]
+Package mdframed Info: mdframed works in twoside mode on input line 322.
+
+<images/exe_ts_1.png, id=4094, 274.17897pt x 267.47351pt>
 File: images/exe_ts_1.png Graphic file (type png)
 
 <use images/exe_ts_1.png>
-Package pdftex.def Info: images/exe_ts_1.png used on input line 318.
+Package pdftex.def Info: images/exe_ts_1.png used on input line 327.
 (pdftex.def)             Requested size: 113.81102pt x 111.028pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 320.
+Package pdftex.def Info: images/hand.png used on input line 329.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 321.
+Package pdftex.def Info: images/hand.png used on input line 330.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
-Package mdframed Info: Not enough space on this page on input line 322.
-Package mdframed Info: mdframed works in twoside mode on input line 325.
+Package mdframed Info: Not enough space on this page on input line 331.
+ [242 <./8/images/ts_gp_isobares_isochores.png> <./8/images/exe_ts_1.png>]
+Package mdframed Info: mdframed works in twoside mode on input line 334.
 
-<images/exe_ts_2.png, id=4094, 274.92403pt x 267.47351pt>
+<images/exe_ts_2.png, id=4107, 274.92403pt x 267.47351pt>
 File: images/exe_ts_2.png Graphic file (type png)
 
 <use images/exe_ts_2.png>
-Package pdftex.def Info: images/exe_ts_2.png used on input line 330.
+Package pdftex.def Info: images/exe_ts_2.png used on input line 339.
 (pdftex.def)             Requested size: 113.81102pt x 110.72598pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 335.
+Package pdftex.def Info: images/hand.png used on input line 344.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
- [243 <./8/images/exe_ts_1.png> <./8/images/exe_ts_2.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 338.
+Package mdframed Info: Not enough space on this page on input line 345.
+Package mdframed Info: mdframed works in twoside mode on input line 347.
 
-<images/exe_ts_3.png, id=4109, 263.00319pt x 267.47351pt>
+<images/exe_ts_3.png, id=4112, 263.00319pt x 267.47351pt>
 File: images/exe_ts_3.png Graphic file (type png)
 
 <use images/exe_ts_3.png>
-Package pdftex.def Info: images/exe_ts_3.png used on input line 343.
+Package pdftex.def Info: images/exe_ts_3.png used on input line 352.
 (pdftex.def)             Requested size: 113.81102pt x 115.74599pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 354.
+Package pdftex.def Info: images/hand.png used on input line 363.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
-Package mdframed Info: Not enough space on this page on input line 355.
-
-<images/ts_lv.png, id=4115, 963.6pt x 745.987pt>
+ [243 <./8/images/exe_ts_2.png> <./8/images/exe_ts_3.png>] <images/ts_lv.png, i
+d=4128, 963.6pt x 745.987pt>
 File: images/ts_lv.png Graphic file (type png)
- <use images/ts_lv.png>
-Package pdftex.def Info: images/ts_lv.png used on input line 365.
+
+<use images/ts_lv.png>
+Package pdftex.def Info: images/ts_lv.png used on input line 374.
 (pdftex.def)             Requested size: 284.52756pt x 220.26915pt.
+pdfTeX warning (ext4): destination with the same identifier (name{equation.8.3.
+14}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.435 		\begin{equation}
+                        pdfTeX warning (ext4): destination with the same identi
+fier (name{equation.8.3.14}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.435 		\begin{equation}
+                        pdfTeX warning (ext4): destination with the same identi
+fier (name{equation.8.3.14}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.435 		\begin{equation}
+                        pdfTeX warning (ext4): destination with the same identi
+fier (name{equation.8.3.14}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.435 		\begin{equation}
+                         [244 <./8/images/ts_lv.png>]
+Package mdframed Info: mdframed works in twoside mode on input line 441.
 
-[244 <./8/images/exe_ts_3.png>] [245 <./8/images/ts_lv.png>]pdfTeX warning (ext
-4): destination with the same identifier (name{equation.8.3.14}) has been alrea
-dy used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.426 		\begin{equation}
-                        pdfTeX warning (ext4): destination with the same identi
-fier (name{equation.8.3.14}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.426 		\begin{equation}
-                        pdfTeX warning (ext4): destination with the same identi
-fier (name{equation.8.3.14}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.426 		\begin{equation}
-                        pdfTeX warning (ext4): destination with the same identi
-fier (name{equation.8.3.14}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.426 		\begin{equation}
-                        
-Package mdframed Info: mdframed works in twoside mode on input line 432.
-
-<images/exe_ts_4.png, id=4141, 263.00319pt x 267.47351pt>
+<images/exe_ts_4.png, id=4145, 263.00319pt x 267.47351pt>
 File: images/exe_ts_4.png Graphic file (type png)
 
 <use images/exe_ts_4.png>
-Package pdftex.def Info: images/exe_ts_4.png used on input line 437.
+Package pdftex.def Info: images/exe_ts_4.png used on input line 446.
 (pdftex.def)             Requested size: 113.81102pt x 115.74599pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 442.
+Package pdftex.def Info: images/hand.png used on input line 451.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
-Package mdframed Info: mdframed works in twoside mode on input line 446.
-
-<images/exe_ts_5.png, id=4144, 263.00319pt x 267.47351pt>
+ [245 <./8/images/exe_ts_4.png>]
+Package mdframed Info: mdframed works in twoside mode on input line 455.
+<images/exe_ts_5.png, id=4156, 263.00319pt x 267.47351pt>
 File: images/exe_ts_5.png Graphic file (type png)
 
 <use images/exe_ts_5.png>
-Package pdftex.def Info: images/exe_ts_5.png used on input line 451.
+Package pdftex.def Info: images/exe_ts_5.png used on input line 460.
 (pdftex.def)             Requested size: 113.81102pt x 115.74599pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 460.
+Package pdftex.def Info: images/hand.png used on input line 469.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
- [246 <./8/images/exe_ts_4.png> <./8/images/exe_ts_5.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 464.
+Package mdframed Info: mdframed works in twoside mode on input line 473.
 
-<images/exe_ts_6.png, id=4156, 263.00319pt x 267.47351pt>
+<images/exe_ts_6.png, id=4158, 263.00319pt x 267.47351pt>
 File: images/exe_ts_6.png Graphic file (type png)
 
 <use images/exe_ts_6.png>
-Package pdftex.def Info: images/exe_ts_6.png used on input line 469.
+Package pdftex.def Info: images/exe_ts_6.png used on input line 478.
 (pdftex.def)             Requested size: 113.81102pt x 115.74599pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 478.
+Package pdftex.def Info: images/hand.png used on input line 487.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 478.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 487.
 
-Package mdframed Info: Box was splittet wrong
-(mdframed)              on input line 479.
-Package mdframed Info: Box was splittet wrong
-(mdframed)              on input line 479.
-[247 <./8/images/exe_ts_6.png>] [248]
-<images/transfert_chaleur_irreversible.png, id=4176, 409.07547pt x 261.4674pt>
+[246 <./8/images/exe_ts_5.png>] [247 <./8/images/exe_ts_6.png>]
+<images/transfert_chaleur_irreversible.png, id=4183, 409.07547pt x 261.4674pt>
 File: images/transfert_chaleur_irreversible.png Graphic file (type png)
 
 <use images/transfert_chaleur_irreversible.png>
 Package pdftex.def Info: images/transfert_chaleur_irreversible.png used on inpu
-t line 495.
+t line 508.
 (pdftex.def)             Requested size: 227.62204pt x 145.49115pt.
- [249
+ [248
 
  <./8/images/transfert_chaleur_irreversible.png>]
-<images/ts_echange_chaleur.png, id=4191, 932.51613pt x 899.87807pt>
+<images/ts_echange_chaleur.png, id=4199, 932.51613pt x 899.87807pt>
 File: images/ts_echange_chaleur.png Graphic file (type png)
 
 <use images/ts_echange_chaleur.png>
-Package pdftex.def Info: images/ts_echange_chaleur.png used on input line 522.
+Package pdftex.def Info: images/ts_echange_chaleur.png used on input line 535.
 (pdftex.def)             Requested size: 284.52756pt x 274.56538pt.
- [250 <./8/images/ts_echange_chaleur.png>]
-<images/ts_gp_detente.png, id=4204, 903.375pt x 905.63344pt>
+ [249 <./8/images/ts_echange_chaleur.png>]
+<images/ts_gp_detente.png, id=4213, 903.375pt x 905.63344pt>
 File: images/ts_gp_detente.png Graphic file (type png)
 
 <use images/ts_gp_detente.png>
-Package pdftex.def Info: images/ts_gp_detente.png used on input line 544.
+Package pdftex.def Info: images/ts_gp_detente.png used on input line 560.
 (pdftex.def)             Requested size: 170.71523pt x 171.13246pt.
 
-<images/ts_gp_compression.png, id=4205, 903.375pt x 905.63344pt>
+<images/ts_gp_compression.png, id=4214, 903.375pt x 905.63344pt>
 File: images/ts_gp_compression.png Graphic file (type png)
 
 <use images/ts_gp_compression.png>
-Package pdftex.def Info: images/ts_gp_compression.png used on input line 545.
+Package pdftex.def Info: images/ts_gp_compression.png used on input line 561.
 (pdftex.def)             Requested size: 170.71523pt x 171.13246pt.
- [251 <./8/images/ts_gp_detente.png> <./8/images/ts_gp_compression.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 568.
- [252]
-Package mdframed Info: mdframed works in twoside mode on input line 597.
+ [250 <./8/images/ts_gp_detente.png> <./8/images/ts_gp_compression.png>]
+Underfull \hbox (badness 1721) in paragraph at lines 573--575
+\T1/fxl/m/it/8 corps plus froid vers un corps plus
+ []
 
-Underfull \hbox (badness 1552) in paragraph at lines 608--609
+
+Underfull \hbox (badness 5548) in paragraph at lines 573--575
+\T1/fxl/m/it/8 chaud, sans qu'un chan-ge-ment en
+ []
+
+Package mdframed Info: mdframed works in twoside mode on input line 587.
+[251]
+Package mdframed Info: mdframed works in twoside mode on input line 616.
+
+Underfull \hbox (badness 1552) in paragraph at lines 627--628
 []\T1/fxl/m/n/10.95 (+20) La va-ria-tion d'en-tro-pie est égale à l'in-té-grale
  $[][] [][]$. Avec
  []
 
-<images/exe_ts_7.png, id=4231, 263.00319pt x 267.47351pt>
+<images/exe_ts_7.png, id=4243, 263.00319pt x 267.47351pt>
 File: images/exe_ts_7.png Graphic file (type png)
 
 <use images/exe_ts_7.png>
-Package pdftex.def Info: images/exe_ts_7.png used on input line 615.
+Package pdftex.def Info: images/exe_ts_7.png used on input line 634.
 (pdftex.def)             Requested size: 113.81102pt x 115.74599pt.
-Package mdframed Info: mdframed works in twoside mode on input line 621.
+Package mdframed Info: mdframed works in twoside mode on input line 640.
 
-<images/exe_ts_8.png, id=4232, 263.00319pt x 267.47351pt>
+<images/exe_ts_8.png, id=4244, 263.00319pt x 267.47351pt>
 File: images/exe_ts_8.png Graphic file (type png)
 
 <use images/exe_ts_8.png>
-Package pdftex.def Info: images/exe_ts_8.png used on input line 638.
+Package pdftex.def Info: images/exe_ts_8.png used on input line 657.
 (pdftex.def)             Requested size: 113.81102pt x 115.74599pt.
- [253 <./8/images/exe_ts_7.png>] [254 <./8/images/exe_ts_8.png>] [255
+ [252 <./8/images/exe_ts_7.png>] [253 <./8/images/exe_ts_8.png>] [254
 
-] [256])) [257]
+]
+Underfull \hbox (badness 2529) in paragraph at lines 705--708
+\T1/fxl/m/n/8 té-rieur peut être ar-rangé, de telle
+ []
+
+
+Underfull \hbox (badness 2503) in paragraph at lines 705--708
+\T1/fxl/m/n/8 Ainsi, avec la dé-fi-ni-tion tech-nique
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 717--719
+\T1/fxl/m/n/8 sées qui sont im-pos-sibles se-lon les
+ []
+
+[255])) [256]
 \openout2 = `8/exercices_chapitre_8.aux'.
 
  (./8/exercices_chapitre_8.tex
@@ -8256,31 +8337,42 @@ Package pdftex.def Info: images/exe_ts_8.png used on input line 638.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-(./8/contenuexercices8.tex
+ (./8/contenuexercices8.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-Overfull \hbox (6.50607pt too wide) in paragraph at lines 17--18
+<images/exo_ts_elementaires1.png, id=4321, 897.09065pt x 899.44728pt>
+File: images/exo_ts_elementaires1.png Graphic file (type png)
+
+<use images/exo_ts_elementaires1.png>
+Package pdftex.def Info: images/exo_ts_elementaires1.png used on input line 28.
+
+(pdftex.def)             Requested size: 145.43385pt x 145.80847pt.
+
+<images/exo_ts_elementaires2.png, id=4322, 897.09065pt x 899.44728pt>
+File: images/exo_ts_elementaires2.png Graphic file (type png)
+
+<use images/exo_ts_elementaires2.png>
+Package pdftex.def Info: images/exo_ts_elementaires2.png used on input line 29.
+
+(pdftex.def)             Requested size: 145.43385pt x 145.80847pt.
+
+Underfull \hbox (badness 1158) in paragraph at lines 31--31
+\T1/fxl/m/n/10.95 (+20) d'un gaz par-fait, re-pré-sen-tées sur un dia-gramme
+ []
+
+
+Overfull \hbox (6.50607pt too wide) in paragraph at lines 44--45
 []\T1/fxl/m/n/10 (-20) Représentez l'évo-lu-tion sur un dia-gramme température-
 
  []
 
-<images/exo_ts_elementaires1.png, id=4303, 897.09065pt x 899.44728pt>
-File: images/exo_ts_elementaires1.png Graphic file (type png)
 
-<use images/exo_ts_elementaires1.png>
-Package pdftex.def Info: images/exo_ts_elementaires1.png used on input line 26.
+Overfull \hbox (1.10109pt too wide) in paragraph at lines 51--52
+[]\T1/fxl/m/n/10 (-20) On four-nit len-te-ment une quan-tité de cha-leur de [][
+][]
+ []
 
-(pdftex.def)             Requested size: 199.16928pt x 199.69063pt.
-
-<images/exo_ts_elementaires2.png, id=4304, 897.09065pt x 899.44728pt>
-File: images/exo_ts_elementaires2.png Graphic file (type png)
-
-<use images/exo_ts_elementaires2.png>
-Package pdftex.def Info: images/exo_ts_elementaires2.png used on input line 27.
-
-(pdftex.def)             Requested size: 199.16928pt x 199.69063pt.
- [258
+[257
 
 
 
@@ -8290,43 +8382,65 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.8.6.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.46 \subsubsection{Turbine Ã  vapeur}
-                                      pdfTeX warning (ext4): destination with t
-he same identifier (name{equation.8.6.18}) has been already used, duplicate ign
-ored
+l.56 ...bsection{Diagrammes tempÃ©rature-entropie}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.8.6.18}) has been already used, d
+uplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.46 \subsubsection{Turbine Ã  vapeur}
-                                      pdfTeX warning (ext4): destination with t
-he same identifier (name{equation.8.6.19}) has been already used, duplicate ign
-ored
+l.56 ...bsection{Diagrammes tempÃ©rature-entropie}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.8.6.19}) has been already used, d
+uplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.46 \subsubsection{Turbine Ã  vapeur}
-                                       <./8/images/exo_ts_elementaires1.png> <.
-/8/images/exo_ts_elementaires2.png>]
-Overfull \hbox (6.83348pt too wide) in paragraph at lines 68--69
+l.56 ...bsection{Diagrammes tempÃ©rature-entropie}
+                                                   <./8/images/exo_ts_elementai
+res1.png> <./8/images/exo_ts_elementaires2.png>]
+Overfull \hbox (5.5777pt too wide) in paragraph at lines 59--60
+[]\T1/fxl/m/n/10 (-20) Représentez, cha-cune sur un dia-gramme température-entr
+opie,
+ []
+
+
+Overfull \hbox (0.93227pt too wide) in paragraph at lines 77--78
+[]\T1/fxl/m/n/10 (-20) Dans la salle des ma-chines d'un na-vire im-por-tant ([]
+[]figure 8.13[][]),
+ []
+
+<images/turbine_uss_hornet.jpg, id=4353, 1779.64874pt x 1156.32pt>
+File: images/turbine_uss_hornet.jpg Graphic file (type jpg)
+
+<use images/turbine_uss_hornet.jpg>
+Package pdftex.def Info: images/turbine_uss_hornet.jpg used on input line 81.
+(pdftex.def)             Requested size: 242.38731pt x 157.49034pt.
+
+Overfull \hbox (6.83348pt too wide) in paragraph at lines 107--108
 [][][] \T1/fxl/m/n/10 (-20) de cha-leur (sa tem-pé-ra-ture étant alors fi-gée à
  [][][]).
  []
 
+<images/stockholm_pump.jpg, id=4357, 792.9625pt x 793.96625pt>
+File: images/stockholm_pump.jpg Graphic file (type jpg)
 
-Overfull \hbox (15.45683pt too wide) in paragraph at lines 109--112
+<use images/stockholm_pump.jpg>
+Package pdftex.def Info: images/stockholm_pump.jpg used on input line 131.
+(pdftex.def)             Requested size: 145.43385pt x 145.60939pt.
+ [258 <./8/images/turbine_uss_hornet.jpg> <./8/images/stockholm_pump.jpg>]
+Overfull \hbox (15.45683pt too wide) in paragraph at lines 152--155
 \T1/fxl/m/n/10 (-20) En A, le mé-lange liquide-vapeur est à pres-sion de [][][]
 . 
  []
 
 
-Overfull \hbox (5.90419pt too wide) in paragraph at lines 114--116
+Overfull \hbox (5.90419pt too wide) in paragraph at lines 157--159
 \T1/fxl/m/n/10 (-20) En D, l'eau est à la pres-sion ini-tiale, c'est-à-dire [][
 ][]. 
  []
 
-[259] [260
-
-]
+[259]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -8359,17 +8473,140 @@ Overfull \hbox (5.90419pt too wide) in paragraph at lines 114--116
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package mdframed Info: mdframed works in twoside mode on input line 158.
- <images/i.png, id=4365, 14.39862pt x 14.39862pt>
-File: images/i.png Graphic file (type png)
+ <images/exo_sol_ts_tasse.png, id=4407, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_tasse.png Graphic file (type png)
 
-<use images/i.png>
-Package pdftex.def Info: images/i.png used on input line 158.
-(pdftex.def)             Requested size: 8.57991pt x 8.57999pt.
-) [261
+<use images/exo_sol_ts_tasse.png>
+Package pdftex.def Info: images/exo_sol_ts_tasse.png used on input line 206.
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+<images/exo_sol_ts_detente_eau.png, id=4414, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_detente_eau.png Graphic file (type png)
+
+<use images/exo_sol_ts_detente_eau.png>
+Package pdftex.def Info: images/exo_sol_ts_detente_eau.png used on input line 2
+14.
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+<images/exo_sol_ts_chauffage_isotherme_eau.png, id=4416, 263.00319pt x 267.4735
+1pt>
+File: images/exo_sol_ts_chauffage_isotherme_eau.png Graphic file (type png)
+ <use images/exo_sol_ts_chauffage_isotherme_eau.png>
+Package pdftex.def Info: images/exo_sol_ts_chauffage_isotherme_eau.png used on 
+input line 218.
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+<images/exo_sol_ts_multiples1.png, id=4418, 270.4537pt x 267.47351pt>
+File: images/exo_sol_ts_multiples1.png Graphic file (type png)
+
+<use images/exo_sol_ts_multiples1.png>
+Package pdftex.def Info: images/exo_sol_ts_multiples1.png used on input line 22
+1.
+(pdftex.def)             Requested size: 71.13188pt x 70.34956pt.
+
+<images/exo_sol_ts_multiples2.png, id=4419, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_multiples2.png Graphic file (type png)
+
+<use images/exo_sol_ts_multiples2.png>
+Package pdftex.def Info: images/exo_sol_ts_multiples2.png used on input line 22
+2.
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+<images/exo_sol_ts_multiples3.png, id=4420, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_multiples3.png Graphic file (type png)
+
+<use images/exo_sol_ts_multiples3.png>
+Package pdftex.def Info: images/exo_sol_ts_multiples3.png used on input line 22
+3.
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+<images/exo_sol_ts_multiples4.png, id=4421, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_multiples4.png Graphic file (type png)
+
+<use images/exo_sol_ts_multiples4.png>
+Package pdftex.def Info: images/exo_sol_ts_multiples4.png used on input line 22
+4.
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+<images/exo_sol_ts_multiples5.png, id=4422, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_multiples5.png Graphic file (type png)
+
+<use images/exo_sol_ts_multiples5.png>
+Package pdftex.def Info: images/exo_sol_ts_multiples5.png used on input line 22
+5.
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+<images/exo_sol_ts_multiples6.png, id=4423, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_multiples6.png Graphic file (type png)
+
+<use images/exo_sol_ts_multiples6.png>
+Package pdftex.def Info: images/exo_sol_ts_multiples6.png used on input line 22
+6.
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+Overfull \hbox (28.09492pt too wide) in paragraph at lines 221--227
+[][] [] [] [] [] [] 
+ []
 
 
- <./0/images/i.png>] [262
+<images/exo_sol_ts_carnot_thermopompe.png, id=4425, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_carnot_thermopompe.png Graphic file (type png)
+
+<use images/exo_sol_ts_carnot_thermopompe.png>
+Package pdftex.def Info: images/exo_sol_ts_carnot_thermopompe.png used on input
+ line 228.
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 229.
+
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 229.
+
+<images/exo_sol_ts_bonsens1.png, id=4428, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_bonsens1.png Graphic file (type png)
+
+<use images/exo_sol_ts_bonsens1.png>
+Package pdftex.def Info: images/exo_sol_ts_bonsens1.png used on input line 233.
+
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+ [260
+
+
+ <./8/images/exo_sol_ts_tasse.png> <./8/images/exo_sol_ts_detente_eau.png> <./8
+/images/exo_sol_ts_chauffage_isotherme_eau.png> <./8/images/exo_sol_ts_multiple
+s1.png> <./8/images/exo_sol_ts_multiples2.png> <./8/images/exo_sol_ts_multiples
+3.png> <./8/images/exo_sol_ts_multiples4.png> <./8/images/exo_sol_ts_multiples5
+.png> <./8/images/exo_sol_ts_multiples6.png> <./8/images/exo_sol_ts_carnot_ther
+mopompe.png>]
+<images/exo_sol_ts_bonsens2.png, id=4447, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_bonsens2.png Graphic file (type png)
+
+<use images/exo_sol_ts_bonsens2.png>
+Package pdftex.def Info: images/exo_sol_ts_bonsens2.png used on input line 236.
+
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+Overfull \hbox (11.76698pt too wide) in paragraph at lines 237--238
+|   \T1/fxl/m/n/10 (-20) On sup-pose $\OML/nxlmi/m/it/10 X \OMS/ntxsy/m/n/10 ! 
+\OML/nxlmi/m/it/10 Y$\T1/fxl/m/n/10 (-20) , alors $\U/ntxmia/m/it/10 ^^A\OML/nx
+lmi/m/it/10 s \U/ntxmia/m/it/10 = [] []$
+ []
+
+<images/exo_sol_ts_carnot_vapeur1.png, id=4456, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_carnot_vapeur1.png Graphic file (type png)
+
+<use images/exo_sol_ts_carnot_vapeur1.png>
+Package pdftex.def Info: images/exo_sol_ts_carnot_vapeur1.png used on input lin
+e 245.
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+Overfull \hbox (9.89438pt too wide) in paragraph at lines 256--257
+|   \T1/fxl/m/n/10 (-20) 3) $[] \U/ntxmia/m/it/10 = [] [] = [] []$
+ []
+
+) [261 <./8/images/exo_sol_ts_bonsens1.png> <./8/images/exo_sol_ts_bonsens2.png
+> <./8/images/exo_sol_ts_carnot_vapeur1.png>] [262
 
 
 
@@ -8515,7 +8752,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.9.3.
                                                   \fi \fi 
 l.130 		C
          omme le volume spÃ©cifique de lâ€™eau liquide est environ mille foi...
-] <images/centrale_pompe_photo.jpg, id=4470, 642.4pt x 429.605pt>
+] <images/centrale_pompe_photo.jpg, id=4566, 642.4pt x 429.605pt>
 File: images/centrale_pompe_photo.jpg Graphic file (type jpg)
 
 <use images/centrale_pompe_photo.jpg>
@@ -8523,14 +8760,14 @@ Package pdftex.def Info: images/centrale_pompe_photo.jpg used on input line 134
 .
 (pdftex.def)             Requested size: 340.37236pt x 227.62204pt.
 
-<images/symbole_pompe.png, id=4473, 82.31207pt x 132.68706pt>
+<images/symbole_pompe.png, id=4569, 82.31207pt x 132.68706pt>
 File: images/symbole_pompe.png Graphic file (type png)
 
 <use images/symbole_pompe.png>
 Package pdftex.def Info: images/symbole_pompe.png used on input line 143.
 (pdftex.def)             Requested size: 70.60487pt x 113.81102pt.
  [269 <./9/images/centrale_pompe_photo.jpg> <./9/images/symbole_pompe.png>]
-<images/centrale_chaudiere_photo.jpg, id=4489, 308.352pt x 171.039pt>
+<images/centrale_chaudiere_photo.jpg, id=4585, 308.352pt x 171.039pt>
 File: images/centrale_chaudiere_photo.jpg Graphic file (type jpg)
 
 <use images/centrale_chaudiere_photo.jpg>
@@ -8538,14 +8775,14 @@ Package pdftex.def Info: images/centrale_chaudiere_photo.jpg used on input line
  173.
 (pdftex.def)             Requested size: 355.65991pt x 197.28313pt.
 
-<images/symbole_chaudiere.png, id=4493, 234.38919pt x 192.72pt>
+<images/symbole_chaudiere.png, id=4589, 234.38919pt x 192.72pt>
 File: images/symbole_chaudiere.png Graphic file (type png)
 
 <use images/symbole_chaudiere.png>
 Package pdftex.def Info: images/symbole_chaudiere.png used on input line 181.
 (pdftex.def)             Requested size: 113.81102pt x 93.57788pt.
  [270 <./9/images/centrale_chaudiere_photo.jpg>] <images/centrale_turbine_photo
-.jpg, id=4508, 904.40742pt x 1238.91429pt>
+.jpg, id=4604, 904.40742pt x 1238.91429pt>
 File: images/centrale_turbine_photo.jpg Graphic file (type jpg)
 
 <use images/centrale_turbine_photo.jpg>
@@ -8558,7 +8795,7 @@ Package pdftex.def Info: images/symbole_turbine.png used on input line 213.
 (pdftex.def)             Requested size: 113.81102pt x 152.65833pt.
 
 [271 <./9/images/symbole_chaudiere.png>] [272 <./9/images/centrale_turbine_phot
-o.jpg>] <images/centrale_condenseur_photo.jpg, id=4537, 1284.8pt x 738.76pt>
+o.jpg>] <images/centrale_condenseur_photo.jpg, id=4632, 1284.8pt x 738.76pt>
 File: images/centrale_condenseur_photo.jpg Graphic file (type jpg)
 
 <use images/centrale_condenseur_photo.jpg>
@@ -8566,7 +8803,7 @@ Package pdftex.def Info: images/centrale_condenseur_photo.jpg used on input lin
 e 249.
 (pdftex.def)             Requested size: 355.65991pt x 204.50668pt.
 
-<images/symbole_condenseur.png, id=4540, 219.0pt x 222.942pt>
+<images/symbole_condenseur.png, id=4635, 219.0pt x 222.942pt>
 File: images/symbole_condenseur.png Graphic file (type png)
 
 <use images/symbole_condenseur.png>
@@ -8574,14 +8811,14 @@ Package pdftex.def Info: images/symbole_condenseur.png used on input line 257.
 (pdftex.def)             Requested size: 113.81102pt x 115.86246pt.
  [273 <./9/images/centrale_condenseur_photo.jpg>] [274 <./9/images/symbole_cond
 enseur.png>]
-<images/circuit_carnot_lv.png, id=4563, 1081.8819pt x 979.9812pt>
+<images/circuit_carnot_lv.png, id=4658, 1081.8819pt x 979.9812pt>
 File: images/circuit_carnot_lv.png Graphic file (type png)
 
 <use images/circuit_carnot_lv.png>
 Package pdftex.def Info: images/circuit_carnot_lv.png used on input line 287.
 (pdftex.def)             Requested size: 345.51593pt x 312.9803pt.
 
-<images/ts_lv_carnot.png, id=4564, 961.191pt x 744.381pt>
+<images/ts_lv_carnot.png, id=4659, 961.191pt x 744.381pt>
 File: images/ts_lv_carnot.png Graphic file (type png)
 
 <use images/ts_lv_carnot.png>
@@ -8596,14 +8833,14 @@ File: images/circuit_rankine.png Graphic file (type png)
 Package pdftex.def Info: images/circuit_rankine.png used on input line 322.
 (pdftex.def)             Requested size: 258.96385pt x 312.9803pt.
 
-<images/ts_lv_rankine.png, id=4583, 961.191pt x 744.381pt>
+<images/ts_lv_rankine.png, id=4679, 961.191pt x 744.381pt>
 File: images/ts_lv_rankine.png Graphic file (type png)
 
 <use images/ts_lv_rankine.png>
 Package pdftex.def Info: images/ts_lv_rankine.png used on input line 330.
 (pdftex.def)             Requested size: 284.52756pt x 220.34013pt.
  [276 <./9/images/ts_lv_carnot.png>] [277 <./9/images/ts_lv_rankine.png>]
-<images/circuit_rankine_surchauffe.png, id=4608, 818.8191pt x 979.9812pt>
+<images/circuit_rankine_surchauffe.png, id=4704, 818.8191pt x 979.9812pt>
 File: images/circuit_rankine_surchauffe.png Graphic file (type png)
 
 <use images/circuit_rankine_surchauffe.png>
@@ -8611,7 +8848,7 @@ Package pdftex.def Info: images/circuit_rankine_surchauffe.png used on input li
 ne 367.
 (pdftex.def)             Requested size: 261.50272pt x 312.9803pt.
 
-<images/ts_lv_rankine_surchauffe.png, id=4609, 961.191pt x 744.381pt>
+<images/ts_lv_rankine_surchauffe.png, id=4705, 961.191pt x 744.381pt>
 File: images/ts_lv_rankine_surchauffe.png Graphic file (type png)
 
 <use images/ts_lv_rankine_surchauffe.png>
@@ -8620,14 +8857,14 @@ Package pdftex.def Info: images/ts_lv_rankine_surchauffe.png used on input line
 (pdftex.def)             Requested size: 284.52756pt x 220.34013pt.
  [278] [279 <./9/images/circuit_rankine_surchauffe.png> <./9/images/ts_lv_ranki
 ne_surchauffe.png>]
-<images/circuit_surchauffe_resurchauffe.png, id=4629, 1126.6893pt x 979.9812pt>
+<images/circuit_surchauffe_resurchauffe.png, id=4725, 1126.6893pt x 979.9812pt>
 File: images/circuit_surchauffe_resurchauffe.png Graphic file (type png)
 <use images/circuit_surchauffe_resurchauffe.png>
 Package pdftex.def Info: images/circuit_surchauffe_resurchauffe.png used on inp
 ut line 391.
 (pdftex.def)             Requested size: 359.82588pt x 312.9803pt.
 
-<images/ts_lv_rankine_surchauffe_resurchauffe.png, id=4630, 961.191pt x 744.381
+<images/ts_lv_rankine_surchauffe_resurchauffe.png, id=4726, 961.191pt x 744.381
 pt>
 File: images/ts_lv_rankine_surchauffe_resurchauffe.png Graphic file (type png)
  <use images/ts_lv_rankine_surchauffe_resurchauffe.png>
@@ -8636,7 +8873,7 @@ on input line 399.
 (pdftex.def)             Requested size: 284.52756pt x 220.34013pt.
  [280 <./9/images/circuit_surchauffe_resurchauffe.png>] [281 <./9/images/ts_lv_
 rankine_surchauffe_resurchauffe.png>]
-<images/circuit_regeneration.png, id=4649, 818.8191pt x 829.6596pt>
+<images/circuit_regeneration.png, id=4745, 818.8191pt x 829.6596pt>
 File: images/circuit_regeneration.png Graphic file (type png)
 
 <use images/circuit_regeneration.png>
@@ -8644,14 +8881,14 @@ Package pdftex.def Info: images/circuit_regeneration.png used on input line 420
 .
 (pdftex.def)             Requested size: 308.88055pt x 312.9803pt.
 
-<images/ts_lv_regeneration.png, id=4650, 961.191pt x 744.381pt>
+<images/ts_lv_regeneration.png, id=4746, 961.191pt x 744.381pt>
 File: images/ts_lv_regeneration.png Graphic file (type png)
 
 <use images/ts_lv_regeneration.png>
 Package pdftex.def Info: images/ts_lv_regeneration.png used on input line 428.
 (pdftex.def)             Requested size: 284.52756pt x 220.34013pt.
  [282 <./9/images/circuit_regeneration.png>] <images/circuit_prelevement.png, i
-d=4665, 848.4498pt x 828.9369pt>
+d=4760, 848.4498pt x 828.9369pt>
 File: images/circuit_prelevement.png Graphic file (type png)
 
 <use images/circuit_prelevement.png>
@@ -8659,7 +8896,7 @@ Package pdftex.def Info: images/circuit_prelevement.png used on input line 444.
 
 (pdftex.def)             Requested size: 320.3558pt x 312.9803pt.
 
-<images/ts_lv_prelevement.png, id=4666, 961.191pt x 744.381pt>
+<images/ts_lv_prelevement.png, id=4761, 961.191pt x 744.381pt>
 File: images/ts_lv_prelevement.png Graphic file (type png)
 
 <use images/ts_lv_prelevement.png>
@@ -8667,7 +8904,7 @@ Package pdftex.def Info: images/ts_lv_prelevement.png used on input line 452.
 (pdftex.def)             Requested size: 284.52756pt x 220.34013pt.
  [283 <./9/images/ts_lv_regeneration.png>]
 [284 <./9/images/circuit_prelevement.png> <./9/images/ts_lv_prelevement.png>]
-<images/circuit_complet.png, id=4687, 1866.0114pt x 1310.9778pt>
+<images/circuit_complet.png, id=4782, 1866.0114pt x 1310.9778pt>
 File: images/circuit_complet.png Graphic file (type png)
 
 <use images/circuit_complet.png>
@@ -8717,11 +8954,7 @@ LaTeX Warning: Float too large for page by 80.36497pt on input line 469.
 (./9/contenuexercices9.tex
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-
-LaTeX Warning: Reference `mdf@pagelabel-91' on page 286 undefined on input line
- 4.
-
-<images/porcheville.jpg, id=4698, 1284.8pt x 913.4125pt>
+<images/porcheville.jpg, id=4793, 1284.8pt x 913.4125pt>
 File: images/porcheville.jpg Graphic file (type jpg)
 
 <use images/porcheville.jpg>
@@ -8733,7 +8966,7 @@ Overfull \hbox (13.70578pt too wide) in paragraph at lines 36--37
 e-
  []
 
-<images/sciure.jpg, id=4702, 1284.8pt x 856.19875pt>
+<images/sciure.jpg, id=4797, 1284.8pt x 856.19875pt>
 File: images/sciure.jpg Graphic file (type jpg)
  <use images/sciure.jpg>
 Package pdftex.def Info: images/sciure.jpg used on input line 51.
@@ -8752,7 +8985,7 @@ Overfull \hbox (31.52113pt too wide) in paragraph at lines 72--73
 ][].
  []
 
-<images/50letpodeby.jpg, id=4728, 1606.0pt x 933.4875pt>
+<images/50letpodeby.jpg, id=4824, 1606.0pt x 933.4875pt>
 File: images/50letpodeby.jpg Graphic file (type jpg)
 
 <use images/50letpodeby.jpg>
@@ -8798,6 +9031,8 @@ inue-
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package mdframed Info: mdframed works in twoside mode on input line 118.
+
+<images/i.png, id=4848, 14.39862pt x 14.39862pt>
 File: images/i.png Graphic file (type png)
  <use images/i.png>
 Package pdftex.def Info: images/i.png used on input line 118.
@@ -8810,7 +9045,7 @@ LaTeX Warning: Reference `mdf@pagelabel-92' on page 288 undefined on input line
 ) [288
 
 
-])
+ <./0/images/i.png>])
 \openout2 = `10/chapitre_10.aux'.
 
  (./10/chapitre_10.tex
@@ -8902,14 +9137,14 @@ Chapitre 10.
 
 
 ]
-<images/cours10-img3.png, id=4833, 1169.14209pt x 548.43605pt>
+<images/cours10-img3.png, id=4930, 1169.14209pt x 548.43605pt>
 File: images/cours10-img3.png Graphic file (type png)
 
 <use images/cours10-img3.png>
 Package pdftex.def Info: images/cours10-img3.png used on input line 43.
 (pdftex.def)             Requested size: 355.65991pt x 166.8334pt.
 
-<images/cours10-img4.png, id=4835, 1169.14209pt x 548.43605pt>
+<images/cours10-img4.png, id=4932, 1169.14209pt x 548.43605pt>
 File: images/cours10-img4.png Graphic file (type png)
 
 <use images/cours10-img4.png>
@@ -8917,14 +9152,14 @@ Package pdftex.def Info: images/cours10-img4.png used on input line 55.
 (pdftex.def)             Requested size: 355.65991pt x 166.8334pt.
  [292] [293 <./10/images/cours10-img3.png> <./10/images/cours10-img4.png>] [294
 ]
-<images/pv_gp_otto.png, id=4867, 912.12347pt x 904.5161pt>
+<images/pv_gp_otto.png, id=4965, 912.12347pt x 904.5161pt>
 File: images/pv_gp_otto.png Graphic file (type png)
 
 <use images/pv_gp_otto.png>
 Package pdftex.def Info: images/pv_gp_otto.png used on input line 120.
 (pdftex.def)             Requested size: 170.71652pt x 169.29271pt.
 
-<images/ts_gp_otto.png, id=4868, 905.27684pt x 907.55905pt>
+<images/ts_gp_otto.png, id=4966, 905.27684pt x 907.55905pt>
 File: images/ts_gp_otto.png Graphic file (type png)
 
 <use images/ts_gp_otto.png>
@@ -8939,35 +9174,35 @@ rique d'Otto (dia-grammes pression-volume et
 [295
 
 ] [296 <./10/images/pv_gp_otto.png> <./10/images/ts_gp_otto.png>]
-<images/pv_gp_diesel.png, id=4896, 912.12347pt x 904.5161pt>
+<images/pv_gp_diesel.png, id=4994, 912.12347pt x 904.5161pt>
 File: images/pv_gp_diesel.png Graphic file (type png)
 
 <use images/pv_gp_diesel.png>
 Package pdftex.def Info: images/pv_gp_diesel.png used on input line 173.
 (pdftex.def)             Requested size: 170.71652pt x 169.29271pt.
 
-<images/ts_gp_diesel.png, id=4897, 905.27684pt x 907.55905pt>
+<images/ts_gp_diesel.png, id=4995, 905.27684pt x 907.55905pt>
 File: images/ts_gp_diesel.png Graphic file (type png)
 
 <use images/ts_gp_diesel.png>
 Package pdftex.def Info: images/ts_gp_diesel.png used on input line 174.
 (pdftex.def)             Requested size: 170.71652pt x 171.13628pt.
  [297 <./10/images/pv_gp_diesel.png> <./10/images/ts_gp_diesel.png>]
-<images/pv_moteur_reel.png, id=4913, 912.88422pt x 904.5161pt>
+<images/pv_moteur_reel.png, id=5011, 912.88422pt x 904.5161pt>
 File: images/pv_moteur_reel.png Graphic file (type png)
 
 <use images/pv_moteur_reel.png>
 Package pdftex.def Info: images/pv_moteur_reel.png used on input line 224.
 (pdftex.def)             Requested size: 270.30118pt x 267.82365pt.
  [298] [299 <./10/images/pv_moteur_reel.png>]
-<images/photo_compresseur.jpg, id=4935, 1284.8pt x 856.19875pt>
+<images/photo_compresseur.jpg, id=5032, 1284.8pt x 856.19875pt>
 File: images/photo_compresseur.jpg Graphic file (type jpg)
 
 <use images/photo_compresseur.jpg>
 Package pdftex.def Info: images/photo_compresseur.jpg used on input line 250.
 (pdftex.def)             Requested size: 227.62204pt x 151.67912pt.
 
-<images/symbole_compresseur.png, id=4939, 300.14838pt x 402.3681pt>
+<images/symbole_compresseur.png, id=5036, 300.14838pt x 402.3681pt>
 File: images/symbole_compresseur.png Graphic file (type png)
 
 <use images/symbole_compresseur.png>
@@ -8977,7 +9212,7 @@ Package pdftex.def Info: images/symbole_compresseur.png used on input line 258.
  [300
 
  <./10/images/photo_compresseur.jpg>]
-<images/photo_chambre_combustion.jpg, id=4953, 1284.8pt x 856.19875pt>
+<images/photo_chambre_combustion.jpg, id=5050, 1284.8pt x 856.19875pt>
 File: images/photo_chambre_combustion.jpg Graphic file (type jpg)
 
 <use images/photo_chambre_combustion.jpg>
@@ -8985,14 +9220,14 @@ Package pdftex.def Info: images/photo_chambre_combustion.jpg used on input line
  300.
 (pdftex.def)             Requested size: 256.0748pt x 170.6488pt.
 
-<images/symbole_chambre_combustion.png, id=4957, 389.2944pt x 62.634pt>
+<images/symbole_chambre_combustion.png, id=5054, 389.2944pt x 62.634pt>
 File: images/symbole_chambre_combustion.png Graphic file (type png)
 
 <use images/symbole_chambre_combustion.png>
 Package pdftex.def Info: images/symbole_chambre_combustion.png used on input li
 ne 309.
 (pdftex.def)             Requested size: 199.16928pt x 32.04517pt.
- [301 <./9/images/symbole_compresseur.png>] <images/photo_turbine.jpg, id=4973,
+ [301 <./9/images/symbole_compresseur.png>] <images/photo_turbine.jpg, id=5071,
  245.9589pt x 246.6816pt>
 File: images/photo_turbine.jpg Graphic file (type jpg)
 
@@ -9006,7 +9241,7 @@ Package pdftex.def Info: images/symbole_turbine.png used on input line 346.
  [302 <./10/images/photo_chambre_combustion.jpg> <./10/images/symbole_chambre_c
 ombustion.png>]
 [303 <./10/images/photo_turbine.jpg>]
-<images/photo_tuyere.jpg, id=5000, 385.44pt x 240.29774pt>
+<images/photo_tuyere.jpg, id=5098, 385.44pt x 240.29774pt>
 File: images/photo_tuyere.jpg Graphic file (type jpg)
 
 <use images/photo_tuyere.jpg>
@@ -9024,7 +9259,7 @@ Package pdftex.def Info: images/symbole_tuyere.png used on input line 386.
 l.402 		S
          i les conditions fixent $h_1$ et $p_1$ {(sortie de turbine) ainsi q...
  <./10/images/photo_tuyere.jpg>] [305]
-<images/circuit_generateur_gaz.png, id=5027, 367.6134pt x 155.1396pt>
+<images/circuit_generateur_gaz.png, id=5125, 367.6134pt x 155.1396pt>
 File: images/circuit_generateur_gaz.png Graphic file (type png)
 
 <use images/circuit_generateur_gaz.png>
@@ -9032,7 +9267,7 @@ Package pdftex.def Info: images/circuit_generateur_gaz.png used on input line 4
 43.
 (pdftex.def)             Requested size: 220.56973pt x 93.08446pt.
 
-<images/ts_gp_generateur_gaz.png, id=5028, 334.24875pt x 310.39964pt>
+<images/ts_gp_generateur_gaz.png, id=5126, 334.24875pt x 310.39964pt>
 File: images/ts_gp_generateur_gaz.png Graphic file (type png)
 
 <use images/ts_gp_generateur_gaz.png>
@@ -9042,14 +9277,14 @@ Package pdftex.def Info: images/ts_gp_generateur_gaz.png used on input line 444
  [306
 
 ]
-<images/circuit_turbojet.png, id=5041, 513.5988pt x 150.3216pt>
+<images/circuit_turbojet.png, id=5138, 513.5988pt x 150.3216pt>
 File: images/circuit_turbojet.png Graphic file (type png)
 
 <use images/circuit_turbojet.png>
 Package pdftex.def Info: images/circuit_turbojet.png used on input line 463.
 (pdftex.def)             Requested size: 308.16165pt x 90.19363pt.
 
-<images/ts_gp_turbojet.png, id=5042, 334.24875pt x 310.39964pt>
+<images/ts_gp_turbojet.png, id=5139, 334.24875pt x 310.39964pt>
 File: images/ts_gp_turbojet.png Graphic file (type png)
 
 <use images/ts_gp_turbojet.png>
@@ -9057,7 +9292,7 @@ Package pdftex.def Info: images/ts_gp_turbojet.png used on input line 464.
 (pdftex.def)             Requested size: 267.39935pt x 248.32004pt.
  [307 <./10/images/circuit_generateur_gaz.png> <./10/images/ts_gp_generateur_ga
 z.png>]
-<images/circuit_turboprop_generateur.png, id=5056, 719.3274pt x 450.0012pt>
+<images/circuit_turboprop_generateur.png, id=5153, 719.3274pt x 450.0012pt>
 File: images/circuit_turboprop_generateur.png Graphic file (type png)
 
 <use images/circuit_turboprop_generateur.png>
@@ -9065,7 +9300,7 @@ Package pdftex.def Info: images/circuit_turboprop_generateur.png used on input
 line 484.
 (pdftex.def)             Requested size: 431.59976pt x 270.00279pt.
 
-<images/ts_gp_turboprop_generateur.png, id=5057, 334.24875pt x 310.39964pt>
+<images/ts_gp_turboprop_generateur.png, id=5154, 334.24875pt x 310.39964pt>
 File: images/ts_gp_turboprop_generateur.png Graphic file (type png)
 
 <use images/ts_gp_turboprop_generateur.png>
@@ -9075,14 +9310,14 @@ ne 485.
  [308 <./10/images/circuit_turbojet.png> <./10/images/ts_gp_turbojet.png>] [309
  <./10/images/circuit_turboprop_generateur.png> <./10/images/ts_gp_turboprop_ge
 nerateur.png>] [310]
-<images/circuit_turbofan.png, id=5086, 635.4942pt x 432.1746pt>
+<images/circuit_turbofan.png, id=5184, 635.4942pt x 432.1746pt>
 File: images/circuit_turbofan.png Graphic file (type png)
 
 <use images/circuit_turbofan.png>
 Package pdftex.def Info: images/circuit_turbofan.png used on input line 503.
 (pdftex.def)             Requested size: 381.29945pt x 259.30676pt.
  [311 <./10/images/circuit_turbofan.png>]
-<images/circuit_turbine_libre.png, id=5103, 601.2864pt x 185.493pt>
+<images/circuit_turbine_libre.png, id=5201, 601.2864pt x 185.493pt>
 File: images/circuit_turbine_libre.png Graphic file (type png)
 
 <use images/circuit_turbine_libre.png>
@@ -9090,7 +9325,7 @@ Package pdftex.def Info: images/circuit_turbine_libre.png used on input line 52
 7.
 (pdftex.def)             Requested size: 360.77461pt x 111.29665pt.
 
-<images/ts_gp_turbine_libre.png, id=5104, 334.24875pt x 310.39964pt>
+<images/ts_gp_turbine_libre.png, id=5202, 334.24875pt x 310.39964pt>
 File: images/ts_gp_turbine_libre.png Graphic file (type png)
 
 <use images/ts_gp_turbine_libre.png>
@@ -9098,14 +9333,14 @@ Package pdftex.def Info: images/ts_gp_turbine_libre.png used on input line 528.
 
 (pdftex.def)             Requested size: 267.39935pt x 248.32004pt.
 
-<images/circuit_twin_spool.png, id=5109, 485.1726pt x 186.9384pt>
+<images/circuit_twin_spool.png, id=5207, 485.1726pt x 186.9384pt>
 File: images/circuit_twin_spool.png Graphic file (type png)
 
 <use images/circuit_twin_spool.png>
 Package pdftex.def Info: images/circuit_twin_spool.png used on input line 541.
 (pdftex.def)             Requested size: 291.1058pt x 112.1639pt.
 
-<images/ts_gp_twin_spool.png, id=5110, 334.24875pt x 310.39964pt>
+<images/ts_gp_twin_spool.png, id=5208, 334.24875pt x 310.39964pt>
 File: images/ts_gp_twin_spool.png Graphic file (type png)
 
 <use images/ts_gp_twin_spool.png>
@@ -9118,7 +9353,7 @@ Overfull \hbox (20.97461pt too wide) in paragraph at lines 556--556
  |[]\T1/fxl/b/n/17.28 Modification des cycles des tur-bo-ma-chines| 
  []
 
-<images/circuit_intercooler_rechauffe.png, id=5136, 632.1216pt x 270.2898pt>
+<images/circuit_intercooler_rechauffe.png, id=5234, 632.1216pt x 270.2898pt>
 File: images/circuit_intercooler_rechauffe.png Graphic file (type png)
 
 <use images/circuit_intercooler_rechauffe.png>
@@ -9126,7 +9361,7 @@ Package pdftex.def Info: images/circuit_intercooler_rechauffe.png used on input
  line 567.
 (pdftex.def)             Requested size: 379.27588pt x 162.17513pt.
 
-<images/ts_gp_intercooler_rechauffe.png, id=5137, 334.24875pt x 310.39964pt>
+<images/ts_gp_intercooler_rechauffe.png, id=5235, 334.24875pt x 310.39964pt>
 File: images/ts_gp_intercooler_rechauffe.png Graphic file (type png)
 
 <use images/ts_gp_intercooler_rechauffe.png>
@@ -9134,7 +9369,7 @@ Package pdftex.def Info: images/ts_gp_intercooler_rechauffe.png used on input l
 ine 568.
 (pdftex.def)             Requested size: 267.39935pt x 248.32004pt.
 
-<images/circuit_intercooler_echangeur.png, id=5144, 769.9164pt x 322.806pt>
+<images/circuit_intercooler_echangeur.png, id=5242, 769.9164pt x 322.806pt>
 File: images/circuit_intercooler_echangeur.png Graphic file (type png)
 
 <use images/circuit_intercooler_echangeur.png>
@@ -9145,7 +9380,7 @@ Package pdftex.def Info: images/circuit_intercooler_echangeur.png used on input
 
 ] [315 <./10/images/circuit_intercooler_rechauffe.png> <./10/images/ts_gp_inter
 cooler_rechauffe.png>]
-<images/circuit_postcombustion.png, id=5165, 609.9588pt x 235.6002pt>
+<images/circuit_postcombustion.png, id=5263, 609.9588pt x 235.6002pt>
 File: images/circuit_postcombustion.png Graphic file (type png)
 
 <use images/circuit_postcombustion.png>
@@ -9153,7 +9388,7 @@ Package pdftex.def Info: images/circuit_postcombustion.png used on input line 5
 99.
 (pdftex.def)             Requested size: 365.9781pt x 141.36119pt.
 
-<images/ts_gp_postcombustion.png, id=5166, 432.99965pt x 332.50403pt>
+<images/ts_gp_postcombustion.png, id=5264, 432.99965pt x 332.50403pt>
 File: images/ts_gp_postcombustion.png Graphic file (type png)
 
 <use images/ts_gp_postcombustion.png>
@@ -9162,7 +9397,7 @@ Package pdftex.def Info: images/ts_gp_postcombustion.png used on input line 600
 (pdftex.def)             Requested size: 346.40019pt x 266.00357pt.
  [316 <./10/images/circuit_intercooler_echangeur.png>] [317 <./10/images/circui
 t_postcombustion.png> <./10/images/ts_gp_postcombustion.png>]
-<images/circuit_refroidissement_turbine.png, id=5188, 632.1216pt x 185.493pt>
+<images/circuit_refroidissement_turbine.png, id=5285, 632.1216pt x 185.493pt>
 File: images/circuit_refroidissement_turbine.png Graphic file (type png)
 
 <use images/circuit_refroidissement_turbine.png>
@@ -9170,7 +9405,7 @@ Package pdftex.def Info: images/circuit_refroidissement_turbine.png used on inp
 ut line 623.
 (pdftex.def)             Requested size: 379.27588pt x 111.29665pt.
 
-<images/ts_gp_refroidissement_turbine.png, id=5189, 334.24875pt x 310.39964pt>
+<images/ts_gp_refroidissement_turbine.png, id=5286, 334.24875pt x 310.39964pt>
 File: images/ts_gp_refroidissement_turbine.png Graphic file (type png)
 
 <use images/ts_gp_refroidissement_turbine.png>
@@ -9180,7 +9415,7 @@ Package pdftex.def Info: images/ts_gp_refroidissement_turbine.png used on input
  [318 <./10/images/circuit_refroidissement_turbine.png> <./10/images/ts_gp_refr
 oidissement_turbine.png>]
 [319]
-<images/circuit_turbofan_complet.png, id=5208, 636.74008pt x 480.73877pt>
+<images/circuit_turbofan_complet.png, id=5305, 636.74008pt x 480.73877pt>
 File: images/circuit_turbofan_complet.png Graphic file (type png)
 
 <use images/circuit_turbofan_complet.png>
@@ -9258,28 +9493,28 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.10.6
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.80 
-     ] <images/photo_pwc_pw123.jpg, id=5252, 1606.0pt x 638.385pt>
+     ] <images/photo_pwc_pw123.jpg, id=5350, 1606.0pt x 638.385pt>
 File: images/photo_pwc_pw123.jpg Graphic file (type jpg)
 
 <use images/photo_pwc_pw123.jpg>
 Package pdftex.def Info: images/photo_pwc_pw123.jpg used on input line 88.
 (pdftex.def)             Requested size: 315.65605pt x 125.47415pt.
 
-<images/photo_dash8.jpg, id=5253, 1284.8pt x 856.19875pt>
+<images/photo_dash8.jpg, id=5351, 1284.8pt x 856.19875pt>
 File: images/photo_dash8.jpg Graphic file (type jpg)
 
 <use images/photo_dash8.jpg>
 Package pdftex.def Info: images/photo_dash8.jpg used on input line 89.
 (pdftex.def)             Requested size: 188.28108pt x 125.47415pt.
 
-<images/photo_pw_j52_1.jpg, id=5262, 790.152pt x 355.3275pt>
+<images/photo_pw_j52_1.jpg, id=5360, 790.152pt x 355.3275pt>
 File: images/photo_pw_j52_1.jpg Graphic file (type jpg)
 
 <use images/photo_pw_j52_1.jpg>
 Package pdftex.def Info: images/photo_pw_j52_1.jpg used on input line 124.
 (pdftex.def)             Requested size: 307.50697pt x 138.28258pt.
 
-<images/photo_pw_j52_2.jpg, id=5263, 1398.22375pt x 1017.8025pt>
+<images/photo_pw_j52_2.jpg, id=5361, 1398.22375pt x 1017.8025pt>
 File: images/photo_pw_j52_2.jpg Graphic file (type jpg)
 
 <use images/photo_pw_j52_2.jpg>
@@ -9287,7 +9522,7 @@ Package pdftex.def Info: images/photo_pw_j52_2.jpg used on input line 125.
 (pdftex.def)             Requested size: 189.96817pt x 138.28258pt.
  [322 <./10/images/photo_pwc_pw123.jpg> <./10/images/photo_dash8.jpg> <./10/ima
 ges/photo_pw_j52_1.jpg> <./10/images/photo_pw_j52_2.jpg>]
-<images/photo_continental_io-550.jpg, id=5284, 411.136pt x 255.354pt>
+<images/photo_continental_io-550.jpg, id=5382, 411.136pt x 255.354pt>
 File: images/photo_continental_io-550.jpg Graphic file (type jpg)
 
 <use images/photo_continental_io-550.jpg>
@@ -9295,7 +9530,7 @@ Package pdftex.def Info: images/photo_continental_io-550.jpg used on input line
  149.
 (pdftex.def)             Requested size: 259.75731pt x 161.32837pt.
 
-<images/photo_sr22.jpg, id=5285, 1284.8pt x 854.19125pt>
+<images/photo_sr22.jpg, id=5383, 1284.8pt x 854.19125pt>
 File: images/photo_sr22.jpg Graphic file (type jpg)
 
 <use images/photo_sr22.jpg>
@@ -9307,7 +9542,7 @@ Overfull \hbox (9.49991pt too wide) in paragraph at lines 158--159
 [][]; 
  []
 
-<images/photo_diesel_generateur.jpg, id=5294, 803.0pt x 602.25pt>
+<images/photo_diesel_generateur.jpg, id=5392, 803.0pt x 602.25pt>
 File: images/photo_diesel_generateur.jpg Graphic file (type jpg)
 
 <use images/photo_diesel_generateur.jpg>
@@ -9315,7 +9550,7 @@ Package pdftex.def Info: images/photo_diesel_generateur.jpg used on input line
 180.
 (pdftex.def)             Requested size: 250.95612pt x 188.21184pt.
 
-<images/photo_diesel_propulsion.jpg, id=5295, 803.0pt x 602.25pt>
+<images/photo_diesel_propulsion.jpg, id=5393, 803.0pt x 602.25pt>
 File: images/photo_diesel_propulsion.jpg Graphic file (type jpg)
 
 <use images/photo_diesel_propulsion.jpg>
@@ -9620,7 +9855,7 @@ LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
 
 
 
-] [342]) [343])
+] [342] [343]) [344])
 \openout2 = `a/contenu_epitaphe.aux'.
 
  (./a/contenu_epitaphe.tex
@@ -9658,7 +9893,7 @@ LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
 
 LaTeX Font Info:    Font shape `TS1/fxl/m/n' will be
 (Font)              scaled to size 14.4pt on input line 5.
- [344
+ [345
 
 
 
@@ -9715,13 +9950,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
 ### simple group (level 1) entered at line 402 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 58112 strings out of 494957
- 1013521 string characters out of 3179219
- 1591143 words of memory out of 3000000
- 56149 multiletter control sequences out of 15000+200000
- 1328251 words of font info for 2019 fonts, out of 3000000 for 9000
+ 58275 strings out of 494957
+ 1017809 string characters out of 3179219
+ 1596588 words of memory out of 3000000
+ 56248 multiletter control sequences out of 15000+200000
+ 1331804 words of font info for 2050 fonts, out of 3000000 for 9000
  64 hyphenation exceptions out of 8191
- 101i,24n,109p,1449b,1919s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 101i,24n,109p,1450b,1917s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.77} has been referenced b
 ut does not exist, replaced by a fixed one
 
@@ -9977,10 +10212,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/newtx/txsy5.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/newtx/txsy7.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/txfonts/txsyc.pfb>
-Output written on amphibook.pdf (344 pages, 31941942 bytes).
+Output written on amphibook.pdf (345 pages, 32928353 bytes).
 PDF statistics:
- 6150 PDF objects out of 6186 (max. 8388607)
- 5170 compressed objects within 52 object streams
- 1532 named destinations out of 1728 (max. 500000)
- 176181 words of extra memory for PDF output out of 184870 (max. 10000000)
+ 6254 PDF objects out of 7423 (max. 8388607)
+ 5244 compressed objects within 53 object streams
+ 1543 named destinations out of 1728 (max. 500000)
+ 176256 words of extra memory for PDF output out of 184870 (max. 10000000)
 
