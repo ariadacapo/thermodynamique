@@ -28,6 +28,9 @@
 		
 		Les transformations irréversibles dans les fluides conduisent invariablement à des états où la température, la pression ou le volume sont plus grands qu’ils ne l’auraient été avec une transformation réversible. 
 		
+		\thermoquotebegin{O}
+			Pour cela nous imaginons qu’après la transformation que nous souhaitons étudier de cette façon, la masse est ramenée à son état initial par une opération réversible. De cette façon, nous obtenons un petit processus cyclique, à laquelle l’équation (II) s’applique aussi bien qu’à l’ensemble. Si [le long de ce processus] l’on connaît également les quantités de chaleur qu’a reçu la masse pendant ce dernier ainsi que les températures auxquelles elles correspondent, alors l’intégrale négative $-\int \frac{\diff Q}{T}$ nous donne la transformation non-compensée impliquée pendant celui-ci.
+		\thermoquoteend{Rudolf Clausius, 1856~\cite{clausius1856, clausius1867en,clausius1868fr3}}{}
 		Pour quantifier l’irréversibilité d’une évolution, nous allons quantifier \emph{la chaleur qu’il faudrait retirer au corps pour le ramener dans son état initial de manière réversible}. En lui soustrayant la chaleur qui a été effectivement transmise, nous obtenons en quelque sorte la chaleur qui a été inutilement créée pendant l’évolution.\\
 		Or, plus la température à laquelle cette chaleur créée est basse, et moins elle peut être transformée en travail (\S\ref{ch_efficacité_moteur_carnot}). Nous allons ainsi «~pénaliser~» le coût en chaleur en le divisant par la température.
 		
@@ -242,7 +245,7 @@
 		\clearfloats
 		Enfin, nous notons avec joie que le cycle de Carnot, constitué de deux phases isothermes ($T = \text{cste}$) séparées par deux phases isentropiques ($s = \text{cste}$), gagne beaucoup à être représenté sur un diagramme température-entropie, comme montré en \cref{fig_ts_carnot}.
 
-		\begin{figure}
+		\begin{figure}[htb]%handmade
 			\begin{center}
 				\includegraphics[width=0.49\textwidth]{images/pv_carnot_gp.png}
 				\includegraphics[width=0.49\textwidth]{images/pv_carnot_lv.png}
@@ -287,7 +290,11 @@
 				\item pour toute évolution de 1 à 2, réversible ou non.
 			\end{equationterms}
 
-		Cette équation est intéressante parce qu’elle nous indique que la variation d’entropie $\Delta s$ pendant une évolution de $1$ à $2$ ne dépend que des états initial et final. Même si nous avons commencé cette démonstration le long d’une évolution réversible nous obtenons une expression~\ref{eq_delta_s_gp_v} dans laquelle le chemin utilisé n’apparaît pas. 
+			\thermoquotebegin{O}	
+				Dans l’expression obtenue, la différence $S - S_0$ est de nouveau entièrement déterminée si les états de départ et d’arrivée sont connus, et nous ne devons prêter de l’attention à la manière dont s’est déroulé le passage de l’un vers l’autre que lorsque nous formons l’intégrale $\int \frac{\diff Q}{T}$.
+			\thermoquoteend{Rudolf Clausius, 1865~\cite{clausius1865,clausius1867en,clausius1868fr2}}{}
+
+		Cette équation est intéressante parce qu’elle nous indique que la variation d’entropie $\Delta s$ pendant une évolution de $1$ à $2$ ne dépend que des états initial et final. Même si nous avons commencé cette démonstration le long d’une évolution réversible nous obtenons une expression~\ref{eq_delta_s_gp_v} dans laquelle le chemin utilisé n’apparaît~pas. 
 		
 		Il est donc possible de calculer facilement la variation d’entropie d’un gaz parfait si l’on connaît ses autres propriétés. Contrairement à l’énergie interne $u$ qui ne dépend que de la température, l’entropie $s$ dépend aussi de la pression du gaz.
 
@@ -488,6 +495,10 @@
 
 	\subsection{Irréversibilités lors des transferts de chaleur}
 
+		\thermoquotebegin{O}
+			Si l’on appelle équivalentes deux transformations que l’on peut remplacer l’une par l’autre sans par là nécessiter un changement permanent, alors […] le transfert de la quantité de chaleur $Q$ de la température $t_1$ à la température $t_2$ a la valeur équivalence $Q \left( \frac{1}{T_2} - \frac{1}{T_1}\right)$ […]
+		\thermoquoteend{Rudolf Clausius, 1854~\cite{clausius1854,clausius1867en,clausius1868fr4}}{}
+		
 		Pour nous féliciter d’avoir dépassé déjà la moitié du chapitre, nous nous munissons d’une tasse brûlante de thé. Notre intérêt pour la thermodynamique primant sur la boisson, nous collons notre tasse tout contre une bouteille d’eau fraîche. Ce que nous avons sous les yeux n’est autre qu’une source d’entropie --\ et elle mérite toute notre attention.
 
 		Notre tasse A est à température $T_\A$, plus haute que $T_\B$, la température de la bouteille d’eau (\cref{fig_expérience_création_entropie}). Les deux corps sont mis en contact et une quantité de chaleur infinitésimale $\diff q$ passe de A vers B.
@@ -528,8 +539,11 @@
 			\label{fig_expérience_création_entropie_t-s}
 		\end{figure}
 
+		\thermoquotebegin{0}
+			\emph{Partout où il existe une différence de température, il peut y avoir production de puissance motrice}. Réciproquement partout où l’on peut consommer de cette puissance, il est possible de faire naître une différence de température, il est possible d’occasioner une rupture d’équilibre dans le calorique.
+		\thermoquoteend{Sadi Carnot, 1824~\cite{carnot1824}}{}		
 		Tout gradient de température donne lieu à une irréversibilité, et se traduit par une augmentation de l’entropie totale. \\
-		On peut se représenter un flux de chaleur entre deux sources de températures différentes par une opportunité perdue de produire un travail (ce qui sera sans doute source d’anxiété pour l’étudiant/e comme pour l’ingénieur/e). Ainsi, en plaçant une machine de Carnot entre les corps A et B, aucune irréversibilité n’aurait eu lieu et $\diff s_{[A+B]}$ serait nul. En plaçant une machine thermique de faible rendement, $\diff s_{[A+B]}$ serait faible ; le cas ci-haut où le transfert de chaleur se fait sans machine est le cas limite où aucun travail n’est produit.
+		On peut se représenter un flux de chaleur entre deux sources de températures différentes par une opportunité perdue de produire un travail (ce qui sera sans doute source d’anxiété pour l’étudiant/e comme pour l’ingénieur/e). Ainsi, en plaçant une machine de Carnot entre les corps A et B, aucune irréversibilité n’aurait eu lieu et $\diff s_{[A+B]}$ serait nul. En plaçant une machine thermique de faible rendement, $\diff s_{[A+B]}$ serait faible ; le cas ci-haut où le transfert de chaleur se fait sans machine est le cas limite où aucun travail n’est produit.\onlyframabook{\dontbreakpage}
 
 	\subsection{Irréversibilités lors des compressions et détentes adiabatiques}
 
@@ -556,6 +570,9 @@
 
 	\subsection{Le second principe et l’entropie}
 
+		\thermoquotebegin{O}
+			\emph{La chaleur ne peut passer d’un corps plus froid vers un corps plus chaud, sans qu’un changement en connection avec ce transfert n’ait lieu simultanément.}
+		\thermoquoteend{Rudolf Clausius, 1854~\cite{clausius1854,clausius1867en,clausius1868fr4}}{}
 		Nous avons admis au \courssept que la chaleur ne se déplaçait spontanément que vers une température plus basse --\ un postulat que nous nommons \textit{second principe}. Nous pouvons maintenant formuler cette affirmation avec une expression mathématique.
 	
 		\begin{description}
@@ -662,6 +679,10 @@
 		
 		C’est ce désir de retrouver l’ordre absolu dans lequel se succèdent les états, c’est à dire le sens du temps, qui a mené le physicien allemand \wf{Rudolf Clausius} jusqu’à proposer le concept \vocab{entropie} en 1865 dans une publication magistrale --\ \textit{Über verschiedene für die Anwendung bequeme Formen der Hauptgleichungen der mechanischen Wärmetheorie}~\cite{clausius1865,clausius1867en,clausius1868fr2}. Concluant une décennie de travail autour de la grandeur $\frac{Q}{T}$, il y formalise un concept que ses codisciples français \wf{Ferdinand Reech} et écossais \wf{William Rankine} n’avaient qu’effleuré~\cite{truesdell1980}, et y rassemble l’ensemble des connaissances contemporaines de sa discipline.
 		
+		\thermoquotebegin{O}
+			\onlyamphibook{\vspace{-0.5cm}\par}%handmade
+			J’ai intentionnellement formé le mot \vocab{entropie} de sorte qu’il soit aussi similaire au mot \vocab{énergie} que possible, parce que les sens physiques des deux grandeurs nommées par ces mots sont si étroitement liées qu’il m’a semblé qu’une cetraine similarité dans leurs désignations était désirable.
+		\thermoquoteend{Rudolf Clausius, 1865~\cite{clausius1865,clausius1867en,clausius1868fr2}}{}
 		Clausius forge le mot \textit{en-tropie} à partir du grec ancien \textgreek{ἡ-τροπή}, \textit{changement interne}, ce qui, couplé à son ton autoritaire, ne fait rien pour gagner l’enthousiasme de ses contemporains. Mais le concept est si puissant, et l’\cref{eq_augmentation_entropie} si simple, qu’ils sont universellement acceptés.
 		
 		Ainsi, après un siècle d’efforts, la physique de la chaleur a rattrapé la technologie des moteurs. Nous voilà capables de décrire entièrement et de façon quantitative le comportement des corps sans devoir nous pencher sur celui de leurs constituants, tels que les molécules, atomes ou particules sub-atomiques : l’entropie était la dernière pièce manquante de ce que nous appelons aujourd’hui la \vocab{thermodynamique macroscopique}.
@@ -681,6 +702,10 @@
 				\item et \tab $k$ \tab est une constante.
 			\end{equationterms}
 		
+		\thermoquotebegin{O}
+		Nous mesurons le «~dés\-or\-dre~» par le nombre de manières dont l’intérieur peut être arrangé, de telle sorte que de l’extérieur cela apparaisse la même chose. \emph{Le logarithme de ce  nombre de manières est l’entropie}.\\
+Ainsi, avec la définition technique ci-dessus du désordre, nous pouvons comprendre la proposition. Premièrement, l’entropie mesure le désordre. Deuxièmement, l’univers va toujours de «~l’ordre~» vers le «~désordre~», ainsi l’entropie augmente toujours. L’ordre n’est pas un ordre au sens où nous aimons l’arrangement, mais au sens où le nombre de manières différentes à notre disposition pour obtenir quelque chose de toujours extérieurement identique, est relativement restreint. 
+		\thermoquoteend{Richard Feynman, 1963~\cite{feynman1963, feynman1963fr}}{}
 		Ainsi pour Boltzmann l’entropie est une mesure de la probabilité du système d’être dans cet état. Plus la configuration est probable (homogénéité de la pression et de la température), plus l’entropie est grande. 
 		
 		À l’échelle macroscopique, nous avions décrit le second principe comme une impossibilité (\S\ref{ch_second_principe_enonce}) : un objet de température homogène ne peut pas voir spontanément une extrémité se refroidir et l’autre se réchauffer. Selon Boltzmann, un tel événement n’est pas strictement impossible, mais seulement très improbable. L’état où les molécules les plus rapides sont toutes rassemblées à une extrémité, et les plus lentes à l’autre, est bien moins probable (entropie plus faible) qu’un état où elles sont réparties de façon homogène (entropie plus grande).
@@ -689,6 +714,9 @@
 		
 	\subsection{L’entropie et l’univers}
 	
+		\thermoquotebegin{O}
+			Pendant une durée de temps finie dans le passé, la terre a du être --et dans une durée de temps à venir elle devra l’être encore-- impropre à l’habitat de l’homme tel qu’il est présemment constitué, à moins que des opérations aient été ou soient réalisées qui sont impossibles selon les lois qui régissent les opérations ayant lieu aujourd’hui dans le monde matériel.
+		\thermoquoteend{William Thomson, 1852~\cite{kelvin1852}}{}
 		Nous quittons l’entropie sur une question ouverte. Dans la mesure où l’on pense l’univers comme étant un ensemble fini, c’est-à-dire comme à un système isolé contenant une quantité fixe d’énergie, peut-on lui appliquer l’\cref{eq_augmentation_entropie} : $\Delta s_\text{univers} > 0$ lorsque le temps passe ? L’univers tend-il vers une température minimale homogène finale ? Clausius est sans équivoque : il termine aussitôt son article de 1865 par l’affirmation :
 			
 			\begin{quote}
