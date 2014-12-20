@@ -50,7 +50,7 @@
 
 		Commençons par comprimer un fluide : nous augmentons sa pression et réduisons son volume spécifique, ce qui nous demande un certain travail. Après cela, chauffons ce fluide : sa pression et son volume ont tendance à augmenter. En détendant le gaz jusqu’à sa pression initiale, nous allons récupérer un travail plus grand que celui que nous avons investi à l’aller. Pour pouvoir enfin ramener le fluide à son état initial, il faut le refroidir.
 
-		Au final, le fluide a dépensé moins de travail au chemin retour qu’il en a reçu à l’aller. Sur un cycle, il aura donc \emph{produit} du travail et absorbé (plus exactement, \emph{transformé}) de la chaleur. C’est le principe de fonctionnement d’un moteur.
+		Au final, le fluide a dépensé moins de travail au chemin retour qu’il n’en a reçu à l’aller. Sur un cycle, il aura donc \emph{produit} du travail et absorbé (plus exactement, \emph{transformé}) de la chaleur. C’est le principe de fonctionnement d’un moteur.
 
 		Il y a une infinité de cycles possibles pour effectuer cette transformation, mais ils comportent tous au moins quatre transferts énergétiques : une compression, un réchauffement, une détente, et un refroidissement. Nous pouvons séparer ces évolutions dans l’espace, comme représenté en \cref{fig_cycle_thermodynamique_du_moteur_so}, ou bien dans le temps, comme montré en \cref{fig_cycle_thermodynamique_du_moteur_sf}. En fonction des contraintes technologiques et pratiques, certains de ces transferts peuvent être effectués simultanément.
 
@@ -77,7 +77,7 @@
 			\begin{center}
 				\includegraphics[width=\textwidth]{images/moteur_so_travail_net.png}
 			\end{center}
-			\supercaption{Cycle thermodynamique moteur, pour lequel le compresseur et la turbine sont reliés mécaniquement. Comme la turbine fournit une puissance $\dot W_\out$ supérieure à celle consommée par le compresseur ($\dot W_\inn$), elle est capable non seulement de l’entraîner mais de fournir un excédent $\dot W_\net$ vers l’extérieur.}{schéma \cczero \oc}
+			\supercaption{Cycle thermodynamique moteur, pour lequel le compresseur et la turbine sont reliés mécaniquement. Comme la turbine fournit une puissance $\dot W_\out$ supérieure à celle consommée par le compresseur ($\dot W_\inn$), elle est capable non seulement de l’entraîner mais aussi de fournir un excédent $\dot W_\net$ vers l’extérieur.}{schéma \cczero \oc}
 			\label{fig_cycle_thermodynamique_du_moteur_axe_so}
 		\end{figure}
 
@@ -116,6 +116,7 @@
 			En pratique dans les systèmes de réfrigération, on a souvent recours à une astuce pour faire chuter la température : au lieu d’une turbine, on utilise une simple soupape (parfois appelée \vocab{détendeur}). Cet élément sans pièce mobile ne permet pas de dégager de travail (il augmente donc la puissance consommée par la machine), mais il est beaucoup plus simple de fabrication et d’utilisation.
 
 			La soupape, en termes thermodynamiques, permet d’effectuer une détente purement irréversible, augmentant le volume et baissant la pression sans extraire de travail. Si l’on utilisait un gaz parfait, cela n’aurait aucun effet sur la température\footnote{Revoir à ce propos les expériences de Joule et Gay-Lussac étudiées en \S\ref{ch_principe_de_joule}.} et donc aucun intérêt ; mais lorsque l’on utilise des liquides/vapeurs, la détente en soupape est un moyen technologiquement simple de faire chuter la température. Cette modification est décrite en \cref{fig_principe_du_réfrigérateur_soupape}.
+			%perplexité sur l'emploi de "purement" au début du paragraphe. "totalement" (?)
 
 			\begin{figure}
 				\begin{center}
@@ -165,7 +166,7 @@
 
 \section{Rendement des cycles}
 
-	Le \vocab{rendement} ou l’\vocab{efficacité} $\eta$ d’une machine thermique compare le transfert ou la transformation utile qu’elle effectue, avec le coût énergétique qu’elle engendre. Nous retiendrons la définition de principe suivante :
+	Le \vocab{rendement} ou l’\vocab{efficacité} $\eta$ d’une machine thermique compare le transfert ou la transformation utile qu’elle effectue avec le coût énergétique qu’elle engendre. Nous retiendrons la définition de principe suivante :
 	\begin{equation}
 		\eta  \equiv  \left| \frac{\text{transfert utile}}{\text{dépense énergétique}} \right|
 		\label{def_efficacité_machines_thermiques}
