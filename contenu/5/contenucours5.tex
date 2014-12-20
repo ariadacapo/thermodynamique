@@ -5,13 +5,13 @@
 		Un liquide est un fluide (c’est-à-dire un corps sans forme définie) dont les molécules sont très rapprochées, mais libres de se déplacer les unes par rapport aux autres.
 	
 		\thermoquotebegin{O}
-La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit le même office que dans le chauffage des bains par la vapeur, à l’exception que dans le cas où nous sommes son mouvement est rendu utile.
+La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit le même office que dans le chauffage des bains par la vapeur, à l’exception près que dans le cas où nous sommes son mouvement est rendu utile.
 		\thermoquoteend{Sadi Carnot, 1824}{\textit{Réflexions sur la puissance motrice du feu et des machines propres à développer cette puissance}~\cite{carnot1824}}
 		Concrètement, on obtient un liquide à partir d’un gaz en ralentissant et rapprochant ses molécules. Il n’y a pas de réaction chimique en jeu. Ainsi, de l’eau liquide et de la vapeur d’eau sont constituées de la même matière (des mêmes molécules) : elle est seulement assemblée différemment.
 		
 		Par rapport aux gaz, les liquides présentent deux différences importantes :
 			\begin{itemize}
-				\item Ils sont pratiquement \vocab{incompressibles}, c’est-à-dire que leur volume spécifique $v$ varie très peu lorsqu’on les compresse\footnote{Piège classique, le terme \emph{incompressible} ne veut pas dire que la pression est constante ou uniforme (bien au contraire). Il veut seulement dire que le volume spécifique $v$ (et \textit{de facto} la masse volumique $\rho$) restent constants.} ;
+				\item Ils sont pratiquement \vocab{incompressibles}, c’est-à-dire que leur volume spécifique $v$ varie très peu lorsqu’on les compresse\footnote{Piège classique, le terme \emph{incompressible} ne veut pas dire que la pression est constante ou uniforme (bien au contraire). Il signifie seulement que le volume spécifique $v$ (et \textit{de facto} la masse volumique $\rho$) restent constants.} ;
 				\item Ils sont sujets aux effets de la tension de surface, ce qui comble les esthètes et les mécanicien/nes des fluides (\cref{fig_oocestjoli}) mais est sans conséquence en thermodynamique.
 			\end{itemize}
 	
@@ -28,7 +28,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 	
 		En chauffant de l’eau à pression ambiante (par exemple dans une casserole), il est facile de s’apercevoir que le passage de l’état liquide à l’état gazeux se fait avec une très grande variation de volume. Ainsi, à~\SI{1}{\bar} et~\SI{100}{\degreeCelsius} le volume spécifique de l’eau est multiplié par mille environ avant que la température puisse augmenter à nouveau.
 		
-		La variation brutale d’une propriété physique par rapport à une autre est nommée \vocab{changement de phase}. Dans ce chapitre nous nous concentrerons sur les deux phases liquide et gazeuse.
+		La variation brutale d’une propriété physique par rapport à une autre est nommée \vocab{changement de phase}. Dans ce chapitre nous nous concentrerons sur les deux phases, liquide et gazeuse.
 		
 		La notion de phase est délicate à définir\footnote{En fait, un changement de phase est bien plus facile à reconnaître qu’à définir. Nous nous contenterons de stipuler qu’à l’intérieur d’une phase, les propriétés varient continûment (condition nécessaire mais pas suffisante).} ; il existe de nombreuses phases différentes (liquide, solide, gazeuse, plasma) et leurs frontières ne sont pas toujours distinctes. Nous allons voir par exemple qu’il est possible de transformer un liquide en vapeur sans jamais observer d’ébullition ni de changement brutal de propriété.
 		
@@ -36,7 +36,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 		
 	\subsection{Comment se représenter la liquéfaction et l’ébullition ?}
 		
-		Lorsque nous avions exploré le modèle du gaz parfait en \S\ref{ch_gaz_parfait_kezako}, nous nous étions représentés les molécules comme de très petites boules de billard en mouvement chaotique, se percutant sans jamais s’attirer (\cref{fig_gaz_boules}). En réalité, les molécules sont soumises à des forces d’attraction respective qui affectent beaucoup leur comportement.
+		Lorsque nous avions exploré le modèle du gaz parfait en \S\ref{ch_gaz_parfait_kezako}, nous nous étions représentés les molécules comme de très petites boules de billard en mouvement chaotique, se percutant sans jamais s’attirer (\cref{fig_gaz_boules}). En réalité, les molécules sont soumises à des forces d’attraction respectives qui affectent beaucoup leur comportement.
 		
 		Imaginons, pour commencer, deux très petites boules de billard attirées respectivement par une force magnétique, et qui se percutent sans frottement à très grande vitesse (\cref{fig_billard_grande_vitesse}). La force d’attraction modifie leur trajectoire lorsque les boules sont très proches l’une de l’autre ; mais une fois qu’elles se sont éloignées, l’influence devient négligeable.
 
@@ -72,13 +72,13 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 		
 		Sous forme liquide, le fluide a une densité très nettement supérieure. On l’utilise souvent sous cette forme pour transférer de la chaleur (réchauffement ou refroidissement) car la taille des conduits peut être très faible. Par exemple, un radiateur rempli d’air ou de vapeur devrait être environ mille fois plus grand qu’un radiateur empli de liquide pour avoir la même puissance.
 		
-		Historiquement, l’eau a été utilisée dans les tous premiers moteurs de l’histoire pour ces raisons, et parce que les variations de volume lors des changements de phase permettent un contrôle plus aisé des machines avec une technologie faible. De nos jours, les liquides/vapeurs sont surtout utilisés dans deux grands types d’applications :
+		Historiquement, l’eau a été utilisée dans les tout premiers moteurs de l’histoire pour ces raisons, et parce que les variations de volume lors des changements de phase permettent un contrôle plus aisé des machines avec une technologie faible. De nos jours, les liquides/vapeurs sont surtout utilisés dans deux grands types d’applications :
 			\begin{description}
 				\item [Dans les centrales électriques] où les liquides/vapeurs permettent un prélèvement de chaleur efficace depuis des sources externes (combustion de déchets, réactions nucléaires, géothermie). On y utilise de l’eau, liquide abondant même s’il doit être purifié pour éviter les dépôts calcaires. Le \coursneuf est tout entier dédié à ces machines.
 				\item [Dans les réfrigérateurs] où les liquides/vapeurs permettent l’utilisation de composants compacts, notamment les pompes\footnote{L’utilisation des liquides/vapeurs permet aussi de faire chuter la température du fluide sans utiliser de pièce mobile (une simple soupape suffit), ce qu’un gaz parfait ne permet pas (\S\ref{ch_principe_de_joule}).}. On y utilise une variété de fluides (dits alors «~frigorigènes~» même s’ils n’ont rien d’extraordinaire), choisis en fonction de leur plage de propriétés, leur coût, leur influence sur la couche d’ozone et leur contribution au réchauffement climatique.
 			\end{description}
 
-		Nous nous concentrons ici sur l’eau, mais les phénomènes décrits et méthodes de calcul s’appliquent tout aussi bien aux autres liquides/vapeurs.
+		Nous nous concentrons ici sur l’eau, mais les phénomènes décrits et les méthodes de calcul s’appliquent tout aussi bien aux autres liquides/vapeurs.
 
 
 
@@ -88,10 +88,11 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 	\subsection{Les limites du gaz parfait}
 
 		\thermoquotebegin{O}
-		Les gaz font preuve dans leur comportement, en particulier dans les relations de volume, température et de pression exprimées par les lois de Mariotte et Gay-lussac, de tant de régularité qu’ils nous amènent à la notion que l’attraction mutuelle des particules, qui a lieu dans les corps solides et fluides, est annulée dans leur cas ; de sorte que bien qu’avec les solides et liquides la chaleur nécessaire à provoquer une expansion doit surmonter une résistance interne et une résistance externe, seule la seconde a un effet dans le cas des gaz.
+		Les gaz font preuve dans leur comportement, en particulier dans les relations de volume, température et de pression exprimées par les lois de Mariotte et Gay-lussac, de tant de régularité qu’ils nous amènent cette notion : l’attraction mutuelle des particules, qui a lieu dans les corps solides et fluides, est annulée dans leur cas ; de sorte que bien qu’avec les solides et liquides la chaleur nécessaire pour provoquer une expansion doive surmonter une résistance interne et une résistance externe, seule la seconde a un effet dans le cas des gaz.
+		% la fin de la phrase est lourde, à reformuler, en particulier à cause de la collision "de sorte que + bien que" à mon avis
 		\thermoquoteend{Rudolf Clausius, 1850~\mbox{\cite{clausius1850, clausius1850en, clausius1868fr1}}}{\vspace{3em}} %handmade vspace
 		
-		Au fur et à mesure que l’on ralentit et rapproche les molécules d’un gaz les unes des autres, le modèle du gaz parfait décrit de plus en plus mal ses propriétés. On observe un seuil en dessous lequel on observe la liquéfaction et l’ébullition, c’est-à-dire la coexistence des deux phases liquide et gazeuse ; ce seuil est décrit en termes de température et de pression qui sont dites \vocab{critiques}. Les températures et pressions critiques de quelques fluides courants sont indiquées dans le \cref{tab_exemples_températures_pressions_critiques}. Notons que l’air, mélange de plusieurs gaz, verra différentes substances de sa composition se condenser à différentes températures.
+		Au fur et à mesure que l’on ralentit et rapproche les molécules d’un gaz les unes des autres, le modèle du gaz parfait décrit de plus en plus mal ses propriétés. On observe un seuil en dessous duquel on observe la liquéfaction et l’ébullition, c’est-à-dire la coexistence des deux phases liquide et gazeuse ; ce seuil est décrit en termes de température et de pression qui sont dites \vocab{critiques}. Les températures et pressions critiques de quelques fluides courants sont indiquées dans le \cref{tab_exemples_températures_pressions_critiques}. Notons que l’air, mélange de plusieurs gaz, verra différentes substances de sa composition se condenser à différentes températures.
 
 		\begin{table}
 			\begin{center}
@@ -109,7 +110,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 			\end{tabularx}
 			\end{center}
 		\caption{Température et pression critiques de quelques substances.
-			En pratique dans l’industrie, l’ingénieur/e fera surtout usage des propriétés de deux corps : l’eau (dans les moteurs à vapeur) et le réfrigérant R-134a (dans les thermopompes et réfrigérateurs). Dans ce chapitre, nous n’utiliserons que l’eau, mais les principes restent identiques pour tous les corps.}
+			En pratique, dans l’industrie, l’ingénieur/e fera surtout usage des propriétés de deux corps : l’eau (dans les moteurs à vapeur) et le réfrigérant R-134a (dans les thermopompes et réfrigérateurs). Dans ce chapitre, nous n’utiliserons que l’eau, mais les principes restent identiques pour tous les corps.}
 			\label{tab_exemples_températures_pressions_critiques}
 		\end{table}
 	
@@ -141,7 +142,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 		Au départ, lorsque l’eau est liquide, la température augmente linéairement avec le volume, avec un fort gradient. On parle alors de \vocab{liquide comprimé}\footnote{\vocab{Liquide comprimé} ou \vocab{sous-refroidi}}. % en anglais : \vocabe{unsaturated}, \vocabe{compressed} or \vocabe{subcooled liquid})
 
 		\thermoquotebegin{O}
-		La vapeur peut être considérée à l’instant même de sa formation dans la chaudière, et encore en contact avec le liquide dont elle émane, ou bien séparée de ce même liquide ; et selon chacun de ces cas, ses propriétés sont différentes.
+		La vapeur peut être considérée à l’instant même de sa formation dans la chaudière et encore en contact avec le liquide dont elle émane, ou bien séparée de ce même liquide ; selon chacun de ces cas, ses propriétés sont différentes.
 		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1839}{\textit{Théorie de la machine à vapeur}~\cite{pambour1839}}
 
 		Puis, soudainement, alors que le volume continue de croître, la température cesse d’augmenter. Le mélange dans le cylindre est alors di-phasique : une partie est liquide, et l’autre gazeuse. L’ajout de chaleur ne provoque aucune augmentation de température (contrairement à un gaz parfait), mais seulement la transformation de liquide en vapeur : c’est l’ébullition. 
@@ -152,7 +153,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 
 		\clearfloats %handmade
 		\thermoquotebegin{O}
-		L’eau ne pouvant se vaporiser sous une haute pression qu’en vertu d’une température plus élevée, on a lieu de penser que, toutes circonstances égales d’ailleurs, la machine doit être capable de vaporiser moins d’eau sous une pression plus considérable.
+		L’eau ne pouvant se vaporiser sous une haute pression qu’en vertu d’une température plus élevée, on a lieu de penser que, toutes circonstances égales d'ailleurs, la machine doit être capable de vaporiser moins d’eau sous une pression plus considérable.
 		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1835}{\textit{Traité théorique et pratique des machines locomotives}~\cite{pambour1835}\vspace{4em}} %handmade vspace
 		L’expérience peut être renouvelée à des pressions différentes (\cref{fig_T-v_construction_2}). Lorsque la pression que l’on impose augmente, on observe deux faits importants :
 		\begin{itemize}
@@ -164,7 +165,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 			\begin{center}
 				\includegraphics[width=\didacticpvdiagramwidth]{images/tv_liquidevapeur_construction.png}
 			\end{center}
-			\supercaption{Propriétés de l’eau tracées sur un diagramme température-volume, lorsque l’on effectue l’expérience décrite en \cref{fig_changement_phase} à différentes pressions. On observe que plus la pression est grande, et plus la plage d’ébullition est petite.}{\cczero \oc}
+			\supercaption{Propriétés de l’eau tracées sur un diagramme température-volume, lorsque l’on effectue l’expérience décrite en \cref{fig_changement_phase} à différentes pressions. On observe que plus la pression est grande, plus la plage d’ébullition est petite.}{\cczero \oc}
 			\label{fig_T-v_construction_2}
 		\end{figure}
 
@@ -202,7 +203,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 		Lorsque la vapeur, après avoir été formée dans une chaudière, continue d’être en contact avec son eau de génération, on observe que la même température correspond invariablement à la même pression et réciproquement. Il est alors impossible d’augmenter sa température, sans qu’aussitôt sa pression et sa densité augmentent spontanément.
 		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1839}{\textit{Théorie de la machine à vapeur}~\cite{pambour1839}}
 		
-		Si l’on reproduit l’expérience à différentes températures, on constate que plus la température est haute, et plus la plage de changement de phase est courte. au-dessus d’une température, dite critique ($T_\text{cr.}$), la plage disparaît tout à fait.
+		Si l’on reproduit l’expérience à différentes températures, on constate que plus la température est haute, et plus la plage de changement de phase est courte. Au-dessus d’une température, dite critique ($T_\text{cr.}$), la plage disparaît tout à fait.
 
 		Le comportement d’un liquide-vapeur peut être ainsi décrit sur un diagramme pression-volume ($p-v$) comme montré en \cref{fig_p-v_eau}. L’étudiant/e est également encouragé/e à reconstruire ce schéma.
 
@@ -219,6 +220,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 	\subsection{Pièges pour l’étudiant/e}
 	
 		La notion la plus importante à retenir du comportement des liquides-vapeurs est que contrairement aux gaz parfaits, \emph{la température y est complètement déréglée}. Elle ne dicte plus simplement les autres propriétés.
+		%un doute à la lecture sur l'adéquation du verbe "dicte" ici. 
 		
 		Insistons bien. Pour un fluide proche d’un changement de phase :
 			\begin{IEEEeqnarray}{rCl}
@@ -236,7 +238,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 		Les phénomènes que nous décrivons ici sont facilement observables et reproductibles avec de l’eau dans la vie courante. Toutefois, il faut noter que :
 			
 			\begin{itemize}
-				\item La vapeur d’eau est transparente et quasiment invisible. Ce que l’on observe au-dessus d’une casserole d’eau en ébullition ou sous la forme de nuages est de l’eau \emph{liquide} en suspension dans l’air (\cref{fig_tazaazul}). Ces fines gouttelettes liquides peuvent s’assembler pour former des gouttes\footnote{Au fur et à mesure qu’une gouttelette croît, la surface offrant une résistance par frottement augmente moins vite que son poids ; elle finit par chuter.} ou bien s’évaporer à nouveau et redevenir ainsi invisibles.
+				\item La vapeur d’eau est transparente et quasiment invisible. Ce que l’on observe au-dessus d’une casserole d’eau en ébullition ou sous la forme de nuages est de l’eau \emph{liquide} en suspension dans l’air (\cref{fig_tazaazul}). Ces fines gouttelettes liquides peuvent s’assembler pour former des gouttes\footnote{Au fur et à mesure qu’une gouttelette croît, la surface offrant une résistance par frottement augmente moins vite que son poids ; elle finit par chuter.} ou bien s’évaporer à nouveau et redevenir ainsi invisible.
 				
 			\begin{figure}
 				\begin{center}
@@ -246,7 +248,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 				\label{fig_tazaazul}
 			\end{figure}
 				
-				\item L’air est partiellement constitué de vapeur d’eau (et sa capacité massique à porter de l’eau augmente avec la température). Lorsque l’on fait bouillir de l’eau liquide à l’air libre, il ne faut pas oublier que c’est l’air qui accueille la vapeur d’eau ; l’ébullition se déroule donc sensiblement différemment de l’expérience décrite en \cref{fig_changement_phase}\footnote{On peut noter, par exemple, que la température de l’eau liquide chute sensiblement lors d’une évaporation à pression constante dans l’air. Autre différence, la condensation est catalysée par la présence de particules de poussière dans l’air.}\nolinebreak.
+				\item L’air est partiellement constitué de vapeur d’eau (et sa capacité massique à porter de l’eau augmente avec la température). Lorsque l’on fait bouillir de l’eau liquide à l’air libre, il ne faut pas oublier que c’est l’air qui accueille la vapeur d’eau ; l’ébullition se déroule donc assez différemment de l’expérience décrite en \cref{fig_changement_phase}\footnote{On peut noter, par exemple, que la température de l’eau liquide chute sensiblement lors d’une évaporation à pression constante dans l’air. Autre différence, la condensation est catalysée par la présence de particules de poussière dans l’air.}\nolinebreak.
 			\end{itemize}
 
 
@@ -341,7 +343,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 				Pour une pression de~\SI{0,6}{\mega\pascal} à~\SI{20}{\degreeCelsius}, on lit $u_2 = \SI{83,9}{\kilo\joule\per\kilogram}$.\\
 				On peut donc quantifier la variation d’énergie à $\Delta U = m (u_2 - u_1) = \SI{-6420}{\kilo\joule\per\kilogram}$ (donc une perte par l’eau).
 			
-				\begin{remark}Nous avons pu quantifier $\Delta U$ mais nous ne pouvons pas savoir quelle est la proportion de chaleur ($Q_{1 \to 2}$) et de travail ($W_{1 \to 2}$) dans cette variation. Moins l’évolution est réversible, et plus la part de travail sera faible\footnote{Après le \courshuit, nous pourrons utiliser l’\vocab{entropie} pour quantifier la quantité maximale de travail qu’il est possible d’obtenir entre $1$ et $2$.}.\end{remark}\end{answer}
+				\begin{remark}Nous avons pu quantifier $\Delta U$ mais nous ne pouvons pas savoir quelles sont les proportions de chaleur ($Q_{1 \to 2}$) et de travail ($W_{1 \to 2}$) dans cette variation. Moins l’évolution est réversible, plus la part de travail sera faible\footnote{Après le \courshuit, nous pourrons utiliser l’\vocab{entropie} pour quantifier la quantité maximale de travail qu’il est possible d’obtenir entre $1$ et $2$.}.\end{remark}\end{answer}
 			\end{anexample}
 	
 			\begin{anexample}
@@ -580,7 +582,8 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 		
 			\begin{anexample}
 			
-			Quels sont l’énergie interne et le volume occupé par une masse de~\SI{3}{\kilogram} d’eau au trois-quarts vaporisée, à~\SI{115}{\degreeCelsius} ?
+			Quels sont l’énergie interne et le volume occupé par une masse de~\SI{3}{\kilogram} d’eau aux trois quarts vaporisée, à~\SI{115}{\degreeCelsius} ?
+			%http://www.projet-voltaire.fr/blog/regle-orthographe/trois-quarts-ou-trois-quarts
 			
 				\begin{answer}
 				Nous avons un mélange liquide-vapeur et le titre est de~\num{0,75}. Nous allons à l’abaque~n°2 (extrait en \cref{abaque2extrait}) pour trouver la température de saturation \SI{115}{\degreeCelsius}.\\
@@ -841,7 +844,7 @@ pharaonique. Pour s’en affranchir, il faudra monter en température : ce sera 
 		Une évolution adiabatique est une évolution au cours de laquelle il n’y a aucun échange de chaleur (\cref{fig_lv_isentropique}). On peut obtenir cela en recouvrant le récipient ou le conduit avec une épaisse couche d’isolant thermique.
 		
 		\thermoquotebegin{O}
-		On me permettra peut-être ici de me référer à un fait prouvé par Rankine et moi-même : lorsqu’une quantité de vapeur, à sa masse volumique maximale et incluse par une surface impénétrable à la chaleur, se détend et par cette manière déplace une partie mobile de cette surface cloisonnante, par exemple un piston, avec sa pleine force d’expansion, une partie de la vapeur doit se condenser~[…].
+		On me permettra peut-être ici de me référer à un fait prouvé par Rankine et moi-même : lorsqu’une quantité de vapeur, à sa masse volumique maximale et incluse par une surface impénétrable à la chaleur, se détend et ainsi déplace une partie mobile de cette surface cloisonnante, par exemple un piston, avec sa pleine force d’expansion, une partie de la vapeur doit se condenser~[…].
 		\thermoquoteend{Rudolf Clausius, 1856}{\textit{Über die Anwendung der mechanischen Wärmetheorie auf~die Dampfmaschine}~\cite{clausius1856}\vspace{8em}} %handmade vspace
 		
 		Comme pour un gaz parfait, la température est nécessairement amenée à varier dans une telle évolution, puisque le travail est non-nul. Nous notons aussi que les courbes des évolutions adiabatiques réversibles tracées sur un diagramme pression-volume croisent toujours la courbe de saturation. Autrement dit, une vapeur sèche détendue lentement sans transfert de chaleur sera, tôt ou tard, amenée à se condenser. C’est un fait qui aura des conséquences importantes au \coursneuf.
