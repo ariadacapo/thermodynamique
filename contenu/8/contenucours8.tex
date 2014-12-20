@@ -41,7 +41,7 @@
 	\subsection{L’entropie est une propriété}
 	\label{ch_entropie_propriete}
 	
-		Commençons par admettre le fait que l’entropie est une \vocab{propriété} physique,\footnote{On dit aussi \vocab{variable physique} ou \vocab{variable thermodynamique}.} c’est-à-dire quelque chose qui caractérise l’état d’un système. Dit autrement : si l’on considère une portion de l’univers à un moment donné (un système), nous trouvons que ce système a une masse, un volume, une température, etc. : ce sont ses propriétés, des descriptions absolues de son état. L’entropie est une de ces propriétés.
+		Commençons par admettre le fait que l’entropie est une \vocab{propriété} physique\footnote{On dit aussi \vocab{variable physique} ou \vocab{variable thermodynamique}.}, c’est-à-dire quelque chose qui caractérise l’état d’un système. Dit autrement : si l’on considère une portion de l’univers à un moment donné (un système), nous trouvons que ce système a une masse, un volume, une température, etc. : ce sont ses propriétés, des descriptions absolues de son état. L’entropie est une de ces propriétés.
 		
 		Par contraste, nous pourrions dire que la chaleur, le travail, le courant électrique etc. ne sont pas des propriétés : ce ne sont pas des quantités qui décrivent un objet, mais plutôt, un transfert entre deux objets.
 
@@ -291,7 +291,7 @@
 			\end{equationterms}
 
 			\thermoquotebegin{O}	
-				Dans l’expression obtenue, la différence $S - S_0$ est de nouveau entièrement déterminée si les états de départ et d’arrivée sont connus, et nous ne devons prêter de l’attention à la manière dont s’est déroulé le passage de l’un vers l’autre que lorsque nous formons l’intégrale $\int \frac{\diff Q}{T}$.
+				Dans l’expression obtenue, la différence $S - S_0$ est de nouveau entièrement déterminée si les états de départ et d’arrivée sont connus, et nous ne devons prêter attention à la manière dont s’est déroulé le passage de l’un vers l’autre que lorsque nous formons l’intégrale $\int \frac{\diff Q}{T}$.
 			\thermoquoteend{Rudolf Clausius, 1865~\cite{clausius1865,clausius1867en,clausius1868fr2}}{}
 
 		Cette équation est intéressante parce qu’elle nous indique que la variation d’entropie $\Delta s$ pendant une évolution de $1$ à $2$ ne dépend que des états initial et final. Même si nous avons commencé cette démonstration le long d’une évolution réversible nous obtenons une expression~\ref{eq_delta_s_gp_v} dans laquelle le chemin utilisé n’apparaît~pas. 
@@ -367,7 +367,7 @@
 	\subsection{Variations d’entropie d’un liquide/vapeur}
 	
 		Pour un liquide/vapeur, les variations ne peuvent pas être calculées car il n’existe pas de modèle mathématique simple pour modéliser la température en fonction des autres propriétés. La courbe de saturation et le chemin d’une évolution à pression constante sont représentés en \cref{fig_ts_lv} ; cette figure~ressemble très fortement au diagramme température-volume que nous avions tracé en \cref{fig_t-v_eau}.
-		Pour quantifier les valeurs de $s$, nous allons procéder exactement comme avec l’énergie interne $u$ au \courscinqshort : en les tabulant.
+		Pour quantifier les valeurs de $s$, nous allons procéder exactement comme avec l’énergie interne $u$ au \courscinqshort~: en les tabulant.
 
 		\begin{figure}
 			\begin{center}
@@ -377,7 +377,7 @@
 			\label{fig_ts_lv}
 		\end{figure}
 		
-		En dehors des phases de mélange (c’est-à-dire lorsque l’eau est à l’état de liquide comprimé ou de vapeur sèche) l’entropie peut simplement être lue\footnote{En réalité, toutes les valeurs tabulées de l’entropie sont relatives à un point de référence pour lequel la valeur de $s$ est arbitrairement posée à~\SI{0}{\joule\per\kelvin\per\kilogram} ; dans notre cas, c’est le point triple de l’eau. Cela n’a pas d’importance dans nos calculs puisque seules les variations de l’entropie nous intéressent.} en dernière colonne dans l’abaque~n°1, dont un extrait est répété en \cref{tab_abaque1extraitbis}.
+		En dehors des phases de mélange (c’est-à-dire lorsque l’eau est à l’état de liquide comprimé ou de vapeur sèche) les valeurs de l’entropie\footnote{En réalité, toutes les valeurs tabulées de l’entropie sont relatives à un point de référence pour lequel la valeur de $s$ est arbitrairement posée à~\SI{0}{\joule\per\kelvin\per\kilogram} ; dans notre cas, c’est le point triple de l’eau. Cela n’a pas d’importance dans nos calculs puisque seules les variations de l’entropie nous intéressent.} peuvent simplement être lues en dernière colonne dans l’abaque~n°1, dont un extrait est répété dans le \cref{tab_abaque1extraitbis}.
 		
 		\begin{table}
 		\begin{center}
@@ -512,8 +512,7 @@
 		\end{figure}
 
 
-		Si nous supposons que la température du corps A est homogène,\footnote{Cette «~supposition~» est parfaitement valide dans le cas où $\diff q$ est infiniment petit. Une intégration permettrait de prendre en compte la variation de température de A au cours de l’échange de chaleur, et le raisonnement ne serait pas modifié.}
-		sa perte de chaleur se fait de façon réversible. Ainsi la variation d’entropie de A est :
+		Si nous supposons que la température du corps A est homogène\footnote{Cette «~supposition~» est parfaitement valide dans le cas où $\diff q$ est infiniment petit. Une intégration permettrait de prendre en compte la variation de température de A au cours de l’échange de chaleur, et le raisonnement ne serait pas modifié.},	sa perte de chaleur se fait de façon réversible. Ainsi la variation d’entropie de A est :
 		\begin{equation*}
 			\diff s_\A = - \frac{\diff q}{T_\A}
 		\end{equation*}
@@ -523,12 +522,12 @@
 			\diff s_\B = + \frac{\diff q}{T_\B }
 		\end{equation*}
 
-		En revanche, la température du système entier [A+B] n’est pas du tout homogène : son évolution n’est pas réversible intérieurement. Même si l’ensemble ne reçoit aucune quantité de chaleur de l’extérieur, il n’a pas «~une~» température et nous ne savons pas lui appliquer l’intégrale~\ref{eq_variation_franche_entropie} $\int_1^2 \left(T \diff s \right)_\text{rév.}$ pour calculer sa variation d’entropie. La variation de l’entropie du système [A+B] est la somme de celles de ses constituants, c’est à dire :
+		En revanche, la température du système entier [A+B] n’est pas du tout homogène : son évolution n’est pas réversible intérieurement. Même si l’ensemble ne reçoit aucune quantité de chaleur de l’extérieur, il n’a pas «~une~» température et nous ne savons pas lui appliquer l’intégrale~\ref{eq_variation_franche_entropie}, $\int_1^2 \left(T \diff s \right)_\text{rév.}$ pour calculer sa variation d’entropie. La variation de l’entropie du système [A+B] est la somme de celles de ses constituants, c’est à dire :
 		\begin{equation}
 			\diff s_{[A+B]} = \diff s_\A + \diff s_\B = \frac{\diff q}{T_\B } - \frac{\diff q}{T_\A}
 		\end{equation}
 
-		Comme $T_\A > T_\B$, cette variation est \emph{non-nulle} ; de l’entropie \emph{a été créée} lors du transfert thermique irréversible. L’irréversibilité n’a lieu ni dans la tasse A, ni dans la bouteille B, mais dans la fine frontière matérielle qui les sépare. L’évolution peut être représentée sur un diagramme $T-s$ (\cref{fig_expérience_création_entropie_t-s}).
+		Comme $T_\A > T_\B$, cette variation est \emph{non-nulle} ; de l’entropie \emph{a été créée} lors du transfert thermique irréversible. L’irréversibilité n’a lieu ni dans la tasse A, ni dans la bouteille B, mais dans la fine frontière matérielle qui les sépare. L’évolution peut être représentée de manière plutôt convaincante sur un diagramme $T-s$ (\cref{fig_expérience_création_entropie_t-s}).
 
 		\begin{figure}
 			\begin{center}
@@ -543,7 +542,7 @@
 			\emph{Partout où il existe une différence de température, il peut y avoir production de puissance motrice}. Réciproquement partout où l’on peut consommer de cette puissance, il est possible de faire naître une différence de température, il est possible d’occasioner une rupture d’équilibre dans le calorique.
 		\thermoquoteend{Sadi Carnot, 1824~\cite{carnot1824}}{}		
 		Tout gradient de température donne lieu à une irréversibilité, et se traduit par une augmentation de l’entropie totale. \\
-		On peut se représenter un flux de chaleur entre deux sources de températures différentes par une opportunité perdue de produire un travail (ce qui sera sans doute source d’anxiété pour l’étudiant/e comme pour l’ingénieur/e). Ainsi, en plaçant une machine de Carnot entre les corps A et B, aucune irréversibilité n’aurait eu lieu et $\diff s_{[A+B]}$ serait nul. En plaçant une machine thermique de faible rendement, $\diff s_{[A+B]}$ serait faible ; le cas ci-haut où le transfert de chaleur se fait sans machine est le cas limite où aucun travail n’est produit.\onlyframabook{\dontbreakpage}
+		On peut se représenter un flux de chaleur entre deux sources de températures différentes par une opportunité perdue de produire un travail -- ce qui sera sans doute source d’anxiété pour l’étudiant/e comme pour l’ingénieur/e. En plaçant une machine de Carnot entre les corps A et B, aucune irréversibilité n’aurait eu lieu et $\diff s_{[A+B]}$ serait nul. En plaçant une machine thermique de faible rendement, $\diff s_{[A+B]}$ serait faible ; le cas ci-haut où le transfert de chaleur se fait sans machine est le cas limite où aucun travail n’est produit.\onlyframabook{\dontbreakpage}
 
 	\subsection{Irréversibilités lors des compressions et détentes adiabatiques}
 
@@ -691,7 +690,7 @@
 	\subsection{L’entropie à l’échelle microscopique}
 	\label{ch_entropie_boltzmann}
 	
-		Passé Clausius, la thermodynamique n’intéresse plus guère les ingénieurs, mais les physiciens ne sont pas rassasiés. Il nous reste en effet un problème, car si nous avons bien \emph{décrit} le phénomène d’irréversibilité, nous n’avons toujours pas \emph{expliqué} son origine à l’intérieur de corps constitués de particules dont les évolutions (un incessant bourdonnement de collisions, à base de forces d’attraction et de répulsion), \emph{elles}, sont parfaitement réversibles.
+		Passé Clausius, le développement de la thermodynamique n’intéresse plus guère les ingénieurs, mais les physiciens ne sont pas rassasiés. Il nous reste en effet un problème, car si nous avons bien \emph{décrit} le phénomène d’irréversibilité, nous n’avons toujours pas \emph{expliqué} son origine à l’intérieur de corps constitués de particules dont les évolutions (un incessant bourdonnement de collisions, à base de forces d’attraction et de répulsion), \emph{elles}, sont parfaitement réversibles.
 		
 		Il ne faudra que dix ans pour que la réponse soit formalisée : l’autrichien \wf{Ludwig Boltzmann} propose en 1875 une \vocab{définition microscopique} de l’entropie :
 			\begin{equation}
