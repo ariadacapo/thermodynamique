@@ -2,7 +2,7 @@
 
 	\subsection{À quoi sert l’entropie ?}
 	
-		Au tout début du \coursun, nous avions vu que nous pouvions conceptualiser l’\vocab{énergie} comme étant «~une grandeur qui ne varie jamais lorsque les choses évoluent~». Ainsi, nous utilisons les quantifications de l’énergie pour déterminer les limites du possible : par exemple, nous savons qu’avec~\SI{500}{\joule}, un corps immobile de masse~\SI{10}{\kilogram} ne peut pas accélérer au delà de~\SI{10}{\metre\per\second}.
+		Au tout début du \coursun, nous avions vu que nous pouvions conceptualiser l’\vocab{énergie} comme étant «~une grandeur qui ne varie jamais lorsque les choses évoluent~». Ainsi, nous utilisons les quantifications de l’énergie pour déterminer les limites du possible : par exemple, nous savons qu’avec~\SI{500}{\joule}, un corps immobile de masse~\SI{10}{\kilogram} ne peut pas accélérer au-delà de~\SI{10}{\metre\per\second}.
 	
 		Pourtant, notre intuition et notre expérience quotidienne nous apprennent que beaucoup de transformations ne peuvent avoir lieu que dans un seul sens (\cref{fig_water_jump}). Par exemple, il y a autant d’énergie dans un verre d’eau au rebord d’une table que dans ce même verre brisé avec cette même eau renversée sur le sol. Pourtant nous savons, ou plus exactement, nous avons la conviction profonde, qu’il est \emph{possible} que le verre tombe et se casse, mais \emph{impossible} que les éclats et l’eau sur le sol se rassemblent spontanément en un verre plein sur la table.\\
 		Ainsi, la quantification de l’énergie n’est pas entièrement suffisante pour déterminer \emph{ce qui est possible}. Nous souhaiterions pouvoir en plus prédire de façon absolue et quantitative le sens dans lequel l’énergie peut ou ne peut pas être transformée.
@@ -16,11 +16,11 @@
 			\label{fig_water_jump}
 		\end{figure}
 	
-		L’\vocab{entropie} a été pensée pour répondre à ce questionnement. À la fin de ce chapitre, nous disposerons d’un outil permettant de \emph{calculer} le sens d’une évolution, c’est à dire de prédire mathématiquement laquelle de deux situations séparées dans le temps doit avoir eu lieu avant l’autre.
+		L’\vocab{entropie} a été pensée pour répondre à ce questionnement. À la fin de ce chapitre, nous disposerons d’un outil permettant de \emph{calculer} le sens d’une évolution, c’est-à-dire de prédire mathématiquement laquelle de deux situations séparées dans le temps doit avoir eu lieu avant l’autre.
 
 	\subsection{Comment déterminer le sens d’une transformation ?}
 	
-		Dans notre vocabulaire en thermodynamique, le concept d’une «~évolution à sens unique~» est bien sûr nommé \vocab{irréversibilité}. Nous l’avions déjà abordée en section \S\ref{ch_évolutions_irr_sf}, où nous avions déterminé qu’elle avait deux causes principales :
+		Dans le vocabulaire de la thermodynamique, le concept d’une «~évolution à sens unique~» est bien sûr nommé \vocab{irréversibilité}. Nous avions déjà abordé l'irréversibilité en section \S\ref{ch_évolutions_irr_sf}, où nous avions déterminé qu’elle avait deux causes principales :
 			\begin{itemize}
 				\item La transformation d’un travail en chaleur, par frottement et turbulence ;
 				\item La transmission d’une quantité de chaleur entre deux corps de température différente.
@@ -32,7 +32,7 @@
 			Pour cela nous imaginons qu’après la transformation que nous souhaitons étudier de cette façon, la masse est ramenée à son état initial par une opération réversible. De cette façon, nous obtenons un petit processus cyclique, à laquelle l’équation (II) s’applique aussi bien qu’à l’ensemble. Si [le long de ce processus] l’on connaît également les quantités de chaleur qu’a reçu la masse pendant ce dernier ainsi que les températures auxquelles elles correspondent, alors l’intégrale négative $-\int \frac{\diff Q}{T}$ nous donne la transformation non-compensée impliquée pendant celui-ci.
 		\thermoquoteend{Rudolf Clausius, 1856~\cite{clausius1856, clausius1867en,clausius1868fr3}}{}
 		Pour quantifier l’irréversibilité d’une évolution, nous allons quantifier \emph{la chaleur qu’il faudrait retirer au corps pour le ramener dans son état initial de manière réversible}. En lui soustrayant la chaleur qui a été effectivement transmise, nous obtenons en quelque sorte la chaleur qui a été inutilement créée pendant l’évolution.\\
-		Or, plus la température à laquelle cette chaleur créée est basse, et moins elle peut être transformée en travail (\S\ref{ch_efficacité_moteur_carnot}). Nous allons ainsi «~pénaliser~» le coût en chaleur en le divisant par la température.
+		Or, plus la température à laquelle cette chaleur créée est basse, moins elle peut être transformée en travail (\S\ref{ch_efficacité_moteur_carnot}). Nous allons ainsi «~pénaliser~» le coût en chaleur en le divisant par la température.
 		
 		De cette manière, nous allons obtenir une grandeur en \si{joules} par \si{kelvin} --\ l’entropie créée pendant l’évolution\ -- qui va être nulle pendant les évolutions réversibles, et qui va toujours être positive pendant les évolutions irréversibles. C’est cette création qui sera le signe manifeste que la transformation n’est possible que dans un sens. %"manifeste" pour "unmistakable", "que l’on ne peut pas ne pas reconnaître". hmmm...
 
@@ -43,7 +43,7 @@
 	
 		Commençons par admettre le fait que l’entropie est une \vocab{propriété} physique\footnote{On dit aussi \vocab{variable physique} ou \vocab{variable thermodynamique}.}, c’est-à-dire quelque chose qui caractérise l’état d’un système. Dit autrement : si l’on considère une portion de l’univers à un moment donné (un système), nous trouvons que ce système a une masse, un volume, une température, etc. : ce sont ses propriétés, des descriptions absolues de son état. L’entropie est une de ces propriétés.
 		
-		Par contraste, nous pourrions dire que la chaleur, le travail, le courant électrique etc. ne sont pas des propriétés : ce ne sont pas des quantités qui décrivent un objet, mais plutôt, un transfert entre deux objets.
+		Par contraste, nous pourrions dire que la chaleur, le travail, le courant électrique etc. ne sont pas des propriétés : ce ne sont pas des quantités qui décrivent un objet, mais plutôt un transfert entre deux objets.
 
 		Nous penserons donc toujours à l’entropie comme étant l’entropie «~\emph{de quelque chose}~» (peut-être comme nous dirions la couleur, la température «~de quelque chose~»). Nous dirons par exemple «~ce corps a de l’entropie~» ou «~l’entropie de ce corps augmente/diminue~», et non pas «~nous prenons/donnons de l’entropie à ce~corps~».
 	
@@ -78,7 +78,7 @@
 
 			\item Lorsqu’un système suit une évolution irréversible entre A et B (comme pour la majorité des évolutions réelles), alors \emph{il faut trouver un chemin réversible entre ces deux états} et y effectuer l’intégration~\ref{eq_variation_franche_entropie} pour calculer $\Delta S$. 
 
-				Il existe toujours une façon réversible de faire évoluer un système entre n’importe quels deux états (en fait, il existe même une infinité de façons). Pour cela, il faut que le travail qui lui est transféré le soit de façon infiniment lente, et que la chaleur qui lui est transférée le soit avec une différence de température infinitésimale.
+				Il existe toujours une façon réversible (en fait, il existe même une infinité de façons) de faire évoluer un système entre deux états quelconques. Pour cela, il faut que le travail qui lui est transféré le soit de façon infiniment lente, et que la chaleur qui lui est transférée le soit avec une différence de température infinitésimale.
 				
 				Attention : si l’on intègre la quantité $\frac{\diff Q}{T}$ le long d’une évolution où la température ou la pression ne sont pas homogènes (par exemple lors d’une détente rapide, d’un réchauffement hétérogène ou d’un gradient interne de température, cf. \S\ref{ch_évolutions_irr_sf}), alors on obtiendra un résultat plus faible que $\Delta S$, la variation d’entropie réelle. 
 				
@@ -109,10 +109,11 @@
 						= \SI{-6,6}{\joule\per\kelvin}$.
 					\begin{remark}Nous avons déjà exploré les évolutions réversibles à température constante (isothermes) aux sections \S\ref{ch_gp_isothermes} et \S\ref{ch_lv_isothermes}. Ici le gaz perd \SI{2}{\kilo\joule} de chaleur et reçoit \SI{2}{\kilo\joule} de travail.\end{remark}
 					\begin{remark}Nous ne connaissons pas la valeur de l’entropie, mais nous savons qu’elle diminue de 7 \si{joule} par \si{kelvin}.\end{remark}
+					%Attention dans le rendu PDF le mot "joule" n'est *pas* au pluriel. Je suppose que c'est une convention de notation en physique, je trouve que ça choque tout de même à la lecture (d'autant que dans d'autres occurrences dans l'ouvrage, joule est au pluriel)
 					\begin{remark}Il ne faut pas confondre la variation d’entropie avec la capacité thermique, $c\ \equiv \ \frac{\diff q}{\diff T} = \frac{1}{m} \frac{\diff Q}{\diff T}$ (\ref{eq_def_capacité_calorifique_massique}), dans laquelle nous divisons la chaleur par la \emph{variation} de température. Ici dans cette évolution, $\diff T = 0$ et la capacité thermique est infinie.\end{remark}
 				\end{answer}
 			
-			Une fois que le refroidissement est effectué, on laisse l’air se détendre brutalement : la détente est irréversible. Pendant celle-ci, on ne fournit que \SI{1000}{\joule} sous forme de chaleur, et on récupère que \SI{1000}{\joule} sous forme de travail. À la fin de la détente, le gaz est dans le même état (même température, pression, et énergie interne) qu’au tout début de l’expérience. Quelle est la variation d’entropie ?
+			Une fois que le refroidissement est effectué, on laisse l’air se détendre brutalement : la détente est irréversible. Pendant celle-ci, on ne fournit que \SI{1000}{\joule} sous forme de chaleur, et on ne récupère que \SI{1000}{\joule} sous forme de travail. À la fin de la détente, le gaz est dans le même état (mêmes température, pression, et énergie interne) qu’au tout début de l’expérience. Quelle est la variation d’entropie ?
 				\begin{answer} Cette fois, l’évolution n’est pas réversible. Nous ne devons pas tenir compte de la chaleur qui est effectivement échangée, mais de la chaleur \emph{qui aurait été échangée} dans une évolution réversible qui mènerait au même état final.
 				
 				Heureusement, nous savons que le gaz retourne de B à son état initial A ; or de A à B l’évolution était réversible. En effectuant l’évolution exactement inverse, nous inverserions tous les transferts de chaleur et de travail. Nous aurions alors, le long de cette évolution imaginaire de B vers A : $\Delta S = S_A - S_B 
@@ -123,7 +124,7 @@
 						\begin{remark}Le $\Delta S$ correspond à la variation réelle de l’entropie ; mais il est calculé le long d’un chemin imaginaire.\end{remark}
 						\begin{remark} Ici nous voyons que la chaleur transférée en réalité n’a pas d’importance. C’est la chaleur «~qu’il aurait fallu échanger~» qui nous intéresse.\end{remark}
 						\begin{remark} Ici, pour simplifier l’exercice, le gaz retourne exactement à son état originel A. S’il arrivait à un état différent, nous pourrions tout de même calculer la variation d’entropie, comme nous apprendrons à le faire en section \S\ref{ch_delta_s_gaz_parfaits}.\end{remark}
-						\begin{remark}Dans cette évolution irréversible de B à A, c’est la différence entre $\int_\B^\A \left( \frac{\diff Q}{T} \right)_\text{rév.} = \SI{+6,6}{\joule\per\kelvin}$ et $\int_\B^\A \left( \frac{\diff Q}{T} \right)_\text{réel} = \frac{\num{+1000}}{\num{30}+\num{273,15}} =  \SI{+3,3}{\joule\per\kelvin}$ qui va nous permettre de mesurer l’irréversibilité, c’est à dire de montrer qu’avec un transfert de \SI{1}{\kilo\joule} on peut aller de B à A mais pas de A à B.\end{remark}
+						\begin{remark}Dans cette évolution irréversible de B à A, c’est la différence entre $\int_\B^\A \left( \frac{\diff Q}{T} \right)_\text{rév.} = \SI{+6,6}{\joule\per\kelvin}$ et $\int_\B^\A \left( \frac{\diff Q}{T} \right)_\text{réel} = \frac{\num{+1000}}{\num{30}+\num{273,15}} =  \SI{+3,3}{\joule\per\kelvin}$ qui va nous permettre de mesurer l’irréversibilité, c’est-à-dire de montrer qu’avec un transfert de \SI{1}{\kilo\joule} on peut aller de B à A mais pas de A à B.\end{remark}
 				\end{answer}
 		\end{anexample}
 
@@ -230,8 +231,12 @@
 		Lorsque le système perd de la chaleur, son entropie décroît et nous nous déplacerons de droite à gauche sur les diagrammes $T-s$ (\cref{fig_ts_basics}).
 
 		\clearfloats
-		Notons aussi que, tout comme pour le volume, lorsqu’un fluide parcourt un cycle complet, il peut voir son entropie diminuer à une température plus faible qu’elle n’avait augmenté. Le transfert net de chaleur est alors négatif : le fluide a \emph{absorbé} de la chaleur qui aura été transformée en travail. En suivant le circuit inverse, le fluide sera source de chaleur : c’est le principe du réfrigérateur (\S\ref{ch_principe_fonctionnement_réfrigérateur}).
-
+		Notons aussi que, tout comme pour le volume, lorsqu’un fluide parcourt un cycle complet, il peut voir son entropie diminuer à une température plus faible qu’elle n’avait augmenté.
+		%fin de phrase pas claire ici : "elle" c'est l'entropie (je suppose) ou la température ? En revanche c'est la température qui est "plus faible" mais qu'est-ce qui "avait augmenté" avant : la température, l'entropie... ? Je suggère de développer plus clairement le sens quitte à faire deux phrases distinctes.
+		%tentative : Notons aussi que, tout comme pour le volume, lorsqu’un fluide parcourt un cycle complet, son entropie peut diminuer à une température inférieure à celle de sa phase d'augmentation (disclaimer : je ne sais pas de quoi je parle :) )
+		%tentative2 : Notons aussi que lorsqu’un fluide parcourt un cycle complet, la température de diminution de l'entropie peut être inférieure à la température de son d'augmentation. Il en va de même pour le volume.
+		Le transfert net de chaleur est alors négatif : le fluide a \emph{absorbé} de la chaleur qui aura été transformée en travail. En suivant le circuit inverse, le fluide sera source de chaleur : c’est le principe du réfrigérateur (\S\ref{ch_principe_fonctionnement_réfrigérateur}).
+		
 		Lorsque les évolutions sont réversibles, cette chaleur nette est représentée par l’aire enclose par le trajet sur un diagramme température-entropie (\cref{fig_ts_cycle}).
 
 		\begin{figure}
@@ -448,12 +453,12 @@
 					À l’arrivée, l’eau est en mélange liquide-vapeur (puisque $u_\B<u_{V\SI{130}{\degreeCelsius}}$), nous lisons donc en abaque n°2 (\ref{eq_titre_energie_interne}) : $x_\B = \frac{u_\B - u_L}{u_{LV}} = \frac{\num{1000}-\num{546,1}}{\num{1993,5}}= \num{0,228} $ ; ainsi avec l’\cref{eq_titre_entropie} nous pouvons calculer l’entropie : $s_\B= s_L + x_\B \ s_{LV} = \num{1,6346}+ \num{0,228}\times\num{5,3918} = \SI{2,8623}{\kilo\joule\per\kelvin\per\kilogram}$.\\
 					Nous voyons que l’entropie a diminué : $\Delta s = s_\B - s_\A = \SI{-4,268}{\kilo\joule\per\kelvin\per\kilogram} $.
 				
-				\begin{remark}Nous ne savons pas quelle transformation a eu lieu. Moins elle a été réversible, et plus il aura fallu retirer de la chaleur à la vapeur pour l’amener de~A à~B.\end{remark}\end{answer}
+				\begin{remark}Nous ne savons pas quelle transformation a eu lieu. Moins elle a été réversible, plus il aura fallu retirer de la chaleur à la vapeur pour l’amener de~A à~B.\end{remark}\end{answer}
 		\end{anexample}
 
 		
 		\begin{anexample}
-			On réchauffe lentement \SI{2}{\kilogram} d’eau liquide saturée à~\SI{300}{\degreeCelsius}, en maintenant sa température constante, jusqu’à ce que le volume atteigne \SI{2}{\metre\cubed}. Combien faut-il apporter de chaleur pour cela ?
+			On réchauffe lentement \SI{2}{\kilogram} d’eau liquide saturée à~\SI{300}{\degreeCelsius}, en maintenant sa température constante, jusqu’à ce que le volume atteigne \SI{2}{\metre\cubed}. Combien de chaleur faut-il apporter pour cela ?
 			
 				\begin{answer}
 					Un bref coup d’œil dans les abaques de vapeur nous permet de représenter l’évolution de façon qualitative sur un diagramme $T-s$ ainsi :
@@ -522,7 +527,7 @@
 			\diff s_\B = + \frac{\diff q}{T_\B }
 		\end{equation*}
 
-		En revanche, la température du système entier [A+B] n’est pas du tout homogène : son évolution n’est pas réversible intérieurement. Même si l’ensemble ne reçoit aucune quantité de chaleur de l’extérieur, il n’a pas «~une~» température et nous ne savons pas lui appliquer l’intégrale~\ref{eq_variation_franche_entropie}, $\int_1^2 \left(T \diff s \right)_\text{rév.}$ pour calculer sa variation d’entropie. La variation de l’entropie du système [A+B] est la somme de celles de ses constituants, c’est à dire :
+		En revanche, la température du système entier [A+B] n’est pas du tout homogène : son évolution n’est pas réversible intérieurement. Même si l’ensemble ne reçoit aucune quantité de chaleur de l’extérieur, il n’a pas «~une~» température et nous ne savons pas lui appliquer l’intégrale~\ref{eq_variation_franche_entropie}, $\int_1^2 \left(T \diff s \right)_\text{rév.}$ pour calculer sa variation d’entropie. La variation de l’entropie du système [A+B] est la somme de celles de ses constituants, c’est-à-dire :
 		\begin{equation}
 			\diff s_{[A+B]} = \diff s_\A + \diff s_\B = \frac{\diff q}{T_\B } - \frac{\diff q}{T_\A}
 		\end{equation}
@@ -542,7 +547,8 @@
 			\emph{Partout où il existe une différence de température, il peut y avoir production de puissance motrice}. Réciproquement partout où l’on peut consommer de cette puissance, il est possible de faire naître une différence de température, il est possible d’occasioner une rupture d’équilibre dans le calorique.
 		\thermoquoteend{Sadi Carnot, 1824~\cite{carnot1824}}{}		
 		Tout gradient de température donne lieu à une irréversibilité, et se traduit par une augmentation de l’entropie totale. \\
-		On peut se représenter un flux de chaleur entre deux sources de températures différentes par une opportunité perdue de produire un travail -- ce qui sera sans doute source d’anxiété pour l’étudiant/e comme pour l’ingénieur/e. En plaçant une machine de Carnot entre les corps A et B, aucune irréversibilité n’aurait eu lieu et $\diff s_{[A+B]}$ serait nul. En plaçant une machine thermique de faible rendement, $\diff s_{[A+B]}$ serait faible ; le cas ci-haut où le transfert de chaleur se fait sans machine est le cas limite où aucun travail n’est produit.\onlyframabook{\dontbreakpage}
+		On peut se représenter un flux de chaleur entre deux sources de températures différentes par une opportunité perdue de produire un travail -- ce qui sera sans doute source d’anxiété pour l’étudiant/e comme pour l’ingénieur/e. En plaçant une machine de Carnot entre les corps A et B, aucune irréversibilité n’aurait eu lieu et $\diff s_{[A+B]}$ serait nul. En plaçant une machine thermique de faible rendement, $\diff s_{[A+B]}$ serait faible ; le cas ci-dessus où le transfert de chaleur se fait sans machine est le cas limite où aucun travail n’est produit.\onlyframabook{\dontbreakpage}
+		%http://soquij.qc.ca/fr/ressources-pour-tous/chroniques-linguistiques/ci-haut-et-ci-bas
 
 	\subsection{Irréversibilités lors des compressions et détentes adiabatiques}
 
@@ -571,6 +577,7 @@
 
 		\thermoquotebegin{O}
 			\emph{La chaleur ne peut passer d’un corps plus froid vers un corps plus chaud, sans qu’un changement en connection avec ce transfert n’ait lieu simultanément.}
+			%en principe "connexion" en français, je ne sais pas si c'est "connection" dans la traduction que tu utilises.
 		\thermoquoteend{Rudolf Clausius, 1854~\cite{clausius1854,clausius1867en,clausius1868fr4}}{}
 		Nous avons admis au \courssept que la chaleur ne se déplaçait spontanément que vers une température plus basse --\ un postulat que nous nommons \textit{second principe}. Nous pouvons maintenant formuler cette affirmation avec une expression mathématique.
 	
@@ -591,7 +598,7 @@
 				\end{equation}
 		\end{trucimportant}
 
-		On peut toujours réduire l’entropie d’un système pour la ramener à sa valeur initiale (il suffit pour cela de le ramener à son état initial, quelqu’en soit la manière), mais cela se fera nécessairement au prix d’une augmentation \emph{au moins aussi grande} de celle d’un autre système.
+		On peut toujours réduire l’entropie d’un système pour la ramener à sa valeur initiale (il suffit pour cela de ramener le système lui-même à son état initial, quelle que soit la manière de procéder), mais cela se fera nécessairement au prix d’une augmentation \emph{au moins aussi grande} de celle d’un autre système.
 
 	\subsection{Prédire le sens des transformations}
 	
@@ -676,7 +683,7 @@
 				
 		Les exemples que nous avons étudiés dans ce chapitre pour déterminer le sens des transformations sont très académiques, toutefois la démarche reste valide pour toute transformation : une pierre jetée dans un étang, une assiette qui se casse en tombant, etc. Si nous revenons aux trois photos de la~\cref{fig_water_jump}, nous pourrions en retrouver l’ordre en déterminant les états initial et final de l’eau autour de la plongeuse, et en comparant $\Delta s$ à l’intégrale $\int \left(\frac{\diff q}{T}\right)_\text{chemin réel}$ réalisée pendant l’entrée dans l’eau. 
 		
-		C’est ce désir de retrouver l’ordre absolu dans lequel se succèdent les états, c’est à dire le sens du temps, qui a mené le physicien allemand \wf{Rudolf Clausius} jusqu’à proposer le concept \vocab{entropie} en 1865 dans une publication magistrale --\ \textit{Über verschiedene für die Anwendung bequeme Formen der Hauptgleichungen der mechanischen Wärmetheorie}~\cite{clausius1865,clausius1867en,clausius1868fr2}. Concluant une décennie de travail autour de la grandeur $\frac{Q}{T}$, il y formalise un concept que ses codisciples français \wf{Ferdinand Reech} et écossais \wf{William Rankine} n’avaient qu’effleuré~\cite{truesdell1980}, et y rassemble l’ensemble des connaissances contemporaines de sa discipline.
+		C’est ce désir de retrouver l’ordre absolu dans lequel se succèdent les états, c’est-à-dire le sens du temps, qui a mené le physicien allemand \wf{Rudolf Clausius} jusqu’à proposer le concept d’\vocab{entropie} en 1865 dans une publication magistrale --\ \textit{Über verschiedene für die Anwendung bequeme Formen der Hauptgleichungen der mechanischen Wärmetheorie}~\cite{clausius1865,clausius1867en,clausius1868fr2}. Concluant une décennie de travail autour de la grandeur $\frac{Q}{T}$, il y formalise un concept que ses condisciples français \wf{Ferdinand Reech} et écossais \wf{William Rankine} n’avaient qu’effleuré~\cite{truesdell1980}, et y rassemble l’ensemble des connaissances contemporaines de sa discipline.
 		
 		\thermoquotebegin{O}
 			\onlyamphibook{\vspace{-0.5cm}\par}%handmade
