@@ -46,7 +46,7 @@
 	\subsection{Tous les moteurs rejettent de la chaleur}
 	\label{ch_demo_second_principe}
 
-		Imaginons vouloir créer du travail en prenant de la chaleur à un objet «~chaud~», c’est-à-dire à haute température : par exemple, \SI{100}{\degreeCelsius}, comme montré en \cref{fig_démo_second_principe_1}. On y accole un fluide dans un cylindre, que l’on laisse pousser sur un piston au fur et à mesure qu’il reçoit de la chaleur.
+		Imaginons qu’on veuille créer du travail en prenant de la chaleur à un objet «~chaud~», c’est-à-dire à haute température : par exemple, \SI{100}{\degreeCelsius}, comme montré en \cref{fig_démo_second_principe_1}. On y accole un fluide dans un cylindre, que l’on laisse pousser sur un piston au fur et à mesure qu’il reçoit de la chaleur.
 
 		\begin{figure}
 			\begin{center}
@@ -134,7 +134,7 @@
 			\end{trucimportant}
 			\begin{trucimportant}
 			Le fonctionnement en continu d’un moteur\linebreak
-			nécessite deux réservoirs de chaleur, de température différente.
+			nécessite deux réservoirs de chaleur, chacun de température différente.
 			\end{trucimportant}
 
 			Les puristes exprimeront ce corollaire, dit \vocab{de Kelvin-Planck}, avec l’inéquation suivante :
@@ -158,7 +158,7 @@
 				\label{fig_refrigerateur_exemplevaleurs}
 			\end{figure}
 
-			Appliquée à un réfrigérateur, le second principe s’exprime ainsi :
+			Appliqué à un réfrigérateur, le second principe s’exprime ainsi :
 
 			\begin{trucimportant}
 			Toute machine transférant de la chaleur depuis un corps vers un autre de température plus haute consomme du travail.
@@ -183,7 +183,7 @@
 	\label{ch_contexte_cycle_carnot}
 
 		\thermoquotebegin{O}
-			Pour envisager dans toute sa généralité le principe de la production du mouvement par la chaleur, il faut le concevoir indépendamment d’aucun mécanisme, d’aucun agent particulier ; il faut établir des raisonnemens applicables, non seulement aux machines à vapeur, mais à toute machine à feu imaginable, quelle que soit la substance mise en œuvre et quelle que soit la manière dont on agisse sur~elle.%
+			Pour envisager dans toute sa généralité le principe de la production du mouvement par la chaleur, il faut le concevoir indépendamment d’aucun mécanisme, d’aucun agent particulier ; il faut établir des raisonnemens applicables, non seulement aux machines à vapeur, mais à toute machine à feu imaginable, quelle que soit la substance mise en œuvre et quelle que soit la manière dont on agisse sur~elle.
 		\thermoquoteend{Sadi Carnot, 1824~\cite{carnot1824}}{}
 
 		Au début du \textsc{xix}\ieme siècle, un jeune polytechnicien parisien nommé \wfd{Sadi Carnot (physicien)}{Sadi Carnot} s’est intéressé au fonctionnement des moteurs thermiques, alors en plein essor. Carnot recherchait \emph{la quantité maximale de travail} qu’il est possible de générer à partir d’une quantité donnée de charbon.
@@ -203,7 +203,7 @@
 			Ce maximum [de travail] jouit en effet de la propriété que, par sa \emph{consommation}, on peut faire passer du corps froid B au corps chaud A la même quantité de chaleur que celle qui a passé de A en B pour sa \emph{production}.
 		\thermoquoteend{Rudolf Clausius, 1850~\cite{clausius1850, clausius1850en, clausius1868fr1}}{}
 		
-		En termes thermodynamiques, la machine qu’il conceptualise est non seulement \vocab{inversable}, c’est à dire qu’on peut changer le sens de circulation du fluide pour changer sa fonction (tels de nombreux climatiseurs domestiques disponibles dans le commerce aujourd’hui), mais elle est aussi \vocab{réversible} : en inversant son fonctionnement, tous les flux de chaleur sont exactement opposés. De cette façon, si son réfrigérateur est alimenté par son moteur, alors les flux seront exactement compensés, comme représenté en \cref{fig_deux_machines_de_carnot}.
+		En termes thermodynamiques, la machine qu’il conceptualise est non seulement \vocab{inversable}, c’est-à-dire qu’on peut changer le sens de circulation du fluide pour changer sa fonction (tels de nombreux climatiseurs domestiques disponibles dans le commerce aujourd’hui), mais elle est aussi \vocab{réversible} : en inversant son fonctionnement, tous les flux de chaleur sont exactement opposés. De cette façon, si son réfrigérateur est alimenté par son moteur, alors les flux seront exactement compensés, comme représenté en \cref{fig_deux_machines_de_carnot}.
 
 		\begin{figure}
 			\begin{center}
@@ -258,7 +258,7 @@
 	\subsection{Les quatre étapes du moteur de Carnot}
 	\label{ch_descritpion_cycle_carnot}
 
-		Nous pouvons décrire le \vocab{cycle de Carnot} avec une quantité de masse prisonnière dans un cylindre, et à qui l’on fait subir quatre transformations (\cref{fig_carnot_quatre_etapes}). Il évolue ainsi entre les températures $T_H$ (source «~chaude~» à haute température) et~$T_B$ (source «~froide~» à basse température), pour développer un travail net :
+		Nous pouvons décrire le \vocab{cycle de Carnot} avec une quantité de masse prisonnière dans un cylindre à laquelle l’on fait subir quatre transformations (\cref{fig_carnot_quatre_etapes}). Elle évolue ainsi entre les températures $T_H$ (source «~chaude~» à haute température) et~$T_B$ (source «~froide~» à basse température), pour développer un travail net :
 
 		\begin{itemize}
 
@@ -304,7 +304,7 @@
 
 				Dans cette dernière étape, nous souhaitons rejeter une quantité $Q_{TB}$ de chaleur dans le puits à basse température.
 				
-				En 4, le fluide est à température basse $T_B$. Pour le ramener à son volume initial, il faut lui retirer de la chaleur. Nous procédons à un refroidissement isotherme a lieu : le piston est avancé progressivement, et la température du fluide est maintenue constante à~$T_B$.
+				En 4, le fluide est à température basse $T_B$. Pour le ramener à son volume initial, il faut lui retirer de la chaleur. Nous procédons à un refroidissement isotherme : le piston est avancé progressivement, et la température du fluide est maintenue constante à~$T_B$.
 
 				Cette phase est consommatrice de travail ($W_{4 \to 1} > 0$).
 
@@ -335,7 +335,7 @@
 		\end{landscape}
 
 
-		Le cycle du moteur de Carnot peut être tracé sur un diagramme pression-volume (comme par exemple en \cref{fig_p-v_gp_carnot} avec un gaz parfait). On observe notamment que les phases de compression se font à plus basses pression et volume que les phases de détente : le cycle est producteur de travail. Comme toutes les évolutions sont réversibles, l’aire circonscrite dans le parcours 1-2-3-4-1 représente la quantité de travail net $W_\net$ produite.
+		Le cycle du moteur de Carnot peut être tracé sur un diagramme pression-volume (comme par exemple en \cref{fig_p-v_gp_carnot} avec un gaz parfait). On observe notamment que les phases de compression se déroulent à une pression et un volume plus bas que les phases de détente : le cycle est producteur de travail. Comme toutes les évolutions sont réversibles, l’aire circonscrite dans le parcours 1-2-3-4-1 représente la quantité de travail net $W_\net$ produite.
 
 		\begin{figure}[htc]%handmade
 			\begin{center}
@@ -367,7 +367,7 @@
 						\begin{remark}Promesse tenue : nous avions étudié les transformations isothermes aux sections \S\ref{ch_gp_isothermes} et \S\ref{ch_lv_isothermes} précisément pour pouvoir nous en servir ici…\end{remark}
 				 		\begin{remark}Le choix de la pression $p_3$ ou de son volume correspondant $v_3$ est entièrement arbitraire et il n’affecte aucun des résultats obtenus ici.\end{remark}
 				 	Nous procédons à la détente du gaz, de façon à récupérer autant de travail que possible et faire chuter sa température ($3 \to 4$). L’évolution est adiabatique réversible, ainsi $w_{3\to 4} = c_v \ \Delta T = -w_{1\to 2} = \SI{-502,5}{\joule\per\kilogram}$ et $q_{3\to 4} = 0$. Avec l’\cref{eq_isentropique_horrible2} nous obtenons la pression finale : $p_4 = p_3 \left(\frac{T_4}{T_3}\right)^{\frac{\gamma}{\gamma - 1}} = \SI{0,2}{\bar}$.
-				 		\begin{remark}Le travail récupéré de~3 à~4 est exactement opposé à celui investi de~1 à~2. Dans un cycle de Carnot, c’est pendant les transferts de chaleur que les travaux résultent en la production d’un travail net.\end{remark}
+				 		\begin{remark}Le travail récupéré de~3 à~4 est exactement opposé à celui investi de~1 à~2. Dans un cycle de Carnot, c’est pendant les transferts de chaleur que les travaux aboutissent la production d’un travail net.\end{remark}
 				 	Enfin, pour ramener le fluide à son état initial (\S\ref{ch_construction_cycle}), il faut refroidir le gaz ($4 \to 1$). Ce refroidissement est à température constante, ainsi  $q_{4 \to 1} 
 				 	= - R \ T_4 \ln\left(\frac{p_1}{p_4}\right)
 				 	= \SI{-170,2}{\kilo\joule\per\kilogram}$ (\ref{eq_gp_travail_isotherme_sf2}, une perte par le gaz) et le travail est de $w_{4 \to 1} = - q_{4 \to 1} = \SI{+170,2}{\kilo\joule\per\kilogram}$ (\ref{eq_gp_chaleur_isotherme_sf}, une réception par le gaz).

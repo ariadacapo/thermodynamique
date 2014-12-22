@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  19 DEC 2014 17:19
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  21 DEC 2014 17:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8,7 +8,7 @@ entering extended mode
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, fr
 ench, basque, monogreek, greek, ibycus, ancientgreek, loaded.
-(/home/olivier/aero/global/publishing/latex/sty/framatexclass.cls
+(./styles thermo/framaquette-thermo/framatexclass.cls
 Document Class: framatexclass 2008/11/06
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
@@ -891,7 +891,7 @@ LaTeX Font Info:    Redeclaring font encoding LGR on input line 197.
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(/home/olivier/aero/global/publishing/latex/sty/framaquette-thermo/picins.sty
+(./styles thermo/framaquette-thermo/picins.sty
 Option `picins' Version 3.0 Sep. 1992, TH Darmstadt/HRZ
 \@BILD=\box28
 \@TEXT=\box29
@@ -1291,7 +1291,7 @@ Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
 \epigraphwidth=\skip70
 \epigraphrule=\skip71
 )
-(/home/olivier/aero/global/publishing/latex/sty/framatex_entete_titres.sty
+(./styles thermo/framaquette-thermo/framatex_entete_titres.sty
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip72
 \f@ncyO@elh=\skip73
@@ -1310,8 +1310,7 @@ Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
 \subsubsubsectiontitleindent=\skip84
 \subsubsubsubsectiontitleindent=\skip85
 
-(/home/olivier/aero/global/publishing/latex/sty/framaquette-thermo/fncychapleo.
-sty
+(./styles thermo/framaquette-thermo/fncychapleo.sty
 Package: fncychapleo 1997/04/06 v1.11 LaTeX package (Revised chapters)
 \RW=\skip86
 \mylen=\skip87
@@ -1322,7 +1321,8 @@ Package: fncychapleo 1997/04/06 v1.11 LaTeX package (Revised chapters)
 \pxx=\skip92
 )
 LaTeX Font Info:    Try loading font information for T1+pbk on input line 124.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pbk.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pbk.fd
 File: t1pbk.fd 2001/06/04 font definitions for T1/pbk.
 )
 
@@ -5230,117 +5230,117 @@ Package pdftex.def Info: images/pv_liquidevapeur.png used on input line 211.
 File: images/taza_azul.jpg Graphic file (type jpg)
 
 <use images/taza_azul.jpg>
-Package pdftex.def Info: images/taza_azul.jpg used on input line 243.
+Package pdftex.def Info: images/taza_azul.jpg used on input line 244.
 (pdftex.def)             Requested size: 170.71652pt x 155.91615pt.
  [131 <./5/images/pv_liquidevapeur.png>] [132 <./5/images/taza_azul.jpg>]
-Underfull \hbox (badness 1701) in paragraph at lines 258--261
+Underfull \hbox (badness 1701) in paragraph at lines 259--262
 \T1/fxl/m/n/8 les choses se pas-saient dans la
  []
 
 LaTeX Font Info:    Font shape `TS1/fxl/m/n' will be
-(Font)              scaled to size 10.0pt on input line 322.
+(Font)              scaled to size 10.0pt on input line 323.
 [133]
-Package mdframed Info: mdframed works in twoside mode on input line 329.
-File: images/hand.png Graphic file (type png)
- <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 333.
-(pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
+Package mdframed Info: mdframed works in twoside mode on input line 330.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
 Package pdftex.def Info: images/hand.png used on input line 334.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
- [134]
-Package mdframed Info: mdframed works in twoside mode on input line 337.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 344.
+Package pdftex.def Info: images/hand.png used on input line 335.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
-Package mdframed Info: Not enough space on this page on input line 345.
-Package mdframed Info: mdframed works in twoside mode on input line 347.
+ [134]
+Package mdframed Info: mdframed works in twoside mode on input line 338.
+File: images/hand.png Graphic file (type png)
+ <use images/hand.png>
+Package pdftex.def Info: images/hand.png used on input line 345.
+(pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
+Package mdframed Info: Not enough space on this page on input line 346.
+Package mdframed Info: mdframed works in twoside mode on input line 348.
 File: images/hand.png Graphic file (type png)
 
 <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 354.
-(pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
-File: images/hand.png Graphic file (type png)
- <use images/hand.png>
 Package pdftex.def Info: images/hand.png used on input line 355.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
 Package pdftex.def Info: images/hand.png used on input line 356.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
-Package mdframed Info: mdframed works in twoside mode on input line 360.
+File: images/hand.png Graphic file (type png)
+ <use images/hand.png>
+Package pdftex.def Info: images/hand.png used on input line 357.
+(pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
+Package mdframed Info: mdframed works in twoside mode on input line 361.
 File: images/hand.png Graphic file (type png)
 
 <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 366.
+Package pdftex.def Info: images/hand.png used on input line 367.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
  [135] [136]
-Package mdframed Info: mdframed works in twoside mode on input line 445.
+Package mdframed Info: mdframed works in twoside mode on input line 446.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 451.
+Package pdftex.def Info: images/hand.png used on input line 452.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
-Package mdframed Info: mdframed works in twoside mode on input line 456.
+Package mdframed Info: mdframed works in twoside mode on input line 457.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 463.
+Package pdftex.def Info: images/hand.png used on input line 464.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
-Package mdframed Info: mdframed works in twoside mode on input line 466.
+Package mdframed Info: mdframed works in twoside mode on input line 467.
 File: images/hand.png Graphic file (type png)
 
 <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 476.
+Package pdftex.def Info: images/hand.png used on input line 477.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
  [137]
-Package mdframed Info: mdframed works in twoside mode on input line 490.
+Package mdframed Info: mdframed works in twoside mode on input line 491.
 
 <images/titre_tv_v1.png, id=1939, 956.00641pt x 749.40848pt>
 File: images/titre_tv_v1.png Graphic file (type png)
 
 <use images/titre_tv_v1.png>
-Package pdftex.def Info: images/titre_tv_v1.png used on input line 498.
+Package pdftex.def Info: images/titre_tv_v1.png used on input line 499.
 (pdftex.def)             Requested size: 284.52756pt x 223.0404pt.
  [138 <./5/images/titre_tv_v1.png>]
 <images/titre_tv_h.png, id=1950, 956.00641pt x 749.40848pt>
 File: images/titre_tv_h.png Graphic file (type png)
 
 <use images/titre_tv_h.png>
-Package pdftex.def Info: images/titre_tv_h.png used on input line 524.
+Package pdftex.def Info: images/titre_tv_h.png used on input line 525.
 (pdftex.def)             Requested size: 284.52756pt x 223.0404pt.
  [139 <./5/images/titre_tv_h.png>]
 <images/titre_tv_v2.png, id=1963, 956.00641pt x 749.40848pt>
 File: images/titre_tv_v2.png Graphic file (type png)
 
 <use images/titre_tv_v2.png>
-Package pdftex.def Info: images/titre_tv_v2.png used on input line 568.
+Package pdftex.def Info: images/titre_tv_v2.png used on input line 569.
 (pdftex.def)             Requested size: 284.52756pt x 223.0404pt.
  [140 <./5/images/titre_tv_v2.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 581.
-Package mdframed Info: mdframed works in twoside mode on input line 593.
+Package mdframed Info: mdframed works in twoside mode on input line 582.
+Package mdframed Info: mdframed works in twoside mode on input line 594.
 File: images/hand.png Graphic file (type png)
 
 <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 600.
+Package pdftex.def Info: images/hand.png used on input line 601.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
  [141]
-Underfull \hbox (badness 2237) in paragraph at lines 627--629
+Underfull \hbox (badness 2237) in paragraph at lines 628--630
 \T1/fxl/m/n/8 quan-ti-tés de cha-leur au moyen
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 627--629
+Underfull \hbox (badness 1642) in paragraph at lines 628--630
 \T1/fxl/m/n/8 du foyer, ja-mais la tem-pé-ra-ture
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 627--629
+Underfull \hbox (badness 1142) in paragraph at lines 628--630
 \T1/fxl/m/n/8 de l'eau, non plus que celle de
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 627--629
+Underfull \hbox (badness 1383) in paragraph at lines 628--630
 \T1/fxl/m/n/8 100\TS1/fxl/m/n/8 ° \T1/fxl/m/n/8 du ther-mo-mètre cen-ti-grade,
  []
 
@@ -5348,89 +5348,89 @@ Underfull \hbox (badness 1383) in paragraph at lines 627--629
 File: images/lv_isobare.png Graphic file (type png)
 
 <use images/lv_isobare.png>
-Package pdftex.def Info: images/lv_isobare.png used on input line 640.
+Package pdftex.def Info: images/lv_isobare.png used on input line 641.
 (pdftex.def)             Requested size: 312.9803pt x 265.91017pt.
 
 <images/pv_lv_isobare.png, id=1996, 956.00641pt x 749.40848pt>
 File: images/pv_lv_isobare.png Graphic file (type png)
 
 <use images/pv_lv_isobare.png>
-Package pdftex.def Info: images/pv_lv_isobare.png used on input line 648.
+Package pdftex.def Info: images/pv_lv_isobare.png used on input line 649.
 (pdftex.def)             Requested size: 227.62204pt x 178.43233pt.
  [142 <./5/images/lv_isobare.png>] [143 <./5/images/pv_lv_isobare.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 689.
-File: images/hand.png Graphic file (type png)
- <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 695.
-(pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
+Package mdframed Info: mdframed works in twoside mode on input line 690.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
 Package pdftex.def Info: images/hand.png used on input line 696.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
+File: images/hand.png Graphic file (type png)
+ <use images/hand.png>
+Package pdftex.def Info: images/hand.png used on input line 697.
+(pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 LaTeX Font Info:    Font shape `TS1/fxl/m/n' will be
-(Font)              scaled to size 10.95pt on input line 696.
+(Font)              scaled to size 10.95pt on input line 697.
 File: images/hand.png Graphic file (type png)
 
 <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 705.
+Package pdftex.def Info: images/hand.png used on input line 706.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 706.
+Package pdftex.def Info: images/hand.png used on input line 707.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
-Package mdframed Info: Not enough space on this page on input line 707.
+Package mdframed Info: Not enough space on this page on input line 708.
 
 <images/lv_isochore.png, id=2026, 785.85486pt x 830.12837pt>
 File: images/lv_isochore.png Graphic file (type png)
 
 <use images/lv_isochore.png>
-Package pdftex.def Info: images/lv_isochore.png used on input line 723.
+Package pdftex.def Info: images/lv_isochore.png used on input line 724.
 (pdftex.def)             Requested size: 227.62204pt x 240.43973pt.
  [144]
 <images/pv_lv_isochore.png, id=2034, 956.00641pt x 749.40848pt>
 File: images/pv_lv_isochore.png Graphic file (type png)
 
 <use images/pv_lv_isochore.png>
-Package pdftex.def Info: images/pv_lv_isochore.png used on input line 731.
+Package pdftex.def Info: images/pv_lv_isochore.png used on input line 732.
 (pdftex.def)             Requested size: 227.62204pt x 178.43233pt.
  [145 <./5/images/lv_isochore.png>]
 <images/lv_isotherme.png, id=2046, 1073.6327pt x 1027.40594pt>
 File: images/lv_isotherme.png Graphic file (type png)
 
 <use images/lv_isotherme.png>
-Package pdftex.def Info: images/lv_isotherme.png used on input line 787.
+Package pdftex.def Info: images/lv_isotherme.png used on input line 788.
 (pdftex.def)             Requested size: 312.9803pt x 299.49211pt.
 
 <images/pv_lv_isotherme.png, id=2049, 956.00641pt x 749.40848pt>
 File: images/pv_lv_isotherme.png Graphic file (type png)
 
 <use images/pv_lv_isotherme.png>
-Package pdftex.def Info: images/pv_lv_isotherme.png used on input line 795.
+Package pdftex.def Info: images/pv_lv_isotherme.png used on input line 796.
 (pdftex.def)             Requested size: 227.62204pt x 178.43233pt.
  [146 <./5/images/pv_lv_isochore.png>] [147 <./5/images/lv_isotherme.png> <./5/
 images/pv_lv_isotherme.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 809.
+Package mdframed Info: mdframed works in twoside mode on input line 810.
 File: images/hand.png Graphic file (type png)
 
 <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 818.
+Package pdftex.def Info: images/hand.png used on input line 819.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
-Package mdframed Info: mdframed works in twoside mode on input line 822.
-File: images/hand.png Graphic file (type png)
- <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 831.
-(pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
+Package mdframed Info: mdframed works in twoside mode on input line 823.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
 Package pdftex.def Info: images/hand.png used on input line 832.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
+File: images/hand.png Graphic file (type png)
+ <use images/hand.png>
+Package pdftex.def Info: images/hand.png used on input line 833.
+(pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
  [148]
-Underfull \hbox (badness 1466) in paragraph at lines 843--845
+Underfull \hbox (badness 1466) in paragraph at lines 844--846
 \T1/fxl/m/n/8 ma-nière dé-place une par-tie mo-
  []
 
 
-Underfull \hbox (badness 1226) in paragraph at lines 843--845
+Underfull \hbox (badness 1226) in paragraph at lines 844--846
 \T1/fxl/m/n/8 par exemple un pis-ton, avec sa
  []
 
@@ -5438,14 +5438,14 @@ Underfull \hbox (badness 1226) in paragraph at lines 843--845
 File: images/lv_isentropique.png Graphic file (type png)
 
 <use images/lv_isentropique.png>
-Package pdftex.def Info: images/lv_isentropique.png used on input line 853.
+Package pdftex.def Info: images/lv_isentropique.png used on input line 854.
 (pdftex.def)             Requested size: 227.62204pt x 294.9394pt.
 
 <images/pv_lv_isentropique.png, id=2087, 956.00641pt x 749.40848pt>
 File: images/pv_lv_isentropique.png Graphic file (type png)
 
 <use images/pv_lv_isentropique.png>
-Package pdftex.def Info: images/pv_lv_isentropique.png used on input line 861.
+Package pdftex.def Info: images/pv_lv_isentropique.png used on input line 862.
 (pdftex.def)             Requested size: 227.62204pt x 178.43233pt.
  [149] [150 <./5/images/lv_isentropique.png> <./5/images/pv_lv_isentropique.png
 >]
@@ -5453,7 +5453,7 @@ Package pdftex.def Info: images/pv_lv_isentropique.png used on input line 861.
 File: images/pv_lv_moustache.png Graphic file (type png)
 
 <use images/pv_lv_moustache.png>
-Package pdftex.def Info: images/pv_lv_moustache.png used on input line 915.
+Package pdftex.def Info: images/pv_lv_moustache.png used on input line 916.
 (pdftex.def)             Requested size: 227.62204pt x 178.47232pt.
 ) (./5/contenu_histoire_watt.tex [151] [152 <./5/images/pv_lv_moustache.png>]
 <images/Newcomen6325.png, id=2121, 127.77336pt x 169.68996pt>
@@ -5780,7 +5780,7 @@ File: images/refrigerateur_climatiseur_thermopompe_so_soupape.png Graphic file
 
 <use images/refrigerateur_climatiseur_thermopompe_so_soupape.png>
 Package pdftex.def Info: images/refrigerateur_climatiseur_thermopompe_so_soupap
-e.png used on input line 122.
+e.png used on input line 123.
 (pdftex.def)             Requested size: 398.33861pt x 270.13844pt.
  [172 <./6/images/refrigerateur_climatiseur_thermopompe_sf.png>]
 <images/agencement_thermopompe.png, id=2391, 950.1096pt x 585.8688pt>
@@ -5788,7 +5788,7 @@ File: images/agencement_thermopompe.png Graphic file (type png)
 
 <use images/agencement_thermopompe.png>
 Package pdftex.def Info: images/agencement_thermopompe.png used on input line 1
-40.
+41.
 (pdftex.def)             Requested size: 398.33861pt x 245.62517pt.
 
 <images/agencement_refrigerateur_climatiseur.png, id=2394, 950.1096pt x 601.286
@@ -5796,7 +5796,7 @@ Package pdftex.def Info: images/agencement_thermopompe.png used on input line 1
 File: images/agencement_refrigerateur_climatiseur.png Graphic file (type png)
  <use images/agencement_refrigerateur_climatiseur.png>
 Package pdftex.def Info: images/agencement_refrigerateur_climatiseur.png used o
-n input line 148.
+n input line 149.
 (pdftex.def)             Requested size: 398.33861pt x 252.08899pt.
  [173 <./6/images/refrigerateur_climatiseur_thermopompe_so_soupape.png>] [174 <
 ./6/images/agencement_thermopompe.png> <./6/images/agencement_refrigerateur_cli
@@ -5807,7 +5807,7 @@ File: images/agencement_thermopompe_climatiseur_inversable.png Graphic file (ty
 pe png)
  <use images/agencement_thermopompe_climatiseur_inversable.png>
 Package pdftex.def Info: images/agencement_thermopompe_climatiseur_inversable.p
-ng used on input line 159.
+ng used on input line 160.
 (pdftex.def)             Requested size: 398.33861pt x 225.82973pt.
 
 [175 <./6/images/agencement_thermopompe_climatiseur_inversable.png>]
@@ -5815,16 +5815,16 @@ ng used on input line 159.
 File: images/efficacite_moteur.png Graphic file (type png)
 
 <use images/efficacite_moteur.png>
-Package pdftex.def Info: images/efficacite_moteur.png used on input line 184.
+Package pdftex.def Info: images/efficacite_moteur.png used on input line 185.
 (pdftex.def)             Requested size: 214.44601pt x 284.52756pt.
-Package mdframed Info: mdframed works in twoside mode on input line 198.
-File: images/hand.png Graphic file (type png)
- <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 203.
-(pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
+Package mdframed Info: mdframed works in twoside mode on input line 199.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
 Package pdftex.def Info: images/hand.png used on input line 204.
+(pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
+File: images/hand.png Graphic file (type png)
+ <use images/hand.png>
+Package pdftex.def Info: images/hand.png used on input line 205.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 
 [176] [177 <./6/images/efficacite_moteur.png>]
@@ -5833,32 +5833,32 @@ Package pdftex.def Info: images/hand.png used on input line 204.
 File: images/efficacite_refrigerateur_climatiseur.png Graphic file (type png)
  <use images/efficacite_refrigerateur_climatiseur.png>
 Package pdftex.def Info: images/efficacite_refrigerateur_climatiseur.png used o
-n input line 225.
+n input line 226.
 (pdftex.def)             Requested size: 201.82079pt x 284.52756pt.
  [178 <./6/images/efficacite_refrigerateur_climatiseur.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 238.
+Package mdframed Info: mdframed works in twoside mode on input line 239.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 243.
+Package pdftex.def Info: images/hand.png used on input line 244.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 File: images/hand.png Graphic file (type png)
 
 <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 244.
+Package pdftex.def Info: images/hand.png used on input line 245.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
-Package mdframed Info: Not enough space on this page on input line 246.
+Package mdframed Info: Not enough space on this page on input line 247.
 
 <images/efficacite_thermopompe.png, id=2456, 373.45102pt x 522.69698pt>
 File: images/efficacite_thermopompe.png Graphic file (type png)
 
 <use images/efficacite_thermopompe.png>
 Package pdftex.def Info: images/efficacite_thermopompe.png used on input line 2
-65.
+66.
 (pdftex.def)             Requested size: 203.28459pt x 284.52756pt.
-Package mdframed Info: mdframed works in twoside mode on input line 278.
+Package mdframed Info: mdframed works in twoside mode on input line 279.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 283.
+Package pdftex.def Info: images/hand.png used on input line 284.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
  [179]) [180 <./6/images/efficacite_thermopompe.png>]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -6351,29 +6351,29 @@ Package pdftex.def Info: images/hand.png used on input line 370.
 File: images/hand.png Graphic file (type png)
 
 <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 374.
-(pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
-File: images/hand.png Graphic file (type png)
- <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 382.
+Package pdftex.def Info: images/hand.png used on input line 375.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
 Package pdftex.def Info: images/hand.png used on input line 383.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 File: images/hand.png Graphic file (type png)
+ <use images/hand.png>
+Package pdftex.def Info: images/hand.png used on input line 384.
+(pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
+File: images/hand.png Graphic file (type png)
 
 <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 388.
+Package pdftex.def Info: images/hand.png used on input line 389.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 389.
+Package pdftex.def Info: images/hand.png used on input line 390.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 Package mdframed Info: Box was splittet wrong
-(mdframed)              on input line 391.
+(mdframed)              on input line 392.
 Package mdframed Info: Box was splittet wrong
-(mdframed)              on input line 391.
+(mdframed)              on input line 392.
  [205
 
 
@@ -6387,15 +6387,15 @@ File: images/carnot_pv_gp_refrigerateur.png Graphic file (type png)
 
 <use images/carnot_pv_gp_refrigerateur.png>
 Package pdftex.def Info: images/carnot_pv_gp_refrigerateur.png used on input li
-ne 409.
+ne 410.
 (pdftex.def)             Requested size: 284.52756pt x 282.14992pt.
  [208] [209 <./7/images/carnot_pv_gp_refrigerateur.png>] [210]
-Underfull \hbox (badness 1354) in paragraph at lines 470--472
+Underfull \hbox (badness 1354) in paragraph at lines 471--473
 \T1/fxl/m/n/8 port à l'autre en pro-por-tion de
  []
 
 
-Underfull \hbox (badness 5091) in paragraph at lines 470--472
+Underfull \hbox (badness 5091) in paragraph at lines 471--473
 \T1/fxl/m/n/8 je-tée dans un mo-teur thermo-
  []
 
@@ -6403,53 +6403,49 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.7.4.
 4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.474 		\begin{equation}
+l.475 		\begin{equation}
                         pdfTeX warning (ext4): destination with the same identi
 fier (name{equation.7.4.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.474 		\begin{equation}
+l.475 		\begin{equation}
                         pdfTeX warning (ext4): destination with the same identi
 fier (name{equation.7.4.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.474 		\begin{equation}
+l.475 		\begin{equation}
                         pdfTeX warning (ext4): destination with the same identi
 fier (name{equation.7.4.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.474 		\begin{equation}
+l.475 		\begin{equation}
                         
 <images/echelle_temperature_kelvin.png, id=2927, 656.53732pt x 778.17487pt>
 File: images/echelle_temperature_kelvin.png Graphic file (type png)
 
 <use images/echelle_temperature_kelvin.png>
 Package pdftex.def Info: images/echelle_temperature_kelvin.png used on input li
-ne 486.
+ne 487.
 (pdftex.def)             Requested size: 284.52756pt x 337.23282pt.
-Package mdframed Info: mdframed works in twoside mode on input line 494.
+Package mdframed Info: mdframed works in twoside mode on input line 495.
  [211] [212 <./7/images/echelle_temperature_kelvin.png>]
-Underfull \hbox (badness 3009) in paragraph at lines 511--513
+Underfull \hbox (badness 3009) in paragraph at lines 512--514
 [][] \T1/fxl/m/n/8 Cette conven-tion par-ti-cu-
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 525.
+Package mdframed Info: mdframed works in twoside mode on input line 526.
 File: images/hand.png Graphic file (type png)
 <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 531.
+Package pdftex.def Info: images/hand.png used on input line 532.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
  [213] [214pdfTeX warning (ext4): destination with the same identifier (name{eq
 uation.7.5.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.576 
+l.577 
       ]
-Package mdframed Info: mdframed works in twoside mode on input line 587.
-File: images/hand.png Graphic file (type png)
- <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 592.
-(pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
+Package mdframed Info: mdframed works in twoside mode on input line 588.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
 Package pdftex.def Info: images/hand.png used on input line 593.
@@ -6458,21 +6454,25 @@ File: images/hand.png Graphic file (type png)
  <use images/hand.png>
 Package pdftex.def Info: images/hand.png used on input line 594.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
-
-[215]
-Package mdframed Info: mdframed works in twoside mode on input line 621.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 627.
+Package pdftex.def Info: images/hand.png used on input line 595.
+(pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
+
+[215]
+Package mdframed Info: mdframed works in twoside mode on input line 622.
+File: images/hand.png Graphic file (type png)
+ <use images/hand.png>
+Package pdftex.def Info: images/hand.png used on input line 628.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
  [216pdfTeX warning (ext4): destination with the same identifier (name{equation
 .7.5.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.636 		\end{equation}
+l.637 		\end{equation}
                       ]
-Package mdframed Info: mdframed works in twoside mode on input line 653.
+Package mdframed Info: mdframed works in twoside mode on input line 654.
 ) [217pdfTeX warning (ext4): destination with the same identifier (name{equatio
 n.7.5.8}) has been already used, duplicate ignored
 
@@ -6788,15 +6788,11 @@ Package pdftex.def Info: images/hand.png used on input line 111.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 112.
+Package pdftex.def Info: images/hand.png used on input line 113.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 File: images/hand.png Graphic file (type png)
 
 <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 123.
-(pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
-File: images/hand.png Graphic file (type png)
- <use images/hand.png>
 Package pdftex.def Info: images/hand.png used on input line 124.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 File: images/hand.png Graphic file (type png)
@@ -6804,19 +6800,23 @@ File: images/hand.png Graphic file (type png)
 Package pdftex.def Info: images/hand.png used on input line 125.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 File: images/hand.png Graphic file (type png)
-
-<use images/hand.png>
+ <use images/hand.png>
 Package pdftex.def Info: images/hand.png used on input line 126.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
+File: images/hand.png Graphic file (type png)
+
+<use images/hand.png>
+Package pdftex.def Info: images/hand.png used on input line 127.
+(pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 Package mdframed Info: Box was splittet wrong
-(mdframed)              on input line 128.
+(mdframed)              on input line 129.
  [227] [228]
 <images/pv_reversible_irreversible.png, id=3193, 915.15816pt x 897.09065pt>
 File: images/pv_reversible_irreversible.png Graphic file (type png)
 
 <use images/pv_reversible_irreversible.png>
 Package pdftex.def Info: images/pv_reversible_irreversible.png used on input li
-ne 177.
+ne 178.
 (pdftex.def)             Requested size: 227.62204pt x 223.12227pt.
  [229 <./8/images/pv_reversible_irreversible.png>]
 <images/ts_reversible_irreversible.png, id=3206, 903.375pt x 904.19624pt>
@@ -6824,49 +6824,49 @@ File: images/ts_reversible_irreversible.png Graphic file (type png)
 
 <use images/ts_reversible_irreversible.png>
 Package pdftex.def Info: images/ts_reversible_irreversible.png used on input li
-ne 206.
+ne 207.
 (pdftex.def)             Requested size: 227.62204pt x 227.82831pt.
  [230 <./8/images/ts_reversible_irreversible.png>] <images/ts_basics_1.png, id=
 3217, 623.91367pt x 616.63467pt>
 File: images/ts_basics_1.png Graphic file (type png)
 
 <use images/ts_basics_1.png>
-Package pdftex.def Info: images/ts_basics_1.png used on input line 221.
+Package pdftex.def Info: images/ts_basics_1.png used on input line 222.
 (pdftex.def)             Requested size: 187.21962pt x 185.02946pt.
 
 <images/ts_basics_2.png, id=3218, 623.91367pt x 616.63467pt>
 File: images/ts_basics_2.png Graphic file (type png)
 
 <use images/ts_basics_2.png>
-Package pdftex.def Info: images/ts_basics_2.png used on input line 222.
+Package pdftex.def Info: images/ts_basics_2.png used on input line 223.
 (pdftex.def)             Requested size: 187.21962pt x 185.02946pt.
  [231 <./8/images/ts_basics_1.png> <./8/images/ts_basics_2.png>] <images/ts_cyc
 le.png, id=3230, 903.375pt x 905.63344pt>
 File: images/ts_cycle.png Graphic file (type png)
 
 <use images/ts_cycle.png>
-Package pdftex.def Info: images/ts_cycle.png used on input line 239.
+Package pdftex.def Info: images/ts_cycle.png used on input line 244.
 (pdftex.def)             Requested size: 227.62204pt x 228.19043pt.
  [232 <./8/images/ts_cycle.png>]
 <images/pv_carnot_gp.png, id=3239, 903.375pt x 895.84688pt>
 File: images/pv_carnot_gp.png Graphic file (type png)
 
 <use images/pv_carnot_gp.png>
-Package pdftex.def Info: images/pv_carnot_gp.png used on input line 250.
+Package pdftex.def Info: images/pv_carnot_gp.png used on input line 255.
 (pdftex.def)             Requested size: 195.1881pt x 193.56018pt.
 
 <images/pv_carnot_lv.png, id=3240, 903.375pt x 905.63344pt>
 File: images/pv_carnot_lv.png Graphic file (type png)
 
 <use images/pv_carnot_lv.png>
-Package pdftex.def Info: images/pv_carnot_lv.png used on input line 251.
+Package pdftex.def Info: images/pv_carnot_lv.png used on input line 256.
 (pdftex.def)             Requested size: 195.1881pt x 195.67471pt.
 
 <images/ts_carnot.png, id=3241, 903.375pt x 905.63344pt>
 File: images/ts_carnot.png Graphic file (type png)
 
 <use images/ts_carnot.png>
-Package pdftex.def Info: images/ts_carnot.png used on input line 254.
+Package pdftex.def Info: images/ts_carnot.png used on input line 259.
 (pdftex.def)             Requested size: 227.62204pt x 228.19043pt.
  [233 <./8/images/pv_carnot_gp.png> <./8/images/pv_carnot_lv.png> <./8/images/t
 s_carnot.png>] [234]
@@ -6875,141 +6875,141 @@ File: images/ts_gp_isobares_isochores.png Graphic file (type png)
 
 <use images/ts_gp_isobares_isochores.png>
 Package pdftex.def Info: images/ts_gp_isobares_isochores.png used on input line
- 315.
+ 320.
 (pdftex.def)             Requested size: 284.52756pt x 285.23459pt.
  [235 <./8/images/ts_gp_isobares_isochores.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 322.
+Package mdframed Info: mdframed works in twoside mode on input line 327.
  <images/exe_ts_1.png, id=3288, 274.17897pt x 267.47351pt>
 File: images/exe_ts_1.png Graphic file (type png)
 
 <use images/exe_ts_1.png>
-Package pdftex.def Info: images/exe_ts_1.png used on input line 327.
+Package pdftex.def Info: images/exe_ts_1.png used on input line 332.
 (pdftex.def)             Requested size: 113.81102pt x 111.028pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 329.
+Package pdftex.def Info: images/hand.png used on input line 334.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 330.
+Package pdftex.def Info: images/hand.png used on input line 335.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
-Package mdframed Info: Not enough space on this page on input line 331.
-Package mdframed Info: mdframed works in twoside mode on input line 334.
+Package mdframed Info: Not enough space on this page on input line 336.
+Package mdframed Info: mdframed works in twoside mode on input line 339.
 
 <images/exe_ts_2.png, id=3291, 274.92403pt x 267.47351pt>
 File: images/exe_ts_2.png Graphic file (type png)
 
 <use images/exe_ts_2.png>
-Package pdftex.def Info: images/exe_ts_2.png used on input line 339.
+Package pdftex.def Info: images/exe_ts_2.png used on input line 344.
 (pdftex.def)             Requested size: 113.81102pt x 110.72598pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 344.
+Package pdftex.def Info: images/hand.png used on input line 349.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
  [236 <./8/images/exe_ts_1.png> <./8/images/exe_ts_2.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 347.
+Package mdframed Info: mdframed works in twoside mode on input line 352.
 
 <images/exe_ts_3.png, id=3302, 263.00319pt x 267.47351pt>
 File: images/exe_ts_3.png Graphic file (type png)
 
 <use images/exe_ts_3.png>
-Package pdftex.def Info: images/exe_ts_3.png used on input line 352.
+Package pdftex.def Info: images/exe_ts_3.png used on input line 357.
 (pdftex.def)             Requested size: 113.81102pt x 115.74599pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 363.
+Package pdftex.def Info: images/hand.png used on input line 368.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
  [237 <./8/images/exe_ts_3.png>] <images/ts_lv.png, id=3314, 963.6pt x 745.987p
 t>
 File: images/ts_lv.png Graphic file (type png)
  <use images/ts_lv.png>
-Package pdftex.def Info: images/ts_lv.png used on input line 374.
+Package pdftex.def Info: images/ts_lv.png used on input line 379.
 (pdftex.def)             Requested size: 284.52756pt x 220.26915pt.
 pdfTeX warning (ext4): destination with the same identifier (name{equation.8.3.
 14}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.435 		\begin{equation}
+l.440 		\begin{equation}
                         pdfTeX warning (ext4): destination with the same identi
 fier (name{equation.8.3.14}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.435 		\begin{equation}
+l.440 		\begin{equation}
                         pdfTeX warning (ext4): destination with the same identi
 fier (name{equation.8.3.14}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.435 		\begin{equation}
+l.440 		\begin{equation}
                         pdfTeX warning (ext4): destination with the same identi
 fier (name{equation.8.3.14}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.435 		\begin{equation}
+l.440 		\begin{equation}
                          [238 <./8/images/ts_lv.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 441.
+Package mdframed Info: mdframed works in twoside mode on input line 446.
 
 <images/exe_ts_4.png, id=3329, 263.00319pt x 267.47351pt>
 File: images/exe_ts_4.png Graphic file (type png)
 
 <use images/exe_ts_4.png>
-Package pdftex.def Info: images/exe_ts_4.png used on input line 446.
+Package pdftex.def Info: images/exe_ts_4.png used on input line 451.
 (pdftex.def)             Requested size: 113.81102pt x 115.74599pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 451.
+Package pdftex.def Info: images/hand.png used on input line 456.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
-Package mdframed Info: Not enough space on this page on input line 452.
+Package mdframed Info: Not enough space on this page on input line 457.
  [239 <./8/images/exe_ts_4.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 455.
+Package mdframed Info: mdframed works in twoside mode on input line 460.
 <images/exe_ts_5.png, id=3337, 263.00319pt x 267.47351pt>
 File: images/exe_ts_5.png Graphic file (type png)
 
 <use images/exe_ts_5.png>
-Package pdftex.def Info: images/exe_ts_5.png used on input line 460.
+Package pdftex.def Info: images/exe_ts_5.png used on input line 465.
 (pdftex.def)             Requested size: 113.81102pt x 115.74599pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 469.
+Package pdftex.def Info: images/hand.png used on input line 474.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
  [240 <./8/images/exe_ts_5.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 473.
+Package mdframed Info: mdframed works in twoside mode on input line 478.
 <images/exe_ts_6.png, id=3345, 263.00319pt x 267.47351pt>
 File: images/exe_ts_6.png Graphic file (type png)
 
 <use images/exe_ts_6.png>
-Package pdftex.def Info: images/exe_ts_6.png used on input line 478.
+Package pdftex.def Info: images/exe_ts_6.png used on input line 483.
 (pdftex.def)             Requested size: 113.81102pt x 115.74599pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 487.
+Package pdftex.def Info: images/hand.png used on input line 492.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 487.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 492.
 
-Package mdframed Info: Not enough space on this page on input line 488.
+Package mdframed Info: Not enough space on this page on input line 493.
 [241 <./8/images/exe_ts_6.png>]
 <images/transfert_chaleur_irreversible.png, id=3357, 409.07547pt x 261.4674pt>
 File: images/transfert_chaleur_irreversible.png Graphic file (type png)
 
 <use images/transfert_chaleur_irreversible.png>
 Package pdftex.def Info: images/transfert_chaleur_irreversible.png used on inpu
-t line 508.
+t line 513.
 (pdftex.def)             Requested size: 227.62204pt x 145.49115pt.
  [242 <./8/images/transfert_chaleur_irreversible.png>]
 <images/ts_echange_chaleur.png, id=3371, 932.51613pt x 899.87807pt>
 File: images/ts_echange_chaleur.png Graphic file (type png)
 
 <use images/ts_echange_chaleur.png>
-Package pdftex.def Info: images/ts_echange_chaleur.png used on input line 535.
+Package pdftex.def Info: images/ts_echange_chaleur.png used on input line 539.
 (pdftex.def)             Requested size: 284.52756pt x 274.56538pt.
 
-Underfull \hbox (badness 1424) in paragraph at lines 542--544
+Underfull \hbox (badness 1424) in paragraph at lines 546--548
 \T1/fxl/m/n/8 est pos-sible de faire naître une
  []
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 542--544
+Underfull \hbox (badness 1087) in paragraph at lines 546--548
 \T1/fxl/m/n/8 dif-fé-rence de tem-pé-ra-ture, il est
  []
 
@@ -7018,21 +7018,21 @@ Underfull \hbox (badness 1087) in paragraph at lines 542--544
 File: images/ts_gp_detente.png Graphic file (type png)
 
 <use images/ts_gp_detente.png>
-Package pdftex.def Info: images/ts_gp_detente.png used on input line 560.
+Package pdftex.def Info: images/ts_gp_detente.png used on input line 565.
 (pdftex.def)             Requested size: 191.20082pt x 191.68106pt.
 
 <images/ts_gp_compression.png, id=3383, 903.375pt x 905.63344pt>
 File: images/ts_gp_compression.png Graphic file (type png)
 
 <use images/ts_gp_compression.png>
-Package pdftex.def Info: images/ts_gp_compression.png used on input line 561.
+Package pdftex.def Info: images/ts_gp_compression.png used on input line 566.
 (pdftex.def)             Requested size: 191.20082pt x 191.68106pt.
  [244 <./8/images/ts_gp_detente.png> <./8/images/ts_gp_compression.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 587.
+Package mdframed Info: mdframed works in twoside mode on input line 593.
  [245]
-Package mdframed Info: mdframed works in twoside mode on input line 616.
+Package mdframed Info: mdframed works in twoside mode on input line 622.
 
-Underfull \hbox (badness 4713) in paragraph at lines 627--628
+Underfull \hbox (badness 4713) in paragraph at lines 633--634
 []\T1/fxl/m/n/12 (+20) La va-ria-tion d'en-tro-pie est égale à l'in-té-grale $[
 ][] [][]$. Avec
  []
@@ -7041,46 +7041,46 @@ Underfull \hbox (badness 4713) in paragraph at lines 627--628
 File: images/exe_ts_7.png Graphic file (type png)
 
 <use images/exe_ts_7.png>
-Package pdftex.def Info: images/exe_ts_7.png used on input line 634.
+Package pdftex.def Info: images/exe_ts_7.png used on input line 640.
 (pdftex.def)             Requested size: 113.81102pt x 115.74599pt.
  [246 <./8/images/exe_ts_7.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 640.
+Package mdframed Info: mdframed works in twoside mode on input line 646.
 
 <images/exe_ts_8.png, id=3416, 263.00319pt x 267.47351pt>
 File: images/exe_ts_8.png Graphic file (type png)
 
 <use images/exe_ts_8.png>
-Package pdftex.def Info: images/exe_ts_8.png used on input line 657.
+Package pdftex.def Info: images/exe_ts_8.png used on input line 663.
 (pdftex.def)             Requested size: 113.81102pt x 115.74599pt.
-Package mdframed Info: Not enough space on this page on input line 662.
+Package mdframed Info: Not enough space on this page on input line 668.
  [247 <./8/images/exe_ts_8.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 682--685
+Underfull \hbox (badness 10000) in paragraph at lines 688--691
 [][] \T1/fxl/m/n/8 J'ai in-ten-tion-nel-le-ment
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 682--685
+Underfull \hbox (badness 1472) in paragraph at lines 688--691
 \T1/fxl/m/n/8 formé le mot []\T1/fxl/m/sl/8 en-tro-pie[] \T1/fxl/m/n/8 de sorte
 
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 682--685
+Underfull \hbox (badness 1622) in paragraph at lines 688--691
 []\T1/fxl/m/sl/8 éner-gie[] \T1/fxl/m/n/8 que pos-sible, parce que
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 682--685
+Underfull \hbox (badness 10000) in paragraph at lines 688--691
 \T1/fxl/m/n/8 les sens phy-siques des deux
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 682--685
+Underfull \hbox (badness 10000) in paragraph at lines 688--691
 \T1/fxl/m/n/8 dans leurs dé-si-gna-tions était
  []
 
 [248]
-Underfull \hbox (badness 1742) in paragraph at lines 705--708
+Underfull \hbox (badness 1742) in paragraph at lines 711--714
 \T1/fxl/m/n/8 vons com-prendre la pro-po-si-tion.
  []
 
@@ -8293,11 +8293,11 @@ Package logreq Info: Writing requests to 'thermodynamique.run.xml'.
 ### simple group (level 1) entered at line 402 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 50426 strings out of 494957
- 848014 string characters out of 3179219
- 1507421 words of memory out of 3000000
+ 50436 strings out of 494957
+ 847915 string characters out of 3179219
+ 1507422 words of memory out of 3000000
  48928 multiletter control sequences out of 15000+200000
- 1542695 words of font info for 2117 fonts, out of 3000000 for 9000
+ 1543545 words of font info for 2125 fonts, out of 3000000 for 9000
  64 hyphenation exceptions out of 8191
  60i,24n,94p,1456b,1902s stack positions out of 5000i,500n,10000p,200000b,50000s
  </home/olivier/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200
@@ -8325,7 +8325,7 @@ blic/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts
 sr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsy7.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on thermodynamique.pdf (352 pages, 21801304 bytes).
+Output written on thermodynamique.pdf (352 pages, 21801439 bytes).
 PDF statistics:
  5132 PDF objects out of 5155 (max. 8388607)
  1552 named destinations out of 1728 (max. 500000)
