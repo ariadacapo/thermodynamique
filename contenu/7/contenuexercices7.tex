@@ -17,7 +17,7 @@
 
 	Quelle est l’efficacité maximale théorique qu’un congélateur domestique pourrait atteindre en fonctionnant entre les températures de~\SI{-6}{\degreeCelsius} et~\SI{20}{\degreeCelsius} ?
 	
-	Pour quelle(s) raison(s) le \textsc{cop} atteint par les congélateurs usuels (environ \num{3}) sont-ils inférieurs ?
+	Pour quelle(s) raison(s) le \textsc{cop} atteint par les congélateurs usuels (environ \num{3}) est-il inférieur à cette valeur ?
 	
 \subsubsection{Efficacité maximale d’une thermopompe}
 \label{exo_efficacite_thermopompe_carnot}
@@ -62,7 +62,7 @@
 \label{exo_moteur_carnot_vapeur}
 % Cet exo est lié à l’exercice 8.5 (\ref{exo_diagrammes_ts})
 
-	On tente de mettre en place une centrale à vapeur basée sur le cycle de Carnot pour fabriquer de l’électricité (\cref{fig_exo_carnot_circuit_vapeur}). La chaudière fonctionne à température maximale de~\SI{275}{\degreeCelsius} et admet de l’eau à l’état de liquide saturé. Lorsque l’eau sort de la chaudière et rentre dans la turbine, elle est à l’état de vapeur saturée.
+	On tente de mettre en place une centrale à vapeur basée sur le cycle de Carnot pour fabriquer de l’électricité (\cref{fig_exo_carnot_circuit_vapeur}). La chaudière fonctionne à la température maximale de~\SI{275}{\degreeCelsius} et admet de l’eau à l’état de liquide saturé. Lorsque l’eau sort de la chaudière et rentre dans la turbine, elle est à l’état de vapeur saturée.
 
 	\begin{figure}[hc]%FIXME handmade, fuck, why can I not have the figure display here?!
 		\begin{center}
@@ -101,7 +101,7 @@
 	Les ingénieurs utilisent le cycle de Carnot pour point de départ. Ils prévoient de pouvoir effectuer l’apport de chaleur à température de~\SI{600}{\degreeCelsius} et le rejet de chaleur à température de~\SI{20}{\degreeCelsius}. La pression est de~\SI{1}{\bar} à l’entrée du compresseur adiabatique et de~\SI{30}{\bar} à l’entrée de la turbine adiabatique. Ces caractéristiques confèrent au moteur une puissance mécanique spécifique de~\SI{70}{\kilo\joule\per\kilogram}.
 
 	\begin{enumerate}
-		\item Représentez l’agencement général de ce moteur hypothétique, en y représentant le circuit suivi par l’air, et tous les transferts de chaleur et de travail.
+		\item Représentez schématiquement l’agencement général de ce moteur hypothétique, en y montrant le circuit suivi par l’air, et tous les transferts de chaleur et de travail.
 		\item À partir de la définition du rendement d’un moteur, montrez que l’efficacité d’un moteur réversible est quantifiable selon l’équation
 			\begin{equation}
 				\eta_{\text{moteur Carnot}} = 1 - \frac{T_B}{T_H} \tag{\ref{eq_efficacité_moteur_carnot_température}}
@@ -154,10 +154,10 @@
 			
 	En étudiant les propriétés du cyle de Carnot, un/e ingénieur/e débutant/e constate que le rendement du réfrigérateur augmente si la température de rejet de chaleur est abaissée.
 	
-	Il/elle propose de configurer le réfrigérateur de telle sorte à ce qu’il rejette de la chaleur à~\SI{10}{\degreeCelsius} seulement. Cette chaleur à~\SI{10}{\degreeCelsius} serait à son tour captée par une pompe à chaleur qui la mènerait enfin à~\SI{40}{\degreeCelsius}. 
+	Il/elle propose de configurer le réfrigérateur de telle sorte qu’il rejette de la chaleur à~\SI{10}{\degreeCelsius} seulement. Cette chaleur à~\SI{10}{\degreeCelsius} serait à son tour captée par une pompe à chaleur qui la mènerait enfin à~\SI{40}{\degreeCelsius}. 
 	
 		\begin{enumerate}
-			\item Montrez que le si le réfrigérateur fonctionne sur un cycle réversible, la modification proposée ne pourra qu’augmenter (ou au mieux, garder identique) la consommation totale du système de réfrigération.
+			\item Montrez que si le réfrigérateur fonctionne sur un cycle réversible, la modification proposée ne pourra qu’augmenter (ou au mieux, garder identique) la consommation totale du système de réfrigération.
 			\item Représentez le cycle du réfrigérateur et de la pompe à chaleur telle que le propose l’ingénieur/e, sur un même diagramme pression-volume, de façon qualitative.
 			\item Représentez, sur un diagramme pression-volume, les cycles qui seraient suivis dans les deux machines si leurs phases de détentes étaient adiabatiques (sans transfert de chaleur) mais non-réversibles.
 		\end{enumerate}
@@ -166,7 +166,7 @@
 \subsubsection{Moteur essence basé sur un cycle de Carnot}
 \label{exo_carnot_quatre_cylindres}
 
-	On souhaite quantifier la consommation d’essence minimale que pourrait engendrer un moteur automobile à pistons-cylindres générant \SI{100}{\kilo\watt} de puissance (environ \SI{130}{ch}), étant données quelques contraintes pratiques imposées par le faible volume disponible et les limites de poids :
+	On souhaite quantifier la consommation d’essence minimale que pourrait engendrer un moteur automobile à pistons-cylindres générant \SI{100}{\kilo\watt} de puissance (environ \SI{130}{ch}), étant donné quelques contraintes pratiques imposées par le faible volume disponible et les limites de poids :
 		
 	\begin{itemize}
 		\item Le taux de compression (c’est-à-dire le rapport $\frac{v_\text{max.}}{v_\text{min.}}$) est de~\num{12} lors des phases adiabatiques (afin de limiter les contraintes mécaniques) ;
@@ -213,7 +213,7 @@
 					\tab 4) La puissance spécifique et la complexité de la machine augmenteront, mais l’efficacité sera inchangée !
 		\item [\ref{exo_thermopompe_plusplus}]
 					\includegraphics[width=5cm]{images/carnot_thermopompe_plusplus.png}
-					\tab\tab Une telle pompe à chaleur pourrait être alimentée par un moteur de Carnot ; l’ensemble formerait une machine capable de porter de la chaleur depuis $T_B$ jusqu’à $T_H$ sans apport de travail extérieur (avec les valeurs arbitraires motrées ici, $\dot Q_{\out \text ensemble} = \SI{-40}{\watt}$).
+					\tab\tab Une telle pompe à chaleur pourrait être alimentée par un moteur de Carnot ; l’ensemble formerait une machine capable de porter de la chaleur depuis $T_B$ jusqu’à $T_H$ sans apport de travail extérieur (avec les valeurs arbitraires montrées ici, $\dot Q_{\out~\text{ensemble}} = \SI{-40}{\watt}$).
 		\item [\ref{exo_moteur_turbine_ideal}]
 					\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_pv_carnot_turbine.png}
 					\tab 1) C’est l’agencement représenté en \cref{fig_carnot_quatre_etapes_so} ;
