@@ -1,6 +1,6 @@
 \section{Conventions de signe}
 
-	Nous commençons par convenir de quelques notations graphiques et de notation, qui sont résumées en \cref{fig_conventions_graphiques_travail_net}.
+	Nous commençons par nous accorder sur quelques conventions graphiques et de notation, qui sont résumées en \cref{fig_conventions_graphiques_travail_net}.
 	
 	\begin{figure}
 		\begin{center}
@@ -48,11 +48,11 @@
 	\subsection{Produire un travail à partir de chaleur}
 	\label{ch_principe_fonctionnement_moteur}
 
-		Commençons par comprimer un fluide : nous augmentons sa pression et réduisons son volume spécifique, ce qui nous demande un certain travail. Après cela, chauffons ce fluide : sa pression et son volume ont tendance à augmenter. En détendant le gaz jusqu’à sa pression initiale, nous allons récupérer un travail plus grand que celui que nous avons investi à l’aller. Pour pouvoir enfin ramener le fluide à son état initial, il faut le refroidir.
+		Commençons par comprimer un fluide : nous augmentons sa pression et réduisons son volume spécifique, ce qui nous demande un certain travail. Après cela, chauffons ce fluide : sa pression et son volume ont tendance à augmenter. En détendant le fluide jusqu’à sa pression initiale, nous allons récupérer un travail plus grand que celui que nous avons investi à l’aller. Pour pouvoir enfin ramener le fluide à son état initial, il faut le refroidir.
 
 		Au final, le fluide a dépensé moins de travail au chemin retour qu’il n’en a reçu à l’aller. Sur un cycle, il aura donc \emph{produit} du travail et absorbé (plus exactement, \emph{transformé}) de la chaleur. C’est le principe de fonctionnement d’un moteur.
 
-		Il y a une infinité de cycles possibles pour effectuer cette transformation, mais ils comportent tous au moins quatre transferts énergétiques : une compression, un réchauffement, une détente, et un refroidissement. Nous pouvons séparer ces évolutions dans l’espace, comme représenté en \cref{fig_cycle_thermodynamique_du_moteur_so}, ou bien dans le temps, comme montré en \cref{fig_cycle_thermodynamique_du_moteur_sf}. En fonction des contraintes technologiques et pratiques, certains de ces transferts peuvent être effectués simultanément.
+		Il y a une infinité de cycles possibles pour effectuer cette transformation, mais ils comportent tous au moins quatre transferts énergétiques : une compression, un réchauffement, une détente et un refroidissement. Nous pouvons séparer ces évolutions dans l’espace, comme représenté en \cref{fig_cycle_thermodynamique_du_moteur_so}, ou bien dans le temps, comme montré en \cref{fig_cycle_thermodynamique_du_moteur_sf}. En fonction des contraintes technologiques et pratiques, certains de ces transferts peuvent être effectués simultanément.
 
 		\begin{figure}
 			\begin{center}
@@ -71,7 +71,7 @@
 			\label{fig_cycle_thermodynamique_du_moteur_sf}
 		\end{figure}
 
-		Il est possible de lier mécaniquement les sections consommant et fournissant de l’énergie sous forme de travail. Dans le cas où le fluide circule en continu, on peut lier le compresseur et la turbine par un même axe, comme représenté en \cref{fig_cycle_thermodynamique_du_moteur_axe_so}. Dans le cas où les évolutions sont séparées dans le temps, comme dans un moteur à explosion, on peut lier les évolutions en effectuant plusieurs cycles déphasés simultanément (avec plusieurs cylindres) ou en stockant de l’énergie dans un volant d’inertie. On obtient alors directement une puissance $\dot W_\net$ à la sortie du moteur.
+		Il est possible de lier mécaniquement les sections consommant et fournissant de l’énergie sous forme de travail. Dans le cas où le fluide circule en continu, on peut lier le compresseur et la turbine par un même axe, comme représenté en \cref{fig_cycle_thermodynamique_du_moteur_axe_so}. Dans le cas où les évolutions sont séparées dans le temps, comme dans un moteur à explosion, on peut lier les évolutions en effectuant plusieurs cycles déphasés simultanément (avec plusieurs cylindres) ou en stockant de l’énergie dans un volant d’inertie. Le moteur ne reçoit alors pas de travail extérieur et on obtient alors  à sa sortie une puissance $\dot W_\net$.
 
 		\begin{figure}
 			\begin{center}
@@ -85,19 +85,19 @@
 	\subsection{Extraire de la chaleur avec du travail}
 	\label{ch_principe_fonctionnement_réfrigérateur}
 
-			Lorsque l’on fournit du travail à un fluide, sa température augmente\footnote{Ce n’est pas strictement vrai pour les liquides/vapeurs qui, comme nous l’avons vu dans le \courscinq, connaissent une phase à température constante entre leurs points de saturation – toutefois, ils suivent cette tendance.}, et il peut ainsi fournir de la chaleur à un corps qui était initialement à plus haute température («~plus chaud~») que lui.
+			Lorsque l’on fournit du travail à un fluide, sa température augmente\footnote{Ce n’est pas strictement vrai pour les liquides/vapeurs qui, comme nous l’avons vu dans le \courscinq, connaissent une phase à température constante entre leurs points de saturation – toutefois, ils suivent cette tendance.} et il peut ainsi fournir de la chaleur à un corps qui était initialement à plus haute température («~plus chaud~») que lui.
 
-			À l’inverse, lorsque l’on détend un fluide, sa température baisse, et il peut ainsi capter de la chaleur à un corps qui était initialement «~plus froid~» que lui.
+			À l’inverse, lorsque l’on détend un fluide, sa température baisse et il peut ainsi capter de la chaleur à un corps qui était initialement «~plus froid~» que lui.
 
 			En effectuant ces étapes l’une après l’autre, nous obtenons un \vocab{cycle de réfrigération} : une machine capable de prélever de la chaleur à basse température et de la rejeter à haute température. Un tel cycle est représenté en \cref{fig_refrigerateur_climatiseur_thermopompe_so} (étapes séparées dans l’espace) et \ref{fig_refrigerateur_climatiseur_thermopompe_sf} (étapes séparées dans le temps).
 			
-			Un examen attentif de ces deux figures réserve une surprise de taille : il s’agit exactement du même agencement que pour un moteur ! La seule différence porte sur les températures de fonctionnement. La température atteinte pendant la compression doit être \textbf{supérieure à la température haute $T_H$}, et la température atteinte pendant la détente doit être \textbf{inférieure à la température basse $T_B$}. Si ces conditions ne sont pas respectées, alors les transferts de chaleur ne peuvent se faire dans le sens voulu.
+			Un examen attentif de ces deux figures réserve une surprise de taille : il s’agit exactement du même agencement que pour un moteur ! La seule différence porte sur les températures de fonctionnement. La température atteinte pendant la compression doit être \textbf{supérieure à la température haute $T_H$}, et la température atteinte pendant la détente doit être \textbf{inférieure à la température basse $T_B$}. Si ces conditions ne sont pas respectées, alors les transferts de chaleur ne peuvent pas se faire dans le sens voulu.
 			
 			\begin{figure}
 				\begin{center}
 					\includegraphics[width=\textwidth]{images/refrigerateur_climatiseur_thermopompe_so.png}
 				\end{center}
-				\supercaption{Cycle thermodynamique de refroidissement, utilisé dans les réfrigérateurs, climatiseurs, et pompes à chaleur.\\
+				\supercaption{Cycle thermodynamique de refroidissement, utilisé dans les réfrigérateurs, climatiseurs et pompes à chaleur.\\
 					Une puissance $\dot Q_\inn$ sous forme de chaleur est captée à basse température (le fluide est réchauffé) tandis qu’une puissance $\dot Q_\out$ est rejetée à haute température (le fluide est alors refroidi).}{schéma \cczero \oc}
 				\label{fig_refrigerateur_climatiseur_thermopompe_so}
 			\end{figure}
@@ -110,7 +110,7 @@
 				\label{fig_refrigerateur_climatiseur_thermopompe_sf}
 			\end{figure}
 
-			Dans un cycle de réfrigération, le fluide a un plus grand volume lorsqu’il est compressé que lorsqu’il est détendu : ainsi la compression demande plus de puissance que la détente. La puissance nette $\dot W_\net$ sous forme de travail est donc positive, c’est-à-dire que la machine doit être alimentée en travail par l’extérieur.
+			Dans un cycle de réfrigération, le fluide a un plus grand volume lorsqu’il est compressé (après avoir été réchauffé) que lorsqu’il est détendu (après avoir été refroidi) : ainsi la compression demande plus de puissance que la détente. La puissance nette $\dot W_\net$ sous forme de travail est donc positive, c’est-à-dire que la machine doit être alimentée en travail par l’extérieur.
 
 			\clearfloats
 			En pratique dans les systèmes de réfrigération, on a souvent recours à une astuce pour faire chuter la température : au lieu d’une turbine, on utilise une simple soupape (parfois appelée \vocab{détendeur}). Cet élément sans pièce mobile ne permet pas de dégager de travail (il augmente donc la puissance consommée par la machine), mais il est beaucoup plus simple de fabrication et d’utilisation.
@@ -218,13 +218,13 @@
 	\subsection{Rendement d’un réfrigérateur ou d’un climatiseur}
 	\label{ch_rendement_réfrigérateur}
 
-		La fonction d’un réfrigérateur ou d’un climatiseur est d’extraire de la chaleur, c’est-à-dire générer une puissance $\dot Q_\inn$ (chaleur extraite chaque seconde du compartiment à refroidir) de signe positif. Ce transfert (\cref{fig_transferts_réfrigérateur}) est rendu possible par l’apport au réfrigérateur d’un travail, $\dot W_\net$ , une «~dépense~» nécessairement positive.
+		La fonction d’un réfrigérateur ou d’un climatiseur est d’extraire de la chaleur, c’est-à-dire de générer une puissance $\dot Q_\inn$ (chaleur extraite chaque seconde du compartiment à refroidir) de signe positif. Ce transfert (\cref{fig_transferts_réfrigérateur}) est rendu possible par l’apport au réfrigérateur d’un travail, $\dot W_\net$ , une «~dépense~» nécessairement positive.
 
 		\begin{figure}
 			\begin{center}
 				\includegraphics[height=10cm]{images/efficacite_refrigerateur_climatiseur.png}
 			\end{center}
-			\supercaption{Transferts énergétiques associés à un réfrigérateur ou climatiseur.
+			\supercaption{Transferts énergétiques associés à un réfrigérateur ou à un climatiseur.
 				On souhaite obtenir un grand transfert $\dot Q_\inn$ (résultat) à partir du transfert $\dot W_\net$ (coût).}{schéma \cczero \oc}
 			\label{fig_transferts_réfrigérateur}
 		\end{figure}
