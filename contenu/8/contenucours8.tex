@@ -108,8 +108,7 @@
 						= \frac{1}{\num{30} + \num{273,15}} (\num{-2000})
 						= \SI{-6,6}{\joule\per\kelvin}$.
 					\begin{remark}Nous avons déjà exploré les évolutions réversibles à température constante (isothermes) aux sections \S\ref{ch_gp_isothermes} et \S\ref{ch_lv_isothermes}. Ici le gaz perd \SI{2}{\kilo\joule} de chaleur et reçoit \SI{2}{\kilo\joule} de travail.\end{remark}
-					\begin{remark}Nous ne connaissons pas la valeur de l’entropie, mais nous savons qu’elle diminue de 7 \si{joule} par \si{kelvin}.\end{remark}
-					%Attention dans le rendu PDF le mot "joule" n'est *pas* au pluriel. Je suppose que c'est une convention de notation en physique, je trouve que ça choque tout de même à la lecture (d'autant que dans d'autres occurrences dans l'ouvrage, joule est au pluriel)
+					\begin{remark}Nous ne connaissons pas la valeur de l’entropie, mais nous savons qu’elle diminue de 7 \si{joules} par \si{kelvin}.\end{remark}
 					\begin{remark}Il ne faut pas confondre la variation d’entropie avec la capacité thermique, $c\ \equiv \ \frac{\diff q}{\diff T} = \frac{1}{m} \frac{\diff Q}{\diff T}$ (\ref{eq_def_capacité_calorifique_massique}), dans laquelle nous divisons la chaleur par la \emph{variation} de température. Ici dans cette évolution, $\diff T = 0$ et la capacité thermique est infinie.\end{remark}
 				\end{answer}
 			
@@ -231,11 +230,7 @@
 		Lorsque le système perd de la chaleur, son entropie décroît et nous nous déplacerons de droite à gauche sur les diagrammes $T-s$ (\cref{fig_ts_basics}).
 
 		\clearfloats
-		Notons aussi que, tout comme pour le volume, lorsqu’un fluide parcourt un cycle complet, il peut voir son entropie diminuer à une température plus faible qu’elle n’avait augmenté.
-		%fin de phrase pas claire ici : "elle" c'est l'entropie (je suppose) ou la température ? En revanche c'est la température qui est "plus faible" mais qu'est-ce qui "avait augmenté" avant : la température, l'entropie... ? Je suggère de développer plus clairement le sens quitte à faire deux phrases distinctes.
-		%tentative : Notons aussi que, tout comme pour le volume, lorsqu’un fluide parcourt un cycle complet, son entropie peut diminuer à une température inférieure à celle de sa phase d'augmentation (disclaimer : je ne sais pas de quoi je parle :) )
-		%tentative2 : Notons aussi que lorsqu’un fluide parcourt un cycle complet, la température de diminution de l'entropie peut être inférieure à la température de son d'augmentation. Il en va de même pour le volume.
-		Le transfert net de chaleur est alors négatif : le fluide a \emph{absorbé} de la chaleur qui aura été transformée en travail. En suivant le circuit inverse, le fluide sera source de chaleur : c’est le principe du réfrigérateur (\S\ref{ch_principe_fonctionnement_réfrigérateur}).
+		Notons aussi que lorsqu’un fluide parcourt un cycle complet, la température de diminution de l'entropie peut être inférieure à la température de son d'augmentation (tout comme pour le volume avec la pression). Le transfert net de chaleur est alors négatif : le fluide a \emph{absorbé} de la chaleur qui aura été transformée en travail. En suivant le circuit inverse, le fluide sera source de chaleur : c’est le principe du réfrigérateur (\S\ref{ch_principe_fonctionnement_réfrigérateur}).
 		
 		Lorsque les évolutions sont réversibles, cette chaleur nette est représentée par l’aire enclose par le trajet sur un diagramme température-entropie (\cref{fig_ts_cycle}).
 
@@ -548,7 +543,6 @@
 		\thermoquoteend{Sadi Carnot, 1824~\cite{carnot1824}}{}		
 		Tout gradient de température donne lieu à une irréversibilité, et se traduit par une augmentation de l’entropie totale. \\
 		On peut se représenter un flux de chaleur entre deux sources de températures différentes par une opportunité perdue de produire un travail -- ce qui sera sans doute source d’anxiété pour l’étudiant/e comme pour l’ingénieur/e. En plaçant une machine de Carnot entre les corps A et B, aucune irréversibilité n’aurait eu lieu et $\diff s_{[A+B]}$ serait nul. En plaçant une machine thermique de faible rendement, $\diff s_{[A+B]}$ serait faible ; le cas ci-dessus où le transfert de chaleur se fait sans machine est le cas limite où aucun travail n’est produit.\onlyframabook{\dontbreakpage}
-		%http://soquij.qc.ca/fr/ressources-pour-tous/chroniques-linguistiques/ci-haut-et-ci-bas
 
 	\subsection{Irréversibilités lors des compressions et détentes adiabatiques}
 
@@ -576,8 +570,7 @@
 	\subsection{Le second principe et l’entropie}
 
 		\thermoquotebegin{O}
-			\emph{La chaleur ne peut passer d’un corps plus froid vers un corps plus chaud, sans qu’un changement en connection avec ce transfert n’ait lieu simultanément.}
-			%en principe "connexion" en français, je ne sais pas si c'est "connection" dans la traduction que tu utilises.
+			\emph{La chaleur ne peut passer d’un corps plus froid vers un corps plus chaud, sans qu’un changement en connexion avec ce transfert n’ait lieu simultanément.}
 		\thermoquoteend{Rudolf Clausius, 1854~\cite{clausius1854,clausius1867en,clausius1868fr4}}{}
 		Nous avons admis au \courssept que la chaleur ne se déplaçait spontanément que vers une température plus basse --\ un postulat que nous nommons \textit{second principe}. Nous pouvons maintenant formuler cette affirmation avec une expression mathématique.
 	
