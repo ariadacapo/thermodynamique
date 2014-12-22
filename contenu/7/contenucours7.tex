@@ -28,7 +28,7 @@
 			\item Le second principe peut être énoncé de multiples façons. Il est plus impressionnant de parler d’«~accroissement de l’entropie~» que du comportement spontané de la chaleur ; pourtant ces différents énoncés, que nous allons aborder progressivement, sont tous équivalents.
 			\item L’apparente évidence manifeste du postulat --\ on se doute que nul n’a jamais vu de tasse de thé chaud se réchauffer spontanément, ni de boisson fraîche se refroidir seule à température ambiante\ -- s’effrite dès que l’on étudie les phénomènes à l’échelle microscopique. 
 
-		En effet, si la température n’est que le niveau d’agitation des particules, alors rien n’empêche \textit{a priori} celle-ci d’augmenter localement même si la température ambiante est plus faible\footnote{L’étudiant/e curieux/se pourra explorer cette idée en étudiant l’expérience intrigante du \textit{\wfd{Démon de Maxwell}{démon de Maxwell}}, qui ouvre les portes vers de nombreux nouveaux concepts.}. Il a fallu un demi-siècle de travail ardu aux thermodynamiciens pour répondre à cela de façon satisfaisante\footnote{C’est l’application des probabilités et statistiques à la thermodynamique, et en particulier le travail de Ludwig Boltzmann (\S\ref{ch_entropie_boltzmann}) qui permettra de la réconcilier avec la vision mécanistique Newtonienne du monde, au cours du \textsc{xx}\ieme siècle.}. Il ne s’agit pas d’un problème trivial.
+		En effet, si la température n’est que le niveau d’agitation des particules, alors rien n’empêche \textit{a priori} celle-ci d’augmenter localement même si la température ambiante est plus faible\footnote{L’étudiant/e curieux/se pourra explorer cette idée en étudiant l’expérience intrigante du \textit{\wfd{Démon de Maxwell}{démon de Maxwell}}, qui ouvre les portes vers de nombreux nouveaux concepts.}. Il a fallu un demi-siècle de travail ardu aux thermodynamiciens pour répondre à cela de façon satisfaisante\footnote{C’est l’application des probabilités et statistiques à la thermodynamique, et en particulier le travail de Ludwig Boltzmann (\S\ref{ch_entropie_boltzmann}), qui permettra de la réconcilier avec la vision mécaniste Newtonienne du monde, au cours du \textsc{xx}\ieme siècle.}. Il ne s’agit pas d’un problème trivial.
 		\end{itemize}
 
 		Dans notre étude et depuis notre point de vue d’ingénieur/e, nous accepterons le postulat ci-dessus comme une évidence, sans chercher ni à le justifier, ni à l’expliquer.
@@ -46,7 +46,7 @@
 	\subsection{Tous les moteurs rejettent de la chaleur}
 	\label{ch_demo_second_principe}
 
-		Imaginons qu’on veuille créer du travail en prenant de la chaleur à un objet «~chaud~», c’est-à-dire à haute température : par exemple, \SI{100}{\degreeCelsius}, comme montré en \cref{fig_démo_second_principe_1}. On y accole un fluide dans un cylindre, que l’on laisse pousser sur un piston au fur et à mesure qu’il reçoit de la chaleur.
+		Imaginons qu’on veuille créer du travail en prenant de la chaleur à un objet «~chaud~», c’est-à-dire à haute température : par exemple, \SI{100}{\degreeCelsius}, comme montré en \cref{fig_démo_second_principe_1}. On accole à cet objet un cylindre empli d’un fluide, et on laisse le fluide pousser sur un piston au fur et à mesure qu’il reçoit de la chaleur.
 
 		\begin{figure}
 			\begin{center}
@@ -56,7 +56,7 @@
 			\label{fig_démo_second_principe_1}
 		\end{figure}
 
-		Une fois qu’une quantité de travail a été fournie (en B sur la \cref{fig_démo_second_principe_1}), le fluide a augmenté de volume. Si nous souhaitons continuer à transformer de la chaleur en travail, et que nous ne souhaitons pas que le moteur «~gonfle~» indéfiniment, il nous faut refroidir ce gaz pour le ramener à son volume initial.
+		Une fois qu’une quantité de travail a été fournie (en B sur la \cref{fig_démo_second_principe_1}), le fluide a augmenté de volume. Si nous souhaitons continuer à transformer de la chaleur en travail et que nous ne souhaitons pas que le moteur «~gonfle~» indéfiniment, il nous faut refroidir ce gaz pour le ramener à son volume initial.
 
 		\thermoquotebegin{O}
 			D’après ce principe, il ne suffit pas, pour donner naissance à la puissance motrice, de produire de la chaleur : il faut encore se procurer du froid ; sans lui la chaleur serait inutile.\\
@@ -85,13 +85,13 @@
 		Pour étudier plus rigoureusement les transformations de chaleur et de travail, nous utiliserons la notation suivante pour décrire les machines thermiques :
 
 		\begin{itemize}
-			\item $T_H$ et $T_B$ représenteront les températures haute et basse respectivement ;
+			\item $T_H$ et $T_B$ représenteront respectivement les températures haute et basse ;
 			\item Nous appellerons toujours $\dot Q_{TH}$ la puissance sous forme de chaleur transmise à haute température, et $\dot Q_{TB}$ son équivalente à basse température (elles peuvent chacune être de signe positif ou négatif).
 		\end{itemize}
 
 		Ainsi la machine thermique dans sa représentation la plus générale ressemble à la \cref{fig_conventions_notation_machines_thermiques}.
 
-		Il est très important de souligner que quels que soient le mode de fonctionnement de la machine et son efficacité, elle ne peut ni créer ni détruire de l’énergie (\S\ref{ch_premier_principe}) ; et nous aurons toujours :
+		Il est très important de souligner que quels que soient le mode de fonctionnement et l'efficacité de la machine, elle ne peut ni créer ni détruire de l’énergie (\S\ref{ch_premier_principe}) ; et nous aurons toujours :
 		\begin{equation}
 			\dot Q_{TH} + \dot Q_{TB} + \dot W_\net = 0
 			\label{eq_premier_principe_machines}
@@ -110,7 +110,7 @@
 
 		\begin{description}
 
-			\item[Un moteur]{prélève de la chaleur d’une source à haute température ($\dot Q_{TH} > 0$) et produit un travail ($\dot W_\net < 0$, \cref{fig_moteur_exemple_valeurs}). Nous venons de voir que si nous voulons effectuer cette transformation en continu, nous n’avons d’autre choix que de rejeter de la chaleur dans un réservoir à basse température ($\dot Q_{TB} < 0$).
+			\item[Un moteur]{prélève de la chaleur à une source à haute température ($\dot Q_{TH} > 0$) et produit un travail ($\dot W_\net < 0$, \cref{fig_moteur_exemple_valeurs}). Nous venons de voir que si nous voulons effectuer cette transformation en continu, nous n’avons d’autre choix que de rejeter de la chaleur dans un réservoir à basse température ($\dot Q_{TB} < 0$).
 
 			\begin{figure}
 				\begin{center}
@@ -197,7 +197,7 @@
 	\subsection{Concept de machine réversible}
 	\label{ch_concept_machine_reversible}
 
-		Carnot recherche le moteur théorique dont l’efficacité est maximale. Il imagine une façon unique de transformer chaleur en travail, et travail en chaleur. Sa machine peut fonctionner dans les deux sens : en tant que moteur ou bien en tant que réfrigérateur.
+		Carnot recherche le moteur théorique dont l’efficacité est maximale. Il imagine une façon unique de transformer chaleur en travail et travail en chaleur. Sa machine peut fonctionner dans les deux sens : en tant que moteur ou bien en tant que réfrigérateur.
 
 		\thermoquotebegin{O}
 			Ce maximum [de travail] jouit en effet de la propriété que, par sa \emph{consommation}, on peut faire passer du corps froid B au corps chaud A la même quantité de chaleur que celle qui a passé de A en B pour sa \emph{production}.
@@ -349,7 +349,7 @@
 			Pour utiliser complètement la force motrice dont on peut disposer, il faudrait que la détente fût poussée jusqu’à ce que la température de la vapeur se réduisît à celle du condenseur; mais des considérations pratiques tirées de la manière dont on utilise dans les arts la force motrice du feu, s’opposent à ce que l’on atteigne cette limite.
 		\thermoquoteend{Émile Clapeyron, 1834~\cite{clapeyron1834}}{}
 
-		Le fait qu’aucune de ces étapes ne soit réalisable en pratique n’aura pas échappé à l’étudiant/e perspicace : pour que toutes ces phases soient réversibles, il faut que le mouvement du piston soit infiniment lent, et ainsi le fluide parcourt le cycle en une durée de temps infinie. Le moteur de Carnot atteint donc l’efficacité maximale avec une puissance infiniment faible.
+		Le fait qu’aucune de ces étapes ne soit réalisable en pratique n’aura pas échappé à l’étudiant/e perspicace : pour que toutes ces phases soient réversibles, il faut que le mouvement du piston soit infiniment lent, et qu'ainsi le fluide parcoure le cycle en une durée de temps infinie. Le moteur de Carnot atteint donc l’efficacité maximale avec une puissance infiniment faible.
 		
 		\begin{anexample}
 		\label{ex_cycle_carnot}
@@ -366,12 +366,12 @@
 					= \SI{398,2}{\kilo\joule\per\kilogram}$ (\ref{eq_gp_travail_isotherme_sf2}, une réception par le gaz) et le travail est de $w_{2 \to 3} = - q_{2 \to 3} = \SI{-398,2}{\kilo\joule\per\kilogram}$ (\ref{eq_gp_chaleur_isotherme_sf}, une perte par le gaz).
 						\begin{remark}Promesse tenue : nous avions étudié les transformations isothermes aux sections \S\ref{ch_gp_isothermes} et \S\ref{ch_lv_isothermes} précisément pour pouvoir nous en servir ici…\end{remark}
 				 		\begin{remark}Le choix de la pression $p_3$ ou de son volume correspondant $v_3$ est entièrement arbitraire et il n’affecte aucun des résultats obtenus ici.\end{remark}
-				 	Nous procédons à la détente du gaz, de façon à récupérer autant de travail que possible et faire chuter sa température ($3 \to 4$). L’évolution est adiabatique réversible, ainsi $w_{3\to 4} = c_v \ \Delta T = -w_{1\to 2} = \SI{-502,5}{\joule\per\kilogram}$ et $q_{3\to 4} = 0$. Avec l’\cref{eq_isentropique_horrible2} nous obtenons la pression finale : $p_4 = p_3 \left(\frac{T_4}{T_3}\right)^{\frac{\gamma}{\gamma - 1}} = \SI{0,2}{\bar}$.
-				 		\begin{remark}Le travail récupéré de~3 à~4 est exactement opposé à celui investi de~1 à~2. Dans un cycle de Carnot, c’est pendant les transferts de chaleur que les travaux aboutissent la production d’un travail net.\end{remark}
+				 	Nous procédons à la détente du gaz, de façon à récupérer autant de travail que possible et à faire chuter sa température ($3 \to 4$). L’évolution est adiabatique réversible, ainsi $w_{3\to 4} = c_v \ \Delta T = -w_{1\to 2} = \SI{-502,5}{\joule\per\kilogram}$ et $q_{3\to 4} = 0$. Avec l’\cref{eq_isentropique_horrible2} nous obtenons la pression finale : $p_4 = p_3 \left(\frac{T_4}{T_3}\right)^{\frac{\gamma}{\gamma - 1}} = \SI{0,2}{\bar}$.
+				 		\begin{remark}Le travail récupéré de~3 à~4 est exactement opposé à celui investi de~1 à~2. Dans un cycle de Carnot, c’est pendant les transferts de chaleur que les travaux aboutissent à la production d’un travail net.\end{remark}
 				 	Enfin, pour ramener le fluide à son état initial (\S\ref{ch_construction_cycle}), il faut refroidir le gaz ($4 \to 1$). Ce refroidissement est à température constante, ainsi  $q_{4 \to 1} 
 				 	= - R \ T_4 \ln\left(\frac{p_1}{p_4}\right)
 				 	= \SI{-170,2}{\kilo\joule\per\kilogram}$ (\ref{eq_gp_travail_isotherme_sf2}, une perte par le gaz) et le travail est de $w_{4 \to 1} = - q_{4 \to 1} = \SI{+170,2}{\kilo\joule\per\kilogram}$ (\ref{eq_gp_chaleur_isotherme_sf}, une réception par le gaz).
-				 		\begin{remark}C’est une évolution fort complexe pour une étape si peu glorieuse, celle du rejet de la chaleur inutilisable ! Il nous faut non seulement procéder infiniment lentement avec des débattements en volumes importants, mais aussi \emph{investir} un travail considérable pour retourner en 1.\end{remark}
+				 		\begin{remark}C’est une évolution fort complexe pour une étape si peu glorieuse : celle du rejet de la chaleur inutilisable ! Il nous faut non seulement procéder infiniment lentement avec des débattements en volumes importants, mais aussi \emph{investir} un travail considérable pour retourner en 1.\end{remark}
 				 	Quel est le bilan du cycle ? Les phases de compression ont demandé $w_\text{compression} 
 				 	= w_{1\to 2} + w_{4\to 1} = \SI{+672,7}{\kilo\joule\per\kilogram}$. 
 				 	À la détente nous avons récupéré $w_\text{détente} 
@@ -395,7 +395,7 @@
 	
 		Les moteurs à pistons sont souvent classés selon leur mode de fonctionnement. Les moteurs à \vocab{deux temps} effectuent une détente par tour de vilebrequin (tous les deux mouvements de piston) ; tandis que les moteurs à \vocab{quatre temps} effectuent une détente tous les deux tours. La distinction porte sur le mode de vidange des gaz brûlés et de leur remplacement par de l’air frais.
 		
-		La transposition du moteur de Carnot à la réalité, dans laquelle il faudra éventuellement vidanger le fluide ou le transvaser dans un cylindre séparé pour son refroidissement, pourra se faire avec deux ou quatre temps au choix de l’ingénieur/e. Ainsi le cycle de Carnot, s’il est bien constitué de quatre \emph{étapes}, n’est pas associable à l’un ou l’autre de ces deux modes de fonctionnement en particulier.
+		La transposition du moteur de Carnot à la réalité, dans laquelle il faudra éventuellement vidanger le fluide ou le transvaser dans un cylindre séparé pour son refroidissement, pourra se faire avec deux ou quatre temps au choix de l’ingénieur/e. Ainsi ne peut-on pas associer le cycle de Carnot, même s’il est bien constitué de quatre \emph{étapes}, à l’un ou l’autre de ces deux modes de fonctionnement en particulier.
 		
 
 	\subsection{Le réfrigérateur de Carnot}
@@ -438,7 +438,7 @@
 		Pour quantifier une propriété en physique (par exemple, quantifier «~la masse~» ou «~la couleur~»), il faut avoir défini trois choses :
 		
 		\begin{description}
-			\item [Un degré zéro] qui définit ce que représente zéro propriété (zéro masse, zéro longueur, etc.) ;
+			\item [Un degré zéro] qui définit ce que représente zéro propriété (zéro masse, zéro pression, etc.) ;
 			\item [Un étalon] arbitraire qui sert de calibre (par exemple, un objet de masse une livre, de longueur un mètre) ;
 			\item [Une échelle] qui permet de \emph{définir} la propriété entre le degré zéro et l’étalon (par exemple, ce qu’est «~deux fois plus~» ou «~deux fois moins~» de masse, de lumière, etc.).
 		\end{description}
@@ -458,14 +458,14 @@
 		
 		Le principal problème avec ces deux échelles est que la température n’est bien définie que dans le domaine d’existence des thermomètres à liquide. Quel que soit le fluide utilisé (mercure, alcool, eau), il finit toujours par geler ou bouillir quelque part ; et les graduations ne donnent alors plus d’information utile. Par exemple, Celsius ne peut pas \emph{définir} ou même décrire ce qui permet de reconnaître une température de~\SI{1200}{\celsius}.
 		
-		En plus de cela, les deux échelles sont peu intuitives à utiliser en dessous du gel de l’eau. Pour peu que l’on admette, par exemple, que \SI{40}{\celsius} puisse être «~deux fois plus de température~» que \SI{20}{\celsius}, alors à quoi correspondrait une température deux fois plus haute que \SI{-10}{\celsius} ?\footnote{Cela revient à poser la question : peut-on écrire $\frac{\SI{40}{\celsius}}{\SI{20}{\celsius}}$ et est-ce égal à $\frac{\SI{80}{\celsius}}{\SI{40}{\celsius}}$ ? (la réponse moderne à cette question est non.)}
+		En plus de cela, les deux échelles sont peu intuitives à utiliser en dessous du gel de l’eau. Pour peu que l’on admette, par exemple, que \SI{40}{\celsius} puisse être «~deux fois plus de température~» que \SI{20}{\celsius}, alors à quoi correspondrait une température deux fois plus haute que \SI{-10}{\celsius} ?\footnote{Cela revient à poser la question : peut-on écrire $\frac{\SI{40}{\celsius}}{\SI{20}{\celsius}}$ et est-ce égal à $\frac{\SI{80}{\celsius}}{\SI{40}{\celsius}}$ ? La réponse moderne à cette question est non.}
 		
 	
 	\subsection{Le thermomètre de William Thomson}
 	
 		\wfd{William Thomson (Lord Kelvin)}{William Thomson}, ingénieur et physicien écossais, a bien compris ces limites. Il va proposer une échelle de température qui, elle, ne dépend pas du comportement d’un fluide dans un tube.
 
-		Thomson s’intéresse de près au cycle de Carnot et il raisonne de la façon suivante. La seule propriété qui confère l’efficacité maximale au moteur de Carnot est le fait qu’il soit réversible. Autrement dit, toutes les machines fondées sur ce cycle et opérant entre deux températures données auront la même efficacité —\ quels que soient leur carburant, leur cylindrée, leur configuration, ou leur puissance\footnote{On pourrait par exemple «~allonger~» tant qu’on veut les phases de détente isotherme : rien ne fixe \textit{a~priori} l’état 3 décrit en \cref{fig_carnot_quatre_etapes}).}. On pourrait donc se servir de l’efficacité d’un moteur de Carnot comme mesure de la température.
+		Thomson s’intéresse de près au cycle de Carnot et il raisonne de la façon suivante : La seule propriété qui confère l’efficacité maximale au moteur de Carnot est le fait qu’il soit réversible. Autrement dit, toutes les machines fondées sur ce cycle et opérant entre deux températures données auront la même efficacité —\ quels que soient leur carburant, leur cylindrée, leur configuration, ou leur puissance\footnote{On pourrait par exemple «~allonger~» tant qu’on veut les phases de détente isotherme : rien ne fixe \textit{a~priori} l’état 3 décrit en \cref{fig_carnot_quatre_etapes}).}. On pourrait donc se servir de l’efficacité d’un moteur de Carnot comme mesure de la température.
 		
 		\thermoquotebegin{O}
 			Les valeurs absolues de deux températures sont l’une par rapport à l’autre en proportion de la chaleur reçue à la chaleur rejetée dans un moteur thermo-dynamique parfait travaillant avec une source et un refroidisseur aux plus haute et basse températures respectivement.
@@ -518,7 +518,7 @@
 			\label{eq_synchro_température}
 			\end{equation}
 		
-		William Thomson a trente ans lorsqu’il publie son échelle de température en 1854, lancé dans une carrière de scientifique époustouflante. En 1892 il sera sacré \textit{Premier Baron Kelvin}\footnote{On dira même \textit{The Right Honourable First Lord Kelvin of Largs, of the Order of Merit, the Royal Victorian Order, and of Her Majesty's Most Honourable Privy Council} !} ; c’est sous ce nom qu’il est connu aujourd’hui. L’unité \textit{Kelvin} (\si{\kelvin}) est officiellement attribuée à la température absolue en 1948. 
+		William Thomson, alors déjà lancé dans une carrière de scientifique époustouflante,  a trente ans lorsqu’il publie son échelle de température en 1854. En 1892 il sera sacré \textit{Premier Baron Kelvin}\footnote{On dira même \textit{The Right Honourable First Lord Kelvin of Largs, of the Order of Merit, the Royal Victorian Order, and of Her Majesty's Most Honourable Privy Council} !} ; c’est sous ce nom qu’il est connu aujourd’hui. L’unité \textit{Kelvin} (\si{\kelvin}) est officiellement attribuée à la température absolue en 1948. 
 		
 		Le travail de Kelvin permet donc de séparer définitivement le concept de température des fluides réels ou imaginaires comme auparavant avec l’ébullition de l’eau ou le volume des gaz parfaits (\S\ref{ch_définition_température_cours1} \& \S\ref{ch_le_manomètre_comme_thermomètre}) ; la voilà rattachée à une expérience physique précise et quantitative.
 
@@ -547,7 +547,7 @@
 			Notre objectif doit être toujours \emph{d’augmenter les températures et les pressions jusqu’à leurs limites pratiques les plus hautes}.
 		\thermoquoteend{Rudolf Diesel, 1893~\cite{diesel1893, diesel1893en}}{}
 
-		Lors du chapitre précédent (\S\ref{ch_rendement_moteur}), nous avons vu que le rendement d’un moteur était le rapport entre le travail produit (transfert utile, $\dot W_\net$ ) et la chaleur reçue (dépense énergétique, $\dot Q_\text{in}$ ). Nous avions transformé cette expression en une autre moins appréhensible :
+		Lors du chapitre précédent (\S\ref{ch_rendement_moteur}), nous avons vu que le rendement d’un moteur était le rapport entre le travail produit (transfert utile, $\dot W_\net$) et la chaleur reçue (dépense énergétique, $\dot Q_\text{in}$ ). Nous avions transformé cette expression en une autre dont l’appréhension était moins facile :
 		\begin{equation}
 			\eta _\text{moteur} = 1 - \left| \frac{\dot Q_{TB}}{\dot Q_{TH}} \right|	\tag{\ref{eq_rendement_moteur_qin_qout}}
 		\end{equation}
@@ -567,7 +567,7 @@
 
 		Cette expression~\ref{eq_efficacité_moteur_carnot_température} est si remarquable qu’il nous faut nous y arrêter quelques instants.
 
-		La réponse à la question «~quelle quantité maximale de travail, en théorie, peut-on obtenir de la combustion d’une quantité donnée de charbon ?~», que se posait Carnot, est ici --\ et elle est stupéfiante : \textbf{cela ne dépend que des températures haute et basse du moteur} !
+		La réponse à la question que se posait Carnot «~quelle quantité maximale de travail, en théorie, peut-on obtenir de la combustion d’une quantité donnée de charbon ?~» est ici --\ et elle est stupéfiante : \textbf{cela ne dépend que des températures haute et basse du moteur} !
 
 		Deux remarques importantes s’imposent ici.
 
@@ -598,7 +598,7 @@
 
 	\subsection{Efficacité du réfrigérateur de Carnot}
 
-		Nous avons vu au (\S\ref{ch_rendement_réfrigérateur})	que l’efficacité d’un réfrigérateur était la comparaison entre la chaleur extraite de la source froide (transfert utile, $\dot Q_\text{in}$ ) et le travail consommé (dépense énergétique, $\dot W_\net$).  Nous avions exprimé cette efficacité avec l’obscure expression :
+		Nous avons vu au (\S\ref{ch_rendement_réfrigérateur}) que l’efficacité d’un réfrigérateur était la comparaison entre la chaleur extraite de la source froide (transfert utile, $\dot Q_\text{in}$ ) et le travail consommé (dépense énergétique, $\dot W_\net$).  Nous avions exprimé cette efficacité avec l’obscure expression :
 		\begin{equation}
 			\eta_\text{réfrigérateur} = \frac{1}{ \left| \frac{\dot Q_{TH}}{\dot Q_{TB}} \right| - 1} \tag{\ref{rendement_réfrigérateur_qin_qout}}
 		\end{equation}
@@ -648,7 +648,7 @@
 			\item et où les températures sont absolues (\si{\kelvin}).
 		\end{equationterms}
 
-		Comme pour un réfrigérateur, le \textsc{cop} d’une pompe à chaleur ne peut pas être infini, et est borné par les températures extrêmes atteintes dans le cycle. Plus la chaleur $Q_\out$ est délivrée à haute température, et plus le rendement maximal que l’on puisse atteindre est faible.
+		Comme pour un réfrigérateur, le \textsc{cop} d’une pompe à chaleur ne peut pas être infini : il est borné par les températures extrêmes atteintes dans le cycle. Plus la chaleur $Q_\out$ est délivrée à haute température, plus le rendement maximal que l’on puisse atteindre est faible.
 		
 		\begin{anexample}
 		 	Une pompe à chaleur est utilisée pour chauffer de l’eau à \SI{120}{\degreeCelsius} dans un environnement à \SI{-5}{\degreeCelsius}. Quel est le rendement maximal atteignable ?
