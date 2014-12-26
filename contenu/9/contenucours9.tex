@@ -144,6 +144,8 @@
 		 	\label{exemple_pompe_centrale}
 		 		Dans une centrale, une pompe est alimentée par un débit de \SI{35}{\kilogram\per\second} d’eau liquide saturée à \SI{0,5}{\bar}. L’eau est comprimée de façon approximativement isentropique jusqu’à \SI{40}{\bar}. Quelle est la puissance consommée ?
 		 			\begin{answer}
+			 			L’évolution peut être représentée de façon qualitative sur un diagramme température-entropie ainsi :
+						\begin{center}\includegraphics[width=4cm]{images/exe_ts_pompe.png}\end{center}
 		 				Dans l’abaque~n°3 à \SI{0,05}{\mega\pascal} nous lisons l’enthalpie d’entrée $h_\A = h_{L \SI{0,05}{\mega\pascal}} = \SI{340,5}{\kilo\joule\per\kilogram}$. Le volume spécifique restera presque constant dans la pompe, à sa valeur de $v_\A = v_{L \SI{0,05}{\mega\pascal}} = \SI{0,00103}{\metre\cubed\per\kilogram}$. 
 		 				
 		 				Avec l’\cref{eq_pompe_liquide} nous calculons $\dot W_\text{pompe} \approx \dot m \ v_L (p_\B - p_\A ) = \num{35} \times \num{0,00103} (\num{40e5} - \num{0,5e5}) = \SI{+142,4}{\kilo\watt}$.
@@ -237,12 +239,14 @@
 		\begin{anexample}
 			Une turbine d’efficacité isentropique \SI{85}{\percent} reçoit \SI{35}{\kilogram\per\second} d’eau à \SI{40}{\bar} et \SI{600}{\degreeCelsius}. Elle détend l’eau jusqu’à \SI{0,5}{\bar}. Quelle est la puissance développée ?
 				\begin{answer}
-					Nous commençons par imaginer que nous sommes dotés --\ irrépressible fantasme de thermodynamicien/ne !-- d’une turbine isentropique entre ces deux mêmes pressions. Dans l’abaque~n°1 à \SI{4,5}{\mega\pascal}, nous lisons $h_\A = \SI{3674,9}{\kilo\joule\per\kilogram}$ et $s_\A = \SI{7,3705}{\kilo\joule\per\kelvin\per\kilogram}$. La vapeur à la sortie de cette turbine hypothétique (en B’) a la même entropie : $s_{\B’} = s_\A$, et nous constatons que $s_{\B’} < s_{V \SI{0,05}{\mega\pascal}}$ : l’eau est partiellement condensée. Le calcul du titre (\S\ref{ch_melange_liquide_vapeur}) nous permet de calculer la valeur de son enthalpie : $h_{\B’} = h_{L \SI{0,05}{\mega\pascal}} + \frac{s_{\B’} - s_{L \SI{0,05}{\mega\pascal}}}{s_{LV \SI{0,05}{\mega\pascal}}} h_{LV \SI{0,05}{\mega\pascal}} = \SI{2566,3}{\kilo\joule\per\kilogram}$.
+					L’évolution peut être représentée de façon qualitative sur un diagramme température-entropie ainsi :
+						\begin{center}\includegraphics[width=4cm]{images/exe_ts_turbine.png}\end{center}
+					Nous commençons par imaginer que nous sommes dotés --\ irrépressible fantasme de thermodynamicien/ne !-- d’une turbine isentropique entre ces deux mêmes pressions. Dans l’abaque~n°1 à \SI{4}{\mega\pascal}, nous lisons $h_\A = \SI{3674,9}{\kilo\joule\per\kilogram}$ et $s_\A = \SI{7,3705}{\kilo\joule\per\kelvin\per\kilogram}$. La vapeur à la sortie de cette turbine hypothétique (en B’) a la même entropie : $s_{\B’} = s_\A$, et nous constatons que $s_{\B’} < s_{V \SI{0,05}{\mega\pascal}}$ : l’eau est partiellement condensée. Le calcul du titre (\S\ref{ch_melange_liquide_vapeur}) nous permet de calculer la valeur de son enthalpie : $h_{\B’} = h_{L \SI{0,05}{\mega\pascal}} + \frac{s_{\B’} - s_{L \SI{0,05}{\mega\pascal}}}{s_{LV \SI{0,05}{\mega\pascal}}} h_{LV \SI{0,05}{\mega\pascal}} = \SI{2566,3}{\kilo\joule\per\kilogram}$.
 					
 					Le retour à la réalité est douloureux : la turbine réelle ne développe que \SI{85}{\percent} de la puissance de cette turbine hypothétique, ainsi $\dot{W}_\text{turbine réelle} = \dot{m} \ \eta_\text{T} \ (h_{\B’} - h_\A) = \num{35} \times \num{0,85} \times (\num{2566,3e3} - \num{3674,9e3}) = \SI{-32 980}{\kilo\watt} = \SI{-32,98}{\mega\watt}$.
 						\begin{remark}L’\cref{eq_puissance_turbine_vapeur} nous permet de calculer l’enthalpie $h_\B$ réellement obtenue la sortie de la turbine : $h_\B = \frac{\dot W_\text{turbine}}{\dot m} + h_\A = \SI{2732,6}{\kilo\joule\per\kilogram}$, ce qui est très utile pour calculer ensuite la puissance du condenseur. Un coup d’œil à l’abaque~n°2 nous montre que $h_\B > h_{V \SI{0,05}{\mega\pascal}}$ : la vapeur est donc sèche tout le long de sa détente.\end{remark}
 						\begin{remark}Les \SI{15}{\percent} de puissance manquants dans l’arbre mécanique de la turbine sont transférés sous forme de chaleur et turbulence à l’eau pendant sa détente dans la turbine.\end{remark}
-						\begin{remark}La puissance de la turbine est deux-cent fois plus importante que la puissance consommée par la pompe de l’exemple~\ref{exemple_pompe_centrale} entre ces deux mêmes pressions.\end{remark}
+						\begin{remark}La puissance de la turbine est deux-cent fois plus importante (!) que la puissance consommée par la pompe de l’exemple~\ref{exemple_pompe_centrale} entre ces deux mêmes pressions.\end{remark}
 				\end{answer}
 		\end{anexample}
 
