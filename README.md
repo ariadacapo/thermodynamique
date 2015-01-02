@@ -8,8 +8,9 @@ Téléchargeable sur http://thermo.ariadacapo.net/ .
 
 ## Auteurs
 
-<a href="http://www.ariadacapo.net/">Olivier Cleynen</a>.
+Auteur principal : <a href="http://www.ariadacapo.net/">Olivier Cleynen</a>.
 
+* Les sections 2.6, 3.6, 4.5 et 8.6 sur l’histoire de la thermodynamique sont écrites par Philippe Depondt.
 * De nombreuses illustrations d’auteurs divers sous licences compatibles sont intégrées à ce document ; leurs licence et auteur sont indiquées dans chaque cas.
 * D’innombrables améliorations ont été apportées par Antoine L., Hamassala David Dicko, Kévin R., Florianne B., Julien D., Anthony Jouny, Thomas N., Amazigh.L.H, Victor D., Daniel C.-N., Pierrick Degardin, Arthur A., Ulrick M., Solène J., Florian Paupert, Gatien Bovyn, Mehdi Z., Jean-Bernard Marcon, Luc Benoit, Christophe Masutti, Thibault Mattera, Mireille Bernex, Nicolas Horny, et Arnaud Gallant, qui sont vivement remerciés.
 
@@ -27,7 +28,7 @@ Les deux compilations `framabook` et `amphibooks` font référence aux mêmes fi
 
 ## Licence
 
-Le manuel est placé sous licence <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr">Creative Commons BY-SA</a>.
+Le manuel est placé sous licence <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr">Creative Commons BY-SA</a> ; les conditions de réutilisation sont détaillées en annexe A5.
 
 Attention, beaucoup de figures utilisées ici (photos, schémas) sont placées sous licence compatible mais pas identique. Leur licence et auteur(s) sont indiqués à chaque fois dans le corps du manuel.
 
