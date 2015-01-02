@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  1 JAN 2015 15:39
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  2 JAN 2015 15:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3262,8 +3262,6 @@ LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
 (Font)              scaled to size 10.0pt on input line 1.
 LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
 (Font)              scaled to size 17.28pt on input line 2.
-LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
-(Font)              scaled to size 6.49994pt on input line 2.
 LaTeX Font Info:    Font shape `T1/fxl/m/sc' will be
 (Font)              scaled to size 10.0pt on input line 2.
  (./10/contenuexercices10.tex
@@ -3315,7 +3313,7 @@ LaTeX Font Info:    Font shape `T1/fxl/m/sc' will be
 (Font)              scaled to size 8.0pt on input line 59.
 LaTeX Font Info:    Font shape `T1/fxl/m/sl' will be
 (Font)              scaled to size 12.0pt on input line 59.
- [326
+ [330
 
 
 
@@ -3378,7 +3376,7 @@ File: images/photo_pw_j52_2.jpg Graphic file (type jpg)
 <use images/photo_pw_j52_2.jpg>
 Package pdftex.def Info: images/photo_pw_j52_2.jpg used on input line 128.
 (pdftex.def)             Requested size: 189.96817pt x 138.28258pt.
- [327 <./10/images/photo_pwc_pw123.jpg> <./10/images/photo_dash8.jpg> <./10/ima
+ [331 <./10/images/photo_pwc_pw123.jpg> <./10/images/photo_dash8.jpg> <./10/ima
 ges/photo_pw_j52_1.jpg> <./10/images/photo_pw_j52_2.jpg>] <images/photo_contine
 ntal_io-550.jpg, id=99, 411.136pt x 255.354pt>
 File: images/photo_continental_io-550.jpg Graphic file (type jpg)
@@ -3439,9 +3437,9 @@ Overfull \hbox (8.15858pt too wide) in paragraph at lines 194--195
 [][]. 
  []
 
-[328 <./10/images/photo_continental_io-550.jpg> <./10/images/photo_sr22.jpg> <.
+[332 <./10/images/photo_continental_io-550.jpg> <./10/images/photo_sr22.jpg> <.
 /10/images/photo_diesel_generateur.jpg> <./10/images/photo_diesel_propulsion.jp
-g>] [329
+g>] [333
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -3486,14 +3484,14 @@ Package pdftex.def Info: images/i.png used on input line 209.
 (pdftex.def)             Requested size: 8.57991pt x 8.57999pt.
 
 
-LaTeX Warning: Reference `mdf@pagelabel-101' on page 330 undefined on input lin
+LaTeX Warning: Reference `mdf@pagelabel-101' on page 334 undefined on input lin
 e 209.
 
 LaTeX Font Info:    Font shape `T1/fxl/bx/n' in size <10> not available
 (Font)              Font shape `T1/fxl/b/n' tried instead on input line 212.
 LaTeX Font Info:    Font shape `T1/fxl/b/n' will be
 (Font)              scaled to size 10.0pt on input line 212.
-) [330
+) [334
 
 
  <./10/images/i.png>])
@@ -3544,10 +3542,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
  52458 strings out of 494957
- 907363 string characters out of 3179219
- 1238112 words of memory out of 3000000
- 54029 multiletter control sequences out of 15000+200000
- 613766 words of font info for 553 fonts, out of 3000000 for 9000
+ 907509 string characters out of 3179219
+ 1238442 words of memory out of 3000000
+ 54033 multiletter control sequences out of 15000+200000
+ 603992 words of font info for 549 fonts, out of 3000000 for 9000
  64 hyphenation exceptions out of 8191
  101i,20n,109p,1078b,1303s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{figure.caption.229} has been referenced but does 
@@ -3589,10 +3587,10 @@ hare/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/newtx/txsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/newtx/txsy7.pfb>
-Output written on amphibook.pdf (5 pages, 2266077 bytes).
+Output written on amphibook.pdf (5 pages, 2266043 bytes).
 PDF statistics:
  223 PDF objects out of 1000 (max. 8388607)
  189 compressed objects within 2 object streams
  56 named destinations out of 1000 (max. 500000)
- 98375 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 97863 words of extra memory for PDF output out of 106986 (max. 10000000)
 
