@@ -10,7 +10,7 @@
 	L’utilisation de l’eau comme fluide moteur dans une machine a indubitablement de nombreux inconvénients. En particulier, contrairement aux moteurs à combustion interne :
 	\begin{itemize}
 		\item Il est nécessaire soit de recycler l’eau dans la machine (et donc de la refroidir), soit de trouver une source continue d’eau pure pour la faire fonctionner ;
-		\item Il y a une perte inévitable d’une partie de la chaleur fournie à la machine au-dessus de la chaudière.
+		\item Il y a une perte inévitable d’une partie de la chaleur fournie à la machine, au-dessus de la chaudière.
 	\end{itemize}
 
 	Pourquoi, alors, s’intéresser au fonctionnement des moteurs à vapeur ? La réponse est que beaucoup de sources de chaleur ne permettent pas d’apporter de la chaleur directement à l’intérieur du fluide moteur. La combustion du charbon, du bois, des déchets ménagers ou agricoles, par exemple, laisse en fin de combustion des résidus importants qu’il est impensable de laisser circuler dans une turbine. Les réactions nucléaires, quant à elles, ne peuvent pas être effectuées directement au sein de l’air. L’exploitation de ces sources, qui constitue une part importante des sources mondiales d’énergie, nécessite donc d’aller prélever la chaleur à l’extérieur du moteur.
@@ -336,13 +336,13 @@
 			\item Dans le condenseur, il est difficile d’interrompre la condensation à un endroit précis (le point A en figures~\ref{fig_machine_vapeur_carnot} et~\ref{fig_ts_machine_vapeur_carnot} plus haut, dont le titre est proche mais différent de~0).
 		\end{itemize}
 
-		\wed{William John Macquorn Rankine}{William Rankine}, ingénieur anglo-saxon digne de ses compatriotes, propose en 1859 une modification du cycle en poursuivant la condensation jusqu’à saturation et en ne compressant l’eau qu’à l’état liquide. Une machine basée sur ce cyle est décrite en figures~\ref{fig_cycle_rankine} et~\ref{fig_ts_lv_rankine}.
+		\wed{William John Macquorn Rankine}{William Rankine}, ingénieur anglo-saxon, propose en 1859 une modification du cycle en poursuivant la condensation jusqu’à saturation et en ne compressant l’eau qu’à l’état liquide. Une machine basée sur ce cyle est décrite en figures~\ref{fig_cycle_rankine} et~\ref{fig_ts_lv_rankine}.
 
 		\begin{figure}
 			\begin{center}
 				\includegraphics[height=11cm]{images/circuit_rankine.png}
 			\end{center}
-			\supercaption{Circuit d’une centrale à vapeur fonctionnant sur un cycle de Rankine. L’eau à la sortie du condenseur est sous forme de liquide saturée ; elle rentre dans la chaudière à plus faible température.}{schéma \ccbysa \olivier}
+			\supercaption{Circuit d’une centrale à vapeur fonctionnant sur un cycle de Rankine. L’eau à la sortie du condenseur est sous forme de liquide saturée ; elle entre dans la chaudière à plus faible température.}{schéma \ccbysa \olivier}
 			\label{fig_cycle_rankine}
 		\end{figure}
 
@@ -354,14 +354,14 @@
 			\label{fig_ts_lv_rankine}
 		\end{figure}
 
-		Le \vocab{cycle de Rankine} utilise donc une pompe à eau liquide plutôt qu’un compresseur en mélange liquide/vapeur. Technologiquement, une pompe est plus simple à concevoir, fabriquer, et opérer qu’un compresseur. Autre avantage, la compression d’un liquide est plusieurs dizaines de fois plus économe en énergie que celle du mélange (\S\ref{ch_moteurs_vapeur_compresseurs_et_pompes}). 
+		Le \vocab{cycle de Rankine} utilise donc une pompe à eau liquide plutôt qu’un compresseur en mélange liquide/vapeur. Technologiquement, une pompe est plus simple à concevoir, fabriquer et mettre en œuvre qu’un compresseur. Autre avantage, la compression d’un liquide est plusieurs dizaines de fois plus économe en énergie que celle du mélange (\S\ref{ch_moteurs_vapeur_compresseurs_et_pompes}). 
 		
 		Toutefois, cette économie d’énergie n’est pas sans contrepartie : à la sortie de la pompe (point B), l’eau est à température bien plus faible qu’elle ne l’était à la sortie du compresseur en \cref{fig_machine_vapeur_carnot}. C’est \emph{la chaudière} qui devra ramener l’eau à l’état de liquide saturé. Autrement dit, il faut fournir une dépense supplémentaire considérable sous forme de chaleur pour compenser la baisse de puissance de compression.
 
 		On peut remarquer qu’une partie importante de la chaleur fournie par la chaudière (c’est-à-dire $q_\text{chaudière} = h_\C - h_B$ ) n’est plus apportée à la température maximale du cycle. Nous avons vu aux chapitres~\sept et~\huit qu’un apport de chaleur à basse température se traduit toujours par un rendement plus faible.\\
 		Toutefois, en pratique, cet apport de chaleur peut rendre possible l’exploitation de sources de chaleur à basse température, comme les gaz d’échappement qui étaient auparavant rejetés au-dessus de la chaudière. Ainsi, dans certains cas, la chute du rendement thermodynamique ($\eta_\text{moteur}$) peut être compensée par une augmentation du rendement de la chaudière ($\eta_\text{chaudière}$), qui peut extraire plus d’énergie au combustible pour le transmettre à la vapeur.
 		
-		Rankine s’est ainsi écarté volontairement du cycle de Carnot, et a ce faisant réduit le rendement thermodynamique global (même si cette baisse peut souvent être compensée par une augmentation du rendement de la chaudière). Par contre, en faisant disparaître le compresseur, sa modification permet de réduire fortement la taille et la complexité de l’installation.
+		Rankine s’est ainsi écarté volontairement du cycle de Carnot et a, ce faisant, réduit le rendement thermodynamique global (même si cette baisse peut souvent être compensée par une augmentation du rendement de la chaudière). Par contre, en faisant disparaître le compresseur, sa modification permet de réduire fortement la taille et la complexité de l’installation.
 
 		 
 
@@ -371,7 +371,7 @@
 
 		\begin{itemize}
 			\item Augmenter l’enthalpie à l’entrée de la turbine (c’est-à-dire augmenter la pression de saturation dans la chaudière). \\
-			Malheureusement, cela impose à la chaudière d’être plus résistante et plus coûteuse ; et de plus, cela réduit la quantité de chaleur spécifique qu’il est possible d’y apporter, puisque l’enthalpie de vaporisation $h_{LV}$ décroît avec la température ;
+			Malheureusement, cela impose à la chaudière d’être plus résistante et plus coûteuse ; de plus, cela réduit la quantité de chaleur spécifique qu’il est possible d’y apporter, puisque l’enthalpie de vaporisation $h_{LV}$ décroît avec la température ;
 
 			\item Réduire l’enthalpie à la sortie de la turbine (c’est-à-dire diminuer la pression dans le condenseur). \\
 			Cela nécessite une turbine de plus grande taille,  favorise l’insertion de bulles d’air dans le circuit de vapeur, et surtout, réduit le titre de l’eau en sortie de turbine ;
@@ -423,7 +423,7 @@
 			\label{fig_ts_lv_surchauffe_resurchauffe}
 		\end{figure}
 
-		Avec cette modification, la détente dans la turbine est interrompue ; et la vapeur est conduite dans une nouvelle série de tubes pour porter à nouveau sa température à haute température (usuellement aux limites métallurgiques de la turbine). La détente est alors complétée jusqu’à la pression du condenseur.
+		Avec cette modification, la détente dans la turbine est interrompue et la vapeur est conduite dans une nouvelle série de tubes pour porter à nouveau sa température à haute température (usuellement aux limites métallurgiques de la turbine). La détente est alors complétée jusqu’à la pression du condenseur.
 
 		Le rendement global de l’installation est augmenté si la température moyenne de chauffage l’est aussi ; il faut donc choisir avec soin la pression de la resurchauffe. La consommation spécifique, elle, est diminuée dans tous les cas, avec les avantages décrits plus haut.
 
@@ -432,7 +432,7 @@
 	\subsection{La régénération}
 	\label{ch_regeneration}
 
-		Lorsque Rankine a modifié le cycle de Carnot, il a réduit le travail fourni pour compresser l’eau, et augmenté la chaleur nécessaire pour l’amener en entrée de turbine. En contrepartie, le rendement thermodynamique a diminué : en effet, lorsque l’eau pénètre dans la chaudière, sa température est faible. Elle reçoit de la chaleur de façon non-réversible.
+		Lorsque Rankine a modifié le cycle de Carnot, il a réduit le travail fourni pour compresser l’eau et augmenté la chaleur nécessaire pour l’amener en entrée de turbine. En contrepartie, le rendement thermodynamique a diminué : en effet, lorsque l’eau pénètre dans la chaudière, sa température est faible. Elle reçoit de la chaleur de façon non-réversible.
 
 		Pour augmenter la réversibilité du cycle (et donc son rendement), il est possible de réchauffer l’eau progressivement, en utilisant la chaleur en provenance de la turbine (où la température de la vapeur varie). Cette technique est nommée \vocab{régénération}. On peut ainsi imaginer un cycle comme décrit en figures~\ref{fig_circuit_regeneration} et~\ref{fig_ts_lv_regeneration} ci-dessous, où l’eau liquide en sortie de pompe est réchauffée progressivement en refroidissant la turbine.
 
