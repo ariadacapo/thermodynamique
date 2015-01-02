@@ -242,7 +242,7 @@
 	À pression constante, la capacité calorifique massique de l’air est environ $c_{p\ \text{air}} = \SI{1050}{\joule\per\kilogram\per\kelvin}$. La combustion du kérosène dégage $q_{\text{kérosène}} = \SI{46}{\mega\joule\per\kilogram}$.
 
 	\begin{enumerate}
-		\item Quelle est la puissance spécifique rejetée sous forme de chaleur dans l’atmosphère ?\\
+		\item Quelle est la puissance spécifique rejetée par les moteurs sous forme de chaleur dans l’atmosphère ?\\
 			\scriptsize{Indice : c’est la chaleur spécifique que doit perdre l’air rejeté pour retrouver sa température initiale.}
 	\end{enumerate}
 
@@ -250,16 +250,16 @@
 	
 	\begin{enumerate}
 		\shift{1}
-		\item Quelle est la puissance spécifique dégagée par le moteur sous forme de travail ?\\
+		\item Quelle est la puissance spécifique dégagée par les moteurs sous forme de travail ?\\
 			\scriptsize{Indice : au final, toute l’énergie perdue par l’air sous forme de travail et de chaleur lui a été apportée dans la chambre de combustion.}
 	\end{enumerate}
 		
-	Pour maintenir l’hélicoptère en vol stationnaire en pleine charge, les rotors demandent à chaque moteur une puissance sous forme de travail de \SI{660}{\kilo\watt} (environ \SI{900}{ch}).
+	Pour maintenir l’hélicoptère en vol stationnaire en pleine charge, les rotors demandent aux deux moteurs une puissance totale sous forme de travail de \SI{1,32}{\mega\watt} (environ \SI{1800}{ch}).
 	
 	\begin{enumerate}
 		\shift{2}
-		\item Quel débit d’air faut-il admettre dans chaque turbomoteur ?
-		\item Quelle est alors la puissance (en \si{\watt}) à fournir dans chaque chambre de combustion ?
+		\item Quel débit d’air faut-il admettre au total dans les deux turbomoteurs ?
+		\item Quelle est alors la puissance totale (en \si{\watt}) à fournir dans les deux chambres de combustion ?
 		\item Quelle est la consommation horaire en kérosène de l’hélicoptère en vol stationnaire ?
 	\end{enumerate}
 
@@ -303,9 +303,9 @@
 				\tab 2) $\eta_{\text{chaudière}} = \left|\frac{\dot Q_{\text{eau}}}{\dot Q_{\text{kérosène}}}\right| = \SI{44,8}{\percent}$
 	\item [\ref{exo_turbomoteur_puissances_spe}]
 				\tab 1) $q_{\text{rejet}} = \SI{+362,25}{\kilo\joule\per\kilogram}$
-				\tab 2) $q_{\text{chambre}} + w_{\text{arbre}} + q_{\text{refroidissement atmosphérique}} = 0$ ou encore $q_{\text{chambre}} + w_{\text{arbre}} - q_{\text{rejet}} = 0$ ; ainsi on a $w_{\text{arbre}} = - q_{\text{chambre}} + q_{\text{rejet}} = \SI{-190,1}{\kilo\joule\per\kilogram}$.
-				\tab 3) $\dot m_{\text{air}} = \SI{3,47}{\kilogram\per\second}$
-				\tab 4) $\dot Q_{\text{chambre}} = \SI{1,918}{\mega\watt}$
-				\tab 5) $\dot m_{\text{kérosène (totale)}} = 2 \frac{\dot Q_{\text{chambre}}}{q_{\text{kérosène}}} = \SI{300,2}{\kilogram\per\hour}$ (valeur réaliste).
+				\tab 2) $q_{\text{chambre}} + w_{\text{arbre}} + q_{\text{refroidissement atmosphérique}} = 0$ ou encore $q_{\text{chambre}} + w_{\text{arbre}} - q_{\text{rejet}} = 0$ ; ainsi on a $w_{\text{arbre}} = - q_{\text{chambre}} + q_{\text{rejet}} = \SI{-190,1}{\kilo\joule\per\kilogram}$ (ces puissances ne dépendent pas du débit de masse, et donc pas du nombre de moteurs considérés).
+				\tab 3) $\dot m_{\text{air}} = \SI{6,95}{\kilogram\per\second}$
+				\tab 4) $\dot Q_{\text{chambres}} = \SI{3,836}{\mega\watt}$
+				\tab 5) $\dot m_{\text{kérosène}} = \frac{\dot Q_{\text{chambres}}}{q_{\text{kérosène}}} = \SI{300,2}{\kilogram\per\hour}$ (valeur réaliste).
 \end{description}
 
