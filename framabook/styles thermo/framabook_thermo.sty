@@ -478,9 +478,6 @@
 \newcommand{\atstartofhistorysection}{\clearpage}
 \newcommand{\atendofhistorysection}{} % don’t display anything
 
-% Remove link to http://thermo.ariadacapo.net/ for solutions at the start of exercice sheets
-\newcommand{\linktosolutionsblurb}{} % nothing
-
 % Custom style for floating quotes aside the text. For some reason an environment does not work.
 \newcommand{\thermoquotebegin}[1]{\setlength{\intextsep}{0cm}\begin{wrapfigure}{R}[0pt]{4cm}\scriptsize\begin{spacing}{0.9}\makebox(18,5){\color{gray}\scalebox{2}{«}}}
 \newcommand{\thermoquoteend}[2]{\nolinebreak\makebox(18,5){\color{gray}\scalebox{2}{»}}\par\vspace{-0.3cm}\begin{flushright}#1\\#2\vspace{-2em}\end{flushright}\end{spacing}\end{wrapfigure}}
@@ -558,6 +555,7 @@
 }
 
 \newcommand{\propgaz}{%
+\vspace{-0.8cm}
 \begin{align*}
 		c_{v \text{(gaz)}} & = \SI{823}{\joule\per\kilogram\per\kelvin} 	& R_\text{gaz} 		& = \SI{327}{\joule\per\kilogram\per\kelvin} \\
 		c_{p \text{(gaz)}} & = \SI{1150}{\joule\per\kilogram\per\kelvin} 	& \gamma_\text{gaz} & = \num{1,333}
