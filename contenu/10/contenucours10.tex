@@ -149,6 +149,11 @@ Les moteurs à mouvement alternatif (souvent dits «~à pistons-cylindres~») ad
 	\subsection{Le cycle de Diesel}
 	\label{ch_cycle_diesel}
 
+		\thermoquotebegin{O}
+			[Nous souhaitons] produire la température la plus haute du cycle (la température de combustion) non pas par et pendant la combustion, mais avant et indépendament d’elle, entièrement par la compression d’air ordinaire. […]
+Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, mais ce dernier doit être comprimé séparément, sinon, bien avant que la compression requise ne soit atteinte, l’allumage se produirait, et le cycle serait interrompu.
+		\thermoquoteend{Rudolf Diesel, 1893~\cite{diesel1893, diesel1893en}}{}
+		
 		Fruit du travail patient et soigneux de son inventeur, l’ingénieur allemand \wf{Rudolf Diesel}, le \vocab{moteur Diesel} propulse aujourd’hui l’écrasante majorité des transports commerciaux sur route et sur mer.
 
 		D’un point de vue strictement thermodynamique, le cycle de Diesel théorique ne diffère de celui d’Otto que par son mode de combustion : l’apport de chaleur se fait à pression constante et non à volume constant, comme montré en \cref{fig_cycle_diesel}.
@@ -226,15 +231,19 @@ Les moteurs à mouvement alternatif (souvent dits «~à pistons-cylindres~») ad
 		
 		Comme l’utilisation d’un turbo affecte négativement la réactivité d’un moteur, on peut permettre à l’air d’admission de le contourner pendant les variations de régime. De plus, les variations de température dans le turbo peuvent être compensées par refroidissement avant insertion dans les cylindres (nous étudions cette technique plus bas en~\S\ref{ch_intercooling}). Ces procédés font des moteurs modernes des systèmes thermodynamiques complexes capables d’effectuer une large gamme de cycles très différents en fonction des conditions d’utilisation.
 
-
+\onlyframabook{\clearpage}%handmade ici saut de page, sinon la citation de Carnot casse tout
 \section{Composants des turbomachines}
 
 	Avant de nous plonger dans les cycles des moteurs à turbines, nous nous proposons de rappeler brièvement le fonctionnement de leurs principaux composants. Comme les turbomachines fonctionnent en régime permanent, nous ferons à partir d’ici systématiquement appel aux notions du \courstrois.
 
 	\subsection{Compresseur}
-
-		Les phases de compression et de détente dans les moteurs se font très souvent de façon adiabatique et toujours de façon irréversible. L’écoulement des fluides au sein du compresseur des moteurs modernes est extrêmement complexe et la compression y est difficile à effectuer\footnote{Au sein d’un bon cours de mécanique des fluides, l’étudiant/e aura l’occasion de découvrir que le gradient de pression au sein d’un compresseur favorise la séparation de la \vocab{couche limite}. Ainsi, on utilise toujours un plus grand nombre d’étages dans un compresseur que dans turbine de même puissance, où le gradient est favorable.}\nolinebreak.
-		C’est un composant lourd, volumineux, et dont la géométrie est complexe (figures~\ref{fig_schéma_compresseur1} et~\ref{fig_schéma_compresseur2}). La plupart des compresseurs sont \vocab{axiaux}, c’est à dire que l’air les traverse parallèlement à l’axe de rotation, mais on utilise parfois des compresseurs \vocab{centrifuges}, qui projettent l’air radialement ; quelque soit le procédé utilisé, les évolutions thermodynamiques de l’air restent identiques.
+	
+		\thermoquotebegin{O}
+			Afin de pouvoir donner à l’air une grande extension de volume, afin de produire par cette extension un grand changement de température, il serait nécessaire de le prendre d’abord sous une pression assez élevée […] Cette opération exigerait un appareil particulier, appareil qui n’existe pas dans les machines à vapeur. Dans celles-ci, l’eau est à l’état liquide lorsqu’on la fait pénétrer dans la chaudière ; elle n’exige, pour y être introduite, qu’une pompe foulante de petites dimensions.
+		\thermoquoteend{Sadi Carnot, 1824\cite{carnot1824}}{~}
+	
+		Les phases de compression et de détente dans les moteurs se font très souvent de façon adiabatique et toujours de façon irréversible. L’écoulement des fluides au sein du compresseur des moteurs modernes est difficile à modéliser\footnote{On sait de la mécanique des fluides que le gradient de pression au sein d’un compresseur favorise la séparation de la \vocab{couche limite}. Ainsi, on utilise toujours un plus grand nombre d’étages dans un compresseur que dans une turbine de même puissance, où le gradient est favorable.}\nolinebreak ; ce qui en fait un composant lourd, volumineux, et dont la géométrie est complexe (figures~\ref{fig_schéma_compresseur1} et~\ref{fig_schéma_compresseur2}).\\
+		La plupart des compresseurs sont \vocab{axiaux}, c’est à dire que l’air les traverse parallèlement à l’axe de rotation, mais on utilise parfois des compresseurs \vocab{centrifuges}, qui projettent l’air radialement ; quelque soit le procédé utilisé, les évolutions thermodynamiques de l’air restent identiques.
 
 		\begin{figure}
 			\begin{center}
@@ -366,6 +375,10 @@ Les moteurs à mouvement alternatif (souvent dits «~à pistons-cylindres~») ad
 
 	\subsection{Tuyère}
 
+		\thermoquotebegin{O}
+			Lorsqu’en effet deux fluides également comprimés s’échappent par deux petits orifices égaux, leurs vîtesses sont en raison inverse de la racine carrée de leurs \mbox{densités}.% accent sur vîtesses tel quel dans le texte original
+		\thermoquoteend{Louis Joseph Gay-Lussac, 1807~\cite{gaylussac1807}}{~}
+
 		La \vocab{tuyère} est un simple conduit sans pièce mobile (figures~\ref{fig_illustration_tuyere1} et~\ref{fig_illustration_tuyere2}). Elle permet au gaz de se détendre, et ainsi d’accélérer vers l’arrière du moteur. C’est cette augmentation de la vitesse du gaz (différence entre vitesse à l’entrée et à la sortie) qui est à l’origine de la poussée fournie par un moteur.
 
 		Il n’y a aucun apport de chaleur ou de travail dans la tuyère : si l’on néglige les frottements, l’énergie du gaz est conservée. La tuyère est le seul élément du moteur pour lequel la variation d’énergie cinétique doit être impérativement prise en compte.
@@ -436,10 +449,17 @@ Les moteurs à mouvement alternatif (souvent dits «~à pistons-cylindres~») ad
 
 	\subsection{Intérêt des turbomachines}
 
+		\thermoquotebegin{O}
+			La turbine à vapeur, sans apporter de réelle amélioration quant à la dépense de vapeur, est entrée dans l’industrie grâce à la simplicité de sa construction, et il en sera de même pour la turbine à gaz, qui est de construction plus simple que le moteur à gaz, pour peu qu’elle puisse seulement dépasser les moteurs à vapeur en efficacité.
+		\thermoquoteend{Aurel Stodola, 1904,~\cite{stodola1904, stodola1905}}{}
+
 		Les \vocab{turbomachines}, c’est-à-dire les machines transférant de l’énergie entre un fluide et un axe en rotation\footnote{Les turbomachines sont souvent appelées «~turbines à gaz~», surtout en anglais où \vocabe{gas turbine} dénote toute la machine et non seulement son composant.}, présentent deux grands avantages par rapport aux moteurs à pistons :
 
 		\begin{itemize}
 			\item Le rapport puissance-poids des turbomachines est environ trois fois supérieur, car le nombre de pièces mobiles est réduit, et leur mouvement très simple, ce qui permet de les alléger ;
+		\end{itemize} %handmade : hack pourri sinon la citation de Stodola casse tout
+		
+		\begin{itemize}
 			\item Dans le cas de la propulsion aéronautique, le fluide moteur peut être utilisé comme médium de propulsion lui-même. Il suffit de laisser l’air sortir de la turbine avec une pression résiduelle et de le laisser se détendre dans une tuyère. On obtient alors une poussée par réaction (égale au débit de masse multiplié par sa vitesse) : c’est le principe du turboréacteur.
 		\end{itemize}
 
