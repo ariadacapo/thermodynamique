@@ -207,7 +207,7 @@ Les moteurs à mouvement alternatif (souvent dits «~à pistons-cylindres~») ad
 				\includegraphics[height=0.325\textwidth]{images/honda_v12.jpg}
 			\end{center}
 			\supercaption{À gauche, un \textit{Curtiss-Wright} \textsc{r-3350} \textit{Duplex-Cyclone} (1950) de \SI{3500}{ch} à 18 cylindres disposés en deux étoiles successives. Quatre de ces moteurs équipaient le long-courrier \textit{Lockheed Super Constellation}.\\
-			À droite, un \textit{Honda} \textsc{ra121e} (1991) de 12 cylindres. Il équipait la formule 1 \textit{McLaren} \textsc{mp4/6}.}{\wcfile{Curtiss Wright Cyclone 1 fcm.jpg}{photo du Duplex-Cyclone} \ccbysa par \wcun{Frank C. Müller}{Frank C. Müller}\\
+			À droite, un \textit{Honda} \textsc{ra121e} (1991) de 12 cylindres. Il équipait la Formule 1 \textit{McLaren} \textsc{mp4/6}.}{\wcfile{Curtiss Wright Cyclone 1 fcm.jpg}{photo du Duplex-Cyclone} \ccbysa par \wcun{Frank C. Müller}{Frank C. Müller}\\
  \wcfile{Honda RA121E engine front Honda Collection Hall.jpg}{photo du V12 \textsc{ra121e}} \ccbysa par \wcu{Morio}}
 			\label{fig_beaucoup_cylindres}
 		\end{figure}
@@ -278,6 +278,8 @@ Les moteurs à mouvement alternatif (souvent dits «~à pistons-cylindres~») ad
 			Pour l’air, on mesure $c_{p\text{(air)}} = \SI{1005}{\joule\per\kilogram\per\kelvin}$, $c_{v\text{(air)}} = \SI{718}{\joule\per\kilogram\per\kelvin}$, $R_\text{air} = \SI{287}{\joule\per\kilogram\per\kelvin}$, et $\gamma_\text{air} = \num{1,4}$.\\
 			Le compresseur d’un turboréacteur à soufflante a une efficacité isentropique de \SI{85}{\percent} admet \SI{38}{\kilogram\per\second} d’air à \SI{1}{\bar} et \SI{5}{\degreeCelsius}. La pression de sortie est de \SI{40}{\bar}. Quelle est la puissance consommée ?
 				\begin{answer}
+					L’évolution peut être représentée de façon qualitative sur un diagramme $T-s$ ainsi :
+						\begin{center}\includegraphics[width=4cm]{images/exe_ts_compresseur.png}\end{center}
 					Nous commençons par calculer la puissance d’un compresseur idéal (isentropique) : la température de sortie serait alors (\ref{eq_isentropique_horrible2}) :
 						$T_{\B’} = T_\A \left(\frac{p_\B}{p_\A}\right)^{\frac{\gamma - 1}{\gamma}}
 					 			= (5 + \num{273,15}) \left(40\right)^{\frac{\num{0,4}}{\num{1,4}}}
@@ -407,13 +409,15 @@ Les moteurs à mouvement alternatif (souvent dits «~à pistons-cylindres~») ad
 					$T_\B = T_\A \left(\frac{p_\B}{p_\A}\right)^{\frac{\gamma - 1}{\gamma}}
 					 			= (400 + \num{273,15}) \left(\frac{1}{2}\right)^{\frac{\num{0,333}}{\num{1,333}}}
 					 			= \SI{566,1}{\kelvin} = \SI{293}{\degreeCelsius}$.
-					
+					Une telle évolution peut être représentée de façon qualitative sur un diagramme $T-s$ ainsi :
+						\begin{center}\includegraphics[width=4cm]{images/exe_ts_tuyere.png}\end{center}
 					Avec l’\cref{eq_vitesses_tuyere} la vitesse de sortie serait donc 
 					$C_\B = \left[ - 2 \ c_{p \text{(gaz)}} \ (T_\B - T_\A) - C_\A^2 \right]^{\frac{1}{2}}
 							= \left[ - 2 \times \num{1150} \times (\num{293} - \num{400}) + \num{10}^2 \right]^{\num{0,5}}
 							= \SI{496,2}{\metre\per\second} = \SI{1786}{\kilo\metre\per\hour}$.
 								\begin{remark}
-									Dans la réalité, les gaz n’atteindraient jamais cette vitesse. En effet, une grande partie de la détente se fait \emph{en dehors} de la tuyère, où elle est très turbulente et donc très irréversible. Cela n’a en fait pas d’influence sur la poussée générée par la tuyère, dont la bouche de sortie est en réalité à pression supérieure à la pression atmosphérique. Le calcul de vitesse effectué ici reste malgré tout un bon «~indicateur~» thermodynamique des phénomènes en jeu. Pour une meilleure description de la détente, il faut se référer à la mécanique des fluides.
+									Dans la réalité, les gaz n’atteindraient jamais cette vitesse. En effet, une grande partie de la détente se fait \emph{en dehors} de la tuyère, où elle est très turbulente et donc très irréversible.\\
+									Ce phénomène, malgré tout, n’a pas d’influence sur la poussée générée par la tuyère, car sa bouche de sortie est en réalité à pression supérieure à la pression atmosphérique. Le calcul de vitesse effectué ici reste ainsi un bon «~indicateur~» thermodynamique des phénomènes en jeu. Pour décrire rigoureusement l’écoulement dans une tuyère, il se référer à la mécanique des fluides, que nous ne souhaitons pas aborder ici.
 								\end{remark}
 								\begin{remark}
 									Dans la plupart des cas, il est raisonnable de considérer que l’énergie cinétique des gaz à la sortie de la turbine (et donc à l’entrée de la tuyère) est négligeable. Les \SI{10}{\metre\per\second} en A n’ont ici aucune influence pratique.
@@ -501,7 +505,6 @@ Les moteurs à mouvement alternatif (souvent dits «~à pistons-cylindres~») ad
 
 		Les turbomoteurs, quant à eux, ont de multiples applications (hélicoptères, navires militaires, générateurs électriques d’appoint, centrales génératrices à gaz…). Ils sont plus souvent déclinés dans les variantes détaillées plus bas.
 
-		 
 
 	\subsection{Turbofan}
 
