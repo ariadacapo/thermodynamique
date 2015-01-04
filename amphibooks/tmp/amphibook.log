@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  3 JAN 2015 09:12
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  4 JAN 2015 13:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2860,16 +2860,16 @@ File: french.mld 2006/03/21
 
 
 Package hyperref Warning: Option `pdftex' has already been used,
-(hyperref)                setting the option has no effect on input line 394.
+(hyperref)                setting the option has no effect on input line 396.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 394.
+Package hyperref Info: Option `colorlinks' set `true' on input line 396.
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 394.
+(hyperref)                setting the option has no effect on input line 396.
 
-Package hyperref Info: Option `unicode' set `false' on input line 394.
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 394.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 394.
+Package hyperref Info: Option `unicode' set `false' on input line 396.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 396.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 396.
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/hypcap.sty
 Package: hypcap 2011/02/16 v1.11 Adjusting the anchors of captions (HO)
 ) (./a/steer.tex)
@@ -2908,7 +2908,10 @@ LaTeX Warning: Label `fig_centrale_condenseur1@cref' multiply defined.
 ) (./9/exercices_chapitre_9.aux) (./10/chapitre_10.aux)
 (./10/exercices_chapitre_10.aux
 
-LaTeX Warning: Label `mdf@pagelabel-99' multiply defined.
+LaTeX Warning: Label `exo_cycle_moteur_essence' multiply defined.
+
+
+LaTeX Warning: Label `exo_cycle_moteur_essence@cref' multiply defined.
 
 ) (./a/frame_annexes.aux) (./a/frame_bibliographie.aux)
 (./a/contenu_epitaphe.aux))
@@ -3281,39 +3284,72 @@ LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
 LaTeX Font Warning: Font shape `T1/cmtt/m/n' in size <5.5> not available
 (Font)              size <5> substituted on input line 2.
 
+
+LaTeX Warning: Reference `mdf@pagelabel-98' on page 331 undefined on input line
+ 5.
+
 LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
-(Font)              scaled to size 14.4pt on input line 7.
+(Font)              scaled to size 14.4pt on input line 8.
+<images/photo_continental_io-550.jpg, id=14, 411.136pt x 255.354pt>
+File: images/photo_continental_io-550.jpg Graphic file (type jpg)
+
+<use images/photo_continental_io-550.jpg>
+Package pdftex.def Info: images/photo_continental_io-550.jpg used on input line
+ 26.
+(pdftex.def)             Requested size: 241.07481pt x 149.73021pt.
+
+<images/photo_sr22.jpg, id=15, 1284.8pt x 854.19125pt>
+File: images/photo_sr22.jpg Graphic file (type jpg)
+
+<use images/photo_sr22.jpg>
+Package pdftex.def Info: images/photo_sr22.jpg used on input line 27.
+(pdftex.def)             Requested size: 241.07481pt x 160.26474pt.
+LaTeX Font Info:    Font shape `T1/fxl/m/sc' will be
+(Font)              scaled to size 12.0pt on input line 30.
 LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
-(Font)              scaled to size 6.0pt on input line 9.
+(Font)              scaled to size 10.95pt on input line 30.
+LaTeX Font Info:    Font shape `T1/fxl/m/sc' will be
+(Font)              scaled to size 10.95pt on input line 30.
+LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
+(Font)              scaled to size 10.95pt on input line 30.
 LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
-(Font)              scaled to size 6.5pt on input line 9.
+(Font)              scaled to size 8.0pt on input line 30.
+LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
+(Font)              scaled to size 6.1pt on input line 30.
 LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
-(Font)              scaled to size 6.5pt on input line 9.
+(Font)              scaled to size 10.95pt on input line 30.
+LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
+(Font)              scaled to size 8.0pt on input line 30.
+LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
+(Font)              scaled to size 6.1pt on input line 30.
+LaTeX Font Info:    Font shape `T1/fxl/m/sl' will be
+(Font)              scaled to size 8.0pt on input line 30.
+LaTeX Font Info:    Font shape `T1/fxl/m/sc' will be
+(Font)              scaled to size 8.0pt on input line 30.
+LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
+(Font)              scaled to size 6.2pt on input line 30.
+LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
+(Font)              scaled to size 6.2pt on input line 30.
+LaTeX Font Info:    Font shape `T1/fxl/m/sl' will be
+(Font)              scaled to size 12.0pt on input line 30.
+LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
+(Font)              scaled to size 6.0pt on input line 34.
+LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
+(Font)              scaled to size 6.5pt on input line 34.
+LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
+(Font)              scaled to size 6.5pt on input line 34.
+
 
 LaTeX Font Warning: Font shape `T1/cmtt/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 9.
+(Font)              size <6> substituted on input line 34.
 
-<images/circuit_turboprop.png, id=15, 539.616pt x 240.9pt>
-File: images/circuit_turboprop.png Graphic file (type png)
 
-<use images/circuit_turboprop.png>
-Package pdftex.def Info: images/circuit_turboprop.png used on input line 57.
-(pdftex.def)             Requested size: 312.9803pt x 139.72575pt.
-LaTeX Font Info:    Font shape `T1/fxl/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 59.
-LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
-(Font)              scaled to size 10.95pt on input line 59.
-LaTeX Font Info:    Font shape `T1/fxl/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 59.
-LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
-(Font)              scaled to size 8.0pt on input line 59.
-LaTeX Font Info:    Font shape `T1/fxl/m/sl' will be
-(Font)              scaled to size 8.0pt on input line 59.
-LaTeX Font Info:    Font shape `T1/fxl/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 59.
-LaTeX Font Info:    Font shape `T1/fxl/m/sl' will be
-(Font)              scaled to size 12.0pt on input line 59.
- [330
+Overfull \hbox (14.56143pt too wide) in paragraph at lines 59--60
+[]\T1/fxl/m/n/10 (-20) la cha-leur spé-ci-fique four-nie chaque cycle est de []
+[][]; 
+ []
+
+[331
 
 
 
@@ -3345,101 +3381,102 @@ nation with the same identifier (name{equation.10.7.12}) has been already used,
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.87 	\end{enumerate}
-                      <./10/images/circuit_turboprop.png>]
-<images/photo_pwc_pw123.jpg, id=64, 1606.0pt x 638.385pt>
-File: images/photo_pwc_pw123.jpg Graphic file (type jpg)
-
-<use images/photo_pwc_pw123.jpg>
-Package pdftex.def Info: images/photo_pwc_pw123.jpg used on input line 91.
-(pdftex.def)             Requested size: 315.65605pt x 125.47415pt.
-
-<images/photo_dash8.jpg, id=65, 1284.8pt x 856.19875pt>
-File: images/photo_dash8.jpg Graphic file (type jpg)
-
-<use images/photo_dash8.jpg>
-Package pdftex.def Info: images/photo_dash8.jpg used on input line 92.
-(pdftex.def)             Requested size: 188.28108pt x 125.47415pt.
-LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
-(Font)              scaled to size 10.95pt on input line 94.
-
-<images/photo_pw_j52_1.jpg, id=74, 790.152pt x 355.3275pt>
-File: images/photo_pw_j52_1.jpg Graphic file (type jpg)
-
-<use images/photo_pw_j52_1.jpg>
-Package pdftex.def Info: images/photo_pw_j52_1.jpg used on input line 127.
-(pdftex.def)             Requested size: 307.50697pt x 138.28258pt.
-
-<images/photo_pw_j52_2.jpg, id=75, 1398.22375pt x 1017.8025pt>
-File: images/photo_pw_j52_2.jpg Graphic file (type jpg)
-
-<use images/photo_pw_j52_2.jpg>
-Package pdftex.def Info: images/photo_pw_j52_2.jpg used on input line 128.
-(pdftex.def)             Requested size: 189.96817pt x 138.28258pt.
- [331 <./10/images/photo_pwc_pw123.jpg> <./10/images/photo_dash8.jpg> <./10/ima
-ges/photo_pw_j52_1.jpg> <./10/images/photo_pw_j52_2.jpg>] <images/photo_contine
-ntal_io-550.jpg, id=99, 411.136pt x 255.354pt>
-File: images/photo_continental_io-550.jpg Graphic file (type jpg)
-
-<use images/photo_continental_io-550.jpg>
-Package pdftex.def Info: images/photo_continental_io-550.jpg used on input line
- 152.
-(pdftex.def)             Requested size: 259.75731pt x 161.32837pt.
-
-<images/photo_sr22.jpg, id=100, 1284.8pt x 854.19125pt>
-File: images/photo_sr22.jpg Graphic file (type jpg)
-
-<use images/photo_sr22.jpg>
-Package pdftex.def Info: images/photo_sr22.jpg used on input line 153.
-(pdftex.def)             Requested size: 242.6442pt x 161.32837pt.
-LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
-(Font)              scaled to size 6.1pt on input line 155.
-LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
-(Font)              scaled to size 10.95pt on input line 155.
-LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
-(Font)              scaled to size 8.0pt on input line 155.
-LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
-(Font)              scaled to size 6.1pt on input line 155.
-LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
-(Font)              scaled to size 6.2pt on input line 155.
-LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
-(Font)              scaled to size 6.2pt on input line 155.
-
-Overfull \hbox (10.81241pt too wide) in paragraph at lines 161--162
-[]\T1/fxl/m/n/10 (-20) La cha-leur spé-ci-fique four-nie chaque cycle est de []
-[][]; 
- []
-
-<images/photo_diesel_generateur.jpg, id=109, 803.0pt x 602.25pt>
+l.60 		\item l
+              e taux de compression $\epsilon \equiv \frac{V_\text{max.}}{V_...
+ <./10/images/photo_continental_io-550.jpg> <./10/images/photo_sr22.jpg>]
+<images/photo_diesel_generateur.jpg, id=70, 803.0pt x 602.25pt>
 File: images/photo_diesel_generateur.jpg Graphic file (type jpg)
 
 <use images/photo_diesel_generateur.jpg>
 Package pdftex.def Info: images/photo_diesel_generateur.jpg used on input line 
-183.
+65.
 (pdftex.def)             Requested size: 250.95612pt x 188.21184pt.
 
-<images/photo_diesel_propulsion.jpg, id=110, 803.0pt x 602.25pt>
+<images/photo_diesel_propulsion.jpg, id=71, 803.0pt x 602.25pt>
 File: images/photo_diesel_propulsion.jpg Graphic file (type jpg)
 
 <use images/photo_diesel_propulsion.jpg>
 Package pdftex.def Info: images/photo_diesel_propulsion.jpg used on input line 
-184.
+66.
 (pdftex.def)             Requested size: 250.95612pt x 188.21184pt.
 
-Underfull \hbox (badness 8038) in paragraph at lines 186--186
-[]\T1/fxl/m/sc/10.95 (+20) Figure \T1/fxl/m/n/10.95 (+20) 10.31 ^^U |Mo-teurs D
+Underfull \hbox (badness 8038) in paragraph at lines 68--68
+[]\T1/fxl/m/sc/10.95 (+20) Figure \T1/fxl/m/n/10.95 (+20) 10.28 ^^U |Mo-teurs D
 ie-sel six cy-lindres
  []
 
+<images/circuit_turboprop.png, id=77, 539.616pt x 240.9pt>
+File: images/circuit_turboprop.png Graphic file (type png)
 
-Overfull \hbox (8.15858pt too wide) in paragraph at lines 194--195
-[]\T1/fxl/m/n/10 (-20) La cha-leur spé-ci-fique four-nie chaque cycle est de []
-[][]. 
+<use images/circuit_turboprop.png>
+Package pdftex.def Info: images/circuit_turboprop.png used on input line 98.
+(pdftex.def)             Requested size: 312.9803pt x 139.72575pt.
+
+Overfull \hbox (5.88214pt too wide) in paragraph at lines 106--107
+[]\T1/fxl/m/n/10 (-20) L'air à pres-sion et tem-pé-ra-ture am-biantes ([][][] &
+ [][][])
  []
 
-[332 <./10/images/photo_continental_io-550.jpg> <./10/images/photo_sr22.jpg> <.
-/10/images/photo_diesel_generateur.jpg> <./10/images/photo_diesel_propulsion.jp
-g>] [333
+<images/photo_pwc_pw123.jpg, id=81, 1606.0pt x 638.385pt>
+File: images/photo_pwc_pw123.jpg Graphic file (type jpg)
+
+<use images/photo_pwc_pw123.jpg>
+Package pdftex.def Info: images/photo_pwc_pw123.jpg used on input line 132.
+(pdftex.def)             Requested size: 241.07481pt x 95.8218pt.
+
+<images/photo_dash8.jpg, id=82, 1284.8pt x 856.19875pt>
+File: images/photo_dash8.jpg Graphic file (type jpg)
+
+<use images/photo_dash8.jpg>
+Package pdftex.def Info: images/photo_dash8.jpg used on input line 133.
+(pdftex.def)             Requested size: 241.07481pt x 160.64139pt.
+ [332 <./10/images/photo_diesel_generateur.jpg> <./10/images/photo_diesel_propu
+lsion.jpg> <./10/images/circuit_turboprop.png>]
+<images/photo_pw_j52_1.jpg, id=117, 790.152pt x 355.3275pt>
+File: images/photo_pw_j52_1.jpg Graphic file (type jpg)
+
+<use images/photo_pw_j52_1.jpg>
+Package pdftex.def Info: images/photo_pw_j52_1.jpg used on input line 171.
+(pdftex.def)             Requested size: 241.07481pt x 108.40996pt.
+
+<images/photo_pw_j52_2.jpg, id=118, 1398.22375pt x 1017.8025pt>
+File: images/photo_pw_j52_2.jpg Graphic file (type jpg)
+
+<use images/photo_pw_j52_2.jpg>
+Package pdftex.def Info: images/photo_pw_j52_2.jpg used on input line 172.
+(pdftex.def)             Requested size: 241.07481pt x 175.47794pt.
+ [333 <./10/images/photo_pwc_pw123.jpg> <./10/images/photo_dash8.jpg> <./10/ima
+ges/photo_pw_j52_1.jpg> <./10/images/photo_pw_j52_2.jpg>]
+LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
+(Font)              scaled to size 10.0pt on input line 191.
+ <images/cf6_cutaway.jpg, id=144, 690.58pt x 507.8975pt>
+File: images/cf6_cutaway.jpg Graphic file (type jpg)
+
+<use images/cf6_cutaway.jpg>
+Package pdftex.def Info: images/cf6_cutaway.jpg used on input line 195.
+(pdftex.def)             Requested size: 284.52756pt x 209.26231pt.
+
+<images/circuit_turbofan_twin_spool.png, id=147, 595.9866pt x 332.9238pt>
+File: images/circuit_turbofan_twin_spool.png Graphic file (type png)
+
+<use images/circuit_turbofan_twin_spool.png>
+Package pdftex.def Info: images/circuit_turbofan_twin_spool.png used on input l
+ine 203.
+(pdftex.def)             Requested size: 284.52756pt x 158.94307pt.
+LaTeX Font Info:    Font shape `T1/fxl/bx/n' in size <10> not available
+(Font)              Font shape `T1/fxl/b/n' tried instead on input line 221.
+LaTeX Font Info:    Font shape `T1/fxl/b/n' will be
+(Font)              scaled to size 10.0pt on input line 221.
+
+<images/circuit_turboshaft_exercice.png, id=152, 494.15384pt x 443.50308pt>
+File: images/circuit_turboshaft_exercice.png Graphic file (type png)
+
+<use images/circuit_turboshaft_exercice.png>
+Package pdftex.def Info: images/circuit_turboshaft_exercice.png used on input l
+ine 245.
+(pdftex.def)             Requested size: 341.43306pt x 306.45055pt.
+ [334 <./10/images/cf6_cutaway.jpg> <./10/images/circuit_turbofan_twin_spool.pn
+g> <./10/images/circuit_turboshaft_exercice.png>] [335
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -3474,27 +3511,52 @@ g>] [333
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package mdframed Info: mdframed works in twoside mode on input line 209.
-LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
-(Font)              scaled to size 10.0pt on input line 209.
- <images/i.png, id=146, 14.39862pt x 14.39862pt>
-File: images/i.png Graphic file (type png)
- <use images/i.png>
-Package pdftex.def Info: images/i.png used on input line 209.
-(pdftex.def)             Requested size: 8.57991pt x 8.57999pt.
+
+<images/exo_sol_ts_diesel.png, id=193, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_diesel.png Graphic file (type png)
+
+<use images/exo_sol_ts_diesel.png>
+Package pdftex.def Info: images/exo_sol_ts_diesel.png used on input line 272.
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+Overfull \hbox (2.59422pt too wide) in paragraph at lines 276--281
+|   \T1/fxl/m/n/10 (-20) 5) Avec l'[][]4/36[][], $[] \U/ntxmia/m/it/10 = [][] =
+ [][] =
+ []
 
 
-LaTeX Warning: Reference `mdf@pagelabel-101' on page 334 undefined on input lin
-e 209.
-
-LaTeX Font Info:    Font shape `T1/fxl/bx/n' in size <10> not available
-(Font)              Font shape `T1/fxl/b/n' tried instead on input line 212.
-LaTeX Font Info:    Font shape `T1/fxl/b/n' will be
-(Font)              scaled to size 10.0pt on input line 212.
-) [334
+Overfull \hbox (16.70038pt too wide) in paragraph at lines 287--288
+|   \T1/fxl/m/n/10 (-20) 4) $[] \U/ntxmia/m/it/10 = \OMS/ntxsy/m/n/10 ^^@[] \OM
+L/nxlmi/m/it/10 ^^Q[] \T1/fxl/m/n/10 (-20) (\OML/nxlmi/m/it/10 w[] \T1/fxl/m/n/
+10 (-20) + \OML/nxlmi/m/it/10 w[]\T1/fxl/m/n/10 (-20) ) \U/ntxmia/m/it/10 =
+ []
 
 
- <./10/images/i.png>])
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 291.
+
+<images/exo_sol_ts_intercooler.png, id=208, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_intercooler.png Graphic file (type png)
+
+<use images/exo_sol_ts_intercooler.png>
+Package pdftex.def Info: images/exo_sol_ts_intercooler.png used on input line 2
+96.
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+Overfull \hbox (11.92027pt too wide) in paragraph at lines 301--302
+|   \T1/fxl/m/n/10 (-20) 7) $\OML/nxlmi/m/it/10 M[] \U/ntxmia/m/it/10 = [] []$\
+T1/fxl/m/n/10 (-20) , soit une aug-men-ta-tion de [][][];
+ []
+
+
+Overfull \hbox (4.40807pt too wide) in paragraph at lines 302--303
+|   \T1/fxl/m/n/10 (-20) 8) La puis-sance aug-mente de [][][], tan-dis que la c
+onsom-ma-tion aug-mente elle de [][][],
+ []
+
+) [336
+
+
+ <./10/images/exo_sol_ts_diesel.png> <./10/images/exo_sol_ts_intercooler.png>])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the amphibook.maf file.
@@ -3541,23 +3603,59 @@ Package logreq Info: Writing requests to 'amphibook.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
- 52464 strings out of 494957
- 907682 string characters out of 3179219
- 1238689 words of memory out of 3000000
- 54039 multiletter control sequences out of 15000+200000
- 603992 words of font info for 549 fonts, out of 3000000 for 9000
+ 52620 strings out of 494957
+ 910299 string characters out of 3179219
+ 1253539 words of memory out of 3000000
+ 54076 multiletter control sequences out of 15000+200000
+ 612082 words of font info for 623 fonts, out of 3000000 for 9000
  64 hyphenation exceptions out of 8191
  101i,20n,109p,1078b,1303s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{figure.caption.229} has been referenced but does 
-not exist, replaced by a fixed one
+pdfTeX warning (dest): name{anexamplecounter.10.2} has been referenced but do
+es not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.18} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.10.4.8} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.10.4.6} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.19} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.10.3.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.10.3.5} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.10.3.4} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.233} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.232} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.231} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.230} has been referenced but does no
+t exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{figure.caption.228} has been referenced but does no
 t exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.226} has been referenced but does no
+pdfTeX warning (dest): name{figure.caption.229} has been referenced but does no
 t exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{figure.caption.227} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.226} has been referenced but does no
 t exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{figure.caption.24} has been referenced but does not
@@ -3581,16 +3679,15 @@ pe1/public/newtx/fxlri-5letters.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/newtx/fxlri-7letters.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/libertine-legacy/fxlri.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /libertine-legacy/fxlro.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/t
-xfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/rtxmi7
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/newtx/txsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/newtx/txsy7.pfb>
-Output written on amphibook.pdf (5 pages, 2266043 bytes).
+xfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/newtx/txsy5.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/newtx/txsy7.pfb>
+Output written on amphibook.pdf (6 pages, 2640901 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 189 compressed objects within 2 object streams
- 56 named destinations out of 1000 (max. 500000)
- 97863 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 297 PDF objects out of 1000 (max. 8388607)
+ 255 compressed objects within 3 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 97883 words of extra memory for PDF output out of 106986 (max. 10000000)
 
