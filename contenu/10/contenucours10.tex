@@ -147,6 +147,7 @@ Les moteurs à mouvement alternatif (souvent dits «~à pistons-cylindres~») ad
 		On constate ainsi que le rendement du moteur d’Otto dépend uniquement du taux de compression --\ et non de la quantité de chaleur apportée pendant la combustion\footnote{L’étudiant/e n’aura pas tort de se surprendre de ce résultat --\ la température maximale du cycle n’a pas d’influence sur le rendement ! Dans ce cycle, l’augmentation de la température moyenne d’apport de chaleur est exactement compensée par l’augmentation de la température moyenne de refroidissement.}. Cette équation n’est valide qu’en négligeant le changement des propriétés de l’air pendant la combustion, ainsi que les irréversibilités lors de la compression et de la détente. Il ne faut donc l’utiliser qu’avec la plus grande prudence ; toutefois la tendance qu’elle décrit reste valide, et les motoristes cherchent continuellement à augmenter le taux de compression de leurs moteurs pour en augmenter l’efficacité. Une limite immédiate à ce taux est la température à laquelle le mélange air-carburant s’enflamme spontanément, provoquant une combustion prématurée.
 
 	\subsection{Le cycle de Diesel}
+	\label{ch_cycle_diesel}
 
 		Fruit du travail patient et soigneux de son inventeur, l’ingénieur allemand \wf{Rudolf Diesel}, le \vocab{moteur Diesel} propulse aujourd’hui l’écrasante majorité des transports commerciaux sur route et sur mer.
 
@@ -173,6 +174,7 @@ Les moteurs à mouvement alternatif (souvent dits «~à pistons-cylindres~») ad
 		Le moteur de Diesel ne cessera d’évoluer depuis l’impraticable concept décrit dans la \textit{Théorie et construction d’un moteur rationnel à chaleur destiné à remplacer les machines à vapeur et moteurs à combustion connus à ce jour} de 1893~\cite{diesel1893,diesel1893en} (\SI{400}{\bar} et combustion isotherme de poudre de charbon) jusqu’aux premiers modèles de série qu’il développe chez le motoriste \textsc{man} (\SI{40}{\bar} et combustion isobare de pétrole). Tout comme Otto, Diesel s’intéresse d’abord aux moteurs stationnaires (ses premiers prototypes sont monocylindres et dépassent trois mètres de haut) mais ce sont les applications aux transports commerciaux, où l’absence de bougie et son excellent rendement lui donnent l’avantage sur les moteurs à allumage commandé, qui feront sa notoriété. 
 
 	\subsection{Mise en pratique des cycles}
+	\label{ch_cycles_pistons_reels}
 
 		Les deux cycles décrits plus haut ne sont que des cycles idéaux --\ ils servent d’étalons conceptuels pour comparer les moteurs réels entre eux. Leur transposition à un moteur réel nécessite de prendre en compte de nombreux facteurs, parmi lesquels :
 		\begin{itemize}
@@ -354,6 +356,7 @@ Les moteurs à mouvement alternatif (souvent dits «~à pistons-cylindres~») ad
 		La puissance extraite par la turbine s’exprime donc aisément en fonction des températures réelle $T_{2~\text{réel}}$ et idéale $T_{2’}$ à sa sortie :
 		\begin{equation}
 			w_\text{turbine} = c_{p \text{(gaz)}} (T_{2~\text{réel}} - T_1) =  \eta_\text{T} \ c_{p \text{(gaz)}} \ (T_{2’} - T_1)
+			\label{eq_puissance_turbine_gaz}
 		\end{equation}
 
 		Au fur et à mesure que le gaz circule d’amont en aval de la turbine, il est détendu et son volume spécifique augmente. La taille des pales (donc leur poids et leur coût) doit donc aussi augmenter, tandis que la puissance qu’il leur est possible d’extraire, elle, diminue. Il arrive ainsi souvent que l’on rejette de l’air encore comprimé à la sortie d’une turbomachine, faute de pouvoir en extraire encore de l’énergie de façon économique.
@@ -396,6 +399,7 @@ Les moteurs à mouvement alternatif (souvent dits «~à pistons-cylindres~») ad
 		Idéalement, la tuyère détend les gaz jusqu’à pression ambiante, et convertit toute la variation d’enthalpie des gaz en énergie cinétique. En pratique, bien sûr, une partie de cette énergie est convertie en chaleur par frottement. L’efficacité des tuyères est mesurée de façon similaire à celle des compresseurs et turbines, et n’est pas étudiée dans ce document.
 
 		\begin{anexample}
+		\label{exemple_tuyere}
 			Pour les gaz brûlés, on mesure $c_{p\text{(gaz)}} = \SI{1150}{\joule\per\kilogram\per\kelvin}$, $c_{v\text{(gaz)}} = \SI{823}{\joule\per\kilogram\per\kelvin}$, $R_\text{gaz} = \SI{327}{\joule\per\kilogram\per\kelvin}$, et $\gamma_\text{gaz} = \num{1,333}$.\\
 			Une tuyère admet un débit d’air continu à \SI{2}{\bar}, \SI{10}{\metre\per\second} et \SI{400}{\degreeCelsius}. À quelle vitesse peut-elle accélérer ces gaz en les rejetant à \SI{1}{\bar}, si on néglige les irréversibilités ?
 				\begin{answer}
