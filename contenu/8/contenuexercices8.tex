@@ -84,7 +84,7 @@
 		\label{fig_turbine_uss_hornet}
 	\end{figure}
 	
-	La turbine détend la vapeur de façon approximativement adiabatique réversible. Lorsque la pression atteint \SI{10}{\bar}, on prélève de la vapeur avec un faible débit (\SI{1}{\kilogram\per\second}), pour réchauffer une autre partie de la centrale. La vapeur restant dans la turbine est détendue jusqu’à une pression de~\SI{0,18}{\bar}.
+	Dans la turbine la vapeur est détendue en suivant une évolution approximativement adiabatique réversible. Lorsque la pression atteint \SI{1}{\bar}, on prélève de la vapeur avec un faible débit (\SI{1}{\kilogram\per\second}), pour réchauffer une autre partie de la centrale. La vapeur restant dans la turbine est détendue jusqu’à une pression de~\SI{0,18}{\bar}.
 	
 	Quelle est la puissance mécanique développée par la turbine ?
 
@@ -169,12 +169,13 @@
 	\item Quel est le rendement de l’installation ?
 \end{enumerate}
 
+
 \subsubsection{Transferts de chaleur irréversibles}
 \label{exo_transferts_chaleur_irreversibles}
 
 	Un moteur à vapeur fonctionne sur un cycle de Carnot, avec un flux continu (débit :~\SI{2}{\kilogram\per\second}), entre les points de saturation de l’eau. Le moteur est conçu pour exploiter une source de chaleur de température modérée (\SI{300}{\degreeCelsius}), issue de la combustion de déchets industriels, et il rejette de la chaleur dans une rivière à basse température (\SI{5}{\degreeCelsius}).
 
-	La chaudière a des parois épaisses pour réduire l’impact des imperfections de fabrication et pour soutenir la pression élevée de l’eau. Cette épaisseur impose un gradient de température important à travers les parois (\SI{10}{\degreeCelsius}). Il en va de même dans le condenseur (gradient :~\SI{5}{\degreeCelsius}).
+	La chaudière a des parois épaisses pour réduire l’impact des imperfections de fabrication et pour soutenir la pression élevée de l’eau. Cette épaisseur impose un gradient de température important à travers les parois (\SI{10}{\degreeCelsius}). Il en va de même dans le condenseur (gradient :~\SI{10}{\degreeCelsius}).
 
 	\begin{enumerate}
 		\item De combien l’entropie de l’ensemble \{source de chaleur + eau\} augmente-t-elle ?
@@ -187,7 +188,7 @@
 \subsubsection{Compressions et détentes irréversibles}
 \label{exo_compressions_detentes_irreversibles}
 
-	L’équipe d’ingénieurs en charge du moteur de l’exercice précédent (cycle de Carnot fonctionnant entre \SI{390}{\degreeCelsius} et~\SI{15}{\degreeCelsius}, exercice~\ref{exo_transferts_chaleur_irreversibles}) découvre que les phases de compression et détente ne se font pas de façon réversible.
+	L’équipe d’ingénieurs en charge du moteur de l’exercice précédent (cycle de Carnot fonctionnant entre \SI{290}{\degreeCelsius} et~\SI{15}{\degreeCelsius}, exercice~\ref{exo_transferts_chaleur_irreversibles}) découvre que les phases de compression et détente ne se font pas de façon réversible.
 
 	Le compresseur amène bien l’eau à température haute mais sa consommation de travail est \SI{10}{\percent} plus importante que prévu. La turbine amène bien l’eau à température basse, mais elle fournit \SI{10}{\percent} d’énergie mécanique en moins que prévu.
 	
@@ -228,7 +229,7 @@
 						\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_ts_carnot_thermopompe.png}
 						\tab 2) Dans ce cas $W_{\B\to\C_\text{irr.}} > W_{\frombtoc’}$ et, en valeurs négatives, $W_{\D\to\A_\text{irr.}} > W_{\fromdtoa’}$. Ainsi la chaleur à rejeter $Q_{\fromctod}$ augmente (ce qui peut au premier abord sembler un résultat intéressant) et la chaleur prélevée $Q_{\fromatob}$ diminue (et l’on voit que l’augmentation de $Q_{\fromctod}$ ne provient en fait que des inefficacités du compresseur et de la turbine, et ne fait que diminuer le rendement).
 		\item [\ref{exo_turbine_vapeur_isentropique}]
-						\tab $h_1 = \SI{3803,5}{\kilo\joule\per\kilogram}$ ; $h_2 = \SI{2677,7}{\kilo\joule\per\kilogram}$ ; $h_3 = \SI{2413,6}{\kilo\joule\per\kilogram}$ : on a donc $\dot{W}_\text{turbine} = \SI{-96,26}{\mega\watt}$.
+						\tab La démarche est comme décrite dans l’exemple~\ref{exemple_turbine_vapeur_isentropique} : $h_1 = \SI{3803,5}{\kilo\joule\per\kilogram}$ (vapeur sèche) ; $h_2 = \SI{2677,7}{\kilo\joule\per\kilogram}$ (vapeur sèche); $h_3 = \SI{2413,6}{\kilo\joule\per\kilogram}$ (mélange de titre \SI{91,9}{\percent}) ; on a donc $\dot{W}_\text{turbine} = \SI{-96,26}{\mega\watt}$.
 		\item [\ref{exo_sens_transfos_un}]
 						\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_ts_bonsens1.png}
 						\tab\tab Avec l’\cref{eq_delta_s_gp_p} on constate que $s_Y - s_X = \SI{-161,08}{\joule\per\kelvin\per\kilogram} < \int_X^Y \left(\frac{\diff q}{T}\right)_\text{chemin réel} = \SI{0}{\kilo\joule\per\kelvin\per\kilogram}$ (puisque l’évolution est adiabatique). Ainsi le sens est $Y\to X$.
