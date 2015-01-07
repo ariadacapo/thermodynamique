@@ -1,16 +1,16 @@
 [0] Config.pm:300> INFO - This is Biber 0.9.9
 [0] Config.pm:303> INFO - Logfile is 'thermodynamique.blg'
-[1] biber:145> INFO - === Mon Jan  5, 2015, 13:28:43
+[1] biber:145> INFO - === Wed Jan  7, 2015, 14:12:03
 [1] Biber.pm:271> INFO - Reading 'thermodynamique.bcf'
-[26] Biber.pm:586> INFO - Found 36 citekeys in bib section 0
-[37] Biber.pm:2585> INFO - Processing bib section 0
-[61] Biber.pm:2677> INFO - Looking for bibtex format file 'annexes/thermobib.bib' for section 0
-[63] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
-[85] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
-[85] bibtex.pm:704> INFO - Found BibTeX data source 'annexes/thermobib.bib'
-[210] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
-[210] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
-[285] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
-[285] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
-[328] bbl.pm:427> INFO - Writing 'thermodynamique.bbl' with encoding 'UTF-8'
-[330] bbl.pm:498> INFO - Output to thermodynamique.bbl
+[22] Biber.pm:586> INFO - Found 37 citekeys in bib section 0
+[33] Biber.pm:2585> INFO - Processing bib section 0
+[54] Biber.pm:2677> INFO - Looking for bibtex format file 'annexes/thermobib.bib' for section 0
+[56] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
+[77] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
+[77] bibtex.pm:704> INFO - Found BibTeX data source 'annexes/thermobib.bib'
+[225] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
+[225] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
+[303] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
+[303] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
+[346] bbl.pm:427> INFO - Writing 'thermodynamique.bbl' with encoding 'UTF-8'
+[348] bbl.pm:498> INFO - Output to thermodynamique.bbl
