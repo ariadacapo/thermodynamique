@@ -52,7 +52,7 @@
 			\label{fig_rapport_puissances_2}
 		\end{figure}
 
-		On peut ainsi voir que plus la part de la turbine dans la puissance nette développée est grande, moins l’efficacité du cycle est affectée par les irréversibilités. Nous généralisons et formalisons cela avec le concept de \vocab{marge de travail} $M_w$ (en anglais : \vocabe{work ratio}), défini comme le rapport entre les puissances nette et brute d’un moteur :
+		On peut ainsi voir que plus la part de la turbine dans la puissance nette développée est grande, moins l’efficacité du cycle est affectée par les irréversibilités. Nous généralisons et formalisons cela avec le concept de \vocab{marge de travail} $M_w$ (en anglais : \vocabe{work ratio}), défini comme le rapport entre la puissance nette et la puissance brute d’un moteur :
 		\begin{equation}
 			M_w \equiv 	\frac{\dot W_\net}{\dot W_\text{brut}}	= \frac{\dot W_\text{détentes} + \dot W_\text{compressions}}{\dot W_\text{détentes}}
 			\label{eq_marge_travail}
@@ -63,7 +63,7 @@
 			\item et \tab $\dot W_\text{compressions}$ 	\tab la puissance consommée lors des compressions.
 		\end{equationterms}
 
-		Une machine dont la marge de travail est grande perd moins de son efficacité lorsqu’elle fonctionne hors de sa plage de régime optimale : elle est donc plus souple d’utilisation. La marge de travail est l’un des indicateurs de la réactivité d’un moteur, c’est-à-dire de sa capacité à changer de puissance et de régime rapidement. On peut établir un parallèle avec la notion de \vocab{marge bénéficiaire nette} en économie : toutes choses égales par ailleurs, il est plus intéressant de commercialiser à \SI{3}{\euroo} des objets achetés \SI{2}{\euroo} pièce, qu’à \SI{101}{\euroo} des objets achetés \SI{100}{\euroo} pièce, car le bénéfice de \SI{1}{\euroo} est alors moins sensible à une variation de prix ou de coût imposée par le marché.
+		Une machine dont la marge de travail est grande perd moins de son efficacité lorsqu’elle fonctionne hors de sa plage de régime optimale : elle est donc plus souple d’utilisation. La marge de travail est l’un des indicateurs de la réactivité d’un moteur, c’est-à-dire de sa capacité à changer de puissance et de régime rapidement. On peut établir un parallèle avec la notion de \vocab{marge bénéficiaire nette} en économie : toutes choses égales par ailleurs, il est plus intéressant de commercialiser à \SI{3}{\euroo} des objets achetés \SI{2}{\euroo} pièce, qu’à \SI{101}{\euroo} des objets achetés \SI{100}{\euroo} pièce, notamment parce que le bénéfice de \SI{1}{\euroo} est alors moins sensible à une variation de prix ou de coût imposée par le marché.
 		
 			Le moteur de Carnot est l’exemple-type d’un cycle thermodynamique à haut rendement mais dont la marge de travail est très faible. En traçant le cycle sur un diagramme pression-volume (\cref{fig_p-v_gp_carnot}) cette faiblesse ressort bien : les courbes lors des phases de compression et détente sont très proches l’une de l’autre. Rankine, lorsqu’il modifie ce cycle (\S\ref{ch_cycle_de_rankine}), augmente considérablement la marge de travail.
 
@@ -75,7 +75,7 @@
 
 		Nous utilisons les concepts de \vocab{poussée spécifique} $\frac{P}{\dot m}$ et \vocab{puissance spécifique} $w_\net$, c’est-à-dire la poussée et la puissance du moteur divisées par le débit d’air qui le traverse, pour comparer sommairement les cycles moteurs entre eux. Il est souvent désirable d’augmenter ces paramètres dans les applications où un grand rapport puissance/poids est recherché.
 
-		Ainsi par exemple, sur un moteur aéronautique, une augmentation du rendement n’est pas toujours justifiée si elle provoque une augmentation du poids ou de l’encombrement. Un aéronef plus lourd doit fournir une plus grande portance, ce qui augmente la traînée… et donc la poussée, et la puissance nécessaire pour la générer.
+		Ainsi par exemple, sur un moteur aéronautique, une augmentation du rendement n’est pas toujours justifiée si elle provoque une augmentation du poids ou de l’encombrement. Un aéronef plus lourd doit fournir une plus grande portance, ce qui augmente la traînée … et donc la poussée, et la puissance nécessaire pour la générer.
 
 	
 	\subsection{Autres critères d’évaluation}
@@ -168,7 +168,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 			\label{fig_cycle_diesel}
 		\end{figure}
 
-		Comme l’apport de chaleur $q_\text{combustion} = c_p (T_\C - T_\B)$ (\ref{eq_q_gp_sf_isobare}) est fait conjointement à une production de travail, il n’existe pas d’expression simple pour le rendement $\eta_\text{Diesel}$, qui ne dépend plus uniquement du taux de compression -- il faudra le calculer en étudiant le cycle étape par étape. On s’apercevra alors que toutes choses étant égales par ailleurs (même taux de compression et même température maximale), le cycle de Diesel a un rendement plus faible que celui d’Otto. 
+		Comme l’apport de chaleur $q_\text{combustion} = c_p (T_\C - T_\B)$ (\ref{eq_q_gp_sf_isobare}) est fait conjointement à une production de travail, il n’existe pas d’expression simple pour le rendement $\eta_\text{Diesel}$, qui ne dépend plus uniquement du taux de compression. Il faudra le calculer en étudiant le cycle étape par étape. On s’apercevra alors que toutes choses étant égales par ailleurs (même taux de compression et même température maximale), le cycle de Diesel a un rendement plus faible que celui d’Otto. 
 		
 		Pour comprendre, alors, l’intérêt de ce cycle et la différence véritable entre un moteur Diesel et un moteur essence, il faut un peu de contexte historique. Rudolf Diesel conçoit en 1892 un moteur «~rationnel~» pour mettre en pratique le cycle de Carnot. Il recherche donc deux caractéristiques :
 		\begin{itemize}
@@ -191,7 +191,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 			\item Les fuites des gaz dans les interstices entre pistons et cylindres.
 		\end{itemize}
 
-		La prise en compte de ces facteurs, ainsi que la poursuite d’objectifs liés au confort d’utilisation et à la maîtrise de la pollution atmosphérique, font que le cycle obtenu à l’intérieur d’un cylindre de moteur en pratique pourra par exemple ressembler à celui représenté en \cref{fig_cycle_otto_reel}. Dans le secteur automobile en particulier, l’adoption de l’injection directe et l’augmentation des taux de compression sur les moteurs essence pour diminuer leur consommation et leurs émissions a brouillé la distinction essence/Diesel -- ces moteurs sont désormais plus proches du concept de Rudolf Diesel que de celui de Nikolaus Otto.
+		La prise en compte de ces facteurs, ainsi que la poursuite d’objectifs liés au confort d’utilisation et à la maîtrise de la pollution atmosphérique, font que le cycle obtenu à l’intérieur d’un cylindre de moteur en pratique pourra par exemple ressembler à celui représenté en \cref{fig_cycle_otto_reel}. Dans le secteur automobile en particulier, l’adoption de l’injection directe et l’augmentation des taux de compression sur les moteurs essence pour diminuer leur consommation et leurs émissions a brouillé la distinction essence/Diesel -- les moteurs essence sont désormais plus proches du concept de Rudolf Diesel que de celui de Nikolaus Otto.
 
 		\begin{figure}
 			\begin{center}
@@ -220,13 +220,13 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 		
 		Malheureusement, la complexité mécanique, l’encombrement et les coûts de fabrication et d’entretien des moteurs augmentent rapidement avec le nombre de cylindres ; ainsi dans les applications où ces facteurs priment (pour la majorité du secteur automobile, par exemple) on n’utilise généralement que quatre, voire trois cylindres. Il est pourtant attendu de ces moteurs qu’ils puissent être efficaces sur une large plage de puissances.
 	
-		Une solution couramment adoptée pour cela est celle de la \vocab{turbocompression}. Elle consiste à déléguer une partie du travail de compression et de détente à un petit appareil nommé \vocab{turbo}, qui amène avec lui les avantages de compacité et de légèreté des turbomachines (\cref{fig_turbo}). Le compresseur du turbo est alimenté par sa turbine, qui fonctionne avec les gaz d’échappement (nous étudions ce système plus bas en~\S\ref{ch_generateur_gaz}). La turbocompression permet de réduire la taille et la vitesse d’un moteur pour une puissance donnée.
+		Une solution couramment adoptée pour cela est celle de la \vocab{turbocompression}. Elle consiste à déléguer une partie du travail de compression et de détente à un petit appareil nommé \vocab{turbo}, qui apporte avec lui les avantages de compacité et de légèreté des turbomachines (\cref{fig_turbo}). Le compresseur du turbo est alimenté par sa turbine, qui fonctionne avec les gaz d’échappement (nous étudions ce système plus bas en~\S\ref{ch_generateur_gaz}). La turbocompression permet de réduire la taille et la vitesse d’un moteur pour une puissance donnée.
 		
 		\begin{figure}
 			\begin{center}
 				\includegraphics[width=0.6\textwidth]{images/coupe_turbo.jpg}
 			\end{center}
-			\supercaption{Un turbo sectionné pour en montrer l’agencement intérieur. L’air atmosphérique rentre par la droite et est comprimé en étant projeté vers l’extérieur par le compresseur centrifuge ; il est ensuite inséré dans le moteur. Les gaz d’échappement pénètrent par le centre gauche et ressortent vers la gauche après avoir fait tourner la turbine centripète, qui alimente le compresseur en travail \textit{via} l’arbre de rotation central. Comme l’unique pièce mobile est très compacte (ici environ~\SI{20}{\centi\metre}), de très grandes vitesses de rotation peuvent être atteintes, usuellement au delà de~\SI{200 000}{tours/min}.}{\wcfile{Turbocharger.jpg}{Photo} \pd \textsc{Nasa}}
+			\supercaption{Un turbo sectionné pour en montrer l’agencement intérieur. L’air atmosphérique entre par la droite et est comprimé en étant projeté vers l’extérieur par le compresseur centrifuge ; il est ensuite inséré dans le moteur. Les gaz d’échappement pénètrent par le centre gauche et ressortent vers la gauche après avoir fait tourner la turbine centripète, qui alimente le compresseur en travail \textit{via} l’arbre central de rotation. Comme l’unique pièce mobile est très compacte (ici environ~\SI{20}{\centi\metre}), de très grandes vitesses de rotation peuvent être atteintes, usuellement au delà de~\SI{200 000}{tours/min}.}{\wcfile{Turbocharger.jpg}{Photo} \pd \textsc{Nasa}}
 			\label{fig_turbo}
 		\end{figure}
 		
@@ -243,8 +243,8 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 			Afin de pouvoir donner à l’air une grande extension de volume, afin de produire par cette extension un grand changement de température, il serait nécessaire de le prendre d’abord sous une pression assez élevée […] Cette opération exigerait un appareil particulier, appareil qui n’existe pas dans les machines à vapeur. Dans celles-ci, l’eau est à l’état liquide lorsqu’on la fait pénétrer dans la chaudière ; elle n’exige, pour y être introduite, qu’une pompe foulante de petites dimensions.
 		\thermoquoteend{Sadi Carnot, 1824\cite{carnot1824}}{~}
 	
-		Les phases de compression et de détente dans les moteurs se font très souvent de façon adiabatique et toujours de façon irréversible. L’écoulement des fluides au sein du compresseur des moteurs modernes est difficile à modéliser\footnote{On sait de la mécanique des fluides que le gradient de pression au sein d’un compresseur favorise la séparation de la \vocab{couche limite}. Ainsi, on utilise toujours un plus grand nombre d’étages dans un compresseur que dans une turbine de même puissance, où le gradient est favorable.}\nolinebreak ; ce qui en fait un composant lourd, volumineux, et dont la géométrie est complexe (figures~\ref{fig_schéma_compresseur1} et~\ref{fig_schéma_compresseur2}).\\
-		La plupart des compresseurs sont \vocab{axiaux}, c’est à dire que l’air les traverse parallèlement à l’axe de rotation, mais on utilise parfois des compresseurs \vocab{centrifuges}, qui projettent l’air radialement ; quel que soit le procédé utilisé, les évolutions thermodynamiques de l’air restent identiques.
+		Les phases de compression et de détente dans les moteurs se font très souvent de façon adiabatique et toujours de façon irréversible. L’écoulement des fluides au sein du compresseur des moteurs modernes est difficile à modéliser\footnote{On sait de la mécanique des fluides que le gradient de pression au sein d’un compresseur favorise la séparation de la \vocab{couche limite}. Ainsi, on utilise toujours un plus grand nombre d’étages dans un compresseur que dans une turbine de même puissance, où le gradient est favorable.}\nolinebreak ; ce qui en fait un composant lourd, volumineux et dont la géométrie est complexe (figures~\ref{fig_schéma_compresseur1} et~\ref{fig_schéma_compresseur2}).\\
+		La plupart des compresseurs sont \vocab{axiaux}, c’est à dire que l’air les traverse parallèlement à l’axe de rotation, mais on utilise parfois des compresseurs \vocab{centrifuges}, qui projettent l’air radialement ; quelque soit le procédé utilisé, les évolutions thermodynamiques de l’air restent identiques.
 
 		\begin{figure}
 			\begin{center}
@@ -273,7 +273,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 			\item et \tab $\dot W_\text{compresseur isentropique}$ \tab la puissance d’un compresseur isentropique qui fonctionnerait avec le même débit de masse et entre les deux mêmes pressions.
 		\end{equationterms}
 
-		Comme celle d’une turbine, l’efficacité isentropique d’un compresseur est toujours inférieure à~1. La connaissance du paramètre nous permet de lier les propriétés réelles et idéales de l’air à l’entrée et à la sortie du compresseur :
+		Comme celle d’une turbine, l’efficacité isentropique d’un compresseur est toujours inférieure à~1. Si cette efficacité est connue, nous pouvons comparer les propriétés réelles de l’air à l’entrée et à la sortie du compresseur avec celles que l’on mesurerait dans le cas idéal :
 		\begin{equation}
 			w_\text{compresseur} = c_p \ (T_\text{B réel} - T_\A) = \frac{1}{\eta_\C} c_p \ (T_{\B’} - T_\A)
 			\label{eq_puissance_compresseur}
@@ -286,7 +286,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 
 		\begin{anexample}
 			Pour l’air, on mesure $c_{p\text{(air)}} = \SI{1005}{\joule\per\kilogram\per\kelvin}$, $c_{v\text{(air)}} = \SI{718}{\joule\per\kilogram\per\kelvin}$, $R_\text{air} = \SI{287}{\joule\per\kilogram\per\kelvin}$, et $\gamma_\text{air} = \num{1,4}$.\\
-			Le compresseur d’un turboréacteur à soufflante a une efficacité isentropique de \SI{85}{\percent} admet \SI{38}{\kilogram\per\second} d’air à \SI{1}{\bar} et \SI{5}{\degreeCelsius}. La pression de sortie est de \SI{40}{\bar}. Quelle est la puissance consommée ?
+			Le compresseur d’un turboréacteur à soufflante a une efficacité isentropique de \SI{85}{\percent} ; il admet \SI{38}{\kilogram\per\second} d’air à \SI{1}{\bar} et \SI{5}{\degreeCelsius}. La pression de sortie est de \SI{40}{\bar}. Quelle est la puissance consommée ?
 				\begin{answer}
 					L’évolution peut être représentée de façon qualitative sur un diagramme $T-s$ ainsi :
 						\begin{center}\includegraphics[width=4cm]{images/exe_ts_compresseur.png}\end{center}
@@ -337,7 +337,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 			q_\text{chambre} = h_\B - h_\A = c_{p \text{(gaz)}} T_\B \ - \ c_{p \text{(air)}} T_\A
 		\end{equation}
 
-		Les écoulements au sein de la chambre de combustion dépendent de façon corrélée de la chimie de combustion et de la distribution spatiale des vitesses et de la pression : leur modélisation est donc complexe. En pratique une légère perte de pression des gaz est obtenue entre les extrémités des chambres. L’influence sur la puissance du débit massique du carburant $\dot m_\text{carburant}$, toujours beaucoup plus faible que celui de l’air, peut elle être négligée sans danger.
+		Les écoulements au sein de la chambre de combustion dépendent de façon corrélée de la chimie de combustion et de la distribution spatiale des vitesses et de la pression : leur modélisation est donc complexe. En pratique une légère perte de pression des gaz est obtenue entre les extrémités des chambres. L’influence sur la puissance du débit massique du carburant $\dot m_\text{carburant}$, toujours beaucoup plus faible que celui de l’air, peut être négligée sans danger.
 
 
 	\subsection{Turbine}
@@ -412,7 +412,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 			\label{eq_vitesses_tuyere}
 		\end{equation}
 
-		Idéalement, la tuyère détend les gaz jusqu’à pression ambiante, et convertit toute la variation d’enthalpie des gaz en énergie cinétique. En pratique, bien sûr, une partie de cette énergie est convertie en chaleur par frottement. L’efficacité des tuyères est mesurée de façon similaire à celle des compresseurs et turbines, et n’est pas étudiée dans ce document.
+		Idéalement, la tuyère détend les gaz jusqu’à pression ambiante et convertit toute la variation d’enthalpie des gaz en énergie cinétique. En pratique, bien sûr, une partie de cette énergie est convertie en chaleur par frottement. L’efficacité des tuyères est mesurée de façon similaire à celle des compresseurs et turbines, et n’est pas étudiée dans ce document.
 
 		\begin{anexample}
 		\label{exemple_tuyere}
@@ -431,7 +431,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 							= \SI{496,2}{\metre\per\second} = \SI{1786}{\kilo\metre\per\hour}$.
 								\begin{remark}
 									Dans la réalité, les gaz n’atteindraient jamais cette vitesse. En effet, une grande partie de la détente se fait \emph{en dehors} de la tuyère, où elle est très turbulente et donc très irréversible.\\
-									Ce phénomène, malgré tout, n’a pas d’influence sur la poussée générée par la tuyère, car sa bouche de sortie est en réalité à pression supérieure à la pression atmosphérique. Le calcul de vitesse effectué ici reste ainsi un bon «~indicateur~» thermodynamique des phénomènes en jeu. Pour décrire rigoureusement l’écoulement dans une tuyère, il se référer à la mécanique des fluides, que nous ne souhaitons pas aborder ici.
+									Ce phénomène, malgré tout, n’a pas d’influence sur la poussée générée par la tuyère, car sa bouche de sortie est en réalité à pression supérieure à la pression atmosphérique. Le calcul de vitesse effectué ici reste ainsi un bon «~indicateur~» thermodynamique des phénomènes en jeu. Pour décrire rigoureusement l’écoulement dans une tuyère, il faudrait se référer à la mécanique des fluides, que nous ne souhaitons pas aborder ici.
 								\end{remark}
 								\begin{remark}
 									Dans la plupart des cas, il est raisonnable de considérer que l’énergie cinétique des gaz à la sortie de la turbine (et donc à l’entrée de la tuyère) est négligeable. Les \SI{10}{\metre\per\second} en A n’ont ici aucune influence pratique.
@@ -441,7 +441,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 
 		La conception des tuyères est bien plus complexe que ces quelques paragraphes ne laissent paraître, surtout lorsque les composants avoisinent la vitesse du son. L’étudiant/e aurait tort de n’y voir qu’un simple «~tuyau thermodynamique~» même si c’est l’usage que nous en faisons ici.
 
-		Notons pour finir que l’\vocab{entrée d’air} des moteurs aéronautiques joue souvent le rôle de diffuseur, c’est-à-dire l’inverse d’une tuyère --\ elle ralentit l’air pour augmenter sa pression. Sur les moteurs supersoniques, un taux de compression de~2 et une augmentation correspondante de de température peuvent être atteints de cette manière avant même l’entrée dans le compresseur.
+		Notons pour finir que l’\vocab{entrée d’air} des moteurs aéronautiques joue souvent le rôle de diffuseur, c’est-à-dire l’inverse d’une tuyère --\ elle ralentit l’air pour augmenter sa pression. Sur les moteurs supersoniques, un taux de compression de~2 et une augmentation correspondante de température peuvent être atteints de cette manière avant même l’entrée dans le compresseur.
 
 
 \section{Les configurations des turbomachines}
@@ -490,7 +490,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 
 	\subsection{Turboréacteur}
 
-		Le \vocab{turboréacteur} (\cref{fig_turboréacteur}) est la première application qui ait été faite du moteur décrit plus haut.	À la sortie de la turbine, l’air est détendu dans une tuyère, ce qui l’accélère et fournit une poussée nette. C’est le fluide moteur lui-même qui est utilisé pour générer la poussée.
+		Le \vocab{turboréacteur} (\cref{fig_turboréacteur}) est la première application qui ait été faite du moteur décrit plus haut. À la sortie de la turbine, l’air est détendu dans une tuyère, ce qui l’accélère et fournit une poussée nette. C’est le fluide moteur lui-même qui est utilisé pour générer la poussée.
 
 		\begin{figure}
 		 	\begin{center}
@@ -518,11 +518,11 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 				\includegraphics[scale=0.6]{images/circuit_turboprop_generateur.png}\vspace{0.5cm}
 				\includegraphics[scale=0.8]{images/ts_gp_turboprop_generateur.png}
 			\end{center}
-			\supercaption{Schémas de principe et diagramme température-entropie d’un turbopropulseur (haut) et d’un turbomoteur (bas). La puissance extraite de la turbine dépasse celle consommée par le compresseur, et est utilisée pour alimenter l’hélice ou bien une génératrice.}{schémas \ccbysa \olivier\\ diagramme \cczero \oc}
+			\supercaption{Schémas de principe et diagramme température-entropie d’un turbopropulseur (haut) et d’un turbomoteur (bas). La puissance extraite de la turbine dépasse celle consommée par le compresseur et est utilisée pour alimenter l’hélice ou bien une génératrice.}{schémas \ccbysa \olivier\\ diagramme \cczero \oc}
 			\label{fig_turbomoteur}
 		\end{figure}
 
-		L’alimentation d’une hélice de turbopropulseur, ou de la soufflante d’un turbofan, présente des avantages considérables en efficacité de propulsion que l’étudiant/e pourra étudier lors d’un cours de propulsion aéronautique. Les désavantages associés sont bien sûr l’encombrement et le poids : le diamètre des hélices et soufflantes dépasse souvent trois mètres, et elles imposent de grandes contraintes structurelles et mécaniques sur le moteur.
+		L’alimentation d’une hélice de turbopropulseur, ou de la soufflante d’un turbofan, présente des avantages considérables en efficacité de propulsion que l’étudiant/e pourra étudier lors d’un cours de propulsion aéronautique. Les désavantages associés sont bien sûr l’encombrement et le poids : le diamètre des hélices et soufflantes dépasse souvent trois mètres et elles imposent de grandes contraintes structurelles et mécaniques sur le moteur.
 
 		Les turbomoteurs, quant à eux, ont de multiples applications (hélicoptères, navires militaires, générateurs électriques d’appoint, centrales génératrices à gaz…). Ils sont plus souvent déclinés dans les variantes détaillées plus bas.
 
@@ -565,7 +565,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 			\label{fig_turbine_libre}
 		\end{figure}
 
-		La vitesse de l’axe turbine/compresseur n’étant pas contrainte par la charge imposée à l’axe libre, il peut évoluer à des vitesses plus proches de son point optimum, et accélérer plus aisément. Cet avantage compense la plus grande complexité mécanique de la configuration dans les applications comme la motorisation des hélicoptères, où des variations importantes de puissance sont fréquemment demandées.
+		La vitesse de l’axe turbine/compresseur n’étant pas contrainte par la charge imposée à l’axe libre, il peut évoluer à des vitesses plus proches de son point optimum et accélérer plus aisément. Cet avantage compense la plus grande complexité mécanique de la configuration dans les applications comme la motorisation des hélicoptères, où des variations importantes de puissance sont fréquemment demandées.
 
 		Avec une configuration à \vocab{axes multiples}, on divise compresseur et turbine en deux parties chacun, formant ainsi deux systèmes co-axiaux incorporés l’un dans l’autre (\cref{fig_axes_multiples}).
 
@@ -594,7 +594,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 
 		Pour les raisons évoquées en \S\ref{ch_criteres_evaluation_moteurs_gaz} plus haut, il est parfois souhaitable d’augmenter la marge de travail et la puissance spécifique, même au prix d’une baisse du rendement total.
 		
-		Pour réduire la puissance consommée par le compresseur, on a parfois recours au \vocab{refroidissement intermédiaire} (ou \vocab{intercooling}). La compression est interrompue, et l’air est refroidi avant de poursuivre la compression (\cref{fig_intercooling_réchauffe}).
+		Pour réduire la puissance consommée par le compresseur, on a parfois recours au \vocab{refroidissement intermédiaire} (ou \vocab{intercooling}). La compression est interrompue et l’air est refroidi avant de poursuivre la compression (\cref{fig_intercooling_réchauffe}).
 
 		\begin{figure}
 			\begin{center}
@@ -606,13 +606,13 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 			\label{fig_intercooling_réchauffe}
 		\end{figure}
 
-		La compression d’un gaz entre deux pressions données impose un \emph{rapport} entre les températures initiale et finale (\ref{eq_isentropique_horrible1}). Par contre, la puissance demandée pour compresser un gaz entre ces deux pressions dépend de la \emph{différence} entre ces deux températures (\ref{eq_puissance_compresseur}). Ainsi, plus la température de départ est faible, et plus la puissance nécessaire pour atteindre une pression donnée sera faible.
+		La compression d’un gaz entre deux pressions données impose un \emph{rapport} entre les températures initiale et finale (\ref{eq_isentropique_horrible1}). Par contre, la puissance demandée pour compresser un gaz entre ces deux pressions dépend de la \emph{différence} entre ces deux températures (\ref{eq_puissance_compresseur}). Ainsi, plus la température de départ est faible, plus la puissance nécessaire pour atteindre une pression donnée sera faible.
 
 		Dans la même optique, on peut augmenter la puissance spécifique fournie par la turbine en procédant au réchauffement des gaz avant la fin de la détente : c’est la \vocab{réchauffe}. Le principe et le procédé sont identiques à la resurchauffe des centrales à vapeur (\S\ref{ch_resurchauffe}).
 
 		Il n’aura pas échappé à l’étudiant/e que le rendement est inévitablement réduit par l’utilisation du refroidissement intermédiaire. La chambre de combustion doit en effet fournir plus de chaleur, à température moyenne plus basse. Cette réduction du rendement fera l’objet d’un compromis avec la réduction de la taille du compresseur (usuellement la pièce la plus volumineuse d’un moteur) et l’augmentation de la puissance spécifique. Refroidissement intermédiaire et réchauffe sont caractéristiques des installations où le rapport puissance/encombrement doit être maximisé.
 
-		Pour réduire la perte de rendement, il est parfois possible, dans les moteurs au sol, de récupérer de la chaleur des gaz d’échappement pour réchauffer l’air à la sortie du compresseur, et ainsi soulager la chambre de combustion à moindres frais énergétiques. L’échangeur de chaleur est parfois appelé \vocab{économiseur} (\cref{fig_intercooler_echangeur}) ; il est laissé à l’étudiant/e le loisir de retracer le cycle suivi sur un diagramme température-entropie et de retrouver les conditions nécessaires à son fonctionnement.
+		Pour réduire la perte de rendement dans les moteurs au sol, il est parfois possible de récupérer de la chaleur des gaz d’échappement pour réchauffer l’air à la sortie du compresseur, et ainsi soulager la chambre de combustion à moindres frais énergétiques. L’échangeur de chaleur est parfois appelé \vocab{économiseur} (\cref{fig_intercooler_echangeur}) ; il est laissé à l’étudiant/e le loisir de retracer le cycle suivi sur un diagramme température-entropie et de retrouver les conditions nécessaires à son fonctionnement.
 		
 		\begin{figure}
 			\begin{center}
@@ -670,7 +670,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 				\includegraphics[width=\linewidth]{images/circuit_turbofan_complet.png}
 			\end{center}
 			\supercaption{Schéma du circuit thermodynamique d’un turbofan moderne.
-			L’installation combine axes multiples, extractions de puissance mécanique et pneumatique, prélèvements de refroidissement turbine, et deux flux d’air principaux (il est laissé encore une fois à l’étudiant/e le loisir de tracer le cycle sur un diagramme température-entropie).
+			L’installation combine axes multiples, extractions de puissance mécanique et pneumatique, prélèvements de refroidissement turbine et deux flux d’air principaux (il est laissé encore une fois à l’étudiant/e le loisir de tracer le cycle sur un diagramme température-entropie).
 			Sur les appareils bimoteurs qualifiés pour effectuer des vols \textsc{etops}, chaque moteur doit pouvoir assurer seul le vol de l’appareil et l’alimentation de nombreux systèmes (pressurisation, dégivrage, chauffage, génération électrique et pneumatique) pendant plusieurs heures avec une fiabilité démontrée.}{schéma \ccbysa \olivier}
 		\end{figure}
 
