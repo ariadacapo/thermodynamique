@@ -19,6 +19,30 @@
 
 
 \refsection{0}
+  \entry{lavoisierlaplace1780}{article}{}
+    \name{labelname}{2}{}{%
+      {{hash=281a6b8f669f55fce53910729200c7d5}{Lavoisier}{L\bibinitperiod}{Antoine\bibnamedelima Laurent}{A\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      {{hash=14f71a442604b281a25e6e15a2757a5e}{Laplace}{L\bibinitperiod}{Pierre-Simon}{P\bibinithyphendelim S\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{hash=281a6b8f669f55fce53910729200c7d5}{Lavoisier}{L\bibinitperiod}{Antoine\bibnamedelima Laurent}{A\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      {{hash=14f71a442604b281a25e6e15a2757a5e}{Laplace}{L\bibinitperiod}{Pierre-Simon}{P\bibinithyphendelim S\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {french}%
+    }
+    \list{publisher}{1}{%
+      {Académie royale des sciences}%
+    }
+    \strng{namehash}{c4cecfc7021ca6d08622d6ed92865e27}
+    \strng{fullhash}{c4cecfc7021ca6d08622d6ed92865e27}
+    \field{sortinit}{1}
+    \field{journaltitle}{Mémoire de mathématiques et de physique de l’Académie des Sciences}
+    \field{title}{Mémoire sur la chaleur}
+    \field{year}{1780}
+    \field{pages}{355\bibrangedash 408}
+  \endentry
+
   \entry{gaylussac1807}{article}{}
     \name{labelname}{1}{}{%
       {{hash=af587fe445a31a44f6ba63746bf836e8}{Gay-Lussac}{G\bibinithyphendelim L\bibinitperiod}{Louis\bibnamedelima Joseph}{L\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
@@ -746,6 +770,9 @@
     \name{author}{1}{}{%
       {{hash=77d1cc4880e73cf29308e34048451556}{Koyré}{K\bibinitperiod}{Alexandre}{A\bibinitperiod}{}{}{}{}}%
     }
+    \list{language}{1}{%
+      {french}%
+    }
     \list{location}{1}{%
       {Paris, France}%
     }
@@ -929,6 +956,33 @@
     \field{journaltitle}{Cahiers d’histoire et de philosophie des sciences}
     \field{title}{Préhistoire \& histoire de la thermodynamique classique : une histoire de la chaleur}
     \field{volume}{45}
+    \field{year}{1996}
+  \endentry
+
+  \entry{millar1996}{book}{}
+    \name{labelname}{4}{}{%
+      {{hash=7cdff52f29fe9b14091fa87baceedc43}{Millar}{M\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=9fe24b42e661691194ea0dfb43b2d6cd}{Millar}{M\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=f7bf3a0cc2f407bef32c315e0f202115}{Millar}{M\bibinitperiod}{Ian}{I\bibinitperiod}{}{}{}{}}%
+      {{hash=9aede8d5b046d5ec8642063436dfd6a8}{Millar}{M\bibinitperiod}{Margaret}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{4}{}{%
+      {{hash=7cdff52f29fe9b14091fa87baceedc43}{Millar}{M\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=9fe24b42e661691194ea0dfb43b2d6cd}{Millar}{M\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=f7bf3a0cc2f407bef32c315e0f202115}{Millar}{M\bibinitperiod}{Ian}{I\bibinitperiod}{}{}{}{}}%
+      {{hash=9aede8d5b046d5ec8642063436dfd6a8}{Millar}{M\bibinitperiod}{Margaret}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {english}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{d28cacfb550bf3fc9284edb1efe62a1a}
+    \strng{fullhash}{0b081d2e2e321d91c6f8fcfb33a41eae}
+    \field{sortinit}{1}
+    \field{isbn}{9780521567183}
+    \field{title}{The Cambridge Dictionary of Scientists}
     \field{year}{1996}
   \endentry
 
