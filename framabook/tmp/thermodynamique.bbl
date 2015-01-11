@@ -21,12 +21,12 @@
 \refsection{0}
   \entry{lavoisierlaplace1780}{article}{}
     \name{labelname}{2}{}{%
-      {{hash=281a6b8f669f55fce53910729200c7d5}{Lavoisier}{L\bibinitperiod}{Antoine\bibnamedelima Laurent}{A\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-      {{hash=14f71a442604b281a25e6e15a2757a5e}{Laplace}{L\bibinitperiod}{Pierre-Simon}{P\bibinithyphendelim S\bibinitperiod}{}{}{}{}}%
+      {{hash=aa2376f6d1182b85d301c5618ad81da9}{Lavoisier}{L\bibinitperiod}{Antoine\bibnamedelima Laurent}{A\bibinitperiod\bibinitdelim L\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+      {{hash=89d53934f74445510345bccd2ef21e58}{Laplace}{L\bibinitperiod}{Pierre-Simon}{P\bibinithyphendelim S\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
     }
     \name{author}{2}{}{%
-      {{hash=281a6b8f669f55fce53910729200c7d5}{Lavoisier}{L\bibinitperiod}{Antoine\bibnamedelima Laurent}{A\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-      {{hash=14f71a442604b281a25e6e15a2757a5e}{Laplace}{L\bibinitperiod}{Pierre-Simon}{P\bibinithyphendelim S\bibinitperiod}{}{}{}{}}%
+      {{hash=aa2376f6d1182b85d301c5618ad81da9}{Lavoisier}{L\bibinitperiod}{Antoine\bibnamedelima Laurent}{A\bibinitperiod\bibinitdelim L\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+      {{hash=89d53934f74445510345bccd2ef21e58}{Laplace}{L\bibinitperiod}{Pierre-Simon}{P\bibinithyphendelim S\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
     }
     \list{language}{1}{%
       {french}%
@@ -34,8 +34,8 @@
     \list{publisher}{1}{%
       {Académie royale des sciences}%
     }
-    \strng{namehash}{c4cecfc7021ca6d08622d6ed92865e27}
-    \strng{fullhash}{c4cecfc7021ca6d08622d6ed92865e27}
+    \strng{namehash}{25252cd8df40f6658285b8963827bb92}
+    \strng{fullhash}{25252cd8df40f6658285b8963827bb92}
     \field{sortinit}{1}
     \field{journaltitle}{Mémoire de mathématiques et de physique de l’Académie des Sciences}
     \field{title}{Mémoire sur la chaleur}
@@ -1009,6 +1009,30 @@
     \field{subtitle}{Le roman de la thermodynamique}
     \field{title}{L’Entropie et tout ça}
     \field{year}{2001}
+  \endentry
+
+  \entry{lamouline2005}{book}{}
+    \name{labelname}{1}{}{%
+      {{hash=26e0ec29cfe7b7deba661f182da8c6df}{Lamouline}{L\bibinitperiod}{Roger}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=26e0ec29cfe7b7deba661f182da8c6df}{Lamouline}{L\bibinitperiod}{Roger}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {french}%
+    }
+    \list{location}{1}{%
+      {Paris, France}%
+    }
+    \list{publisher}{1}{%
+      {Ellipses}%
+    }
+    \strng{namehash}{26e0ec29cfe7b7deba661f182da8c6df}
+    \strng{fullhash}{26e0ec29cfe7b7deba661f182da8c6df}
+    \field{sortinit}{2}
+    \field{isbn}{2729822682}
+    \field{title}{Du thermomètre à la température}
+    \field{year}{2005}
   \endentry
 
   \entry{watzky2007}{book}{}

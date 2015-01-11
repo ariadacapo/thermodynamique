@@ -1,16 +1,16 @@
 [0] Config.pm:300> INFO - This is Biber 0.9.9
-[1] Config.pm:303> INFO - Logfile is 'thermodynamique.blg'
-[1] biber:145> INFO - === Sat Jan 10, 2015, 21:27:37
-[2] Biber.pm:271> INFO - Reading 'thermodynamique.bcf'
-[22] Biber.pm:586> INFO - Found 39 citekeys in bib section 0
-[34] Biber.pm:2585> INFO - Processing bib section 0
-[59] Biber.pm:2677> INFO - Looking for bibtex format file 'annexes/thermobib.bib' for section 0
-[61] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
-[83] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
-[84] bibtex.pm:704> INFO - Found BibTeX data source 'annexes/thermobib.bib'
-[221] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
-[221] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
-[307] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
-[308] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
-[359] bbl.pm:427> INFO - Writing 'thermodynamique.bbl' with encoding 'UTF-8'
-[361] bbl.pm:498> INFO - Output to thermodynamique.bbl
+[0] Config.pm:303> INFO - Logfile is 'thermodynamique.blg'
+[1] biber:145> INFO - === Sun Jan 11, 2015, 17:32:26
+[1] Biber.pm:271> INFO - Reading 'thermodynamique.bcf'
+[22] Biber.pm:586> INFO - Found 40 citekeys in bib section 0
+[33] Biber.pm:2585> INFO - Processing bib section 0
+[55] Biber.pm:2677> INFO - Looking for bibtex format file 'annexes/thermobib.bib' for section 0
+[57] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
+[79] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
+[79] bibtex.pm:704> INFO - Found BibTeX data source 'annexes/thermobib.bib'
+[214] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
+[214] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
+[297] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
+[297] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
+[343] bbl.pm:427> INFO - Writing 'thermodynamique.bbl' with encoding 'UTF-8'
+[346] bbl.pm:498> INFO - Output to thermodynamique.bbl
