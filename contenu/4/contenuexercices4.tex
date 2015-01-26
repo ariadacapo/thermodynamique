@@ -170,7 +170,8 @@
 		\label{fig_exo_entree_genx2b}
 	\end{figure}
 
-	Pendant la croisière (atmosphère : \SI{33 000}{ft} ; \SI{-50}{\degreeCelsius} ; \SI{0,25}{\bar}), le compresseur est entraîné par la turbine par le biais d’un arbre mécanique. Il reçoit~\SI{108}{\kilogram\per\second} d’air aux conditions atmosphériques, qu’il compresse jusqu’à une pression de~\SI{8}{\bar}.
+	Pendant la croisière (atmosphère : \SI{33 000}{ft} ; \SI{-50}{\degreeCelsius} ; \SI{0,25}{\bar}), le compresseur est entraîné par la turbine par le biais d’un arbre mécanique. Il reçoit~\SI{55}{\kilogram\per\second} d’air aux conditions atmosphériques, qu’il compresse jusqu’à une pression de~\SI{8}{\bar}.
+	% débit de masse : 1 Trent 500 au décollage = 1000 kg/s (source "the Jet Engine" Rolls-Royce plc 2005), estimé moitié moins en croisière soit 500 kg/s. Avec taux de dillution de 9 (pour le GEnx-2B en photo) on obtient ~ 55 kg/s.
 	
 	\begin{enumerate}
 		\item À partir de la relation suivante,
@@ -335,10 +336,10 @@
 						\tab \textit{Dans le sens horaire, en débutant à l’horizontale, sur les deux graphiques :} isobare ($p$~cste.), isotherme ($T$~cste.), adiabatique réversible, isochore ($v$~cst.).
 	\item [\ref{exo_compresseur_turboreacteur}]
 						\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_pv_turbojet_compressor.png}
-						\tab 1) Remplacer $v_2$ par $\frac{R T_2}{p_2}$, faire de même avec $v_1$. Dérouiller son algèbre et le résultat vient tout seul.
-						\tab 2) Avec l’\cref{eq_isentropique_horrible2}, on obtient $T_\B = \SI{600,3}{\kelvin}$, ainsi $\dot{W}_{\fromatob} = \SI{+2,654}{\mega\watt}$ 
-						\tab 3) \S\ref{ch_gp_isentropiques}
-						\tab 5) $T_{\C} = \SI{279,6}{\kelvin}$ ; $T_\D = \SI{752,6}{\kelvin}$ ; Ainsi $\dot{W}_\text{compresseur réel} = \dot{W}_{\text{pertes frottement} \A \to \C} + \dot{W}_\fromctod = \SI{+3,726}{\mega\watt}$ (\SI{+40}{\percent}).
+						\tab 1) Remplacer $v_2$ par $\frac{R T_2}{p_2}$, faire de même avec $v_1$. Dérouiller son algèbre et le résultat vient tout seul ;
+						\tab 2) Avec l’\cref{eq_isentropique_horrible2}, on obtient $T_\B = \SI{600,7}{\kelvin}$, ainsi $\dot{W}_{\fromatob} = \SI{+20,87}{\mega\watt}$ ;
+						\tab 3) \S\ref{ch_gp_isentropiques} ;
+						\tab 5) $T_\C = \SI{279,8}{\kelvin}$ ; $T_\D = \SI{753,1}{\kelvin}$ ; Ainsi $\dot{W}_\text{compresseur réel} = \dot{W}_{\text{pertes frottement} \A \to \C} + \dot{W}_\fromctod = \SI{+29,29}{\mega\watt}$ (\SI{+40}{\percent}).
 	\item [\ref{exo_compression_combustion_diesel}]
 						\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_pv_diesel.png}
 						\tab 1) voir \S\ref{ch_travail_pdv} \& \S\ref{ch_travail_fdl}
