@@ -16,7 +16,7 @@
 	Pourquoi, alors, s’intéresser au fonctionnement des moteurs à vapeur ? La réponse est que beaucoup de sources de chaleur ne permettent pas d’apporter de la chaleur directement à l’intérieur du fluide moteur. En fin de combustion, le charbon, le bois, des déchets ménagers ou agricoles, par exemple, laissent des résidus importants qu’il est impensable de faire circuler dans une turbine. Les réactions nucléaires, quant à elles, ne peuvent pas être effectuées directement au sein de l’air. L’exploitation de ces sources, qui constitue une part importante des sources mondiales d’énergie, nécessite donc d’aller prélever la chaleur à l’extérieur du moteur.
 
 	Les liquides ont une excellente capacité calorifique volumique en comparaison à celle de l’air (celle de l’eau est environ mille fois supérieure%
-		\footnote{Il est laissé à l’étudiant/e l’exercice de retrouver ces valeurs, à l’aide des \coursquatre et \courscinq.}) : il s’agit donc de médiums compacts pour prélever de la chaleur d’une source externe. Parmi eux, l’eau est la plus abondante et certainement la moins difficile à manipuler. 
+		\footnote{Il est laissé à l’étudiant/e l’exercice de retrouver ces valeurs, à l’aide des \coursquatre et \courscinq.}) : il s’agit donc de médiums compacts pour prélever de la chaleur d’une source externe. Parmi eux, l’eau est la plus abondante et certainement la moins difficile à manipuler.
 
 	Ainsi, la quasi-totalité des moteurs pour lesquels l’apport de chaleur ne peut être fait à l’intérieur de l’air fonctionne avec de l’eau. Ces sources de chaleur rendant difficile leur utilisation dans les transports, il s’agit le plus souvent d’installations statiques utilisées pour générer du courant électrique : une configuration qui permet d’importantes économies d’échelle dans le stockage et le transport de l’énergie. L’ensemble de ces facteurs justifie le développement de centrales à vapeur de plusieurs \si{gigawatts} électriques de puissance ($\SI{1}{\giga\watt} = \SI{e9}{\watt}$), ce qui fait d’elles les moteurs thermiques les plus puissants au monde.
 
@@ -51,13 +51,13 @@
 		L’efficacité d’un moteur n’est pas le seul paramètre dont nous tenons compte dans l’évaluation économique de son utilisation : les coûts associés à son entretien ou à la supervision de son opération, et bien sûr les frais d’acquisition, sont également déterminants. Ces dépenses ne sont calculables que si nous rentrons dans des détails technologiques qui dépassent le cadre de notre étude de la thermodynamique.
 		
 		\thermoquotebegin{O}
-			[...] La charge convenable à la production du maximum \emph{absolu} d’effet utile, dans les machines à détente, n’est pas la charge maximum dont est capable la machine. [...] Si l’on veut que la machine mette en mouvement la plus grande charge dont elle est capable, il faut la faire travailler sans détente ; mais cette charge n’est pas celle qui produit le maximum \emph{absolu} d’effet utile. 
+			[...] La charge convenable à la production du maximum \emph{absolu} d’effet utile, dans les machines à détente, n’est pas la charge maximum dont est capable la machine. [...] Si l’on veut que la machine mette en mouvement la plus grande charge dont elle est capable, il faut la faire travailler sans détente ; mais cette charge n’est pas celle qui produit le maximum \emph{absolu} d’effet utile.
 		\thermoquoteend{François-Marie Guyonneau de Pambour, 1839~\cite{pambour1839}}{}
 		Malgré cela, nous pouvons déjà évaluer de façon primitive la taille et le coût d’acquisition d’un moteur en calculant sa \vocab{puissance nette spécifique} $w_\net$. Pour qu’il puisse être peu encombrant, il est en effet souhaitable qu’un moteur génère une puissance nette importante pour un débit de masse donné : il peut même être souhaitable de compromettre pour cela l’efficacité thermique.
 			
 		Dans l’industrie, l’usage est plutôt de mesurer le paramètre inverse, que nous nommons \vocab{consommation spécifique}. Cette consommation indique le débit de vapeur nécessaire pour fournir un watt de puissance utile. Nous la notons SSC (pour l’anglais \vocabe{Specific Steam Consumption}) :
 		\begin{equation}
-			\mathit{SSC} \equiv  \frac{1}{|w_\net|}
+			\mathit{SSC} \equiv \frac{1}{|w_\net|}
 		\end{equation}
 		\begin{equationterms}
 			\item où \tab $SSC$ 		\tab est la consommation spécifique (\si{\kilogram\per\joule}),
@@ -98,7 +98,7 @@
 
 		Dans ce cas, nous nous souvenons de notre étude du \courstroisshort que, lorsque l’évolution est réversible, le travail $w_\fromatob$ entre deux points A et B s’exprime avec l’intégrale :
 		\begin{equation}
-				w_\fromatob =  \int_\A^\B v  \diff p  		\tag{\ref{eq_travail_w_rév_so}}
+				w_\fromatob =  \int_\A^\B v \diff p 		\tag{\ref{eq_travail_w_rév_so}}
 		\end{equation}
 		\begin{equationterms}
 			\item en système ouvert,
@@ -130,8 +130,8 @@
 			\begin{center}
 				\includegraphics[height=8cm]{images/centrale_pompe_photo.jpg}
 			\end{center}
-			\supercaption{Photo d’une pompe du fabricant \textsc{ksb} menant \SI{2500}{\tonne\per\hour} d’eau à \SI{350}{\bar} dans une centrale à vapeur.\\
-			Les pompes à liquide sont usuellement alimentées par un moteur électrique, mais ce modèle est alimenté mécaniquement par la turbine et doit ainsi fonctionner sur une plus grande plage de vitesses. Sa puissance maximale est de \SI{38}{\mega\watt} ; la puissance de la turbine entraînée dépasse \SI{800}{\mega\watt}.}{Photo \ccbysa \wcfile{Kesselspeisepumpe Kraftwerk Niederaussem.jpg}{KSB Aktiengesellschaft, Frankenthal}}
+			\supercaption{Photo d’une pompe du fabricant \textsc{ksb} menant \SI{2500}{\tonne\per\hour} d’eau à~\SI{350}{\bar} dans une centrale à vapeur.\\
+			Les pompes à liquide sont usuellement alimentées par un moteur électrique, mais ce modèle est alimenté mécaniquement par la turbine et doit ainsi fonctionner sur une plus grande plage de vitesses. Sa puissance maximale est de~\SI{38}{\mega\watt} ; la puissance de la turbine entraînée dépasse \SI{800}{\mega\watt}.}{Photo \ccbysa \wcfile{Kesselspeisepumpe Kraftwerk Niederaussem.jpg}{KSB Aktiengesellschaft, Frankenthal}}
 			\label{fig_centrale_pompe1}
 		\end{figure}
 
@@ -153,15 +153,15 @@
 
 		 	\begin{anexample}
 		 	\label{exemple_pompe_centrale}
-		 		Dans une centrale, une pompe est alimentée par un débit de \SI{35}{\kilogram\per\second} d’eau liquide saturée à \SI{0,5}{\bar}. L’eau est comprimée de façon approximativement isentropique jusqu’à \SI{40}{\bar}. Quelle est la puissance consommée ?
+		 		Dans une centrale, une pompe est alimentée par un débit de~\SI{35}{\kilogram\per\second} d’eau liquide saturée à~\SI{0,5}{\bar}. L’eau est comprimée de façon approximativement isentropique jusqu’à \SI{40}{\bar}. Quelle est la puissance consommée ?
 		 			\begin{answer}
 			 			L’évolution peut être représentée de façon qualitative sur un diagramme température-entropie ainsi :
 						\begin{center}\includegraphics[width=4cm]{images/exe_ts_pompe.png}\end{center}
-		 				Dans l’abaque~n°3 à \SI{0,05}{\mega\pascal} nous lisons l’enthalpie d’entrée $h_\A = h_{L \SI{0,05}{\mega\pascal}} = \SI{340,5}{\kilo\joule\per\kilogram}$. Le volume spécifique restera presque constant dans la pompe, à sa valeur de $v_\A = v_{L \SI{0,05}{\mega\pascal}} = \SI{0,00103}{\metre\cubed\per\kilogram}$. 
+		 				Dans l’abaque~n°3 à~\SI{0,05}{\mega\pascal} nous lisons l’enthalpie d’entrée $h_\A = h_{L \SI{0,05}{\mega\pascal}} = \SI{340,5}{\kilo\joule\per\kilogram}$. Le volume spécifique restera presque constant dans la pompe, à sa valeur de $v_\A = v_{L \SI{0,05}{\mega\pascal}} = \SI{0,00103}{\metre\cubed\per\kilogram}$.
 		 				
 		 				Avec l’\cref{eq_pompe_liquide} nous calculons $\dot W_\text{pompe} \approx \dot m \ v_L (p_\B - p_\A ) = \num{35} \times \num{0,00103} (\num{40e5} - \num{0,5e5}) = \SI{+142,4}{\kilo\watt}$.
 		 				
-		 					\begin{remark}Comme la compression est par hypothèse isentropique, nous aurions aussi pu partir du fait que $s_\A = s_\B$ pour obtenir $h_\B$ par interpolation dans l’abaque~n°1 et calculer ainsi la puissance de la pompe. Un calcul de $v_\B$ avec cette méthode permet de se convaincre que le volume spécifique varie de manière imperceptible (moins de \SI{0,1}{\percent}) pendant cette évolution.\end{remark}
+		 					\begin{remark}Comme la compression est par hypothèse isentropique, nous aurions aussi pu partir du fait que $s_\A = s_\B$ pour obtenir $h_\B$ par interpolation dans l’abaque~n°1 et calculer ainsi la puissance de la pompe. Un calcul de $v_\B$ avec cette méthode permet de se convaincre que le volume spécifique varie de manière imperceptible (moins de~\SI{0,1}{\percent}) pendant cette évolution.\end{remark}
 		 					\begin{remark}Comme nous avons calculé la puissance, nous sommes capables de calculer $h_\B = \frac{\dot W_\text{pompe}}{\dot m} + h_\A = \SI{482,9}{\kilo\joule\per\kilogram}$, c’est à dire l’enthalpie de l’eau à l’entrée de la chaudière, information très utile pour calculer sa puissance.\end{remark}
 		 			\end{answer}
 		 	\end{anexample}
@@ -227,10 +227,9 @@
 
 		L’efficacité d’une turbine se mesure en comparant sa puissance avec celle d’une turbine idéale (une turbine qui serait isentropique). Nous nommons ce paramètre l’\vocab{efficacité isentropique} $\eta_\text{T}$ :
 		\begin{equation}
-			\eta_\text{T} \equiv  \frac{\dot{W}_\text{turbine réelle}}{\dot{W}_\text{turbine isentropique}}
+			\eta_\text{T} \equiv \frac{\dot{W}_\text{turbine réelle}}{\dot{W}_\text{turbine isentropique}}
 			\label{def_efficacité_isentropique_turbine}
 		\end{equation}
-		
 		\begin{equationterms}
 			\item pour une turbine,
 			\item où \tab $\dot{W}_\text{turbine réelle}$ 			\tab\tab\tab\tab\tab est la puissance réelle fournie par la turbine,
@@ -249,11 +248,11 @@
 
 		\begin{anexample}
 		\label{exemple_turbine_centrale}
-			Une turbine d’efficacité isentropique \SI{85}{\percent} reçoit \SI{35}{\kilogram\per\second} d’eau à \SI{40}{\bar} et \SI{600}{\degreeCelsius}. Elle détend l’eau jusqu’à \SI{0,5}{\bar}. Quelle est la puissance développée ?
+			Une turbine d’efficacité isentropique \SI{85}{\percent} reçoit \SI{35}{\kilogram\per\second} d’eau à~\SI{40}{\bar} et~\SI{600}{\degreeCelsius}. Elle détend l’eau jusqu’à \SI{0,5}{\bar}. Quelle est la puissance développée ?
 				\begin{answer}
 					L’évolution peut être représentée de façon qualitative sur un diagramme température-entropie ainsi :
 						\begin{center}\includegraphics[width=4cm]{images/exe_ts_turbine.png}\end{center}
-					Nous commençons par imaginer que nous sommes dotés --\ irrépressible fantasme de thermodynamicien/ne !-- d’une turbine isentropique entre ces deux mêmes pressions. Dans l’abaque~n°1 à \SI{4}{\mega\pascal}, nous lisons $h_\A = \SI{3674,9}{\kilo\joule\per\kilogram}$ et $s_\A = \SI{7,3705}{\kilo\joule\per\kelvin\per\kilogram}$. La vapeur à la sortie de cette turbine hypothétique (en B’) a la même entropie : $s_{\B’} = s_\A$, et nous constatons que $s_{\B’} < s_{V \SI{0,05}{\mega\pascal}}$ : l’eau est partiellement condensée. Le calcul du titre (\S\ref{ch_melange_liquide_vapeur}) nous permet de calculer la valeur de son enthalpie : $h_{\B’} = h_{L \SI{0,05}{\mega\pascal}} + \frac{s_{\B’} - s_{L \SI{0,05}{\mega\pascal}}}{s_{LV \SI{0,05}{\mega\pascal}}} h_{LV \SI{0,05}{\mega\pascal}} = \SI{2566,3}{\kilo\joule\per\kilogram}$.
+					Nous commençons par imaginer que nous sommes dotés --\ irrépressible fantasme de thermodynamicien/ne !-- d’une turbine isentropique entre ces deux mêmes pressions. Dans l’abaque~n°1 à~\SI{4}{\mega\pascal}, nous lisons $h_\A = \SI{3674,9}{\kilo\joule\per\kilogram}$ et $s_\A = \SI{7,3705}{\kilo\joule\per\kelvin\per\kilogram}$. La vapeur à la sortie de cette turbine hypothétique (en B’) a la même entropie : $s_{\B’} = s_\A$, et nous constatons que $s_{\B’} < s_{V \SI{0,05}{\mega\pascal}}$ : l’eau est partiellement condensée. Le calcul du titre (\S\ref{ch_melange_liquide_vapeur}) nous permet de calculer la valeur de son enthalpie : $h_{\B’} = h_{L \SI{0,05}{\mega\pascal}} + \frac{s_{\B’} - s_{L \SI{0,05}{\mega\pascal}}}{s_{LV \SI{0,05}{\mega\pascal}}} h_{LV \SI{0,05}{\mega\pascal}} = \SI{2566,3}{\kilo\joule\per\kilogram}$.
 					
 					Le retour à la réalité est douloureux : la turbine réelle ne développe que \SI{85}{\percent} de la puissance de cette turbine hypothétique, ainsi $\dot{W}_\text{turbine réelle} = \dot{m} \ \eta_\text{T} \ (h_{\B’} - h_\A) = \num{35} \times \num{0,85} \times (\num{2566,3e3} - \num{3674,9e3}) = \SI{-32 980}{\kilo\watt} = \SI{-32,98}{\mega\watt}$.
 						\begin{remark}L’\cref{eq_puissance_turbine_vapeur} nous permet de calculer l’enthalpie $h_\B$ réellement obtenue la sortie de la turbine : $h_\B = \frac{\dot W_\text{turbine}}{\dot m} + h_\A = \SI{2732,6}{\kilo\joule\per\kilogram}$, ce qui est très utile pour calculer ensuite la puissance du condenseur. Un coup d’œil à l’abaque~n°2 nous montre que $h_\B > h_{V \SI{0,05}{\mega\pascal}}$ : la vapeur est donc sèche tout le long de sa détente.\end{remark}
@@ -355,7 +354,7 @@
 			\label{fig_ts_lv_rankine}
 		\end{figure}
 
-		Le \vocab{cycle de Rankine} utilise donc une pompe à eau liquide plutôt qu’un compresseur en mélange liquide/vapeur. Technologiquement, une pompe est plus simple à concevoir, fabriquer et mettre en œuvre qu’un compresseur. Autre avantage, la compression d’un liquide est plusieurs dizaines de fois plus économe en énergie que celle du mélange (\S\ref{ch_moteurs_vapeur_compresseurs_et_pompes}). 
+		Le \vocab{cycle de Rankine} utilise donc une pompe à eau liquide plutôt qu’un compresseur en mélange liquide/vapeur. Technologiquement, une pompe est plus simple à concevoir, fabriquer et mettre en œuvre qu’un compresseur. Autre avantage, la compression d’un liquide est plusieurs dizaines de fois plus économe en énergie que celle du mélange (\S\ref{ch_moteurs_vapeur_compresseurs_et_pompes}).
 		
 		Toutefois, cette économie d’énergie n’est pas sans contrepartie : à la sortie de la pompe (point B), l’eau est à température bien plus faible qu’elle ne l’était à la sortie du compresseur en \cref{fig_machine_vapeur_carnot}. C’est \emph{la chaudière} qui devra ramener l’eau à l’état de liquide saturé. Autrement dit, il faut fournir une dépense supplémentaire considérable sous forme de chaleur pour compenser la baisse de puissance de compression.
 
@@ -364,7 +363,7 @@
 		
 		Rankine s’est ainsi écarté volontairement du cycle de Carnot et a, ce faisant, réduit le rendement thermodynamique global (même si cette baisse peut souvent être compensée par une augmentation du rendement de la chaudière). Par contre, en faisant disparaître le compresseur, sa modification permet de réduire fortement la taille et la complexité de l’installation.
 
-		 
+		
 
 	\subsection{La surchauffe}
 
@@ -378,7 +377,7 @@
 			Cela nécessite une turbine de plus grande taille,  favorise l’insertion de bulles d’air dans le circuit de vapeur, et surtout, réduit le titre de l’eau en sortie de turbine ;
 
 			\item Augmenter l’enthalpie (et donc la température de la vapeur) \emph{après} sa sortie de la chaudière.\\
-			Cela permet  d’utiliser pleinement les capacités de la turbine, dont les limites métallurgiques (généralement autour de~\SI{1000}{\kelvin}) dépassent déjà souvent celles des chaudières.
+			Cela permet d’utiliser pleinement les capacités de la turbine, dont les limites métallurgiques (généralement autour de~\SI{1000}{\kelvin}) dépassent déjà souvent celles des chaudières.
 		\end{itemize}
 
 		C’est cette dernière option qui est très souvent choisie. On nomme cette modification la \vocab{surchauffe} : la vapeur est surchauffée à la sortie de la chaudière%

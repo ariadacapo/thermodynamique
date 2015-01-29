@@ -43,12 +43,12 @@
 			\begin{center}
 			\includegraphics[width=6cm]{images/piston_cylindre.png}
 			\end{center}
-			\supercaption{Un système fermé typique : une quantité de masse fixe dans un réservoir fermé. 
+			\supercaption{Un système fermé typique : une quantité de masse fixe dans un réservoir fermé.
 Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et perdre de la chaleur.}{schéma \cczero \oc}
 			\label{fig_piston_m_cste}
 		\end{figure}
 
-	\subsection{Conventions de signe} 
+	\subsection{Conventions de signe}
 	\label{ch_convention_signe_sf}
 
 		Pour quantifier les transferts nous utiliserons la convention de signe suivante, illustrée en \cref{fig_convention_signe_sf} :
@@ -66,7 +66,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 			\label{fig_convention_signe_sf}
 		\end{figure}
 
-		Ainsi, dans les équations, nous pouvons systématiquement additionner les termes sans avoir à connaître le sens des transformations. Les transferts sont comptabilisés comme sur  un compte bancaire : les dépenses sont négatives et les recettes positives.
+		Ainsi, dans les équations, nous pouvons systématiquement additionner les termes sans avoir à connaître le sens des transformations. Les transferts sont comptabilisés comme sur un compte bancaire : les dépenses sont négatives et les recettes positives.
 
 
 
@@ -74,16 +74,15 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 \label{ch_premier_principe_sf}
 
 	\thermoquotebegin{O}
-		Appelons ainsi $Q$ la quantité totale de chaleur qui doit être impartie à un corps pendant son passage, d’une manière donnée, depuis une condition à une autre, (toute chaleur prélevée au corps étant comptée comme une quantité négative), alors nous la divisons en trois parties, parmi lesquelles la première est employée à augmenter la chaleur existant véritablement dans le corps, la seconde à produire le travail intérieur et la troisième à produire le travail extérieur. Il va de la seconde partie ce que nous avons déjà dit de la première : qu’elle est indépendante du chemin suivi dans le passage du corps d’un état à un autre, et nous pouvons en conséquence  représenter ces deux parties ensemble par une fonction $U$, qui même si nous ne pouvons mieux la définir, nous savons à l’avance au moins être entièrement déterminée par les états initial et final du corps.
+		Appelons ainsi $Q$ la quantité totale de chaleur qui doit être impartie à un corps pendant son passage, d’une manière donnée, depuis une condition à une autre, (toute chaleur prélevée au corps étant comptée comme une quantité négative), alors nous la divisons en trois parties, parmi lesquelles la première est employée à augmenter la chaleur existant véritablement dans le corps, la seconde à produire le travail intérieur et la troisième à produire le travail extérieur. Il va de la seconde partie ce que nous avons déjà dit de la première : qu’elle est indépendante du chemin suivi dans le passage du corps d’un état à un autre, et nous pouvons en conséquence représenter ces deux parties ensemble par une fonction $U$, qui même si nous ne pouvons mieux la définir, nous savons à l’avance au moins être entièrement déterminée par les états initial et final du corps.
 	\thermoquoteend{Rudolf Clausius, 1854}{\textit{Über eine veränderte Form des zweiten Hauptsatzes der mechanischen Wärmetheorie~\cite{clausius1854}}\vspace{1em}} %handmade vspace
-	Le premier principe stipule que l’énergie est indestructible (\S\ref{ch_premier_principe}). Si on fournit \SI{100}{\joule} de travail à un système fermé et qu’il perd \SI{80}{\joule} sous forme de chaleur, c’est donc que «~son~» énergie a augmenté de~\SI{20}{\joule}. Nous nommons cette variation la \vocab{variation d’énergie interne}, $\Delta U$. 
+	Le premier principe stipule que l’énergie est indestructible (\S\ref{ch_premier_principe}). Si on fournit \SI{100}{\joule} de travail à un système fermé et qu’il perd \SI{80}{\joule} sous forme de chaleur, c’est donc que «~son~» énergie a augmenté de~\SI{20}{\joule}. Nous nommons cette variation la \vocab{variation d’énergie interne}, $\Delta U$.
 	
 	Sous forme d’équation, le premier principe dans un système fermé se traduit par l’équation :
 	\begin{equation}
 		Q_{1 \to 2} + W_{1 \to 2} = \Delta U
 		\label{eq_premier_principe_sf_maj}
 	\end{equation}
-
 	\begin{equationterms}
 		\item pour un système fermé ;
 		\item où \tab $\Delta U = U_2 - U_1$ est la variation d’énergie interne (\si{\joule}),
@@ -95,11 +94,10 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 
 	L’\cref{eq_premier_principe_sf_maj} peut être exprimée avec des grandeurs spécifiques :
 	\begin{IEEEeqnarray}{rCl}
-		m \ ( q_{1 \to 2} + w_{1 \to 2} )		& = & m \ \Delta u  \nonumber \\
+		m \ ( q_{1 \to 2} + w_{1 \to 2} )		& = & m \ \Delta u \nonumber \\
 		q_{1 \to 2} + w_{1 \to 2} 				& = & \Delta u
 	\label{eq_premier_principe_sf_min}
 	\end{IEEEeqnarray}
-	
 	\begin{equationterms}
 		\item pour un système fermé ;
 		\item où \tab $\Delta u = u_2 - u_1$ est la variation d’énergie interne spécifique (\si{\joule\per\kilogram}),
@@ -112,7 +110,6 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 	Q_{\text{cycle}} + W_{\text{cycle}} = 0
 	\label{eq_premier_principe_cycle}
 	\end{equation}
-	
 	\begin{equationterms}
 		\item pour un cycle thermodynamique complet,
 		\item où \tab $W_{\text{cycle}}$ \tab est le travail reçu par le système (\si{\joule}),
@@ -163,7 +160,6 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 				p \equiv \frac{F}{S}
 				\label{def_pression}
 			\end{equation}
-		
 			\begin{equationterms}
 				\item où \tab $p$ \tab est la pression (\si{\pascal}),
 				\item 	\tab $F$ \tab est la force (\si{\newton}),
@@ -188,7 +184,6 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 			\diff V = S \diff l
 			\label{eq_volume_surface_longueur}
 			\end{equation}
-
 			\begin{equationterms}
 				\item où \tab $\diff V$ 	\tab est la variation infinitésimale du volume (\si{\metre\cubed}),
 				\item 	\tab $S$ 			\tab\tab l’aire du piston déplacé (\si{\metre\squared}),
@@ -197,7 +192,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 
 			Dans le système d’unités \textsc{si} le volume se mesure en~\si{\metre\cubed} mais l’unité de mesure la plus courante est le~\si{litre} ($\SI{1}{\liter} \equiv \SI{e-3}{\metre\cubed})$.
 			}% end item
-		 
+		
 		\end{description}
 
 
@@ -206,7 +201,6 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 			W_\fromatob 	& = & - \int_\A^\B {F \diff l} = - \int_\A^\B {\frac{F}{S} S \diff l} 	\nonumber \\
 			W_\fromatob 	& = & - \int_\A^\B {p \diff V} \label{eq_travail_pdV}
 		\end{IEEEeqnarray}
-		
 		\begin{equationterms}
 			\item pour un système fermé modélisé par un ressort,
 			\item où \tab $W_\fromatob$ 	est le travail reçu par le système (\si{\joule}),
@@ -282,7 +276,6 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 			w_\fromatob 	& = & - \int_\A^\B p \diff v
 			\label{eq_travail_pdv}
 		\end{IEEEeqnarray}
-		
 		\begin{equationterms}
 			\item pour un système fermé lorsque les variations de volume sont infiniment lentes ;
 			\item où \tab $w_\fromatob$ 	\tab est le travail spécifique reçu par le système (\si{\joule\per\kilogram}),
@@ -326,7 +319,7 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 
 		Dans les trois évolutions de la \cref{fig_p-v_ajout_retrait_chaleur}, la relation de type $p v^{x} = \text{cste.}$ reste une modélisation appropriée. Plus on apporte de chaleur pendant la compression, plus la pression augmente rapidement --\ l’exposant $x$ est alors plus important.
 
-		Inversement, si l’on prélève de la chaleur pendant la compression, la pression augmente moins rapidement et on obtient une courbe plus proche de l’horizontale (avec un exposant  $x$ plus faible). En prélevant suffisamment de chaleur, on peut même maintenir la pression constante, comme nous le verrons aux chapitres~\quatre et~\cinq. L’exposant $x$ est alors nul et on a $p = p_\text{cste.}$.
+		Inversement, si l’on prélève de la chaleur pendant la compression, la pression augmente moins rapidement et on obtient une courbe plus proche de l’horizontale (avec un exposant $x$ plus faible). En prélevant suffisamment de chaleur, on peut même maintenir la pression constante, comme nous le verrons aux chapitres~\quatre et~\cinq. L’exposant $x$ est alors nul et on a $p = p_\text{cste.}$.
 		
 			\begin{anexample}
 				Un gaz dans un cylindre est comprimé lentement par un piston. On observe que sa pression est liée à son volume par la relation $p v^{\num{1,2}} = k$ (en unités \textsc{si}, et où $k$ est une constante). Au début de la compression, ses propriétés sont $p_\A = \SI{1}{\bar}$ et $v_\A = \SI{1}{\metre\cubed\per\kilogram}$. On le comprime jusqu’à ce que son volume ait atteint $v_\B = \SI{0,167}{\metre\cubed\per\kilogram}$. \\
@@ -340,13 +333,13 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 							\begin{remark} La grandeur de $k$ est déroutante : elle est mesurée en~\si{\pascal\metre\tothe{3,6}\per\kilogram\tothe{1,2}}. Cela n’a pas d’importance pour nous et il nous suffit (après avoir bien converti les unités d’entrée en \textsc{si}!) d’indiquer «~unités \textsc{si}~», ou~\si{\usi}.\end{remark}
 						Maintenant, nous pouvons décrire $p$ en fonction de $v$ : $p = \num{e5} \times v^{\num{-1,2}}$. Il n’y a plus qu’à intégrer en partant de l’\cref{eq_travail_pdv} : $w_\fromatob = - \int_\A^\B p \diff v = - \int_\A^\B k v^{\num{-1,2}} \diff v = - k \left[\frac{1}{-1,2 + 1} v^{-1,2 - 1} \right]_{v_\A}^{v_\B } = \frac{\num{e5}}{0,2}\left[v^{-0,2}\right]_1^{\num{0,167}} = \SI{+2,152e5}{\joule\per\kilogram} = \SI{+215,2}{\kilo\joule\per\kilogram}$.
 							\begin{remark}Le signe est positif : le gaz reçoit du travail.\end{remark}
-							\begin{remark}Le résultat peut paraître grand, mais il faut se rappeler que c’est un travail spécifique (\S\ref{ch_valeurs_spécifiques}) qu’il faudra multiplier par la masse du gaz pour obtenir une quantité en joules. Aux conditions de départ (\SI{1}{\kilogram\per\metre\cubed}) un volume d’air de \SI{1}{\liter} pèse à peine plus d’un~\si{gramme}. \end{remark}
+							\begin{remark}Le résultat peut paraître grand, mais il faut se rappeler que c’est un travail spécifique (\S\ref{ch_valeurs_spécifiques}) qu’il faudra multiplier par la masse du gaz pour obtenir une quantité en joules. Aux conditions de départ (\SI{1}{\kilogram\per\metre\cubed}) un volume d’air de~\SI{1}{\liter} pèse à peine plus d’un~\si{gramme}. \end{remark}
 					\end{answer}
 			\end{anexample}
 
 			\begin{anexample}
-				Une masse de \SI{0,3}{gramme} de gaz pressurisée dans un cylindre est détendue lentement en laissant un piston se déplacer. On sait que sa pression et son volume sont reliés par une relation de type $p v^{k_1} = k_2$ (où $k_1$ et $k_2$ sont deux constantes).\\
-				Au début de la détente, la pression est à \SI{12}{\bar} et le volume est de \SI{0,25}{\liter}. Une fois détendu, le gaz arrive à pression ambiante de \SI{1}{\bar} avec un volume de \SI{1,76}{\liter}.\\
+				Une masse de~\SI{0,3}{gramme} de gaz pressurisée dans un cylindre est détendue lentement en laissant un piston se déplacer. On sait que sa pression et son volume sont reliés par une relation de type $p v^{k_1} = k_2$ (où $k_1$ et $k_2$ sont deux constantes).\\
+				Au début de la détente, la pression est à~\SI{12}{\bar} et le volume est de~\SI{0,25}{\liter}. Une fois détendu, le gaz arrive à pression ambiante de~\SI{1}{\bar} avec un volume de~\SI{1,76}{\liter}.\\
 				Quel travail le gaz a-t-il dégagé pendant la détente ?				
 					\begin{answer}
 						Sur un diagramme pression-volume et de façon qualitative, l’évolution peut être représentée ainsi :
@@ -362,16 +355,16 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 								k_1 \ln\left(\frac{v_\A}{v_\B }\right) &=& \ln \left(\frac{p_\B }{p_\A}\right)\\
 								k_1 &=& \frac{\ln\left(\frac{p_\B }{p_\A}\right)}{\ln\left(\frac{v_\A}{v_\B }\right)} = \frac{\ln\left(\frac{1}{12}\right)}{\ln\left(\frac{0,833}{5,867}\right)} = \num{1,2733}
 							\end{IEEEeqnarray*}
-						Et avec $k_1$, nous pouvons calculer $k_2 = p_\A v_\A^{k_1} = \num{12e5} \times \num{0,833}^{\num{1,2733}} = \SI{9,514e5}{\usi}$. 
+						Et avec $k_1$, nous pouvons calculer $k_2 = p_\A v_\A^{k_1} = \num{12e5} \times \num{0,833}^{\num{1,2733}} = \SI{9,514e5}{\usi}$.
 							\begin{remark}$k_1$ est un exposant et n’a pas d’unités. Les unités de $k_2$ ne nous intéressent pas.\end{remark}
 							\begin{remark}Même si elle peut paraître laborieuse, cette démarche «~nous avons un modèle général pour la tendance, quels sont les paramètres pour ce cas particulier ?~» est très courante en physique, et extrêmement utile pour l’ingénieur/e.\end{remark}
-						Nous savons maintenant décrire quantitativement les propriétés pendant l’évolution : $p v^{\num{1,2733}} = \num{5,914e5}$.	Il n’y a plus qu’à effectuer notre intégration habituelle : $w_\fromatob = - \int_\A^\B p \diff v = - k_2 \int_\A^\B v^{-k_1} \diff v = \frac{\num{-9,514e5}}{\num{-0,2733}} \left[v^{-0,2733}\right]_{\num{0,833}}^{\num{0,587}} = \SI{-3,333e6}{\joule\per\kilogram} = \SI{-3333}{\kilo\joule\per\kilogram}$. Nous multiplions par la masse de gaz pour obtenir le travail : $W_{\A\to\B} = m \ w_\fromatob = \SI{-1}{\kilo\joule}$. 
+						Nous savons maintenant décrire quantitativement les propriétés pendant l’évolution : $p v^{\num{1,2733}} = \num{5,914e5}$.	Il n’y a plus qu’à effectuer notre intégration habituelle : $w_\fromatob = - \int_\A^\B p \diff v = - k_2 \int_\A^\B v^{-k_1} \diff v = \frac{\num{-9,514e5}}{\num{-0,2733}} \left[v^{-0,2733}\right]_{\num{0,833}}^{\num{0,587}} = \SI{-3,333e6}{\joule\per\kilogram} = \SI{-3333}{\kilo\joule\per\kilogram}$. Nous multiplions par la masse de gaz pour obtenir le travail : $W_{\A\to\B} = m \ w_\fromatob = \SI{-1}{\kilo\joule}$.
 							\begin{remark}Ce calcul peut être effectué de façon plus rapide, sans calculer les valeurs de $v_\A$, $v_\B $ et $k_2$. Toutefois, pour être certain/e de parvenir au résultat, il est plus sûr et plus facile de quantifier $p$ et $v$ (en \textsc{si}) à tous les stades de l’évolution avant de débuter une intégration.\end{remark}
 					\end{answer}
 			\end{anexample}
 			
 			\begin{anexample}
-				Un gaz enfermé dans un réservoir hermétique est chauffé lentement. Son volume reste bloqué à \SI{12}{\liter}, et sa pression évolue de \SI{1}{\bar} jusqu’à \SI{40}{\bar}. Quel est le travail développé ?
+				Un gaz enfermé dans un réservoir hermétique est chauffé lentement. Son volume reste bloqué à~\SI{12}{\liter}, et sa pression évolue de~\SI{1}{\bar} jusqu’à \SI{40}{\bar}. Quel est le travail développé ?
 					\begin{answer}
 						Sur un diagramme pression-volume et de façon qualitative, l’évolution peut être représentée ainsi :
 							\begin{center}
@@ -424,7 +417,7 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 
 		On pourrait ainsi dire que lorsqu’on le comprime et détend brutalement, un fluide se comporte comme un ressort «~fragile~», à l’intérieur duquel quelque chose se modifie : il n’est pas capable de rendre toute l’énergie mécanique qu’il a emmagasinée.
 
-		Si le travail reçu n’est pas égal au travail restitué, alors où est passé l’excédent d’énergie ? Ce surcroît d’énergie, fourni sous forme de travail par le piston, est \emph{transformé en chaleur à l’intérieur du fluide} pendant les mouvements. 
+		Si le travail reçu n’est pas égal au travail restitué, alors où est passé l’excédent d’énergie ? Ce surcroît d’énergie, fourni sous forme de travail par le piston, est \emph{transformé en chaleur à l’intérieur du fluide} pendant les mouvements.
 
 		\clearfloats % encore une fois, sinon c’est trop b****lique
 
@@ -451,7 +444,7 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 			\label{fig_p-v_détente_irr}
 		\end{figure}
 
-		D’un point de vue quantitatif, plus les mouvements sur le fluide seront brutaux, et plus l’évolution du fluide ressemblera à une évolution avec apport de chaleur («~durcissement~» du fluide et augmentation de l’exposant $x$ pendant les compressions, diminution de l’exposant $x$ pendant les détentes). 
+		D’un point de vue quantitatif, plus les mouvements sur le fluide seront brutaux, et plus l’évolution du fluide ressemblera à une évolution avec apport de chaleur («~durcissement~» du fluide et augmentation de l’exposant $x$ pendant les compressions, diminution de l’exposant $x$ pendant les détentes).
 
 		Par contre, le travail fourni ou reçu par le fluide ne peut plus être simplement calculé par intégrale puisque la pression à l’intérieur du cylindre n’est pas du tout homogène. C’est la pression à la surface du piston qui permettrait de calculer ce travail. Malheureusement, aucune relation mathématique simple ne permet de décrire cette relation entre pression et volume. Il faut effectuer une mesure expérimentale à chaque fois.
 		
@@ -505,7 +498,6 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 		Q_{1 \to 2} 	& = & 	\Delta U \ - \  W_{1 \to 2} \\
 		q_{1 \to 2} 	& = & 	\Delta u \ - \  w_{1 \to 2}
 	\end{IEEEeqnarray}
-	
 	\begin{equationterms}
 		\item pour un système fermé.
 	\end{equationterms}

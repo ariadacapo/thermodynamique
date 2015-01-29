@@ -26,7 +26,7 @@
 				\item La transmission d’une quantité de chaleur entre deux corps de températures différentes.
 			\end{itemize}
 		
-		Les transformations irréversibles dans les fluides conduisent invariablement à des états où la température, la pression ou le volume sont plus grands qu’ils ne l’auraient été avec une transformation réversible. 
+		Les transformations irréversibles dans les fluides conduisent invariablement à des états où la température, la pression ou le volume sont plus grands qu’ils ne l’auraient été avec une transformation réversible.
 		
 		\thermoquotebegin{O}
 			Pour cela nous imaginons qu’après la transformation que nous souhaitons étudier de cette façon, la masse est ramenée à son état initial par une opération réversible. De cette façon, nous obtenons un petit processus cyclique, à laquelle l’équation (II) s’applique aussi bien qu’à l’ensemble. Si [le long de ce processus] l’on connaît également les quantités de chaleur qu’a reçues la masse pendant ce dernier ainsi que les températures auxquelles elles correspondent, alors l’intégrale négative $-\int \frac{\diff Q}{T}$ nous donne la transformation non-compensée impliquée pendant celui-ci.
@@ -55,7 +55,7 @@
 		\begin{itemize}
 			\item Lorsqu’un système suit une évolution réversible, son entropie varie de façon telle que :
 				\begin{equation}
-					\diff S \equiv  \left( \frac{\diff Q}{T} \right)_\text{rév.}
+					\diff S \equiv \left( \frac{\diff Q}{T} \right)_\text{rév.}
 					\label{def_entropie}
 				\end{equation}
 				{\small%handmade, pour éviter trop de retours à la ligne
@@ -76,18 +76,18 @@
 					\item où l’indice \textit{rév.} spécifie que l’intégration se fait le long d’un chemin réversible.
 				\end{equationterms}
 
-			\item Lorsqu’un système suit une évolution irréversible entre A et B (comme pour la majorité des évolutions réelles), alors \emph{il faut trouver un chemin réversible entre ces deux états} et y effectuer l’intégration~\ref{eq_variation_franche_entropie} pour calculer $\Delta S$. 
+			\item Lorsqu’un système suit une évolution irréversible entre A et B (comme pour la majorité des évolutions réelles), alors \emph{il faut trouver un chemin réversible entre ces deux états} et y effectuer l’intégration~\ref{eq_variation_franche_entropie} pour calculer $\Delta S$.
 
 				Il existe toujours une façon réversible (en fait, il existe même une infinité de façons) de faire évoluer un système entre deux états quelconques. Pour cela, il faut que le travail qui lui est transféré le soit de façon infiniment lente et que la chaleur qui lui est transférée le soit avec une différence de température infinitésimale.
 				
-				Attention : si l’on intègre la quantité $\frac{\diff Q}{T}$ le long d’une évolution où la température ou la pression ne sont pas homogènes (par exemple lors d’une détente rapide, d’un réchauffement hétérogène ou d’un gradient interne de température, cf. \S\ref{ch_évolutions_irr_sf}), alors on obtiendra un résultat plus faible que $\Delta S$, la variation d’entropie réelle. 
+				Attention : si l’on intègre la quantité $\frac{\diff Q}{T}$ le long d’une évolution où la température ou la pression ne sont pas homogènes (par exemple lors d’une détente rapide, d’un réchauffement hétérogène ou d’un gradient interne de température, cf. \S\ref{ch_évolutions_irr_sf}), alors on obtiendra un résultat plus faible que $\Delta S$, la variation d’entropie réelle.
 				
 			\end{itemize}
 
 
 		L’unité de l’entropie, $S$, est le \si{\joule\per\kelvin} (\si{joule} par \si{kelvin}) ; et de façon correspondante, on définit l’\vocab{entropie spécifique} $s$ :
 		\begin{equation}
-			s \equiv  \frac{S}{m}
+			s \equiv \frac{S}{m}
 		\end{equation}
 		\begin{equationterms}
 			\item où \tab $m$ \tab est la masse considérée (\si{\kilogram}),
@@ -98,32 +98,32 @@
 
 		\begin{anexample}
 		\label{exemple_delta_entropie_basics}
-			On prélève \SI{2000}{\joule} sous forme de chaleur, de façon réversible, à une masse d’air en maintenant sa température constante à \SI{30}{\degreeCelsius}. De combien varie son entropie ?
+			On prélève \SI{2000}{\joule} sous forme de chaleur, de façon réversible, à une masse d’air en maintenant sa température constante à~\SI{30}{\degreeCelsius}. De combien varie son entropie ?
 				\begin{answer}
-					Comme l’évolution est réversible, nous appliquons immédiatement l’\cref{eq_variation_franche_entropie} : $\Delta S 
+					Comme l’évolution est réversible, nous appliquons immédiatement l’\cref{eq_variation_franche_entropie} : $\Delta S
 						= S_B - S_A
-						= \int_\A^\B \left( \frac{\diff Q}{T} \right)_\text{rév.} 
+						= \int_\A^\B \left( \frac{\diff Q}{T} \right)_\text{rév.}
 						= \left[\frac{1}{T_\text{cste}} \int_\A^\B \diff Q \right]_\text{rév.}
 						= \left[\frac{1}{T_\text{cste}} Q_\fromatob \right]_\text{rév.}
 						= \frac{1}{\num{30} + \num{273,15}} (\num{-2000})
 						= \SI{-6,6}{\joule\per\kelvin}$.
 					\begin{remark}Nous avons déjà exploré les évolutions réversibles à température constante (isothermes) aux sections \S\ref{ch_gp_isothermes} et \S\ref{ch_lv_isothermes}. Ici le gaz perd \SI{2}{\kilo\joule} de chaleur et reçoit \SI{2}{\kilo\joule} de travail.\end{remark}
 					\begin{remark}Nous ne connaissons pas la valeur de l’entropie, mais nous savons qu’elle diminue de 7 \si{joules} par \si{kelvin}.\end{remark}
-					\begin{remark}Il ne faut pas confondre la variation d’entropie avec la capacité thermique, $c\ \equiv \ \frac{\diff q}{\diff T} = \frac{1}{m} \frac{\diff Q}{\diff T}$ (\ref{eq_def_capacité_calorifique_massique}), dans laquelle nous divisons la chaleur par la \emph{variation} de température. Ici dans cette évolution la capacité thermique est infinie puisque  $\diff T = 0$.\end{remark}
+					\begin{remark}Il ne faut pas confondre la variation d’entropie avec la capacité thermique, $c\ \equiv \ \frac{\diff q}{\diff T} = \frac{1}{m} \frac{\diff Q}{\diff T}$ (\ref{eq_def_capacité_calorifique_massique}), dans laquelle nous divisons la chaleur par la \emph{variation} de température. Ici dans cette évolution la capacité thermique est infinie puisque $\diff T = 0$.\end{remark}
 				\end{answer}
 			
 			Une fois que le refroidissement est effectué, on laisse l’air se détendre brutalement : la détente est irréversible. Pendant celle-ci, on ne fournit que \SI{1000}{\joule} sous forme de chaleur et on ne récupère que \SI{1000}{\joule} sous forme de travail. À la fin de la détente, le gaz est dans le même état (mêmes température, pression, et énergie interne) qu’au tout début de l’expérience. Quelle est la variation d’entropie ?
 				\begin{answer} Cette fois, l’évolution n’est pas réversible. Nous ne devons pas tenir compte de la chaleur qui est effectivement échangée, mais de la chaleur \emph{qui aurait été échangée} dans une évolution réversible qui mènerait au même état final.
 				
-				Heureusement, nous savons que le gaz retourne de B à son état initial A ; or de A à B l’évolution était réversible. En effectuant l’évolution exactement inverse, nous inverserions tous les transferts de chaleur et de travail. Nous aurions alors, le long de cette évolution imaginaire de B vers A : $\Delta S = S_A - S_B 
-					= \int_\B^\A \left( \frac{\diff Q}{T} \right)_\text{rév.} 
+				Heureusement, nous savons que le gaz retourne de B à son état initial A ; or de A à B l’évolution était réversible. En effectuant l’évolution exactement inverse, nous inverserions tous les transferts de chaleur et de travail. Nous aurions alors, le long de cette évolution imaginaire de B vers A : $\Delta S = S_A - S_B
+					= \int_\B^\A \left( \frac{\diff Q}{T} \right)_\text{rév.}
 					= - \int_\A^\B \left( \frac{\diff Q}{T} \right)_\text{rév.}
 					= -(S_B - S_A)
-					= \SI{+6,6}{\joule\per\kelvin}$. 
+					= \SI{+6,6}{\joule\per\kelvin}$.
 						\begin{remark}Le $\Delta S$ correspond à la variation réelle de l’entropie ; mais il est calculé le long d’un chemin imaginaire.\end{remark}
 						\begin{remark} Ici nous voyons que la chaleur transférée en réalité n’a pas d’importance. C’est la chaleur «~qu’il aurait fallu échanger~» qui nous intéresse.\end{remark}
 						\begin{remark} Ici, pour simplifier l’exercice, le gaz retourne exactement à son état originel A. S’il arrivait à un état différent, nous pourrions tout de même calculer la variation d’entropie, comme nous apprendrons à le faire en section \S\ref{ch_delta_s_gaz_parfaits}.\end{remark}
-						\begin{remark}Dans cette évolution irréversible de B à A, c’est la différence entre $\int_\B^\A \left( \frac{\diff Q}{T} \right)_\text{rév.} = \SI{+6,6}{\joule\per\kelvin}$ et $\int_\B^\A \left( \frac{\diff Q}{T} \right)_\text{réel} = \frac{\num{+1000}}{\num{30}+\num{273,15}} =  \SI{+3,3}{\joule\per\kelvin}$ qui va nous permettre de mesurer l’irréversibilité, c’est-à-dire de montrer qu’avec un transfert de \SI{1}{\kilo\joule} on peut aller de B à A mais pas de A à B.\end{remark}
+						\begin{remark}Dans cette évolution irréversible de B à A, c’est la différence entre $\int_\B^\A \left( \frac{\diff Q}{T} \right)_\text{rév.} = \SI{+6,6}{\joule\per\kelvin}$ et $\int_\B^\A \left( \frac{\diff Q}{T} \right)_\text{réel} = \frac{\num{+1000}}{\num{30}+\num{273,15}} =  \SI{+3,3}{\joule\per\kelvin}$ qui va nous permettre de mesurer l’irréversibilité, c’est-à-dire de montrer qu’avec un transfert de~\SI{1}{\kilo\joule} on peut aller de B à A mais pas de A à B.\end{remark}
 				\end{answer}
 		\end{anexample}
 
@@ -138,7 +138,7 @@
 		
 				\item Tout comme l’énergie, l’entropie est invisible, inodore, impalpable et inaudible. Il n’existe pas d’instrument capable de la mesurer. Nous ne pouvons que calculer ses variations.
 
-				\item On ne peut calculer les variations d’entropie que le long d’évolutions réversibles, ce qui est une limitation très importante (aucune évolution réelle intéressante pour l’ingénieur/e n’est réversible). Cependant, il existe toujours de multiples façons réversibles, toutes équivalentes, de reproduire l’état final d’une évolution irréversible. 
+				\item On ne peut calculer les variations d’entropie que le long d’évolutions réversibles, ce qui est une limitation très importante (aucune évolution réelle intéressante pour l’ingénieur/e n’est réversible). Cependant, il existe toujours de multiples façons réversibles, toutes équivalentes, de reproduire l’état final d’une évolution irréversible.
 				
 			\end{enumerate}
 			
@@ -212,7 +212,7 @@
 	
 	\subsection{Les diagrammes température-entropie}
 	
-		Après six chapitres de bons et loyaux services, nous rangeons le diagramme pression-volume sur l’étagère, car il est temps de mettre à profit notre nouvel outil : le diagramme température-entropie. Même s’il est un peu plus abstrait, le diagramme $T-s$ est très utile pour décrire ce qui se passe à l’intérieur des machines car il est facile à tracer et il nous permet de visualiser directement \emph{l’irréversibilité}, qui est toujours indésirable pour l’ingénieur/e. 
+		Après six chapitres de bons et loyaux services, nous rangeons le diagramme pression-volume sur l’étagère, car il est temps de mettre à profit notre nouvel outil : le diagramme température-entropie. Même s’il est un peu plus abstrait, le diagramme $T-s$ est très utile pour décrire ce qui se passe à l’intérieur des machines car il est facile à tracer et il nous permet de visualiser directement \emph{l’irréversibilité}, qui est toujours indésirable pour l’ingénieur/e.
 
 		Lorsque le fluide reçoit ou fournit du travail de façon adiabatique réversible, alors $\Delta s = \int \frac{\diff q}{T} = 0$ puisque l’évolution est réversible et que $\diff q = 0$. Une transformation adiabatique réversible se fait donc à entropie constante --\ elle est iso-entropique, ce que nous appelons \vocab{isentropique}. Nous la représenterons ainsi par un trajet vertical sur les diagrammes température-entropie (\cref{fig_ts_basics}).
 
@@ -261,7 +261,7 @@
 	\subsection{Variations d’entropie d’un gaz parfait}
 	\label{ch_delta_s_gaz_parfaits}
 	
-		À partir de maintenant, nous souhaitons pouvoir quantifier la variation d’entropie des fluides pour n’importe quelle évolution arbitraire. Dans le cas d’un gaz parfait, cette quantification est en fait étonnamment simple. 
+		À partir de maintenant, nous souhaitons pouvoir quantifier la variation d’entropie des fluides pour n’importe quelle évolution arbitraire. Dans le cas d’un gaz parfait, cette quantification est en fait étonnamment simple.
 	
 		Pour n’importe quelle évolution d’une quantité fixe de fluide, nous avons (\ref{eq_premier_principe_sf_min}) :
 			\begin{equation*}
@@ -294,7 +294,7 @@
 				Dans l’expression obtenue, la différence $S - S_0$ est de nouveau entièrement déterminée si les états de départ et d’arrivée sont connus, et nous ne devons prêter attention à la manière dont s’est déroulé le passage de l’un vers l’autre que lorsque nous formons l’intégrale $\int \frac{\diff Q}{T}$.
 			\thermoquoteend{Rudolf Clausius, 1865~\cite{clausius1865,clausius1867en,clausius1868fr2}}{}
 
-		Cette équation est intéressante parce qu’elle nous indique que la variation d’entropie $\Delta s$ pendant une évolution de $1$ à $2$ ne dépend que des états initial et final. Même si nous avons commencé cette démonstration le long d’une évolution réversible nous obtenons une expression~\ref{eq_delta_s_gp_v} dans laquelle le chemin utilisé n’apparaît~pas. 
+		Cette équation est intéressante parce qu’elle nous indique que la variation d’entropie $\Delta s$ pendant une évolution de $1$ à $2$ ne dépend que des états initial et final. Même si nous avons commencé cette démonstration le long d’une évolution réversible nous obtenons une expression~\ref{eq_delta_s_gp_v} dans laquelle le chemin utilisé n’apparaît~pas.
 		
 		Il est donc possible de calculer facilement la variation d’entropie d’un gaz parfait si l’on connaît ses autres propriétés. Contrairement à l’énergie interne $u$ qui ne dépend que de la température, l’entropie $s$ dépend aussi de la pression du gaz.
 
@@ -325,7 +325,7 @@
 				\begin{answer}
 					L’évolution peut être représentée de façon qualitative sur un diagramme température-entropie ainsi :
 						\begin{center}\includegraphics[width=4cm]{images/exe_ts_1.png}\end{center}
-					Pour calculer $\Delta S$ nous partons de l’\cref{eq_delta_s_gp_p}, $\Delta s = c_p \ln \frac{T_\B}{T_\A} - R \ln \frac{p_\B}{p_\A}$ et ici $p_\B=p_\A$. Nous avons donc $\Delta s = c_p \ln \frac{T_\B}{T_\A} = \num{1005} \ln \frac{100+273,15}{10+273,15} =  \SI{+277,4}{\joule\per\kelvin\per\kilogram}$. \\L’entropie varie donc de $\Delta S = m \ \Delta s = 2 \times 277,4 = \SI{+554,8}{\joule\per\kelvin}$. 
+					Pour calculer $\Delta S$ nous partons de l’\cref{eq_delta_s_gp_p}, $\Delta s = c_p \ln \frac{T_\B}{T_\A} - R \ln \frac{p_\B}{p_\A}$ et ici $p_\B=p_\A$. Nous avons donc $\Delta s = c_p \ln \frac{T_\B}{T_\A} = \num{1005} \ln \frac{100+273,15}{10+273,15} =  \SI{+277,4}{\joule\per\kelvin\per\kilogram}$. \\L’entropie varie donc de $\Delta S = m \ \Delta s = 2 \times 277,4 = \SI{+554,8}{\joule\per\kelvin}$.
 				\begin{remark}Peu nous importe que l’évolution soit réversible ou non : il nous suffit de connaître les états initial et final.\end{remark}
 				\begin{remark}Nous écrivons bien que «~l’entropie de l’air augmente~» et non pas qu’«~on lui donne de l’entropie~» (\S\ref{ch_entropie_propriete}).\end{remark}\end{answer}
 		\end{anexample}
@@ -337,9 +337,9 @@
 				\begin{answer}
 					L’évolution peut être représentée de façon qualitative sur un diagramme $T-s$ ainsi :
 						\begin{center}\includegraphics[width=4cm]{images/exe_ts_2.png}\end{center}
-					Pour quantifier $\Delta S$ nous partons de l’\cref{eq_delta_s_gp_p}, $\Delta s = c_p \ln \frac{T_B}{T_A} - R \ln \frac{p_B}{p_A}$ et ici $T_B=T_A$. Nous avons donc $\Delta s = -R \ln \frac{p_B}{p_A} = \num{287} \ln \frac{5}{1} =  \SI{-461,9}{\joule\per\kelvin\per\kilogram}$. \\L’entropie varie donc de $\Delta S = m \ \Delta s = \num{0,5} \times \num{-461,9} = \SI{-231}{\joule\per\kelvin}$. 
+					Pour quantifier $\Delta S$ nous partons de l’\cref{eq_delta_s_gp_p}, $\Delta s = c_p \ln \frac{T_B}{T_A} - R \ln \frac{p_B}{p_A}$ et ici $T_B=T_A$. Nous avons donc $\Delta s = -R \ln \frac{p_B}{p_A} = \num{287} \ln \frac{5}{1} =  \SI{-461,9}{\joule\per\kelvin\per\kilogram}$. \\L’entropie varie donc de $\Delta S = m \ \Delta s = \num{0,5} \times \num{-461,9} = \SI{-231}{\joule\per\kelvin}$.
 					
-					Comme l’évolution est réversible, la chaleur prélevée s’obtient avec l’\cref{eq_q_tds_maj} : $Q_{\fromatob} = \int_\A^\B T \diff S = T_\text{cste} \int_\A^\B \diff S = T_\text{cste} \Delta S = (50+273,15) \times \num{-231} = \SI{-74,6}{\kilo\joule}$. 
+					Comme l’évolution est réversible, la chaleur prélevée s’obtient avec l’\cref{eq_q_tds_maj} : $Q_{\fromatob} = \int_\A^\B T \diff S = T_\text{cste} \int_\A^\B \diff S = T_\text{cste} \Delta S = (50+273,15) \times \num{-231} = \SI{-74,6}{\kilo\joule}$.
 				
 				\begin{remark}Nous savions déjà quantifier $Q_{\fromatob}$ sans utiliser l’entropie, à l’aide des équations \ref{eq_gp_travail_isotherme_sf2} et \ref{eq_gp_chaleur_isotherme_sf}.\end{remark}\end{answer}
 		\end{anexample}
@@ -460,7 +460,7 @@
 						\begin{center}\includegraphics[width=4cm]{images/exe_ts_5.png}\end{center}
 				Comme l’évolution est réversible nous allons pouvoir calculer $Q_{\fromatob}$ en intégrant le terme $T \diff s$ entre A et B. \\
 				Nous lisons $s_\A$ dans l’abaque n°2 : $s_\A = s_{L\SI{300}{\degreeCelsius}} = \SI{3,2552}{\kilo\joule\per\kilogram}$.\\
-				À l’arrivée le volume spécifique est $v_\B = \frac{V_\B}{m} = \frac{2}{2} = \SI{1}{\metre\cubed\per\kilogram} $ ; pour obtenir $s_\B$ il faut interpoler entre deux blocs de l’abaque n°1 (entre \SI{0,2}{\mega\pascal} et~\SI{0,4}{\mega\pascal} à~\SI{300}{\degreeCelsius}). 
+				À l’arrivée le volume spécifique est $v_\B = \frac{V_\B}{m} = \frac{2}{2} = \SI{1}{\metre\cubed\per\kilogram} $ ; pour obtenir $s_\B$ il faut interpoler entre deux blocs de l’abaque n°1 (entre \SI{0,2}{\mega\pascal} et~\SI{0,4}{\mega\pascal} à~\SI{300}{\degreeCelsius}).
 				Nous posons $y \equiv \frac{v_\B - v_{\SI{300}{\degreeCelsius}~\&~\SI{0,2}{\mega\pascal}}}{v_{\SI{300}{\degreeCelsius}~\&~\SI{0,4}{\mega\pascal}} - v_{\SI{300}{\degreeCelsius}~\&~\SI{0,2}{\mega\pascal}}} = \frac{1 -\num{1,3162}}{\num{0,65489}-\num{1,3162}} = \num{0,4781} $
 				et de façon correspondante, $s_\B = s_{\SI{300}{\degreeCelsius}~\&~\SI{0,2}{\mega\pascal}} + y (s_{\SI{300}{\degreeCelsius}~\&~\SI{0,4}{\mega\pascal}} - s_{\SI{300}{\degreeCelsius}~\&~\SI{0,2}{\mega\pascal}}) = \SI{7,8941} + \num{0,4781}(\num{7,5677}-\SI{7,8941}) = \SI{7,738}{\kilo\joule\per\kelvin\per\kilogram} $.
 				
@@ -492,7 +492,7 @@
 
 \section{Prédire le sens des transformations}
 
-	Nous voilà au concept central qui a ouvert les portes de la physique à la thermodynamique. À partir des quantifications des variations d’entropie, nous sommes capables de décrire le sens des transformations, c’est-à-dire de prouver par exemple qu’un état B vient \emph{après} un état A. 
+	Nous voilà au concept central qui a ouvert les portes de la physique à la thermodynamique. À partir des quantifications des variations d’entropie, nous sommes capables de décrire le sens des transformations, c’est-à-dire de prouver par exemple qu’un état B vient \emph{après} un état A.
 
 	\subsection{Irréversibilités lors des transferts de chaleur}
 
@@ -608,7 +608,7 @@
 			\begin{itemize}
 				\item Si les deux intégrales sont égales, alors la transformation réelle est \vocab{réversible} : elle peut avoir lieu dans les deux sens.
 				\item Si $\int \left(\frac{\diff q}{T}\right)_\text{chemin réel} < \int \left(\frac{\diff q}{T}\right)_\text{rév.}$, alors la transformation réelle est \vocab{irréversible}. Elle ne peut avoir lieu que depuis A vers B.
-				\item Si $\int \left(\frac{\diff q}{T}\right)_\text{chemin réel} > \int \left(\frac{\diff q}{T}\right)_\text{rév.}$, alors la transformation «~réelle~» décrite est \vocab{impossible}. Elle ne peut avoir lieu que dans le sens inverse (B $\to$ A). 
+				\item Si $\int \left(\frac{\diff q}{T}\right)_\text{chemin réel} > \int \left(\frac{\diff q}{T}\right)_\text{rév.}$, alors la transformation «~réelle~» décrite est \vocab{impossible}. Elle ne peut avoir lieu que dans le sens inverse (B $\to$ A).
 			\end{itemize}
 		
 		Nous pouvons donc, au moins pour quelques cas simples, retrouver mathématiquement le sens du temps -- une subtilité que l’on n’attendait pas de la part d’ingénieurs préoccupés par leur consommation de combustible !
@@ -675,7 +675,7 @@
 
 	\subsection{Contexte : le sens du temps}
 				
-		Les exemples que nous avons étudiés dans ce chapitre pour déterminer le sens des transformations sont très académiques, toutefois la démarche reste valide pour toute transformation : une pierre jetée dans un étang, une assiette qui se casse en tombant, etc. Si nous revenons aux trois photos de la~\cref{fig_water_jump}, nous pourrions en retrouver l’ordre en déterminant les états initial et final de l’eau autour de la plongeuse, et en comparant $\Delta s$ à l’intégrale $\int \left(\frac{\diff q}{T}\right)_\text{chemin réel}$ réalisée pendant l’entrée dans l’eau. 
+		Les exemples que nous avons étudiés dans ce chapitre pour déterminer le sens des transformations sont très académiques, toutefois la démarche reste valide pour toute transformation : une pierre jetée dans un étang, une assiette qui se casse en tombant, etc. Si nous revenons aux trois photos de la~\cref{fig_water_jump}, nous pourrions en retrouver l’ordre en déterminant les états initial et final de l’eau autour de la plongeuse, et en comparant $\Delta s$ à l’intégrale $\int \left(\frac{\diff q}{T}\right)_\text{chemin réel}$ réalisée pendant l’entrée dans l’eau.
 		
 		C’est ce désir de retrouver l’ordre absolu dans lequel se succèdent les états, c’est-à-dire le sens du temps, qui a mené le physicien allemand \wf{Rudolf Clausius} jusqu’à proposer le concept d’\vocab{entropie} en 1865 dans une publication magistrale --\ \textit{Über verschiedene für die Anwendung bequeme Formen der Hauptgleichungen der mechanischen Wärmetheorie}~\cite{clausius1865,clausius1867en,clausius1868fr2}. Concluant une décennie de travail autour de la grandeur $\frac{Q}{T}$, il y formalise un concept que ses condisciples français \wf{Ferdinand Reech} et écossais \wf{William Rankine} n’avaient qu’effleuré~\cite{truesdell1980}, et y rassemble l’ensemble des connaissances contemporaines de sa discipline.
 		
@@ -697,15 +697,15 @@
 				S \equiv k \ln \lambda
 			\end{equation}
 			\begin{equationterms}
-				\item où \tab $\lambda$ \tab est le nombre de configurations possibles du système qui correspondent à son état, 
+				\item où \tab $\lambda$ \tab est le nombre de configurations possibles du système qui correspondent à son état,
 				\item et \tab $k$ \tab est une constante.
 			\end{equationterms}
 		
 		\thermoquotebegin{O}
-		Nous mesurons le «~dés\-or\-dre~» par le nombre de manières dont l’intérieur peut être arrangé, de telle sorte que de l’extérieur cela apparaisse la même chose. \emph{Le logarithme de ce  nombre de manières est l’entropie}.\\
-Ainsi, avec la définition technique ci-dessus du désordre, nous pouvons comprendre la proposition. Premièrement, l’entropie mesure le désordre. Deuxièmement, l’univers va toujours de «~l’ordre~» vers le «~désordre~», ainsi l’entropie augmente toujours. L’ordre n’est pas un ordre au sens où nous aimons l’arrangement, mais au sens où le nombre de manières différentes à notre disposition pour obtenir quelque chose de toujours extérieurement identique, est relativement restreint. 
+		Nous mesurons le «~dés\-or\-dre~» par le nombre de manières dont l’intérieur peut être arrangé, de telle sorte que de l’extérieur cela apparaisse la même chose. \emph{Le logarithme de ce nombre de manières est l’entropie}.\\
+Ainsi, avec la définition technique ci-dessus du désordre, nous pouvons comprendre la proposition. Premièrement, l’entropie mesure le désordre. Deuxièmement, l’univers va toujours de «~l’ordre~» vers le «~désordre~», ainsi l’entropie augmente toujours. L’ordre n’est pas un ordre au sens où nous aimons l’arrangement, mais au sens où le nombre de manières différentes à notre disposition pour obtenir quelque chose de toujours extérieurement identique, est relativement restreint.
 		\thermoquoteend{Richard Feynman, 1963~\cite{feynman1963, feynman1963fr}}{}
-		Ainsi pour Boltzmann l’entropie est une mesure de la probabilité du système d’être dans cet état. Plus la configuration est probable (homogénéité de la pression et de la température), plus l’entropie est grande. 
+		Ainsi pour Boltzmann l’entropie est une mesure de la probabilité du système d’être dans cet état. Plus la configuration est probable (homogénéité de la pression et de la température), plus l’entropie est grande.
 		
 		À l’échelle macroscopique, nous avions décrit le second principe comme une impossibilité (\S\ref{ch_second_principe_enonce}) : un objet de température homogène ne peut pas voir spontanément une extrémité se refroidir et l’autre se réchauffer. Selon Boltzmann, un tel événement n’est pas strictement impossible, mais seulement très improbable. L’état où les molécules les plus rapides sont toutes rassemblées à une extrémité, et les plus lentes à l’autre, est bien moins probable (entropie plus faible) qu’un état où elles sont réparties de façon homogène (entropie plus grande).
 		

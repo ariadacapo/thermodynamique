@@ -53,7 +53,7 @@
 	\begin{enumerate}
 		\item Quel est le nouveau rendement thermique de la centrale ?
 		\item Quelle est sa nouvelle consommation spécifique ?
-		\item Quel débit d’air faut-il admettre dans la chaudière pour maintenir une puissance mécanique nette de \SI{60}{\mega\watt} ?
+		\item Quel débit d’air faut-il admettre dans la chaudière pour maintenir une puissance mécanique nette de~\SI{60}{\mega\watt} ?
 		\item Quelle est l’efficacité de la chaudière ?
 		\item Quel est le débit volumique horaire de carburant ?
 		\item Un/e ingénieur/e propose de faire passer le conduit d’air d’admission au travers des gaz d’échappement (sans pourtant les mélanger) pour augmenter la température de l’air avant combustion. Cela vous paraît-il être une bonne idée ?
@@ -73,7 +73,7 @@
 		\label{fig_50letpodeby}
 	\end{figure}
 
-	Le cycle est basé sur un cycle de Rankine surchauffé à~\SI{310}{\degreeCelsius} (par contact avec les conduites de l’eau pressurisée qui, elle, traverse le réacteur), entre les pressions de~\num{30} et~\SI{0,5}{\bar}\footnote{En réalité, entre \num{29} et~\SI{0,75}{\bar}, valeurs qui ne sont pas tabulées dans nos abaques.}. 
+	Le cycle est basé sur un cycle de Rankine surchauffé à~\SI{310}{\degreeCelsius} (par contact avec les conduites de l’eau pressurisée qui, elle, traverse le réacteur), entre les pressions de~\num{30} et~\SI{0,5}{\bar}\footnote{En réalité, entre \num{29} et~\SI{0,75}{\bar}, valeurs qui ne sont pas tabulées dans nos abaques.}.
 	
 	Pour ne pas surcharger cet exercice, nous considérons que la turbine est parfaitement isolée et isentropique.
 
@@ -102,18 +102,18 @@
 \titreresultats
 	
 	\begin{description}
-		\item [\ref{exo_porcheville_rankine}] 
+		\item [\ref{exo_porcheville_rankine}]
 						\tab 1) Voir les figures~\ref{fig_cycle_rankine_surchauffe} et~\ref{fig_ts_lv_rankine_surchauffe} ;
 						\tab 2) Avec $s_\E = s_\D = \SI{6,5399}{\kilo\joule\per\kilogram}$ et $\eta_\text{T} = \SI{80}{\percent}$, nous obtenons $h_\E = \SI{2287,7}{\kilo\joule\per\kilogram} $ comme à l’exemple~\ref{exemple_turbine_centrale} ;
 						\tab 3) Avec l’\cref{eq_pompe_liquide} nous obtenons $h_\B = \SI{205,9}{\kilo\joule\per\kilogram}$ comme à l’exemple~\ref{exemple_pompe_centrale} ;
 						\tab 4) $\eta_\text{thermique} = \left|\frac{(h_\E - h_\D) + (h_\B - h_\A)}{(h_\D - h_\B)}\right| = \SI{35,29}{\percent}$ (\ref{def_rendement_moteur}) ;
 						\tab 5) $SSC = \SI[per-mode = symbol]{3,15}{\kilogram\per\kilo\watt\per\hour}$ ;
 						\tab 6) $\dot{m}_\text{eau} = \SI{52,5}{\kilogram\per\second}$.
-		\item [\ref{exo_porcheville_resurchauffe}] 
+		\item [\ref{exo_porcheville_resurchauffe}]
 						\tab 1) $h_{\D2} = \SI{2960,8}{\kilo\joule\per\kilogram}$, $h_{\E2} = \SI{3570,3}{\kilo\joule\per\kilogram}$, $h_\F = \SI{2642,7}{\kilo\joule\per\kilogram}$, ainsi l’efficacité atteint $\eta_\text{thermique 2} = \SI{36,31}{\percent}$ (\SI{+1}{pt}, une amélioration déjà appréciable) ;
 						\tab 2) $SSC_2 = \SI[per-mode = symbol]{2,576}{\kilogram\per\kilo\watt\per\hour}$ (\SI{-18}{\percent}, un beau résultat) ;
 						\tab 3) Dans la chaudière, la chaleur perdue par l’air est gagnée par l’eau : $\dot m_\text{air} = \frac{-\dot Q_\text{eau}}{c_p \ \Delta T} = \frac{\dot W_\net}{\eta_\text{thermique}} \frac{1}{c_p \ (T_\text{air 3} - T_\text{air 2})}	 = \SI{256,9}{\kilogram\per\second}$.
-						\tab 4) $\eta_\text{chaudière} = \frac{\dot Q_\text{eau}}{\dot Q_\text{reçue par l’air}} = \SI{79,5}{\percent}$ 
+						\tab 4) $\eta_\text{chaudière} = \frac{\dot Q_\text{eau}}{\dot Q_\text{reçue par l’air}} = \SI{79,5}{\percent}$
 						\tab 5) $\dot{V}_\text{carb.} = \frac{\dot Q_\text{reçue par l’air}}{\rho_\text{carburant} c_\text{carburant} \eta_\text{chaudière}} = \SI{17,7}{\metre\cubed\per\hour}$.
 						\tab 6) C’est une excellente idée. On réduit ainsi la chaleur emportée par les gaz d’échappement à la sortie de la chaudière, ce qui a pour effet immédiat d’augmenter $\eta_\text{chaudière}$.
 						

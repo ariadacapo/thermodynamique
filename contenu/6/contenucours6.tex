@@ -72,7 +72,7 @@
 			\label{fig_cycle_thermodynamique_du_moteur_sf}
 		\end{figure}
 
-		Il est possible de lier mécaniquement les sections consommant et fournissant de l’énergie sous forme de travail. Dans le cas où le fluide circule en continu, on peut lier le compresseur et la turbine par un même axe, comme représenté en \cref{fig_cycle_thermodynamique_du_moteur_axe_so}. Dans le cas où les évolutions sont séparées dans le temps, comme dans un moteur à explosion, on peut lier les évolutions en effectuant plusieurs cycles déphasés simultanément (avec plusieurs cylindres) ou en stockant de l’énergie dans un volant d’inertie. Le moteur ne reçoit alors pas de travail extérieur et on obtient alors  à sa sortie une puissance $\dot W_\net$.
+		Il est possible de lier mécaniquement les sections consommant et fournissant de l’énergie sous forme de travail. Dans le cas où le fluide circule en continu, on peut lier le compresseur et la turbine par un même axe, comme représenté en \cref{fig_cycle_thermodynamique_du_moteur_axe_so}. Dans le cas où les évolutions sont séparées dans le temps, comme dans un moteur à explosion, on peut lier les évolutions en effectuant plusieurs cycles déphasés simultanément (avec plusieurs cylindres) ou en stockant de l’énergie dans un volant d’inertie. Le moteur ne reçoit alors pas de travail extérieur et on obtient alors à sa sortie une puissance $\dot W_\net$.
 
 		\begin{figure}
 			\begin{center}
@@ -159,7 +159,7 @@
 				\begin{center}
 					\includegraphics[width=\textwidth]{images/agencement_thermopompe_climatiseur_inversable.png}
 				\end{center}
-				\supercaption{Agencement d’un climatiseur inversable. En pivotant des deux vannes de \SI{90}{\degree} dans le sens anti-horaire, on change la fonction depuis une pompe à chaleur vers un climatiseur.}{schéma \cczero \oc}
+				\supercaption{Agencement d’un climatiseur inversable. En pivotant des deux vannes de~\SI{90}{\degree} dans le sens anti-horaire, on change la fonction depuis une pompe à chaleur vers un climatiseur.}{schéma \cczero \oc}
 				\label{fig_agencement_thermopompe_climatiseur_inversable}
 			\end{figure}
 
@@ -168,7 +168,7 @@
 
 	Le \vocab{rendement} ou l’\vocab{efficacité} $\eta$ d’une machine thermique compare le transfert ou la transformation utile qu’elle effectue avec le coût énergétique qu’elle engendre. Nous retiendrons la définition de principe suivante :
 	\begin{equation}
-		\eta  \equiv  \left| \frac{\text{transfert utile}}{\text{dépense énergétique}} \right|
+		\eta \equiv \left| \frac{\text{transfert utile}}{\text{dépense énergétique}} \right|
 		\label{def_efficacité_machines_thermiques}
 	\end{equation}
 
@@ -185,7 +185,7 @@
 				\includegraphics[height=10cm]{images/efficacite_moteur.png}
 			\end{center}
 			\supercaption{Transferts énergétiques associés à un moteur.
-				On souhaite obtenir un grand transfert $\dot W_\net$  (résultat) à partir du transfert $\dot Q_\inn$ (coût). 
+				On souhaite obtenir un grand transfert $\dot W_\net$  (résultat) à partir du transfert $\dot Q_\inn$ (coût).
 				Le rejet $\dot Q_\out$ est indésirable.}{schéma \cczero \oc}
 			\label{fig_transferts_moteur}
 		\end{figure}
@@ -200,7 +200,7 @@
 			Un moteur automobile reçoit une puissance de~\SI{100}{\kilo\watt} sous forme de chaleur issue de la combustion d’essence ; il fournit \SI{55}{\kilo\watt} sous forme de travail à l’arbre de transmission. Quel est son rendement ?
 	
 			\begin{answer}
-				Le rendement est de $\eta_\text{moteur} = \left| \frac{\dot W_\net}{\dot Q_\inn} \right| = \left| \frac{\num{-55e3}}{\num{+100e3}} \right| = \num{0,55} = \SI{55}{\percent}$. 
+				Le rendement est de $\eta_\text{moteur} = \left| \frac{\dot W_\net}{\dot Q_\inn} \right| = \left| \frac{\num{-55e3}}{\num{+100e3}} \right| = \num{0,55} = \SI{55}{\percent}$.
 					\begin{remark} Ce moteur effectue un rejet $\dot Q_\out = -\dot W_\net - \dot Q_\inn = -(\num{-55e3}) - \num{100e3}= \SI{-45}{\kilo\watt}$. Cette chaleur est en majeure partie évacuée par le pot d’échappement.\end{remark}
 					\begin{remark} On se doute bien qu’il faudra toujours fournir au moins autant de chaleur $\dot Q_\inn$ que le moteur ne fournit de travail $\dot W_\net$ ; le rendement d’un moteur sera donc toujours nécessairement inférieur à~\num{1}.\end{remark}
 			\end{answer}
@@ -232,7 +232,7 @@
 
 		D’après la définition~\ref{def_efficacité_machines_thermiques} le rendement (dit aussi parfois \vocab{coefficient of performance}, ou $\textsc{cop}_\text{réfrigération}$) d’un réfrigérateur ou d’un climatiseur est donc :
 		\begin{equation}
-			\eta_\text{réfrigérateur} = \eta _\text{climatiseur} \equiv  \left| \frac{\dot Q_\inn}{\dot W_\net} \right|
+			\eta_\text{réfrigérateur} = \eta _\text{climatiseur} \equiv \left| \frac{\dot Q_\inn}{\dot W_\net} \right|
 			\label{def_rendement_climatiseur_refrigerateur}
 		\end{equation}
 
@@ -240,7 +240,7 @@
 			Un réfrigérateur consomme une puissance électrique de~\SI{100}{\watt} ; il extrait de la chaleur de la chambre froide avec une puissance de~\SI{120}{\watt}. Quel est son rendement ?
 	
 			\begin{answer}
-				Le rendement est de $\eta_\text{réfrigérateur} = \left| \frac{\dot Q_\inn}{\dot W_\net} \right| = \left| \frac{\num{+120}}{\num{+100}} \right| = \num{1,2} = \SI{120}{\percent}$. 
+				Le rendement est de $\eta_\text{réfrigérateur} = \left| \frac{\dot Q_\inn}{\dot W_\net} \right| = \left| \frac{\num{+120}}{\num{+100}} \right| = \num{1,2} = \SI{120}{\percent}$.
 					\begin{remark} Ce réfrigérateur effectue un rejet $\dot Q_\out = -\dot W_\net - \dot Q_\inn = \num{-100} - \num{120}= \SI{-220}{\watt}$ à l’extérieur de la chambre froide (usuellement, dans l’habitation elle-même).\end{remark}
 					\begin{remark} Les réfrigérateurs et climatiseurs domestiques ont souvent un rendement supérieur à~\num{1} mais en fonction des températures demandées, le rendement peut tout à fait y être inférieur.\end{remark}
 			\end{answer}
@@ -265,14 +265,14 @@
 			\begin{center}
 				\includegraphics[height=10cm]{images/efficacite_thermopompe.png}
 			\end{center}
-			\supercaption{Transferts énergétiques associés à une pompe à chaleur. 
+			\supercaption{Transferts énergétiques associés à une pompe à chaleur.
 					On souhaite obtenir un grand transfert $\dot Q_\out$ (résultat) à partir du transfert $\dot W_\net$ (coût).}{schéma \cczero \oc}
 			\label{fig_transferts_thermopompe}
 		\end{figure}
 
 		Le rendement $\eta_\text{thermopompe}$ (dit aussi $\textsc{cop}_\text{thermopompe}$) de la thermopompe est donc défini par :
 		\begin{equation}
-			\eta_\text{thermopompe} \equiv  \left| \frac{\dot Q_\out}{\dot W_\net} \right|
+			\eta_\text{thermopompe} \equiv \left| \frac{\dot Q_\out}{\dot W_\net} \right|
 			\label{def_rendement_thermopompe}
 		\end{equation}
 	
@@ -280,7 +280,7 @@
 				Une pompe à chaleur consomme une puissance électrique de~\SI{100}{\watt} ; elle chauffe l’intérieur d’une pièce avec une puissance de~\SI{350}{\watt}. Quel est son rendement ?
 		
 				\begin{answer}
-					Le rendement est de $\eta_\text{thermopompe} = \left| \frac{\dot Q_\out}{\dot W_\net} \right| = \left| \frac{\num{-350}}{\num{+100}} \right| = \num{3.5}$. 
+					Le rendement est de $\eta_\text{thermopompe} = \left| \frac{\dot Q_\out}{\dot W_\net} \right| = \left| \frac{\num{-350}}{\num{+100}} \right| = \num{3.5}$.
 						\begin{remark} La pompe à chaleur rejette plus de chaleur qu’elle ne consomme de travail –\ c’est tout son intérêt. Si le \textsc{cop} était égal ou inférieur à~\num{1}, il serait plus économique et bien plus simple d’utiliser un radiateur électrique.\end{remark}
 				\end{answer}
 			\end{anexample}

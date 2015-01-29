@@ -63,19 +63,19 @@
 			\item et \tab $\dot W_\text{compressions}$ 	\tab la puissance consommée lors des compressions.
 		\end{equationterms}
 
-		Une machine dont la marge de travail est grande perd moins de son efficacité lorsqu’elle fonctionne hors de sa plage de régime optimale : elle est donc plus souple d’utilisation. La marge de travail est l’un des indicateurs de la réactivité d’un moteur, c’est-à-dire de sa capacité à changer de puissance et de régime rapidement. On peut établir un parallèle avec la notion de \vocab{marge bénéficiaire nette} en économie : toutes choses égales par ailleurs, il est plus intéressant de commercialiser à \SI{3}{\euroo} des objets achetés \SI{2}{\euroo} pièce, qu’à \SI{101}{\euroo} des objets achetés \SI{100}{\euroo} pièce, notamment parce que le bénéfice de \SI{1}{\euroo} est alors moins sensible à une variation de prix ou de coût imposée par le marché.
+		Une machine dont la marge de travail est grande perd moins de son efficacité lorsqu’elle fonctionne hors de sa plage de régime optimale : elle est donc plus souple d’utilisation. La marge de travail est l’un des indicateurs de la réactivité d’un moteur, c’est-à-dire de sa capacité à changer de puissance et de régime rapidement. On peut établir un parallèle avec la notion de \vocab{marge bénéficiaire nette} en économie : toutes choses égales par ailleurs, il est plus intéressant de commercialiser à~\SI{3}{\euroo} des objets achetés \SI{2}{\euroo} pièce, qu’à \SI{101}{\euroo} des objets achetés \SI{100}{\euroo} pièce, notamment parce que le bénéfice de~\SI{1}{\euroo} est alors moins sensible à une variation de prix ou de coût imposée par le marché.
 		
 			Le moteur de Carnot est l’exemple-type d’un cycle thermodynamique à haut rendement mais dont la marge de travail est très faible. En traçant le cycle sur un diagramme pression-volume (\cref{fig_p-v_gp_carnot}) cette faiblesse ressort bien : les courbes lors des phases de compression et détente sont très proches l’une de l’autre. Rankine, lorsqu’il modifie ce cycle (\S\ref{ch_cycle_de_rankine}), augmente considérablement la marge de travail.
 
 		D’une façon générale, une grande efficacité thermique requiert un grand taux de compression (afin d’obtenir une haute température avant que le transfert de chaleur ne soit initié). Une grande marge de travail requiert un faible travail de compression (afin de minimiser la sensibilité du moteur aux irréversibilités). Ces deux objectifs sont donc souvent contradictoires et il reviendra à l’ingénieur/e thermodynamicien/ne de trouver le meilleur compromis.
-		 
+		
 
 	\subsection{Poussée et puissance spécifiques}
 	\label{ch_poussee_puissance_specifiques}
 
 		Nous utilisons les concepts de \vocab{poussée spécifique} $\frac{P}{\dot m}$ et \vocab{puissance spécifique} $w_\net$, c’est-à-dire la poussée et la puissance du moteur divisées par le débit d’air qui le traverse, pour comparer sommairement les cycles moteurs entre eux. Il est souvent désirable d’augmenter ces paramètres dans les applications où un grand rapport puissance/poids est recherché.
 
-		Ainsi par exemple, sur un moteur aéronautique, une augmentation du rendement n’est pas toujours justifiée si elle provoque une augmentation du poids ou de l’encombrement. Un aéronef plus lourd doit fournir une plus grande portance, ce qui augmente la traînée … et donc la poussée, et la puissance nécessaire pour la générer.
+		Ainsi par exemple, sur un moteur aéronautique, une augmentation du rendement n’est pas toujours justifiée si elle provoque une augmentation du poids ou de l’encombrement. Un aéronef plus lourd doit fournir une plus grande portance, ce qui augmente la traînée… et donc la poussée, et la puissance nécessaire pour la générer.
 
 	
 	\subsection{Autres critères d’évaluation}
@@ -120,7 +120,7 @@ Les moteurs à mouvement alternatif (souvent dits «~à pistons-cylindres~») ad
 	\subsection{Le cycle d’Otto}
 	\label{ch_cycle_otto}
 	
-		On doit à l’ingénieur allemand \wf{Nikolaus Otto}, en 1864, la mise au point du moteur que l’on connaît aujourd’hui sous le nom de «~\vocab{moteur à essence}~». Le cycle de principe de ce moteur, appelé \vocab{cycle d’Otto}, est constitué de deux phases isentropiques encadrées par deux phases isochores ; il est décrit en \cref{fig_cycle_otto}. 
+		On doit à l’ingénieur allemand \wf{Nikolaus Otto}, en 1864, la mise au point du moteur que l’on connaît aujourd’hui sous le nom de «~\vocab{moteur à essence}~». Le cycle de principe de ce moteur, appelé \vocab{cycle d’Otto}, est constitué de deux phases isentropiques encadrées par deux phases isochores ; il est décrit en \cref{fig_cycle_otto}.
 		
 		\begin{figure}
 			\begin{center}
@@ -140,7 +140,7 @@ Les moteurs à mouvement alternatif (souvent dits «~à pistons-cylindres~») ad
 
 		En définissant le \vocab{taux de compression} $r_v$ comme :
 		\begin{equation}
-			r_v \equiv  \frac{v_\A}{v_\B}
+			r_v \equiv \frac{v_\A}{v_\B}
 		\end{equation}
 		il est possible de montrer que l’\cref{eq_tmp_rendement_otto} peut être reformulée pour exprimer le rendement selon :
 		\begin{equation}
@@ -170,7 +170,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 			\label{fig_cycle_diesel}
 		\end{figure}
 
-		Comme l’apport de chaleur $q_\text{combustion} = c_p (T_\C - T_\B)$ (\ref{eq_q_gp_sf_isobare}) est fait conjointement à une production de travail, il n’existe pas d’expression simple pour le rendement $\eta_\text{Diesel}$, qui ne dépend plus uniquement du taux de compression. Il faudra le calculer en étudiant le cycle étape par étape. On s’apercevra alors que toutes choses étant égales par ailleurs (même taux de compression et même température maximale), le cycle de Diesel a un rendement plus faible que celui d’Otto. 
+		Comme l’apport de chaleur $q_\text{combustion} = c_p (T_\C - T_\B)$ (\ref{eq_q_gp_sf_isobare}) est fait conjointement à une production de travail, il n’existe pas d’expression simple pour le rendement $\eta_\text{Diesel}$, qui ne dépend plus uniquement du taux de compression. Il faudra le calculer en étudiant le cycle étape par étape. On s’apercevra alors que toutes choses étant égales par ailleurs (même taux de compression et même température maximale), le cycle de Diesel a un rendement plus faible que celui d’Otto.
 		
 		Pour comprendre, alors, l’intérêt de ce cycle et la différence véritable entre un moteur Diesel et un moteur essence, il faut un peu de contexte historique. Rudolf Diesel conçoit en 1892 un moteur «~rationnel~» pour mettre en pratique le cycle de Carnot. Il recherche donc deux caractéristiques :
 		\begin{itemize}
@@ -179,7 +179,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 		\end{itemize}
 		Pour obtenir cela, il lui faut attendre la fin de la compression pour injecter le carburant, afin d’éviter un allumage prématuré. L’apport de chaleur isotherme demande quant à lui une combustion progressive. Ainsi, le moteur Diesel originel est par nature doté d’une \vocab{injection directe} de carburant, indépendante de l’admission d’air. Le cycle de Diesel est donc intéressant car il \emph{permet} un taux de compression et une qualité de combustion supérieurs à ceux du cycle d’Otto.
 		
-		Le moteur de Diesel ne cessera d’évoluer depuis l’impraticable concept décrit dans la \textit{Théorie et construction d’un moteur rationnel à chaleur destiné à remplacer les machines à vapeur et moteurs à combustion connus à ce jour} de 1893~\cite{diesel1893,diesel1893en} (\SI{400}{\bar} et combustion isotherme de poudre de charbon) jusqu’aux premiers modèles de série qu’il développe chez le motoriste \textsc{man} (\SI{40}{\bar} et combustion isobare de pétrole). Tout comme Otto, Diesel s’intéresse d’abord aux moteurs stationnaires (ses premiers prototypes sont monocylindres et dépassent trois mètres de haut) mais ce sont les applications aux transports commerciaux, où l’absence de bougie et son excellent rendement lui donnent l’avantage sur les moteurs à allumage commandé, qui feront sa notoriété. 
+		Le moteur de Diesel ne cessera d’évoluer depuis l’impraticable concept décrit dans la \textit{Théorie et construction d’un moteur rationnel à chaleur destiné à remplacer les machines à vapeur et moteurs à combustion connus à ce jour} de 1893~\cite{diesel1893,diesel1893en} (\SI{400}{\bar} et combustion isotherme de poudre de charbon) jusqu’aux premiers modèles de série qu’il développe chez le motoriste \textsc{man} (\SI{40}{\bar} et combustion isobare de pétrole). Tout comme Otto, Diesel s’intéresse d’abord aux moteurs stationnaires (ses premiers prototypes sont monocylindres et dépassent trois mètres de haut) mais ce sont les applications aux transports commerciaux, où l’absence de bougie et son excellent rendement lui donnent l’avantage sur les moteurs à allumage commandé, qui feront sa notoriété.
 
 	\subsection{Mise en pratique des cycles}
 	\label{ch_cycles_pistons_reels}
@@ -214,7 +214,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 				\includegraphics[height=0.325\textwidth]{images/curtiss_wright_cyclone.jpg}
 				\includegraphics[height=0.325\textwidth]{images/honda_v12.jpg}
 			\end{center}
-			\supercaption{À gauche, un \textit{Curtiss-Wright} \textsc{r-3350} \textit{Duplex-Cyclone} (1950) de \SI{3500}{ch} à 18 cylindres disposés en deux étoiles successives. Quatre de ces moteurs équipaient le long-courrier \textit{Lockheed Super Constellation}.\\
+			\supercaption{À gauche, un \textit{Curtiss-Wright} \textsc{r-3350} \textit{Duplex-Cyclone} (1950) de~\SI{3500}{ch} à 18 cylindres disposés en deux étoiles successives. Quatre de ces moteurs équipaient le long-courrier \textit{Lockheed Super Constellation}.\\
 			À droite, un \textit{Honda} \textsc{ra121e} (1991) de 12 cylindres. Il équipait la Formule 1 \textit{McLaren} \textsc{mp4/6}.}{\wcfile{Curtiss Wright Cyclone 1 fcm.jpg}{photo du Duplex-Cyclone} \ccbysa par \wcun{Frank C. Müller}{Frank C. Müller}\\
  \wcfile{Honda RA121E engine front Honda Collection Hall.jpg}{photo du V12 \textsc{ra121e}} \ccbysa par \wcu{Morio}}
 			\label{fig_beaucoup_cylindres}
@@ -266,7 +266,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 
 		Tout comme nous l’avons fait pour la turbine (\ref{def_efficacité_isentropique_turbine}), nous quantifions l’efficacité d’un compresseur en comparant sa puissance avec celle d’un compresseur idéal (un compresseur qui serait isentropique). Nous nommons ce paramètre l’\vocab{efficacité isentropique} du compresseur $\eta_\C$ :
 		\begin{equation}
-			\eta_\C \equiv  \frac{\dot W_\text{compresseur isentropique}}{\dot W_\text{compresseur réel}}
+			\eta_\C \equiv \frac{\dot W_\text{compresseur isentropique}}{\dot W_\text{compresseur réel}}
 			\label{def_efficacité_isentropique_compresseur}
 		\end{equation}
 		\begin{equationterms}
@@ -288,7 +288,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 
 		\begin{anexample}
 			Pour l’air, on mesure $c_{p\text{(air)}} = \SI{1005}{\joule\per\kilogram\per\kelvin}$, $c_{v\text{(air)}} = \SI{718}{\joule\per\kilogram\per\kelvin}$, $R_\text{air} = \SI{287}{\joule\per\kilogram\per\kelvin}$, et $\gamma_\text{air} = \num{1,4}$.\\
-			Le compresseur d’un turboréacteur à soufflante a une efficacité isentropique de \SI{85}{\percent} ; il admet \SI{38}{\kilogram\per\second} d’air à \SI{1}{\bar} et \SI{5}{\degreeCelsius}. La pression de sortie est de \SI{40}{\bar}. Quelle est la puissance consommée ?
+			Le compresseur d’un turboréacteur à soufflante a une efficacité isentropique de~\SI{85}{\percent} ; il admet \SI{38}{\kilogram\per\second} d’air à~\SI{1}{\bar} et~\SI{5}{\degreeCelsius}. La pression de sortie est de~\SI{40}{\bar}. Quelle est la puissance consommée ?
 				\begin{answer}
 					L’évolution peut être représentée de façon qualitative sur un diagramme $T-s$ ainsi :
 						\begin{center}\includegraphics[width=4cm]{images/exe_ts_compresseur.png}\end{center}
@@ -297,7 +297,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 					 			= (5 + \num{273,15}) \left(40\right)^{\frac{\num{0,4}}{\num{1,4}}}
 					 			= \SI{798}{\kelvin} = \SI{524,9}{\degreeCelsius}$.
 					 Le compresseur idéal consommerait donc $w_\text{compresseur isentropique} = c_{p \text{(air)}} \ (T_{\B’} - T_\A) = \num{1005} \ (\num{798} - \num{278,15}) = \SI{+5,225e5}{\joule\per\kilogram} = \SI{+522,5}{\kilo\joule\per\kilogram}$.
-					 
+					
 					 Avec l’\cref{def_efficacité_isentropique_compresseur} la puissance du compresseur vient naturellement : $\dot W_\text{compresseur} = \dot m \ \frac{1}{\eta_\text{C}} \ w_\text{compresseur isentropique} = \num{38} \times \frac{1}{\num{0,85}} \times \num{5,225e5} = \SI{2,336e7}{\watt} = \SI{23,36}{\mega\watt}$.
 					 	\begin{remark}
 					 		Attention : contrairement aux turbines, la puissance réelle est \emph{supérieure} à la puissance théorique : on divise par l’efficacité dans le dernier calcul.
@@ -364,7 +364,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 
 		Tout comme pour les liquides/vapeurs (\ref{def_efficacité_isentropique_turbine}), nous mesurons la performance d’une turbine en quantifiant son \vocab{efficacité isentropique} $\eta_\text{T}$ :
 		\begin{equation}
-			\eta_\text{T} \equiv  \frac{\dot W_\text{Turbine réelle}}{\dot W_\text{Turbine isentropique}}	  \tag{\ref{def_efficacité_isentropique_turbine}}
+			\eta_\text{T} \equiv \frac{\dot W_\text{Turbine réelle}}{\dot W_\text{Turbine isentropique}}	  \tag{\ref{def_efficacité_isentropique_turbine}}
 		\end{equation}
 
 		La puissance extraite par la turbine s’exprime donc aisément en fonction des températures réelle $T_{2~\text{réel}}$ et idéale $T_{2’}$ à sa sortie :
@@ -419,15 +419,15 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 		\begin{anexample}
 		\label{exemple_tuyere}
 			Pour les gaz brûlés, on mesure $c_{p\text{(gaz)}} = \SI{1150}{\joule\per\kilogram\per\kelvin}$, $c_{v\text{(gaz)}} = \SI{823}{\joule\per\kilogram\per\kelvin}$, $R_\text{gaz} = \SI{327}{\joule\per\kilogram\per\kelvin}$, et $\gamma_\text{gaz} = \num{1,333}$.\\
-			Une tuyère admet un débit d’air continu à \SI{2}{\bar}, \SI{10}{\metre\per\second} et \SI{400}{\degreeCelsius}. À quelle vitesse peut-elle accélérer ces gaz en les rejetant à \SI{1}{\bar}, si on néglige les irréversibilités ?
+			Une tuyère admet un débit d’air continu à~\SI{2}{\bar}, \SI{10}{\metre\per\second} et~\SI{400}{\degreeCelsius}. À quelle vitesse peut-elle accélérer ces gaz en les rejetant à~\SI{1}{\bar}, si on néglige les irréversibilités ?
 				\begin{answer}
-					Le cas permettant la plus grande vitesse d’éjection est le cas d’une détente isentropique, alors 
+					Le cas permettant la plus grande vitesse d’éjection est le cas d’une détente isentropique, alors
 					$T_\B = T_\A \left(\frac{p_\B}{p_\A}\right)^{\frac{\gamma - 1}{\gamma}}
 					 			= (400 + \num{273,15}) \left(\frac{1}{2}\right)^{\frac{\num{0,333}}{\num{1,333}}}
 					 			= \SI{566,1}{\kelvin} = \SI{293}{\degreeCelsius}$.
 					Une telle évolution peut être représentée de façon qualitative sur un diagramme $T-s$ ainsi :
 						\begin{center}\includegraphics[width=4cm]{images/exe_ts_tuyere.png}\end{center}
-					Avec l’\cref{eq_vitesses_tuyere} la vitesse de sortie serait donc 
+					Avec l’\cref{eq_vitesses_tuyere} la vitesse de sortie serait donc
 					$C_\B = \left[ - 2 \ c_{p \text{(gaz)}} \ (T_\B - T_\A) - C_\A^2 \right]^{\frac{1}{2}}
 							= \left[ - 2 \times \num{1150} \times (\num{293} - \num{400}) + \num{10}^2 \right]^{\num{0,5}}
 							= \SI{496,2}{\metre\per\second} = \SI{1786}{\kilo\metre\per\hour}$.
@@ -506,12 +506,12 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 
 		Les turboréacteurs sont extrêmement compacts et utilisés principalement sur les appareils militaires.
 
-		 
+		
 
 	\subsection{Turbopropulseur et turbomoteur}
 	\label{ch_turboprop_turboshaft}
 
-		Plutôt que d’utiliser une tuyère comme dans un turboréacteur, il est possible de poursuivre la détente dans la turbine jusqu’à la pression atmosphérique. La puissance fournie par la turbine est alors \emph{supérieure} à la puissance consommée par le compresseur. 
+		Plutôt que d’utiliser une tuyère comme dans un turboréacteur, il est possible de poursuivre la détente dans la turbine jusqu’à la pression atmosphérique. La puissance fournie par la turbine est alors \emph{supérieure} à la puissance consommée par le compresseur.
 
 		L’arbre moteur fournit alors du travail, que l’on peut utiliser pour alimenter une hélice propulsive (cas d’un \vocab{turbopropulseur}) ou un élément externe comme une génératrice ou une pompe (cas d’un \vocab{turbomoteur}), comme montré en \cref{fig_turbomoteur}.
 
@@ -537,7 +537,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 			\begin{center}
 				\includegraphics[scale=0.6]{images/circuit_turbofan.png}
 			\end{center}
-			\supercaption{Schéma de principe d’un turbofan. 
+			\supercaption{Schéma de principe d’un turbofan.
 			Le circuit central du moteur ($\A \to E$) alimente mécaniquement la soufflante, qui permet au circuit externe ($\A \to G$) de fournir la majorité de la poussée.}{schéma \ccbysa \olivier}
 			\label{fig_turbofan}
 		\end{figure}
@@ -549,7 +549,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 			\item le flux externe, dit parfois «~flux froid~», est faiblement compressé par la soufflante et directement détendu dans la tuyère qui englobe le corps chaud du moteur. Il n’est jamais chauffé.\\
 			C’est cet air «~froid~» qui fournit la plus grande part de la poussée. On montre que plus le rapport air froid / air chaud, (nommé \vocab{taux de dilution}) est grand, plus le moteur est efficace. Le taux de dilution des moteurs modernes avoisine \num{10}.
 		\end{itemize}
-		 
+		
 
 	\subsection{Turbine libre et turbines multiples}
 
@@ -642,7 +642,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 
 		La perte outrageante de rendement engendrée par l’utilisation de la postcombustion, ainsi que les niveaux fracassants de bruit et de pollution qu’elle engendre, la limitent au seul domaine militaire (sur les avions de combat en particulier).
 
-		 
+		
 
 	\subsection{Refroidissement de la turbine}
 	\label{ch_refroidissement_turbine}
