@@ -18,7 +18,7 @@
 			\begin{center}
 				\includegraphics[width=8cm]{images/convention_systeme_ouvert.png}
 			\end{center}
-			\supercaption{Système ouvert. Le système peut recevoir ou émettre du travail ; en plus, il peut recevoir ou perdre de la masse.}{schéma \cczero \oc}
+			\supercaption{Conventions de signe pour un système ouvert. Les flux entrants sont positifs, les flux sortants sont négatifs ; ils sont tous représentés avec des flèches rentrantes.}{schéma \cczero \oc}
 			\label{fig_systeme_ouvert}
 		\end{figure}
 
@@ -34,8 +34,8 @@
 
 		Tout comme pour les systèmes ouverts, nous allons nous placer du point de vue du système pour quantifier les transferts :
 			\begin{itemize}
-				\item La réception d’énergie se traduit par un transfert \emph{positif} ;
-				\item La perte d’énergie se traduit par un transfert \emph{négatif}.
+				\item La réception de travail, de chaleur ou de masse se traduit par un transfert \emph{positif} ;
+				\item La perte de travail, de chaleur ou de masse se traduit par un transfert \emph{négatif}.
 			\end{itemize}
 		
 		Nous additionnons donc tous les transferts comme sur un relevé de compte en banque.
@@ -49,13 +49,13 @@
 
 		Imaginons un système ouvert en régime continu contenant une petite pompe à eau. Pour insérer l’eau dans la pompe à une pression donnée, il faut fournir de l’énergie au système. Au contraire, pour repousser l’eau à l’extérieur (à une pression plus haute), le système doit fournir de l’énergie. Comment quantifier cette énergie ?
 
-		Considérons le cas d’un \vocab{élément de fluide} (c’est-à-dire une petite quantité de fluide en transit, de volume $V$) et qui pénètre à l’intérieur de notre système à la pression $p_1$ (\cref{fig_travail_ecoulement}).
+		Considérons le cas d’un \vocab{élément de fluide} (c’est-à-dire une petite quantité de fluide en transit, de volume $V_\text{élément}$) et qui pénètre à l’intérieur de notre système à la pression $p_1$ (\cref{fig_travail_ecoulement}).
 
 		\begin{figure}
 			\begin{center}
 				\includegraphics[width=8cm]{images/travail_insertion.png}
 			\end{center}
-			\supercaption{Un élément de fluide de volume $V$ pénétrant à la pression~$p$ dans le système ouvert.}{schéma \cczero \oc}
+			\supercaption{Un élément de fluide de volume $V_\text{élément}$ pénétrant à la pression~$p$ dans le système ouvert.}{schéma \cczero \oc}
 			\label{fig_travail_ecoulement}
 		\end{figure}
 
@@ -71,24 +71,27 @@
 
 		Si un tel volume de fluide pénètre chaque seconde dans le système, alors ce dernier reçoit une puissance sous forme de travail, que nous nommons \vocab{puissance d’insertion}, $\dot{W}_\text{insertion}$. Nous l’exprimons parfois sous forme spécifique~(\S\ref{ch_valeurs_spécifiques}) :
 		\begin{IEEEeqnarray}{rCl}
-			\dot{W}_\text{insertion} 	& = & p_1 \ \dot{V}_1 = \dot m \ p_1 \ v_1\\
+			\dot{W}_\text{insertion} 	& = & p_1 \ \dot{V}_1 = \dot m_1 \ p_1 \ v_1 = \dot m \ p_1 \ v_1\\
 			w_\text{insertion} 			& = & p_1 \ v_1
 			\label{eq_puissance_spé_insertion}	
 		\end{IEEEeqnarray}
-
 		\begin{equationterms}
 			\item où \tab $\dot{W}_\text{insertion}$ 	\tab est la puissance d’insertion (\si{\watt}),
 			\item 	\tab $w_\text{insertion}$ 			\tab\tab est la puissance spécifique d’insertion (\si{\joule\per\kilogram}),
-			\item		\tab $\dot m$ 		\tab est le débit de masse (\si{\kilogram\per\second}),
+			\item		\tab $\dot m_1$ 	est le débit net de masse en 1 (\si{\kilogram\per\second}),
+			\item		\tab $\dot m$ 		\tab est le débit de masse traversant le système (toujours positif, \si{\kilogram\per\second}),
 			\item 	\tab $\dot{V}_1$ 	\tab est le débit volumique de fluide (\si{\metre\cubed\per\second})
 			\item et \tab $v_1$ 			\tab est le volume spécifique du fluide à l’entrée (\si{\metre\cubed\per\kilogram}).
 		\end{equationterms}
 
 		De la même façon, pour que le le fluide sorte du système à son autre extrémité, il faut que le système fournisse continûment une puissance nommée \vocab{puissance d’extraction} :
 		\begin{IEEEeqnarray}{rCl}
-			\dot{W}_\text{extraction} 	& = & - p_2 \ \dot{V_2} = - \dot{m} \ p_2 \ v_2 \\
+			\dot{W}_\text{extraction} 	& = & - p_2 \ \dot{V_2} = \dot{m}_2 \ p_2 \ v_2  = - \dot{m} \ p_2 \ v_2 \\
 			w_\text{extraction} 			& = & - p_2 \ v_2
 		\end{IEEEeqnarray}
+		\begin{equationterms}
+			\item où le débit sortant $\dot m_2$ (négatif) est exprimé en fonction du débit $\dot m$ traversant le système (toujours positif, \si{\kilogram\per\second}).
+		\end{equationterms}
 
 		La somme nette de ces deux puissances aux frontières est nommée \vocab{puissance d’écoulement}, $\dot{W}_\text{écoulement} \equiv \dot{W}_\text{insertion} + \dot{W}_\text{extraction}$ . Son signe dépend des conditions d’opération -- l’étudiant/e est encouragé/e à se représenter et à formuler les conditions dans lesquelles la puissance d’écoulement peut être négative, nulle, ou positive.
 
