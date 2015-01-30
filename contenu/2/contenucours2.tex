@@ -62,7 +62,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 			\begin{center}
 				\includegraphics[width=9cm]{images/convention_systeme_ferme.png}
 			\end{center}
-			\caption{Conventions de signe pour un système fermé. Les flux entrants sont positifs, les flux sortants sont négatifs ; ils sont tous représentés avec des flèches rentrantes. La quantité de masse est fixe.}
+			\supercaption{Conventions de signe pour un système fermé. Les flux entrants sont positifs, les flux sortants sont négatifs ; ils sont tous représentés avec des flèches rentrantes. La quantité de masse est fixe.}{schéma \cczero \oc}
 			\label{fig_convention_signe_sf}
 		\end{figure}
 
@@ -264,7 +264,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 			\begin{center}
 			\includegraphics[width=10cm]{images/travail_cylindre_2.png}
 			\end{center}
-			\caption{Lorsque le mouvement du piston est infiniment lent, le fluide se comporte comme un ressort que l’on comprime.}
+			\supercaption{Lorsque le mouvement du piston est infiniment lent, le fluide se comporte comme un ressort que l’on comprime.}{schéma \ccbysa \olivier}
 			\label{fig_piston_fluide_lent}
 		\end{figure}
 
@@ -289,9 +289,9 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 
 		\begin{figure}
 			\begin{center}
-			\includegraphics[width=9cm]{images/pv_gaz_simple.png}
+			\includegraphics[width=\pvdiagramwidth]{images/pv_gaz_simple.png}
 			\end{center}
-			\caption{Propriétés d’un gaz lorsqu’on le comprime. La relation est similaire à celle que l’on obtiendrait avec un ressort à spires progressives.}
+			\supercaption{Propriétés d’un gaz lorsqu’on le comprime. La relation est similaire à celle que l’on obtiendrait avec un ressort à spires progressives.}{schéma \cczero \oc}
 			\label{fig_p-v_pvx}
 		\end{figure}
 
@@ -308,10 +308,10 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 
 		\begin{figure}
 			\begin{center}
-			\includegraphics[width=9cm]{images/pv_transfert_chaleur.png}
+			\includegraphics[width=\didacticpvdiagramwidth]{images/pv_transfert_chaleur.png}
 			\end{center}
-			\caption{Comportement d’un fluide lorsqu’on le comprime infiniment lentement.
-Plus on lui apporte de chaleur pendant la compression, plus la pression augmente fortement. La courbe adiabatique représente le cas où aucun apport ni perte de chaleur n’a lieu ($Q = 0$).}
+			\supercaption{Comportement d’un fluide lorsqu’on le comprime infiniment lentement.
+Plus on lui apporte de chaleur pendant la compression, plus la pression augmente fortement. La courbe adiabatique représente le cas où aucun apport ni perte de chaleur n’a lieu ($Q = 0$).}{schéma \cczero \oc}
 			\label{fig_p-v_ajout_retrait_chaleur}
 		\end{figure}
 
@@ -386,7 +386,7 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 			\begin{center}
 			\includegraphics[width=9cm]{images/particules_compression_rapide.png}
 			\end{center}
-			\caption{Compression et détente irréversibles. Lorsqu’on comprime un fluide de façon brutale (schéma de gauche), la pression sur la paroi du piston est augmentée. Lors d’une détente brutale (schéma de droite) cette pression est diminuée.}
+			\supercaption{Compression et détente irréversibles. Lorsqu’on comprime un fluide de façon brutale (schéma de gauche), la pression sur la paroi du piston est augmentée. Lors d’une détente brutale (schéma de droite) cette pression est diminuée.}{schéma \ccbysa \olivier}
 			\label{fig_molécules_rapide}
 		\end{figure}
 
@@ -396,7 +396,7 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 			\begin{center}
 				\includegraphics[width=\textwidth]{images/mouvement_rapide_niveau_eau.png}
 			\end{center}
-			\caption{Paroi mobile déplaçant une masse d’eau dans un réservoir : en haut, selon un mouvement infiniment lent ; en bas, avec un mouvement brutal. Les flèches représentent la pression appliquée sur la paroi mobile par l’eau.}%FIXME : vérifier seuil d’originalité, cette figure est repiquée de Çengel & al 2007
+			\supercaption{Paroi mobile déplaçant une masse d’eau dans un réservoir : en haut, selon un mouvement infiniment lent ; en bas, avec un mouvement brutal. Les flèches représentent la pression appliquée sur la paroi mobile par l’eau.}{schéma \cczero \oc}%FIXME : vérifier seuil d’originalité, cette figure est repiquée de Çengel & al 2007
 			\label{fig_baignoire}
 		\end{figure}
 		
@@ -410,7 +410,7 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 			\begin{center}
 				\includegraphics[width=10cm]{images/travail_cylindre_3.png}
 			\end{center}
-			\caption{Fluide comprimé de façon brutale. La pression locale à la surface du piston est supérieure à ce qu’elle aurait été avec un mouvement lent.}
+			\supercaption{Fluide comprimé de façon brutale. La pression locale à la surface du piston est supérieure à ce qu’elle aurait été avec un mouvement lent.}{schéma \ccbysa \olivier}
 			\label{fig_piston_fluide_rapide}
 		\end{figure}
 
@@ -424,12 +424,12 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=9cm]{images/pv_compression_irreversible.png}
+				\includegraphics[width=\didacticpvdiagramwidth]{images/pv_compression_irreversible.png}
 			\end{center}
 			\supercaption{Compression irréversible adiabatique sur un diagramme pression-volume.\\
 				Nous représentons l’évolution du gaz en pointillés : il ne s’agit pas d’une série d’états continue car la pression du fluide n’est pas homogène pendant le trajet.\\
 				Le chemin qu’aurait suivi le fluide si la compression avait été infiniment lente est représenté avec un trait continu.\\
-				Pendant la compression, le «~surcoût~» de travail fourni par le piston est transformé en chaleur (bien que le gaz soit parfaitement isolé).}{}
+				Pendant la compression, le «~surcoût~» de travail fourni par le piston est transformé en chaleur (bien que le gaz soit parfaitement isolé).}{schéma \cczero \oc}
 			\label{fig_p-v_compression_irr}
 		\end{figure}
 
