@@ -1,16 +1,16 @@
 [0] Config.pm:300> INFO - This is Biber 0.9.9
 [0] Config.pm:303> INFO - Logfile is 'amphibook.blg'
-[1] biber:145> INFO - === Tue Jan 27, 2015, 20:13:15
+[1] biber:145> INFO - === Fri Jan 30, 2015, 18:54:11
 [1] Biber.pm:271> INFO - Reading 'amphibook.bcf'
 [22] Biber.pm:586> INFO - Found 40 citekeys in bib section 0
-[35] Biber.pm:2585> INFO - Processing bib section 0
-[56] Biber.pm:2677> INFO - Looking for bibtex format file '/home/olivier/aero/global/publishing/latex/sty/thermobib.bib' for section 0
-[59] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
-[81] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
-[82] bibtex.pm:704> INFO - Found BibTeX data source '/home/olivier/aero/global/publishing/latex/sty/thermobib.bib'
-[223] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
-[224] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
-[310] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
-[310] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
-[385] bbl.pm:427> INFO - Writing 'amphibook.bbl' with encoding 'UTF-8'
-[389] bbl.pm:498> INFO - Output to amphibook.bbl
+[33] Biber.pm:2585> INFO - Processing bib section 0
+[62] Biber.pm:2677> INFO - Looking for bibtex format file '/home/olivier/aero/global/publishing/latex/sty/thermobib.bib' for section 0
+[65] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
+[86] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
+[87] bibtex.pm:704> INFO - Found BibTeX data source '/home/olivier/aero/global/publishing/latex/sty/thermobib.bib'
+[259] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
+[260] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
+[344] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
+[344] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
+[395] bbl.pm:427> INFO - Writing 'amphibook.bbl' with encoding 'UTF-8'
+[398] bbl.pm:498> INFO - Output to amphibook.bbl

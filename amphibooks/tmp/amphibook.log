@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  27 JAN 2015 20:21
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  30 JAN 2015 19:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3357,7 +3357,7 @@ Overfull \hbox (14.56143pt too wide) in paragraph at lines 59--60
 [][]; 
  []
 
-[335
+[340
 
 
 
@@ -3438,7 +3438,7 @@ File: images/photo_dash8.jpg Graphic file (type jpg)
 <use images/photo_dash8.jpg>
 Package pdftex.def Info: images/photo_dash8.jpg used on input line 133.
 (pdftex.def)             Requested size: 241.07481pt x 160.64139pt.
- [336 <./10/images/photo_diesel_generateur.jpg> <./10/images/photo_diesel_propu
+ [341 <./10/images/photo_diesel_generateur.jpg> <./10/images/photo_diesel_propu
 lsion.jpg> <./10/images/circuit_turboprop.png>]
 <images/photo_pw_j52_1.jpg, id=117, 790.152pt x 355.3275pt>
 File: images/photo_pw_j52_1.jpg Graphic file (type jpg)
@@ -3453,7 +3453,7 @@ File: images/photo_pw_j52_2.jpg Graphic file (type jpg)
 <use images/photo_pw_j52_2.jpg>
 Package pdftex.def Info: images/photo_pw_j52_2.jpg used on input line 172.
 (pdftex.def)             Requested size: 241.07481pt x 175.47794pt.
- [337 <./10/images/photo_pwc_pw123.jpg> <./10/images/photo_dash8.jpg> <./10/ima
+ [342 <./10/images/photo_pwc_pw123.jpg> <./10/images/photo_dash8.jpg> <./10/ima
 ges/photo_pw_j52_1.jpg> <./10/images/photo_pw_j52_2.jpg>]
 LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
 (Font)              scaled to size 10.0pt on input line 191.
@@ -3472,19 +3472,19 @@ Package pdftex.def Info: images/circuit_turbofan_twin_spool.png used on input l
 ine 203.
 (pdftex.def)             Requested size: 284.52756pt x 158.94307pt.
 LaTeX Font Info:    Font shape `T1/fxl/bx/n' in size <10> not available
-(Font)              Font shape `T1/fxl/b/n' tried instead on input line 221.
+(Font)              Font shape `T1/fxl/b/n' tried instead on input line 220.
 LaTeX Font Info:    Font shape `T1/fxl/b/n' will be
-(Font)              scaled to size 10.0pt on input line 221.
+(Font)              scaled to size 10.0pt on input line 220.
 
 <images/circuit_turboshaft_exercice.png, id=152, 494.15384pt x 443.50308pt>
 File: images/circuit_turboshaft_exercice.png Graphic file (type png)
 
 <use images/circuit_turboshaft_exercice.png>
 Package pdftex.def Info: images/circuit_turboshaft_exercice.png used on input l
-ine 245.
+ine 244.
 (pdftex.def)             Requested size: 341.43306pt x 306.45055pt.
- [338 <./10/images/cf6_cutaway.jpg> <./10/images/circuit_turbofan_twin_spool.pn
-g> <./10/images/circuit_turboshaft_exercice.png>] [339
+ [343 <./10/images/cf6_cutaway.jpg> <./10/images/circuit_turbofan_twin_spool.pn
+g> <./10/images/circuit_turboshaft_exercice.png>] [344
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -3524,47 +3524,53 @@ g> <./10/images/circuit_turboshaft_exercice.png>] [339
 File: images/exo_sol_ts_diesel.png Graphic file (type png)
 
 <use images/exo_sol_ts_diesel.png>
-Package pdftex.def Info: images/exo_sol_ts_diesel.png used on input line 272.
+Package pdftex.def Info: images/exo_sol_ts_diesel.png used on input line 271.
 (pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
 
-Overfull \hbox (2.59422pt too wide) in paragraph at lines 276--281
+Overfull \hbox (2.59422pt too wide) in paragraph at lines 275--280
 |   \T1/fxl/m/n/10 (-20) 5) Avec l'[][]4/36[][], $[] \U/ntxmia/m/it/10 = [][] =
  [][] =
  []
 
 
-Overfull \hbox (16.70038pt too wide) in paragraph at lines 287--288
+Overfull \hbox (16.70038pt too wide) in paragraph at lines 286--287
 |   \T1/fxl/m/n/10 (-20) 4) $[] \U/ntxmia/m/it/10 = \OMS/ntxsy/m/n/10 ^^@[] \OM
 L/nxlmi/m/it/10 ^^Q[] \T1/fxl/m/n/10 (-20) (\OML/nxlmi/m/it/10 w[] \T1/fxl/m/n/
 10 (-20) + \OML/nxlmi/m/it/10 w[]\T1/fxl/m/n/10 (-20) ) \U/ntxmia/m/it/10 =
  []
 
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 291.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 290.
 
 <images/exo_sol_ts_intercooler.png, id=208, 263.00319pt x 267.47351pt>
 File: images/exo_sol_ts_intercooler.png Graphic file (type png)
 
 <use images/exo_sol_ts_intercooler.png>
 Package pdftex.def Info: images/exo_sol_ts_intercooler.png used on input line 2
-96.
+95.
 (pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
 
-Overfull \hbox (11.92027pt too wide) in paragraph at lines 301--302
+Overfull \hbox (11.92027pt too wide) in paragraph at lines 300--301
 |   \T1/fxl/m/n/10 (-20) 7) $\OML/nxlmi/m/it/10 M[] \U/ntxmia/m/it/10 = [] []$\
 T1/fxl/m/n/10 (-20) , soit une aug-men-ta-tion de [][][];
  []
 
 
-Overfull \hbox (4.40807pt too wide) in paragraph at lines 302--303
+Overfull \hbox (4.40807pt too wide) in paragraph at lines 301--302
 |   \T1/fxl/m/n/10 (-20) 8) La puis-sance aug-mente de [][][], tan-dis que la c
 onsom-ma-tion aug-mente elle de [][][],
  []
 
-) [340
+) [345
 
 
- <./10/images/exo_sol_ts_diesel.png> <./10/images/exo_sol_ts_intercooler.png>])
+ <./10/images/exo_sol_ts_diesel.png> <./10/images/exo_sol_ts_intercooler.png>] 
+[346
+
+
+
+
+])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the amphibook.maf file.
@@ -3608,9 +3614,9 @@ Package logreq Info: Writing requests to 'amphibook.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
- 52663 strings out of 494957
- 911206 string characters out of 3179219
- 1256740 words of memory out of 3000000
+ 52664 strings out of 494957
+ 911233 string characters out of 3179219
+ 1254864 words of memory out of 3000000
  54109 multiletter control sequences out of 15000+200000
  612950 words of font info for 631 fonts, out of 3000000 for 9000
  64 hyphenation exceptions out of 8191
@@ -3689,10 +3695,10 @@ xfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr
 hare/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/newtx/txsy5.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/newtx/txsy7.pfb>
-Output written on amphibook.pdf (6 pages, 2640921 bytes).
+Output written on amphibook.pdf (7 pages, 2641722 bytes).
 PDF statistics:
- 297 PDF objects out of 1000 (max. 8388607)
- 255 compressed objects within 3 object streams
- 80 named destinations out of 1000 (max. 500000)
+ 305 PDF objects out of 1000 (max. 8388607)
+ 262 compressed objects within 3 object streams
+ 81 named destinations out of 1000 (max. 500000)
  97883 words of extra memory for PDF output out of 106986 (max. 10000000)
 
