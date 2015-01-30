@@ -23,7 +23,7 @@
 		\makebox(18,5){\color{gray}\scalebox{2}{«}}
 		M. S. Carnot, évitant l’emploi de l’analyse mathématique, arrive par une série de raisonnemens délicats et difficiles à saisir, à des résultats qui se déduisent sans peine d’une loi plus générale, que je vais chercher à établir.
 		\thermoquoteend{Émile Clapeyron, 1834~\cite{clapeyron1834}}{}
-		Nous appellerons \vocab{gaz parfait} un fluide à l’état gazeux dont le multiple de la pression et du volume, $p v$, reste proportionnel à sa température. La constante de proportionnalité est nommée \vocab{constante du gaz}, et notée $R$ ; elle dépend de la nature du~gaz.
+		Nous appellerons \vocab{gaz parfait} (ou \vocab{gaz idéal}) un fluide à l’état gazeux dont le multiple de la pression et du volume, $p v$, reste proportionnel à sa température. La constante de proportionnalité est nommée \vocab{constante du gaz}, et notée $R$ ; elle dépend de la nature du~gaz.
 		\begin{equation}
 			p v = R T
 			\label{eq_pv=RT}
@@ -46,7 +46,8 @@
 			\item et \tab $m$ \tab la masse de gaz considérée (\si{\kilogram}).
 		\end{equationterms}
 		
-		Parce qu’elle est indissociable du concept de température absolue, il a fallu 150 ans pour que cette équation prenne sa forme définitive : celle que lui a donnée \wf{Émile Clapeyron} en 1834~\cite{clapeyron1834}.
+		Il est aussi possible d’exprimer l’\cref{eq_pV=mRT} en fonction de la quantité de matière en \si{moles}.\footnote{Dans les ouvrages tels que celui d’Alexandre Watzky~\cite{watzky2007}, la constante en \si{\joule\per\kelvin\per\kilogram} est notée $r$. La grandeur notée $R = \SI{8,3143}{\joule\per\kelvin\per\mole}$ est universelle, et les gaz adoptent des valeurs de $r$ différentes en fonction de leur masse molaire $M \equiv \frac{m}{n}$. Dans le présent ouvrage, nous ne quantifions pas les quantités de matière.}
+		 Parce qu’elle est indissociable du concept de température absolue, il a fallu 150 ans pour que cette équation prenne sa forme définitive : celle que lui a donnée \wf{Émile Clapeyron} en 1834~\cite{clapeyron1834}.
 
 			\begin{anexample}
 				Une masse de~\SI{2}{\kilogram} de gaz dont la constante est $R = \SI{100}{\joule\per\kelvin\per\kilogram}$ est contenue dans un réservoir de~\SI{200}{\liter} à pression de~\SI{3}{\bar}. Quelle est sa température ?
@@ -62,7 +63,7 @@
 				\begin{answer}
 					Nous partons de l’\cref{eq_pv=RT} pour exprimer le volume spécifique : $v = \frac{R \ T}{p} = \frac{\num{287} \times (\num{20} + \num{273,15})}{\num{1e5}} = \SI{0,841}{\metre\cubed\per\kilogram}$. La masse volumique suit simplement : $\rho = \frac{1}{v} = \SI{1,189}{\kilogram\per\metre\cubed}$.
 				\end{answer}
-					\begin{remark}Là encore, une erreur dans les unités de température serait fatale (on s’en convaincra en prenant $T = \SI{0}{\degreeCelsius}$)\end{remark}
+					\begin{remark}Là encore, une erreur dans les unités de température serait fatale (on s’en convaincra en prenant $T = \SI{0}{\degreeCelsius}$).\end{remark}
 					\begin{remark}Dans un mètre cube nous n’avons que \SI{1,2}{\kilogram} d’air. C’est très peu, surtout si l’on compare à l’eau liquide (\SI{1000}{\kilogram} pour le même volume). Les machines à air fonctionnent usuellement avec des débits volumiques importants.\end{remark}
 			\end{anexample}
 
