@@ -168,7 +168,7 @@
 
 % Control spacing above figures
 \setlength{\textfloatsep}{20pt plus 2pt minus 2pt} 	% flottaisons placées par LaTeX
-\setlength{\intextsep}{15pt plus 0pt minus 0pt}			% flottaisons plaquées avec [h]
+\setlength{\intextsep}{20pt plus 2pt minus 2pt}			% flottaisons plaquées avec [h]
 \setlength{\dbltextfloatsep}{20pt plus 2pt minus 2pt}	% flottaisons placées par LaTeX en twocolumn
 
 % Make figure placement less strict with regards to text
@@ -374,6 +374,7 @@
 
 % Custom command to *not* break page. Simply type \dontbreakpage  (used after each "introduction" section)
 \newcommand\dontbreakpage{\vspace{1em}\par\nobreak\@afterheading}
+\newcommand\puredontbreakpage{\par\nobreak\@afterheading}
 
 % "diff" symbol in math equations
 \newcommand{\diff}{\,\mathrm{d}}
@@ -485,7 +486,7 @@
 \newcommand{\thermoquoteend}[2]{\nolinebreak\makebox(18,5){\color{gray}\scalebox{2}{»}}\par\vspace{-0.3cm}\begin{flushright}#1\\#2\vspace{-2em}\end{flushright}\end{spacing}\end{wrapfigure}}
 
 % Custom style for equation terms description
-\newenvironment{equationterms}{\dontbreakpage\begin{itemize}\itemsep-4pt \parskip0pt \parsep0pt \renewcommand{\labelitemi}{} \renewcommand{\labelitemii}{} \TabPositions{1.3em,2.6em,3em,3.5em,4em,4.5em,5em,5.5em,6em,6.5em,7em,7.5em,8em,8.5em,
+\newenvironment{equationterms}{\puredontbreakpage\begin{itemize}\itemsep-4pt \parskip0pt \parsep0pt \renewcommand{\labelitemi}{} \renewcommand{\labelitemii}{} \TabPositions{1.3em,2.6em,3em,3.5em,4em,4.5em,5em,5.5em,6em,6.5em,7em,7.5em,8em,8.5em,
 9em,9.5em,10em,10.5em,11em,11.5em,12em,12.5em,13em,13.5em,14em,14.5em,15em,15.5em,16em,16.5em,17em,17.5em,18em,18.5em,
 19em,19.5em,20em,20.5em,21em,21.5em,22em,22.5em,23em,23.5em,24em,24.5em,25em}}{\end{itemize}}
 

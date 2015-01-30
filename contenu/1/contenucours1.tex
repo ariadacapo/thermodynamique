@@ -283,7 +283,7 @@
 						\begin{remark} Les ressorts possédant une telle caractéristique (indépendante de leur longueur) sont souvent des ressorts en ruban, comme ceux alimentant les montres mécaniques. \end{remark}
 				\end{answer}
 		\end{anexample}
-
+		
 		\begin{anexample}
 			Un autre ressort est comprimé depuis une longueur de~\SI{30}{\centi\metre} jusqu’à une longueur de~\SI{5}{\centi\metre}. Il est tel qu’il exerce une force (en \si{\newton}) liée à sa longueur $l$ (en~\si{\metre}) par la relation :
 				\begin{equation*}
@@ -297,7 +297,7 @@
 						\begin{remark} Les ressorts possédant une telle caractéristique (force proportionnelle à la distance) sont souvent à spires régulières. \end{remark}
 				\end{answer}
 		\end{anexample}
-
+		
 		\begin{anexample}
 			Un autre ressort est comprimé depuis une longueur de~\SI{30}{\centi\metre} jusqu’à une longueur de~\SI{5}{\centi\metre}. Il est tel qu’il exerce une force (en~\si{\newton}) liée à sa longueur $l$ (en~\si{\metre}) par la relation :
 				\begin{equation*}
@@ -312,7 +312,7 @@
 				\end{answer}
 		\end{anexample}
 
-
+		\onlyframabook{\clearpage}%handmade, sinon le dernier exemple passe à la page au dessous
 
 \section{La chaleur}
 
@@ -344,34 +344,34 @@
 		\renewcommand{\tabcolsep}{0.8em}
 		\renewcommand{\arraystretch}{1.3}
 		\sisetup{table-number-alignment=center-decimal-marker} %in this table, we don’t care about alignment
-		\begin{footnotesize}
+		\begin{scriptsize}
 		\begin{spacing}{1}
 		\begin{innersidebox}
-		\begin{tabularx}{15.5cm}{@{}S@{}S|p{8.5cm}@{}} % the @{something} kills the inter-column space and replaces it with "something"
+		\begin{tabularx}{\textwidth}{@{}S@{}S|p{8cm}@{}} % the @{something} kills the inter-column space and replaces it with "something"
 % last column width has to be set manually ; will break if margins change.
 % L column in tabulary solves this but tabulary precludes using arydshln
 			\toprule
 			{\si{kelvins}} & {\si{degrés} \si{Celsius}} & ~ 	\\ % accolades allow escaping from the S column number alignment rules
 			\midrule
 			0		& -273,15	&	Zéro absolu (par définition) \\
-			10e-11	& -273.1499999999	& Température la plus basse jamais atteinte (quelques particules seulement) \\
+			e-10	& -273.1499999999	& Température la plus basse jamais atteinte\\ & & (quelques particules seulement) \\
 			4,22	& -268,93	& Ébullition de l’hélium à pression atmosphérique \\
-			44	& -229		& Température moyenne de la surface de Pluton* \\
-			184	& -89,4		& Température atmosphérique minimale enregistrée sur Terre* \\
-			273,15	& 0		& Fonte de l’eau à pression atmosphérique \\
+			44		& -229	& Température moyenne de la surface de Pluton* \\
+			184	& -89,4	& Température atmosphérique minimale enregistrée sur Terre* \\
+			273,15	& 0	& Fonte de l’eau à pression atmosphérique \\
 			327	& 54		& Température atmosphérique maximale enregistrée sur Terre* \\
-			373,15	& 100		& Ébullition de l’eau à pression atmosphérique \\
+			373,15	& 100	& Ébullition de l’eau à pression atmosphérique \\
 			400	& 127		& Température du nez d’un Concorde en croisière* \\
 			483	& 200		& Four domestique ordinaire* \\
 			485	& 210		& Auto-inflammation du carburant diesel* \\
-			753	& 480		& Température des bords d’attaque d’un \wfd{Lockheed SR-71 Blackbird}{\textsc{sr}-71} en croisière* \\
+			753	& 480		& Bords d’attaque d’un \wfd{Lockheed SR-71 Blackbird}{\textsc{sr}-71} en croisière* \\
 			1100	& 830		& Feu de bois* \\
-			1900	& 1600		& Température du bouclier d’une navette spatiale en rentrée atmosphérique* \\
+			1900	& 1600	& Bouclier d’une navette spatiale en rentrée atmosphérique* \\
 			2500	& ~		& Filament d’une lampe à incandescence \\
 			5000	& ~		& Fonte du diamant (à~\SI{12}{\giga\pascal}) \\
 			5800	& ~		& Surface du soleil \\
 			16e6	& ~		& Centre du soleil \\
-			350e6	& ~		& Au sein de la déflagration d’une arme nucléaire \\
+			3e9	& ~		& Au sein de la déflagration d’une arme nucléaire \\
 			3e9	& ~		& Cœur d’une grosse étoile à son dernier jour \\
 			1e12	& ~		& Particules en collision au sein du RHIC \\
 			1.417e32	& ~	& L’univers \SI{5,391e-44}{\second} après le Big Bang \\
@@ -379,8 +379,8 @@
 		\end{tabularx}
 		\end{innersidebox}
 		\end{spacing}
-		\end{footnotesize}
-		\caption{Quelques exemples de températures. Les astérisques dénotent une conversion approximative (liée à la précision des valeurs).}
+		\end{scriptsize}
+		\caption{Quelques exemples de températures. Les valeurs les moins précises, dénotées par un astérisque, sont converties approximativement.}
 		\sisetup{table-number-alignment=center} % back to setting specified in our stylesheet
 		\label{tab_temperatures}
 		\end{table}
@@ -394,7 +394,7 @@
 		%\thermoquotebegin{O}
 		\makebox(18,5){\color{gray}\scalebox{2}{«}}
 			Ces circonstances […] nécessitent une comparaison entre travail et chaleur, qu’il nous faut effectuer en partant de l’hypothèse divergente que la production de travail est due non seulement à un changement dans la \emph{distribution} de la chaleur, mais aussi à une \emph{consommation} de celle-ci ; et inversément, que par la consommation de travail la chaleur puisse être \emph{produite}.
-		\thermoquoteend{Rudolf Clausius, 1850}{\textit{Über die bewegende Kraft der Wärme und die Gesetze, welche sich daraus für die Wärmelehre selbst ableiten lassen} \mbox{\cite{clausius1850, clausius1850en, clausius1868fr1}}}
+		\thermoquoteend{Rudolf Clausius, 1850}{\textit{Über die bewegende Kraft der Wärme und die Gesetze, welche sich daraus für die Wärmelehre selbst ableiten lassen} \mbox{\cite{clausius1850, clausius1850en, clausius1868fr1}}\onlyframabook{\vspace{-1cm}}}%handmade
 
 		Lorsque l’on met deux corps de températures différentes en contact, leurs températures ont tendance à s’égaliser au cours d’un transfert spontané d’énergie. Nous appelons cette forme d’énergie la \vocab{chaleur}.
 
@@ -486,15 +486,21 @@
 		\end{figure}
 			
 			\item \textit{Le froid} --- Pour nous, la sensation de «~froid~» indique une faible température. Nous ne considérerons pas «~le froid~» comme étant quelque chose que l’on peut fabriquer ni mesurer. Nous dirons plutôt que nous prélevons de la chaleur d’un corps (par exemple, un réfrigérateur prend de la chaleur à un aliment tiède).
-			
-			\item \textit{Le feu} --- Le feu est le nom donné au dégagement de lumière (rayonnement électromagnétique) par un gaz à haute température. En thermodynamique, le «~feu~» n’a aucune propriété particulière. Il s’agit pour nous de la même chaleur qu’elle soit dégagée par combustion de bois, de kérosène, par frottement dans un frein, ou par une réaction nucléaire. Seule compte au final la température à laquelle elle est transmise !
-			\end{description}
+			\onlyframabook{\end{description}%handmade -- hack pourri pour faire tenir la citation sur le côté + elle est un item trop haut dans le framambook.
 
 				\thermoquotebegin{o}
 					Le principe à suivre pour construire une échelle de température peut tout d’abord paraître évident, puisqu’il peut apparaître qu’un thermomètre parfait ferait correspondre des ajouts de chaleur égaux à des élévations égales de température, mesurées par les graduations de son échelle. Il est toutefois désormais reconnu comme fait établi par l’expérience (par la variation des capacités calorifiques des corps) que la thermométrie sous ce précepte est impossible, et nous n’avons plus de principe sur lequel fonder une échelle thermométrique absolue.
 				\thermoquoteend{William Thomson\\{\tiny(non encore couronné \textit{Baron Kelvin}…)}}{1848~\cite{kelvin1848}\vspace{2em}} %handmade vspace
-				\vspace{-0.7em}~\vspace{-1.8em}%FIXME -- hack pour faire tenir la citation sur le côté
-			\begin{description}
+				\vspace{-0.7em}~\vspace{-1.8em}
+			\begin{description}}%fin onlyframabook
+			\item \textit{Le feu} --- Le feu est le nom donné au dégagement de lumière (rayonnement électromagnétique) par un gaz à haute température. En thermodynamique, le «~feu~» n’a aucune propriété particulière. Il s’agit pour nous de la même chaleur qu’elle soit dégagée par combustion de bois, de kérosène, par frottement dans un frein, ou par une réaction nucléaire. Seule compte au final la température à laquelle elle est transmise !
+			\onlyamphibook{\end{description}%handmade -- hack pourri pour faire tenir la citation sur le côté. Mais au moins dans l’amphibook elle est au bon endroit
+
+				\thermoquotebegin{o}
+					Le principe à suivre pour construire une échelle de température peut tout d’abord paraître évident, puisqu’il peut apparaître qu’un thermomètre parfait ferait correspondre des ajouts de chaleur égaux à des élévations égales de température, mesurées par les graduations de son échelle. Il est toutefois désormais reconnu comme fait établi par l’expérience (par la variation des capacités calorifiques des corps) que la thermométrie sous ce précepte est impossible, et nous n’avons plus de principe sur lequel fonder une échelle thermométrique absolue.
+				\thermoquoteend{William Thomson\\{\tiny(non encore couronné \textit{Baron Kelvin}…)}}{1848~\cite{kelvin1848}\vspace{2em}} %handmade vspace
+				\vspace{-0.7em}~\vspace{-1.8em}
+			\begin{description}}%fin onlyamphibook
 			\item \textit{Le thermomètre} --- Nous laissons à l’étudiant/e le loisir d’explorer le fonctionnement des \vocab{thermomètres} : comment peut-on \emph{savoir} dans l’absolu qu’une température est haute ou basse ?\\
 				Nous nous contentons de remarquer que nous sommes nous-mêmes de très mauvais thermomètres : comme le corps humain s’efforce de se maintenir à température constante, nos sensations de «~chaud~» ou de «~froid~» sont intrinsèquement liées aux transferts de chaleur.
 
