@@ -113,7 +113,7 @@
 				\end{answer}
 			
 			Une fois que le refroidissement est effectué, on laisse l’air se détendre brutalement : la détente est irréversible. Pendant celle-ci, on ne fournit que \SI{1000}{\joule} sous forme de chaleur et on ne récupère que \SI{1000}{\joule} sous forme de travail. À la fin de la détente, le gaz est dans le même état (mêmes température, pression, et énergie interne) qu’au tout début de l’expérience. Quelle est la variation d’entropie ?
-				\begin{answer} Cette fois, l’évolution n’est pas réversible. Nous ne devons pas tenir compte de la chaleur qui est effectivement échangée, mais de la chaleur \emph{qui aurait été échangée} dans une évolution réversible qui mènerait au même état final.
+				\begin{answer} Cette fois, l’évolution n’est pas réversible. Nous ne devons pas tenir compte de la chaleur qui est effectivement transférée, mais de la chaleur \emph{qui aurait été transférée} dans une évolution réversible qui mènerait au même état final.
 				
 				Heureusement, nous savons que le gaz retourne de B à son état initial A ; or de A à B l’évolution était réversible. En effectuant l’évolution exactement inverse, nous inverserions tous les transferts de chaleur et de travail. Nous aurions alors, le long de cette évolution imaginaire de B vers A : $\Delta S = S_A - S_B
 					= \int_\B^\A \left( \frac{\diff Q}{T} \right)_\text{rév.}
@@ -121,7 +121,7 @@
 					= -(S_B - S_A)
 					= \SI{+6,6}{\joule\per\kelvin}$.
 						\begin{remark}Le $\Delta S$ correspond à la variation réelle de l’entropie ; mais il est calculé le long d’un chemin imaginaire.\end{remark}
-						\begin{remark} Ici nous voyons que la chaleur transférée en réalité n’a pas d’importance. C’est la chaleur «~qu’il aurait fallu échanger~» qui nous intéresse.\end{remark}
+						\begin{remark} Ici nous voyons que la chaleur transférée en réalité n’a pas d’importance. C’est la chaleur «~qu’il aurait fallu transférer~» qui nous intéresse.\end{remark}
 						\begin{remark} Ici, pour simplifier l’exercice, le gaz retourne exactement à son état originel A. S’il arrivait à un état différent, nous pourrions tout de même calculer la variation d’entropie, comme nous apprendrons à le faire en section \S\ref{ch_delta_s_gaz_parfaits}.\end{remark}
 						\begin{remark}Dans cette évolution irréversible de B à A, c’est la différence entre $\int_\B^\A \left( \frac{\diff Q}{T} \right)_\text{rév.} = \SI{+6,6}{\joule\per\kelvin}$ et $\int_\B^\A \left( \frac{\diff Q}{T} \right)_\text{réel} = \frac{\num{+1000}}{\num{30}+\num{273,15}} =  \SI{+3,3}{\joule\per\kelvin}$ qui va nous permettre de mesurer l’irréversibilité, c’est-à-dire de montrer qu’avec un transfert de~\SI{1}{\kilo\joule} on peut aller de B à A mais pas de A à B.\end{remark}
 				\end{answer}
@@ -513,7 +513,7 @@
 		\end{figure}
 
 
-		Si nous supposons que la température du corps A est homogène\footnote{Cette «~supposition~» est parfaitement valide dans le cas où $\diff q$ est infiniment petit. Une intégration permettrait de prendre en compte la variation de température de A au cours de l’échange de chaleur, et le raisonnement ne serait pas modifié.},	sa perte de chaleur se fait de façon réversible. Ainsi la variation d’entropie de A est :
+		Si nous supposons que la température du corps A est homogène\footnote{Cette «~supposition~» est parfaitement valide dans le cas où $\diff q$ est infiniment petit. Une intégration permettrait de prendre en compte la variation de température de A au cours du transfert de chaleur, et le raisonnement ne serait pas modifié.},	sa perte de chaleur se fait de façon réversible. Ainsi la variation d’entropie de A est :
 		\begin{equation*}
 			\diff s_\A = - \frac{\diff q}{T_\A}
 		\end{equation*}
@@ -576,9 +576,9 @@
 		Nous avons admis au \courssept que la chaleur ne se déplaçait spontanément que vers une température plus basse --\ un postulat que nous nommons \textit{second principe}. Nous pouvons maintenant formuler cette affirmation avec une expression mathématique.
 	
 		\begin{description}
-			\item[Lors d’un échange de chaleur] d’un corps à température $T_A$ vers un autre à température $T_B$, la variation globale d’entropie $\Delta s = \frac{-q}{T_\A} + \frac{q}{T_\B }$ est nécessairement nulle ou positive car $T_A$ est nécessairement égale ou supérieure à $T_B$.
+			\item[Lors d’un transfert de chaleur] d’un corps à température $T_A$ vers un autre à température $T_B$, la variation globale d’entropie $\Delta s = \frac{-q}{T_\A} + \frac{q}{T_\B }$ est nécessairement nulle ou positive car $T_A$ est nécessairement égale ou supérieure à $T_B$.
 			
-			\item[Lors d’un échange de travail] toute irréversibilité donne lieu à une température finale plus haute qu’elle n’aurait pu l’être (cf. \S\ref{ch_évolutions_irr_sf}). L’obtention du même état final avec un chemin réversible demande donc un apport de chaleur, c’est-à-dire un terme $\int \left(\frac{\diff Q}{T}\right)_\text{rév.}$ positif. Une irréversibilité se traduit donc par une augmentation de l’entropie globale.
+			\item[Lors d’un transfert de travail] toute irréversibilité donne lieu à une température finale plus haute qu’elle n’aurait pu l’être (cf. \S\ref{ch_évolutions_irr_sf}). L’obtention du même état final avec un chemin réversible demande donc un apport de chaleur, c’est-à-dire un terme $\int \left(\frac{\diff Q}{T}\right)_\text{rév.}$ positif. Une irréversibilité se traduit donc par une augmentation de l’entropie globale.
 			
 		\end{description}
 
@@ -668,7 +668,7 @@
 		Nous avons vu que l’entropie, de la même façon que l’énergie, est un concept dont la quantification des variations permet de déterminer les transformations qui sont \emph{possibles}. Il s’agit donc fondamentalement d’un concept de physicien/ne. Pour l’ingénieur/e, l’entropie est :
 		\begin{itemize}
 			\item «~ce qui ne varie pas lorsque l’on comprime et détend les fluides de façon idéale~». Ainsi la quantification de $\Delta s$ nous permet de quantifier les propriétés que devrait avoir un fluide à la sortie d’un compresseur ou d’une turbine ;
-			\item «~ce qui ne varie pas lorsque l’on transfère de la chaleur à l’intérieur d’un système de façon idéale~». Ainsi la quantification de $\Delta s$ nous permet de calculer l’irréversibilité qui a lieu lors des échanges de chaleur.
+			\item «~ce qui ne varie pas lorsque l’on transfère de la chaleur à l’intérieur d’un système de façon idéale~». Ainsi la quantification de $\Delta s$ nous permet de calculer l’irréversibilité qui a lieu lors des transferts de chaleur.
 		\end{itemize}
 
 	À chaque fois que nous donnons lieu à une augmentation de l’entropie globale, il nous faut au final effectuer un rejet de chaleur indésirable. Ainsi, ces quantifications de $\Delta s$ nous permettent de mesurer la qualité des détentes, compressions, refroidissements et réchauffements que nous effectuons avec les fluides dans nos machines.
