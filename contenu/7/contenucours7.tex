@@ -264,7 +264,7 @@
 
 			%renewing bullet as an image at every \item. Quite a lousy hack, no doubt.
 			\renewcommand\labelitemi{\includegraphics[width=3cm]{images/illustration_adiabatique.png}}
-			\onlyframabook{\setlength{\itemindent}{2.2cm}}
+			\onlyframabook{\setlength{\itemindent}{2.2cm}}%handmade
 			\renewcommand\itemsep{1cm}
 			\renewcommand\topsep{3cm}
 
@@ -326,6 +326,7 @@
 
 		\begin{figure}
 			\begin{center}
+				\onlyamphibook{\vspace{-3,5cm}}%handmade
 				\includegraphics[width=\linewidth]{images/moteur_carnot_so.png}
 			\end{center}
 			\supercaption{Les quatre étapes du moteur de Carnot, réalisées avec un débit de masse constant en les séparant dans l’espace. Ici encore, le cycle est tel que lorsque le sens de circulation est inversé (devenant $1 \to 4 \to 3 \to 2 \to 1$), les transferts sont exactement opposés.}{schéma \ccbysa \olivier}
