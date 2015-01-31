@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  30 JAN 2015 19:01
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  31 JAN 2015 09:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2860,16 +2860,16 @@ File: french.mld 2006/03/21
 
 
 Package hyperref Warning: Option `pdftex' has already been used,
-(hyperref)                setting the option has no effect on input line 396.
+(hyperref)                setting the option has no effect on input line 397.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 396.
+Package hyperref Info: Option `colorlinks' set `true' on input line 397.
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 396.
+(hyperref)                setting the option has no effect on input line 397.
 
-Package hyperref Info: Option `unicode' set `false' on input line 396.
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 396.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 396.
+Package hyperref Info: Option `unicode' set `false' on input line 397.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 397.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 397.
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/hypcap.sty
 Package: hypcap 2011/02/16 v1.11 Adjusting the anchors of captions (HO)
 ) (./a/steer.tex)
@@ -2887,11 +2887,8 @@ Package biblatex Warning: 'babel' detected but 'csquotes' missing.
 (./amphibook.aux (./a/frame_beginningstuff.aux) (./0/chapitre_intro.aux)
 (./1/chapitre_1.aux) (./1/exercices_chapitre_1.aux) (./2/chapitre_2.aux)
 (./2/exercices_chapitre_2.aux) (./3/chapitre_3.aux)
-(./3/exercices_chapitre_3.aux) (./4/chapitre_4.aux
-
-LaTeX Warning: Label `1' multiply defined.
-
-) (./4/exercices_chapitre_4.aux) (./5/chapitre_5.aux
+(./3/exercices_chapitre_3.aux) (./4/chapitre_4.aux)
+(./4/exercices_chapitre_4.aux) (./5/chapitre_5.aux
 
 LaTeX Warning: Label `1' multiply defined.
 
@@ -3357,7 +3354,7 @@ Overfull \hbox (14.56143pt too wide) in paragraph at lines 59--60
 [][]; 
  []
 
-[340
+[338
 
 
 
@@ -3438,7 +3435,7 @@ File: images/photo_dash8.jpg Graphic file (type jpg)
 <use images/photo_dash8.jpg>
 Package pdftex.def Info: images/photo_dash8.jpg used on input line 133.
 (pdftex.def)             Requested size: 241.07481pt x 160.64139pt.
- [341 <./10/images/photo_diesel_generateur.jpg> <./10/images/photo_diesel_propu
+ [339 <./10/images/photo_diesel_generateur.jpg> <./10/images/photo_diesel_propu
 lsion.jpg> <./10/images/circuit_turboprop.png>]
 <images/photo_pw_j52_1.jpg, id=117, 790.152pt x 355.3275pt>
 File: images/photo_pw_j52_1.jpg Graphic file (type jpg)
@@ -3453,7 +3450,7 @@ File: images/photo_pw_j52_2.jpg Graphic file (type jpg)
 <use images/photo_pw_j52_2.jpg>
 Package pdftex.def Info: images/photo_pw_j52_2.jpg used on input line 172.
 (pdftex.def)             Requested size: 241.07481pt x 175.47794pt.
- [342 <./10/images/photo_pwc_pw123.jpg> <./10/images/photo_dash8.jpg> <./10/ima
+ [340 <./10/images/photo_pwc_pw123.jpg> <./10/images/photo_dash8.jpg> <./10/ima
 ges/photo_pw_j52_1.jpg> <./10/images/photo_pw_j52_2.jpg>]
 LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
 (Font)              scaled to size 10.0pt on input line 191.
@@ -3483,8 +3480,8 @@ File: images/circuit_turboshaft_exercice.png Graphic file (type png)
 Package pdftex.def Info: images/circuit_turboshaft_exercice.png used on input l
 ine 244.
 (pdftex.def)             Requested size: 341.43306pt x 306.45055pt.
- [343 <./10/images/cf6_cutaway.jpg> <./10/images/circuit_turbofan_twin_spool.pn
-g> <./10/images/circuit_turboshaft_exercice.png>] [344
+ [341 <./10/images/cf6_cutaway.jpg> <./10/images/circuit_turbofan_twin_spool.pn
+g> <./10/images/circuit_turboshaft_exercice.png>] [342
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -3561,11 +3558,11 @@ Overfull \hbox (4.40807pt too wide) in paragraph at lines 301--302
 onsom-ma-tion aug-mente elle de [][][],
  []
 
-) [345
+) [343
 
 
  <./10/images/exo_sol_ts_diesel.png> <./10/images/exo_sol_ts_intercooler.png>] 
-[346
+[344
 
 
 
@@ -3614,10 +3611,10 @@ Package logreq Info: Writing requests to 'amphibook.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
- 52664 strings out of 494957
- 911233 string characters out of 3179219
- 1254864 words of memory out of 3000000
- 54109 multiletter control sequences out of 15000+200000
+ 52668 strings out of 494957
+ 911310 string characters out of 3179219
+ 1254944 words of memory out of 3000000
+ 54113 multiletter control sequences out of 15000+200000
  612950 words of font info for 631 fonts, out of 3000000 for 9000
  64 hyphenation exceptions out of 8191
  101i,20n,109p,1078b,1302s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3695,7 +3692,7 @@ xfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr
 hare/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/newtx/txsy5.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/newtx/txsy7.pfb>
-Output written on amphibook.pdf (7 pages, 2641722 bytes).
+Output written on amphibook.pdf (7 pages, 2641765 bytes).
 PDF statistics:
  305 PDF objects out of 1000 (max. 8388607)
  262 compressed objects within 3 object streams
