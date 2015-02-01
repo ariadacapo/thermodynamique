@@ -615,6 +615,30 @@
     \field{year}{1894}
   \endentry
 
+  \entry{diesel1903}{book}{}
+    \name{labelname}{1}{}{%
+      {{hash=ab54a423aeaa47fe86de5ac16538cad7}{Diesel}{D\bibinitperiod}{Rudolf\bibnamedelimb Christian\bibnamedelima Karl}{R\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=ab54a423aeaa47fe86de5ac16538cad7}{Diesel}{D\bibinitperiod}{Rudolf\bibnamedelimb Christian\bibnamedelima Karl}{R\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {german}%
+    }
+    \list{location}{1}{%
+      {Berlin}%
+    }
+    \list{publisher}{1}{%
+      {R. Oldenbourg}%
+    }
+    \strng{namehash}{ab54a423aeaa47fe86de5ac16538cad7}
+    \strng{fullhash}{ab54a423aeaa47fe86de5ac16538cad7}
+    \field{sortinit}{1}
+    \field{subtitle}{Natürliche wirtschaftliche Erlösung des Menschen}
+    \field{title}{Solidarismus}
+    \field{year}{1903}
+  \endentry
+
   \entry{stodola1904}{book}{}
     \name{labelname}{1}{}{%
       {{hash=18f0c58f8e8225820f16e0a556e2cc6a}{Stodola}{S\bibinitperiod}{Aurel\bibnamedelima Boreslav}{A\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
@@ -817,6 +841,30 @@
     \field{year}{1978}
   \endentry
 
+  \entry{grosser1978}{book}{}
+    \name{labelname}{1}{}{%
+      {{hash=d5287273c3f848d8fe507df00a48e953}{Grosser}{G\bibinitperiod}{Morton}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=d5287273c3f848d8fe507df00a48e953}{Grosser}{G\bibinitperiod}{Morton}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {english}%
+    }
+    \list{location}{1}{%
+      {New York, USA}%
+    }
+    \list{publisher}{1}{%
+      {Atheneum Books}%
+    }
+    \strng{namehash}{d5287273c3f848d8fe507df00a48e953}
+    \strng{fullhash}{d5287273c3f848d8fe507df00a48e953}
+    \field{sortinit}{1}
+    \field{isbn}{0689306520}
+    \field{title}{Diesel: The Man \& The Engine}
+    \field{year}{1978}
+  \endentry
+
   \entry{feynman1963fr}{book}{}
     \name{labelname}{3}{}{%
       {{hash=76c376c1c6574c7dad0b40422ddcb0af}{Feynman}{F\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
@@ -986,6 +1034,32 @@
     \field{year}{1996}
   \endentry
 
+  \entry{coltrane1997}{book}{}
+    \name{labelname}{2}{}{%
+      {{hash=b2053deef8a7ab52d73c7927e4d321ff}{Coltrane}{C\bibinitperiod}{Robbie}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=1eaf1a642dc5fc8ac392bb53dec27d69}{Binias}{B\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{hash=b2053deef8a7ab52d73c7927e4d321ff}{Coltrane}{C\bibinitperiod}{Robbie}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=1eaf1a642dc5fc8ac392bb53dec27d69}{Binias}{B\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {english}%
+    }
+    \list{location}{1}{%
+      {London, UK}%
+    }
+    \list{publisher}{1}{%
+      {Simon \& Schuster}%
+    }
+    \strng{namehash}{b2bb1e8fcea7856cbf4a01367021be37}
+    \strng{fullhash}{b2bb1e8fcea7856cbf4a01367021be37}
+    \field{sortinit}{1}
+    \field{isbn}{978-0684819570}
+    \field{title}{Coltrane’s Planes and Automobiles}
+    \field{year}{1997}
+  \endentry
+
   \entry{depondt2001}{book}{}
     \name{labelname}{1}{}{%
       {{hash=5bcd6471f194c1360ab292ed9469a7de}{Depondt}{D\bibinitperiod}{Philippe}{P\bibinitperiod}{}{}{}{}}%
@@ -1009,6 +1083,31 @@
     \field{subtitle}{Le roman de la thermodynamique}
     \field{title}{L’Entropie et tout ça}
     \field{year}{2001}
+  \endentry
+
+  \entry{bosch2005}{book}{}
+    \name{labelname}{1}{}{%
+      {{hash=2db3255070014f07cd58a70cea5679fa}{GmbH}{G\bibinitperiod}{Robert\bibnamedelima Bosch}{R\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=2db3255070014f07cd58a70cea5679fa}{GmbH}{G\bibinitperiod}{Robert\bibnamedelima Bosch}{R\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {english}%
+    }
+    \list{location}{1}{%
+      {Cambridge, USA}%
+    }
+    \list{publisher}{1}{%
+      {Bentley Publishers}%
+    }
+    \strng{namehash}{2db3255070014f07cd58a70cea5679fa}
+    \strng{fullhash}{2db3255070014f07cd58a70cea5679fa}
+    \field{sortinit}{2}
+    \field{edition}{5}
+    \field{isbn}{0837613531}
+    \field{title}{Diesel-Engine Management}
+    \field{year}{2005}
   \endentry
 
   \entry{lamouline2005}{book}{}
