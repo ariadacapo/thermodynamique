@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  1 FEB 2015 13:03
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  8 FEB 2015 15:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2892,20 +2892,8 @@ Package biblatex Warning: 'babel' detected but 'csquotes' missing.
 
 LaTeX Warning: Label `1' multiply defined.
 
-) (./5/exercices_chapitre_5.aux) (./6/chapitre_6.aux
-
-LaTeX Warning: Label `fig_cycle_deux_temps' multiply defined.
-
-
-LaTeX Warning: Label `fig_cycle_deux_temps@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig_cycle_deux_temps' multiply defined.
-
-
-LaTeX Warning: Label `fig_cycle_deux_temps@cref' multiply defined.
-
-) (./6/exercices_chapitre_6.aux) (./7/chapitre_7.aux)
+) (./5/exercices_chapitre_5.aux) (./6/chapitre_6.aux)
+(./6/exercices_chapitre_6.aux) (./7/chapitre_7.aux)
 (./7/exercices_chapitre_7.aux) (./8/chapitre_8.aux)
 (./8/exercices_chapitre_8.aux) (./9/chapitre_9.aux
 
@@ -2913,6 +2901,12 @@ LaTeX Warning: Label `fig_centrale_condenseur1' multiply defined.
 
 
 LaTeX Warning: Label `fig_centrale_condenseur1@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig_turbinia' multiply defined.
+
+
+LaTeX Warning: Label `fig_turbinia@cref' multiply defined.
 
 ) (./9/exercices_chapitre_9.aux) (./10/chapitre_10.aux)
 (./10/exercices_chapitre_10.aux
@@ -3274,8 +3268,6 @@ LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
 (Font)              scaled to size 10.0pt on input line 1.
 LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
 (Font)              scaled to size 17.28pt on input line 2.
-LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
-(Font)              scaled to size 6.49994pt on input line 2.
 LaTeX Font Info:    Font shape `T1/fxl/m/sc' will be
 (Font)              scaled to size 10.0pt on input line 2.
  (./10/contenuexercices10.tex
@@ -3356,7 +3348,7 @@ Overfull \hbox (14.56143pt too wide) in paragraph at lines 59--60
 [][]; 
  []
 
-[340
+[348
 
 
 
@@ -3437,7 +3429,7 @@ File: images/photo_dash8.jpg Graphic file (type jpg)
 <use images/photo_dash8.jpg>
 Package pdftex.def Info: images/photo_dash8.jpg used on input line 133.
 (pdftex.def)             Requested size: 241.07481pt x 160.64139pt.
- [341 <./10/images/photo_diesel_generateur.jpg> <./10/images/photo_diesel_propu
+ [349 <./10/images/photo_diesel_generateur.jpg> <./10/images/photo_diesel_propu
 lsion.jpg> <./10/images/circuit_turboprop.png>]
 <images/photo_pw_j52_1.jpg, id=117, 790.152pt x 355.3275pt>
 File: images/photo_pw_j52_1.jpg Graphic file (type jpg)
@@ -3452,7 +3444,7 @@ File: images/photo_pw_j52_2.jpg Graphic file (type jpg)
 <use images/photo_pw_j52_2.jpg>
 Package pdftex.def Info: images/photo_pw_j52_2.jpg used on input line 172.
 (pdftex.def)             Requested size: 241.07481pt x 175.47794pt.
- [342 <./10/images/photo_pwc_pw123.jpg> <./10/images/photo_dash8.jpg> <./10/ima
+ [350 <./10/images/photo_pwc_pw123.jpg> <./10/images/photo_dash8.jpg> <./10/ima
 ges/photo_pw_j52_1.jpg> <./10/images/photo_pw_j52_2.jpg>]
 LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
 (Font)              scaled to size 10.0pt on input line 191.
@@ -3482,8 +3474,8 @@ File: images/circuit_turboshaft_exercice.png Graphic file (type png)
 Package pdftex.def Info: images/circuit_turboshaft_exercice.png used on input l
 ine 244.
 (pdftex.def)             Requested size: 341.43306pt x 306.45055pt.
- [343 <./10/images/cf6_cutaway.jpg> <./10/images/circuit_turbofan_twin_spool.pn
-g> <./10/images/circuit_turboshaft_exercice.png>] [344
+ [351 <./10/images/cf6_cutaway.jpg> <./10/images/circuit_turbofan_twin_spool.pn
+g> <./10/images/circuit_turboshaft_exercice.png>] [352
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -3560,11 +3552,11 @@ Overfull \hbox (4.40807pt too wide) in paragraph at lines 301--302
 onsom-ma-tion aug-mente elle de [][][],
  []
 
-) [345
+) [353
 
 
  <./10/images/exo_sol_ts_diesel.png> <./10/images/exo_sol_ts_intercooler.png>] 
-[346
+[354
 
 
 
@@ -3613,11 +3605,11 @@ Package logreq Info: Writing requests to 'amphibook.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
- 52680 strings out of 494957
- 911522 string characters out of 3179219
- 1257021 words of memory out of 3000000
- 54121 multiletter control sequences out of 15000+200000
- 622724 words of font info for 635 fonts, out of 3000000 for 9000
+ 52707 strings out of 494957
+ 912204 string characters out of 3179219
+ 1259386 words of memory out of 3000000
+ 54152 multiletter control sequences out of 15000+200000
+ 612950 words of font info for 631 fonts, out of 3000000 for 9000
  64 hyphenation exceptions out of 8191
  101i,20n,109p,1078b,1302s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{anexamplecounter.10.2} has been referenced but do
@@ -3644,28 +3636,28 @@ pdfTeX warning (dest): name{subsection.10.3.5} has been referenced but does not
 pdfTeX warning (dest): name{subsection.10.3.4} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.241} has been referenced but does no
+pdfTeX warning (dest): name{figure.caption.251} has been referenced but does no
 t exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.240} has been referenced but does no
+pdfTeX warning (dest): name{figure.caption.250} has been referenced but does no
 t exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.239} has been referenced but does no
+pdfTeX warning (dest): name{figure.caption.249} has been referenced but does no
 t exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.238} has been referenced but does no
+pdfTeX warning (dest): name{figure.caption.248} has been referenced but does no
 t exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.236} has been referenced but does no
+pdfTeX warning (dest): name{figure.caption.246} has been referenced but does no
 t exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.237} has been referenced but does no
+pdfTeX warning (dest): name{figure.caption.247} has been referenced but does no
 t exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.235} has been referenced but does no
+pdfTeX warning (dest): name{figure.caption.245} has been referenced but does no
 t exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.234} has been referenced but does no
+pdfTeX warning (dest): name{figure.caption.244} has been referenced but does no
 t exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{figure.caption.24} has been referenced but does not
@@ -3694,10 +3686,10 @@ xfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr
 hare/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/newtx/txsy5.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/newtx/txsy7.pfb>
-Output written on amphibook.pdf (7 pages, 2641774 bytes).
+Output written on amphibook.pdf (7 pages, 2641776 bytes).
 PDF statistics:
  305 PDF objects out of 1000 (max. 8388607)
  262 compressed objects within 3 object streams
  81 named destinations out of 1000 (max. 500000)
- 98395 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 97883 words of extra memory for PDF output out of 106986 (max. 10000000)
 

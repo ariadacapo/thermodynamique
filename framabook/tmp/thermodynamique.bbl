@@ -28,9 +28,6 @@
       {{hash=aa2376f6d1182b85d301c5618ad81da9}{Lavoisier}{L\bibinitperiod}{Antoine\bibnamedelima Laurent}{A\bibinitperiod\bibinitdelim L\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
       {{hash=89d53934f74445510345bccd2ef21e58}{Laplace}{L\bibinitperiod}{Pierre-Simon}{P\bibinithyphendelim S\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
     }
-    \list{language}{1}{%
-      {french}%
-    }
     \list{publisher}{1}{%
       {Académie royale des sciences}%
     }
@@ -41,6 +38,30 @@
     \field{title}{Mémoire sur la chaleur}
     \field{year}{1780}
     \field{pages}{355\bibrangedash 408}
+  \endentry
+
+  \entry{black1807}{book}{}
+    \name{labelname}{1}{}{%
+      {{hash=594288de7a608de423aa44c8cb8558bc}{Black}{B\bibinitperiod}{Joseph}{J\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=594288de7a608de423aa44c8cb8558bc}{Black}{B\bibinitperiod}{Joseph}{J\bibinitperiod}{}{}{}{}}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=ae5c51dbc9c561361f824c9a21f1e371}{Robinson}{R\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {english}%
+    }
+    \list{publisher}{1}{%
+      {Mathew Carey}%
+    }
+    \strng{namehash}{594288de7a608de423aa44c8cb8558bc}
+    \strng{fullhash}{594288de7a608de423aa44c8cb8558bc}
+    \field{sortinit}{1}
+    \field{title}{Lectures on the Elements of Chemistry Delivered in the University of Edinburgh}
+    \field{volume}{1}
+    \field{year}{1807}
   \endentry
 
   \entry{gaylussac1807}{article}{}
@@ -75,9 +96,6 @@
     }
     \list{language}{1}{%
       {french}%
-    }
-    \list{location}{1}{%
-      {Paris, France}%
     }
     \list{publisher}{1}{%
       {Bachelier}%
@@ -120,9 +138,6 @@
     \list{language}{1}{%
       {french}%
     }
-    \list{location}{1}{%
-      {Paris, France}%
-    }
     \list{publisher}{1}{%
       {Bachelier}%
     }
@@ -143,9 +158,6 @@
     }
     \list{language}{1}{%
       {french}%
-    }
-    \list{location}{1}{%
-      {Paris, France}%
     }
     \list{publisher}{1}{%
       {Bachelier}%
@@ -434,9 +446,6 @@
     \list{language}{1}{%
       {french}%
     }
-    \list{location}{1}{%
-      {Paris, France}%
-    }
     \list{publisher}{1}{%
       {Eugène Lacroix}%
     }
@@ -470,9 +479,6 @@
     }
     \list{language}{1}{%
       {french}%
-    }
-    \list{location}{1}{%
-      {Paris, France}%
     }
     \list{publisher}{1}{%
       {Eugène Lacroix}%
@@ -508,9 +514,6 @@
     \list{language}{1}{%
       {french}%
     }
-    \list{location}{1}{%
-      {Paris, France}%
-    }
     \list{publisher}{1}{%
       {Eugène Lacroix}%
     }
@@ -545,9 +548,6 @@
     \list{language}{1}{%
       {french}%
     }
-    \list{location}{1}{%
-      {Paris, France}%
-    }
     \list{publisher}{1}{%
       {Eugène Lacroix}%
     }
@@ -573,9 +573,6 @@
     \list{language}{1}{%
       {german}%
     }
-    \list{location}{1}{%
-      {Berlin, Allemagne}%
-    }
     \list{publisher}{1}{%
       {J. Springer}%
     }
@@ -599,10 +596,6 @@
     \list{language}{1}{%
       {english}%
     }
-    \list{location}{2}{%
-      {London, UK}%
-      {New York, USA}%
-    }
     \list{publisher}{1}{%
       {E. \& F. N. Spon}%
     }
@@ -625,9 +618,6 @@
     \list{language}{1}{%
       {german}%
     }
-    \list{location}{1}{%
-      {Berlin}%
-    }
     \list{publisher}{1}{%
       {R. Oldenbourg}%
     }
@@ -648,9 +638,6 @@
     }
     \list{language}{1}{%
       {german}%
-    }
-    \list{location}{1}{%
-      {Berlin, Allemagne}%
     }
     \list{publisher}{1}{%
       {Springer-Verlag GmbH}%
@@ -675,9 +662,6 @@
     }
     \list{language}{1}{%
       {english}%
-    }
-    \list{location}{1}{%
-      {London, UK}%
     }
     \list{publisher}{1}{%
       {Archibald Constable \& co. ltd.}%
@@ -704,9 +688,6 @@
     }
     \list{language}{1}{%
       {english}%
-    }
-    \list{location}{1}{%
-      {Holyoke, MA, USA}%
     }
     \list{publisher}{1}{%
       {Columbia Publications}%
@@ -737,9 +718,6 @@
     \list{language}{1}{%
       {english}%
     }
-    \list{location}{1}{%
-      {Reading, Mass., USA}%
-    }
     \list{publisher}{1}{%
       {Addison-Wesley Pub. Co}%
     }
@@ -769,9 +747,6 @@
     \list{language}{1}{%
       {english}%
     }
-    \list{location}{1}{%
-      {Reading, Mass., USA}%
-    }
     \list{publisher}{1}{%
       {Addison-Wesley Pub. Co}%
     }
@@ -796,9 +771,6 @@
     }
     \list{language}{1}{%
       {french}%
-    }
-    \list{location}{1}{%
-      {Paris, France}%
     }
     \list{publisher}{1}{%
       {Hermann}%
@@ -825,9 +797,6 @@
     \list{language}{1}{%
       {french}%
     }
-    \list{location}{1}{%
-      {Paris, France}%
-    }
     \list{publisher}{1}{%
       {Presses Pocket}%
     }
@@ -851,9 +820,6 @@
     \list{language}{1}{%
       {english}%
     }
-    \list{location}{1}{%
-      {New York, USA}%
-    }
     \list{publisher}{1}{%
       {Atheneum Books}%
     }
@@ -863,6 +829,28 @@
     \field{isbn}{0689306520}
     \field{title}{Diesel: The Man \& The Engine}
     \field{year}{1978}
+  \endentry
+
+  \entry{thomas1978}{article}{}
+    \name{labelname}{1}{}{%
+      {{hash=fe639ddd619fd25a2a368d6554208de0}{Thomas}{T\bibinitperiod}{Donald\bibnamedelima E.}{D\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{Jr}{J\bibinitperiod}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=fe639ddd619fd25a2a368d6554208de0}{Thomas}{T\bibinitperiod}{Donald\bibnamedelima E.}{D\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{Jr}{J\bibinitperiod}}%
+    }
+    \list{language}{1}{%
+      {english}%
+    }
+    \list{publisher}{1}{%
+      {Society for the History of Technology}%
+    }
+    \strng{namehash}{fe639ddd619fd25a2a368d6554208de0}
+    \strng{fullhash}{fe639ddd619fd25a2a368d6554208de0}
+    \field{sortinit}{1}
+    \field{journaltitle}{Technology and Culture}
+    \field{title}{Diesel, Father and Son: Social Philosophies of Technology}
+    \field{year}{1978}
+    \field{pages}{376\bibrangedash 393}
   \endentry
 
   \entry{feynman1963fr}{book}{}
@@ -881,9 +869,6 @@
     }
     \list{language}{1}{%
       {french}%
-    }
-    \list{location}{1}{%
-      {Paris, France}%
     }
     \list{publisher}{1}{%
       {InterEditions}%
@@ -915,9 +900,6 @@
     \list{language}{1}{%
       {english}%
     }
-    \list{location}{1}{%
-      {New York, USA}%
-    }
     \list{publisher}{1}{%
       {Springer-Verlag}%
     }
@@ -941,9 +923,6 @@
     }
     \list{language}{1}{%
       {english}%
-    }
-    \list{location}{1}{%
-      {Harlow, UK \& New York, USA}%
     }
     \list{publisher}{1}{%
       {Longman Scientific \& Technical Wiley}%
@@ -969,9 +948,6 @@
     }
     \list{language}{1}{%
       {english}%
-    }
-    \list{location}{1}{%
-      {Essex, UK}%
     }
     \list{publisher}{1}{%
       {Prentice Hall}%
@@ -1046,9 +1022,6 @@
     \list{language}{1}{%
       {english}%
     }
-    \list{location}{1}{%
-      {London, UK}%
-    }
     \list{publisher}{1}{%
       {Simon \& Schuster}%
     }
@@ -1060,6 +1033,29 @@
     \field{year}{1997}
   \endentry
 
+  \entry{darolles2000}{book}{}
+    \name{labelname}{1}{}{%
+      {{hash=d714a86937c20aeddce6303f0103932a}{Darolles}{D\bibinitperiod}{Jacques}{J\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=d714a86937c20aeddce6303f0103932a}{Darolles}{D\bibinitperiod}{Jacques}{J\bibinitperiod}{}{}{}{}}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=e9057ad92309f94ad85c4cc4f10de080}{Schmidt}{S\bibinitperiod}{Pauline}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {french}%
+    }
+    \strng{namehash}{d714a86937c20aeddce6303f0103932a}
+    \strng{fullhash}{d714a86937c20aeddce6303f0103932a}
+    \field{sortinit}{2}
+    \field{isbn}{2951781806}
+    \field{series}{Textes \& prétextes}
+    \field{subtitle}{Cyber-chroniques d’un copilote}
+    \field{title}{Le plus beau bureau du monde}
+    \field{year}{2000}
+  \endentry
+
   \entry{depondt2001}{book}{}
     \name{labelname}{1}{}{%
       {{hash=5bcd6471f194c1360ab292ed9469a7de}{Depondt}{D\bibinitperiod}{Philippe}{P\bibinitperiod}{}{}{}{}}%
@@ -1069,9 +1065,6 @@
     }
     \list{language}{1}{%
       {french}%
-    }
-    \list{location}{1}{%
-      {Paris, France}%
     }
     \list{publisher}{1}{%
       {Cassini}%
@@ -1095,9 +1088,6 @@
     \list{language}{1}{%
       {english}%
     }
-    \list{location}{1}{%
-      {Cambridge, USA}%
-    }
     \list{publisher}{1}{%
       {Bentley Publishers}%
     }
@@ -1120,9 +1110,6 @@
     \list{language}{1}{%
       {french}%
     }
-    \list{location}{1}{%
-      {Paris, France}%
-    }
     \list{publisher}{1}{%
       {Ellipses}%
     }
@@ -1131,6 +1118,28 @@
     \field{sortinit}{2}
     \field{isbn}{2729822682}
     \field{title}{Du thermomètre à la température}
+    \field{year}{2005}
+  \endentry
+
+  \entry{rollsroyce2005}{book}{}
+    \name{labelname}{1}{}{%
+      {{hash=6bd35826dac6d74d014bc8380a4c502a}{plc}{p\bibinitperiod}{Rolls-Royce}{R\bibinithyphendelim R\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=6bd35826dac6d74d014bc8380a4c502a}{plc}{p\bibinitperiod}{Rolls-Royce}{R\bibinithyphendelim R\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {english}%
+    }
+    \list{publisher}{1}{%
+      {Rolls-Royce plc}%
+    }
+    \strng{namehash}{6bd35826dac6d74d014bc8380a4c502a}
+    \strng{fullhash}{6bd35826dac6d74d014bc8380a4c502a}
+    \field{sortinit}{2}
+    \field{edition}{6}
+    \field{isbn}{0902121235}
+    \field{title}{The Jet Engine}
     \field{year}{2005}
   \endentry
 
@@ -1146,10 +1155,6 @@
     }
     \list{language}{1}{%
       {french}%
-    }
-    \list{location}{2}{%
-      {Bruxelles, Belgique}%
-      {Paris, France}%
     }
     \list{publisher}{1}{%
       {De Boeck}%
@@ -1174,9 +1179,6 @@
     }
     \list{language}{1}{%
       {english}%
-    }
-    \list{location}{1}{%
-      {New York, USA}%
     }
     \list{publisher}{1}{%
       {McGraw-Hill}%
@@ -1205,9 +1207,6 @@
     }
     \list{language}{1}{%
       {french}%
-    }
-    \list{location}{1}{%
-      {Montréal, Québec \& Bruxelles, Belgique}%
     }
     \list{publisher}{2}{%
       {Chenelière McGraw-Hill}%
