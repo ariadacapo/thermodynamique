@@ -101,6 +101,6 @@ echo "#"
 echo "...fini."
 
 # dans Gnome (et Unity), afficher une petite notification pour dire que c’est fini
-notify-send -i gnome-terminal "ouf" "Script de compilation terminé."
+notify-send -i gnome-terminal --hint int:transient:1 "ouf" "Script de compilation terminé."
 
 exit
