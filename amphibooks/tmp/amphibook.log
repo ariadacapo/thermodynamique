@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  8 FEB 2015 15:25
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  15 FEB 2015 15:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2860,16 +2860,16 @@ File: french.mld 2006/03/21
 
 
 Package hyperref Warning: Option `pdftex' has already been used,
-(hyperref)                setting the option has no effect on input line 397.
+(hyperref)                setting the option has no effect on input line 401.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 397.
+Package hyperref Info: Option `colorlinks' set `true' on input line 401.
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 397.
+(hyperref)                setting the option has no effect on input line 401.
 
-Package hyperref Info: Option `unicode' set `false' on input line 397.
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 397.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 397.
+Package hyperref Info: Option `unicode' set `false' on input line 401.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 401.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 401.
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/hypcap.sty
 Package: hypcap 2011/02/16 v1.11 Adjusting the anchors of captions (HO)
 ) (./a/steer.tex)
@@ -3348,7 +3348,7 @@ Overfull \hbox (14.56143pt too wide) in paragraph at lines 59--60
 [][]; 
  []
 
-[348
+[341
 
 
 
@@ -3375,15 +3375,14 @@ Overfull \hbox (14.56143pt too wide) in paragraph at lines 59--60
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}pdfTeX warning (ext4): desti
-nation with the same identifier (name{equation.10.7.12}) has been already used,
+nation with the same identifier (name{equation.10.8.12}) has been already used,
  duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.60 		\item l
-              e taux de compression $\epsilon \equiv \frac{V_\text{max.}}{V_...
- <./10/images/photo_continental_io-550.jpg> <./10/images/photo_sr22.jpg>]
-<images/photo_diesel_generateur.jpg, id=70, 803.0pt x 602.25pt>
+l.61 	\end{itemize}
+                    <./10/images/photo_continental_io-550.jpg> <./10/images/pho
+to_sr22.jpg>] <images/photo_diesel_generateur.jpg, id=70, 803.0pt x 602.25pt>
 File: images/photo_diesel_generateur.jpg Graphic file (type jpg)
 
 <use images/photo_diesel_generateur.jpg>
@@ -3400,7 +3399,7 @@ Package pdftex.def Info: images/photo_diesel_propulsion.jpg used on input line
 (pdftex.def)             Requested size: 250.95612pt x 188.21184pt.
 
 Underfull \hbox (badness 8038) in paragraph at lines 68--68
-[]\T1/fxl/m/sc/10.95 (+20) Figure \T1/fxl/m/n/10.95 (+20) 10.28 ^^U |Mo-teurs D
+[]\T1/fxl/m/sc/10.95 (+20) Figure \T1/fxl/m/n/10.95 (+20) 10.32 ^^U |Mo-teurs D
 ie-sel six cy-lindres
  []
 
@@ -3429,7 +3428,7 @@ File: images/photo_dash8.jpg Graphic file (type jpg)
 <use images/photo_dash8.jpg>
 Package pdftex.def Info: images/photo_dash8.jpg used on input line 133.
 (pdftex.def)             Requested size: 241.07481pt x 160.64139pt.
- [349 <./10/images/photo_diesel_generateur.jpg> <./10/images/photo_diesel_propu
+ [342 <./10/images/photo_diesel_generateur.jpg> <./10/images/photo_diesel_propu
 lsion.jpg> <./10/images/circuit_turboprop.png>]
 <images/photo_pw_j52_1.jpg, id=117, 790.152pt x 355.3275pt>
 File: images/photo_pw_j52_1.jpg Graphic file (type jpg)
@@ -3444,18 +3443,17 @@ File: images/photo_pw_j52_2.jpg Graphic file (type jpg)
 <use images/photo_pw_j52_2.jpg>
 Package pdftex.def Info: images/photo_pw_j52_2.jpg used on input line 172.
 (pdftex.def)             Requested size: 241.07481pt x 175.47794pt.
- [350 <./10/images/photo_pwc_pw123.jpg> <./10/images/photo_dash8.jpg> <./10/ima
-ges/photo_pw_j52_1.jpg> <./10/images/photo_pw_j52_2.jpg>]
 LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
 (Font)              scaled to size 10.0pt on input line 191.
- <images/cf6_cutaway.jpg, id=144, 690.58pt x 507.8975pt>
+
+<images/cf6_cutaway.jpg, id=127, 690.58pt x 507.8975pt>
 File: images/cf6_cutaway.jpg Graphic file (type jpg)
 
 <use images/cf6_cutaway.jpg>
 Package pdftex.def Info: images/cf6_cutaway.jpg used on input line 195.
 (pdftex.def)             Requested size: 284.52756pt x 209.26231pt.
 
-<images/circuit_turbofan_twin_spool.png, id=147, 595.9866pt x 332.9238pt>
+<images/circuit_turbofan_twin_spool.png, id=130, 595.9866pt x 332.9238pt>
 File: images/circuit_turbofan_twin_spool.png Graphic file (type png)
 
 <use images/circuit_turbofan_twin_spool.png>
@@ -3466,18 +3464,17 @@ LaTeX Font Info:    Font shape `T1/fxl/bx/n' in size <10> not available
 (Font)              Font shape `T1/fxl/b/n' tried instead on input line 220.
 LaTeX Font Info:    Font shape `T1/fxl/b/n' will be
 (Font)              scaled to size 10.0pt on input line 220.
-
-<images/circuit_turboshaft_exercice.png, id=152, 494.15384pt x 443.50308pt>
+ [343 <./10/images/photo_pwc_pw123.jpg> <./10/images/photo_dash8.jpg> <./10/ima
+ges/photo_pw_j52_1.jpg> <./10/images/photo_pw_j52_2.jpg>]
+<images/circuit_turboshaft_exercice.png, id=155, 494.15384pt x 443.50308pt>
 File: images/circuit_turboshaft_exercice.png Graphic file (type png)
 
 <use images/circuit_turboshaft_exercice.png>
 Package pdftex.def Info: images/circuit_turboshaft_exercice.png used on input l
 ine 244.
 (pdftex.def)             Requested size: 341.43306pt x 306.45055pt.
- [351 <./10/images/cf6_cutaway.jpg> <./10/images/circuit_turbofan_twin_spool.pn
-g> <./10/images/circuit_turboshaft_exercice.png>] [352
-
-]
+ [344 <./10/images/cf6_cutaway.jpg> <./10/images/circuit_turbofan_twin_spool.pn
+g> <./10/images/circuit_turboshaft_exercice.png>]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -3511,7 +3508,7 @@ g> <./10/images/circuit_turboshaft_exercice.png>] [352
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-<images/exo_sol_ts_diesel.png, id=193, 263.00319pt x 267.47351pt>
+<images/exo_sol_ts_diesel.png, id=187, 263.00319pt x 267.47351pt>
 File: images/exo_sol_ts_diesel.png Graphic file (type png)
 
 <use images/exo_sol_ts_diesel.png>
@@ -3533,7 +3530,7 @@ L/nxlmi/m/it/10 ^^Q[] \T1/fxl/m/n/10 (-20) (\OML/nxlmi/m/it/10 w[] \T1/fxl/m/n/
 
 LaTeX Warning: Command \textquoteright invalid in math mode on input line 290.
 
-<images/exo_sol_ts_intercooler.png, id=208, 263.00319pt x 267.47351pt>
+<images/exo_sol_ts_intercooler.png, id=202, 263.00319pt x 267.47351pt>
 File: images/exo_sol_ts_intercooler.png Graphic file (type png)
 
 <use images/exo_sol_ts_intercooler.png>
@@ -3552,11 +3549,11 @@ Overfull \hbox (4.40807pt too wide) in paragraph at lines 301--302
 onsom-ma-tion aug-mente elle de [][][],
  []
 
-) [353
+) [345
 
 
  <./10/images/exo_sol_ts_diesel.png> <./10/images/exo_sol_ts_intercooler.png>] 
-[354
+[346
 
 
 
@@ -3605,10 +3602,10 @@ Package logreq Info: Writing requests to 'amphibook.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
- 52707 strings out of 494957
- 912204 string characters out of 3179219
- 1259386 words of memory out of 3000000
- 54152 multiletter control sequences out of 15000+200000
+ 52726 strings out of 494957
+ 912599 string characters out of 3179219
+ 1260837 words of memory out of 3000000
+ 54172 multiletter control sequences out of 15000+200000
  612950 words of font info for 631 fonts, out of 3000000 for 9000
  64 hyphenation exceptions out of 8191
  101i,20n,109p,1078b,1302s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3636,28 +3633,28 @@ pdfTeX warning (dest): name{subsection.10.3.5} has been referenced but does not
 pdfTeX warning (dest): name{subsection.10.3.4} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.251} has been referenced but does no
+pdfTeX warning (dest): name{figure.caption.255} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.254} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.253} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.252} has been referenced but does no
 t exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{figure.caption.250} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.251} has been referenced but does no
 t exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{figure.caption.249} has been referenced but does no
 t exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{figure.caption.248} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.246} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.247} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.245} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.244} has been referenced but does no
 t exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{figure.caption.24} has been referenced but does not
@@ -3686,10 +3683,10 @@ xfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr
 hare/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/newtx/txsy5.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/newtx/txsy7.pfb>
-Output written on amphibook.pdf (7 pages, 2641776 bytes).
+Output written on amphibook.pdf (6 pages, 2639975 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
- 262 compressed objects within 3 object streams
- 81 named destinations out of 1000 (max. 500000)
+ 297 PDF objects out of 1000 (max. 8388607)
+ 255 compressed objects within 3 object streams
+ 80 named destinations out of 1000 (max. 500000)
  97883 words of extra memory for PDF output out of 106986 (max. 10000000)
 

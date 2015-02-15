@@ -1,16 +1,16 @@
 [0] Config.pm:300> INFO - This is Biber 0.9.9
-[1] Config.pm:303> INFO - Logfile is 'thermodynamique.blg'
-[1] biber:145> INFO - === Sun Feb  8, 2015, 15:20:34
+[0] Config.pm:303> INFO - Logfile is 'thermodynamique.blg'
+[1] biber:145> INFO - === Sun Feb 15, 2015, 15:00:50
 [1] Biber.pm:271> INFO - Reading 'thermodynamique.bcf'
-[23] Biber.pm:586> INFO - Found 48 citekeys in bib section 0
-[36] Biber.pm:2585> INFO - Processing bib section 0
-[59] Biber.pm:2677> INFO - Looking for bibtex format file 'annexes/thermobib.bib' for section 0
-[62] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
-[87] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
-[87] bibtex.pm:704> INFO - Found BibTeX data source 'annexes/thermobib.bib'
-[330] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
-[330] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
-[492] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
-[492] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
-[581] bbl.pm:427> INFO - Writing 'thermodynamique.bbl' with encoding 'UTF-8'
-[586] bbl.pm:498> INFO - Output to thermodynamique.bbl
+[23] Biber.pm:586> INFO - Found 49 citekeys in bib section 0
+[41] Biber.pm:2585> INFO - Processing bib section 0
+[75] Biber.pm:2677> INFO - Looking for bibtex format file 'annexes/thermobib.bib' for section 0
+[77] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
+[114] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
+[115] bibtex.pm:704> INFO - Found BibTeX data source 'annexes/thermobib.bib'
+[388] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
+[388] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
+[577] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
+[578] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
+[691] bbl.pm:427> INFO - Writing 'thermodynamique.bbl' with encoding 'UTF-8'
+[695] bbl.pm:498> INFO - Output to thermodynamique.bbl
