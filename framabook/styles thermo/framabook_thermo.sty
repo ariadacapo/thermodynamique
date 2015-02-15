@@ -166,10 +166,12 @@
 % Prevent pagebreaks at the start of lists
 \@beginparpenalty=10000
 
-% Control spacing above figures
-\setlength{\textfloatsep}{20pt plus 2pt minus 2pt} 	% flottaisons placées par LaTeX
-\setlength{\intextsep}{20pt plus 2pt minus 2pt}			% flottaisons plaquées avec [h]
-\setlength{\dbltextfloatsep}{20pt plus 2pt minus 2pt}	% flottaisons placées par LaTeX en twocolumn
+% Control spacing around figures
+\setlength{\textfloatsep}{20pt plus 2pt minus 2pt} 	% figure-texte, flottaisons placées par LaTeX
+\setlength{\intextsep}{20pt plus 2pt minus 2pt}			% figure-texte, flottaisons plaquées avec [h]
+\setlength{\floatsep}{20pt plus 2pt minus 2pt}			% espace entre 2 flottaisons placées ensemble (en haut ou en bas) par LaTeX
+\setlength{\dbltextfloatsep}{20pt plus 2pt minus 2pt}	% flottaisons traversant 2 colonnes en twocolumn
+\setlength{\belowcaptionskip}{-\baselineskip}			% espace entre le caption et la suite
 
 % Make figure placement less strict with regards to text
 \renewcommand{\topfraction}{.85}
