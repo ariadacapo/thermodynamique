@@ -252,7 +252,7 @@
 	
 		\onlyframabook{\thermoquotebegin{O}%handmade citation remontée d’un paragraphe dans le framabook, sinon la mise en page est cassée
 			M’étant assuré de ce fait important, que plus un espace est vide, et plus il s’en dégage de la chaleur lorsque l’air extérieur y pénètre, j’ai cherché à déterminer, par des expériences exactes, quelle relation il y avoit entre le calorique absorbé dans l’un des récipiens et celui dégagé dans l’autre, et comment ces variations de température dépendoient de celles de la variation de la densité de l’air.
-		\thermoquoteend{Louis Joseph Gay-Lussac, 1807~\cite{gaylussac1807}}{\vspace{1em}}} %handmade vspace
+		\thermoquoteend{Louis Joseph Gay-Lussac, 1807~\cite{gaylussac1807}}{\vspace{-1em}}} %handmade vspace
 	
 		Au tout début du \textsc{xix}\ieme siècle ont lieu les premiers travaux de recherche visant à explorer la notion de température. La communauté scientifique s’intéresse alors beaucoup aux gaz -- on s’aperçoit qu’il y a \emph{deux} manières de faire augmenter leur température : en les chauffant, mais aussi en les comprimant.
 		
@@ -265,9 +265,9 @@
 	\subsection{La loi de Joule}
 	\label{ch_principe_de_joule}
 
-		\thermoquotebegin{O}
+		\onlyamphibook{\thermoquotebegin{O}%handmade citation au bon endroit dans les amphibooks seulement
 			J’ai pris deux ballons à deux tubulures, chacun de douze litres de capacité. A l’une des tubulures de chaque ballon étoit adapté un robinet, et à l’autre un thermomètre à alcool très-sensible, dont les degrés centigrades pouvoient être facilement divisés en centièmes. \jecourte Le vide étant fait dans les deux ballons, et m’étant assuré qu’ils le retenoient exactement, je remplissois l’un d’eux avec le gaz sur lequel je voulois opérer. Environ douze heures après, j’établissois entre eux une communication au moyen d’un tuyau de plomb, et en ouvrant les robinets, le gaz se précipitoit alors dans le ballon vide jusqu’à ce que l’équilibre de pression fût rétablit de part et d’autre. Pendant ce tems, le thermomètre éprouvoit des variations que je notois avec soin.
-		\thermoquoteend{Louis Joseph Gay-Lussac, 1807~\cite{gaylussac1807}}{\vspace{-1em}} %handmade vspace
+		\thermoquoteend{Louis Joseph Gay-Lussac, 1807~\cite{gaylussac1807}}{\vspace{-1em}}} %handmade vspace
 		Dans leur expérience la plus remarquable, Joule et Gay-Lussac cherchent à faire varier la pression et le volume d’un gaz \textit{sans lui transférer de chaleur ou de travail}. Pour cela, ils laissent un gaz comprimé se détendre dans un second récipient vide (\cref{fig_detente_joule}). Le travail effectué est nul, car aucune surface n’a été déplacée – l’évolution est entièrement irréversible. La température est mesurée et… il ne se passe rien ! Joule et Gay-Lussac ne mesurent ni transferts de chaleur, ni variation de température.
 
 		\begin{figure}
@@ -283,6 +283,9 @@
 
 		Joule effectue une multitude d’expériences différentes au cours desquelles il observe que quel que soit le travail fourni, la relation entre énergie interne (qui ne varie qu’avec travail et chaleur) et température reste sensiblement la même --\ et il suggère que pour un gaz parfait, elle reste toujours identique.
 
+		\onlyframabook{\thermoquotetopbegin{O}%handmade citation au mauvais endroit dans le framabook seulement
+			J’ai pris deux ballons à deux tubulures, chacun de douze litres de capacité. A l’une des tubulures de chaque ballon étoit adapté un robinet, et à l’autre un thermomètre à alcool très-sensible, dont les degrés centigrades pouvoient être facilement divisés en centièmes. \jecourte Le vide étant fait dans les deux ballons, et m’étant assuré qu’ils le retenoient exactement, je remplissois l’un d’eux avec le gaz sur lequel je voulois opérer. Environ douze heures après, j’établissois entre eux une communication au moyen d’un tuyau de plomb, et en ouvrant les robinets, le gaz se précipitoit alors dans le ballon vide jusqu’à ce que l’équilibre de pression fût rétablit de part et d’autre. Pendant ce tems, le thermomètre éprouvoit des variations que je notois avec soin.
+		\thermoquoteend{Louis Joseph Gay-Lussac, 1807~\cite{gaylussac1807}}{\vspace{-3em}}} %handmade vspace
 		Ce postulat est connu sous le nom de \vocab{loi de Joule} et est posé comme vrai pour tout gaz parfait. On peut le résumer ainsi :
 
 		\begin{trucimportant}
@@ -290,9 +293,9 @@
 		\end{trucimportant}
 
 
-		\thermoquotebegin{O}
+		\thermoquotetopbegin{O}%handmade
 La différence entre les moyennes des expansions et des expériences-témoin étant exactement telle que ce que à quoi nous avons attribué l’effet croissant de la température ambiante dans le dernier cas, nous arrivons à la conclusion qu’\emph{il n’y a pas de changement de température lorsque l’on laisse l’air se détendre d’une façon telle qu’il ne développe pas de puissance mécanique}.
-		\thermoquoteend{James Joule, 1845~\cite{joule1845}}{}
+		\thermoquoteend{James Joule, 1845~\cite{joule1845}}{\vspace{-1em}}
 		Mathématiquement, nous pouvons l’écrire ainsi :
 		\begin{equation}
 			u = f(T)
@@ -571,7 +574,8 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 	\subsection{Évolutions à température constante}
 	\label{ch_gp_isothermes}
 	
-		\thermoquotebegin{O}
+		\onlyamphibook{\thermoquotebegin{O}}
+		\onlyframabook{\thermoquotetopbegin{O}}%handmade
 			Il est facile d’imaginer une petite quantité de combustible gazeux ou liquide, ou bien de la poussière de charbon, que l’on insèrerait dans un volume d’air comprimé et très chaud, et qui brûlerait suite à un allumage séparé ou spontané. Le piston est chassé en même temps de sorte qu’aucune augmentation de température n’ait lieu, car la chaleur développée par chaque particule de combustible est instanément absorbée par le refroidissement dû à l’expansion. De cette façon l’ensemble de la chaleur est transformée en travail.
 		\thermoquoteend{Rudolf Diesel, 1893}{\textit{Theorie und Konstruktion eines rationellen Wärmemotors zum Ersatz der Dampfmaschinen und der heute bekannten Verbrennungsmotoren}~\mbox{\cite{diesel1893,diesel1893en}}\onlyframabook{\vspace{5em}}\onlyamphibook{\vspace{4em}}} %handmade vspace
 		Il est possible de chauffer ou refroidir un gaz en maintenant sa température constante (\cref{fig_gp_température_constante}). Une évolution à température constante est dite \vocab{isotherme}.

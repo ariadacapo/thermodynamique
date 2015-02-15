@@ -31,7 +31,7 @@
 		\end{itemize}
 		Ces systèmes sont dits en \vocab{régime continu}\footnote{On dit aussi parfois \vocab{régime permanent} ou \vocab{stationnaire}.}.
 
-	\onlyamphibook{\dontbreakpage}%handmade
+	\dontbreakpage %handmade, pour éviter un drôle de saut de page
 	\subsection{Conventions de signe}
 
 		Tout comme pour les systèmes ouverts, nous allons nous placer du point de vue du système pour quantifier les transferts :
@@ -379,7 +379,8 @@
 		
 		Sur nos diagrammes pression-volume, nous représentons les évolutions irréversibles avec un trait en pointillés, pour bien les différencier des évolutions réversibles (\cref{fig_pv_evolution_irr_so}).
 		
-		\begin{figure}
+		\onlyframabook{\begin{figure}[htc]}%handmade
+		\onlyamphibook{\begin{figure}}
 			\begin{center}
 				\includegraphics[width=8cm]{images/pv_compression_irreversible_so.png}
 			\end{center}

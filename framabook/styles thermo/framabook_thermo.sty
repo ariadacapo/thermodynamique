@@ -485,6 +485,7 @@
 
 % Custom style for floating quotes aside the text. For some reason an environment does not work.
 \newcommand{\thermoquotebegin}[1]{\begin{wrapfigure}{R}[0pt]{4cm}\vspace{-\intextsep}\scriptsize\begin{spacing}{0.9}\makebox(18,5){\color{gray}\scalebox{2}{«}}}
+\newcommand{\thermoquotetopbegin}[1]{\begin{wrapfigure}{R}[0pt]{4cm}\scriptsize\begin{spacing}{0.9}\makebox(18,5){\color{gray}\scalebox{2}{«}}}% same as \thermoquotebegin except for the top margin. To be used instead when the quote ends up at the very top of the page.
 \newcommand{\thermoquoteend}[2]{\nolinebreak\makebox(18,5){\color{gray}\scalebox{2}{»}}\par\vspace{-0.3cm}\begin{flushright}#1\\#2\vspace{-2em}\end{flushright}\end{spacing}\end{wrapfigure}}
 
 % Shortcut to provide a nice […] quote shortening shortcut

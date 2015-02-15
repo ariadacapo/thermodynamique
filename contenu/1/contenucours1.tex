@@ -361,7 +361,7 @@
 		\end{innersidebox}
 		\end{spacing}
 		\end{scriptsize}
-		\caption{Quelques exemples de températures. Les valeurs les moins précises, dénotées par un astérisque, sont converties approximativement.}
+		\caption{Quelques exemples de températures. Les valeurs les moins précises, dénotées par un astérisque, sont converties approximativement.}\vspace{0.5em}%handmade
 		\sisetup{table-number-alignment=center} % back to setting specified in our stylesheet
 		\label{tab_temperatures}
 		\end{table}
@@ -375,7 +375,7 @@
 		%\thermoquotebegin{O}
 		\makebox(18,5){\color{gray}\scalebox{2}{«}}
 			Ces circonstances \jecourte nécessitent une comparaison entre travail et chaleur, qu’il nous faut effectuer en partant de l’hypothèse divergente que la production de travail est due non seulement à un changement dans la \emph{distribution} de la chaleur, mais aussi à une \emph{consommation} de celle-ci ; et inversément, que par la consommation de travail la chaleur puisse être \emph{produite}.
-		\thermoquoteend{Rudolf Clausius, 1850}{\textit{Über die bewegende Kraft der Wärme und die Gesetze, welche sich daraus für die Wärmelehre selbst ableiten lassen} \mbox{\cite{clausius1850, clausius1850en, clausius1868fr1}}\onlyframabook{\vspace{-1cm}}}%handmade
+		\thermoquoteend{Rudolf Clausius, 1850~\mbox{\cite{clausius1850, clausius1850en, clausius1868fr1}}\onlyframabook{\vspace{-1cm}}}{}%handmade
 
 		Lorsque l’on met deux corps de températures différentes en contact, leurs températures ont tendance à s’égaliser au cours d’un transfert spontané d’énergie. Nous appelons cette forme d’énergie la \vocab{chaleur}.
 
@@ -384,6 +384,7 @@
 		\begin{itemize}
 		
 			\item la perte d’énergie interne d’un corps, par mise en contact avec un corps de température plus basse ;
+		\onlyframabook{\end{itemize}\par\vspace{-1em}\begin{itemize}}%handmade, hack tout pourri pour faire tenir la citation sur le côté
 
 			\item le frottement ;
 			
@@ -467,15 +468,9 @@
 		\end{figure}
 			
 			\item \textit{Le froid} --- Pour nous, la sensation de «~froid~» indique une faible température. Nous ne considérerons pas «~le froid~» comme étant quelque chose que l’on peut fabriquer ni mesurer. Nous dirons plutôt que nous prélevons de la chaleur d’un corps (par exemple, un réfrigérateur prend de la chaleur à un aliment tiède).
-			\onlyframabook{\end{description}%handmade -- hack pourri pour faire tenir la citation sur le côté + elle est un item trop haut dans le framambook.
-
-				\thermoquotebegin{o}
-					Le principe à suivre pour construire une échelle de température peut tout d’abord paraître évident, puisqu’il peut apparaître qu’un thermomètre parfait ferait correspondre des ajouts de chaleur égaux à des élévations égales de température, mesurées par les graduations de son échelle. Il est toutefois désormais reconnu comme fait établi par l’expérience (par la variation des capacités calorifiques des corps) que la thermométrie sous ce précepte est impossible, et nous n’avons plus de principe sur lequel fonder une échelle thermométrique absolue.
-				\thermoquoteend{William Thomson\\{\tiny(non encore couronné \textit{Baron Kelvin}…)}}{1848~\cite{kelvin1848}\vspace{2em}} %handmade vspace
-				\vspace{-0.7em}~\vspace{-1.8em}
-			\begin{description}}%fin onlyframabook
+			
 			\item \textit{Le feu} --- Le feu est le nom donné au dégagement de lumière (rayonnement électromagnétique) par un gaz à haute température. En thermodynamique, le «~feu~» n’a aucune propriété particulière. Il s’agit pour nous de la même chaleur qu’elle soit dégagée par combustion de bois, de kérosène, par frottement dans un frein, ou par une réaction nucléaire. Seule compte au final la température à laquelle elle est transmise !
-			\onlyamphibook{\end{description}%handmade -- hack pourri pour faire tenir la citation sur le côté. Mais au moins dans l’amphibook elle est au bon endroit
+			\onlyamphibook{\end{description}%handmade -- cette citation n’apparaît que dans l’amphibook (dans le framabook elle fait terminer le chapitre sur un paragraphe de 3 lignes). Hack un peu pourri pour faire tenir la citation sur le côté.
 
 				\thermoquotebegin{o}
 					Le principe à suivre pour construire une échelle de température peut tout d’abord paraître évident, puisqu’il peut apparaître qu’un thermomètre parfait ferait correspondre des ajouts de chaleur égaux à des élévations égales de température, mesurées par les graduations de son échelle. Il est toutefois désormais reconnu comme fait établi par l’expérience (par la variation des capacités calorifiques des corps) que la thermométrie sous ce précepte est impossible, et nous n’avons plus de principe sur lequel fonder une échelle thermométrique absolue.
