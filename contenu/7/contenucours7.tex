@@ -356,7 +356,7 @@
 		\label{ex_cycle_carnot}
 			On effectue un cycle de Carnot entre les températures de~\SI{600}{\degreeCelsius} et~\SI{100}{\degreeCelsius}. On utilise~\SI{100}{\gram} d’air prisonnier dans un cylindre, à pression de~\SI{1}{\bar}. Quel est le travail à investir ? Quel est le travail récupéré ? Quel est le rendement ?
 				 \begin{answer}
-				 	Nous commençons par faire monter la température jusqu’à~\SI{600}{\degreeCelsius}, avec une évolution adiabatique réversible ($1\to 2$). Le coût énergétique pour cela sera $w_{1\to 2} = c_v \ \Delta T = \num{1005}\times(\num{600}-\num{100}) = \SI{+502,5}{\kilo\joule\per\kilogram}$ (\ref{eq_gp_travail_isentropique_sf}) et $q_{1\to 2} = 0$ . L’\cref{eq_isentropique_horrible2} nous apporte la pression finale : $p_2
+				 	Nous commençons par faire monter la température jusqu’à~\SI{600}{\degreeCelsius}, avec une évolution adiabatique réversible ($1\to 2$). Le coût énergétique pour cela sera $w_{1\to 2} = c_v \ \Delta T = \num{1005}\times(\num{600}-\num{100}) = \SI{+502,5}{\kilo\joule\per\kilogram}$ (\ref{eq_gp_travail_isentropique_sf}) et $q_{1\to 2} = 0$ . L’équation~\ref{eq_isentropique_horrible2} nous apporte la pression finale : $p_2
 				 	= p_1 \left(\frac{T_2}{T_1}\right)^{\frac{\gamma}{\gamma - 1}}
 				 	= 1 \times \left(\frac{\num{600}\plustwoseventhree}{\num{100}\plustwoseventhree}\right)^{\frac{\num{1,4}}{\num{1,4} - 1}}
 				 	= \SI{19,6}{\bar}$.
@@ -367,7 +367,7 @@
 					= \SI{398,2}{\kilo\joule\per\kilogram}$ (\ref{eq_gp_travail_isotherme_sf2}, une réception par le gaz) et le travail est de $w_{2 \to 3} = - q_{2 \to 3} = \SI{-398,2}{\kilo\joule\per\kilogram}$ (\ref{eq_gp_chaleur_isotherme_sf}, une perte par le gaz).
 						\begin{remark}Promesse tenue : nous avions étudié les transformations isothermes aux sections \S\ref{ch_gp_isothermes} et \S\ref{ch_lv_isothermes} précisément pour pouvoir nous en servir ici…\end{remark}
 				 		\begin{remark}Le choix de la pression $p_3$ ou de son volume correspondant $v_3$ est entièrement arbitraire et il n’affecte aucun des résultats obtenus ici.\end{remark}
-				 	Nous procédons à la détente du gaz, de façon à récupérer autant de travail que possible et à faire chuter sa température ($3 \to 4$). L’évolution est adiabatique réversible, ainsi $w_{3\to 4} = c_v \ \Delta T = -w_{1\to 2} = \SI{-502,5}{\joule\per\kilogram}$ et $q_{3\to 4} = 0$. Avec l’\cref{eq_isentropique_horrible2} nous obtenons la pression finale : $p_4 = p_3 \left(\frac{T_4}{T_3}\right)^{\frac{\gamma}{\gamma - 1}} = \SI{0,2}{\bar}$.
+				 	Nous procédons à la détente du gaz, de façon à récupérer autant de travail que possible et à faire chuter sa température ($3 \to 4$). L’évolution est adiabatique réversible, ainsi $w_{3\to 4} = c_v \ \Delta T = -w_{1\to 2} = \SI{-502,5}{\joule\per\kilogram}$ et $q_{3\to 4} = 0$. Avec l’équation~\ref{eq_isentropique_horrible2} nous obtenons la pression finale : $p_4 = p_3 \left(\frac{T_4}{T_3}\right)^{\frac{\gamma}{\gamma - 1}} = \SI{0,2}{\bar}$.
 				 		\begin{remark}Le travail récupéré de~3 à~4 est exactement opposé à celui investi de~1 à~2. Dans un cycle de Carnot, c’est pendant les transferts de chaleur que les travaux aboutissent à la production d’un travail net.\end{remark}
 				 	Enfin, pour ramener le fluide à son état initial (\S\ref{ch_construction_cycle}), il faut refroidir le gaz ($4 \to 1$). Ce refroidissement est à température constante, ainsi $q_{4 \to 1}
 				 	= - R \ T_4 \ln\left(\frac{p_1}{p_4}\right)

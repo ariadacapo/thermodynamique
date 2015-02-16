@@ -274,7 +274,7 @@
 			\begin{equation*}
 				\left( \frac{T_1}{T_2} \right)	= \left( \frac{v_2}{v_1} \right)^{\gamma -1}
 			\end{equation*}
-			valable pour une évolution adiabatique réversible d’un gaz parfait, montrez (sans utiliser l’\cref{eq_isentropique_horrible3}) que :			
+			valable pour une évolution adiabatique réversible d’un gaz parfait, montrez (sans utiliser l’équation~\ref{eq_isentropique_horrible3}) que :			
 			\begin{equation*}
 				\left( \frac{T_1}{T_2} \right)	=  \left( \frac{p_1}{p_2} \right)^{\frac{\gamma -1}{\gamma}}
 			\end{equation*}
@@ -328,7 +328,7 @@
 					\tab 3) $Q_{1 \to 3} = U_3 - U_1 - W_{1 \to 3} = m c_v \left(T_3 - \frac{p_1 V_1}{m R}\right) - W_{1 \to 3} = \SI{-625,3}{\kilo\joule}$
 	\item [\ref{exo_gp_isentropique}]
 					\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_pv_isentr.png}
-						\tab Cas optimal : compression adiabatique réversible. Avec l’\cref{eq_isentropique_horrible2}, on calcule $T_\B = \SI{896,4}{\kelvin}$ ; $W_\text{minimal} = m \ c_v (T_\B - T_\A) = \SI{+2,157}{\mega\joule}$.
+						\tab Cas optimal : compression adiabatique réversible. Avec l’équation~\ref{eq_isentropique_horrible2}, on calcule $T_\B = \SI{896,4}{\kelvin}$ ; $W_\text{minimal} = m \ c_v (T_\B - T_\A) = \SI{+2,157}{\mega\joule}$.
 	\item [\ref{exo_bete_mechant}]
 						\tab Isotherme $2 \to 3$, isochore $1 \to 2$.
 	\item [\ref{exo_retrouver_pv}]
@@ -336,7 +336,7 @@
 	\item [\ref{exo_compresseur_turboreacteur}]
 						\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_pv_turbojet_compressor.png}
 						\tab 1) Remplacer $v_2$ par $\frac{R T_2}{p_2}$, faire de même avec $v_1$. Dérouiller son algèbre et le résultat vient tout seul ;
-						\tab 2) Avec l’\cref{eq_isentropique_horrible2}, on obtient $T_\B = \SI{600,7}{\kelvin}$, ainsi $\dot{W}_{\fromatob} = \SI{+20,87}{\mega\watt}$ ;
+						\tab 2) Avec l’équation~\ref{eq_isentropique_horrible2}, on obtient $T_\B = \SI{600,7}{\kelvin}$, ainsi $\dot{W}_{\fromatob} = \SI{+20,87}{\mega\watt}$ ;
 						\tab 3) \S\ref{ch_gp_isentropiques} ;
 						\tab 5) $T_\C = \SI{279,8}{\kelvin}$ ; $T_\D = \SI{753,1}{\kelvin}$ ; Ainsi $\dot{W}_\text{compresseur réel} = \dot{W}_{\text{pertes frottement} \A \to \C} + \dot{W}_\fromctod = \SI{+29,29}{\mega\watt}$ (\SI{+40}{\percent}).
 	\item [\ref{exo_compression_combustion_diesel}]
@@ -349,12 +349,12 @@
 	\item [\ref{exo_turboreacteur_simple_flux}]
 						\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_pv_turbojet_1.png}
 						\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_pv_turbojet_2.png}
-						\tab 2) Avec l’\cref{eq_isentropique_horrible2}, $T_\B = \SI{664,83}{\kelvin}$
+						\tab 2) Avec l’équation~\ref{eq_isentropique_horrible2}, $T_\B = \SI{664,83}{\kelvin}$
 						\tab 3) Avec l’\cref{eq_petite_sfee_deltas_h}, $w_\text{compresseur} = w_\fromatob = \SI{+338,61}{\kilo\joule\per\kilogram}$
 						\tab 4) $T_\C = \SI{1373,15}{\kelvin}$ ; ainsi $q_\text{combustion} = q_\frombtoc = \SI{+711,86}{\kilo\joule\per\kilogram}$
 						\tab 5) Comme $w_\text{turbine} = - w_\text{compresseur}$, on a $T_D = \SI{986,47}{\kelvin}$
-						\tab 6) Avec l’\cref{eq_isentropique_horrible2}, $p_\D = \SI{5,97}{\bar}$
-						\tab 7) Idem, avec l’\cref{eq_isentropique_horrible2}, $T_\text{E} = \SI{574,49}{\kelvin}$
+						\tab 6) Avec l’équation~\ref{eq_isentropique_horrible2}, $p_\D = \SI{5,97}{\bar}$
+						\tab 7) Idem, avec l’équation~\ref{eq_isentropique_horrible2}, $T_\text{E} = \SI{574,49}{\kelvin}$
 						\tab 8) Avec l’\cref{eq_petite_sfee_deltas_h}, $C_\text{E} = \left(-2\Delta h\right)^\frac{1}{2} = \SI{909,98}{\metre\per\second}$\\
 						\tab Bien sûr, ces valeurs ne tiennent pas compte des irréversibilités existant dans un turboréacteur réel. Ces effets sont abordés dans l’exercice \ref{exo_compresseur_turboreacteur} et formalisés dans le \coursdix.
 \end{description}

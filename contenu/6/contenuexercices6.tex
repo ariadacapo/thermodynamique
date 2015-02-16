@@ -380,9 +380,9 @@
 	\item [\ref{exo_generatrice_electricite_turbine}]
 			\includegraphics[height=\solutiondiagramwidth]{images/exo_sol_pv_turbomoteur_1.png}
 			\includegraphics[height=\solutiondiagramwidth]{images/exo_sol_pv_turbomoteur_2.png}
-			\tab 2) Avec l’\cref{eq_isentropique_horrible2}, $T_\B = T_\A \left(\frac{p_\B}{p_\B}\right)^{\frac{\gamma - 1}{\gamma}} = \SI{774,7}{\kelvin}$ ;
+			\tab 2) Avec l’équation~\ref{eq_isentropique_horrible2}, $T_\B = T_\A \left(\frac{p_\B}{p_\B}\right)^{\frac{\gamma - 1}{\gamma}} = \SI{774,7}{\kelvin}$ ;
 			\tab 3) Avec les équations \ref{eq_grande_sfee_deltas_h} et \ref{eq_h=cpT}, $\dot W_\fromatob = \dot m c_p (T_\B - T_\A) = \SI{+242}{\kilo\watt}$  ;
-			\tab 4) Avec l’\cref{eq_isentropique_horrible2}, $T_\D = T_\C \left(\frac{p_\D}{p_\C}\right)^{\frac{\gamma - 1}{\gamma}} = T_\C \left(\frac{p_\B}{p_\A}\right)^{-\frac{\gamma - 1}{\gamma}} = \SI{481,8}{\kelvin}$. Ainsi, l’air rejeté doit perdre $\dot Q_\fromdtoa = c_p \Delta T = \SI{-94,8}{\kilo\watt}$ pour revenir à son état initial (\S\ref{ch_construction_cycle}) ;
+			\tab 4) Avec l’équation~\ref{eq_isentropique_horrible2}, $T_\D = T_\C \left(\frac{p_\D}{p_\C}\right)^{\frac{\gamma - 1}{\gamma}} = T_\C \left(\frac{p_\B}{p_\A}\right)^{-\frac{\gamma - 1}{\gamma}} = \SI{481,8}{\kelvin}$. Ainsi, l’air rejeté doit perdre $\dot Q_\fromdtoa = c_p \Delta T = \SI{-94,8}{\kilo\watt}$ pour revenir à son état initial (\S\ref{ch_construction_cycle}) ;
 			\tab 5) $\eta_\text{moteur} \equiv \left|\frac{\dot W_\net}{\dot Q_\inn} \right| = \left|\frac{\dot W_\fromatob + \dot W_\fromctod}{\dot Q_\frombtoc} \right| = \SI{62,3}{\percent} $ (fort honorable, mais seulement atteignable avec une turbine et un compresseur parfaits) ;
 			\tab 6) Avec un compresseur réel $\dot W_{\fromatob_2} > \dot W_\fromatob$ et $T_{\B_2} > T_\B$.
 						Il s’ensuit que si $T_\C$ est gardée constante, $\dot Q_{\frombtoc_2} < \dot Q_\frombtoc$.
@@ -406,7 +406,7 @@
 	\item [\ref{exo_fonctionnement_climatiseur}]
 				\includegraphics[height=\solutiondiagramwidth]{images/exo_sol_pv_climatiseur.png}
 				\includegraphics[height=\solutiondiagramwidth]{images/exo_sol_pv_thermopompe.png}
-				\tab 2) Avec l’\cref{eq_isentropique_horrible2}, $\frac{p_\B }{p_\A} = \left(\frac{T_\B}{T_\A}\right)^{\frac{\gamma}{\gamma - 1}} = \num{1,565}$ ;
+				\tab 2) Avec l’équation~\ref{eq_isentropique_horrible2}, $\frac{p_\B }{p_\A} = \left(\frac{T_\B}{T_\A}\right)^{\frac{\gamma}{\gamma - 1}} = \num{1,565}$ ;
 				\tab 3) Idem, détente C $\to$ D adiabatique réversible, $T_\D = T_\C \left(\frac{p_\D}{p_\C}\right)^{\frac{\gamma - 1}{\gamma}} = T_\C \left(\frac{p_\A}{p_\B}\right)^{\frac{\gamma - 1}{\gamma}} = T_\C \frac{T_\A}{T_\B} = \SI{275,6}{\kelvin}$ soit \SI{2,4}{\degreeCelsius} ;
 				\tab 4) Avec les équations \ref{eq_petite_sfee_deltas_h} et \ref{eq_h=cpT}, $w_\inn = \SI{+40,2}{\kilo\joule\per\kilogram}$ ;
 						$q_\out = \SI{-20,1}{\kilo\joule\per\kilogram}$ ;
