@@ -38,7 +38,7 @@
 
 	\begin{figure}[htp] %handmade
 		\begin{center}
-			\includegraphics[width=5cm]{images/exercice_boiling.jpg}
+			\includegraphics[width=6cm]{images/exercice_boiling.jpg}
 		\end{center}
 		\supercaption{Expérience de physique ordinaire}{photo \ccby par \flickrun{indi}{Indi Samarajiva}}
 	\end{figure}
@@ -77,7 +77,7 @@
 
 	\begin{figure}[htp] %handmade
 		\begin{center}
-			\includegraphics[width=8cm, max width=0.7\columnwidth]{images/exercice_super_cocotte}
+			\includegraphics[width=8cm, max width=0.65\columnwidth]{images/exercice_super_cocotte}
 		\end{center}
 		\supercaption{Autocuiseur ou cuiseur à pression, couramment appelé \textit{«~cocotte-minute~»} en France.}{\wcfile{Super_Cocotte_decor_SEB-MGR_Lyon-IMG_9918.jpg}{Photo} \ccbysa par \wcu{rama}}
 		\label{fig_cocotte}
@@ -102,7 +102,7 @@
 
 	\begin{figure}[htp] %handmade
 		\begin{center}
-			\includegraphics[width=4cm]{images/exercice_moteur_simple.png}
+			\includegraphics[height=6cm]{images/exercice_moteur_simple.png}
 		\end{center}
 		\supercaption{Un concept très simple de moteur à vapeur}{schéma \cczero \olivier}
 		\label{fig_moteurvapeursimple}
@@ -121,7 +121,7 @@
 
 	\begin{figure}[htp] %handmade
 		\begin{center}
-			\includegraphics[width=5cm]{images/exercice_pompe_eau.png}
+			\includegraphics[height=7cm]{images/exercice_pompe_eau.png}
 		\end{center}
 		\supercaption{Pompage d’un réservoir d’eau situé en contrebas. La première observation de la limite de hauteur calculée dans cet exercice est faite en 1630 par \wf{Giovanni Battista Baliani}.}{\cczero}
 		\label{fig_pompage}
@@ -188,12 +188,15 @@
 		\item Avant de pouvoir effectuer la descente, quelle quantité de chaleur faut-il fournir pour remplir le cylindre de vapeur ?
 		\item Quelle quantité de travail est dégagée par le moteur pendant la descente du piston ?\\
 				\textit{Indice : il faut tenir compte du travail effectué par l’atmosphère sur la face extérieure du piston.}
-		\item Quel est ainsi l’efficacité du moteur, si l’on néglige les frottements et toutes les autres pertes de chaleur ?
+		\item Quelle est ainsi l’efficacité du moteur, si l’on néglige les frottements et toutes les autres pertes de chaleur ?
 	\end{enumerate}
 
-	\begin{figure}
+	\onlyamphibook{\begin{figure}}
+	\onlyframabook{\begin{figure}[htc]}%handmade
 		\begin{center}
-			\includegraphics[width=9cm]{images/moteur_newcomen_2.png}
+			\onlyframabook{\vspace{-0.6cm}}%handmade
+			\onlyamphibook{\includegraphics[width=9cm]{images/moteur_newcomen_2.png}}
+			\onlyframabook{\includegraphics[width=0.9\columnwidth]{images/moteur_newcomen_2.png}}%handmade
 		\end{center}
 		\supercaption{L’ingénieux moteur atmosphérique de Newcomen, premier véritable succès de la motorisation vapeur.}{\wcfile{GesNat662.jpg}{schéma} \pd C. L. Moll -- \textit{Die gesammten Naturwissenschaften} (1873)}
 		\label{fig_moteur_newcomen}
@@ -230,18 +233,21 @@
 	
 	\textit{Et une question à laquelle nous ne savons pas encore répondre :} Quelle est la quantité \emph{maximale} d’énergie que la catapulte aurait pu fournir à l’avion en laissant la vapeur se détendre ?
 	
-	\begin{figure}
+	\begin{figure}[htc]
 		\begin{center}
-			\includegraphics[width=0.8\columnwidth]{images/catapulte_vapeur_1.jpg}
+			\includegraphics[width=0.6\columnwidth]{images/catapulte_vapeur_1.jpg}
+			\onlyframabook{\vspace{-0.6cm}}%handmade
 		\end{center}
-		\supercaption{Cylindre d’une catapulte à vapeur du USS Abraham Lincoln}{\wcfile{Catapulte CVN72 071117-N-9898L-006.jpg}{Photo} \pd par Geoffrey Lewis, U.S. Navy}
+		\supercaption{Cylindre d’une catapulte à vapeur du \textit{USS Abraham Lincoln}}{\wcfile{Catapulte CVN72 071117-N-9898L-006.jpg}{Photo} \pd par Geoffrey Lewis, U.S. Navy}
 		\label{fig_exo_catapulte_1}
 	\end{figure}
-	\begin{figure}
+	\begin{figure}[htc]
 		\begin{center}
+			\onlyframabook{\vspace{-0.6cm}}%handmade
 			\includegraphics[width=\columnwidth]{images/catapulte_vapeur_2.jpg}
+			\onlyframabook{\\\vspace{-0.6cm}}%handmade
 		\end{center}
-		\supercaption{Piston d’une catapulte à vapeur du Charles de Gaulle (droite).}{\wcfile{French aircraft carrier Charles de Gaulle - catapult maintenance 2008.jpg}{Photo} \ccbysa par Jean-Michel Roche, Netmarine.net}
+		\supercaption{Piston d’une catapulte à vapeur du porte-avions \textit{Charles de Gaulle}.}{\wcfile{French aircraft carrier Charles de Gaulle - catapult maintenance 2008.jpg}{Photo} \ccbysa par Jean-Michel Roche, Netmarine.net}
 		\label{fig_exo_catapulte_2}
 	\end{figure}
 
@@ -250,7 +256,7 @@
 \label{exo_turbine_balakovo}
 
 	Dans une centrale nucléaire, la génératrice d’électricité est entraînée par une turbine à vapeur (\cref{fig_centrale_balakovo}).\\
-	La majeure partie de la vapeur (chauffée par le réacteur nucléaire) traverse l’entièreté de la turbine. Toutefois, au milieu de la turbine, on procède à un prélèvement de vapeur. Il permet, d’une part, de réchauffer l’eau d’une autre partie du circuit (\S\ref{ch_regeneration}), et d’autre part, de contrôler précisément le débit de masse en circulation. Le débit total à l’entrée est de~\SI{317}{\tonne\per\hour} de vapeur.% mbx : on ne peut utiliser le terme de majorité que pour un ensemble constitué d'éléments distinctifs, ce qui n'est pas le cas de la vapeur. % mbx : "entièreté" est un "belgicisme". En français de France, on dirait "la totalité" ou "l'intégralité" :-) % mbx : "le débit de masse" ? ou "le débit de la masse" ?
+	La majeure partie de la vapeur (chauffée par le réacteur nucléaire) traverse l’entièreté de la turbine. Toutefois, au milieu de la turbine, on procède à un prélèvement de vapeur. Il permet, d’une part, de réchauffer l’eau d’une autre partie du circuit (\S\ref{ch_regeneration}), et d’autre part, de contrôler précisément le débit de masse en circulation. Le débit total à l’entrée est de~\SI{317}{\tonne\per\hour} de vapeur.
 	
 	On mesure les propriétés de vapeur suivantes :
 	
@@ -265,8 +271,8 @@
 
 	\begin{figure}
 		\begin{center}
-			\includegraphics[height=0.33\textwidth]{images/exercice_turbine_centrale2.jpg}
-			\includegraphics[height=0.33\textwidth]{images/exercice_turbine_centrale1.jpg}
+			\includegraphics[width=\columnwidth]{images/exercice_turbine_centrale2.jpg}
+			\includegraphics[width=\columnwidth]{images/exercice_turbine_centrale1.jpg}
 		\end{center}
 		\supercaption{Une des turbines de la centrale nucléaire russe de Balakovo (puissance centrale approx.~\SI{1}{\giga\watt}), en maintenance (haut) et en installation (bas).}{\wcfile{BalakovoNPP_turb.JPG}{photo 1} et \wcfile{BalNPP_m_st2.jpg}{2} \ccbysa The Centre of the Public Information Balakovo NPP}
 		\label{fig_centrale_balakovo}

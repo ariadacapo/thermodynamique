@@ -195,44 +195,43 @@
 \label{exo_chaudiere_simple}
 
 	La chaudière du système de chauffage central d’un bâtiment, représenté en \cref{fig_chaudiere_eau}, fonctionne avec la combustion du kérosène.
-
-	\begin{figure}
-		\begin{center}
-			\includegraphics[width=0.7\textwidth]{images/chaudiere_eau.png}
-		\end{center}
-		\supercaption{Schéma de principe d’une chaudière utilisée pour le chauffage d’un bâtiment. L’eau ($\C \to D$) y pénètre par la droite, et y est réchauffée par l’air ($\A \to \B$) mélangé au kérosène.}{schéma \ccbysa \olivier}
-		\label{fig_chaudiere_eau}
-	\end{figure}
 	
 	L’eau pénètre dans la chaudière à une température $T_\C = \SI{20}{\degreeCelsius}$ et en ressort à $T_\D = \SI{70}{\degreeCelsius}$, avec un débit $\dot V_{\text{eau}} = \SI{0,25}{\liter\per\second}$.
 	
 	La chambre de combustion admet de l’air à~$T_\A = \SI{8}{\degreeCelsius}$ et il ressort par la cheminée à une température $T_\B = \SI{120}{\degreeCelsius}$ ; le débit d’air est de~$\dot m_{\text{air}} = \SI{0,5}{\kilogram\per\second}$.
 	
-	\TabPositions{11cm}
-	Chaleur spécifique de combustion du kérosène : 			\tab \SI{46,4}{\mega\joule\per\kilogram}
+	Chaleur spécifique de combustion du kérosène : 			\SI{46,4}{\mega\joule\per\kilogram}
 	
-	Capacité calorifique massique de l’eau liquide : 			\tab \SI{4,18}{\kilo\joule\per\kilogram\per\kelvin}
+	Capacité calorifique massique de l’eau liquide : 		\SI{4,18}{\kilo\joule\per\kilogram\per\kelvin}
 	
-	Capacité calorifique massique de l’air à pression constante : 	\tab \SI{1,15}{\kilo\joule\per\kilogram\per\kelvin}
-	\TabPositions{6cm} % back to default
+	Capacité calorifique massique de l’air à pression constante : 	\SI{1,15}{\kilo\joule\per\kilogram\per\kelvin}
 
 	\begin{enumerate}
 	\item Quelle est la consommation horaire de kérosène par la chaudière ?
 	\item Quelle est l’efficacité de la chaudière, c’est à dire le rapport entre son transfert de chaleur utile et sa consommation énergétique ?
 	\end{enumerate}
 
+	\onlyframabook{\begin{figure}[h!]}
+	\onlyamphibook{\begin{figure}}%handmade
+		\begin{center}
+			\onlyamphibook{\includegraphics[width=0.7\textwidth]{images/chaudiere_eau.png}}
+			\onlyframabook{\includegraphics[width=0.9\columnwidth]{images/chaudiere_eau.png}}%handmade
+		\end{center}
+		\supercaption{Schéma de principe d’une chaudière utilisée pour le chauffage d’un bâtiment. L’eau ($\C \to D$) y pénètre par la droite, et y est réchauffée par l’air ($\A \to \B$) mélangé au kérosène.}{schéma \ccbysa \olivier}
+		\label{fig_chaudiere_eau}
+	\end{figure}
 
 \subsubsection{Turbomoteur d’hélicoptère}
 \label{exo_turbomoteur_puissances_spe}
 
-	Un hélicoptère est muni de deux turbomoteurs, c’est à dire de turbomachines dont le but est de faire tourner un arbre sortant du moteur (\cref{fig_s76b}). Nous pouvons évaluer plusieurs caractéristiques de ces moteurs sans connaître précisément leur fonctionnement interne.
+	Un hélicoptère est muni de deux turbomoteurs, c’est à dire de turbomachines dont le but est de faire tourner un arbre sortant du moteur (\cref{fig_s76b}). Nous pouvons évaluer plusieurs caractéristiques de ces moteurs sans connaître précisément leur fonctionnement interne.\onlyframabook{\pagebreak}%handmade pour permettre de tout mettre sur la même page
 	
 	Chacun des deux moteurs admet de l’air atmosphérique à température de~\SI{15}{\degreeCelsius}. L’air y est compressé, réchauffé, puis détendu, ce qui permet de dégager du travail pour faire tourner les rotors. À la sortie du moteur, l’air est rejeté à pression atmosphérique et température de~\SI{360}{\degreeCelsius}.
 
 	\begin{figure}
 		\begin{center}
 			\includegraphics[width=0.8\textwidth]{images/sikorsky_s76b.jpg}
-			\onlyframabook{\vspace{0.5cm}\\}%handmade
+			\\\vspace{0.3cm}
 			\includegraphics[width=0.8\textwidth]{images/turbomoteur_principe.png}
 		\end{center}
 		\supercaption{Un hélicoptère \wfd{Sikorsky S-76}{Sikorsky S-76B}, équipé de deux turbomoteurs \textit{P\&WC} \textsc{pt-6b} de~\SI{980}{ch} chacun. Le trajet de l’air dans les moteurs est représenté dans un schéma de principe. Nous étudions ces moteurs plus en détail au \coursdix.}{\wcfile{D-HNDL_S76B_(6104005164).jpg}{Photo hélicoptère} \ccbysa Maarten Visser\\ Schéma \ccbysa \olivier}
@@ -253,13 +252,13 @@
 		\item Quelle est la puissance spécifique dégagée par les moteurs sous forme de travail ?\\
 			\scriptsize{Indice : au final, toute l’énergie perdue par l’air sous forme de travail et de chaleur lui a été apportée dans la chambre de combustion.}
 	\end{enumerate}
-		
+	
 	Pour maintenir l’hélicoptère en vol stationnaire en pleine charge, les rotors demandent aux deux moteurs une puissance totale sous forme de travail de~\SI{1,32}{\mega\watt} (environ \SI{1800}{ch}).
 	
 	\begin{enumerate}
 		\shift{2}
 		\item Quel débit d’air faut-il admettre au total dans les deux turbomoteurs ?
-		\item Quelle est alors la puissance totale (en \si{\watt}) à fournir dans les deux chambres de combustion ?
+		\item Quelle est alors la puissance totale (en~\si{\watt}) à fournir dans les deux chambres de combustion ?
 		\item Quelle est la consommation horaire en kérosène de l’hélicoptère en vol stationnaire ?
 	\end{enumerate}
 

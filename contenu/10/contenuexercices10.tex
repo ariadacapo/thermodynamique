@@ -15,6 +15,7 @@
 		\item Représentez le cycle suivi par l’air dans un turbomoteur à refroidisseur intermédiaire et échangeur économiseur (\cref{fig_intercooler_echangeur}) sur un diagramme température-entropie, de façon qualitative.
 	\end{enumerate}
 
+\onlyamphibook{\pagebreak}
 \subsubsection{Moteur à essence}
 \label{exo_cycle_moteur_essence}
 \wherefrom{[partiel 2011, 6,5pts]}
@@ -23,8 +24,10 @@
 	
 	\begin{figure}
 		\begin{center}
-			\includegraphics[width=\columnwidth]{images/photo_continental_io-550.jpg}
-			\includegraphics[width=\columnwidth]{images/photo_sr22.jpg}
+			\onlyamphibook{\includegraphics[width=0.8\columnwidth]{images/photo_continental_io-550.jpg}
+				\includegraphics[width=0.8\columnwidth]{images/photo_sr22.jpg}}%handmade
+			\onlyframabook{\includegraphics[width=0.9\columnwidth]{images/photo_continental_io-550.jpg}
+				\includegraphics[width=0.9\columnwidth]{images/photo_sr22.jpg}}
 		\end{center}
 		\supercaption{Moteur six cylindres essence à injection \wed{Continental IO-550}{\textit{Continental} \textsc{io-550}} de~\SI{300}{ch}, en fabrication depuis 1983. Il équipe entre autres l’avion \wed{Cirrus SR22}{\textit{Cirrus} \textsc{sr22}}.\\
 			Cette photo montre la version turbocompressée du moteur, dont on aperçoit l’intercooler en haut à gauche.}{\wcfile{TSIOF-550-D.jpg}{Photo moteur} \ccbysa par \wcu{FlugKerl2} ;\\ \wcfile{IAcirrus.JPG}{Photo appareil} \ccbysa par \wcu{Airman7474}.}
@@ -62,8 +65,10 @@
 	
 	\begin{figure}
 		\begin{center}
-			\includegraphics[width=0.49\textwidth]{images/photo_diesel_generateur.jpg}
-			\includegraphics[width=0.49\textwidth]{images/photo_diesel_propulsion.jpg}
+			\onlyamphibook{\includegraphics[width=0.9\columnwidth]{images/photo_diesel_generateur.jpg}
+				\includegraphics[width=0.9\columnwidth]{images/photo_diesel_propulsion.jpg}}
+			\onlyframabook{\includegraphics[width=0.49\textwidth]{images/photo_diesel_generateur.jpg}
+				\includegraphics[width=0.49\textwidth]{images/photo_diesel_propulsion.jpg}}
 		\end{center}
 		\supercaption{Moteurs Diesel six cylindres de~\SI{1100}{\kilo\watt} électrogène (gauche) et sept cylindres de~\SI{25}{\mega\watt} propulsif (droite) d’un pétrolier de~\SI{290 000}{\tonne}.}{\wcfile{Diesel generator on an oil tanker.jpg}{Photo 1} et \wcfile{Main engine of a VLCC tanker 3.jpg}{2} \ccbysa par Hervé Cozanet}
 		\label{fig_photos_moteur_diesel}
@@ -127,17 +132,20 @@
 		\item Proposez et quantifiez une modification à porter au fonctionnement du moteur pour qu’il puisse fournir la même puissance à l’hélice.
 	\end{enumerate}
 	
-	\begin{figure}
+	\onlyamphibook{\begin{figure}[h!]}
+	\onlyframabook{\begin{figure}[htc]}%handmade
 		\begin{center}
-			\includegraphics[width=\columnwidth]{images/photo_pwc_pw123.jpg}
-			\includegraphics[width=\columnwidth]{images/photo_dash8.jpg}
+			\onlyamphibook{\includegraphics[width=0.9\columnwidth]{images/photo_pwc_pw123.jpg}
+				\includegraphics[width=0.9\columnwidth]{images/photo_dash8.jpg}}
+			\onlyframabook{\includegraphics[width=\columnwidth]{images/photo_pwc_pw123.jpg}
+				\includegraphics[width=\columnwidth]{images/photo_dash8.jpg}}
 		\end{center}
 		\supercaption{Un turbopropulseur \textit{Pratt \& Whitney Canada} \textsc{pwc123} équipant un \textit{Bombardier} Dash~8. Le \textsc{pwc123} est configuré avec trois ensembles tournants concentriques, dont l’arbre moteur alimenté par un turbine libre, mais son agencement de principe reste similaire à celui décrit en \cref{fig_turboprop_circuit}.}%
 {\wcfile{Pratt & Whitney Canada PW123 retouched.jpg}{Photo moteur} dérivée d’\wcfile{Pratt & Whitney Canada PW123.jpg}{une photo} \ccby par \href{http://www.flickr.com/people/28567825@N03}{l’utilisateur$\cdot$rice flickr cliff1066} ; \wcfile{Dash 8 front view.jpg}{Photo avion} \ccbysa par \href{http://www.flickr.com/people/24056116@N07}{l’utilisateur$\cdot$rice Flickr Björn}}
 		\label{fig_turboprop_photos}
 	\end{figure}
 		
-
+\onlyamphibook{~\par\vspace{10cm}}%handemade carrément pourri
 \subsubsection{Modification de turboréacteur}
 \label{exo_cycle_turboreacteur}
 
@@ -157,7 +165,20 @@
 			\item Quelle est la pression disponible à la sortie de la turbine ?
 			\item Quelle serait la vitesse atteinte par les gaz en sortie de tuyère si la détente y était isentropique ?
 		\end{enumerate}
-		
+
+	\onlyamphibook{\begin{figure}}
+	\onlyframabook{\begin{figure}[htc]}%handmade
+		\begin{center}
+			\onlyamphibook{\includegraphics[width=\columnwidth]{images/photo_pw_j52_1.jpg}}
+			\onlyframabook{\includegraphics[width=\columnwidth]{images/photo_pw_j52_1.jpg}
+				\includegraphics[width=\columnwidth]{images/photo_pw_j52_2.jpg}}
+		\end{center}
+		\supercaption{Un turboréacteur à simple flux et deux arbres \wed{Pratt & Whitney J52}{\textit{Pratt \& Whitney} \textsc{j52}} (ou \textsc{jt8a}), construit en \num{4500} exemplaires. Il équipe encore le \wed{Northrop Grumman EA-6B Prowler}{\textsc{ea-6b} \textit{Prowler}}.}%
+		{Photo 1 dérivée d’\wcfile{Pratt & Whitney J52.jpg}{une photo} \ccby par \href{http://www.flickr.com/people/37467370@N08}{Greg Goebel} ; Photo 2 dérivée d’\wcfile{J52 engine maintenance USS America (CV-66) 1993.JPEG}{une photo} \pd par Sgt. G. Robinson, U.S.~Navy}
+		\label{fig_exo_turbojet_twin_spool}
+	\end{figure}
+
+		\onlyframabook{\pagebreak}
 		L’équipe d’ingénieurs en charge de la conception des composants propose de modifier le moteur, en utilisant deux axes plutôt qu’un seul (\cref{fig_exo_turbojet_twin_spool}). L’ensemble tournant le plus au centre du moteur pouvant évoluer à plus grande vitesse, l’efficacité isentropique des composants est augmentée :
 			\begin{itemize}
 				\item Efficacité isentropique du compresseur et de la turbine basse pression (axe \textsc{bp}) : \SI{85}{\percent}\\
@@ -166,15 +187,7 @@
 					(rapport des pressions : \num{12,5})
 			\end{itemize}
 	
-	\begin{figure}
-		\begin{center}
-			\includegraphics[width=\columnwidth]{images/photo_pw_j52_1.jpg}
-			\includegraphics[width=\columnwidth]{images/photo_pw_j52_2.jpg}
-		\end{center}
-		\supercaption{Un turboréacteur à simple flux et deux arbres \wed{Pratt & Whitney J52}{\textit{Pratt \& Whitney} \textsc{j52}} (ou \textsc{jt8a}), construit en \num{4500} exemplaires. Il équipe encore le \wed{Northrop Grumman EA-6B Prowler}{\textsc{ea-6b} \textit{Prowler}}.}%
-		{Photo 1 dérivée d’\wcfile{Pratt & Whitney J52.jpg}{une photo} \ccby par \href{http://www.flickr.com/people/37467370@N08}{Greg Goebel} ; Photo 2 dérivée d’\wcfile{J52 engine maintenance USS America (CV-66) 1993.JPEG}{une photo} \pd par Sgt. G. Robinson, U.S.~Navy}
-		\label{fig_exo_turbojet_twin_spool}
-	\end{figure}
+	
 			
 		Toutes les autres caractéristiques de fonctionnement du moteur restent inchangées.
 		
@@ -184,7 +197,7 @@
 			\item Quelle est la nouvelle vitesse théorique d’éjection des gaz ?
 		\end{enumerate}
 
-
+\onlyamphibook{\pagebreak}
 \subsubsection{Turbomoteur à refroidissement intermédiaire}
 \label{exo_cf6_generateur_intercooling}
 
@@ -200,6 +213,7 @@
 	
 	\begin{figure}
 		\begin{center}
+		\onlyamphibook{\vspace{-0.5cm}}
 		\includegraphics[width=10cm]{images/circuit_turbofan_twin_spool.png}
 		\end{center}
 		\supercaption{Schéma de principe de l’agencement du \textit{General Electric} \textsc{cf6}.}{schéma \ccbysa \olivier}
@@ -235,18 +249,10 @@
 		\item Quelle est son efficacité ?
 	\end{enumerate}
 	
+	\onlyframabook{\pagebreak}%handmade
 	L’entreprise cliente réceptionne votre moteur mais souhaite augmenter la puissance qu’il développe. Le moteur fonctionnant déjà à pleine capacité, vous n’êtes en mesure d’augmenter ni le débit d’air, ni la température de combustion.
 	
 	Pour pouvoir augmenter la puissance, vous installez un système d’intercooling (figure~\ref{fig_turbomoteurs_exercice}). La compression de l’air est interrompue à pression de~\SI{7}{\bar} ; l’air est conduit dans un grand échangeur de chaleur où il est refroidi à pression constante. Lorsque sa température est redescendue à~\SI{40}{\celsius}, on reprend sa compression dans le compresseur, qui n’a pas été modifié.
-	
-	\begin{figure}[htc!]%handmade
-		\begin{center}
-		\includegraphics[width=12cm]{images/circuit_turboshaft_exercice.png}
-		\end{center}
-		\supercaption{	En haut : schéma de principe d’un turbomoteur basé sur le \textsc{cf6} dont on a supprimé la soufflante.\\
-							En bas : le même turbomoteur modifié par l’ajout d’un système de refroidissement intermédiaire (intercooler).}{schémas \ccbysa \olivier}
-		\label{fig_turbomoteurs_exercice}
-	\end{figure}
 	
 	\begin{enumerate}
 	\shift{4}	
@@ -255,6 +261,16 @@
 		\item Quelle est la nouvelle marge de travail ?
 		\item Quelle est la nouvelle efficacité ?
 	\end{enumerate}
+	
+	\onlyframabook{\pagebreak}%handmade
+	\begin{figure}[htc!]%handmade
+		\begin{center}
+		\includegraphics[width=12cm]{images/circuit_turboshaft_exercice.png}
+		\end{center}
+		\supercaption{	En haut : schéma de principe d’un turbomoteur basé sur le \textsc{cf6} dont on a supprimé la soufflante.\\
+							En bas : le même turbomoteur modifié par l’ajout d’un système de refroidissement intermédiaire (intercooler).}{schémas \ccbysa \olivier}
+		\label{fig_turbomoteurs_exercice}
+	\end{figure}
 
 \exercisesolutionpage
 \titreresultats
