@@ -1,7 +1,5 @@
-
-
 \begin{center}
-\begin{footnotesize}
+\begin{abaqueunfontsize}
 \subsection*{Abaque~n°1 : Propriétés de l’eau pure (liquide comprimé et vapeur sèche)}
 \begin{longtable}[c]{%
 @{~}S[table-format = 2.6]% 		v
@@ -20,7 +18,6 @@
 @{~~}S[table-format = 2.4]@{~}%	s
 }
 
-%\caption{Propriétés de l’eau pure (liquide comprimé et vapeur sèche)}\\
 %This ↓ appears at the top of the table
 \hline
 \multicolumn{4}{c|}{\ }	&	&\multicolumn{4}{c|}{\ }	&	&\multicolumn{4}{c}{\ }\\
@@ -56,7 +53,6 @@ $v$	&$u$	&$h$	&$s$	&$T$	&$v$	&$u$	&$h$	&$s$	&$T$	&$v$	&$u$	&$h$	&$s$ \\
 \endfoot
 %This ↓ appears at the bottom of the table.
 \hline
-%\multicolumn{14}{c}{\footnotesize\textit{ouf.}}\\
 \endlastfoot
 
 \multicolumn{4}{c|}{$p = \SI{0,01}{\mega\pascal}$}	&	&\multicolumn{4}{c|}{$p = \SI{0,05}{\mega\pascal}$}	&	&\multicolumn{4}{c}{$p = \SI{0,10}{\mega\pascal}$}\\
@@ -297,21 +293,14 @@ $v$	&$u$	&$h$	&$s$	&$T$	&$v$	&$u$	&$h$	&$s$	&$T$	&$v$	&$u$	&$h$	&$s$ \\
 0,016976	&4396,9	&5075,9	&7,5357	&1200	&0,01359	&4378,6	&5058,1	&7,4207	&1200	&0,006873	&4290,3	&4977,6	&7,045\\
 0,020709	&5086,2	&5914,6	&8,0536	&1500	&0,016626	&5074,1	&5905,4	&7,944	&1500	&0,008491	&5015,3	&5864,4	&7,593\\
 0,026705	&6299,9	&7368,1	&8,775	&2000	&0,021464	&6293	&7366,2	&8,6691	&2000	&0,010998	&6259,4	&7359,2	&8,3352\\
-
-\end{longtable}\end{footnotesize}\end{center}
-
-
+\end{longtable}\end{abaqueunfontsize}\end{center}
 \pagebreak
 
-%%%%% Some squeezing for tables to fit %%%%%
-%\newgeometry{hmargin=1cm, vmargin={1cm, 1.2cm}}
-%\def\arraystretch{0.8}
+%%%%% New font size for the remaining %%%%%%
 \begin{center}
-\begin{small}
+\begin{abaquedeuxtroisfontsize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \subsection*{Abaque~n°2 : Propriétés de l’eau pure aux points de saturation, triées par température.}
-
 \begin{longtable}[c]{%
 @{~}S[table-format = 3.0]@{~}|% 	T
 S[table-format = 2.6]@{~}||%		p
@@ -328,7 +317,6 @@ S[table-format = 1.6]%				v L
 @{}S[table-format = 3.6]@{~}%		v V
 }
 
-%\caption{Propriétés de l’eau pure aux points de saturation, triées par température.}\\
 %This ↓ appears at the top of the table
 \hline
 %\addlinespace[10pt]
@@ -730,20 +718,10 @@ $T_{sat}$ &$p_{sat}$	&$u_L$ &$u_V$ 	&$\Delta u$	&$h_L$ &$h_V$	&$\Delta h$	&$s_L$
 %372	&21,554	&1884,3	&2180,5	&296,2	&1935,3	&2275,5	&340,3	&4,1785	&4,7059	&0,5274	&0,002368	&0,004408\\
 373	&21,814	&1915	&2141,6	&226,6	&1969,7	&2229,8	&260,1	&4,2308	&4,6334	&0,4026	&0,002508	&0,004045\\
 {$T_{cr}$}	&22,064	&2015,8	&2015,8	&0	&2084,3	&2084,3	&0	&4,407	&4,407	&0	&0,003106	&0,003106\\
-\end{longtable} \end{small} \end{center}
-
-
+\end{longtable}
 \pagebreak
 
-%%%%% Some squeezing for tables to fit %%%%%
-%\newgeometry{hmargin=1cm, vmargin={1cm, 1.2cm}}
-%\def\arraystretch{0.8}
-\begin{center}
-\begin{small}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \subsection*{Abaque~n°3 : Propriétés de l’eau pure aux points de saturation, triées par pression.}
-
 \begin{longtable}{%
 @{~}S[table-format = 2.4]@{~}|% 	p
 S[table-format = 3.2]@{~}||%		T
@@ -760,7 +738,6 @@ S[table-format = 1.6]%				v L
 @{}S[table-format = 3.6]@{~}%		v V
 }
 
-%\caption{Propriétés de l’eau pure aux points de saturation, triées par pression.}\\
 %This ↓ appears at the top of the table
 \hline
 &&&&&&&&&&&&\\
@@ -1059,5 +1036,5 @@ $p_{sat}$ &$T_{sat}$	&$u_L$ &$u_V$ 	&$\Delta u$	&$h_L$ &$h_V$	&$\Delta h$	&$s_L$
 %21,8	&372,95	&1912,9	&2144,2	&231,3	&1967,4	&2232,9	&265,5	&4,2274	&4,6383	&0,4109	&0,002498	&0,004068\\
 22	&373,71	&1951,8	&2092,9	&141,1	&2011,3	&2173,1	&161,7	&4,2945	&4,5446	&0,2501	&0,002704	&0,003648\\
 {$p_{cr}$}	&373,95	&2015,8	&2015,8	&0	&2084,3	&2084,3	&0	&4,407	&4,407	&0	&0,003106	&0,003106\\
-\end{longtable} \end{small} \end{center}
+\end{longtable} \end{abaquedeuxtroisfontsize} \end{center}
 \clearpage
