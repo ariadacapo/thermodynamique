@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  22 FEB 2015 17:53
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  23 FEB 2015 21:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3071,16 +3071,15 @@ Package microtype Info: Loading generic settings for font family
 
 (./annexes/trucsdudebut.tex
 LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
-(Font)              scaled to size 17.28pt on input line 6.
+(Font)              scaled to size 17.28pt on input line 5.
 LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
-(Font)              scaled to size 17.28pt on input line 6.
- [1
+(Font)              scaled to size 17.28pt on input line 5.
+ (./annexes/contenu_pagedetitre.tex [1
 
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./annexes/contenu_pagedet
-itre.tex
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -3114,7 +3113,6 @@ itre.tex
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
  [2
-
 
 
 ]
@@ -3159,7 +3157,7 @@ l.47 \end{titlepage}
 
 ]) (./annexes/frame_auteurs.tex
 LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
-(Font)              scaled to size 17.28pt on input line 5.
+(Font)              scaled to size 17.28pt on input line 4.
 
 (./annexes/contenu_auteurs.tex
 LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
@@ -3172,14 +3170,14 @@ File: images/arobase.png Graphic file (type png)
  <use images/arobase.png>
 Package pdftex.def Info: images/arobase.png used on input line 10.
 (pdftex.def)             Requested size: 8.75157pt x 8.00926pt.
-)
-[3
+))
+(./annexes/contenu_sommaire.tex [3
 
 
 
- <./annexes/images/arobase.png>]) (./annexes/contenu_sommaire.tex
+ <./annexes/images/arobase.png>]
 LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
-(Font)              scaled to size 24.88pt on input line 5.
+(Font)              scaled to size 24.88pt on input line 4.
 
 (./thermodynamique.toc
 Package cleveref Info: loaded `french' language definitions on input line 1.
@@ -3190,19 +3188,17 @@ LaTeX Font Info:    Font shape `T1/fxl/b/n' will be
 (Font)              scaled to size 12.0pt on input line 5.
  [4
 
-
 ] [5])
 \tf@toc=\write6
 \openout6 = `thermodynamique.toc'.
 
- [6]) (./annexes/frame_organisation.tex
+) (./annexes/frame_organisation.tex [6]
 (./annexes/contenu_organisation.tex
 LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
 (Font)              scaled to size 10.0pt on input line 3.
 LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
 (Font)              scaled to size 10.0pt on input line 3.
  [7
-
 
 
 ]
@@ -3213,16 +3209,15 @@ File: images/plan_general_chapitres.png Graphic file (type png)
 Package pdftex.def Info: images/plan_general_chapitres.png used on input line 1
 3.
 (pdftex.def)             Requested size: 278.8358pt x 319.74352pt.
- [8 <./annexes/images/plan_general_chapitres.png>]) [9]) (./annexes/frame_intro
-duction.tex [10
-
+ [8 <./annexes/images/plan_general_chapitres.png>])) (./annexes/frame_introduct
+ion.tex [9] [10
 
 
 ]
 (./annexes/contenu_introduction.tex
 LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
 (Font)              scaled to size 7.79993pt on input line 5.
- [11]) [12]))
+ [11]))) [12]
 \openout2 = `1/chapitre_1.aux'.
 
  (./1/chapitre_1.tex
@@ -3230,7 +3225,6 @@ Chapitre 1.
 LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
 (Font)              scaled to size 24.88pt on input line 6.
 (./1/contenuintrocours1.tex) [1
-
 
 
 
@@ -3604,14 +3598,14 @@ turbomoteur_principe.png>]
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot includemp twoside 
-* h-part:(L,W,R)=(71.13188pt, 483.69687pt, 42.67912pt)
+* h-part:(L,W,R)=(71.13188pt, 469.47049pt, 56.9055pt)
 * v-part:(T,H,B)=(85.35826pt, 731.23584pt, 28.45274pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
+* \textwidth=469.47049pt
 * \textheight=644.33035pt
 * \oddsidemargin=-1.1381pt
-* \evensidemargin=-29.59087pt
+* \evensidemargin=-15.36449pt
 * \topmargin=13.08827pt
 * \headheight=28.45274pt
 * \headsep=28.45274pt
@@ -4023,14 +4017,14 @@ Underfull \hbox (badness 2799) in paragraph at lines 216--217
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot includemp twoside 
-* h-part:(L,W,R)=(71.13188pt, 483.69687pt, 42.67912pt)
+* h-part:(L,W,R)=(71.13188pt, 469.47049pt, 56.9055pt)
 * v-part:(T,H,B)=(85.35826pt, 731.23584pt, 28.45274pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
+* \textwidth=469.47049pt
 * \textheight=644.33035pt
 * \oddsidemargin=-1.1381pt
-* \evensidemargin=-29.59087pt
+* \evensidemargin=-15.36449pt
 * \topmargin=13.08827pt
 * \headheight=28.45274pt
 * \headsep=28.45274pt
@@ -4444,14 +4438,14 @@ Package pdftex.def Info: images/circuit_turboprop.png used on input line 275.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot includemp twoside 
-* h-part:(L,W,R)=(71.13188pt, 483.69687pt, 42.67912pt)
+* h-part:(L,W,R)=(71.13188pt, 469.47049pt, 56.9055pt)
 * v-part:(T,H,B)=(85.35826pt, 731.23584pt, 28.45274pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
+* \textwidth=469.47049pt
 * \textheight=644.33035pt
 * \oddsidemargin=-1.1381pt
-* \evensidemargin=-29.59087pt
+* \evensidemargin=-15.36449pt
 * \topmargin=13.08827pt
 * \headheight=28.45274pt
 * \headsep=28.45274pt
@@ -5056,14 +5050,14 @@ Package pdftex.def Info: images/atar_compressor.jpg used on input line 300.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot includemp twoside 
-* h-part:(L,W,R)=(71.13188pt, 483.69687pt, 42.67912pt)
+* h-part:(L,W,R)=(71.13188pt, 469.47049pt, 56.9055pt)
 * v-part:(T,H,B)=(85.35826pt, 731.23584pt, 28.45274pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
+* \textwidth=469.47049pt
 * \textheight=644.33035pt
 * \oddsidemargin=-1.1381pt
-* \evensidemargin=-29.59087pt
+* \evensidemargin=-15.36449pt
 * \topmargin=13.08827pt
 * \headheight=28.45274pt
 * \headsep=28.45274pt
@@ -5139,7 +5133,7 @@ Package pdftex.def Info: images/exo_sol_pv_turbojet_2.png used on input line 35
 6.
 (pdftex.def)             Requested size: 71.13188pt x 66.8366pt.
 
-Underfull \hbox (badness 2418) in paragraph at lines 363--364
+Underfull \hbox (badness 1371) in paragraph at lines 363--364
 |   \T1/fxl/m/n/10 (+20) 8) Avec l'[][]équation 3/14[][], $\OML/nxlmi/m/it/10 C
 [] \U/ntxmia/m/it/10 = [][] =
  []
@@ -5643,14 +5637,14 @@ e1.jpg>]
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot includemp twoside 
-* h-part:(L,W,R)=(71.13188pt, 483.69687pt, 42.67912pt)
+* h-part:(L,W,R)=(71.13188pt, 469.47049pt, 56.9055pt)
 * v-part:(T,H,B)=(85.35826pt, 731.23584pt, 28.45274pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
+* \textwidth=469.47049pt
 * \textheight=644.33035pt
 * \oddsidemargin=-1.1381pt
-* \evensidemargin=-29.59087pt
+* \evensidemargin=-15.36449pt
 * \topmargin=13.08827pt
 * \headheight=28.45274pt
 * \headsep=28.45274pt
@@ -5722,12 +5716,6 @@ File: images/exo_sol_pv_newcomen.png Graphic file (type png)
 Package pdftex.def Info: images/exo_sol_pv_newcomen.png used on input line 322.
 
 (pdftex.def)             Requested size: 71.13188pt x 71.52925pt.
-
-Underfull \hbox (badness 1622) in paragraph at lines 323--324
-|   \T1/fxl/m/n/10 (+20) 2) Une lec-ture de l'abaque n\TS1/fxl/m/n/10 °\T1/fxl/
-m/n/10 (+20) 1 donne $\OML/nxlmi/m/it/10 h[] \U/ntxmia/m/it/10 =
- []
-
 ) [155
 
  <./5/images/exo_sol_tv_newcomen.png> <./5/images/exo_sol_pv_newcomen.png>])
@@ -6104,14 +6092,14 @@ Package pdftex.def Info: images/320_efis.png used on input line 345.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot includemp twoside 
-* h-part:(L,W,R)=(71.13188pt, 483.69687pt, 42.67912pt)
+* h-part:(L,W,R)=(71.13188pt, 469.47049pt, 56.9055pt)
 * v-part:(T,H,B)=(85.35826pt, 731.23584pt, 28.45274pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
+* \textwidth=469.47049pt
 * \textheight=644.33035pt
 * \oddsidemargin=-1.1381pt
-* \evensidemargin=-29.59087pt
+* \evensidemargin=-15.36449pt
 * \topmargin=13.08827pt
 * \headheight=28.45274pt
 * \headsep=28.45274pt
@@ -6131,7 +6119,7 @@ Package pdftex.def Info: images/320_efis.png used on input line 345.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 3068) in paragraph at lines 368--369
+Underfull \hbox (badness 1902) in paragraph at lines 368--369
 |   \T1/fxl/m/n/10 (+20) 2) $\OML/nxlmi/m/it/10 W[] \U/ntxmia/m/it/10 = [][] []
  = [][] [] =
  []
@@ -6194,7 +6182,7 @@ File: images/exo_sol_circuit_acm.png Graphic file (type png)
 <use images/exo_sol_circuit_acm.png>
 Package pdftex.def Info: images/exo_sol_circuit_acm.png used on input line 425.
 
-(pdftex.def)             Requested size: 435.32422pt x 221.53171pt.
+(pdftex.def)             Requested size: 422.52057pt x 215.01329pt.
 
 <images/exo_sol_pv_pack_1.png, id=2813, 328.56773pt x 266.72845pt>
 File: images/exo_sol_pv_pack_1.png Graphic file (type png)
@@ -6218,14 +6206,21 @@ Package pdftex.def Info: images/exo_sol_pv_pack_3.png used on input line 428.
 (pdftex.def)             Requested size: 71.13188pt x 77.29886pt.
  [184 <./6/images/exo_sol_tv_moteur_vapeur.png> <./6/images/exo_sol_pv_moteur_v
 apeur.png> <./6/images/exo_sol_pv_climatiseur.png> <./6/images/exo_sol_pv_therm
-opompe.png>] [185 <./6/images/exo_sol_circuit_acm.png> <./6/images/exo_sol_pv_p
-ack_1.png> <./6/images/exo_sol_pv_pack_2.png> <./6/images/exo_sol_pv_pack_3.png
->]) [186
+opompe.png>]
+Underfull \hbox (badness 1377) in paragraph at lines 443--444
+|   \T1/fxl/m/n/10 (+20) 9) Elle di-mi-nue : $\OML/nxlmi/m/it/10 w[] \U/ntxmia/
+m/it/10 = \OML/nxlmi/m/it/10 c[]\T1/fxl/m/n/10 (+20) (\OML/nxlmi/m/it/10 T[] \O
+MS/ntxsy/m/n/10 ^^@
+ []
+
+[185 <./6/images/exo_sol_circuit_acm.png> <./6/images/exo_sol_pv_pack_1.png> <.
+/6/images/exo_sol_pv_pack_2.png> <./6/images/exo_sol_pv_pack_3.png>]) [186
 
 ])
 \openout2 = `7/chapitre_7.aux'.
 
- (./7/chapitre_7.tex
+
+(./7/chapitre_7.tex
 Chapitre 7.
 (./7/contenuintrocours7.tex) [187
 
@@ -6682,14 +6677,14 @@ Underfull \hbox (badness 1072) in paragraph at lines 161--162
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot includemp twoside 
-* h-part:(L,W,R)=(71.13188pt, 483.69687pt, 42.67912pt)
+* h-part:(L,W,R)=(71.13188pt, 469.47049pt, 56.9055pt)
 * v-part:(T,H,B)=(85.35826pt, 731.23584pt, 28.45274pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
+* \textwidth=469.47049pt
 * \textheight=644.33035pt
 * \oddsidemargin=-1.1381pt
-* \evensidemargin=-29.59087pt
+* \evensidemargin=-15.36449pt
 * \topmargin=13.08827pt
 * \headheight=28.45274pt
 * \headsep=28.45274pt
@@ -6739,7 +6734,19 @@ File: images/exo_sol_pv_carnot_turbine.png Graphic file (type png)
 Package pdftex.def Info: images/exo_sol_pv_carnot_turbine.png used on input lin
 e 218.
 (pdftex.def)             Requested size: 71.13188pt x 71.52925pt.
- [220
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+|   \T1/fxl/m/n/10 (+20) 7) $\OML/nxlmi/m/it/10 w[] \U/ntxmia/m/it/10 = \OML/nx
+lmi/m/it/10 w[] \OMS/ntxsy/m/n/10 ^^@
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+|   \T1/fxl/m/n/10 (+20) 8) $\OML/nxlmi/m/it/10 w[] \U/ntxmia/m/it/10 = \OML/nx
+lmi/m/it/10 w[] \U/ntxmia/m/it/10 =
+ []
+
+[220
 
 
  <./7/images/exo_sol_pv_carnot_lv_1.png> <./7/images/exo_sol_pv_carnot_lv_2.png
@@ -7301,14 +7308,14 @@ Underfull \hbox (badness 2189) in paragraph at lines 156--158
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot includemp twoside 
-* h-part:(L,W,R)=(71.13188pt, 483.69687pt, 42.67912pt)
+* h-part:(L,W,R)=(71.13188pt, 469.47049pt, 56.9055pt)
 * v-part:(T,H,B)=(85.35826pt, 731.23584pt, 28.45274pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
+* \textwidth=469.47049pt
 * \textheight=644.33035pt
 * \oddsidemargin=-1.1381pt
-* \evensidemargin=-29.59087pt
+* \evensidemargin=-15.36449pt
 * \topmargin=13.08827pt
 * \headheight=28.45274pt
 * \headsep=28.45274pt
@@ -7413,14 +7420,7 @@ LaTeX Warning: Command \textquoteright invalid in math mode on input line 231.
 
 LaTeX Warning: Command \textquoteright invalid in math mode on input line 231.
 
-<images/exo_sol_ts_bonsens1.png, id=3785, 263.00319pt x 267.47351pt>
-File: images/exo_sol_ts_bonsens1.png Graphic file (type png)
-
-<use images/exo_sol_ts_bonsens1.png>
-Package pdftex.def Info: images/exo_sol_ts_bonsens1.png used on input line 235.
-
-(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
- [256
+[256
 
 
  <./8/images/exo_sol_ts_tasse.png> <./8/images/exo_sol_ts_detente_eau.png> <./8
@@ -7429,6 +7429,14 @@ s1.png> <./8/images/exo_sol_ts_multiples2.png> <./8/images/exo_sol_ts_multiples
 3.png> <./8/images/exo_sol_ts_multiples4.png> <./8/images/exo_sol_ts_multiples5
 .png> <./8/images/exo_sol_ts_multiples6.png> <./8/images/exo_sol_ts_carnot_ther
 mopompe.png>]
+<images/exo_sol_ts_bonsens1.png, id=3789, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_bonsens1.png Graphic file (type png)
+
+<use images/exo_sol_ts_bonsens1.png>
+Package pdftex.def Info: images/exo_sol_ts_bonsens1.png used on input line 235.
+
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
 <images/exo_sol_ts_bonsens2.png, id=3792, 263.00319pt x 267.47351pt>
 File: images/exo_sol_ts_bonsens2.png Graphic file (type png)
 
@@ -7437,6 +7445,18 @@ Package pdftex.def Info: images/exo_sol_ts_bonsens2.png used on input line 238.
 
 (pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
+|   \T1/fxl/m/n/10 (+20) On sup-pose $\OML/nxlmi/m/it/10 X \OMS/ntxsy/m/n/10 ! 
+\OML/nxlmi/m/it/10 Y$\T1/fxl/m/n/10 (+20) , alors $\U/ntxmia/m/it/10 ^^A\OML/nx
+lmi/m/it/10 s \U/ntxmia/m/it/10 =
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 239--240
+[] []$ \T1/fxl/m/n/10 (+20) mais $[][] [][] \U/ntxmia/m/it/10 = [] []$ \T1/fxl/
+m/n/10 (+20) ainsi nous sommes ras-su-rés : le
+ []
+
 <images/exo_sol_ts_carnot_vapeur1.png, id=3801, 263.00319pt x 267.47351pt>
 File: images/exo_sol_ts_carnot_vapeur1.png Graphic file (type png)
 
@@ -7444,20 +7464,20 @@ File: images/exo_sol_ts_carnot_vapeur1.png Graphic file (type png)
 Package pdftex.def Info: images/exo_sol_ts_carnot_vapeur1.png used on input lin
 e 247.
 (pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
-) [257
+ [257 <./8/images/exo_sol_ts_bonsens1.png> <./8/images/exo_sol_ts_bonsens2.png>
+ <./8/images/exo_sol_ts_carnot_vapeur1.png>]) [258
 
- <./8/images/exo_sol_ts_bonsens1.png> <./8/images/exo_sol_ts_bonsens2.png> <./8
-/images/exo_sol_ts_carnot_vapeur1.png>])
+])
 \openout2 = `9/chapitre_9.aux'.
 
- (./9/chapitre_9.tex [258
-
-
-
-
-]
+ (./9/chapitre_9.tex
 Chapitre 9.
-(./9/contenuintrocours9.tex) [259] (./9/contenucours9.tex
+(./9/contenuintrocours9.tex) [259
+
+
+
+
+] (./9/contenucours9.tex
 Underfull \hbox (badness 1442) in paragraph at lines 8--9
 \T1/fxl/m/n/8 sphé-rique pour-rait être échauffé
  []
@@ -7851,14 +7871,14 @@ Package pdftex.def Info: images/50letpodeby.jpg used on input line 70.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot includemp twoside 
-* h-part:(L,W,R)=(71.13188pt, 483.69687pt, 42.67912pt)
+* h-part:(L,W,R)=(71.13188pt, 469.47049pt, 56.9055pt)
 * v-part:(T,H,B)=(85.35826pt, 731.23584pt, 28.45274pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
+* \textwidth=469.47049pt
 * \textheight=644.33035pt
 * \oddsidemargin=-1.1381pt
-* \evensidemargin=-29.59087pt
+* \evensidemargin=-15.36449pt
 * \topmargin=13.08827pt
 * \headheight=28.45274pt
 * \headsep=28.45274pt
@@ -7876,12 +7896,6 @@ Package pdftex.def Info: images/50letpodeby.jpg used on input line 70.
 * \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-
-Underfull \hbox (badness 2035) in paragraph at lines 109--110
-|   \T1/fxl/m/n/10 (+20) 3) Avec l'[][]équation 9/4[][] nous ob-te-nons $\OML/n
-xlmi/m/it/10 h[] \U/ntxmia/m/it/10 =
- []
 
 ) [291
 
@@ -8466,14 +8480,14 @@ ine 268.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot includemp twoside 
-* h-part:(L,W,R)=(71.13188pt, 483.69687pt, 42.67912pt)
+* h-part:(L,W,R)=(71.13188pt, 469.47049pt, 56.9055pt)
 * v-part:(T,H,B)=(85.35826pt, 731.23584pt, 28.45274pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
+* \textwidth=469.47049pt
 * \textheight=644.33035pt
 * \oddsidemargin=-1.1381pt
-* \evensidemargin=-29.59087pt
+* \evensidemargin=-15.36449pt
 * \topmargin=13.08827pt
 * \headheight=28.45274pt
 * \headsep=28.45274pt
@@ -8499,6 +8513,12 @@ File: images/exo_sol_ts_diesel.png Graphic file (type png)
 <use images/exo_sol_ts_diesel.png>
 Package pdftex.def Info: images/exo_sol_ts_diesel.png used on input line 287.
 (pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
+|   \T1/fxl/m/n/10 (+20) 4) $[] \U/ntxmia/m/it/10 = \OMS/ntxsy/m/n/10 ^^@[] \OM
+L/nxlmi/m/it/10 ^^Q[] \T1/fxl/m/n/10 (+20) (\OML/nxlmi/m/it/10 w[] \T1/fxl/m/n/
+10 (+20) +
+ []
 
 
 LaTeX Warning: Command \textquoteright invalid in math mode on input line 306.
@@ -8534,15 +8554,15 @@ urb_abaques_vapeur.tex)
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
-* v-part:(T,H,B)=(28.45274pt, 788.14136pt, 28.45274pt)
+* h-part:(L,W,R)=(71.13188pt, 469.47049pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=540.60239pt
-* \textheight=788.14136pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
-* \topmargin=-100.72273pt
+* \textwidth=469.47049pt
+* \textheight=731.23584pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-72.26997pt
 * \headheight=28.45274pt
 * \headsep=28.45274pt
 * \topskip=12.0pt
@@ -8560,11 +8580,241 @@ urb_abaques_vapeur.tex)
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (./annexes/contenu_abaques_vapeur.tex [338
+ (./annexes/contenu_abaques_vapeur.tex
+LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
+(Font)              scaled to size 9.5pt on input line 2.
+LaTeX Font Info:    Calculating math sizes for size <9.5> on input line 40.
+LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
+(Font)              scaled to size 6.93495pt on input line 40.
+LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
+(Font)              scaled to size 5.22502pt on input line 40.
+LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
+(Font)              scaled to size 9.5pt on input line 40.
+LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
+(Font)              scaled to size 6.93495pt on input line 40.
+LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
+(Font)              scaled to size 5.22502pt on input line 40.
+LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
+(Font)              scaled to size 9.5pt on input line 40.
+LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
+(Font)              scaled to size 6.93495pt on input line 40.
+LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
+(Font)              scaled to size 5.22502pt on input line 40.
 
 
-] [339] [340] [341] [342]
-[343] [344] [345]) (./annexes/contenu_annexe_pression.tex
+LaTeX Font Warning: Font shape `T1/cmtt/m/n' in size <9.5> not available
+(Font)              size <9> substituted on input line 40.
+
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <9.5> not available
+(Font)              size <9> substituted on input line 40.
+
+
+Overfull \hbox (8.64554pt too wide) in alignment at lines 19--42
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+LaTeX Font Info:    Font shape `TS1/fxl/m/n' will be
+(Font)              scaled to size 9.5pt on input line 44.
+
+Overfull \hbox (8.64554pt too wide) in alignment at lines 42--48
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.64554pt too wide) in alignment at lines 48--53
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.64554pt too wide) in alignment at lines 53--56
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.64554pt too wide) in alignment at lines 56--79
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.64554pt too wide) in alignment at lines 79--102
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.64554pt too wide) in alignment at lines 102--123
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.64554pt too wide) in alignment at lines 123--146
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.64554pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[338
+
+
+]
+Overfull \hbox (8.64554pt too wide) in alignment at lines 146--168
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.64554pt too wide) in alignment at lines 168--190
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.64554pt too wide) in alignment at lines 190--212
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.64554pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[339]
+Overfull \hbox (8.64554pt too wide) in alignment at lines 212--234
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.64554pt too wide) in alignment at lines 234--256
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.64554pt too wide) in alignment at lines 256--279
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.64554pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[340]
+Overfull \hbox (8.64554pt too wide) in alignment at lines 279--296
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.64554pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[341]
+Overfull \hbox (5.98221pt too wide) in alignment at lines 318--329
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.98221pt too wide) in alignment at lines 329--335
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.98221pt too wide) in alignment at lines 335--340
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.98221pt too wide) in alignment at lines 340--344
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.98221pt too wide) in alignment at lines 344--446
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.98221pt too wide) in alignment at lines 446--546
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.98221pt too wide) in alignment at lines 546--646
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.98221pt too wide) in alignment at lines 646--721
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.98221pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[342]
+Overfull \hbox (5.98221pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[343]
+Overfull \hbox (5.12878pt too wide) in alignment at lines 739--748
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.12878pt too wide) in alignment at lines 748--754
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.12878pt too wide) in alignment at lines 754--759
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.12878pt too wide) in alignment at lines 759--763
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.12878pt too wide) in alignment at lines 763--813
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.12878pt too wide) in alignment at lines 813--883
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.12878pt too wide) in alignment at lines 883--923
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.12878pt too wide) in alignment at lines 923--1017
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.12878pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[344]
+Overfull \hbox (5.12878pt too wide) in alignment at lines 1017--1039
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.12878pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[345]) (./annexes/contenu_annexe_pression.tex
 LaTeX Font Info:    Font shape `T1/fxl/bx/sl' in size <12> not available
 (Font)              Font shape `T1/fxl/b/sl' tried instead on input line 4.
 LaTeX Font Info:    Font shape `T1/fxl/b/sl' will be
@@ -8655,11 +8905,11 @@ Package logreq Info: Writing requests to 'thermodynamique.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50974 strings out of 494957
- 860563 string characters out of 3179219
- 1516183 words of memory out of 3000000
- 49241 multiletter control sequences out of 15000+200000
- 1553752 words of font info for 2216 fonts, out of 3000000 for 9000
+ 51165 strings out of 494957
+ 864499 string characters out of 3179219
+ 1516380 words of memory out of 3000000
+ 49404 multiletter control sequences out of 15000+200000
+ 1701877 words of font info for 2310 fonts, out of 3000000 for 9000
  64 hyphenation exceptions out of 8191
  60i,24n,94p,1473b,1683s stack positions out of 5000i,500n,10000p,200000b,50000s
  </home/olivier/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk>{/usr/s
@@ -8687,9 +8937,9 @@ r/share/texlive/texmf-dist/fonts/type1/public/newtx/txsy5.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/newtx/txsy7.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/zapfding/uzdr.pfb>
-Output written on thermodynamique.pdf (370 pages, 28633394 bytes).
+Output written on thermodynamique.pdf (370 pages, 28634148 bytes).
 PDF statistics:
- 5649 PDF objects out of 6186 (max. 8388607)
+ 5651 PDF objects out of 6186 (max. 8388607)
  1607 named destinations out of 1728 (max. 500000)
- 187754 words of extra memory for PDF output out of 221844 (max. 10000000)
+ 197482 words of extra memory for PDF output out of 221844 (max. 10000000)
 

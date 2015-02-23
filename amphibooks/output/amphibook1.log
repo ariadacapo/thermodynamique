@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  22 FEB 2015 17:40
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.8.18)  23 FEB 2015 21:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2860,16 +2860,16 @@ File: french.mld 2006/03/21
 
 
 Package hyperref Warning: Option `pdftex' has already been used,
-(hyperref)                setting the option has no effect on input line 401.
+(hyperref)                setting the option has no effect on input line 400.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 401.
+Package hyperref Info: Option `colorlinks' set `true' on input line 400.
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 401.
+(hyperref)                setting the option has no effect on input line 400.
 
-Package hyperref Info: Option `unicode' set `false' on input line 401.
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 401.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 401.
+Package hyperref Info: Option `unicode' set `false' on input line 400.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 400.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 400.
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/hypcap.sty
 Package: hypcap 2011/02/16 v1.11 Adjusting the anchors of captions (HO)
 ) (./a/steer.tex)
@@ -14714,7 +14714,7 @@ Package minitoc Info: I0006
 
  (./a/contenu_abaques_vapeur.tex
 LaTeX Font Info:    Font shape `TS1/fxl/m/n' will be
-(Font)              scaled to size 12.0pt on input line 5.
+(Font)              scaled to size 12.0pt on input line 3.
  [343
 
 
@@ -14722,17 +14722,17 @@ LaTeX Font Info:    Font shape `TS1/fxl/m/n' will be
 ] [344] [345]
 
 Package longtable Warning: Column widths have changed
-(longtable)                in table .1 on input line 301.
+(longtable)                in table .1 on input line 296.
 
 [346] [347]
 
 Package longtable Warning: Column widths have changed
-(longtable)                in table .2 on input line 733.
+(longtable)                in table .2 on input line 721.
 
 [348] [349]
 
 Package longtable Warning: Column widths have changed
-(longtable)                in table .3 on input line 1062.
+(longtable)                in table .3 on input line 1039.
 
 [350])
 *geometry* verbose mode - [ newgeometry ] result:
@@ -15045,10 +15045,10 @@ Package logreq Info: Writing requests to 'amphibook.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
- 58361 strings out of 494957
- 1023496 string characters out of 3179219
- 1519442 words of memory out of 3000000
- 56506 multiletter control sequences out of 15000+200000
+ 58367 strings out of 494957
+ 1023586 string characters out of 3179219
+ 1519470 words of memory out of 3000000
+ 56512 multiletter control sequences out of 15000+200000
  1310416 words of font info for 1924 fonts, out of 3000000 for 9000
  64 hyphenation exceptions out of 8191
  101i,24n,109p,1467b,2495s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -15252,10 +15252,10 @@ s/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsy5.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/newtx/txsy7.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/txfonts/txsyc.pfb>
-Output written on amphibook.pdf (356 pages, 39762120 bytes).
+Output written on amphibook.pdf (356 pages, 39762526 bytes).
 PDF statistics:
- 5369 PDF objects out of 6186 (max. 8388607)
- 4331 compressed objects within 44 object streams
+ 5371 PDF objects out of 6186 (max. 8388607)
+ 4333 compressed objects within 44 object streams
  1542 named destinations out of 1728 (max. 500000)
  175468 words of extra memory for PDF output out of 184870 (max. 10000000)
 
