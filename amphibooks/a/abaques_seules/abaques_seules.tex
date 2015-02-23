@@ -1,0 +1,32 @@
+\documentclass[12pt,french]{book}
+
+\usepackage{mybook_thermo} 	% ’tsall we need
+
+\begin{document}
+
+	\newgeometry{top=1.5cm, bottom=1.5cm, left=3cm, right=3cm}%
+	\pagestyle{empty}
+			\vspace*{\stretch{1}}
+				\begin{center}\begin{Huge}
+				Abaques de vapeur
+				\end{Huge}\end{center}
+				
+				\input{contenu_blurb_abaques_vapeur}
+			\vspace*{\stretch{1}}	
+	\restoregeometry
+	\clearpage\restoredefaultfootoffset
+
+	\begin{spacing}{1.06}
+	\pagestyle{empty}
+	\newgeometry{top=1cm, bottom=1cm, left=1cm, right=1cm}
+	\titleformat{\subsection}{\normalsize\center}{\thesection.}{0.5em}{}[\vspace{-0.5cm}]
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		% LEZABAK LEZABAK
+			\input{contenu_abaques_vapeur}
+		% LEZABAK LEZABAK
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\pagestyle{fancy}
+	\end{spacing}%
+	\restoregeometry%
+
+\end{document}
