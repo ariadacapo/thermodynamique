@@ -8,11 +8,13 @@ Téléchargeable sur http://thermo.ariadacapo.net/ .
 
 ## Auteurs
 
-Auteur principal : <a href="http://www.ariadacapo.net/">Olivier Cleynen</a>.
+Auteur principal : <a href="http://www.ariadacapo.net/">Olivier Cleynen</a>. Ses plus vifs remerciements vont aux personnes suivantes pour leurs contributions :
 
-* Les sections 2.6, 3.6, 4.5 et 8.6 sur l’histoire de la thermodynamique sont écrites par Philippe Depondt.
-* De nombreuses illustrations d’auteurs divers sous licences compatibles sont intégrées à ce document ; leurs licence et auteur sont indiquées dans chaque cas.
-* D’innombrables améliorations ont été apportées par Antoine L., Hamassala David Dicko, Kévin R., Florianne B., Julien D., Anthony Jouny, Thomas N., Amazigh.L.H, Victor D., Daniel C.-N., Pierrick Degardin, Arthur A., Ulrick M., Solène J., Florian Paupert, Gatien Bovyn, Mehdi Z., Jean-Bernard Marcon, Luc Benoit, Christophe Masutti, Thibault Mattera, Mireille Bernex, Nicolas Horny, et Arnaud Gallant, qui sont vivement remerciés.
+* Philippe Depondt a écrit quatre sections historiques (1.6, 3.6, 4.5 et 8.6) ;
+* Nicolas Horny a effectué une relecture critique des aspects techniques et scientifiques de l’ouvrage ;
+* Christophe Masutti et Mireille Bernex ont particulièrement contribué à la finalisation de l’ouvrage ;
+* De nombreuses personnes, en corrigeant des erreurs ou proposant des améliorations, ont réduit l’entropie de ce document, parmi lequelles Antoine L., Hamassala David Dicko, Kévin R., Florianne B., Julien D., Anthony Jouny, Thomas N., Amazigh.L.H, Victor D., Daniel C.-N., Pierrick Degardin, Arthur A., Ulrick M., Solène J., Florian Paupert, Gatien Bovyn, Mehdi Z., Jean-Bernard Marcon, Luc Benoit, Christophe Masutti, Thibault Mattera, Mireille Bernex, Nicolas Horny, Arnaud Gallant et Olivier Kim Hak.
+* De nombreuses autres personnes, en publiant leurs photos et figures sous licence libre, ont contribué à illustrer le livre, sans y être toutefois associées.
 
 Ce document est édité par un groupe de travail Framabook en vue de sa publication sous forme de livre début 2015. Un wiki de travail est mis à disposition <a href="http://dokuwiki.framabook.org/doku.php?id=framabookthermodynamique">sur le wiki Framabook</a>.
 
