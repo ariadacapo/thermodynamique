@@ -9,9 +9,11 @@
 %\usepackage{showframe}			% pour débugger la maquette
 %\includeonly{10/chapitre_10}	% pour n’inclure qu’un chapitre
 
+\makeindex
+
 \begin{document}
 
-\frontmatter
+%\frontmatter % bug, fait planter \makeindex et pdflatex rentre en boucle sans fin sur le premier \index{}
 \include{annexes/trucsdudebut}
 
 \mainmatter

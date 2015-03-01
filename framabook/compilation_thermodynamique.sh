@@ -27,7 +27,7 @@
 
 # Rapatriement des fichiers temporaires utiles produits lors de la dernière compilation
 # (éviter si la compilation est reprise depuis zéro)
-	mv -v tmp/thermodynamique.aux tmp/thermodynamique.bbl tmp/thermodynamique.bcf tmp/thermodynamique.blg tmp/thermodynamique.maf tmp/thermodynamique.mtc* tmp/thermodynamique.toc ./
+	mv -v tmp/thermodynamique.aux tmp/thermodynamique.bbl tmp/thermodynamique.bcf tmp/thermodynamique.blg thermodynamique.idx thermodynamique.ilg thermodynamique.ind tmp/thermodynamique.maf tmp/thermodynamique.mtc* tmp/thermodynamique.toc ./
 	mv -v tmp/chapitre_1.aux 1/
 	mv -v tmp/chapitre_2.aux 2/
 	mv -v tmp/chapitre_3.aux 3/
@@ -57,12 +57,15 @@ pdflatex -file-line-error thermodynamique.tex | colout -t latex
 bibtex thermodynamique.aux
 biber thermodynamique
 
+# makeindex potasse l’index à partir des références \index{} du contenu
+makeindex thermodynamique
+
 # Deuxième compilation, permet de finaliser :
 # 	grande table des matières,
-# 	minitoc en début de chapitre,
 # 	références internes,
 #	abaques en annexe,
-# 	bibliographie.
+# 	bibliographie,
+#	index.
 echo "##############################################"
 echo "##############################################"
 echo "############# Compilation n°2 ################"
@@ -75,6 +78,7 @@ mv thermodynamique.log tmp/thermodynamique_compil1.log	# pour les curieux
 pdflatex -file-line-error thermodynamique.tex | colout -t latex
 bibtex thermodynamique.aux
 biber thermodynamique
+makeindex thermodynamique
 
 
 # Si le nombre de pages supplémentaires dans la compilation n°2 n’est pas pair,
@@ -93,7 +97,7 @@ pdflatex -file-line-error thermodynamique.tex | colout -t latex
 
 
 # on déplace les fichiers temporaires pour faire de la place.
-mv -v thermodynamique.aux thermodynamique.bbl thermodynamique.bcf thermodynamique.blg thermodynamique.log thermodynamique.maf thermodynamique.toc thermodynamique.run.xml thermodynamique.mtc* tmp/
+mv -v thermodynamique.aux thermodynamique.bbl thermodynamique.bcf thermodynamique.blg thermodynamique.idx thermodynamique.ilg thermodynamique.ind thermodynamique.log thermodynamique.maf thermodynamique.toc thermodynamique.run.xml thermodynamique.mtc* tmp/
 mv -v */*.aux tmp/
 
 echo "#"
