@@ -3,7 +3,7 @@ Thermodynamique de l’ingénieur
 
 Un livre de thermodynamique destiné à des étudiants en école d’ingénieurs.
 
-Téléchargeable sur http://thermo.ariadacapo.net/ .
+Téléchargeable sur http://thermodynamique.ninja/
 
 
 ## Auteurs
