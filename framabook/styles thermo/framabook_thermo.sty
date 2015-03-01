@@ -466,10 +466,16 @@
 	}\item \hand~}%
 	{\end{list}}
 
-% Custom style for "vocab".
-\newcommand{\vocab}[1]{\textsl{\textcolor{vocabcolor}{#1}}}
-\newcommand{\vocabe}[1]{\textit{\textcolor{vocabcolor}{#1}}} 	% meant for English vocab words
-\newcommand{\imp}[1]{\textit{\textcolor{vocabcolor}{#1}}}		% backwards compatibility
+% Custom style for vocabulary words
+\newcommand{\formatvocab}[1]{\textsl{\textcolor{vocabcolor}{#1}}}	% format of vocabulary words tagged with \vocab[]{} (see below)
+\newcommand{\vocabe}[1]{\formatvocab{#1}} 		% meant for English vocab words, same appearance as French but no indexation
+\NewDocumentCommand\vocab{om}{%						% usage: \vocab{vocabulaire} or \vocab[entrée à indexer]{vocabulaire}
+  \IfNoValueTF{#1}{%
+    \formatvocab{#2}\index{#2}% optional #1 is empty: we index the vocab term itself
+  }{%
+    \formatvocab{#2}\index{#1}% optional #1 is given: we index #1 and display the vocab term #2
+  }%
+}
 
 % Custom style for "boiboite" (used at the start of exercise sheets)
 \newenvironment{boiboite}{\begin{framed}\centering}{\end{framed}}
