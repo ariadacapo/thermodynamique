@@ -1,4 +1,5 @@
 \section{Pourquoi utiliser un système ouvert ?}
+\index{système!fermé vs. ouvert}
 
 	Dans de nombreuses machines, le fluide utilisé pour transférer de la chaleur et du travail circule de façon continue. Il peut alors être difficile d’identifier une quantité de masse fixe pour en faire un système fermé et y quantifier les transferts d’énergie. Par exemple, dans une tuyère de turboréacteur, l’air se détend et accélère continûment : à un instant donné il n’y a pas de volume identifiable qui aurait \emph{une} vitesse ou \emph{une} pression particulière.
 	
@@ -12,7 +13,7 @@
 		\thermoquotebegin{O}
 			Les difficultés de construction qui doivent être surmontées dans un moteur à gaz puissant, à cause des pressions énormes sur les pistons et de la dilatation des culasses (gare aux fissures !) sont bien connues. Une turbine à gaz sûre serait, de ce point de vue, une amélioration.
 		\thermoquoteend{Aurel Stodola, 1904}{\textit{Die Dampfturbinen}~\cite{stodola1904, stodola1905}\vspace{3em}} %handmade vspace
-		Nous appelons \vocab{système ouvert} un sujet d’étude arbitraire dont les frontières sont perméables à la masse (\cref{fig_systeme_ouvert}). Son volume peut changer, et il peut posséder plusieurs entrées et sorties, chacune avec un débit et une pression différents.
+		Nous appelons \vocab[système!ouvert, définition]{système ouvert} un sujet d’étude arbitraire dont les frontières sont perméables à la masse (\cref{fig_systeme_ouvert}). Son volume peut changer, et il peut posséder plusieurs entrées et sorties, chacune avec un débit et une pression différents.
 
 		\onlyframabook{\begin{figure}}
 		\onlyamphibook{\begin{figure}[htc]}%handmade pour poser la figure
@@ -29,7 +30,7 @@
 			\item ne possédant qu’une seule entrée et qu’une seule sortie ;
 			\item traversés par un débit de masse $\dot m$ constant (positif par convention).
 		\end{itemize}
-		Ces systèmes sont dits en \vocab{régime continu}\footnote{On dit aussi parfois \vocab{régime permanent} ou \vocab{stationnaire}.}.
+		Ces systèmes sont dits en \vocab{régime continu}\footnote{On dit aussi parfois \vocab{régime permanent} ou \vocab[régime stationnaire]{stationnaire}.}.\index{continu, régime}\index{permanent, régime}\index{stationnaire, régime}
 
 	\dontbreakpage %handmade, pour éviter un drôle de saut de page
 	\subsection{Conventions de signe}
@@ -51,7 +52,7 @@
 
 		Imaginons un système ouvert en régime continu contenant une petite pompe à eau. Pour insérer l’eau dans la pompe à une pression donnée, il faut fournir de l’énergie au système. Au contraire, pour repousser l’eau à l’extérieur (à une pression plus haute), le système doit fournir de l’énergie. Comment quantifier cette énergie ?
 
-		Considérons le cas d’un \vocab{élément de fluide} (c’est-à-dire une petite quantité de fluide en transit, de volume $V_\text{élément}$) et qui pénètre à l’intérieur de notre système à la pression $p_1$ (\cref{fig_travail_ecoulement}).
+		Considérons le cas d’un \vocab{élément de fluide}\index{fluide!élement de} (c’est-à-dire une petite quantité de fluide en transit, de volume $V_\text{élément}$) et qui pénètre à l’intérieur de notre système à la pression $p_1$ (\cref{fig_travail_ecoulement}).
 
 		\begin{figure}
 			\begin{center}
@@ -70,7 +71,7 @@
 			\item et \tab $V_\text{élément}$ 	\tab\tab est le volume de l’élément de fluide (\si{\metre\cubed}).
 		\end{equationterms}
 
-		Si un tel volume de fluide pénètre chaque seconde dans le système, alors ce dernier reçoit une puissance sous forme de travail, que nous nommons \vocab{puissance d’insertion}, $\dot{W}_\text{insertion}$. Nous l’exprimons parfois sous forme spécifique~(\S\ref{ch_valeurs_spécifiques}) :
+		Si un tel volume de fluide pénètre chaque seconde dans le système, alors ce dernier reçoit une puissance sous forme de travail, que nous nommons \vocab[puissance!d’insertion]{puissance d’insertion}, $\dot{W}_\text{insertion}$. Nous l’exprimons parfois sous forme spécifique~(\S\ref{ch_valeurs_spécifiques}) :
 		\begin{IEEEeqnarray}{rCl}
 			\dot{W}_\text{insertion} 	& = & p_1 \ \dot{V}_1 = \dot m_1 \ p_1 \ v_1 = \dot m \ p_1 \ v_1\\
 			w_\text{insertion} 			& = & p_1 \ v_1
@@ -85,7 +86,7 @@
 			\item et \tab $v_1$ 			\tab est le volume spécifique du fluide à l’entrée (\si{\metre\cubed\per\kilogram}).
 		\end{equationterms}
 
-		De la même façon, pour que le fluide sorte du système à son autre extrémité, il faut que le système fournisse continûment une puissance nommée \vocab{puissance d’extraction} :
+		De la même façon, pour que le fluide sorte du système à son autre extrémité, il faut que le système fournisse continûment une puissance nommée \vocab[puissance!d’extraction]{puissance d’extraction} :
 		\begin{IEEEeqnarray}{rCl}
 			\dot{W}_\text{extraction} 	& = & - p_2 \ \dot{V_2} = \dot{m}_2 \ p_2 \ v_2 = - \dot{m} \ p_2 \ v_2 \\
 			w_\text{extraction} 			& = & - p_2 \ v_2
@@ -94,7 +95,7 @@
 			\item où le débit sortant $\dot m_2$ (négatif) est exprimé en fonction du débit $\dot m$ traversant le système (toujours positif, \si{\kilogram\per\second}).
 		\end{equationterms}
 
-		La somme nette de ces deux puissances aux frontières est nommée \vocab{puissance d’écoulement}, $\dot{W}_\text{écoulement} \equiv \dot{W}_\text{insertion} + \dot{W}_\text{extraction}$ . Son signe dépend des conditions d’opération -- l’étudiant/e est encouragé/e à se représenter et à formuler les conditions dans lesquelles la puissance d’écoulement peut être négative, nulle, ou positive.
+		La somme nette de ces deux puissances aux frontières est nommée \vocab[puissance!d’écoulement]{puissance d’écoulement}, $\dot{W}_\text{écoulement} \equiv \dot{W}_\text{insertion} + \dot{W}_\text{extraction}$ . Son signe dépend des conditions d’opération -- l’étudiant/e est encouragé/e à se représenter et à formuler les conditions dans lesquelles la puissance d’écoulement peut être négative, nulle, ou positive.
 
 
 	\subsection{Bilan énergétique}
@@ -147,8 +148,6 @@
 		\end{equationterms}
 		
 		Les équations~\ref{eq_grande_sfee} et~\ref{eq_petite_sfee_deltas} sont extrêmement utiles en thermodynamique, puisqu’elles permettent de quantifier par déduction les puissances en jeu dans les écoulements. Elles nous permettent notamment de prédire les propriétés du fluide à la sortie d’un dispositif dont on connaît la puissance mécanique et les émissions de chaleur. Par exemple, on peut connaître l’énergie restante dans l’air à la sortie d’une turbine dont on connaît la puissance.
-
-		%Cette équation est parfois nommée \vocab{bilan énergétique en régime continu}. Pour éviter l’utilisation d’un acronyme malheureux, nous emprunterons à la littérature anglophone : \vocab{Steady Flow Energy Equation}, ou \textit{SFEE}.
 		
 		\begin{anexample}
 			Un compresseur de turboréacteur admet \SI{1,5}{\kilogram\per\second} d’air à une pression de~\SI{0,8}{\bar}, énergie interne de~\SI{192,5}{\kilo\joule\per\kilogram} et volume spécifique de~\SI{0,96}{\metre\cubed\per\kilogram}. Il compresse l’air jusqu’à \SI{30}{\bar}, le restituant avec une énergie interne de~\SI{542,3}{\kilo\joule\per\kilogram} et un volume spécifique de~\SI{6,19e-2}{\metre\cubed\per\kilogram}. La vitesse et l’altitude de l’air sont inchangés.
@@ -171,7 +170,7 @@
 			\footnote{Nous verrons dans le prochain chapitre que dans le cas d’un gaz parfait, ils sont tous deux proportionnels à la température.}%
 		. Pour simplifier leur utilisation dans les calculs, ils sont souvent regroupés en un seul terme.
 
-		Nous nommons la somme des termes $u$ et $p v$ l’\vocab{enthalpie spécifique}, et lui attribuons le symbole~$h$ :
+		Nous nommons la somme des termes $u$ et $p v$ l’\vocab[enthalpie!spécifique]]{enthalpie spécifique}\index{spécifique!enthalpie}, et lui attribuons le symbole~$h$ :
 		\begin{equation}
 			h \equiv u + p \ v
 			\label{def_enthalpie}

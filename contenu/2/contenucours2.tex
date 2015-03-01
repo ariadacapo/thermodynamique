@@ -2,8 +2,8 @@
 
 		À partir de maintenant, nous voulons décrire et quantifier les transferts d’énergie dans les fluides. Nous pouvons adopter deux points de vue différents pour observer le fluide :
 		\begin{itemize}
-			\item Soit nous «~découpons~» un petit morceau de masse, que nous suivons de près lorsqu’il évolue, puis nous quantifions l’énergie qui lui est transférée : c’est ce que nous appelons un \vocab{système fermé} ;
-			\item Soit nous choisissons un morceau de volume fixe, qui est \emph{traversé} en permanence par un débit de masse, puis nous quantifions les transferts d’énergie vers le volume : c’est ce que nous appelons un \vocab{système ouvert}.
+			\item Soit nous «~découpons~» un petit morceau de masse, que nous suivons de près lorsqu’il évolue, puis nous quantifions l’énergie qui lui est transférée : c’est ce que nous appelons un \vocab[système!fermé vs. ouvert]{système fermé} ;
+			\item Soit nous choisissons un morceau de volume fixe, qui est \emph{traversé} en permanence par un débit de masse, puis nous quantifions les transferts d’énergie vers le volume : c’est ce que nous appelons un \vocab[système!fermé vs. ouvert]{système ouvert}.
 		\end{itemize}
 		
 		Bien sûr, ces deux méthodes sont équivalentes : elles vont produire les mêmes résultats. Le choix de l’une ou l’autre rendra simplement l’analyse et la quantification des transferts plus aisée.
@@ -38,7 +38,7 @@
 
 	\subsection{Le système fermé}
 
-			Nous appelons \vocab{système fermé} un sujet d’étude arbitraire dont les frontières sont imperméables à la masse : un ensemble donné de particules, de masse fixe. Toutes les propriétés de cet ensemble (pression, température, volume, etc.) peuvent être amenées à changer, mais il s’agit toujours des mêmes molécules, non mélangées à d’autres. Par exemple, un gaz prisonnier dans un cylindre et comprimé par un piston (\cref{fig_piston_m_cste}) est parfaitement décrit avec un système fermé.
+			Nous appelons \vocab[système!fermé, définition]{système fermé} un sujet d’étude arbitraire dont les frontières sont imperméables à la masse : un ensemble donné de particules, de masse fixe. Toutes les propriétés de cet ensemble (pression, température, volume, etc.) peuvent être amenées à changer, mais il s’agit toujours des mêmes molécules, non mélangées à d’autres. Par exemple, un gaz prisonnier dans un cylindre et comprimé par un piston (\cref{fig_piston_m_cste}) est parfaitement décrit avec un système fermé.
 
 		\onlyframabook{\begin{figure}[tbh]}%handmade pour éviter de trop gros blancs
 		\onlyamphibook{\begin{figure}[tbh!]}%handmade là il faut y aller carrément!
@@ -79,7 +79,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 	\thermoquotebegin{O}
 		Appelons ainsi $Q$ la quantité totale de chaleur qui doit être impartie à un corps pendant son passage, d’une manière donnée, depuis une condition à une autre, (toute chaleur prélevée au corps étant comptée comme une quantité négative), alors nous la divisons en trois parties, parmi lesquelles la première est employée à augmenter la chaleur existant véritablement dans le corps, la seconde à produire le travail intérieur et la troisième à produire le travail extérieur. Il va de la seconde partie ce que nous avons déjà dit de la première : qu’elle est indépendante du chemin suivi dans le passage du corps d’un état à un autre, et nous pouvons en conséquence représenter ces deux parties ensemble par une fonction $U$, qui même si nous ne pouvons mieux la définir, nous savons à l’avance au moins être entièrement déterminée par les états initial et final du corps.
 	\thermoquoteend{Rudolf Clausius, 1854}{\textit{Über eine veränderte Form des zweiten Hauptsatzes der mechanischen Wärmetheorie~\cite{clausius1854}}\vspace{1em}} %handmade vspace
-	Le premier principe stipule que l’énergie est indestructible (\S\ref{ch_premier_principe}). Si on fournit \SI{100}{\joule} de travail à un système fermé et qu’il perd \SI{80}{\joule} sous forme de chaleur, c’est donc que «~son~» énergie a augmenté de~\SI{20}{\joule}. Nous nommons cette variation la \vocab{variation d’énergie interne}, $\Delta U$.
+	Le premier principe stipule que l’énergie est indestructible (\S\ref{ch_premier_principe}). Si on fournit \SI{100}{\joule} de travail à un système fermé et qu’il perd \SI{80}{\joule} sous forme de chaleur, c’est donc que «~son~» énergie a augmenté de~\SI{20}{\joule}. Nous nommons cette variation la \vocab[énergie!interne, variation de]{variation d’énergie interne}, $\Delta U$.
 	
 	Sous forme d’équation, le premier principe dans un système fermé se traduit par l’équation :
 	\begin{equation}
@@ -110,7 +110,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 		\item et \tab $q_{1 \to 2}$ 	\tab\tab est la chaleur spécifique reçue par le système (\si{\joule\per\kilogram}).
 	\end{equationterms}
 	
-	Nous pouvons encore ré-écrire cette \cref{eq_premier_principe_sf_min} pour l’exprimer sous sa \vocab{forme différentielle} :
+	Nous pouvons encore ré-écrire cette \cref{eq_premier_principe_sf_min} pour l’exprimer sous sa \vocab[principes de la thermodynamique!premier, forme différentielle]{forme différentielle} :
 	\begin{IEEEeqnarray}{rCl}
 		\diff q + \diff w	& = & \delta u
 	\label{eq_premier_principe_sf_diff}
@@ -228,7 +228,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 
 		Pour pouvoir quantifier l’énergie stockée ou fournie par le système, il nous suffira donc de connaître la relation entre $p$ et $V$. Dans le cas présent, cette fonction $p_{(V)}$ est directement liée à la caractéristique $F_{(l)}$ du ressort. La dureté du ressort et sa géométrie (à spires régulières ou progressives) détermineront au final la quantité de travail stockée et fournie par le système.
 		
-		Un outil absolument formidable pour comprendre et analyser les transferts de chaleur est le \vocab{diagramme pression-volume}. Dans le cas où l’on modélise le fluide par un ressort, le travail peut être visualisé par l’aire sous la courbe d’une évolution (\cref{fig_p-v_ressort}).		
+		Un outil absolument formidable pour comprendre et analyser les transferts de chaleur est le \vocab{diagramme pression-volume}.\index{pression-volume!diagramme} Dans le cas où l’on modélise le fluide par un ressort, le travail peut être visualisé par l’aire sous la courbe d’une évolution (\cref{fig_p-v_ressort}).		
 
 		\begin{figure}
 			\begin{center}
@@ -326,7 +326,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 
 		Lorsqu’on apporte de la chaleur au fluide pendant qu’on le comprime, on «~durcit~» son comportement, et la pression augmente plus rapidement (\cref{fig_p-v_ajout_retrait_chaleur}). À~l’inverse, lorsqu’on lui prélève de la chaleur pendant la compression, la pression augmente moins rapidement. Ces transferts de chaleur font donc varier la quantité de travail à fournir pour comprimer le fluide entre deux volumes donnés.
 		
-		Le cas où l’on apporte pas de chaleur est nommé \vocab{adiabatique} : $Q = 0$. Attention : adiabatique ne veut pas dire «~à température constante~». Lorsque l’on comprime un fluide sans apport de chaleur, sa température augmente. Dans un moteur diesel, par exemple, l’air dans les cylindres peut atteindre \SI{900}{\degreeCelsius} avant la combustion -- ce qui est désirable, comme nous le verrons au \courssept.
+		Le cas où l’on apporte pas de chaleur est nommé \vocab[évolutions!adiabatiques]{adiabatique}\index{adiabatiques, évolutions} : $Q = 0$. Attention : adiabatique ne veut pas dire «~à température constante~». Lorsque l’on comprime un fluide sans apport de chaleur, sa température augmente. Dans un moteur diesel, par exemple, l’air dans les cylindres peut atteindre \SI{900}{\degreeCelsius} avant la combustion -- ce qui est désirable, comme nous le verrons au \courssept.
 
 		\begin{figure}
 			\begin{center}
