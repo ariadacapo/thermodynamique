@@ -1,16 +1,16 @@
 [1] Config.pm:300> INFO - This is Biber 0.9.9
 [1] Config.pm:303> INFO - Logfile is 'thermodynamique.blg'
-[2] biber:145> INFO - === Sun Mar  1, 2015, 17:12:05
-[2] Biber.pm:271> INFO - Reading 'thermodynamique.bcf'
-[44] Biber.pm:586> INFO - Found 49 citekeys in bib section 0
-[62] Biber.pm:2585> INFO - Processing bib section 0
-[106] Biber.pm:2677> INFO - Looking for bibtex format file 'annexes/thermobib.bib' for section 0
-[109] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
-[149] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
-[150] bibtex.pm:704> INFO - Found BibTeX data source 'annexes/thermobib.bib'
-[453] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
-[453] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
-[631] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
-[631] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
-[730] bbl.pm:427> INFO - Writing 'thermodynamique.bbl' with encoding 'UTF-8'
-[735] bbl.pm:498> INFO - Output to thermodynamique.bbl
+[2] biber:145> INFO - === Mon Mar  2, 2015, 18:40:00
+[3] Biber.pm:271> INFO - Reading 'thermodynamique.bcf'
+[30] Biber.pm:586> INFO - Found 49 citekeys in bib section 0
+[41] Biber.pm:2585> INFO - Processing bib section 0
+[63] Biber.pm:2677> INFO - Looking for bibtex format file 'annexes/thermobib.bib' for section 0
+[65] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
+[86] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
+[87] bibtex.pm:704> INFO - Found BibTeX data source 'annexes/thermobib.bib'
+[242] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
+[242] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
+[345] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
+[345] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
+[400] bbl.pm:427> INFO - Writing 'thermodynamique.bbl' with encoding 'UTF-8'
+[403] bbl.pm:498> INFO - Output to thermodynamique.bbl
