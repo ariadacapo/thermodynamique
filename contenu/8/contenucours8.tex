@@ -42,7 +42,7 @@
 	\subsection{L’entropie est une propriété}
 	\label{ch_entropie_propriete}
 	
-		Commençons par admettre le fait que l’entropie est une \vocab{propriété} physique\footnote{On dit aussi \vocab{variable physique} ou \vocab{variable thermodynamique}.}, c’est-à-dire quelque chose qui caractérise l’état d’un système. Dit autrement : si l’on considère une portion de l’univers à un moment donné (un système), nous trouvons que ce système a une masse, un volume, une température : ce sont ses propriétés, des descriptions absolues de son état. L’entropie est une de ces propriétés.
+		Commençons par admettre le fait que l’entropie est une \vocab[propriété physique]{propriété} physique\footnote{On dit aussi \vocab{variable physique} ou \vocab{variable thermodynamique}.}, c’est-à-dire quelque chose qui caractérise l’état d’un système. Dit autrement : si l’on considère une portion de l’univers à un moment donné (un système), nous trouvons que ce système a une masse, un volume, une température : ce sont ses propriétés, des descriptions absolues de son état. L’entropie est une de ces propriétés.
 		
 		Par contraste, nous pourrions dire que la chaleur, le travail ou le courant électrique ne sont pas des propriétés : ce ne sont pas des quantités qui décrivent un objet, mais plutôt un transfert entre deux objets.
 
@@ -86,7 +86,7 @@
 			\end{itemize}
 
 
-		L’unité de l’entropie, $S$, est le \si{\joule\per\kelvin} (\si{joule} par \si{kelvin}) ; et de façon correspondante, on définit l’\vocab{entropie spécifique} $s$ :
+		L’unité de l’entropie, $S$, est le \si{\joule\per\kelvin} (\si{joule} par \si{kelvin}) ; et de façon correspondante, on définit l’\vocab[entropie!spécifique]{entropie spécifique}\index{spécifique!entropie} $s$ :
 		\begin{equation}
 			s \equiv \frac{S}{m}
 		\end{equation}
@@ -200,7 +200,7 @@
 				\item où l’indice \textit{rév.} spécifie que l’intégration se fait le long d’un chemin réversible.
 			\end{equationterms}
 
-		Alors, nous allons pouvoir représenter les évolutions sur un \vocab{diagramme température-entropie}. L’aire sous la courbe d’une évolution représentera la chaleur transmise si l’évolution est réversible, mais pas si elle est irréversible, comme montré en \cref{fig_ts_reversible_irreversible}.
+		Alors, nous allons pouvoir représenter les évolutions sur un \vocab[diagramme!température-entropie]{diagramme température-entropie}\index{température-entropie, diagramme}. L’aire sous la courbe d’une évolution représentera la chaleur transmise si l’évolution est réversible, mais pas si elle est irréversible, comme montré en \cref{fig_ts_reversible_irreversible}.
 
 		\begin{figure}
 			\begin{center}
@@ -215,7 +215,7 @@
 	
 		Après six chapitres de bons et loyaux services, nous rangeons le diagramme pression-volume sur l’étagère, car il est temps de mettre à profit notre nouvel outil : le diagramme température-entropie. Même s’il est un peu plus abstrait, le diagramme $T-s$ est très utile pour décrire ce qui se passe à l’intérieur des machines car il est facile à tracer et il nous permet de visualiser directement \emph{l’irréversibilité}, qui est toujours indésirable pour l’ingénieur/e.
 
-		Lorsque le fluide reçoit ou fournit du travail de façon adiabatique réversible, alors $\Delta s = \int \frac{\diff q}{T} = 0$ puisque l’évolution est réversible et que $\diff q = 0$. Une transformation adiabatique réversible se fait donc à entropie constante --\ elle est iso-entropique, ce que nous appelons \vocab{isentropique}. Nous la représenterons ainsi par un trajet vertical sur les diagrammes température-entropie (\cref{fig_ts_basics}).
+		Lorsque le fluide reçoit ou fournit du travail de façon adiabatique réversible, alors $\Delta s = \int \frac{\diff q}{T} = 0$ puisque l’évolution est réversible et que $\diff q = 0$. Une transformation adiabatique réversible se fait donc à entropie constante --\ elle est iso-entropique, ce que nous appelons \vocab[évolutions!isentropiques]{isentropique}\index{isentropiques, évolutions}. Nous la représenterons ainsi par un trajet vertical sur les diagrammes température-entropie (\cref{fig_ts_basics}).
 
 		\begin{figure}
 			\begin{center}
@@ -233,7 +233,7 @@
 		\clearfloats
 		Notons aussi que lorsqu’un fluide parcourt un cycle complet, la température de diminution de l'entropie peut être inférieure à la température de son d'augmentation (tout comme pour le volume avec la pression). Le transfert net de chaleur est alors négatif : le fluide a \emph{absorbé} de la chaleur qui aura été transformée en travail. En suivant le circuit inverse, le fluide sera source de chaleur : c’est le principe du réfrigérateur (\S\ref{ch_principe_fonctionnement_réfrigérateur}).
 		
-		Lorsque les évolutions sont réversibles, cette chaleur nette est représentée par l’aire enclose par le trajet effectué par le fludie sur un diagramme température-entropie (\cref{fig_ts_cycle}).
+		Lorsque les évolutions sont réversibles, cette chaleur nette est représentée par l’aire enclose par le trajet effectué par le fluide sur un diagramme température-entropie (\cref{fig_ts_cycle}).
 
 		\begin{figure}
 			\begin{center}
@@ -612,9 +612,9 @@
 
 		Il y a trois possibilités :
 			\begin{itemize}
-				\item Si les deux intégrales sont égales, alors la transformation réelle est \vocab{réversible} : elle peut avoir lieu dans les deux sens.
-				\item Si $\int \left(\frac{\diff q}{T}\right)_\text{chemin réel} < \int \left(\frac{\diff q}{T}\right)_\text{rév.}$, alors la transformation réelle est \vocab{irréversible}. Elle ne peut avoir lieu que depuis A vers B.
-				\item Si $\int \left(\frac{\diff q}{T}\right)_\text{chemin réel} > \int \left(\frac{\diff q}{T}\right)_\text{rév.}$, alors la transformation «~réelle~» décrite est \vocab{impossible}. Elle ne peut avoir lieu que dans le sens inverse (B $\to$ A).
+				\item Si les deux intégrales sont égales, alors la transformation réelle est \vocab[réversibilité]{réversible} : elle peut avoir lieu dans les deux sens.
+				\item Si $\int \left(\frac{\diff q}{T}\right)_\text{chemin réel} < \int \left(\frac{\diff q}{T}\right)_\text{rév.}$, alors la transformation réelle est \vocab[réversibilité]{irréversible}. Elle ne peut avoir lieu que depuis A vers B.
+				\item Si $\int \left(\frac{\diff q}{T}\right)_\text{chemin réel} > \int \left(\frac{\diff q}{T}\right)_\text{rév.}$, alors la transformation «~réelle~» décrite est \vocab[impossibilité (physique)]{impossible}. Elle ne peut avoir lieu que dans le sens inverse (B $\to$ A).
 			\end{itemize}
 		
 		Nous pouvons donc, au moins pour quelques cas simples, retrouver mathématiquement le sens du temps -- une subtilité que l’on n’attendait pas de la part d’ingénieurs préoccupés par leur consommation de combustible !
@@ -683,7 +683,7 @@
 				
 		Les exemples que nous avons étudiés dans ce chapitre pour déterminer le sens des transformations sont très académiques, toutefois la démarche reste valide pour toute transformation : une pierre jetée dans un étang, une assiette qui se casse en tombant, etc. Si nous revenons aux trois photos de la~\cref{fig_water_jump}, nous pourrions en retrouver l’ordre en déterminant les états initial et final de l’eau autour de la plongeuse, et en comparant $\Delta s$ à l’intégrale $\int \left(\frac{\diff q}{T}\right)_\text{chemin réel}$ réalisée pendant l’entrée dans l’eau.
 		
-		C’est ce désir de retrouver l’ordre absolu dans lequel se succèdent les états, c’est-à-dire le sens du temps, qui a mené le physicien allemand \wf{Rudolf Clausius} jusqu’à proposer le concept d’\vocab{entropie} en 1865 dans une publication magistrale --\ \textit{Über verschiedene für die Anwendung bequeme Formen der Hauptgleichungen der mechanischen Wärmetheorie}~\cite{clausius1865,clausius1867en,clausius1868fr2}. Concluant une décennie de travail autour de la grandeur $\frac{Q}{T}$, il y formalise un concept que ses condisciples français \wf{Ferdinand Reech} et écossais \wf{William Rankine} n’avaient qu’effleuré~\cite{truesdell1980}, et y rassemble l’ensemble des connaissances contemporaines de sa discipline.
+		C’est ce désir de retrouver l’ordre absolu dans lequel se succèdent les états, c’est-à-dire le sens du temps, qui a mené le physicien allemand \wf{Rudolf Clausius} jusqu’à proposer le concept d’\vocab[entropie!création du concept]{entropie} en 1865 dans une publication magistrale --\ \textit{Über verschiedene für die Anwendung bequeme Formen der Hauptgleichungen der mechanischen Wärmetheorie}~\cite{clausius1865,clausius1867en,clausius1868fr2}. Concluant une décennie de travail autour de la grandeur $\frac{Q}{T}$, il y formalise un concept que ses condisciples français \wf{Ferdinand Reech} et écossais \wf{William Rankine} n’avaient qu’effleuré~\cite{truesdell1980}, et y rassemble l’ensemble des connaissances contemporaines de sa discipline.
 		
 		\onlyamphibook{\thermoquotebegin{O}}
 		\onlyframabook{\thermoquotetopbegin{O}}
@@ -691,7 +691,7 @@
 		\thermoquoteend{Rudolf Clausius, 1865~\cite{clausius1865,clausius1867en,clausius1868fr2}}{\onlyframabook{\vspace{-1em}}\onlyamphibook{\vspace{-1cm}}}%handmade
 		Clausius forge le mot \textit{en-tropie} à partir du grec ancien \textit{tropè} \textgreek{τροπή} (révolution, changement), ce qui, couplé à son ton autoritaire, ne fait rien pour gagner l’enthousiasme de ses contemporains. Mais le concept est si puissant, et l’\cref{eq_augmentation_entropie} si simple, qu’ils sont universellement acceptés.
 		
-		Ainsi, après un siècle d’efforts, la physique de la chaleur a rattrapé la technologie des moteurs. Nous voilà capables de décrire entièrement et de façon quantitative le comportement des corps sans devoir nous pencher sur celui de leurs constituants, tels que les molécules, atomes ou particules sub-atomiques : l’entropie était la dernière pièce manquante de ce que nous appelons aujourd’hui la \vocab{thermodynamique macroscopique}.
+		Ainsi, après un siècle d’efforts, la physique de la chaleur a rattrapé la technologie des moteurs. Nous voilà capables de décrire entièrement et de façon quantitative le comportement des corps sans devoir nous pencher sur celui de leurs constituants, tels que les molécules, atomes ou particules sub-atomiques : l’entropie était la dernière pièce manquante de ce que nous appelons aujourd’hui la \vocab[macroscopique, échelle]{thermodynamique macroscopique}.
 		
 		
 	\subsection{L’entropie à l’échelle microscopique}
@@ -699,7 +699,7 @@
 	
 		Passé Clausius, le développement de la thermodynamique n’intéresse plus guère les ingénieurs, mais les physiciens ne sont pas rassasiés. Il nous reste en effet un problème, car si nous avons bien \emph{décrit} le phénomène d’irréversibilité, nous n’avons toujours pas \emph{expliqué} son origine à l’intérieur de corps constitués de particules dont les évolutions (un incessant bourdonnement de collisions, à base de forces d’attraction et de répulsion), \emph{elles}, sont parfaitement réversibles.
 		
-		Il ne faudra que dix ans pour que la réponse soit formalisée : l’autrichien \wf{Ludwig Boltzmann} propose en 1875 une \vocab{définition microscopique} de l’entropie :
+		Il ne faudra que dix ans pour que la réponse soit formalisée : l’autrichien \wf{Ludwig Boltzmann} propose en 1875 une \vocab[entropie!définition microscopique]{définition microscopique}\index{microscopique, échelle}\index{entropie!selon Boltzmann} de l’entropie :
 			\begin{equation}
 				S \equiv k \ln \lambda
 			\end{equation}
@@ -716,7 +716,7 @@ Ainsi, avec la définition technique ci-dessus du désordre, nous pouvons compre
 		
 		À l’échelle macroscopique, nous avions décrit le second principe comme une impossibilité (\S\ref{ch_second_principe_enonce}) : un objet de température homogène ne peut pas voir spontanément une extrémité se refroidir et l’autre se réchauffer. Selon Boltzmann, un tel événement n’est pas strictement impossible, mais seulement très improbable. L’état où les molécules les plus rapides sont toutes rassemblées à une extrémité, et les plus lentes à l’autre, est bien moins probable (entropie plus faible) qu’un état où elles sont réparties de façon homogène (entropie plus grande).
 		
-		Cette approche a non seulement le mérite de raccrocher notre discipline avec la théorie atomique --\ et nous parlerons dès lors de \vocab{thermodynamique microscopique} et \vocab{statistique}\ -- mais elle va aussi ouvrir la porte de la théorie de l’information. En effet, la résolution et la précision avec lesquelles on évalue l’état d’un système affectent le nombre de configurations possibles que l’on peut lui attribuer. Voici le concept de l’\vocab{information} rattaché à d’autres propriétés physiques : un résultat impressionnant pour une discipline qui ne visait qu’à explorer ce que voulait dire~«~chaud~» !
+		Cette approche a non seulement le mérite de raccrocher notre discipline avec la théorie atomique --\ et nous parlerons dès lors de \vocab[microscopique, échelle]{thermodynamique microscopique} et \vocab[thermodynamique statistique]{statistique}\ -- mais elle va aussi ouvrir la porte de la théorie de l’information. En effet, la résolution et la précision avec lesquelles on évalue l’état d’un système affectent le nombre de configurations possibles que l’on peut lui attribuer. Voici le concept de l’\vocab[information (physique)]{information} rattaché à d’autres propriétés physiques : un résultat impressionnant pour une discipline qui ne visait qu’à explorer ce que voulait dire~«~chaud~» !
 		
 	\subsection{L’entropie et l’univers}
 	
