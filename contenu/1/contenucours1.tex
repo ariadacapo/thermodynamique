@@ -21,6 +21,7 @@
 		\index{énergie!transformations}
 		Ainsi, l’énergie est surtout un concept que nous utilisons pour lire les transformations que nous observons dans le monde : nous pourrions dire que c’est «~ce qui ne change pas lorsque les choses se transforment~». Pour l’ingénieur, elle représente surtout la capacité d’un corps à en mettre un autre en mouvement, de façon unifiée (par exemple avec un déplacement) ou désordonnée (par exemple avec une excitation chaotique).
 
+		\index{Joule!unité}
 		Nous mesurons l’énergie en \si{joules} (\si{\joule}).
 	
 	\subsection{Le premier principe}
@@ -45,8 +46,8 @@
 	
 	
 	\subsection{Formes d’énergie}
+	\index{énergie!formes}
 	
-		\index{énergie!formes}
 		Les différentes formes d’énergie que nous identifions usuellement ont été mises au jour une à une au cours de l’histoire de la physique.
 		
 		L’\vocab[énergie!cinétique]{énergie cinétique} est possédée par un corps du fait de sa vitesse (\textit{cf.} \cref{ch_energie_mecanique} plus bas). C’est la forme d’énergie la plus facile à identifier. Elle a longtemps été nommée \textit{vis viva} («~force vive~»).
@@ -58,9 +59,10 @@
 		\index{énergie!masse}\index{énergie!rayonnante}
 		Au cours du \textsc{xx}\ieme siècle, on a découvert au niveau sub-atomique que la masse était aussi une forme d’énergie (ainsi le fameux $E = m c^2$ lie masse et énergie). L’énergie rayonnante (électromagnétique) est également identifiable au niveau sub-atomique. Ces formes d’énergie ne nous concernent pas dans cet ouvrage.
 
-		En thermodynamique, nous allons nous concentrer sur trois formes d’énergie, identifiables à l’échelle macroscopique :\index{macroscopique, échelle}
+		\index{énergie!interne}\index{chaleur}\index{travail}\index{macroscopique, échelle}
+		En thermodynamique, nous allons nous concentrer sur trois formes d’énergie, identifiables à l’échelle macroscopique :
 		
-		\begin{description}\index{énergie!interne}\index{chaleur}\index{travail}
+		\begin{description}
 			\item [L’énergie interne] notée $U$, un concept que nous utilisons pour regrouper toute l’énergie cinétique et potentielle des molécules d’un corps. Elle représente la quantité totale d’énergie mécanique stockée à l’intérieur d’un objet ;
 			\item [La chaleur] notée $Q$, qui est un transfert représentant la transmission d’énergie cinétique de manière chaotique d’un corps vers un autre ;
 			\item [Le travail] noté $W$, qui est un transfert représentant la transmission d’énergie de manière cohérente d’un corps vers un autre.
@@ -86,7 +88,8 @@
 			\label{fig_energie_puissance}
 		\end{figure}
 		
-		D’autres unités sont souvent utilisées, comme le cheval-vapeur\index{cheval-vapeur (unité)}%
+		\index{cheval-vapeur (unité)}
+		D’autres unités sont souvent utilisées, comme le cheval-vapeur%
 			\footnote{Un cheval-vapeur correspond approximativement à la puissance que peut fournir sous forme de travail un cheval puissant en plein effort. Nous devons la création de cette unité à… James Watt (\S\ref{ch_cheval_vapeur}). Attention, il existe plusieurs définitions incompatibles de l’unité \textit{cheval}. L’\cref{eq_equivalence_cheval} correspond à la norme \textsc{din} 66036 utilisée dans l’industrie automobile.} :
 		\begin{equation}
 			\SI{1}{ch_M} = \SI{735,5}{\watt}
@@ -99,7 +102,7 @@
 
 	\subsection{L’énergie et la puissance massiques}
 	\label{ch_valeurs_spécifiques}
-	\index{énergie!massique}\index{puissance!massique}\index{massique, énergie}\index{massique, puissance}\index{énergie!spécifique}\index{puissance!spécifique}\index{spécifique, énergie}\index{spécifique, puissance}
+	\index{énergie!massique}\index{puissance!massique}\index{massique!énergie}\index{massique!puissance}\index{énergie!spécifique}\index{puissance!spécifique}\index{spécifique!énergie}\index{spécifique!puissance}
 
 		Dans de nombreuses applications en thermodynamique, il est intéressant de quantifier les transferts énergétiques indépendamment de la quantité de masse à l’intérieur de la machine.
 
@@ -109,7 +112,8 @@
 
 		\begin{description}
 		
-			\item[L’énergie spécifique]\index{énergie!spécifique} (parfois appelée énergie massique), se mesure en \si{joules} \si{par} \si{kilogramme}~(\si{\joule\per\kilogram}) :
+			\index{énergie!spécifique}
+			\item[L’énergie spécifique] (parfois appelée énergie massique), se mesure en \si{joules} \si{par} \si{kilogramme}~(\si{\joule\per\kilogram}) :
 				\begin{equation}
 					e \equiv \frac{E}{m}
 				\label{def_énergie_spécifique}
@@ -126,7 +130,8 @@
 					\begin{answer}Il faudra $Q_{\text{comb.}1} = m_1 q_{\text{comb.}} = \num{0,5} \times \num{300e3} = \num{150e3} = \SI{150}{\kilo\joule}$ dans le premier cas, et $Q_{\text{comb.}2} = m_2 q_{\text{comb.}} = \SI{300}{\kilo\joule}$ dans le second.\end{answer}
 					\end{anexample}
 
-		\item[La puissance spécifique]\index{puissance!spécifique} (parfois également appelée puissance massique), a les mê\-mes unités : on divise des \si{watts} (\si{joules} \si{par} \si{seconde}) par un débit de masse (\si{kilos} \si{par} \si{seconde}).
+		\index{puissance!spécifique}
+		\item[La puissance spécifique] (parfois également appelée puissance massique), a les mê\-mes unités : on divise des \si{watts} (\si{joules} \si{par} \si{seconde}) par un débit de masse (\si{kilos} \si{par} \si{seconde}).
 			\begin{equation}
 				e \equiv \frac{\dot{E}}{\dot{m}}
 				\label{def_puissance_spécifique}
@@ -245,7 +250,8 @@
 		\item et \tab $\diff l$ 		\tab est la variation infinitésimale de la longueur de l’objet considéré (\si{\metre}).
 	\end{equationterms}
 
-	Sur un graphique représentant la force en fonction de la distance\index{diagramme!force-distance}\index{force-distance, diagramme}, ce travail $W_\fromatob$ est représenté par la surface sous la courbe de A à B (\cref{fig_force-déplacement-aire}). La forme de la courbe, c’est-à-dire la relation $F_{(l)}$ entre $F$ et $l$ au fur et à mesure de l’évolution, déterminera la quantité $W_\fromatob$.
+	\index{diagramme!force-distance}\index{force-distance, diagramme}
+	Sur un graphique représentant la force en fonction de la distance, ce travail $W_\fromatob$ est représenté par la surface sous la courbe de A à B (\cref{fig_force-déplacement-aire}). La forme de la courbe, c’est-à-dire la relation $F_{(l)}$ entre $F$ et $l$ au fur et à mesure de l’évolution, déterminera la quantité $W_\fromatob$.
 	
 	\begin{figure}
 	\begin{center}
@@ -311,15 +317,17 @@
 
 		La température d’un corps est une grandeur qui indique son niveau d’excitation interne. Plus ses molécules possèdent d’énergie cinétique, avec des vitesses de direction différente, et plus sa température sera grande.
 
-		Lorsque les molécules constituant un corps sont parfaitement immobiles les unes par rapport aux autres, le corps n’a plus de vibration interne : cet état définit la température zéro. À l’inverse, l’échelle de température est ouverte vers l’infini. On ne définit pas de point de température maximale.\index{température!zéro}\index{température!maximale}
+		\index{température!zéro}\index{température!maximale}
+		Lorsque les molécules constituant un corps sont parfaitement immobiles les unes par rapport aux autres, le corps n’a plus de vibration interne : cet état définit la température zéro. À l’inverse, l’échelle de température est ouverte vers l’infini. On ne définit pas de point de température maximale.
 
 		On ne peut pas mesurer simplement «~l’énergie cinétique moyenne des molécules~» d’un corps et il s'ensuit qu’il est très difficile de définir rigoureusement une échelle de température (par exemple, ce que représente une température «~deux fois plus grande~»). Nous reviendrons sur la notion même de température au \coursquatre et nous la définirons tout à fait au \courssept. Nous admettrons, dans cette attente, la définition donnée plus haut.
 
 		La température se mesure en \si{kelvins} (\si{\kelvin}), sur une échelle créée pour les besoins de la thermodynamique et fort peu modestement qualifiée d’\vocab[température!absolue]{absolue}.
 
+		\index{Celsius!degrés (échelle)}\index{Kelvin!unité}
 		L’étudiant/e aura probablement l’habitude d’utiliser une échelle en \si{degrés} \si{Celsius}~(\si{\degreeCelsius}). Elle précède l’échelle absolue en \si{kelvins}, mais a été habilement redéfinie et synchronisée avec cette dernière en 1848%
-			\footnote{Nous aurons l’occasion d’étudier ce magnifique tour de passe-passe au \courssept.}%
-		. Il suffit de soustraire 273,15 unités à une température absolue (en \si{kelvins}) pour lire une température en \si{degrés} \si{Celsius} :\index{Celsius!degrés (échelle)}\index{Kelvins (unité)}
+			\footnote{Nous aurons l’occasion d’étudier ce magnifique tour de passe-passe au maq\courssept.}%
+		. Il suffit de soustraire 273,15 unités à une température absolue (en \si{kelvins}) pour lire une température en \si{degrés} \si{Celsius} :
 		\begin{equation}
 			T(\si{\degreeCelsius})\ \equiv \ T(\si{\kelvin}) - 273,15
 			\label{def_température_kelvins_celsius}
@@ -404,8 +412,9 @@
 		
 		De même que l’on note $Q$ la chaleur (\si{\joule}), on note $q$ la \vocab[chaleur!spécifique]{chaleur spécifique} (\si{\joule\per\kilogram}).
 		
-		La notion de chaleur est très difficile à appréhender. On l’a longtemps crue être un fluide (le \textit{calorique}\index{calorique (fluide, hist.)}) de densité très faible, capable d’imprégner tous les matériaux. Cette théorie a été abandonnée au milieu du \textsc{xix}\ieme siècle, lorsque l’on a mis en évidence que \textit{la chaleur n’est pas conservée}\index{chaleur!conservation (ou non)}, c’est-à-dire qu’elle a une capacité à disparaître ou apparaître. Par exemple, un moteur en marche reçoit de la chaleur (par combustion) mais il en rejette moins qu’il n’en a reçu. Il en transforme une partie en travail, que l’on utilise par exemple pour propulser un véhicule. \\
-		À l’échelle microscopique\index{microscopique, échelle} (lorsque l’on considère le mouvement individuel des particules) les concepts de température et de chaleur sont plus difficiles encore à définir ; mais cela dépasse le domaine d’étude de cet ouvrage\footnote{Pour mieux définir les frontières entre les échelles macroscopique et microscopique dans la thermodynamique de l’ingénieur, les étudiants les plus rigoureux pourront par exemple consulter l’ouvrage d’Alexandre Watzky~\cite{watzky2007}. Richard Feynman~\cite{feynman1963, feynman1963fr} explore à plusieurs reprises ces changements d’échelle et leurs implications.}\nolinebreak.
+		\index{calorique (fluide, hist.)}\index{chaleur!conservation (ou non)}\index{microscopique, échelle}
+		La notion de chaleur est très difficile à appréhender. On l’a longtemps crue être un fluide (le \textit{calorique}) de densité très faible, capable d’imprégner tous les matériaux. Cette théorie a été abandonnée au milieu du \textsc{xix}\ieme siècle, lorsque l’on a mis en évidence que \textit{la chaleur n’est pas conservée}, c’est-à-dire qu’elle a une capacité à disparaître ou apparaître. Par exemple, un moteur en marche reçoit de la chaleur (par combustion) mais il en rejette moins qu’il n’en a reçu. Il en transforme une partie en travail, que l’on utilise par exemple pour propulser un véhicule. \\
+		À l’échelle microscopique (lorsque l’on considère le mouvement individuel des particules) les concepts de température et de chaleur sont plus difficiles encore à définir ; mais cela dépasse le domaine d’étude de cet ouvrage\footnote{Pour mieux définir les frontières entre les échelles macroscopique et microscopique dans la thermodynamique de l’ingénieur, les étudiants les plus rigoureux pourront par exemple consulter l’ouvrage d’Alexandre Watzky~\cite{watzky2007}. Richard Feynman~\cite{feynman1963, feynman1963fr} explore à plusieurs reprises ces changements d’échelle et leurs implications.}\nolinebreak.
 
 
 	\subsection{La capacité thermique}
@@ -431,7 +440,8 @@
 
 			\item En faisant travailler un gaz (c’est-à-dire en le laissant pousser sur une paroi mobile), on augmente nettement sa capacité calorifique massique. Nous quantifierons ces propriétés au \coursquatre ;
 
-			\item La capacité calorifique massique des liquides et vapeurs devient infinie~(!) pendant l’ébullition\index{ébullition}, qui a lieu sur une plage particulière de propriétés. Hors de cette plage, la capacité redevient finie mais elle varie avec la température. Nous décrirons ces comportements au \courscinq.
+			\index{ébullition}
+			\item La capacité calorifique massique des liquides et vapeurs devient infinie~(!) pendant l’ébullition, qui a lieu sur une plage particulière de propriétés. Hors de cette plage, la capacité redevient finie mais elle varie avec la température. Nous décrirons ces comportements au \courscinq.
 
 		\end{itemize}
 
@@ -461,10 +471,12 @@
 
 		\begin{description}
 
-			\item \textit{Le chaud}\index{chaud} --- Pour nous, «~chaud~» n’est pas une propriété des corps : plutôt que «~cet objet est chaud~» nous dirons qu’il est à haute température. Plutôt que «~cet objet s’échauffe/se refroidit~» nous dirons que sa température augmente ou diminue.\\
+			\index{chaud (physique)}
+			\item \textit{Le chaud} --- Pour nous, «~chaud~» n’est pas une propriété des corps : plutôt que «~cet objet est chaud~» nous dirons qu’il est à haute température. Plutôt que «~cet objet s’échauffe/se refroidit~» nous dirons que sa température augmente ou diminue.\\
 				Dans le langage courant, les expressions comme «~il fait chaud~» ou «~les grandes chaleurs~» font également allusion à la température.
 			
-			\item \textit{Chauffer}\index{chauffer} --- Pour nous, «~chauffer~» c’est fournir de la chaleur. On peut «~chauffer~» un corps pendant que sa température chute. On peut également faire augmenter la température d’un corps sans lui apporter de chaleur (\cref{fig_chauffer_refroidir}).
+			\index{chauffer (physique)}
+			\item \textit{Chauffer} --- Pour nous, «~chauffer~» c’est fournir de la chaleur. On peut «~chauffer~» un corps pendant que sa température chute. On peut également faire augmenter la température d’un corps sans lui apporter de chaleur (\cref{fig_chauffer_refroidir}).
 
 		\begin{figure}
 			\begin{center}
@@ -476,9 +488,11 @@
 			\label{fig_chauffer_refroidir}
 		\end{figure}
 			
-			\item \textit{Le froid}\index{froid} --- Pour nous, la sensation de «~froid~» indique une faible température. Nous ne considérerons pas «~le froid~» comme étant quelque chose que l’on peut fabriquer ni mesurer. Nous dirons plutôt que nous prélevons de la chaleur d’un corps (par exemple, un réfrigérateur prend de la chaleur à un aliment tiède).
+			\index{froid (physique)}
+			\item \textit{Le froid} --- Pour nous, la sensation de «~froid~» indique une faible température. Nous ne considérerons pas «~le froid~» comme étant quelque chose que l’on peut fabriquer ni mesurer. Nous dirons plutôt que nous prélevons de la chaleur d’un corps (par exemple, un réfrigérateur prend de la chaleur à un aliment tiède).
 			
-			\item \textit{Le feu}\index{feu} --- Le feu est le nom donné au dégagement de lumière (rayonnement électromagnétique) par un gaz à haute température. En thermodynamique, le «~feu~» n’a aucune propriété particulière. Il s’agit pour nous de la même chaleur qu’elle soit dégagée par combustion de bois, de kérosène, par frottement dans un frein, ou par une réaction nucléaire. Seule compte au final la température à laquelle elle est transmise !
+			\index{feu (physique)}
+			\item \textit{Le feu} --- Le feu est le nom donné au dégagement de lumière (rayonnement électromagnétique) par un gaz à haute température. En thermodynamique, le «~feu~» n’a aucune propriété particulière. Il s’agit pour nous de la même chaleur qu’elle soit dégagée par combustion de bois, de kérosène, par frottement dans un frein, ou par une réaction nucléaire. Seule compte au final la température à laquelle elle est transmise !
 			\onlyamphibook{\end{description}%handmade -- cette citation n’apparaît que dans l’amphibook (dans le framabook elle fait terminer le chapitre sur un paragraphe de 3 lignes). Hack un peu pourri pour faire tenir la citation sur le côté.
 
 				\thermoquotebegin{o}
