@@ -1,16 +1,16 @@
-[1] Config.pm:300> INFO - This is Biber 0.9.9
-[1] Config.pm:303> INFO - Logfile is 'thermodynamique.blg'
-[2] biber:145> INFO - === Mon Mar  2, 2015, 18:40:00
-[3] Biber.pm:271> INFO - Reading 'thermodynamique.bcf'
-[30] Biber.pm:586> INFO - Found 49 citekeys in bib section 0
-[41] Biber.pm:2585> INFO - Processing bib section 0
-[63] Biber.pm:2677> INFO - Looking for bibtex format file 'annexes/thermobib.bib' for section 0
-[65] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
-[86] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
-[87] bibtex.pm:704> INFO - Found BibTeX data source 'annexes/thermobib.bib'
-[242] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
-[242] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
-[345] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
-[345] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
-[400] bbl.pm:427> INFO - Writing 'thermodynamique.bbl' with encoding 'UTF-8'
-[403] bbl.pm:498> INFO - Output to thermodynamique.bbl
+[0] Config.pm:300> INFO - This is Biber 0.9.9
+[0] Config.pm:303> INFO - Logfile is 'thermodynamique.blg'
+[1] biber:145> INFO - === Fri Mar 13, 2015, 20:24:15
+[1] Biber.pm:271> INFO - Reading 'thermodynamique.bcf'
+[21] Biber.pm:586> INFO - Found 49 citekeys in bib section 0
+[31] Biber.pm:2585> INFO - Processing bib section 0
+[50] Biber.pm:2677> INFO - Looking for bibtex format file 'annexes/thermobib.bib' for section 0
+[53] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
+[72] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
+[72] bibtex.pm:704> INFO - Found BibTeX data source 'annexes/thermobib.bib'
+[219] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
+[219] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
+[314] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
+[314] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
+[365] bbl.pm:427> INFO - Writing 'thermodynamique.bbl' with encoding 'UTF-8'
+[368] bbl.pm:498> INFO - Output to thermodynamique.bbl
