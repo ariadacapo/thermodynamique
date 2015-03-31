@@ -18,7 +18,7 @@
 
 		\subsection{Définition : l’équation d’état}
 
-				\thermoquotebegin{O}
+			\onlyframabook{\thermoquotebegin{O}}\onlyamphibook{\thermoquotetopbegin{O}}%handmade
 			Le changement de température occasioné dans les gaz par le changement de volume peut être regardé comme l’un des faits les plus importans de la physique, à cause des nombreuses conséquences qu’il entraîne, et en même temps comme l’un des plus difficiles à éclaircir et à mesurer par des expériences décisives. Il semble présenter dans plusieurs circonstances des anomalies singulières.\nolinebreak\makebox(18,5){\color{gray}\scalebox{2}{»}}\par\vspace{-0.3cm}\begin{flushright}Sadi Carnot, 1824~\cite{carnot1824}\end{flushright}%français tel quel dans le texte original
 		\makebox(18,5){\color{gray}\scalebox{2}{«}}
 		M. S. Carnot, évitant l’emploi de l’analyse mathématique, arrive par une série de raisonnemens délicats et difficiles à saisir, à des résultats qui se déduisent sans peine d’une loi plus générale, que je vais chercher à établir.
@@ -245,7 +245,7 @@
 		En retournant à la \cref{fig_cp_et_cv} il apparaît rapidement que $c_p$ doit être supérieur à $c_v$ ; ainsi $\gamma$ est toujours supérieur à~\num{1}. Nous retenons $\gamma_\text{air} = \num{1,4}$.
 		
 		
-
+\onlyframabook{\clearpage}%handmade
 \section{Énergie et température}
 
 	\subsection{Contexte historique}
@@ -265,13 +265,13 @@
 	\subsection{La loi de Joule}
 	\label{ch_principe_de_joule}
 
-		\onlyamphibook{\thermoquotebegin{O}%handmade citation au bon endroit dans les amphibooks seulement
+		\thermoquotebegin{O}
 			J’ai pris deux ballons à deux tubulures, chacun de douze litres de capacité. A l’une des tubulures de chaque ballon étoit adapté un robinet, et à l’autre un thermomètre à alcool très-sensible, dont les degrés centigrades pouvoient être facilement divisés en centièmes. \jecourte Le vide étant fait dans les deux ballons, et m’étant assuré qu’ils le retenoient exactement, je remplissois l’un d’eux avec le gaz sur lequel je voulois opérer. Environ douze heures après, j’établissois entre eux une communication au moyen d’un tuyau de plomb, et en ouvrant les robinets, le gaz se précipitoit alors dans le ballon vide jusqu’à ce que l’équilibre de pression fût rétablit de part et d’autre. Pendant ce tems, le thermomètre éprouvoit des variations que je notois avec soin.
-		\thermoquoteend{Louis Joseph Gay-Lussac, 1807~\cite{gaylussac1807}}{\vspace{-1em}}} %handmade vspace
+		\thermoquoteend{Louis Joseph Gay-Lussac, 1807~\cite{gaylussac1807}}{\onlyamphibook{\vspace{-1em}}} %handmade vspace
 		Dans leur expérience la plus remarquable, Joule et Gay-Lussac cherchent à faire varier la pression et le volume d’un gaz \textit{sans lui transférer de chaleur ou de travail}. Pour cela, ils laissent un gaz comprimé se détendre dans un second récipient vide (\cref{fig_detente_joule}). Le travail effectué est nul, car aucune surface n’a été déplacée – l’évolution est entièrement irréversible. La température est mesurée et… il ne se passe rien ! Joule et Gay-Lussac ne mesurent ni transfert de chaleur, ni variation de température.
 
 		\begin{figure}
-			\onlyframabook{\vspace{1.5em}}%handmade pour faire tenir la citation sur le côté
+			%\onlyframabook{\vspace{1.5em}}%handmade pour faire tenir la citation sur le côté
 			\begin{center}
 				\includegraphics[width=9cm]{images/detente_joule_gay-lussac.png}
 			\end{center}
@@ -283,9 +283,6 @@
 
 		Joule effectue une multitude d’expériences différentes au cours desquelles il observe que quel que soit le travail fourni, la relation entre énergie interne (qui ne varie qu’avec travail et chaleur) et température reste sensiblement la même --\ et il suggère que pour un gaz parfait, elle reste toujours identique.
 
-		\onlyframabook{\thermoquotetopbegin{O}%handmade citation au mauvais endroit dans le framabook seulement
-			J’ai pris deux ballons à deux tubulures, chacun de douze litres de capacité. A l’une des tubulures de chaque ballon étoit adapté un robinet, et à l’autre un thermomètre à alcool très-sensible, dont les degrés centigrades pouvoient être facilement divisés en centièmes. \jecourte Le vide étant fait dans les deux ballons, et m’étant assuré qu’ils le retenoient exactement, je remplissois l’un d’eux avec le gaz sur lequel je voulois opérer. Environ douze heures après, j’établissois entre eux une communication au moyen d’un tuyau de plomb, et en ouvrant les robinets, le gaz se précipitoit alors dans le ballon vide jusqu’à ce que l’équilibre de pression fût rétablit de part et d’autre. Pendant ce tems, le thermomètre éprouvoit des variations que je notois avec soin.
-		\thermoquoteend{Louis Joseph Gay-Lussac, 1807~\cite{gaylussac1807}}{\vspace{-3em}}} %handmade vspace
 		Ce postulat est connu sous le nom de \vocab[Joule!loi de]{loi de Joule}\index{loi de Joule} et est posé comme vrai pour tout gaz parfait. On peut le résumer ainsi :
 
 		\begin{trucimportant}
@@ -293,7 +290,7 @@
 		\end{trucimportant}
 
 
-		\thermoquotetopbegin{O}%handmade
+		\onlyamphibook{\thermoquotetopbegin{O}}\onlyframabook{\thermoquotebegin{O}}%handmade
 La différence entre les moyennes des expansions et des expériences-témoin étant exactement telle que ce que à quoi nous avons attribué l’effet croissant de la température ambiante dans le dernier cas, nous arrivons à la conclusion qu’\emph{il n’y a pas de changement de température lorsque l’on laisse l’air se détendre d’une façon telle qu’il ne développe pas de puissance mécanique}.
 		\thermoquoteend{James Joule, 1845~\cite{joule1845}}{\vspace{-1em}}
 		Mathématiquement, nous pouvons l’écrire ainsi :
@@ -643,7 +640,7 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 		\end{equationterms}
 
 		
-		Lorsque l’évolution se fait en système ouvert, nous avons $q_{1\to2} + w_{1\to2} = \Delta h$ et, si l’évolution est réversible, la chaleur et le travail peuvent être quantifiés de la même façon :
+		Lorsque l’évolution se fait en système ouvert, nous avons $q_{1\to2} + w_{1\to2} = \Delta h$ et, si l’évolution est réversible, la chaleur et le travail peuvent être quantifiés de la même~façon :\onlyframabook{\pagebreak}%handmade
 		\begin{IEEEeqnarray}{rCl}
 			w_{1\to2} 	& = & \int _1^2 v \diff p = \int_1^2 \frac{R \ T_\text{cste}}{p} \diff p = R \ T_\text{cste} \int_1^2 \frac{1}{p} \diff p = R \ T_\text{cste} [\ln v]_{p_1}^{p_2} \nonumber \\
 			w_{1\to2} 	& = & R \ T_\text{cste} \ln \left(\frac{p_2}{p_1}\right) = R \ T_\text{cste} \ln \left(\frac{v_1}{v_2}\right) \label{eq_travail_température_constante_rep}
@@ -767,7 +764,7 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 	
 		Nous avons donc lié température et volume spécifique lorsque l’évolution est adiabatique réversible (privée de transfert de chaleur et infiniment lente).
 
-		Quelques manipulations algébriques, qu’il est laissé à l’étudiant/e le soin de réviser, nous permettent de décliner cette expression en fonction de la pression. On obtient ainsi les trois relations :
+		Quelques manipulations algébriques, qu’il est laissé à l’étudiant/e le soin de réviser, nous permettent de décliner cette expression en fonction de la pression. On obtient ainsi les trois relations :\onlyframabook{\pagebreak}%handmade
 		\begin{IEEEeqnarray}{rCl}
 			\left( \frac{T_1}{T_2} \right)	& = & \left( \frac{v_2}{v_1} \right)^{\gamma -1}		\label{eq_isentropique_horrible1}\\
 			\left( \frac{T_1}{T_2} \right)	& = & \left( \frac{p_1}{p_2} \right)^{\frac{\gamma -1}{\gamma}}	\label{eq_isentropique_horrible2}\\
