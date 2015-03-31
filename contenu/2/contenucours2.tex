@@ -43,13 +43,15 @@
 		\onlyframabook{\begin{figure}[tbh]}%handmade pour éviter de trop gros blancs
 		\onlyamphibook{\begin{figure}[tbh!]}%handmade là il faut y aller carrément!
 			\begin{center}
-			\includegraphics[width=6cm]{images/piston_cylindre.png}
+			\onlyframabook{\includegraphics[width=6cm]{images/piston_cylindre.png}}
+			\onlyamphibook{\includegraphics[width=5cm]{images/piston_cylindre.png}}
 			\end{center}
 			\supercaption{Un système fermé typique : une quantité de masse fixe dans un réservoir fermé.
 Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et perdre de la chaleur.}{schéma \cczero \oc}
 			\label{fig_piston_m_cste}
 		\end{figure}
-
+		
+	\onlyamphibook{\vspace{-1em}}
 	\subsection{Conventions de signe}
 	\label{ch_convention_signe_sf}
 
@@ -72,13 +74,10 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 		Ainsi, dans les équations, nous pouvons systématiquement additionner les termes sans avoir à connaître le sens des transformations. Les transferts sont comptabilisés comme sur un compte bancaire : les dépenses sont négatives et les recettes positives.
 
 
-\onlyframabook{\clearpage}%handmade: pour ne pas débuter cette section-clé tout en bas de la page
+%\onlyframabook{\clearpage}%handmade: pour ne pas débuter cette section-clé tout en bas de la page
 \section{Le premier principe dans un système fermé}
 \label{ch_premier_principe_sf}
 
-	\thermoquotebegin{O}
-		Appelons ainsi $Q$ la quantité totale de chaleur qui doit être impartie à un corps pendant son passage, d’une manière donnée, depuis une condition à une autre, (toute chaleur prélevée au corps étant comptée comme une quantité négative), alors nous la divisons en trois parties, parmi lesquelles la première est employée à augmenter la chaleur existant véritablement dans le corps, la seconde à produire le travail intérieur et la troisième à produire le travail extérieur. Il va de la seconde partie ce que nous avons déjà dit de la première : qu’elle est indépendante du chemin suivi dans le passage du corps d’un état à un autre, et nous pouvons en conséquence représenter ces deux parties ensemble par une fonction $U$, qui même si nous ne pouvons mieux la définir, nous savons à l’avance au moins être entièrement déterminée par les états initial et final du corps.
-	\thermoquoteend{Rudolf Clausius, 1854}{\textit{Über eine veränderte Form des zweiten Hauptsatzes der mechanischen Wärmetheorie~\cite{clausius1854}}\vspace{1em}} %handmade vspace
 	Le premier principe stipule que l’énergie est indestructible (\S\ref{ch_premier_principe}). Si on fournit \SI{100}{\joule} de travail à un système fermé et qu’il perd \SI{80}{\joule} sous forme de chaleur, c’est donc que «~son~» énergie a augmenté de~\SI{20}{\joule}. Nous nommons cette augmentation la \vocab[énergie!interne, variation de]{variation d’énergie interne}, $\Delta U$.
 	
 	Sous forme d’équation, le premier principe dans un système fermé se traduit par l’équation :
@@ -86,15 +85,16 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 		Q_{1 \to 2} + W_{1 \to 2} = \Delta U
 		\label{eq_premier_principe_sf_maj}
 	\end{equation}
-	\onlyframabook{\begin{small}}%handmade
 	\begin{equationterms}
 		\item pour un système fermé immobile ;
 		\item où \tab $\Delta U = U_2 - U_1$ est la variation d’énergie interne (\si{\joule}),
 		\item 	\tab $W_{1 \to 2}$ 	\tab est le travail reçu par le système (\si{\joule}),
 		\item et \tab $Q_{1 \to 2}$ 	\tab est la chaleur reçue par le système (\si{\joule}).
 	\end{equationterms}
-	\onlyframabook{\end{small}}
 
+	\onlyframabook{\thermoquotetopbegin{O}}\onlyamphibook{\thermoquotebegin{O}}
+		Appelons ainsi $Q$ la quantité totale de chaleur qui doit être impartie à un corps pendant son passage, d’une manière donnée, depuis une condition à une autre, (toute chaleur prélevée au corps étant comptée comme une quantité négative), alors nous la divisons en trois parties, parmi lesquelles la première est employée à augmenter la chaleur existant véritablement dans le corps, la seconde à produire le travail intérieur et la troisième à produire le travail extérieur. Il va de la seconde partie ce que nous avons déjà dit de la première : qu’elle est indépendante du chemin suivi dans le passage du corps d’un état à un autre, et nous pouvons en conséquence représenter ces deux parties ensemble par une fonction $U$, qui même si nous ne pouvons mieux la définir, nous savons à l’avance au moins être entièrement déterminée par les états initial et final du corps.
+	\thermoquoteend{Rudolf Clausius, 1854}{\textit{Über eine veränderte Form des zweiten Hauptsatzes der mechanischen Wärmetheorie~\cite{clausius1854}}\vspace{0em}} %handmade vspace
 	Malheureusement l’énergie interne $U$ est parfois très difficile à mesurer. Nous verrons dans les chapitres~\quatre et~\cinq que les corps emmagasinent cette énergie interne de différentes façons, et qu’elle est intimement liée à la température. L’énergie interne $U$, par définition, est toujours positive, mais sa variation $\Delta U$ ne l’est pas nécessairement.
 
 	L’\cref{eq_premier_principe_sf_maj} peut être exprimée avec des grandeurs spécifiques :
@@ -103,12 +103,14 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 		q_{1 \to 2} + w_{1 \to 2} 				& = & \Delta u
 	\label{eq_premier_principe_sf_min}
 	\end{IEEEeqnarray}
+		\onlyframabook{\begin{footnotesize}}%handmade
 	\begin{equationterms}
 		\item pour un système fermé immobile ;
-		\item où \tab $\Delta u = u_2 - u_1$ est la variation d’énergie interne spécifique (\si{\joule\per\kilogram}),
-		\item 	\tab $w_{1 \to 2}$ 	\tab est le travail spécifique reçu par le système (\si{\joule\per\kilogram}),
-		\item et \tab $q_{1 \to 2}$ 	\tab\tab est la chaleur spécifique reçue par le système (\si{\joule\per\kilogram}).
-	\end{equationterms}
+		\item où \tab $\Delta u = u_2 - u_1$ est la variation d’énergie interne spécifique\onlyamphibook{ (\si{\joule\per\kilogram})},
+		\item 	\tab $w_{1 \to 2}$ 	\onlyamphibook{\tab} est le travail spécifique reçu par le système (\si{\joule\per\kilogram}),
+		\item et \onlyamphibook{\tab }$q_{1 \to 2}$ 	\onlyamphibook{\tab\tab }est la chaleur spécifique reçue par le système (\si{\joule\per\kilogram}).
+	\end{equationterms}%handmade, lotsof
+	\onlyframabook{\end{footnotesize}}
 	
 	Nous pouvons encore ré-écrire cette \cref{eq_premier_principe_sf_min} pour l’exprimer sous sa \vocab[principes de la thermodynamique!premier, forme différentielle]{forme différentielle} :
 	\begin{IEEEeqnarray}{rCl}
@@ -158,7 +160,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=12cm]{images/travail_cylindre_1.png}
+				\includegraphics[width=10cm]{images/travail_cylindre_1.png}
 			\end{center}
 			\supercaption{Dans un premier temps, nous modélisons le fluide à l’intérieur du système avec un ressort métallique.}{schéma \ccbysa \olivier}
 			\label{fig_piston_ressort}
@@ -230,7 +232,8 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 		
 		Un outil formidable pour comprendre et analyser les transferts de chaleur est le \vocab[diagramme!pression-volume]{diagramme pression-volume}.\index{pression-volume, diagramme} Dans le cas où l’on modélise le fluide par un ressort, le travail peut être visualisé par l’aire sous la courbe d’une évolution (\cref{fig_p-v_ressort}).		
 
-		\begin{figure}
+		\onlyamphibook{\begin{figure}}
+		\onlyframabook{\begin{figure}[h!]}
 			\begin{center}
 				\includegraphics[width=8cm]{images/pv_ressort.png}
 			\end{center}
@@ -239,6 +242,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 			\label{fig_p-v_ressort}
 		\end{figure}
 
+\onlyframabook{\clearpage}
 		\begin{anexample}
 			
 			Un système fermé est constitué d’une boîte vide dans laquelle on a placé un ressort. La pression exercée par le ressort sur les parois de la boîte est constante à $p = \SI{e5}{\pascal}$ quelque soit son volume. On comprime la boîte depuis un volume $V_\A = \SI{2}{\liter}$ jusqu’à $V_\B = \SI{1}{\liter}$. Quel est le transfert de travail ?
@@ -265,6 +269,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 		\end{anexample}
 		
 
+\onlyframabook{\clearpage}%handmade
 	\subsection{Travail d’un fluide en évolution lente}
 
 		\onlyframabook{\thermoquotebegin{O}%handmade dans le framabook, la citation plus haut qu’elle ne devrait l’être, sinon tout est cassé
@@ -284,7 +289,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 
 		\begin{figure}
 			\begin{center}
-			\includegraphics[width=10cm]{images/travail_cylindre_2.png}
+			\includegraphics[width=8cm]{images/travail_cylindre_2.png}
 			\end{center}
 			\supercaption{Lorsque le mouvement du piston est infiniment lent, le fluide se comporte comme un ressort que l’on comprime.}{schéma \ccbysa \olivier}
 			\label{fig_piston_fluide_lent}
@@ -317,16 +322,16 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 			\label{fig_p-v_pvx}
 		\end{figure}
 
-		\thermoquotebegin{O}
+		\onlyframabook{\thermoquotetopbegin{O}}\onlyamphibook{\thermoquotebegin{O}}%handmade
 			S’il était vrai que la vapeur se dépensât par le cylindre à une pression égale à celle de la chaudière, ou qui fût à celle-ci dans un rapport fixe indiqué par un coefficient quelconque, puisqu’il faut toujours à une même locomotive le même nombre de tours de roue, ou le même nombre de coups de piston pour parcourir la même distance, il s’en suivrait que tant que ces machines travaillent à la même pression, elles devraient consommer dans tous les cas la même quantité d’eau pour la même distance.
-		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1839}{\textit{Théorie de la machine à vapeur} \cite{pambour1839}\onlyamphibook{\vspace{4em}}\onlyframabook{\vspace{1em}}} %handmade vspace
+		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1839}{\textit{Théorie de la machine à vapeur} \cite{pambour1839}\onlyamphibook{\vspace{4em}}\onlyframabook{\vspace{-2em}}} %handmade vspace
 		Comment les fluides se comportent-t-ils lorsqu’on les comprime --\ autrement dit, par quel type de «~ressort~» peut-on les modéliser ? On constate expérimentalement que, lorsqu’on les comprime, la plupart des gaz voient leur pression et leur volume liés par une relation de type $p\ v^{x} = \text{cste.}$ avec $x$ une constante (\cref{fig_p-v_pvx})%
 			\footnote{Toutefois, nous verrons au \courscinqshort que sur une plage de propriétés donnée, les liquides/vapeurs se comportent de façon très différente, même si la tendance globale reste la même.}%
 		.
 
 		Lorsqu’on apporte de la chaleur au fluide pendant qu’on le comprime, on «~durcit~» son comportement, et la pression augmente plus rapidement (\cref{fig_p-v_ajout_retrait_chaleur}). À~l’inverse, lorsqu’on lui prélève de la chaleur pendant la compression, la pression augmente moins rapidement. Ces transferts de chaleur font donc varier la quantité de travail à fournir pour comprimer le fluide entre deux volumes donnés.
 		
-		Le cas où l’on apporte pas de chaleur est nommé \vocab[évolutions!adiabatiques]{adiabatique}\index{adiabatiques, évolutions} : $Q = 0$. Attention : adiabatique ne veut pas dire «~à température constante~». Lorsque l’on comprime un fluide sans apport de chaleur, sa température augmente. Dans un moteur diesel, par exemple, l’air dans les cylindres peut atteindre \SI{900}{\degreeCelsius} avant la combustion -- ce qui est désirable, comme nous le verrons au \courssept.
+		Le cas où l’on apporte pas de chaleur est nommé \vocab[évolutions!adiabatiques]{\mbox{adiabatique}}\index{adiabatiques, évolutions} : $Q = 0$. Attention : adiabatique ne veut pas dire «~à température constante~». Lorsque l’on comprime un fluide sans apport de chaleur, sa température augmente. Dans un moteur diesel, par exemple, l’air dans les cylindres peut atteindre \SI{900}{\degreeCelsius} avant la combustion -- ce qui est désirable, comme nous le verrons au \courssept.
 
 		\begin{figure}
 			\begin{center}
@@ -342,7 +347,7 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 
 		Inversement, si l’on prélève de la chaleur pendant la compression, la pression augmente moins rapidement et on obtient une courbe plus proche de l’horizontale (avec un exposant $x$ plus faible). En prélevant suffisamment de chaleur, on peut même maintenir la pression constante, comme nous le verrons aux chapitres~\quatre et~\cinq. L’exposant $x$ est alors nul et on a $p = p_\text{cste.}$.
 		
-		\onlyframabook{\clearfloats}%handmade : poser les flottaisons sinon les exemples sont explosés
+		%\onlyframabook{\clearfloats}%handmade : poser les flottaisons sinon les exemples sont explosés
 			\begin{anexample}
 				Un gaz dans un cylindre est comprimé lentement par un piston. On observe que sa pression est liée à son volume par la relation $p v^{\num{1,2}} = k$ (en unités \textsc{si}, et où $k$ est une constante). Au début de la compression, ses propriétés sont $p_\A = \SI{1}{\bar}$ et $v_\A = \SI{1}{\metre\cubed\per\kilogram}$. On le comprime jusqu’à ce que son volume ait atteint $v_\B = \SI{0,167}{\metre\cubed\per\kilogram}$. \\
 				Quelle quantité de travail spécifique le gaz a-t-il fourni ou reçu ?				
@@ -402,7 +407,7 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 
 		\thermoquotebegin{O}
 			Nous avons dit qu’à l’origine du mouvement l’équilibre de pression s’établit entre la chaudière et le cylindre, mais à mesure que la vitesse du piston s’accroît, celui-ci fuit en quelque sorte devant la vapeur sans lui donner le temps d’établir cet équilibre, et la pression dans le cylindre baisse \mbox{nécessairement}.
-		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1835}{\textit{Traité théorique et pratique des machines locomotives}~\cite{pambour1835}\vspace{3em}} %handmade vspace
+		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1835}{\textit{Traité théorique et pratique des machines locomotives}~\cite{pambour1835}\vspace{1em}} %handmade vspace
 		Les choses se compliquent lorsque nous comprimons et détendons notre fluide de façon rapide (\cref{fig_molécules_rapide}). Il se produit alors un phénomène complexe et d’importance critique en thermodynamique : \textbf{la pression sur la paroi est différente de la «~pression moyenne~» à l’intérieur du fluide}.
 
 		\begin{figure}
@@ -423,6 +428,7 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 			\label{fig_baignoire}
 		\end{figure}
 		
+		\onlyframabook{\clearfloats\clearpage\pagebreak\par}%handmade
 		Dans chacun des cas, la quantité de travail consommé à la compression est plus grande et la quantité de travail fourni à la détente est plus petite.
 		
 		Nous nommons ce phénomène l’\vocab{irréversibilité}. Elle nous sera d’un grand embarras dans notre étude quantitative de la thermodynamique et elle rendra encore plus ardues nos conversions de travail et chaleur.
@@ -431,7 +437,7 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=10cm]{images/travail_cylindre_3.png}
+				\includegraphics[width=8cm]{images/travail_cylindre_3.png}
 			\end{center}
 			\supercaption{Fluide comprimé de façon brutale. La pression locale à la surface du piston est supérieure à ce qu’elle aurait été avec un mouvement lent.}{schéma \ccbysa \olivier}
 			\label{fig_piston_fluide_rapide}
@@ -487,7 +493,7 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 					\end{answer}
 			\end{anexample}
 
-
+\onlyframabook{\clearpage}%handmade
 	\subsection{La réversibilité}
 	\label{ch_reversibilite}
 	
@@ -511,7 +517,7 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 		Ces trois conditions excluent évidemment toute évolution réelle --\ et en particulier, toute application pratique dans un moteur ! Toutefois, nous les utiliserons pour poser une limite théorique idéale à toutes les évolutions réelles que nous étudierons.
 
 
-
+\onlyframabook{\clearpage}
 \section[Quantifier la chaleur avec un système fermé]{Quantifier la chaleur avec un système\onlyamphibook{\\} fermé}
 
 		Au risque de frustrer l’étudiant/e, il nous faut tout de suite avouer que \emph{nous ne savons pas quantifier directement les transferts de chaleur}. Nous allons toujours procéder par déduction : en quantifiant la variation d’énergie, et en y soustrayant les transferts sous forme de travail, on obtient la quantité de chaleur qui a été transférée. Mathématiquement, dans un système fermé, nous ne faisons que réutiliser l’\cref{eq_premier_principe_sf_maj} pour obtenir :
