@@ -19,11 +19,11 @@
 		\subsection{Définition : l’équation d’état}
 
 				\thermoquotebegin{O}
-			Le changement de température occasioné dans les gaz par le changement de volume peut être regardé comme l’un des faits les plus importans de la physique, à cause des nombreuses conséquences qu’il entraîne, et en même temps comme l’un des plus difficiles à éclaircir et à mesurer par des expériences décisives. Il semble présenter dans plusieurs circonstances des anomalies singulières.\nolinebreak\makebox(18,5){\color{gray}\scalebox{2}{»}}\par\vspace{-0.3cm}\begin{flushright}Sadi Carnot, 1824~\cite{carnot1824}\end{flushright}
+			Le changement de température occasioné dans les gaz par le changement de volume peut être regardé comme l’un des faits les plus importans de la physique, à cause des nombreuses conséquences qu’il entraîne, et en même temps comme l’un des plus difficiles à éclaircir et à mesurer par des expériences décisives. Il semble présenter dans plusieurs circonstances des anomalies singulières.\nolinebreak\makebox(18,5){\color{gray}\scalebox{2}{»}}\par\vspace{-0.3cm}\begin{flushright}Sadi Carnot, 1824~\cite{carnot1824}\end{flushright}%français tel quel dans le texte original
 		\makebox(18,5){\color{gray}\scalebox{2}{«}}
 		M. S. Carnot, évitant l’emploi de l’analyse mathématique, arrive par une série de raisonnemens délicats et difficiles à saisir, à des résultats qui se déduisent sans peine d’une loi plus générale, que je vais chercher à établir.
 		\thermoquoteend{Émile Clapeyron, 1834~\cite{clapeyron1834}}{}
-		Nous appellerons \vocab[gaz parfait!définition]{gaz parfait} (ou \vocab[gaz!idéal]{gaz idéal}) un fluide à l’état gazeux dont le multiple de la pression et du volume, $p v$, reste proportionnel à sa température. La constante de proportionnalité est nommée \vocab{constante du gaz}\index{gaz!constante d’un}, et notée $R$ ; elle dépend de la nature du~gaz.
+		Nous appellerons \vocab[gaz parfait!définition]{gaz parfait} (ou \vocab[gaz!idéal]{gaz idéal}) un fluide à l’état gazeux dont le multiple de la pression et du volume, $p v$, reste proportionnel à sa température. La constante de proportionnalité est nommée \vocab{constante du gaz}\index{gaz!constante d’un}, et notée~$R$ ; elle dépend de la nature du~gaz.
 		\begin{equation}
 			p v = R T
 			\label{eq_pv=RT}
@@ -46,7 +46,7 @@
 			\item et \tab $m$ \tab la masse de gaz considérée (\si{\kilogram}).
 		\end{equationterms}
 		
-		Il est aussi possible d’exprimer l’\cref{eq_pV=mRT} en fonction de la quantité de matière en \si{moles}.\footnote{Dans les ouvrages tels que celui d’Alexandre Watzky~\cite{watzky2007}, la constante en \si{\joule\per\kelvin\per\kilogram} est notée $r$. La grandeur notée $R = \SI{8,3143}{\joule\per\kelvin\per\mole}$ est universelle, et les gaz adoptent des valeurs de $r$ différentes en fonction de leur masse molaire $M \equiv \frac{m}{n}$. Dans le présent ouvrage, nous ne quantifions pas les quantités de matière.}
+		Il est aussi possible d’exprimer l’\cref{eq_pV=mRT} en fonction de la quantité de matière en \si{moles}.\footnote{Dans les ouvrages tels que celui d’Alexandre Watzky~\cite{watzky2007}, la constante en \si{\joule\per\kelvin\per\kilogram} est notée~$r$. La grandeur notée $R = \SI{8,3143}{\joule\per\kelvin\per\mole}$ est universelle, et les gaz adoptent des valeurs de $r$ différentes en fonction de leur masse molaire $M \equiv \frac{m}{n}$. Dans le présent ouvrage, nous ne quantifions pas les quantités de matière.}
 		 Parce qu’elle est indissociable du concept de température absolue, il a fallu 150 ans pour que cette équation prenne sa forme définitive : celle que lui a donnée \wf{Émile Clapeyron} en 1834~\cite{clapeyron1834}.
 
 			\begin{anexample}
@@ -77,7 +77,7 @@
 		
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=8cm]{images/gaz_boules.png}
+				\includegraphics[width=6cm]{images/gaz_boules.png}
 			\end{center}
 			\supercaption{Un gaz parfait peut être visualisé comme un ensemble de boules en mouvement désordonné. Elles se percutent sans frottement et sans attraction mutuelle. La vitesse de chaque boule change à chaque heurt.}%
 			{Dérivé d’\wcfile{Kinetic_theory_of_gases.svg}{un schéma} \ccbysa par \wcu{Sharayanan}}
@@ -153,7 +153,7 @@
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=10cm]{images/difference_capacites_calorifiques.png}
+				\includegraphics[width=8cm]{images/difference_capacites_calorifiques.png}
 			\end{center}
 			\supercaption{Deux quantités identiques de gaz reçoivent la même quantité de chaleur $Q$ . L’élévation de température sera plus faible à droite à cause du travail effectué sur le piston.}{schéma \cczero \oc}
 			\label{fig_expérience_diff_chaleurs_massiques}
@@ -163,7 +163,7 @@
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=9cm]{images/capacites_calorifiques.png}
+				\includegraphics[width=7cm]{images/capacites_calorifiques.png}
 			\end{center}
 			\supercaption{Définitions des chaleurs massiques. À gauche, le volume est fixé et la capacité calorifique massique sera $c_v$. À droite, la pression est constante et la capacité sera $c_p$.}{schéma \cczero \oc}
 			\label{fig_cp_et_cv}
@@ -174,7 +174,7 @@
 			\item[la chaleur massique à pression constante :]$c_p$~.
 		\end{description}
 
-		Ces deux propriétés vont nous servir très bientôt pour quantifier l’énergie dans les gaz. $c_v$ et $c_p$ sont indépendantes de la température dans un gaz parfait. Dans les gaz réels, elles varient avec la température (\cref{fig_valeurs_de_cp_cv_gamma}), mais pour la plupart des applications en ingénierie il est raisonnable d’utiliser des valeurs moyennes. Pour l’air, nous retenons $c_{v\text{(air)}} = \SI{718}{\joule\per\kilogram\per\kelvin}$ et $c_{p\text{(air)}} = \SI{1005}{\joule\per\kilogram\per\kelvin}$.
+		Ces deux propriétés vont nous servir très bientôt pour quantifier l’énergie dans les gaz. Dans un gaz parfait, $c_v$ et $c_p$ sont indépendantes de la température. Dans les gaz réels, ces capacités varient avec la température (\cref{fig_valeurs_de_cp_cv_gamma}), mais pour la plupart des applications en ingénierie il est raisonnable d’utiliser des valeurs moyennes. Pour l’air, nous retenons $c_{v\text{(air)}} = \SI{718}{\joule\per\kilogram\per\kelvin}$ et $c_{p\text{(air)}} = \SI{1005}{\joule\per\kilogram\per\kelvin}$.
 
 		\begin{figure}[htb]
 			\begin{center}
@@ -188,8 +188,9 @@
 
 
 	\subsection{Différence des chaleurs massiques}
+	\label{ch_difference_chaleur_massiques}
 
-		Le grand nombre d’équations que nous abordons rend utile, mais pas indispensable, cette courte section. Pour l’ingénieur/e, il n’a d’autre intérêt que de permettre d’alléger l’écriture des relations de la section suivante.
+		Le grand nombre d’équations que nous abordons rend utile, mais pas indispensable, cette courte section \ref{ch_difference_chaleur_massiques}. Pour l’ingénieur/e, il n’a d’autre intérêt que de permettre d’alléger l’écriture des relations de la section suivante.
 
 		Observons les quantités d’énergie en jeu dans l’expérience décrite en \cref{fig_cp_et_cv}. Nous fournissons à chaque corps une quantité de chaleur différente pour obtenir la même variation de température. La différence entre les deux quantités de chaleur requises provient du fait que le gaz à pression constante (à droite) a fourni un travail pendant l’évolution.
 
@@ -220,7 +221,6 @@
 		\begin{equation}
 			c_v \ \Delta T = c_p \ \Delta T - p_\text{cste} \ \Delta v
 		\end{equation}
-
 		qui stipule simplement que la différence entre les deux chaleurs fournies est retrouvée dans le travail fourni par le gaz de droite.
 
 		Une brève manipulation amène :
@@ -260,7 +260,7 @@
 			M’étant assuré de ce fait important, que plus un espace est vide, et plus il s’en dégage de la chaleur lorsque l’air extérieur y pénètre, j’ai cherché à déterminer, par des expériences exactes, quelle relation il y avoit entre le calorique absorbé dans l’un des récipiens et celui dégagé dans l’autre, et comment ces variations de température dépendoient de celles de la variation de la densité de l’air.
 		\thermoquoteend{Louis Joseph Gay-Lussac, 1807~\cite{gaylussac1807}}{\vspace{1em}}} %handmade vspace
 		
-		Le français \wf{Louis Joseph Gay-Lussac} cherche à comprendre pourquoi la température d’un gaz chute lorsqu’il se détend (il cherche en fait, selon les concepts d’alors, à identifier la source du \textit{calorique} et les raisons pour lesquelles il s’écoule). Il s’efforce ainsi de produire des détentes de gaz aussi simples que possible, et d’y mesurer la température. Une trentaine d’années plus tard, l’anglais \wf{James Prescott Joule} reprend et approfondit ces expériences\footnote{Les travaux méticuleux de Joule mèneront à la première expression formelle du premier principe de la thermodynamique, et à la fin de la théorie du \textit{calorique} selon laquelle la chaleur était un fluide très peu dense et invisible. Ils vaudront à son nom de famille l’utilisation que l’on sait aujourd’hui.} ; mais cette fois, en quantifiant la chaleur en tant qu’\textit{équivalence de travail}. Ces expériences avec ballons de gaz et thermomètres sont tout sauf spectaculaires -- mais elles vont jouer un rôle pivot en thermodynamique, parce qu’elles permettent de distinguer pour la première fois chaleur, travail, énergie et température.
+		Le français \wf{Louis Joseph Gay-Lussac} cherche à comprendre pourquoi la température d’un gaz chute lorsqu’il se détend (il cherche en fait, selon les concepts d’alors, à identifier la source du \textit{calorique} et les raisons pour lesquelles il s’écoule). Il s’efforce ainsi de produire des détentes de gaz aussi simples que possible, et d’y mesurer la température. Une trentaine d’années plus tard, l’anglais \wf{James Prescott Joule} reprend et approfondit ces expériences\footnote{Les travaux méticuleux de Joule mèneront à la première expression formelle du premier principe de la thermodynamique, et à la fin de la théorie du \vocab{calorique} selon laquelle la chaleur était un fluide très peu dense et invisible. Ils vaudront à son nom de famille l’utilisation que l’on sait aujourd’hui.} ; mais cette fois, en quantifiant la chaleur en tant qu’\textit{équivalence de travail}. Ces expériences avec ballons de gaz et thermomètres sont tout sauf spectaculaires -- mais elles vont jouer un rôle pivot en thermodynamique, parce qu’elles permettent de distinguer pour la première fois chaleur, travail, énergie et température.
 
 	\subsection{La loi de Joule}
 	\label{ch_principe_de_joule}
@@ -268,7 +268,7 @@
 		\onlyamphibook{\thermoquotebegin{O}%handmade citation au bon endroit dans les amphibooks seulement
 			J’ai pris deux ballons à deux tubulures, chacun de douze litres de capacité. A l’une des tubulures de chaque ballon étoit adapté un robinet, et à l’autre un thermomètre à alcool très-sensible, dont les degrés centigrades pouvoient être facilement divisés en centièmes. \jecourte Le vide étant fait dans les deux ballons, et m’étant assuré qu’ils le retenoient exactement, je remplissois l’un d’eux avec le gaz sur lequel je voulois opérer. Environ douze heures après, j’établissois entre eux une communication au moyen d’un tuyau de plomb, et en ouvrant les robinets, le gaz se précipitoit alors dans le ballon vide jusqu’à ce que l’équilibre de pression fût rétablit de part et d’autre. Pendant ce tems, le thermomètre éprouvoit des variations que je notois avec soin.
 		\thermoquoteend{Louis Joseph Gay-Lussac, 1807~\cite{gaylussac1807}}{\vspace{-1em}}} %handmade vspace
-		Dans leur expérience la plus remarquable, Joule et Gay-Lussac cherchent à faire varier la pression et le volume d’un gaz \textit{sans lui transférer de chaleur ou de travail}. Pour cela, ils laissent un gaz comprimé se détendre dans un second récipient vide (\cref{fig_detente_joule}). Le travail effectué est nul, car aucune surface n’a été déplacée – l’évolution est entièrement irréversible. La température est mesurée et… il ne se passe rien ! Joule et Gay-Lussac ne mesurent ni transferts de chaleur, ni variation de température.
+		Dans leur expérience la plus remarquable, Joule et Gay-Lussac cherchent à faire varier la pression et le volume d’un gaz \textit{sans lui transférer de chaleur ou de travail}. Pour cela, ils laissent un gaz comprimé se détendre dans un second récipient vide (\cref{fig_detente_joule}). Le travail effectué est nul, car aucune surface n’a été déplacée – l’évolution est entièrement irréversible. La température est mesurée et… il ne se passe rien ! Joule et Gay-Lussac ne mesurent ni transfert de chaleur, ni variation de température.
 
 		\begin{figure}
 			\onlyframabook{\vspace{1.5em}}%handmade pour faire tenir la citation sur le côté
@@ -442,8 +442,7 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 		\begin{equationterms}
 			\item lors d’une évolution réversible à pression constante $p_\text{cste}$, en système fermé.
 		\end{equationterms}
-
-		On remarque que le travail est de signe opposé à la variation de température.
+		et nous remarquons que le travail est de signe opposé à la variation de température.
 		
 		La chaleur peut être quantifiée aisément :
 		\begin{IEEEeqnarray}{rCl}
@@ -463,7 +462,6 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 		\begin{equationterms}
 			\item lors d’une évolution réversible à pression constante, en système ouvert.
 		\end{equationterms}
-
 		Le travail est bien sûr nul, puisqu’aucune pièce mobile n’est présente pour extraire de l’énergie mécanique du gaz.
 
 		La chaleur est alors responsable de l’entièreté de la variation de température :
@@ -596,7 +594,7 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 			\label{fig_gp_température_constante_pv}
 		\end{figure}		
 
-		Pour un gaz parfait, une évolution à température constante se fait toujours à énergie constante. Pour chaque joule de chaleur que l’on fournit au gaz, il faut lui prendre un joule sous forme de travail ; inversement chaque prélèvement de chaleur doit être compensé par un apport égal de travail.
+		Pour un gaz parfait, une évolution à température constante se fait toujours à énergie constante. Pour chaque \si{joule} de chaleur que l’on fournit au gaz, il faut lui prendre un \si{joule} sous forme de travail ; inversement chaque prélèvement de chaleur doit être compensé par un apport égal de travail.
 		
 		En pratique, cette complexité fait que les transferts de chaleur isothermes sont rarement utilisés dans l’industrie. Ils revêtent par contre une importance théorique capitale, que nous étudierons au \courssept.
 		
@@ -690,8 +688,6 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 
 		Une évolution \vocab[évolutions!adiabatiques]{adiabatique}\index{adiabatiques, évolutions} est une évolution au cours de laquelle il n’y a aucun transfert de chaleur (\cref{fig_gp_isentropique}). On peut forcer cela en recouvrant le récipient ou le conduit de gaz que l’on compresse ou détend avec une épaisse couche d’isolant thermique.
 		
-		Attention, même s’il n’y a strictement aucun transfert de chaleur, la température est nécessairement amenée à varier dans une telle évolution, puisque le travail est non-nul. Cette variation de température est d’ailleurs très souvent l’effet escompté, comme nous pourrons le voir au \courssept.
-		
 		\begin{figure}
 			\begin{center}
 				\includegraphics[width=8cm]{images/isentropique.png}
@@ -701,6 +697,8 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 		\end{figure}
 		
 		Une évolution \vocab[évolutions!adiabatiques réversibles]{adiabatique réversible}\index{adiabatiques réversibles, évolutions} est effectuée infiniment lentement. Un piston dans un cylindre devra pour cela être déplacé infiniment lentement, et un compresseur en flux continu devra pour cela être infiniment long. Plus tard, dans le \courshuit, nous appellerons ces transformations \vocab[évolutions!isentropiques]{isentropiques}\index{isentropiques, évolutions}.
+		
+		Attention, même s’il n’y a strictement aucun transfert de chaleur, la température est nécessairement amenée à varier dans une telle évolution, puisque le travail est non-nul. Cette variation de température est d’ailleurs très souvent l’effet escompté, comme nous pourrons le voir au \courssept.
 
 		\begin{figure}
 			\begin{center}
@@ -742,7 +740,7 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 		Malheureusement, ces deux équations~\ref{eq_gp_travail_isentropique_sf} et~\ref{eq_gp_travail_isentropique_so} ne sont d’aucune utilité tant que l’on a pas prédit la température $T_2$ à la fin de l’évolution. Or, dans une évolution adiabatique réversible, rien ne reste constant : le volume spécifique, la pression et la température varient tous les trois. Comment quantifier ces propriétés ?
 		
 		
-		Partons d’une évolution adiabatique infiniment courte dans un système fermé. Lorsque l’évolution est réversible, $\diff w = -p \diff v $ et alors :
+		Partons d’une évolution adiabatique infiniment petite dans un système fermé. Lorsque l’évolution est réversible, $\diff w = -p \diff v $ et alors :
 		\begin{IEEEeqnarray*}{rCl}
 			\diff q = \diff u - \diff w 	& = & 0		\nonumber \\
 			\diff u + p \diff v				& = & 0
@@ -800,7 +798,7 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 					En calculant la masse $m_\A = \frac{p_\A V_\A}{R \ T_\A} = \frac{\num{40e5} \times \num{0,2}}{287 \times \ (\num{50} + \num{273,15})} = \SI{8,626}{\kilogram}$, nous obtenons $W_\fromatob = m_\A w_\fromatob = \num{8,626} \times \num{-151,1e3} = \SI{-1,3038e6}{\joule} = \SI{-1,304}{\mega\joule}$.
 					\begin{remark} Cela représente suffisamment d’énergie pour accélérer sans frottement un véhicule de~\SI{1}{\tonne} jusqu’à une vitesse $C = \left[\frac{\num{1,3038e6}}{\frac{1}{2} \times \num{1000}}\right]^{\num{0,5}} = \SI{51,1}{\metre\per\second} \approx \SI[per-mode = symbol]{180}{\kilo\metre\per\hour}$.\end{remark}
 					\begin{remark}La température finale, \SI{-160}{\degreeCelsius} (!), nous rappelle qu’il ne faut pas confondre «~adiabatique~» et «~à température constante~».\end{remark}
-					\begin{remark}Les pressions peuvent être laissées en \si{bars} dans les fractions, mais les températures ne peuvent rester en~\si{\degreeCelsius}.\end{remark}
+					\begin{remark}Dans les fractions, les pressions peuvent être laissées en \si{bars}, mais les températures ne peuvent rester en~\si{\degreeCelsius}.\end{remark}
 					\begin{remark}La détente correspond au maximum de travail car elle est réversible. Si elle ne l’était pas, alors la température du gaz chuterait moins et le travail serait plus faible (nous aurions toujours $w = c_v \Delta T$). Dans le cas le plus extrême, celui de la détente de Joule et Gay-Lussac (\S\ref{ch_principe_de_joule}), la température resterait fixe à~\SI{50}{\degreeCelsius} et aucun travail ne serait développé.\end{remark}
 				\end{answer}
 		\end{anexample}

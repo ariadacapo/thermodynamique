@@ -54,7 +54,7 @@
 \subsubsection{Puissance d’une pompe à air}
 \label{exo_puissance_pompe_air}
 
-	Une pompe à air (\cref{exo_compresseur_air}) comprime de l’air en régime permanent, de façon adiabatique. L’air voit sa température augmenter de~\SI{15}{\degreeCelsius} à~\SI{100}{\degreeCelsius}.
+	Une pompe à air (\cref{fig_exo_compresseur_air}) comprime de l’air en régime permanent, de façon adiabatique. L’air voit sa température augmenter de~\SI{15}{\degreeCelsius} à~\SI{100}{\degreeCelsius}.
 	
 	Quelle est la puissance spécifique consommée ?
 
@@ -144,7 +144,7 @@
 \label{exo_retrouver_pv}
 \wherefrom{Partiel S1 2013, 2pts}
 
-	Parmi les évolutions réversibles décrites en \cref{fig_pvel}, identifiez (sans vous justifier) l’évolution à température constante, à pression constante, adiabatique réversible, et à volume constant.
+	Parmi les évolutions réversibles décrites sur chacun des graphiques de la \cref{fig_pvel}, identifiez (sans devoir vous justifier) l’évolution à température constante, à pression constante, adiabatique réversible, et à volume constant.
 	
 	\begin{figure}[!bh]
 		\begin{center}
@@ -208,7 +208,7 @@
 \label{exo_compression_combustion_diesel}
 \wherefrom{Partiel S1 2012, 8pts}
 
-	En 1890 un jeune ingénieur allemand épris de thermodynamique met au point un moteur de faible puissance, faible vitesse et haute efficacité dans un laboratoire (\cref{fig_exo_moteur_diesel}). Le moteur se veut robuste et simple ; il n’a qu’un cylindre. Nous étudions ici une partie de son cycle de fonctionnement. %why not more?
+	En 1890 un jeune ingénieur allemand épris de thermodynamique (\S\ref{ch_histoire_diesel}) met au point un moteur de faible puissance, faible vitesse et haute efficacité dans un laboratoire (\cref{fig_exo_moteur_diesel}). Le moteur se veut robuste et simple ; il n’a qu’un cylindre. Nous étudions ici une partie de son cycle de fonctionnement. %why not more?
 	
 	\begin{figure}
 		\begin{center}
@@ -276,13 +276,13 @@
 	
 	\begin{enumerate}
 		\item À partir de la relation suivante,
-			\begin{equation*}
-				\left( \frac{T_1}{T_2} \right)	= \left( \frac{v_2}{v_1} \right)^{\gamma -1}
-			\end{equation*}
+			\begin{equation}
+				\left( \frac{T_1}{T_2} \right)	= \left( \frac{v_2}{v_1} \right)^{\gamma -1} \tag{\ref{eq_isentropique_horrible1}}
+			\end{equation}
 			valable pour une évolution adiabatique réversible d’un gaz parfait, montrez (sans utiliser l’équation~\ref{eq_isentropique_horrible3}) que :			
-			\begin{equation*}
-				\left( \frac{T_1}{T_2} \right)	=  \left( \frac{p_1}{p_2} \right)^{\frac{\gamma -1}{\gamma}}
-			\end{equation*}
+			\begin{equation}
+				\left( \frac{T_1}{T_2} \right)	=  \left( \frac{p_1}{p_2} \right)^{\frac{\gamma -1}{\gamma}} \tag{\ref{eq_isentropique_horrible2}}
+			\end{equation}
 		\item Quelle est la température de l’air à la sortie du compresseur ?
 		\item Quelle est ainsi la puissance spécifique consommée par le compresseur ?
 		\item Quelle est la puissance spécifique apportée sous forme de chaleur dans la chambre de combustion ?
