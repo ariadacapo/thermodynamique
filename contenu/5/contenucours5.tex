@@ -15,7 +15,8 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 				\item Ils sont sujets aux effets de la tension de surface, ce qui comble les esthètes et les mécanicien/nes des fluides (\cref{fig_oocestjoli}) mais est sans conséquence en thermodynamique.
 			\end{itemize}
 	
-		\begin{figure}
+		\onlyamphibook{\begin{figure}}
+		\onlyframabook{\begin{figure}[h!]}%handmade
 			\begin{center}
 				\includegraphics[width=8cm]{images/photo_liquide.jpg}
 			\end{center}
@@ -62,8 +63,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 
 		Ce modèle simpliste est une bonne première approche pour décrire le phénomène de liquéfaction. Lorsque l’on réduit l’énergie cinétique des molécules d’un gaz (par refroidissement), passé un seuil critique elles s’assemblent de façon beaucoup plus compacte, tout en continuant à se percuter à la même vitesse moyenne (température inchangée). Plus l’on prélève de chaleur au gaz, plus le nombre de molécules en interaction compacte augmente. Elles forment de petits groupes ; s’ils sont suffisemment nombreux, les groupes de~\num{e14} molécules (cent mille milliards) diffusent la lumière et forment une suspension visible à l’œil nu. Dès que le nombre de molécules atteint \num{e21} l’œil humain peut identifier des gouttes de liquide.
 		
-		On peut ainsi liquéfier n’importe quel gaz en le refroidissant et réduisant son volume. La température et la pression à atteindre pour la liquéfaction dépendent de la taille et de la géométrie des molécules qui le composent. Dans les sections suivantes, nous allons quantifier précisément les quantités d’énergie et les gammes de propriétés nécessaires pour vaporiser et liquéfier l’eau.
-	
+		On peut ainsi liquéfier n’importe quel gaz en le refroidissant et réduisant son volume. La température et la pression à atteindre pour la liquéfaction dépendent de la taille et de la géométrie des molécules qui le composent. Dans les sections suivantes, nous allons quantifier précisément les quantités d’énergie et les gammes de propriétés nécessaires pour vaporiser et liquéfier l’eau.\onlyframabook{\dontbreakpage}
 	
 	\subsection{Utilisation industrielle de l’eau et des \mbox{liquides/vapeurs}}
 	
@@ -82,7 +82,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 		Nous nous concentrons ici sur l’eau, mais les phénomènes décrits et les méthodes de calcul s’appliquent tout aussi bien aux autres liquides/vapeurs.
 
 
-
+\onlyframabook{\clearpage}
 \section{Description qualitative des propriétés de l’eau}
 
 
@@ -94,7 +94,8 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 		
 		Au fur et à mesure que l’on ralentit et rapproche les molécules d’un gaz les unes des autres, le modèle du gaz parfait décrit de plus en plus mal ses propriétés. On observe un seuil en dessous duquel on observe la liquéfaction et l’ébullition, c’est-à-dire la coexistence des deux phases liquide et gazeuse ; ce seuil est décrit en termes de température et de pression qui sont dites \vocab[critiques, pression et température]{critiques}\index{température!critique}\index{pression!critique}. Les températures et pressions critiques de quelques fluides courants sont indiquées dans le \cref{tab_exemples_températures_pressions_critiques}. Notons que l’air, mélange de plusieurs gaz, verra différentes substances de sa composition se condenser à différentes températures.
 
-		\begin{table}
+		\onlyamphibook{\begin{table}}
+		\onlyframabook{\begin{table}[h!]}
 			\begin{center}
 			\begin{tabularx}{10cm}{l l S S}
 			~  			& ~  		& {$T_\text{cr.}$ (\si{\kelvin})} 	& {$p_\text{cr.}$ (\si{\mega\pascal})}	\\
@@ -123,16 +124,19 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 
 		Observons la température et le volume d’une masse d’eau pure que l’on chauffe continûment, alors qu’elle est placée dans un récipient à pression constante (\cref{fig_changement_phase}). On mesure alors la température de l’eau en fonction de son volume (\cref{fig_T-v_construction_1}).
 
-		\begin{figure}
+		\onlyamphibook{\begin{figure}}
+		\onlyframabook{\begin{figure}[h!]}%handmade
 			\begin{center}
-				\includegraphics[width=\textwidth]{images/etats_vapeur_pression_constante.png}
+				\onlyamphibook{\includegraphics[width=\textwidth]{images/etats_vapeur_pression_constante.png}}
+				\onlyframabook{\includegraphics[width=0.8\textwidth]{images/etats_vapeur_pression_constante.png}}
 			\end{center}
 			\supercaption{Réchauffement d’une quantité fixe d’eau à pression constante.\\
 				A : liquide comprimé ; B : mélange liquide-vapeur ; C : vapeur saturée ; D : vapeur sèche.}{\cczero \oc}
 			\label{fig_changement_phase}
 		\end{figure}
 
-		\begin{figure}
+		\onlyamphibook{\begin{figure}}
+		\onlyframabook{\begin{figure}[h!]}%handmade
 			\begin{center}
 				\includegraphics[width=\didacticpvdiagramwidth]{images/etats_vapeur_t_v.png}
 			\end{center}
@@ -140,22 +144,22 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 			\label{fig_T-v_construction_1}
 		\end{figure}
 
-		Au départ, lorsque l’eau est liquide, la température augmente linéairement avec le volume, avec un fort gradient. On parle alors de \vocab[liquide!comprimé]{liquide comprimé}\footnote{Liquide comprimé ou \vocab[liquide!sous-refroidi]{sous-refroidi}}.\index{comprimé, liquide}\index{sous-refroidi, liquide} % en anglais : \vocabe{unsaturated}, \vocabe{compressed} or \vocabe{subcooled liquid})
+		Au départ, lorsque l’eau est liquide, la température augmente linéairement avec le volume, avec un fort gradient. On parle alors de \vocab[liquide!comprimé]{liquide comprimé}\footnote{Liquide comprimé ou \vocab[liquide!sous-refroidi]{sous-refroidi}.}.\index{comprimé, liquide}\index{sous-refroidi, liquide} % en anglais : \vocabe{unsaturated}, \vocabe{compressed} or \vocabe{subcooled liquid})
 
-		\thermoquotebegin{O}
+		\onlyamphibook{\thermoquotebegin{O}}\onlyframabook{\thermoquotetopbegin{O}}
 		La vapeur peut être considérée à l’instant même de sa formation dans la chaudière, et encore en contact avec le liquide dont elle émane, ou bien séparée de ce même liquide ; et selon chacun de ces cas, ses propriétés sont différentes.
 		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1839}{\textit{Théorie de la machine à vapeur}~\cite{pambour1839}\vspace{-1em}}%handmade
 
 		Puis, soudainement, alors que le volume continue de croître, la température cesse d’augmenter. Le mélange dans le cylindre est alors di-phasique : une partie est liquide, et l’autre gazeuse. L’ajout de chaleur ne provoque aucune augmentation de température (contrairement à un gaz parfait), mais seulement la transformation de liquide en vapeur : c’est l’ébullition.
 
-		Dans cet état, la substance est appelée \vocab{mélange liquide-vapeur}\index{liquide-vapeur, mélange}\footnote{Rigoureusement, le mélange est nommé \vocab{mélange liquide-vapeur saturé}\index{saturé, mélange liquide-vapeur}, puisqu’il est composé de \vocab[liquide!saturé]{liquide saturé}\index{saturé, liquide} (parfois dit \vocab[liquide!saturant]{saturant}\index{saturant, liquide}) et de \vocab[vapeur!saturée]{vapeur saturée}\index{saturée, vapeur} (parfois dite \vocab[vapeur!saturante]{saturante}\index{saturante, vapeur}). En anglais : \vocabe{wet vapour}.}\nolinebreak.
+		Dans cet état, la substance est appelée \vocab{mélange liquide-vapeur}\index{liquide-vapeur, mélange}\footnote{Rigoureusement, le mélange est nommé \vocab{mélange liquide-vapeur saturé}\index{saturé, mélange liquide-vapeur}, puisqu’il est composé de \vocab[liquide!saturé]{liquide saturé}\index{saturé, liquide} (parfois dit \vocab[liquide!saturant]{saturant}\index{saturant, liquide}) et de \vocab[vapeur!saturée]{vapeur saturée}\index{saturée, vapeur} (parfois dite \vocab[vapeur!saturante]{saturante}\index{saturante, vapeur}). En anglais : \vocabe{wet~vapour}.}\nolinebreak.
 
 		Enfin, lorsque la dernière goutte de liquide a été transformée en vapeur, la température reprend son augmentation au fur et à mesure que l’on apporte de la chaleur. Le fluide est alors dans un état dit de \vocab[vapeur!sèche]{vapeur sèche}\footnote{\vocab[vapeur!sèche]{Vapeur sèche} ou \vocab[vapeur!surchauffée]{surchauffée}\index{surchauffée, vapeur}.}\nolinebreak.%(en anglais : \vocabe{superheated} ou \vocabe{dry vapour})
 
 		\clearfloats %handmade
-		\thermoquotetopbegin{O}%handmade
+		\onlyamphibook{\thermoquotetopbegin{O}}\onlyframabook{\thermoquotebegin{O}}%handmade
 		L’eau ne pouvant se vaporiser sous une haute pression qu’en vertu d’une température plus élevée, on a lieu de penser que, toutes circonstances égales d’ailleurs, la machine doit être capable de vaporiser moins d’eau sous une pression plus considérable.
-		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1835}{\textit{Traité théorique et pratique des machines locomotives}~\cite{pambour1835}\vspace{4em}} %handmade vspace
+		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1835}{\textit{Traité théorique et pratique des machines locomotives}~\cite{pambour1835}\onlyamphibook{\vspace{4em}}\onlyframabook{\vspace{1em}}} %handmade vspace
 		L’expérience peut être renouvelée à des pressions différentes (\cref{fig_T-v_construction_2}). Lorsque la pression que l’on impose augmente, on observe deux faits importants :
 		\begin{itemize}
 			\item La température de changement de phase augmente ;
@@ -366,15 +370,16 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 				On obtient par interpolation $u_{\SI{585}{\degreeCelsius}} = u_{\SI{500}{\degreeCelsius}} + y \times (u_{\SI{600}{\degreeCelsius}} - u_{\SI{580}{\degreeCelsius}}) = \SI{3281,33}{\kilo\joule\per\kilogram}$.
 					\begin{remark}Après une interpolation, toujours vérifier rapidement l’ordre de grandeur des résultats. Ici $u_{\SI{585}{\degreeCelsius}}$ est bien entre $u_{\SI{500}{\degreeCelsius}}$ et $ u_{\SI{600}{\degreeCelsius}}$, et plus proche de $ u_{\SI{600}{\degreeCelsius}}$.\end{remark}\end{answer}
 			\end{anexample}
-			
-			
+
+	\onlyframabook{\clearpage}%handmade
 	\subsection{Points de saturation}
 	
 		Pour quantifier précisément les propriétés de l’eau lorsqu’elle change de phase, nous utilisons les abaques~n°2 et~n°3. Les propriétés de l’eau sous forme de liquide saturé (indice $L$) et de vapeur saturée (indice $V$) y sont tabulées pour chaque température.
 		
 		Dans l’abaque~n°2, les données sont triées par pression (à chaque pression correspond une seule température de saturation). L’abaque~n°3 présente exactement les mêmes données, mais triées par température. Des extraits de ces abaques sont présentés dans les tableaux~\ref{abaque2extrait} et~\ref{abaque3extrait}.
 		
-		\begin{table}
+		\onlyamphibook{\begin{table}}
+		\onlyframabook{\begin{table}[h!]}
 		\begin{footnotesize}
 		\begin{innersidebox}
 		\begin{tabular}{%
@@ -403,11 +408,12 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 		{...}	&{...}	&{...}	&{...}	&{...}	&{...}	&{...}	&{...}	&{...}	&{...}\\
 		\hline
 		\end{tabular}\end{innersidebox}\end{footnotesize}
-		\caption{Extrait de l’abaque~n°2. L’indice $L$ correspond au liquide saturé, et l’indice $V$ correspond à la vapeur saturée. Les indices $LV$ correspondent à la différence entre ces valeurs : par exemple $v_{LV} \equiv v_V - v_L$.}
+		\caption{Extrait de l’abaque~n°2. L’indice $L$ correspond au liquide saturé, et l’indice $V$ correspond à la vapeur saturée. Les indices $LV$ correspondent à la différence entre ces valeurs : par exemple $u_{LV} \equiv u_V - u_L$.}
 		\label{abaque2extrait}
 		\end{table}
 		
-		\begin{table}
+		\onlyamphibook{\begin{table}}
+		\onlyframabook{\begin{table}[h!]}
 			\begin{footnotesize}
 			\begin{innersidebox}
 			\begin{tabular}{%
@@ -440,7 +446,8 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 			\label{abaque3extrait}
 		\end{table}	
 	
-		\clearfloats %handmade
+		\onlyamphibook{\clearfloats} %handmade
+		\onlyframabook{\pagebreak}
 		Nous pouvons tout d’abord répondre à des questions simples avec ces abaques :
 			
 			\begin{anexample}
@@ -477,6 +484,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 				\begin{remark}Si nous avions utilisé l’approximation usuelle de~\num{1000} litres par mètre cube d’eau liquide ($v_L \approx \SI{e-3}{\metre\cubed\per\kilogram}$), nous aurions commis une erreur de~\num{+7,3}\%.\end{remark}\end{answer}
 			\end{anexample}
 
+		\onlyamphibook{\clearpage}%handmade
 		On note au passage que le terme $h_{LV} \equiv h_L - h_V$ est parfois nommé \vocab[chaleur!de vaporisation]{chaleur de vaporisation}\index{vaporisation, chaleur de}\footnote{En effet, pour une évaporation en système fermé à une température donnée, $q_\text{évap.} = \Delta u - w_\text{évap.} = (u_V - u_L) - p_\text{sat} (v_V - v_L) = h_{LV} $ (on obtient le même résultat en système ouvert).}\nolinebreak.
 
 
