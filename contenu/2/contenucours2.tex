@@ -79,7 +79,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 	\thermoquotebegin{O}
 		Appelons ainsi $Q$ la quantité totale de chaleur qui doit être impartie à un corps pendant son passage, d’une manière donnée, depuis une condition à une autre, (toute chaleur prélevée au corps étant comptée comme une quantité négative), alors nous la divisons en trois parties, parmi lesquelles la première est employée à augmenter la chaleur existant véritablement dans le corps, la seconde à produire le travail intérieur et la troisième à produire le travail extérieur. Il va de la seconde partie ce que nous avons déjà dit de la première : qu’elle est indépendante du chemin suivi dans le passage du corps d’un état à un autre, et nous pouvons en conséquence représenter ces deux parties ensemble par une fonction $U$, qui même si nous ne pouvons mieux la définir, nous savons à l’avance au moins être entièrement déterminée par les états initial et final du corps.
 	\thermoquoteend{Rudolf Clausius, 1854}{\textit{Über eine veränderte Form des zweiten Hauptsatzes der mechanischen Wärmetheorie~\cite{clausius1854}}\vspace{1em}} %handmade vspace
-	Le premier principe stipule que l’énergie est indestructible (\S\ref{ch_premier_principe}). Si on fournit \SI{100}{\joule} de travail à un système fermé et qu’il perd \SI{80}{\joule} sous forme de chaleur, c’est donc que «~son~» énergie a augmenté de~\SI{20}{\joule}. Nous nommons cette variation la \vocab[énergie!interne, variation de]{variation d’énergie interne}, $\Delta U$.
+	Le premier principe stipule que l’énergie est indestructible (\S\ref{ch_premier_principe}). Si on fournit \SI{100}{\joule} de travail à un système fermé et qu’il perd \SI{80}{\joule} sous forme de chaleur, c’est donc que «~son~» énergie a augmenté de~\SI{20}{\joule}. Nous nommons cette augmentation la \vocab[énergie!interne, variation de]{variation d’énergie interne}, $\Delta U$.
 	
 	Sous forme d’équation, le premier principe dans un système fermé se traduit par l’équation :
 	\begin{equation}
@@ -135,7 +135,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 		\item et \tab $Q_\text{cycle}$ \tab est la chaleur reçue par le système (\si{\joule}).
 	\end{equationterms}
 
-	Cette \cref{eq_premier_principe_cycle} est la raison pour laquelle on énonce souvent le premier principe de la façon suivante, sans pourtant apporter grand’chose à notre simple affirmation du \coursunshort~:
+	Cette \cref{eq_premier_principe_cycle} est la raison pour laquelle on énonce souvent le premier principe —\ sans pourtant apporter grand’chose à notre simple affirmation du \coursunshort\ — de la façon suivante :
 
 	«~Lorsqu’un système a parcouru un cycle thermodynamique complet, la somme algébrique de la chaleur fournie et du travail effectué est nulle.~»
 
@@ -194,7 +194,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 			\SI{1}{bar} \equiv \SI{1e5}{\pascal}
 			\end{equation}
 
-			Notons que la pression atmosphérique à faible altitude est de l’ordre du bar ($p_{\text{atm.std.}} \equiv \SI{1}{atm} \equiv \SI{1,01325}{bar}$). Attention, les manomètres indiquent parfois une pression jaugée, qui n’est pas la pression réelle. Cette différence est décrite dans l’annexe \ref{ch_annexe_pression}.
+			Notons que la pression atmosphérique à faible altitude est de l’ordre du bar ($p_{\text{atm.std.}} \equiv \SI{1}{atm} \equiv \SI{1,01325}{bar}$). Attention, les manomètres indiquent souvent une pression jaugée, qui n’est pas la pression réelle. Cette différence est décrite dans l’annexe \ref{ch_annexe_pression}.
 			}% end item
 
 			\item[Le volume]{est également exprimable facilement. Si le système est déformé par un piston d’aire $S$, de sorte que sa longueur varie de $\diff l$, nous avons :
@@ -228,14 +228,14 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 
 		Pour pouvoir quantifier l’énergie stockée ou fournie par le système, il nous suffira donc de connaître la relation entre $p$ et $V$. Dans le cas présent, cette fonction $p_{(V)}$ est directement liée à la caractéristique $F_{(l)}$ du ressort. La dureté du ressort et sa géométrie (à spires régulières ou progressives) détermineront au final la quantité de travail stockée et fournie par le système.
 		
-		Un outil absolument formidable pour comprendre et analyser les transferts de chaleur est le \vocab[diagramme!pression-volume]{diagramme pression-volume}.\index{pression-volume, diagramme} Dans le cas où l’on modélise le fluide par un ressort, le travail peut être visualisé par l’aire sous la courbe d’une évolution (\cref{fig_p-v_ressort}).		
+		Un outil formidable pour comprendre et analyser les transferts de chaleur est le \vocab[diagramme!pression-volume]{diagramme pression-volume}.\index{pression-volume, diagramme} Dans le cas où l’on modélise le fluide par un ressort, le travail peut être visualisé par l’aire sous la courbe d’une évolution (\cref{fig_p-v_ressort}).		
 
 		\begin{figure}
 			\begin{center}
 				\includegraphics[width=8cm]{images/pv_ressort.png}
 			\end{center}
 			\supercaption{Diagramme pression-volume d’un système fermé modélisé par un ressort. Dans le cas représenté, le volume augmente (le piston s’éloigne). La grandeur $\diff V$ sera constamment positive, et le travail sera négatif : le système perd de l’énergie au profit du piston.\\
-			Cette figure représente le même phénomène qu’en \cref{fig_force-déplacement-aire} avec des grandeurs différentes.}{schéma \cczero \oc}
+			Cette figure représente le même phénomène que celui de la \cref{fig_force-déplacement-aire} p.\pageref{fig_force-déplacement-aire}, avec des grandeurs physiques différentes.}{schéma \cczero \oc}
 			\label{fig_p-v_ressort}
 		\end{figure}
 
@@ -248,7 +248,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 								\includegraphics[width=3cm]{images/exe_pv_isobare.png}
 							\end{center}
 					Nous partons de l’équation \ref{eq_travail_pdV} : $W_{\A\to\B} = - \int_\A^\B p \diff V = - p_\text{cste.} \int_\A^\B \diff V = p_\text{cste.} \left[V\right]_{V_\A}^{V_\B } = - \num{e5} (\num{1e-3} - \num{2e-3}) = \SI{+100}{\joule}.$
-					\begin{remark}Le signe est positif : la boîte («~le système~») reçoit du travail. Nous explicitons toujours le signe en quantifiant les transferts.\end{remark}
+					\begin{remark}Le signe est positif : la boîte («~le système~») reçoit du travail. Nous explicitons toujours le signe lorsque nous quantifions les transferts.\end{remark}
 				\end{answer}
 		\end{anexample}
 
@@ -280,7 +280,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 			\label{fig_molécules_compression_lente}
 		\end{figure}
 
-		Nous constatons expérimentalement que lorsque le mouvement est infiniment lent, un fluide comprimé se comporte exactement comme un ressort (\cref{fig_piston_fluide_lent}). La précision «~lorsque le mouvement est infiniment lent~» est d’importance capitale, comme nous le verrons plus bas.
+		Nous constatons expérimentalement que lorsque le mouvement est infiniment lent, un fluide comprimé se comporte exactement comme un ressort (\cref{fig_piston_fluide_lent}). La précision «~lorsque le mouvement est infiniment lent~» est d’importance capitale, comme nous le verrons plus~bas.
 
 		\begin{figure}
 			\begin{center}
@@ -313,15 +313,15 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 			\begin{center}
 			\includegraphics[width=\pvdiagramwidth]{images/pv_gaz_simple.png}
 			\end{center}
-			\supercaption{Propriétés d’un gaz lorsqu’on le comprime. La relation est similaire à celle que l’on obtiendrait avec un ressort à spires progressives.}{schéma \cczero \oc}
+			\supercaption{Propriétés d’un gaz lorsqu’on le comprime, représentées sur un diagramme pression-volume. La relation est similaire à celle que l’on obtiendrait avec un ressort à spires progressives.}{schéma \cczero \oc}
 			\label{fig_p-v_pvx}
 		\end{figure}
 
 		\thermoquotebegin{O}
 			S’il était vrai que la vapeur se dépensât par le cylindre à une pression égale à celle de la chaudière, ou qui fût à celle-ci dans un rapport fixe indiqué par un coefficient quelconque, puisqu’il faut toujours à une même locomotive le même nombre de tours de roue, ou le même nombre de coups de piston pour parcourir la même distance, il s’en suivrait que tant que ces machines travaillent à la même pression, elles devraient consommer dans tous les cas la même quantité d’eau pour la même distance.
 		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1839}{\textit{Théorie de la machine à vapeur} \cite{pambour1839}\onlyamphibook{\vspace{4em}}\onlyframabook{\vspace{1em}}} %handmade vspace
-		Comment les fluides se comportent-t-ils lorsqu’on les comprime --\ autrement dit, par quel type de «~ressort~» peut-on les modéliser ? On constate expérimentalement que, lorsqu’on les comprime, la plupart des gaz voient leur pression et leur volume liés par une relation de type $p\ v^{x} = \text{cste.}$ avec $x$ une constante lorsqu’on les comprime (\cref{fig_p-v_pvx})%
-			\footnote{Toutefois, nous verrons au \courscinqshort que les liquides/vapeurs ne se comportent pas du tout comme cela sur une plage de propriétés donnée, même si la tendance globale reste la même.}%
+		Comment les fluides se comportent-t-ils lorsqu’on les comprime --\ autrement dit, par quel type de «~ressort~» peut-on les modéliser ? On constate expérimentalement que, lorsqu’on les comprime, la plupart des gaz voient leur pression et leur volume liés par une relation de type $p\ v^{x} = \text{cste.}$ avec $x$ une constante (\cref{fig_p-v_pvx})%
+			\footnote{Toutefois, nous verrons au \courscinqshort que sur une plage de propriétés donnée, les liquides/vapeurs se comportent de façon très différente, même si la tendance globale reste la même.}%
 		.
 
 		Lorsqu’on apporte de la chaleur au fluide pendant qu’on le comprime, on «~durcit~» son comportement, et la pression augmente plus rapidement (\cref{fig_p-v_ajout_retrait_chaleur}). À~l’inverse, lorsqu’on lui prélève de la chaleur pendant la compression, la pression augmente moins rapidement. Ces transferts de chaleur font donc varier la quantité de travail à fournir pour comprimer le fluide entre deux volumes donnés.
@@ -353,8 +353,8 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 							\end{center}
 						Il nous faut d’abord calculer la valeur de $k$ pour connaître quantitativement la relation entre $p$ et $v$. Nous l’obtenons avec les conditions initiales : $k = p_\A v_\A^{\num{1,2}} = \num{e5} \times 1^{\num{1,2}} = \SI{e5}{\usi}$.
 							\begin{remark} La grandeur de $k$ est déroutante : elle est mesurée en~\si{\pascal\metre\tothe{3,6}\per\kilogram\tothe{1,2}}. Cela n’a pas d’importance pour nous et il nous suffit (après avoir bien converti les unités d’entrée en \textsc{si}!) d’indiquer «~unités \textsc{si}~», ou~\si{\usi}.\end{remark}
-						Maintenant, nous pouvons décrire $p$ en fonction de $v$ : $p = \num{e5} \times v^{\num{-1,2}}$. Il n’y a plus qu’à intégrer en partant de l’\cref{eq_travail_pdv} : $w_\fromatob = - \int_\A^\B p \diff v = - \int_\A^\B k v^{\num{-1,2}} \diff v = - k \left[\frac{1}{-1,2 + 1} v^{-1,2 - 1} \right]_{v_\A}^{v_\B } = \frac{\num{e5}}{0,2}\left[v^{-0,2}\right]_1^{\num{0,167}} = \SI{+2,152e5}{\joule\per\kilogram} = \SI{+215,2}{\kilo\joule\per\kilogram}$.
-							\begin{remark}Le signe est positif : le gaz reçoit du travail.\end{remark}
+						Maintenant, nous pouvons décrire $p$ en fonction de $v$ : $p = \num{e5} \times v^{\num{-1,2}}$. Il n’y a plus qu’à intégrer en partant de l’\cref{eq_travail_pdv} : $w_\fromatob = - \int_\A^\B p \diff v = - \int_\A^\B k v^{\num{-1,2}} \diff v = - k \left[\frac{1}{-1,2 + 1} v^{-1,2 + 1} \right]_{v_\A}^{v_\B } = \frac{\num{e5}}{0,2}\left[v^{-0,2}\right]_1^{\num{0,167}} = \SI{+2,152e5}{\joule\per\kilogram} = \SI{+215,2}{\kilo\joule\per\kilogram}$.
+							\begin{remark}Le signe de $w_\fromatob$ est positif : le gaz reçoit du travail.\end{remark}
 							\begin{remark}Le résultat peut paraître grand, mais il faut se rappeler que c’est un travail spécifique (\S\ref{ch_valeurs_spécifiques}) qu’il faudra multiplier par la masse du gaz pour obtenir une quantité en joules. Aux conditions de départ (\SI{1}{\kilogram\per\metre\cubed}) un volume d’air de~\SI{1}{\liter} pèse à peine plus d’un~\si{gramme}. \end{remark}
 					\end{answer}
 			\end{anexample}
@@ -378,7 +378,7 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 								k_1 &=& \frac{\ln\left(\frac{p_\B }{p_\A}\right)}{\ln\left(\frac{v_\A}{v_\B }\right)} = \frac{\ln\left(\frac{1}{12}\right)}{\ln\left(\frac{0,833}{5,867}\right)} = \num{1,2733}
 							\end{IEEEeqnarray*}
 						Et avec $k_1$, nous pouvons calculer $k_2 = p_\A v_\A^{k_1} = \num{12e5} \times \num{0,833}^{\num{1,2733}} = \SI{9,514e5}{\usi}$.
-							\begin{remark}$k_1$ est un exposant et n’a pas d’unités. Les unités de $k_2$ ne nous intéressent pas.\end{remark}
+							\begin{remark}$k_1$ est un exposant et n’a pas d’unités. Les unités de $k_2$ ne nous intéressent~pas.\end{remark}
 							\begin{remark}Même si elle peut paraître laborieuse, cette démarche «~nous avons un modèle général pour la tendance, quels sont les paramètres pour ce cas particulier ?~» est très courante en physique, et extrêmement utile pour l’ingénieur/e.\end{remark}
 						Nous savons maintenant décrire quantitativement les propriétés pendant l’évolution : $p v^{\num{1,2733}} = \num{5,914e5}$.	Il n’y a plus qu’à effectuer notre intégration habituelle : $w_\fromatob = - \int_\A^\B p \diff v = - k_2 \int_\A^\B v^{-k_1} \diff v = \frac{\num{-9,514e5}}{\num{-0,2733}} \left[v^{-0,2733}\right]_{\num{0,833}}^{\num{0,587}} = \SI{-3,333e6}{\joule\per\kilogram} = \SI{-3333}{\kilo\joule\per\kilogram}$. Nous multiplions par la masse de gaz pour obtenir le travail : $W_{\A\to\B} = m \ w_\fromatob = \SI{-1}{\kilo\joule}$.
 							\begin{remark}Ce calcul peut être effectué de façon plus rapide, sans calculer les valeurs de $v_\A$, $v_\B $ et $k_2$. Toutefois, pour être certain/e de parvenir au résultat, il est plus sûr et plus facile de quantifier $p$ et $v$ (en \textsc{si}) à tous les stades de l’évolution avant de débuter une intégration.\end{remark}
@@ -483,7 +483,7 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 							\begin{center}
 								\includegraphics[width=3cm]{images/exe_pv_irr.png}
 							\end{center}
-						Ainsi, les propriétés s’élèvement progressivement sur le diagramme pression-volume : l’excédent de travail investi pendant les compressions, et le défaut de travail récupéré pendant la détente, se traduisent par une augmentation de l’énergie interne du gaz, dont la température augmente continuellement.
+						Ainsi, le volume s’élève progressivement sur le diagramme pression-volume : l’excédent de travail investi pendant les compressions, et le défaut de travail récupéré pendant la détente, se traduisent par une augmentation de l’énergie interne du gaz, dont la température augmente continuellement.
 					\end{answer}
 			\end{anexample}
 
@@ -498,7 +498,7 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 		\thermoquotebegin{O}
 		D’où vient l’irréversibilité ? elle ne vient pas des lois de Newton. Si nous partons de l’idée que le comportement de toutes choses doit être en définitive compris en termes des lois de la physique et s’il apparaît également que toutes les équations ont cette propriété fantastique d’avoir une autre solution [valide] lorsque nous remplaçons $t$ par $-t$, alors chaque phénomène est réversible. Comment se fait-il alors que dans la nature, à une grande échelle, les choses ne soient pas réversibles ?
 		\thermoquoteend{Richard Feynman, 1963}{\textit{The Feynman Lectures on \mbox{Physics}} \mbox{\cite{feynman1963, feynman1963fr}}\onlyamphibook{\vspace{-2em}}} %handmade vspace
-		Du point de vue de la physique, le phénomène d’irréversibilité est fascinant. En effet, nous partons de collisions de molécules, un phénomène tout à fait réversible, pour fabriquer une transformation irréversible : une évolution qui ne va que dans un sens ! Pour ramener le gaz dans l’état où il était avant de le comprimer brutalement, nous sommes obligés de lui prendre de la chaleur. Il est surprenant que sans aller à l’encontre des lois de Newton, nous ayons créé une situation où \emph{on ne peut pas revenir en arrière en «~faisant l’inverse~»}. Existe-t-il d’autres transformations irréversibles ? Peut-on quantifier l’irréversibilité ? Nous tenterons de répondre à ces questions dans les \courssept et \courshuit.
+		Du point de vue de la physique, le phénomène d’irréversibilité est fascinant. En effet, nous partons de collisions de molécules, un phénomène tout à fait réversible, pour fabriquer une transformation irréversible : une évolution qui ne va que dans un sens ! Pour ramener le gaz dans l’état où il était avant de le comprimer brutalement, nous sommes obligés de lui prendre de la chaleur. Il est surprenant que sans aller à l’encontre des lois de Newton, nous ayons créé une situation où \emph{on ne peut pas revenir en arrière en «~faisant l’inverse~»}. Existe-t-il d’autres transformations irréversibles ? Peut-on quantifier l’irréversibilité ? Nous tenterons de répondre à ces questions dans les chapitres \coursseptplural et \courshuitplural.
 
 		En attendant, nous admettrons qu’il faut respecter trois conditions pour qu’une évolution soit réversible :
 
@@ -523,4 +523,4 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 		\item pour un système fermé.
 	\end{equationterms}
 		
-		Toute la difficulté pour quantifier un transfert de chaleur est maintenant de prédire et quantifier le changement de l’énergie interne, $\Delta U$. Pour les gaz, $U$ est quasiment proportionnelle à la température ; pour les liquides et vapeurs, la relation est plus complexe. Nous apprendrons à quantifier l’énergie dans les fluides aux \coursquatre et \courscinq.
+		Toute la difficulté pour quantifier un transfert de chaleur est maintenant de prédire et quantifier le changement de l’énergie interne, $\Delta U$. Pour les gaz, $U$ est quasiment proportionnelle à la température ; pour les liquides et vapeurs, la relation est plus complexe. Nous apprendrons à quantifier l’énergie dans les fluides aux chapitres \coursquatreplural et \courscinqplural.

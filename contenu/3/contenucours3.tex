@@ -13,7 +13,7 @@
 		\thermoquotebegin{O}
 			Les difficultés de construction qui doivent être surmontées dans un moteur à gaz puissant, à cause des pressions énormes sur les pistons et de la dilatation des culasses (gare aux fissures !) sont bien connues. Une turbine à gaz sûre serait, de ce point de vue, une amélioration.
 		\thermoquoteend{Aurel Stodola, 1904}{\textit{Die Dampfturbinen}~\cite{stodola1904, stodola1905}\vspace{3em}} %handmade vspace
-		Nous appelons \vocab[système!ouvert, définition]{système ouvert} un sujet d’étude arbitraire dont les frontières sont perméables à la masse (\cref{fig_systeme_ouvert}). Son volume peut changer, et il peut posséder plusieurs entrées et sorties, chacune avec un débit et une pression différents.
+		Nous appelons \vocab[système!ouvert, définition]{système ouvert} un sujet d’étude arbitraire dont les frontières sont perméables à la masse (\cref{fig_systeme_ouvert}). En général, son volume peut changer, et il peut posséder plusieurs entrées et sorties, chacune avec un débit et une pression différents.
 
 		\onlyframabook{\begin{figure}}
 		\onlyamphibook{\begin{figure}[htc]}%handmade pour poser la figure
@@ -37,7 +37,7 @@
 
 		Tout comme pour les systèmes ouverts, nous allons nous placer du point de vue du système pour quantifier les transferts :
 			\begin{itemize}
-				\item La réception de travail, de chaleur ou de masse se traduit par un transfert \emph{positif} ;
+				\item La réception de travail, de chaleur ou de masse se traduit par un transfert~\emph{positif} ;
 				\item La perte de travail, de chaleur ou de masse se traduit par un transfert \emph{négatif}.
 			\end{itemize}
 		
@@ -52,7 +52,7 @@
 
 		Imaginons un système ouvert en régime continu contenant une petite pompe à eau. Pour insérer l’eau dans la pompe à une pression donnée, il faut fournir de l’énergie au système. Au contraire, pour repousser l’eau à l’extérieur (à une pression plus haute), le système doit fournir de l’énergie. Comment quantifier cette énergie ?
 
-		Considérons le cas d’un \vocab{élément de fluide}\index{fluide, élement de} (c’est-à-dire une petite quantité de fluide en transit, de volume $V_\text{élément}$) et qui pénètre à l’intérieur de notre système à la pression $p_1$ (\cref{fig_travail_ecoulement}).
+		Considérons le cas d’un \vocab{élément de fluide}\index{fluide, élément de} (c’est-à-dire une petite quantité de fluide en transit, de volume $V_\text{élément}$) qui pénètre à l’intérieur de notre système à la pression $p_1$ (\cref{fig_travail_ecoulement}).
 
 		\begin{figure}
 			\begin{center}
@@ -68,7 +68,7 @@
 		\end{IEEEeqnarray}
 		\begin{equationterms}
 			\item où \tab $W_\text{insertion}$ 	\tab est le travail d’insertion (\si{\joule}),
-			\item et \tab $V_\text{élément}$ 	\tab\tab est le volume de l’élément de fluide (\si{\metre\cubed}).
+			\item et \tab $V_\text{élément}$ 	\tab\tab\tab est le volume de l’élément de fluide (\si{\metre\cubed}).
 		\end{equationterms}
 
 		Si un tel volume de fluide pénètre chaque seconde dans le système, alors ce dernier reçoit une puissance sous forme de travail, que nous nommons \vocab[puissance!d’insertion]{puissance d’insertion}, $\dot{W}_\text{insertion}$. Nous l’exprimons parfois sous forme spécifique~(\S\ref{ch_valeurs_spécifiques}) :
@@ -170,7 +170,7 @@
 			\footnote{Nous verrons dans le prochain chapitre que dans le cas d’un gaz parfait, ils sont tous deux proportionnels à la température.}%
 		. Pour simplifier leur utilisation dans les calculs, ils sont souvent regroupés en un seul terme.
 
-		Nous nommons la somme des termes $u$ et $p v$ l’\vocab[enthalpie!spécifique]]{enthalpie spécifique}\index{spécifique!enthalpie}, et lui attribuons le symbole~$h$ :
+		Nous nommons la somme des termes $u$ et $p v$ l’\vocab[enthalpie!spécifique]{enthalpie spécifique}\index{spécifique!enthalpie}, et lui attribuons le symbole~$h$ :
 		\begin{equation}
 			h \equiv u + p \ v
 			\label{def_enthalpie}
@@ -184,7 +184,7 @@
 			H \equiv m \ h
 		\end{equation}
 		\begin{equationterms}
-		      \item où \tab $H$ \tab est mesuré en \si{joules} (\si{\joule}).
+		      \item où \tab $H$ \tab est mesurée en \si{joules} (\si{\joule}).
 		\end{equationterms}
 
 		\thermoquotebegin{O}
@@ -208,7 +208,7 @@
 					Nous partons de l’\cref{eq_petite_sfee_deltas_h} :
 						\begin{IEEEeqnarray*}{rCl}
 							q_{1 \to 2} + w_{1 \to 2} 		& = & \Delta h + \Delta e_\text{méca.}\\
-							\Delta e_\text{méca.} 			& = & -\Delta h + 0 + 0 \\
+							\Delta e_\text{méca.} 			& = & -\Delta h - 0 - 0 \\
 							\frac{1}{2}\left(C_2^2 - C_1^2\right) & = & - \Delta h\\
 							C_2 &=& \left[ -2 \ \Delta h + C_1^2\right]^{\frac{1}{2}}
 						\end{IEEEeqnarray*}
@@ -253,36 +253,36 @@
 		Le système ouvert a, lui, quatre transferts sous forme de travail :
 	
 		\begin{description}
-			\item [La puissance spécifique d’insertion $w_\text{insertion}$] (\ref{eq_puissance_spé_insertion}) est due à l’arrivée permanente du fluide à l’entrée du système. On a, du point de vue du système ouvert :
+			\item [La puissance spécifique d’insertion] $w_\text{insertion}$ (\ref{eq_puissance_spé_insertion}) est due à l’arrivée permanente du fluide à l’entrée du système. On a, du point de vue du système ouvert :
 				\begin{equation}
 					w_\text{insertion} = +p \ v
 				\end{equation}
 
-			\item [La puissance spécifique de compression $-\diff w_{m_\A}$] est le travail spécifique que le système ouvert doit transférer à chaque quantité de masse $m_A$ pour qu’elle soit effectivement comprimée :
+			\item [La puissance spécifique de compression] $-\diff w_{m_\A}$ est le travail spécifique que le système ouvert doit transférer à chaque quantité de masse $m_A$ pour qu’elle soit effectivement comprimée :
 				\begin{equation}
 					-\diff w_{m_\A} = -(-p \diff v)
 					\label{eq_travail_so_wma}
 				\end{equation}
 		
-			\item [La puissance spécifique d’extraction $w_\text{extraction}$] est dépensé par le système ouvert pour faire sortir continûment le fluide.
+			\item [La puissance spécifique d’extraction] $w_\text{extraction}$ est dépensée par le système ouvert pour faire sortir continûment le fluide.
 		
 				À la sortie, les propriétés du fluide sont devenues $p + \diff p$ pour la pression, et $v + \diff v$ pour le volume. On a ainsi :
 				\begin{equation}
 					w_\text{extraction} = -(p + \diff p) (v + \diff v)
 				\end{equation}
 				
-			\item [La puissance spécifique reçue de l’extérieur $\diff w_\text{S.O.}$] est la puissance qui alimente la compression : c’est la grandeur que nous souhaitons quantifier.
+			\item [La puissance spécifique reçue de l’extérieur] $\diff w_\text{S.O.}$ est la puissance qui alimente la compression : c’est la grandeur que nous souhaitons quantifier.
 
 		\end{description}
 
 		Ces quatre puissances s’annulent, car le transfert total de travail en jeu dans l’écoulement ne dépend pas du point de vue adopté :
 		\begin{equation}
-			\diff w_\text{S.0.} + w_\text{insertion} + \diff w_{mA} + w_\text{extraction} = 0
+			\diff w_\text{S.0.} + w_\text{insertion} + (-\diff w_{mA}) + w_\text{extraction} = 0
 		\end{equation}
 
 		On peut donc quantifier la puissance spécifique $\diff w_\text{S.0.}$ qu’il faut donner au compresseur :
 		\begin{IEEEeqnarray*}{rCl}
-			\diff w_\text{S.0.} 	& = & - w_\text{insertion} - \diff w_{mA} - w_\text{extraction} \\
+			\diff w_\text{S.0.} 	& = & - w_\text{insertion} + \diff w_{mA} - w_\text{extraction} \\
 			\diff w_\text{S.0.} 	& = & -p \ v + (-p \diff v) + (p + \diff p) (v + \diff v) \\
 					& = & -p \ v - p \diff v + p \ v + p\diff v + \diff p \ v + \diff p \ \diff v \\
 					& = & \diff p \ v + \diff p \ \diff v
@@ -307,7 +307,7 @@
 			\item et quel que soit l’apport de chaleur.
 		\end{equationterms}
 
-		Ainsi, lorsque nous voulons quantifier le travail dans un système ouvert, c’est l’intégrale $+\int v \diff p$, et non pas $-\int p \diff v$, qu’il nous faut calculer.
+		Ainsi, lorsque nous voulons quantifier le travail réversible dans un système ouvert, c’est l’intégrale $+\int v \diff p$, et non pas $-\int p \diff v$, qu’il nous faut calculer.
 		
 		Sur un diagramme pression-volume, nous pouvons visualiser ce travail en ajoutant le travail d’insertion et le travail d’extraction au travail de compression, comme montré en \cref{p-v_travail_so_construction}.
 
@@ -338,7 +338,7 @@
 		\begin{anexample}
 			Une pompe à liquide compresse lentement un débit d’eau de~\SI{2}{\kilogram\per\second} depuis \SI{1}{\bar} jusqu’à \SI{20}{\bar}. Pendant la compression, le volume spécifique de l’eau reste constant à $v_L = \SI{e-3}{\metre\cubed\per\kilogram}$. Quelle est la puissance consommée sous forme de travail ?
 				\begin{answer}
-					Sur un diagramme pression-volume et de façon qualitative (c’est-à-dire sans représenter les valeurs numériques), l’évolution peut être représentée ainsi :
+					Sur un diagramme pression-volume et de façon qualitative (c’est-à-dire sans représenter les valeurs numériques), l’évolution peut être représentée~ainsi :
 							\begin{center}
 								\includegraphics[width=3cm]{images/exe_pv_isochore_so.png}
 							\end{center}
@@ -357,9 +357,10 @@
 								\includegraphics[width=3cm]{images/exe_pv_exp_so.png}
 							\end{center}
 					Ici le volume spécifique est fonction de la pression : nous avons $v = \left(\frac{k}{p}\right)^{\frac{1}{\num{1,35}}} = k^{\frac{1}{\num{1,35}}} p^{-\frac{1}{\num{1,35}}}$.\\
-					Nous partons de l’\cref{eq_travail_W_rév_so} : $\dot{W}_\fromatob
+					Nous partons de l’\cref{eq_travail_W_rév_so} : \\
+					$\dot{W}_\fromatob
 					= \dot{m} \int_\A^\B v \diff p
-					= \dot{m} \ k^{\frac{1}{\num{1,35}}} \int_\A^\B p^{-\frac{1}{\num{1,35}}} \diff p
+					= \dot{m} \ k^{\frac{1}{\num{1,35}}} \int_\A^\B p^{-\frac{1}{\num{1,35}}} \diff p\\
 					= \dot{m} \ k^{\frac{1}{\num{1,35}}} \left[\frac{1}{-\frac{1}{\num{1,35}} +1} p^{-\frac{1}{\num{1,35}} +1}\right]_{p_\A}^{p_\B}
 					= \dot{m} \ \left(p_\A v_\A^{\num{1,35}}\right)^{\frac{1}{\num{1,35}}} \frac{1}{\num{0,25926}} \left[p^{\num{0,25926}}\right]_{p_\A}^{p_\B}
 					= 2 \left(\num{20e5} \times \num{0,8}^{\num{1,35}}\right)^{\frac{1}{\num{1,35}}} \frac{1}{\num{0,25926}} \left[\left(\num{20e5}\right)^{\num{0,25926}} - \left(\num{1e5}\right)^{\num{0,25926}}\right]
@@ -401,7 +402,7 @@
 							\begin{center}
 								\includegraphics[height=3cm]{images/exe_pv_irr_so.png}
 							\end{center}
-						Ainsi, les propriétés se décalent progressivement sur le diagramme pression-volume. Si les évolutions ne se font pas lentement, le compresseur demande plus de travail que la turbine est capable de fournir au retour. Cet excédent de travail consommé par l’air augmente son énergie interne et sa température.
+						Ainsi, les propriétés se décalent progressivement sur le diagramme pression-volume. Si les évolutions ne se font pas lentement, le compresseur demande plus d’énergie que la turbine est capable de prélever au retour. Cet excédent d’énergie est absorbé par l’air, ce qui augmente son énergie interne et sa température.
 					\end{answer}
 
 		\end{anexample}

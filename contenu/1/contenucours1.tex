@@ -50,7 +50,7 @@
 	
 		Les différentes formes d’énergie que nous identifions usuellement ont été mises au jour une à une au cours de l’histoire de la physique.
 		
-		L’\vocab[énergie!cinétique]{énergie cinétique} est possédée par un corps du fait de sa vitesse (\textit{cf.} \cref{ch_energie_mecanique} plus bas). C’est la forme d’énergie la plus facile à identifier. Elle a longtemps été nommée \textit{vis viva} («~force vive~»).
+		L’\vocab[énergie!cinétique]{énergie cinétique} est possédée par un corps du fait de sa vitesse (\textit{cf.} le paragraphe \S\ref{ch_energie_mecanique} plus bas). C’est la forme d’énergie la plus facile à identifier. Elle a longtemps été nommée \textit{vis viva} («~force vive~»).
 		
 		L’\vocab[énergie!potentielle]{énergie potentielle} est stockée avec l’interaction entre deux objets liés par une force conservative\footnote{Une force est dite \vocab[force!conservative]{conservative} lorsqu’elle reste la même dans un sens comme dans un autre. Par exemple, le poids est conservatif (il est le même que l’on monte ou que l’on descende) mais le frottement ne l’est pas (il s’oppose toujours au mouvement).}. À l’échelle macroscopique, la forme la plus palpable est l’énergie potentielle d’altitude, issue du travail fourni à une masse contre son poids (c’est ce travail qui rend plus fatigante la montée d’escaliers que leur descente, par exemple). En écrasant un ressort, on y stocke de l’énergie potentielle de compression, que l’on récupère en le détendant.
 
@@ -108,7 +108,7 @@
 
 		Par exemple, si l’on souhaite comparer le \emph{fonctionnement} du moteur d’une moto et de celui d’un camion, il sera judicieux de diviser chacun des transferts énergétiques (pendant la compression, la combustion, la détente) par la quantité d’air dans les cylindres, pour s’affranchir des effets d’échelle.
 
-		À cet effet, nous utilisons des grandeurs dites \vocab[spécifique!grandeur, notion de]{spécifiques} (dites parfois \vocab[massique!grandeur, notion de]{massiques}) ; et nous les noterons en minuscules.
+		À cet effet, nous utilisons des grandeurs dites \vocab[spécifique!grandeur, notion de]{spécifiques} (dites parfois \mbox{\vocab[massique!grandeur, notion de]{massiques}}) ; et nous les notons en minuscules.
 
 		\begin{description}
 		
@@ -127,11 +127,11 @@
 				\begin{anexample}
 					Un injecteur d’essence dans un moteur de voiture doit fournir une quantité de chaleur spécifique $q_{\text{comb.}} = \SI{300}{\kilo\joule\per\kilogram}$ quelle que soit la quantité d’air dans le cylindre. Quelle sera l’énergie fournie lorsque $m_\text{air} = \SI{0,5}{\kilogram}$ et lorsque $m_\text{air} = \SI{1}{\kilogram}$ ?
 		
-					\begin{answer}Il faudra $Q_{\text{comb.}1} = m_1 q_{\text{comb.}} = \num{0,5} \times \num{300e3} = \num{150e3} = \SI{150}{\kilo\joule}$ dans le premier cas, et $Q_{\text{comb.}2} = m_2 q_{\text{comb.}} = \SI{300}{\kilo\joule}$ dans le second.\end{answer}
+					\begin{answer}Il faudra $Q_{\text{comb.}1} = m_1 q_{\text{comb.}} = \num{0,5} \times \num{300e3} = \SI{150e3}{\joule} = \SI{150}{\kilo\joule}$ dans le premier cas, et $Q_{\text{comb.}2} = m_2 q_{\text{comb.}} = \SI{300}{\kilo\joule}$ dans le second.\end{answer}
 					\end{anexample}
 
 		\index{puissance!spécifique}
-		\item[La puissance spécifique] (parfois également appelée puissance massique), a les mê\-mes unités : on divise des \si{watts} (\si{joules} \si{par} \si{seconde}) par un débit de masse (\si{kilos} \si{par} \si{seconde}).
+		\item[La puissance spécifique] (parfois également appelée puissance massique), a les mêmes unités que l’énergie spécifique : on divise des \si{watts} (\si{joules} \si{par} \si{seconde}) par un débit de masse (\si{kilos} \si{par} \si{seconde}).
 			\begin{equation}
 				e \equiv \frac{\dot{E}}{\dot{m}}
 				\label{def_puissance_spécifique}
@@ -141,18 +141,20 @@
 				\item 	\tab $\dot{E}$ \tab la puissance (\si{\watt}),
 				\item et \tab $\dot{m}$ \tab le débit de masse traversant le système (\si{\kilogram\per\second}).\index{masse!débit de}
 			\end{equationterms}
-
+	
 			\begin{anexample}
 				Une chambre de combustion dans un turboréacteur doit fournir une quantité de chaleur spécifique $q_{\text{comb.}} = \SI{300}{\kilo\joule\per\kilogram}$ quel que soit le débit d’air traversant le moteur. Quelle sera la puissance fournie lorsque $\dot{m}_\text{air} = \SI{0,5}{\kilogram\per\second}$ et lorsque $\dot{m}_\text{air} = \SI{1}{\kilogram\per\second}$ ?
 		
-				\begin{answer}Il faudra une puissance $\dot{Q}_{\text{comb.}1} = \dot{m}_1 q_{\text{comb.}} = \num{0,5} \times \num{300e3} = \num{150e3} = \SI{150}{\kilo\watt}$ dans le premier cas, et $\dot{Q}_{\text{comb.}2} = \dot{m}_2 q_{\text{comb.}} = \SI{300}{\kilo\watt}$ dans le second.
-					\begin{remark}La puissance $\dot{Q}$ et le débit de masse $\dot{m}$ sont notés avec un point (débit dans le temps) mais pas la puissance spécifique $q$, qui est mesurée en \si{\joule\per\kilogram} comme la chaleur spécifique.\end{remark}\end{answer}
+				\begin{answer}Il faudra une puissance $\dot{Q}_{\text{comb.}1} = \dot{m}_1 q_{\text{comb.}} = \num{0,5} \times \num{300e3} = \SI{150e3}{\watt} = \SI{150}{\kilo\watt}$ dans le premier cas, et $\dot{Q}_{\text{comb.}2} = \dot{m}_2 q_{\text{comb.}} = \SI{300}{\kilo\watt}$ dans le second.
+					\begin{remark}La puissance $\dot{Q}$ et le débit de masse $\dot{m}$ sont notés avec un point (débit dans le temps) mais pas la puissance spécifique $q$, qui est mesurée en \si{\joule\per\kilogram} comme la chaleur spécifique.\end{remark}
+					\begin{remark}Les grandeurs spécifiques dans cet exemple et le précédent permettent de comparer le même processus physique (réchauffement d’air par combustion) dans deux machines très différentes.\end{remark}
+				\end{answer}
 			\end{anexample}
 		
 		\end{description}
 
-		Il faut noter qu’en pratique l’adjectif «~spécifique~» ou «~massique~» est souvent omis même si la quantité (ou le débit) de masse est inconnue, et que beaucoup d’auteurs n’utilisent pas la notation en minuscules.
-		
+		Il faut noter qu’en pratique l’adjectif «~spécifique~» ou «~massique~» est souvent simplement omis, et que la notation en minuscule n’est pas systématiquement employée dans la littérature scientifique.
+
 \section{L’énergie mécanique}
 \label{ch_energie_mecanique}
 
@@ -187,7 +189,7 @@
 		\item et \tab $z$ \tab l’altitude par rapport au point de référence (\si{\metre}).
 	\end{equationterms}
 
-	Nous montrerons que dans les machines, la variation de l’énergie potentielle d’altitude de l’air est toujours négligeable ; et que c’est souvent aussi le cas pour l’eau.
+	Nous montrerons que dans les machines, la variation de l’énergie potentielle d’altitude de l’air est toujours négligeable ; et que c’est souvent aussi le cas pour~l’eau.
 
 	Énergie cinétique et potentielle d’altitude sont souvent rassemblées en un seul terme, nommé \vocab[énergie!mécanique]{énergie mécanique} :
 	\begin{equation}
@@ -225,7 +227,7 @@
 		\item et \tab $\vec l$ 	\tab le vecteur représentant le déplacement effectué (de norme $l$ en \si{\metre}).\index{déplacement}
 	\end{equationterms}
 
-	En thermodynamique, nous allons utiliser cette \cref{def_travail} pour quantifier le travail effectué par des fluides. Pour cela nous allons apporter trois contraintes :
+	En thermodynamique, nous allons utiliser cette \cref{def_travail} pour quantifier le travail effectué par des fluides. Pour cela nous allons la ré-écrire en ajoutant trois particularités :
 	
 	\begin{itemize}
 		\item Nous mesurerons le déplacement \emph{avec la longueur de l’objet qui fournit le travail} ;
@@ -251,19 +253,20 @@
 	\end{equationterms}
 
 	\index{diagramme!force-distance}\index{force-distance, diagramme}
-	Sur un graphique représentant la force en fonction de la distance, ce travail $W_\fromatob$ est représenté par la surface sous la courbe de A à B (\cref{fig_force-déplacement-aire}). La forme de la courbe, c’est-à-dire la relation $F_{(l)}$ entre $F$ et $l$ au fur et à mesure de l’évolution, déterminera la quantité $W_\fromatob$.
+	Sur un graphique représentant la force en fonction de la distance, ce travail $W_\fromatob$ est représenté par la surface sous la courbe de A à B (\cref{fig_force-déplacement-aire}). La géométrie de la courbe, c’est-à-dire la relation $F_{(l)}$ entre $F$ et $l$ au fur et à mesure de l’évolution, déterminera la quantité $W_\fromatob$.
 	
-	\begin{figure}
+	\onlyamphibook{\begin{figure}}%handmade
+	\onlyframabook{\begin{figure}[h!]}%handmade
 	\begin{center}
-		\includegraphics[width=\didacticpvdiagramwidth]{images/fl.png}
+		\includegraphics[width=8cm]{images/fl.png}
 	\end{center}
-	\supercaption{Le travail fourni par un objet peut être visualisé avec l’aire sous la courbe force-déplacement. Dans le cas montré ici, l’objet voit sa longueur $l$ augmenter, et le travail sera négatif (fourni par l’objet).}{schéma \cczero \oc}
+	\supercaption{Sur un diagramme force-distance, le travail fourni par un objet peut être visualisé avec l’aire sous la courbe. Dans le cas montré ici, l’objet voit sa longueur $l$ augmenter, et le travail sera négatif (fourni par l’objet).}{schéma \cczero \oc}
 	\label{fig_force-déplacement-aire}
 	\end{figure}
 
 		\clearfloats
 		\begin{anexample}\index{ressorts, compression de}
-			Un ressort est comprimé depuis une longueur de~\SI{30}{\centi\metre} jusqu’à une longueur de~\SI{5}{\centi\metre}. Le ressort est tel qu’il exerce une force (en \si{newtons}) indépendante de sa longueur et égale à
+			Un ressort est comprimé depuis une longueur de~\SI{30}{\centi\metre} jusqu’à une longueur de~\SI{5}{\centi\metre}. Le ressort est tel qu’il exerce une force (en \si{newtons}) indépendante de sa longueur et égale à :
 				\begin{equation*}
 					F_{(l)} = \SI{6e3}{\newton}
 				\end{equation*}
@@ -292,7 +295,7 @@
 		\end{anexample}
 		
 		\begin{anexample}\index{ressorts, compression de}
-			Un autre ressort est comprimé depuis une longueur de~\SI{30}{\centi\metre} jusqu’à une longueur de~\SI{5}{\centi\metre}. Il est tel qu’il exerce une force (en~\si{\newton}) liée à sa longueur $l$ (en~\si{\metre}) par la relation :
+			Un dernier ressort est comprimé depuis une longueur de~\SI{30}{\centi\metre} jusqu’à une longueur de~\SI{5}{\centi\metre}. Il est tel qu’il exerce une force (en~\si{\newton}) liée à sa longueur $l$ (en~\si{\metre}) par la relation :
 				\begin{equation*}
 					F_{(l)} = \num{14e3} - \num{12e3} \ l^{\num{0,3}}
 				\end{equation*}
@@ -326,8 +329,8 @@
 
 		\index{Celsius!degrés (échelle)}\index{Kelvin!unité}
 		L’étudiant/e aura probablement l’habitude d’utiliser une échelle en \si{degrés} \si{Celsius}~(\si{\degreeCelsius}). Elle précède l’échelle absolue en \si{kelvins}, mais a été habilement redéfinie et synchronisée avec cette dernière en 1848%
-			\footnote{Nous aurons l’occasion d’étudier ce magnifique tour de passe-passe au maq\courssept.}%
-		. Il suffit de soustraire 273,15 unités à une température absolue (en \si{kelvins}) pour lire une température en \si{degrés} \si{Celsius} :
+			\footnote{Nous aurons l’occasion d’étudier cette astucieuse manipulation au \courssept (\S\ref{ch_echelle_temperature_thermodynamique} p.\pageref{ch_echelle_temperature_thermodynamique}).}%
+		. Il suffit de soustraire \num{273,15} unités à une température absolue (en \si{kelvins}) pour lire une température en \si{degrés} \si{Celsius} :
 		\begin{equation}
 			T(\si{\degreeCelsius})\ \equiv \ T(\si{\kelvin}) - 273,15
 			\label{def_température_kelvins_celsius}
@@ -393,7 +396,7 @@
 			Ces circonstances \jecourte nécessitent une comparaison entre travail et chaleur, qu’il nous faut effectuer en partant de l’hypothèse divergente que la production de travail est due non seulement à un changement dans la \emph{distribution} de la chaleur, mais aussi à une \emph{consommation} de celle-ci ; et inversément, que par la consommation de travail la chaleur puisse être \emph{produite}.
 		\thermoquoteend{Rudolf Clausius, 1850~\mbox{\cite{clausius1850, clausius1850en, clausius1868fr1}}\onlyframabook{\vspace{-1cm}}}{}%handmade
 
-		Lorsque l’on met deux corps de températures différentes en contact, leurs températures ont tendance à s’égaliser au cours d’un transfert spontané d’énergie. Nous appelons cette forme d’énergie la \vocab{chaleur}.
+		Lorsque l’on met deux corps de températures différentes en contact, leurs températures ont tendance à s’égaliser au cours d’un transfert spontané d’énergie. Nous appelons cette forme d’énergie \vocab{chaleur}.
 
 		La chaleur, notée $Q$, est \textbf{une forme d’énergie} (mesurée en \si{joules}). À l’échelle macroscopique, c’est un transfert d’énergie sous forme chaotique. On peut le provoquer de plusieurs façons, dont les plus pertinentes pour l’ingénieur/e sont :
 
@@ -458,7 +461,7 @@
 						\end{IEEEeqnarray*}
 					Comme la capacité $c_{\text{acier}}$ est indépendante de $T$ cette intégrale devient simplement :
 					$ Q_\fromatob = m_{\text{acier}} \ c_{\text{acier}} \int_\A^\B \diff T = m_{\text{acier}} \ c_{\text{acier}} (T_\B - T_\A ) = 50 \times 475 \times (18 - 5) = \SI{+3,0875e5}{\joule} = \SI{+308,8}{\kilo\joule}$.
-						\begin{remark}Pendant l’intégration, $\int_\A^\B \diff T$ devient $\Delta T$ (une différence de température), tandis que $\int_\A^\B \diff Q$ devient seulement $Q_\fromatob$ (un transfert entre deux états). La chaleur n’est pas «~diminuée~», elle est transmise. Dans cet ouvrage, lorsque nous quantifions les transferts d’énergie, nous convenons d’en rendre le signe explicite.\end{remark}
+						\begin{remark}Pendant l’intégration, $\int_\A^\B \diff T$ devient $\Delta T$ (une différence de température), tandis que $\int_\A^\B \diff Q$ devient seulement $Q_\fromatob$ (un transfert entre deux états). La chaleur n’est pas «~augmentée~», elle est transmise. Dans cet ouvrage, lorsque nous quantifions les transferts d’énergie, nous convenons d’en rendre le signe explicite.\end{remark}
 						\begin{remark}Une conversion des deux températures en \si{kelvins} n’aurait pas changé la valeur du $\Delta T$. Le résultat serait bien sûr identique.\end{remark}
 						\begin{remark}Avec une résistance électrique de la puissance d’un radiateur domestique ordinaire (\SI{2}{\kilo\watt}), il faudrait $\Delta t = \frac{Q_\fromatob}{\dot Q} = \frac{\num{308,8e3}}{\num{2e3}} = \SI{154}{\second}$ pour réchauffer l’acier, soit un peu plus de deux minutes. Nous verrons au \coursquatre que l’air à pression constante a une capacité calorifique massique trois fois plus grande que celle de l’acier.\end{remark}
 				\end{answer}
@@ -483,13 +486,13 @@
 			\includegraphics[height=0.38\textwidth]{images/air_piston_compressor.jpg}
 			\includegraphics[height=0.38\textwidth]{images/liquid_oxygen_expansion.jpg}
 			\end{center}
-			\supercaption{Lorsqu’il est comprimé dans un compresseur, l’air perd de la chaleur au travers des parois et des aubes des cylindres ; et pourtant sa température augmente.\\
-			À l’inverse, lorsqu’il est détendu dans une soupape, l’oxygène liquide reçoit de la chaleur de l’atmosphère (comme le mettent en évidence la condensation et le gel de l’eau atmosphérique sur les tuyaux) ; et pourtant sa température chute.}{\wcfile{Compressor3.jpg}{Photo compresseur} \ccbysa Fábio Teixeira\\ \wcfile{U.S. Air Force Tech. Sgt. Jason Powers, left, a noncommissioned officer in charge with the 20th Logistics Readiness Squadron (LRS), and Staff Sgt. Adam Rozell, a fixed facilities supervisor with the 20th LRS 140626-F-SX095-017.jpg}{Photo oxygène liquide} \pd Jensen Stidham / USAF}
+			\supercaption{À gauche : lorsqu’il est comprimé dans un compresseur, l’air perd de la chaleur au travers des parois et des aubes des cylindres ; et pourtant sa température augmente.\\
+			À droite : à l’inverse, lorsqu’il est détendu dans une soupape, l’oxygène liquide reçoit de la chaleur de l’atmosphère (comme le mettent en évidence la condensation et le gel de l’eau atmosphérique sur les tuyaux) ; et pourtant sa température chute.}{\wcfile{Compressor3.jpg}{Photo compresseur} \ccbysa Fábio Teixeira\\ \wcfile{U.S. Air Force Tech. Sgt. Jason Powers, left, a noncommissioned officer in charge with the 20th Logistics Readiness Squadron (LRS), and Staff Sgt. Adam Rozell, a fixed facilities supervisor with the 20th LRS 140626-F-SX095-017.jpg}{Photo oxygène liquide} \pd Jensen Stidham / USAF}
 			\label{fig_chauffer_refroidir}
 		\end{figure}
 			
 			\index{froid (physique)}
-			\item \textit{Le froid} --- Pour nous, la sensation de «~froid~» indique une faible température. Nous ne considérerons pas «~le froid~» comme étant quelque chose que l’on peut fabriquer ni mesurer. Nous dirons plutôt que nous prélevons de la chaleur d’un corps (par exemple, un réfrigérateur prend de la chaleur à un aliment tiède).
+			\item \textit{Le froid} --- Pour nous, la sensation de «~froid~» dénote une faible température. Nous ne considérerons pas «~le froid~» comme étant quelque chose que l’on peut fabriquer ni mesurer. Nous dirons plutôt que nous prélevons de la chaleur d’un corps (par exemple, un réfrigérateur prend de la chaleur à un aliment tiède).
 			
 			\index{feu (physique)}
 			\item \textit{Le feu} --- Le feu est le nom donné au dégagement de lumière (rayonnement électromagnétique) par un gaz à haute température. En thermodynamique, le «~feu~» n’a aucune propriété particulière. Il s’agit pour nous de la même chaleur qu’elle soit dégagée par combustion de bois, de kérosène, par frottement dans un frein, ou par une réaction nucléaire. Seule compte au final la température à laquelle elle est transmise !
