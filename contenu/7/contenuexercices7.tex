@@ -10,7 +10,7 @@
 \subsubsection{Efficacité maximale d’un moteur}
 \label{exo_efficacite_moteur_carnot}
 
-	Quelle est l’efficacité maximale qu’une centrale à vapeur puisse atteindre en opérant dans l’atmosphère à température ambiante (\SI{15}{\degreeCelsius}), et dont le cycle a une température maximale de~\SI{800}{\degreeCelsius} ?
+	Quelle est l’efficacité maximale qu’une centrale à vapeur puisse atteindre en fonctionnant dans l’atmosphère à température ambiante (\SI{15}{\degreeCelsius}), avec une température maximale de~\SI{800}{\degreeCelsius} ?
 
 \subsubsection{Efficacité maximale d’un réfrigérateur}
 \label{exo_efficacite_refrigerateur_carnot}
@@ -87,7 +87,7 @@
 \subsubsection{Réversibilité des machines}
 \label{exo_thermopompe_plusplus}
 
-	Montrez brièvement que l’on ne peut pas concevoir de pompe à chaleur de rendement supérieur à celui atteint par une machine réversible, par exemple de la même façon que nous l’avons fait avec un moteur en \cref{fig_plus_que_machine_de_carnot}.
+	Montrez brièvement que l’on ne peut pas concevoir de pompe à chaleur de rendement supérieur à celui atteint par une machine réversible, par exemple de la même façon que nous l’avons fait avec un moteur en \cref{fig_plus_que_machine_de_carnot} p.\pageref{fig_plus_que_machine_de_carnot}.
 
 
 \subsubsection{Moteur à turbine idéal}
@@ -121,7 +121,7 @@
 	\end{enumerate}
 
 
-\subsubsection{Cycle idéal et réel d’un réfrigérateur}
+\subsubsection{Irréversibilités dans un réfrigérateur}
 \label{exo_cours_refrigerateur_carnot}
 \wherefrom{[DS n°2 2011, 4pts]}
 
@@ -151,7 +151,7 @@
 	
 	La température minimale de réfrigération est de~\SI{-50}{\degreeCelsius} et la chaleur est rejetée à~\SI{40}{\degreeCelsius}.
 			
-	En étudiant les propriétés du cyle de Carnot, un/e ingénieur/e débutant/e constate que le rendement du réfrigérateur augmente si la température de rejet de chaleur est abaissée.
+	En étudiant les propriétés du cyle de Carnot, un/e ingénieur/e débutant/e constate que le rendement du réfrigérateur augmente si la température de rejet de chaleur est abaissée (\cref{eq_efficacité_réfrigérateur_carnot_température} p.\pageref{eq_efficacité_réfrigérateur_carnot_température}).
 	
 	Il/elle propose de configurer le réfrigérateur de telle sorte qu’il rejette de la chaleur à~\SI{10}{\degreeCelsius} seulement. Cette chaleur à~\SI{10}{\degreeCelsius} serait à son tour captée par une pompe à chaleur qui la mènerait enfin à~\SI{40}{\degreeCelsius}.
 	
@@ -178,10 +178,10 @@
 	Si l’on considère le meilleur moteur que l’on puisse concevoir :
 	
 	\begin{enumerate}
-		\item À quelle température la chaleur serait-elle rejetée ?
+		\item À quelle température la chaleur serait-elle \mbox{rejetée} ?
 		\item Quel serait le rendement du moteur ?
 		\item Quelle serait la quantité de chaleur à fournir pour chaque combustion, et la masse de carburant correspondante ?
-		\item Quelle serait la consommation horaire d’essence ?
+		\item Quelle serait la consommation horaire d’\mbox{essence} ?
 	\end{enumerate}
 
 \exercisesolutionpage
@@ -189,18 +189,18 @@
 
 	\begin{description}
 		\item [\ref{exo_efficacite_moteur_carnot}]
-					\tab $\eta_\text{max.} = \SI{73,1}{\percent}$ (\ref{eq_efficacité_moteur_carnot_température}, cf. exemple~\ref{ex_efficacite_moteur_carnot}).
+					\tab $\eta_\text{max.} = \SI{73,1}{\percent}$ (\ref{eq_efficacité_moteur_carnot_température}, cf. exemple~\ref{ex_efficacite_moteur_carnot} p.\pageref{ex_efficacite_moteur_carnot}).
 		\item [\ref{exo_efficacite_refrigerateur_carnot}]
-					\tab 1) $\textsc{cop}_\text{max.} = \num{10,3}$ (\ref{eq_efficacité_réfrigérateur_carnot_température}, cf. exemple~\ref{ex_efficacite_refrigerateur_carnot}) ;
-					\tab 2) Compressions et détentes non réversibles (ainsi $w_{4\to 3} + w_{2\to 1} > 0$), en particulier si une soupape est utilisée (\S\ref{ch_principe_fonctionnement_réfrigérateur}) ; transferts de chaleur non-isothermes.
+					\tab 1) $\textsc{cop}_\text{max.} = \num{10,3}$ (\ref{eq_efficacité_réfrigérateur_carnot_température}, cf. exemple~\ref{ex_efficacite_refrigerateur_carnot} p.\pageref{ex_efficacite_refrigerateur_carnot}) ;
+					\tab 2) Compressions et détentes non réversibles (ainsi $w_{4\to 3} + w_{2\to 1} > 0$), en particulier si une soupape est utilisée (\S\ref{ch_principe_fonctionnement_réfrigérateur} p.\pageref{ch_principe_fonctionnement_réfrigérateur}) ; transferts de chaleur non-isothermes.
 		\item [\ref{exo_efficacite_thermopompe_carnot}]
 					\tab 1) cf. \S\ref{ch_rendement_thermopompe}	;
 					\tab 2) $\dot W_\net = \frac{\dot Q_\out}{\eta_\text{max.}} = \SI{+1,09}{\kilo\watt}$ ;
 					\tab 3) $\dot W_\net = \SI{+34,5}{\watt}$ (!)
 					\tab 4) $\dot W_\net = \SI{0}{\watt}$ ; et lorsque $T_\text{ext.} > T_\text{int.}$, $\dot W_\net$ devient négatif : la thermopompe fonctionne comme un moteur…
 		\item [\ref{exo_cours_carnot}]
-					\tab 1) cf. \S\ref{ch_descritpion_cycle_carnot}, et en particulier les figures~\ref{fig_carnot_quatre_etapes} et~\ref{fig_carnot_quatre_etapes_so} ;
-					\tab 2) cf. \S\ref{ch_elaboration_cycle_carnot} ;
+					\tab 1) cf. \S\ref{ch_descritpion_cycle_carnot} p.\pageref{ch_descritpion_cycle_carnot}, et en particulier les figures~\ref{fig_carnot_quatre_etapes} et~\ref{fig_carnot_quatre_etapes_so} ;
+					\tab 2) cf. \S\ref{ch_elaboration_cycle_carnot} p.\pageref{ch_elaboration_cycle_carnot} ;
 					\tab 3) Cela n’a aucune importance !
 					\tab 4) Son encombrement, son rapport des puissances sont très grands, et sa puissance est infiniment faible…
 		\item [\ref{exo_moteur_carnot_vapeur}]

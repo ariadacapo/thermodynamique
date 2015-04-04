@@ -809,9 +809,7 @@ pharaonique. Pour s’en affranchir, il faudra monter en température : ce sera 
 
 		Par contre, dès que l’on franchit la courbe de saturation, rien ne va plus. Lorsque la saturation est atteinte, la pression se met à décroître et nous n’avons pas de moyen analytique de décrire cette évolution.
 		
-		La conséquence est que pour l’instant, nous ne pouvons pas quantifier le travail et la chaleur mis en jeu lorsque l’on fait évoluer de la vapeur à température constante !
-
-		Lorsque nous aurons introduit le concept de l’\vocab{entropie} dans le \courshuitshort, nous disposerons d’un moyen simple de quantifier le flux de chaleur dans une évolution à température constante.
+		La conséquence est que pour l’instant, nous ne pouvons pas quantifier le travail et la chaleur mis en jeu lorsque l’on fait évoluer de la vapeur à température constante ! Il nous faut patienter jusqu’au \courshuitshort, où nous utiliserons le concept de l’\vocab{entropie} pour nous attaquer au problème.
 		
 			\begin{anexample}
 				\label{ch_exemple_isotherme_lv_un}
@@ -826,22 +824,19 @@ pharaonique. Pour s’en affranchir, il faudra monter en température : ce sera 
 				\begin{remark}Tant que l’on est en mélange liquide/vapeur (sous la courbe de saturation), température constante = pression constante. Aucun problème.\end{remark}\end{answer}
 			\end{anexample}
 			
-			
 			\begin{anexample}
 				\label{ch_exemple_isotherme_lv_deux}
 			
 			On reprend la même question que dans l’exemple \ref{ch_exemple_isotherme_lv_un} ci-dessus avec un volume final plus grand : \SI{2}{\metre\cubed}. Combien faut-il de chaleur et de travail ?
 					
 				\begin{answer}
-				On ne peut pas encore répondre simplement à cette question ! Le volume spécifique final dépasse $v_V$ et la pression chute donc sur la fin de l’évolution (\cref{fig_pv_lv_isotherme}).
+				Nous ne pouvons pas encore répondre à cette question ! Le volume spécifique final dépasse $v_V$ et la pression chute donc sur la fin de l’évolution (\cref{fig_pv_lv_isotherme}).
 				
-				Pour répondre, il nous faudrait un moyen de prédire la pression à la fin de l’évolution. Sans cela, nous serions condamnés à interpoler entre les lignes \emph{et les colonnes} de l’abaque~n°1 (en cherchant un volume $v_2$ à~\SI{130}{\degreeCelsius}), ce qui serait imprécis et malcommode.
+				Nous pourrions quantifier l’énergie $u_2$ en interpolant entre les lignes \emph{et les colonnes} de l’abaque~n°1 (en cherchant un volume $v_2$ à~\SI{130}{\degreeCelsius}), ce qui serait imprécis et malcommode. Toutefois, même en ayant quantifié $\Delta u = u_2 - u_1$, nous serions incapables de déterminer la part de travail et de chaleur dans cette variation : la pression et le volume varient tous les deux sans que nous ne puissions les relier l’un à l’autre et donc effectuer l’intégrale $\int p \diff v$. 
 				
-				\begin{remark}Avec le modèle du gaz parfait, nous pouvions écrire que $p v = \text{cste}$ à température constante, et donc prédire toutes les propriétés à la fin de la détente. Mais avec un liquide/vapeur, cela ne fonctionne plus.\end{remark}
+				\begin{remark}Avec le modèle du gaz parfait, nous pouvions écrire que $p v = \text{cste}$ à température constante, et donc calculer le travail le long de la détente. Mais avec un liquide/vapeur, cela ne fonctionne plus.\end{remark}
 				\begin{remark}Après le \courshuitshort, nous saurons utiliser le génial concept de l’\vocab{entropie} pour répondre à cette question.\end{remark}\end{answer}
 			\end{anexample}
-
-
 
 
 	\subsection{Évolutions adiabatiques réversibles}
@@ -917,7 +912,7 @@ pharaonique. Pour s’en affranchir, il faudra monter en température : ce sera 
 
 	\subsection{Évolutions arbitraires}
 	
-		Il faut bien garder en tête que l’on peut en pratique faire évoluer les propriétés d’un liquide/vapeur \emph{de n’importe quelle façon arbitraire} (\cref{fig_lv_pv_moustache}), exactement comme un gaz.
+		Il faut bien garder en tête que l’on peut en pratique faire évoluer les propriétés d’un liquide/vapeur \emph{de n’importe quelle façon arbitraire} (\cref{fig_lv_pv_moustache}), tout comme avec un gaz.
 		
 		\begin{figure}
 			\begin{center}

@@ -86,11 +86,11 @@
 	\subsection{Extraire de la chaleur avec du travail}
 	\label{ch_principe_fonctionnement_réfrigérateur}
 
-			Lorsque l’on fournit du travail à un fluide, sa température augmente\footnote{Ce n’est pas strictement vrai pour les liquides/vapeurs qui, comme nous l’avons vu dans le \courscinq, connaissent une phase à température constante entre leurs points de saturation – toutefois, ils suivent cette tendance.} et il peut ainsi fournir de la chaleur à un corps qui était initialement à plus haute température («~plus chaud~») que lui.
+			Lorsque l’on fournit du travail à un fluide, sa température augmente\footnote{Ce n’est pas strictement vrai pour les liquides/vapeurs qui, comme nous l’avons vu dans le \courscinq, connaissent une phase à température constante entre leurs points de saturation – toutefois, ils suivent cette tendance générale hors de cette plage de propriétés.} et il peut ainsi fournir de la chaleur à un corps qui était initialement à plus haute température («~plus chaud~») que lui.
 
 			À l’inverse, lorsque l’on détend un fluide, sa température baisse et il peut ainsi capter de la chaleur à un corps qui était initialement «~plus froid~» que lui.
 
-			En effectuant ces étapes l’une après l’autre, nous obtenons un \vocab[cycle!de réfrigération]{cycle de réfrigération} : une machine capable de prélever de la chaleur à basse température et de la rejeter à haute température. Un tel cycle est représenté en \cref{fig_refrigerateur_climatiseur_thermopompe_so} (étapes séparées dans l’espace) et \ref{fig_refrigerateur_climatiseur_thermopompe_sf} (étapes séparées dans le temps).
+			En effectuant ces étapes l’une après l’autre, nous obtenons un \vocab[cycle!de réfrigération]{cycle de \mbox{réfrigération}} : une machine capable de prélever de la chaleur à basse température et de la rejeter à haute température. Un tel cycle est représenté en \cref{fig_refrigerateur_climatiseur_thermopompe_so} (étapes séparées dans l’espace) et \ref{fig_refrigerateur_climatiseur_thermopompe_sf} (étapes séparées dans le temps).
 			
 			Un examen attentif de ces deux figures réserve une surprise de taille : il s’agit exactement du même agencement que pour un moteur ! La seule différence porte sur les températures de fonctionnement. La température atteinte pendant la compression doit être \textbf{supérieure à la température haute $T_H$}, et la température atteinte pendant la détente doit être \textbf{inférieure à la température basse $T_B$}. Si ces conditions ne sont pas respectées, alors les transferts de chaleur ne peuvent pas se faire dans le sens voulu.
 			
@@ -111,15 +111,16 @@
 				\label{fig_refrigerateur_climatiseur_thermopompe_sf}
 			\end{figure}
 
-			Dans un cycle de réfrigération, le fluide a un plus grand volume lorsqu’il est compressé (après avoir été réchauffé) que lorsqu’il est détendu (après avoir été refroidi) : ainsi la compression demande plus de puissance que la détente. La puissance nette $\dot W_\net$ sous forme de travail est donc positive, c’est-à-dire que la machine doit être alimentée en travail par l’extérieur.
+			Dans un cycle de réfrigération, le fluide a un plus grand volume lorsqu’il est compressé (après avoir été réchauffé) que lorsqu’il est détendu (après avoir été refroidi) : cette fois la compression demande plus de puissance que la détente. La puissance nette $\dot W_\net$ sous forme de travail est donc positive, c’est-à-dire que la machine doit être alimentée en travail par l’extérieur.
 
 			En pratique dans les systèmes de réfrigération, on a souvent recours à une astuce pour faire chuter la température : au lieu d’une turbine, on utilise une simple soupape (parfois appelée \vocab{détendeur}). Cet élément sans pièce mobile ne permet pas de dégager de travail (il augmente donc la puissance consommée par la machine), mais il est beaucoup plus simple de fabrication et d’utilisation.
 
-			La soupape, en termes thermodynamiques, permet d’effectuer une détente entièrement irréversible, augmentant le volume et baissant la pression sans extraire de travail. Si l’on utilisait un gaz parfait, cela n’aurait aucun effet sur la température\footnote{Revoir à ce propos les expériences de Joule et Gay-Lussac étudiées en \S\ref{ch_principe_de_joule}.} et donc aucun intérêt ; mais lorsque l’on utilise des liquides/vapeurs, la détente en soupape est un moyen technologiquement simple de faire chuter la température. Cette modification est décrite en \cref{fig_principe_du_réfrigérateur_soupape}.
+			La soupape, en termes thermodynamiques, permet d’effectuer une détente entièrement irréversible, augmentant le volume et baissant la pression sans extraire de travail. Si l’on utilisait un gaz parfait, cela n’aurait aucun effet sur la température\footnote{Revoir à ce propos les expériences de Joule et Gay-Lussac étudiées en \S\ref{ch_principe_de_joule} p.\pageref{ch_principe_de_joule}.} et donc aucun intérêt ; mais lorsque l’on utilise des liquides/vapeurs, la détente en soupape est un moyen technologiquement simple de faire chuter la température. Cette modification est décrite en \cref{fig_principe_du_réfrigérateur_soupape}.
 
 			\begin{figure}
 				\begin{center}
-					\includegraphics[width=\textwidth]{images/refrigerateur_climatiseur_thermopompe_so_soupape.png}
+					\onlyamphibook{\includegraphics[width=\textwidth]{images/refrigerateur_climatiseur_thermopompe_so_soupape.png}}
+					\onlyframabook{\includegraphics[width=0.8\textwidth]{images/refrigerateur_climatiseur_thermopompe_so_soupape.png}}
 				\end{center}
 				\supercaption{Cycle de réfrigération modifié.
 					Lorsque l’on utilise des liquides/vapeurs, il est possible de se dispenser d’extraire du travail lors de la détente. L’utilisation d’une simple soupape suffit pour faire baisser la température du fluide.}{schéma \cczero \oc}
@@ -137,7 +138,8 @@
 
 			\begin{figure}
 				\begin{center}
-					\includegraphics[width=\textwidth]{images/agencement_thermopompe.png}
+					\onlyamphibook{\includegraphics[width=\textwidth]{images/agencement_thermopompe.png}}
+					\onlyframabook{\includegraphics[width=0.8\textwidth]{images/agencement_thermopompe.png}}
 				\end{center}
 				\supercaption{Agencement d’une pompe à chaleur. La machine est positionnée de sorte à refouler à l’intérieur (où la température est plus haute) la chaleur prélevée à l’extérieur (où la température est plus basse).}{schéma \cczero \oc}
 				\label{fig_agencement_thermopompe}
@@ -145,7 +147,8 @@
 			
 			\begin{figure}
 				\begin{center}
-					\includegraphics[width=\textwidth]{images/agencement_refrigerateur_climatiseur.png}
+					\onlyamphibook{\includegraphics[width=\textwidth]{images/agencement_refrigerateur_climatiseur.png}}
+					\onlyframabook{\includegraphics[width=0.8\textwidth]{images/agencement_refrigerateur_climatiseur.png}}
 				\end{center}
 				\supercaption{Agencement d’un réfrigérateur ou d’un climatiseur. La machine est positionnée de sorte à refouler à l’extérieur (où la température est plus haute) la chaleur prélevée à l’intérieur (où la température est plus basse). Il s’agit exactement de la même machine qu’en \cref{fig_agencement_thermopompe}.}{schéma \cczero \oc}
 				\label{fig_agencement_refrigerateur_climatiseur}
@@ -157,7 +160,8 @@
 			\onlyframabook{\begin{figure}[htc]}
 			\onlyamphibook{\begin{figure}}%handmade
 				\begin{center}
-					\includegraphics[width=\textwidth]{images/agencement_thermopompe_climatiseur_inversable.png}
+					\onlyamphibook{\includegraphics[width=\textwidth]{images/agencement_thermopompe_climatiseur_inversable.png}}
+					\onlyframabook{\includegraphics[width=0.8\textwidth]{images/agencement_thermopompe_climatiseur_inversable.png}}
 				\end{center}
 				\supercaption{Agencement d’un climatiseur inversable. En pivotant des deux vannes de~\SI{90}{\degree} dans le sens anti-horaire, on change la fonction depuis une pompe à chaleur vers un climatiseur.}{schéma \cczero \oc}
 				\label{fig_agencement_thermopompe_climatiseur_inversable}
@@ -212,14 +216,14 @@
 			\eta_\text{moteur} 	& = & 1 - \left| \frac{\dot Q_\out}{\dot Q_\inn} \right|	\label{eq_rendement_moteur_qin_qout}
 		\end{IEEEeqnarray}
 
-		Cette \cref{eq_rendement_moteur_qin_qout} nous sera fort utile au chapitre prochain (\S\ref{ch_efficacité_moteur_carnot}), où nous voudrons lier les transferts de chaleur $\dot Q_\inn$ et $\dot Q_\out$ aux températures auxquelles ils sont effectués.
+		Cette \cref{eq_rendement_moteur_qin_qout} nous sera fort utile au chapitre prochain (\S\ref{ch_efficacité_moteur_carnot} p.\pageref{ch_efficacité_moteur_carnot}), où nous voudrons lier les transferts de chaleur $\dot Q_\inn$ et $\dot Q_\out$ aux températures auxquelles ils sont effectués.
 
 
 
 	\subsection{Rendement d’un réfrigérateur ou d’un climatiseur}
 	\label{ch_rendement_réfrigérateur}
 
-		La fonction d’un réfrigérateur ou d’un climatiseur est d’extraire de la chaleur, c’est-à-dire de générer une puissance $\dot Q_\inn$ (chaleur extraite chaque seconde du compartiment à refroidir) de signe positif. Ce transfert (\cref{fig_transferts_réfrigérateur}) est rendu possible par l’apport au réfrigérateur d’un travail, $\dot W_\net$ , une «~dépense~» nécessairement positive.
+		La fonction d’un réfrigérateur ou d’un climatiseur est d’extraire de la chaleur, c’est-à-dire de générer une puissance $\dot Q_\inn$ (chaleur extraite chaque seconde du compartiment à refroidir) de signe positif. Ce transfert (\cref{fig_transferts_réfrigérateur}) est rendu possible par l’apport au réfrigérateur d’un travail, $\dot W_\net$ , une «~dépense~» nécessairement~positive.
 
 		\begin{figure}
 			\begin{center}
@@ -246,7 +250,7 @@
 			\end{answer}
 		\end{anexample}
 
-		En prenant garde aux pièges algébriques associés à l’utilisation de valeurs absolues, pour préparer le chapitre prochain nous pouvons exprimer ce rendement en fonction des transferts de chaleur uniquement :
+		En prenant garde aux pièges algébriques associés à l’utilisation de valeurs absolues, pour préparer le chapitre prochain (\S\ref{ch_efficacite_refrigerateur_carnot} p.\pageref{ch_efficacite_refrigerateur_carnot}) nous pouvons exprimer ce rendement en fonction des transferts de chaleur uniquement :
 		\begin{equation}
 			\eta _\text{réfrigérateur} = \eta _\text{climatiseur} = \frac{1}{\left| \frac{\dot Q_\out}{\dot Q_\inn} \right| - 1}
 			\label{rendement_réfrigérateur_qin_qout}
@@ -298,7 +302,7 @@
 	\subsection{De la faible performance des machines}
 
 		\thermoquotebegin{O}
-			L’on a souvent agité la question de savoir si la puissance motrice de la chaleur est limitée, ou si elle est sans bornes ; si les perfectionnements possibles des machines à feu ont un terme assignable, terme que la nature des choses empêche de dépasser par quelque moyen que ce soit, ou si au contraire ces perfectionnemens sont susceptibles d’une extension indéfinie.
+			L’on a souvent agité la question de savoir si la puissance motrice de la chaleur est limitée, ou si elle est sans bornes ; si les perfectionnements possibles des machines à feu ont un terme assignable, terme que la nature des choses empêche de dépasser par quelque moyen que ce soit, ou si au contraire ces perfectionnemens sont susceptibles d’une extension indéfinie…
 		\thermoquoteend{Sadi Carnot, 1824~\cite{carnot1824}}{}
 
 		Dans tous les cas que nous avons étudiés plus haut, pour chaque cycle, nous avons inclus un transfert indésirable. Dans le cycle moteur, une partie de l’énergie est gâchée sous forme de rejet de chaleur ($\dot Q_\out$). Dans les cycles de réfrigération, on doit apporter du travail ($\dot W_\inn$) pour effectuer un transfert de chaleur qui \textit{a priori} aurait pu sembler «~gratuit~» ($\dot Q_\out$ étant alors égal à $\dot Q_\inn$).
