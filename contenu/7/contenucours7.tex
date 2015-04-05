@@ -97,7 +97,8 @@
 			\label{eq_premier_principe_machines}
 		\end{equation}
 
-		\begin{figure}%[h] % positionning sucks otherwise, for some reason
+		\onlyamphibook{\begin{figure}}
+		\onlyframabook{\begin{figure}[h!]}
 			\begin{center}
 				\includegraphics[height=8cm]{images/moteur_forme_generale.png}
 			\end{center}
@@ -112,7 +113,8 @@
 
 			\item[Un moteur]{prélève de la chaleur à une source à haute température ($\dot Q_{TH} > 0$) et produit un travail ($\dot W_\net < 0$, \cref{fig_moteur_exemple_valeurs}). Nous venons de voir que si nous voulons effectuer cette transformation en continu, nous n’avons d’autre choix que de rejeter de la chaleur dans un réservoir à basse température ($\dot Q_{TB} < 0$).
 
-			\begin{figure}
+			\onlyamphibook{\begin{figure}}
+			\onlyframabook{\begin{figure}[b]}
 				\begin{center}
 					\includegraphics[height=8cm]{images/exemple_moteur.png}
 				\end{center}
@@ -137,7 +139,7 @@
 			nécessite deux réservoirs de chaleur, chacun de température différente.
 			\end{trucimportant}
 
-			Les puristes exprimeront ce corollaire, dit \vocab[principes de la thermodynamique!second, corrolaire de Kelvin-Planck]{de Kelvin-Planck}\item{Kelvin-Planck, corrolaire de}, avec l’inéquation suivante :
+			Les puristes exprimeront ce corollaire, dit \vocab[principes de la thermodynamique!second, corrolaire de Kelvin-Planck]{de Kelvin-Planck}\index{Kelvin-Planck, corrolaire de}, avec l’inéquation suivante :
 			\begin{equation}
 				\dot Q_{TH} > -\dot W_\net
 			\end{equation}
@@ -149,14 +151,6 @@
 
 		\clearfloats
 		\item[Un réfrigérateur, un climatiseur ou une pompe à chaleur]{a un fonctionnement inverse à celui des moteurs. Ces machines extraient de la chaleur d’une source à basse température ($\dot Q_{TB} > 0$) pour la rejeter dans un réservoir à plus haute température ($\dot Q_{TH} < 0$, \cref{fig_refrigerateur_exemplevaleurs}). Une conséquence inévitable est qu’elles consomment pour cela du travail ($\dot W_\net > 0$).
-
-			\begin{figure}
-				\begin{center}
-					\includegraphics[height=8cm]{images/exemple_refrigerateur.png}
-				\end{center}
-				\supercaption{Un exemple de transferts énergétiques en jeu dans un réfrigérateur, un climatiseur ou une pompe à chaleur en fonctionnement.}{schéma \cczero \oc}
-				\label{fig_refrigerateur_exemplevaleurs}
-			\end{figure}
 
 			Appliqué à un réfrigérateur, le second principe s’exprime ainsi :
 
@@ -171,6 +165,15 @@
 			\begin{equationterms}
 				\item pour tout réfrigérateur, climatiseur ou pompe à chaleur.
 			\end{equationterms}
+			
+			\onlyamphibook{\begin{figure}}
+			\onlyframabook{\begin{figure}[h!]}
+				\begin{center}
+					\includegraphics[height=8cm]{images/exemple_refrigerateur.png}
+				\end{center}
+				\supercaption{Un exemple de transferts énergétiques en jeu dans un réfrigérateur, un climatiseur ou une pompe à chaleur en fonctionnement.}{schéma \cczero \oc}
+				\label{fig_refrigerateur_exemplevaleurs}
+			\end{figure}
 
 		}%end item
 		\end{description}
@@ -182,7 +185,7 @@
 	\subsection{Un peu de contexte}
 	\label{ch_contexte_cycle_carnot}
 
-		\thermoquotebegin{O}
+		\onlyamphibook{\thermoquotebegin{O}}\onlyframabook{\thermoquotetopbegin{O}}
 			Pour envisager dans toute sa généralité le principe de la production du mouvement par la chaleur, il faut le concevoir indépendamment d’aucun mécanisme, d’aucun agent particulier ; il faut établir des raisonnemens applicables, non seulement aux machines à vapeur, mais à toute machine à feu imaginable, quelle que soit la substance mise en œuvre et quelle que soit la manière dont on agisse sur~elle.
 		\thermoquoteend{Sadi Carnot, 1824~\cite{carnot1824}}{}
 
@@ -254,7 +257,7 @@
 
 		L’essentiel est dit. Carnot vient ici de dessiner un cycle thermodynamique théorique, composé de deux évolutions isothermes et deux évolutions adiabatiques. Il n’a pas eu besoin de quantifier le moindre transfert ; et ne s’est pas encore soucié du moindre détail technologique. Pourtant, il est certain que le cycle thermodynamique qu’il décrit est le plus efficace --\ le moins inefficace !\ -- qu’il soit possible d’effectuer.
 		
-
+	\onlyframabook{\clearpage}
 	\subsection{Les quatre étapes du moteur de Carnot}
 	\label{ch_descritpion_cycle_carnot}
 
@@ -314,45 +317,71 @@
 		
 		Cette quantité de travail $W_\net$ représente le maximum qu’il soit possible d’obtenir à partir d’une quantité de chaleur $Q_{TH}$, entre deux températures données~$T_B$ et~$T_H$.
 
-		\begin{landscape}
+		\onlyamphibook{% ces deux figures là où elles devraient aparaître dans le texte
+			\begin{landscape}
 
-		\begin{figure}
-			\begin{center}
-				\includegraphics[width=\linewidth]{images/moteur_carnot_sf.png}
-			\end{center}
-			\supercaption{Les quatre étapes du moteur de Carnot, réalisées avec une quantité de masse fixe en les séparant dans le temps. Le cycle est tel que lorsqu’elles sont effectuées dans l’ordre inverse ($1 \to 4 \to 3 \to 2 \to 1$), les transferts sont exactement opposés.}{schéma \cczero \oc}
-			\label{fig_carnot_quatre_etapes}
-		\end{figure}
+			\begin{figure}
+				\begin{center}
+					\includegraphics[width=\linewidth]{images/moteur_carnot_sf.png}
+				\end{center}
+				\supercaption{Les quatre étapes du moteur de Carnot, réalisées avec une quantité de masse fixe en les séparant dans le temps. Le cycle est tel que lorsqu’elles sont effectuées dans l’ordre inverse ($1 \to 4 \to 3 \to 2 \to 1$), les transferts sont exactement opposés.}{schéma \cczero \oc}
+				\label{fig_carnot_quatre_etapes}
+			\end{figure}
 
-		\begin{figure}
-			\begin{center}
-				\onlyamphibook{\vspace{-3,5cm}}%handmade
-				\includegraphics[width=\linewidth]{images/moteur_carnot_so.png}
-			\end{center}
-			\supercaption{Les quatre étapes du moteur de Carnot, réalisées avec un débit de masse constant en les séparant dans l’espace. Ici encore, le cycle est tel que lorsque le sens de circulation est inversé (devenant $1 \to 4 \to 3 \to 2 \to 1$), les transferts sont exactement opposés.}{schéma \ccbysa \olivier}
-			\label{fig_carnot_quatre_etapes_so}
-		\end{figure}
+			\begin{figure}
+				\begin{center}
+					\onlyamphibook{\vspace{-3,5cm}}%handmade
+					\includegraphics[width=\linewidth]{images/moteur_carnot_so.png}
+				\end{center}
+				\supercaption{Les quatre étapes du moteur de Carnot, réalisées avec un débit de masse constant en les séparant dans l’espace. Ici encore, le cycle est tel que lorsque le sens de circulation est inversé (devenant $1 \to 4 \to 3 \to 2 \to 1$), les transferts sont exactement opposés.}{schéma \ccbysa \olivier}
+				\label{fig_carnot_quatre_etapes_so}
+			\end{figure}
 
-		\end{landscape}
+			\end{landscape}
+		}%end onlyamphibook
 
 
 		Le cycle du moteur de Carnot peut être tracé sur un diagramme pression-volume (comme par exemple en \cref{fig_p-v_gp_carnot} avec un gaz parfait). On observe notamment que les phases de compression se déroulent à une pression et un volume plus bas que les phases de détente : le cycle est producteur de travail. Comme toutes les évolutions sont réversibles, l’aire circonscrite dans le parcours 1-2-3-4-1 représente la quantité de travail net $W_\net$ produite.
 
 		\begin{figure}[htc]%handmade
 			\begin{center}
-				\includegraphics[width=\didacticpvdiagramwidth]{images/carnot_pv_gp_moteur.png}
+				\includegraphics[width=9cm]{images/carnot_pv_gp_moteur.png}
 			\end{center}
 			\supercaption{Diagramme pression-volume du moteur de Carnot réalisé avec un gaz parfait. Les évolutions $2\to 3$ et $4\to 1$ se font respectivement à $T_H$ et $T_B$.}{schéma \cczero \oc}
 			\label{fig_p-v_gp_carnot}
 		\end{figure}
 
-		\thermoquotebegin{O}
+
+		\onlyframabook{% remise en page pour le framabook
+			\begin{landscape}
+
+			\begin{figure}
+				\begin{center}
+					\includegraphics[width=\linewidth]{images/moteur_carnot_sf.png}
+				\end{center}
+				\supercaption{Les quatre étapes du moteur de Carnot, réalisées avec une quantité de masse fixe en les séparant dans le temps. Le cycle est tel que lorsqu’elles sont effectuées dans l’ordre inverse ($1 \to 4 \to 3 \to 2 \to 1$), les transferts sont exactement opposés.}{schéma \cczero \oc}
+				\label{fig_carnot_quatre_etapes}
+			\end{figure}
+
+			\begin{figure}
+				\begin{center}
+					\onlyamphibook{\vspace{-3,5cm}}%handmade
+					\includegraphics[width=\linewidth]{images/moteur_carnot_so.png}
+				\end{center}
+				\supercaption{Les quatre étapes du moteur de Carnot, réalisées avec un débit de masse constant en les séparant dans l’espace. Ici encore, le cycle est tel que lorsque le sens de circulation est inversé (devenant $1 \to 4 \to 3 \to 2 \to 1$), les transferts sont exactement opposés.}{schéma \ccbysa \olivier}
+				\label{fig_carnot_quatre_etapes_so}
+			\end{figure}
+
+			\end{landscape}
+		}%end onlyframabook
+
+		\onlyamphibook{\thermoquotebegin{O}}\onlyframabook{\thermoquotetopbegin{O}}
 			Pour utiliser complètement la force motrice dont on peut disposer, il faudrait que la détente fût poussée jusqu’à ce que la température de la vapeur se réduisît à celle du condenseur; mais des considérations pratiques tirées de la manière dont on utilise dans les arts la force motrice du feu, s’opposent à ce que l’on atteigne cette limite.
 		\thermoquoteend{Émile Clapeyron, 1834~\cite{clapeyron1834}}{\onlyframabook{\vspace{-2em}}}
 
 		Le fait qu’aucune de ces étapes ne soit réalisable en pratique n’aura pas échappé à l’étudiant/e perspicace : pour que toutes ces phases soient réversibles, il faut que le mouvement du piston soit infiniment lent, et qu'ainsi le fluide parcoure le cycle en une durée de temps infinie. Le moteur de Carnot atteint donc l’efficacité maximale avec une puissance infiniment faible.
 		
-		\clearpage%handmade, sinon l’exemple ci-dessous insère une page vide dans le corps du texte.
+		\onlyamphibook{\clearpage}%handmade, sinon l’exemple ci-dessous insère une page vide dans le corps du texte.
 		\begin{anexample}
 		\label{ex_cycle_carnot}
 			On effectue un cycle de Carnot entre les températures de~\SI{600}{\degreeCelsius} et~\SI{100}{\degreeCelsius}. On utilise~\SI{100}{\gram} d’air prisonnier dans un cylindre, à pression de~\SI{1}{\bar}. Quel est le travail à investir ? Quel est le travail récupéré ? Quel est le rendement ?
@@ -415,7 +444,6 @@
 			\label{fig_p-v_gp_carnot_inversé}
 		\end{figure}
 
-
 \section{L’échelle de température thermodynamique}
 \label{ch_echelle_temperature_thermodynamique}
 
@@ -474,7 +502,7 @@
 		
 		\thermoquotebegin{O}
 			Les valeurs absolues de deux températures sont l’une par rapport à l’autre en proportion de la chaleur reçue à la chaleur rejetée dans un moteur thermo-dynamique parfait travaillant avec une source et un refroidisseur aux plus haute et basse températures respectivement.
-		\thermoquoteend{William Thomson, 1854~\cite{kelvin1854}}{}
+		\thermoquoteend{William Thomson, 1854~\cite{kelvin1854}}{\onlyframabook{\vspace{-3em}}}
 		La proposition de Thomson est la suivante : soit un corps à une température~$T_1$ (par exemple de mille unités, comme montré en \cref{fig_échelle_température_kelvin}). On y attache un moteur de Carnot, qui va fournir du travail et rejeter de la chaleur à température plus basse $T_2$. Cette température $T_2$ est deux fois plus faible que $T_1$ si le moteur rejette la moitié de la chaleur qu’il reçoit ; elle est quatre fois plus faible lorsqu’il en rejette le quart, etc. En termes mathématiques, Thomson propose\footnote{En fait, ce n’est pas si simple. Thomson propose d’abord (en 1848 \cite{kelvin1848}) une échelle dans laquelle $\frac{\dot Q_{TH}}{\dot Q_{TB}}$ est proportionnel à la \emph{différence} des températures ; ce qui en fait une échelle logarithmique de notre point de vue actuel. Il se ravise avec l’aide de James Prescott Joule pour obtenir la proposition~\ref{def_échelle_température_kelvin} six ans plus tard~\cite{kelvinjoule1854}.} :
 		\begin{equation}
 			\left| \frac{\dot Q_{TH}}{\dot Q_{TB}} \right| \equiv \frac{T_H}{T_\B }
@@ -572,7 +600,7 @@
 
 		Cette expression~\ref{eq_efficacité_moteur_carnot_température} est si remarquable qu’il nous faut nous y arrêter quelques instants.
 
-		La réponse à la question que se posait Carnot «~quelle quantité maximale de travail, en théorie, peut-on obtenir de la combustion d’une quantité donnée de charbon ?~» est ici --\ et elle est stupéfiante : \textbf{cela ne dépend que des températures haute et basse du moteur} !
+		La réponse à la question que se posait Carnot, «~quelle quantité maximale de travail, en théorie, peut-on obtenir de la combustion d’une quantité donnée de charbon ?~» est ici --\ et elle est stupéfiante : \textbf{cela ne dépend que des températures haute et basse du moteur} !
 
 		Deux remarques importantes s’imposent ici.
 
@@ -589,6 +617,7 @@
 
 		Pour résumer, nous répondrons ainsi à la question de Carnot : plus la température à laquelle est brûlé le charbon est haute, plus la température ambiante est basse, et moins les pertes en chaleur --\ \emph{inévitables}\ -- du moteur seront grandes.
 		
+		\onlyframabook{\clearpage}
 		\begin{anexample}
 		\label{ex_efficacite_moteur_carnot}
 			La température maximale atteignable dans un moteur est de~\SI{600}{\degreeCelsius}, et la température à la quelle sont rejetés les gaz d’échappement est de~\SI{100}{\degreeCelsius}. Quel est le rendement maximal atteignable par le moteur ?
@@ -656,6 +685,7 @@
 
 		Comme pour un réfrigérateur, le \textsc{cop} d’une pompe à chaleur ne peut pas être infini : il est borné par les températures extrêmes atteintes dans le cycle. Plus la chaleur $Q_\out$ est délivrée à haute température, plus le rendement maximal que l’on puisse atteindre est faible.
 		
+		\onlyframabook{\clearpage}
 		\begin{anexample}
 		 	Une pompe à chaleur est utilisée pour chauffer de l’eau à~\SI{120}{\degreeCelsius} dans un environnement à~\SI{-5}{\degreeCelsius}. Quel est le rendement maximal atteignable ?
 		 		\begin{answer}
