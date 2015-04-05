@@ -108,7 +108,7 @@
 						= \left[\frac{1}{T_\text{cste}} Q_\fromatob \right]_\text{rév.}
 						= \frac{1}{\num{30} + \num{273,15}} (\num{-2000})
 						= \SI{-6,6}{\joule\per\kelvin}$.
-					\begin{remark}Nous avons déjà exploré les évolutions réversibles à température constante (isothermes) aux sections \S\ref{ch_gp_isothermes} et \S\ref{ch_lv_isothermes}. Ici le gaz perd \SI{2}{\kilo\joule} de chaleur et reçoit \SI{2}{\kilo\joule} de travail.\end{remark}
+					\begin{remark}Nous avons déjà exploré les évolutions réversibles à température constante (isothermes) aux sections \S\ref{ch_gp_isothermes} p.\pageref{ch_gp_isothermes} et \S\ref{ch_lv_isothermes} p.\pageref{ch_lv_isothermes}. Ici le gaz perd~\SI{2}{\kilo\joule} de chaleur et reçoit~\SI{2}{\kilo\joule} de travail.\end{remark}
 					\begin{remark}Nous ne connaissons pas la valeur de l’entropie, mais nous savons qu’elle diminue de 7 \si{joules} par \si{kelvin}.\end{remark}
 					\begin{remark}Il ne faut pas confondre la variation d’entropie avec la capacité thermique, $c\ \equiv \ \frac{\diff q}{\diff T} = \frac{1}{m} \frac{\diff Q}{\diff T}$ (\ref{eq_def_capacité_calorifique_massique}), dans laquelle nous divisons la chaleur par la \emph{variation} de température. Ici dans cette évolution la capacité thermique est infinie puisque $\diff T = 0$.\end{remark}
 				\end{answer}
@@ -123,7 +123,7 @@
 					= \SI{+6,6}{\joule\per\kelvin}$.
 						\begin{remark}Le $\Delta S$ correspond à la variation réelle de l’entropie ; mais il est calculé le long d’un chemin imaginaire.\end{remark}
 						\begin{remark} Ici nous voyons que la chaleur transférée en réalité n’a pas d’importance. C’est la chaleur «~qu’il aurait fallu transférer~» qui nous intéresse.\end{remark}
-						\begin{remark} Ici, pour simplifier l’exercice, le gaz retourne exactement à son état originel A. S’il arrivait à un état différent, nous pourrions tout de même calculer la variation d’entropie, comme nous apprendrons à le faire en section \S\ref{ch_delta_s_gaz_parfaits}.\end{remark}
+						\begin{remark} Ici, pour simplifier l’exercice, le gaz retourne exactement à son état originel~A. S’il arrivait à un état différent, nous pourrions tout de même calculer la variation d’entropie, comme nous apprendrons à le faire en section \S\ref{ch_delta_s_gaz_parfaits}.\end{remark}
 						\begin{remark}Dans cette évolution irréversible de B à A, c’est la différence entre $\int_\B^\A \left( \frac{\diff Q}{T} \right)_\text{rév.} = \SI{+6,6}{\joule\per\kelvin}$ et $\int_\B^\A \left( \frac{\diff Q}{T} \right)_\text{réel} = \frac{\num{+1000}}{\num{30}+\num{273,15}} =  \SI{+3,3}{\joule\per\kelvin}$ qui va nous permettre de mesurer l’irréversibilité, c’est-à-dire de montrer qu’avec un transfert de~\SI{1}{\kilo\joule} on peut aller de B à A mais pas de A à B.\end{remark}
 				\end{answer}
 		\end{anexample}
@@ -231,7 +231,7 @@
 		Lorsque le système perd de la chaleur, son entropie décroît et nous nous déplacerons de droite à gauche sur les diagrammes $T-s$ (\cref{fig_ts_basics}).
 
 		\clearfloats
-		Notons aussi que lorsqu’un fluide parcourt un cycle complet, la température de diminution de l'entropie peut être inférieure à la température de son d'augmentation (tout comme pour le volume avec la pression). Le transfert net de chaleur est alors négatif : le fluide a \emph{absorbé} de la chaleur qui aura été transformée en travail. En suivant le circuit inverse, le fluide sera source de chaleur : c’est le principe du réfrigérateur (\S\ref{ch_principe_fonctionnement_réfrigérateur}).
+		Notons aussi que lorsqu’un fluide parcourt un cycle complet, la température à laquelle l’entropie diminue peut être inférieure à la température à laquelle elle augmente (tout comme pour le volume avec la pression). Le transfert net de chaleur est alors négatif : le fluide a \emph{absorbé} de la chaleur qui aura été transformée en travail. En suivant le circuit inverse, le fluide sera source de chaleur : c’est le principe du réfrigérateur (\S\ref{ch_principe_fonctionnement_réfrigérateur}).
 		
 		Lorsque les évolutions sont réversibles, cette chaleur nette est représentée par l’aire enclose par le trajet effectué par le fluide sur un diagramme température-entropie (\cref{fig_ts_cycle}).
 
@@ -268,7 +268,6 @@
 			\begin{equation*}
 				q_{1\to2} + w_{1\to2} = \Delta u
 			\end{equation*}
-		
 		Si l’on imagine un chemin réversible entre 1 et 2, nous pouvons y quantifier $q_{1\to2} = -\int_1^2 T \diff s$ (\ref{eq_q_tds_min}) et $w_{1\to2} = -\int_1^2 p \diff v$ (\ref{eq_travail_pdv}), et nous pouvons donc écrire :
 			\begin{IEEEeqnarray}{rCl}
 				\int_1^2 T \diff s - \int_1^2 p \diff v 	& = & \Delta u \nonumber\\
@@ -299,7 +298,7 @@
 		
 		Il est donc possible de calculer facilement la variation d’entropie d’un gaz parfait si l’on connaît ses autres propriétés. Contrairement à l’énergie interne $u$ qui ne dépend que de la température, l’entropie $s$ dépend aussi de la pression du gaz.
 
-		Dans le cas où la pression ou le volume spécifique sont maintenus constants, il est facile de montrer que ces équations~\ref{eq_delta_s_gp_v} et~\ref{eq_delta_s_gp_p} deviennent respectivement :
+		Dans le cas où la pression ou le volume spécifique sont maintenus constants, ces équations~\ref{eq_delta_s_gp_v} et~\ref{eq_delta_s_gp_p} deviennent respectivement :
 			\begin{IEEEeqnarray}{rCl}
 				\Delta s_{v_\text{cst.}} 		& = & c_v \ln \frac{T_2}{T_1} 	\label{eq_delta_s_gp_vcst} \\
 				\Delta s_{p_\text{cste}} 		& = & c_p \ln \frac{T_2}{T_1} 	\label{eq_delta_s_gp_pcste}
@@ -313,7 +312,7 @@
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=\didacticpvdiagramwidth]{images/ts_gp_isobares_isochores.png}
+				\includegraphics[width=8cm]{images/ts_gp_isobares_isochores.png}
 			\end{center}
 			\supercaption{Courbes isobares et isochores sur un diagramme $T-s$, pour un gaz parfait. Ici $p_1>p_2$ et $v_3>v_4$.}{schéma \cczero \oc}
 			\label{fig_ts_gp_isobares_isochores}
@@ -359,7 +358,7 @@
 							\left(\frac{T_\B}{T_\A}\right)	& = & \left(\frac{p_\B}{p_\A}\right)^{\frac{R}{c_p}} = \left(\frac{p_\B}{p_\A}\right)^{\frac{\gamma-1}{\gamma}}
 						\end{IEEEeqnarray*}
 				
-					Nous reconnaissons ainsi l’équation~\ref{eq_isentropique_horrible2} que nous savons déjà appliquer : $T_\B = 600 \times \frac{1}{30}^{\frac{0,4}{1,4}} =  \SI{227}{\kelvin} $, soit environ \SI{-46}{\degreeCelsius}.
+					Nous reconnaissons ici la terrible équation~\ref{eq_isentropique_horrible2} que nous savons déjà appliquer : $T_\B = 600 \times \frac{1}{30}^{\frac{0,4}{1,4}} =  \SI{227}{\kelvin} $, soit environ \SI{-46}{\degreeCelsius}.
 				
 				\begin{remark}L’utilisation du raisonnement «~adiabatique réversible = isentropique~» ne nous a, en vérité, rien apporté que nous ne savions déjà ici, car le modèle du gaz parfait est déjà extrêmement simple et puissant. Ce ne sera pas le cas avec les liquides/vapeurs.\end{remark}\end{answer}
 		\end{anexample}
@@ -374,7 +373,7 @@
 			\begin{center}
 				\includegraphics[width=\didacticpvdiagramwidth]{images/ts_lv.png}
 			\end{center}
-			\supercaption{Diagramme température-entropie d’un liquide/vapeur. Cette figure est très similaire à la \cref{fig_t-v_eau}.}{schéma \cczero \oc}
+			\supercaption{Diagramme température-entropie d’un liquide/vapeur. Cette figure est très similaire à la \cref{fig_t-v_eau} p.\pageref{fig_t-v_eau}.}{schéma \cczero \oc}
 			\label{fig_ts_lv}
 		\end{figure}
 		
@@ -449,7 +448,7 @@
 					À l’arrivée, l’eau est en mélange liquide-vapeur (puisque $u_\B<u_{V\SI{130}{\degreeCelsius}}$), nous lisons donc en abaque n°2 (\ref{eq_titre_energie_interne}) : $x_\B = \frac{u_\B - u_L}{u_{LV}} = \frac{\num{1000}-\num{546,1}}{\num{1993,5}}= \num{0,228} $ ; ainsi avec l’\cref{eq_titre_entropie} nous pouvons calculer l’entropie : $s_\B= s_L + x_\B \ s_{LV} = \num{1,6346}+ \num{0,228}\times\num{5,3918} = \SI{2,8623}{\kilo\joule\per\kelvin\per\kilogram}$.\\
 					Nous voyons que l’entropie a diminué : $\Delta s = s_\B - s_\A = \SI{-4,268}{\kilo\joule\per\kelvin\per\kilogram} $.
 				
-				\begin{remark}Nous ne savons pas quelle transformation a eu lieu. Moins elle a été réversible, plus il aura fallu retirer de la chaleur à la vapeur pour l’amener de~A à~B.\end{remark}\end{answer}
+				\begin{remark}Nous ne savons pas quelle transformation a eu lieu. Moins elle a été réversible, plus il aura fallu retirer de la chaleur à la vapeur pour l’amener de~A~à~B.\end{remark}\end{answer}
 		\end{anexample}
 
 		
@@ -467,7 +466,7 @@
 				
 				Nous pouvons donc enfin calculer $q_{\fromatob}$ avec l’équation~\ref{eq_q_tds_min} : $Q_{\fromatob} = 	\int_1^2 T \diff S = m \ T \ \Delta s = 2 \times (300+\num{273,15})\times(\num{7,738} - \num{3,2552}) = \SI{+5,139}{\kilo\joule} $.
 				
-				\begin{remark}Ce calcul un peu laborieux n’est pas nécessairement spectaculaire, mais il faut bien voir que sans l’utilisation de l’entropie, nous n’avions pas de moyen de quantifier $Q_{\fromatob}$ sans effectuer d’expérience.\end{remark}\end{answer}
+				\begin{remark}Ce calcul un peu laborieux n’est pas nécessairement spectaculaire, mais il faut bien voir que sans l’utilisation de l’entropie, nous n’avions \emph{aucun moyen} de quantifier $Q_{\fromatob}$ sans effectuer d’expérience. Nous avions déjà buté sur ce problème dans l’exemple~\ref{ch_exemple_isotherme_lv_deux} p.\pageref{ch_exemple_isotherme_lv_deux}.\end{remark}\end{answer}
 		\end{anexample}
 		
 		
@@ -503,7 +502,7 @@
 		
 		Pour nous féliciter d’avoir dépassé déjà la moitié du chapitre, nous nous munissons d’une tasse brûlante de thé. Notre intérêt pour la thermodynamique primant sur la boisson, nous collons notre tasse tout contre une bouteille d’eau fraîche. Ce que nous avons sous les yeux n’est autre qu’une source d’entropie --\ et elle mérite toute notre attention.
 
-		Notre tasse A est à température $T_\A$, plus haute que $T_\B$, la température de la bouteille d’eau (\cref{fig_expérience_création_entropie}). Les deux corps sont mis en contact et une quantité de chaleur infinitésimale $\diff q$ passe de A vers B.
+		Notre tasse A est à température $T_\A$, plus haute que $T_\B$, la température de la bouteille d’eau (\cref{fig_expérience_création_entropie}). Les deux corps sont mis en contact et une quantité de chaleur infinitésimale $\diff q$ passe de~A vers~B.
 
 		\begin{figure}
 			\begin{center}
@@ -625,7 +624,7 @@
 					\item Un état $X$ à~\SI{5}{\bar} et~\SI{100}{\degreeCelsius} ;
 					\item Un état $Y$ à~\SI{1}{\bar} et~\SI{5}{\degreeCelsius}.
 				\end{itemize}
-			Quel est le seul sens ($X \to Y$ ou $Y \to X$) dans lequel l’évolution peut avoir lieu ?
+			Quel est le seul sens ($X \to Y$ ou $Y \to X$) dans lequel l’évolution peut avoir~lieu ?
 						
 				\begin{answer}
 					Proposons le sens $X \to Y$ et vérifions s’il est physiquement possible.
@@ -677,7 +676,7 @@
 			\item «~ce qui ne varie pas lorsque l’on transfère de la chaleur à l’intérieur d’un système de façon idéale~». Ainsi la quantification de $\Delta s$ nous permet de calculer l’irréversibilité qui a lieu lors des transferts de chaleur.
 		\end{itemize}
 
-	À chaque fois que nous donnons lieu à une augmentation de l’entropie globale, il nous faut au final effectuer un rejet de chaleur indésirable. Ainsi, ces quantifications de $\Delta s$ nous permettent de mesurer la qualité des détentes, compressions, refroidissements et réchauffements que nous effectuons avec les fluides dans nos machines.
+	À chaque fois que nous donnons lieu à une augmentation de l’entropie globale, il nous faut au final effectuer un rejet de chaleur indésirable. Ainsi, ces quantifications de $\Delta s$ nous permettent de mesurer la qualité des détentes, compressions, refroidissements et réchauffements que nous effectuons avec les fluides dans nos~machines.
 
 	\subsection{Contexte : le sens du temps}
 				
@@ -726,7 +725,7 @@ Ainsi, avec la définition technique ci-dessus du désordre, nous pouvons compre
 		Nous quittons l’entropie sur une question ouverte. Dans la mesure où l’on pense l’univers comme étant un ensemble fini, c’est-à-dire comme à un système isolé contenant une quantité fixe d’énergie, peut-on lui appliquer l’\cref{eq_augmentation_entropie} : $\Delta s_\text{univers} > 0$ lorsque le temps passe ? L’univers tend-il vers une température minimale homogène finale ? Clausius est sans équivoque : il termine aussitôt son article de 1865 par l’affirmation :
 			
 			\begin{quote}
-				Si l’on imagine que l’on ait calculé d’une manière conséquente pour l’univers entier \jecourte la quantité que j’ai nommée \vocab{entropie} pour un corps particulier, ainsi que la quantité désignée sous le nom d’\vocab{énergie} et dont le sens est plus facile à saisir, on pourra exprimer très simplement, sous la forme suivante, les lois fondamentales de l’univers qui correspondent aux deux principes essentiels de la théorie mécanique de la chaleur :
+				Si l’on imagine que l’on ait calculé d’une manière conséquente pour l’univers entier […] la quantité que j’ai nommée \vocab{entropie} pour un corps particulier, ainsi que la quantité désignée sous le nom d’\vocab{énergie} et dont le sens est plus facile à saisir, on pourra exprimer très simplement, sous la forme suivante, les lois fondamentales de l’univers qui correspondent aux deux principes essentiels de la théorie mécanique de la chaleur :
 					\begin{enumerate}
 						\item L’énergie de l’univers est constante.
 						\item L’entropie de l’univers tend vers un maximum.
