@@ -36,7 +36,7 @@
 		\item Quelle est l’enthalpie de l’eau à la sortie des turbines ?
 		\item Quelle est l’enthalpie de l’eau à la sortie des pompes ?
 		\item	Quel est le rendement thermodynamique de l’installation ?
-		\item Quelle est la consommation spécifique de l’installation, c’est-à-dire la masse de vapeur ayant traversé la turbine lorsque l’installation a généré \SI{1}{\kWh} d’énergie mécanique ?
+		\item Quelle est la consommation spécifique de l’installation, c’est-à-dire la masse de vapeur ayant pénétré la turbine lorsque l’installation a généré \SI{1}{\kWh} d’énergie mécanique ?
 		\item Quel débit horaire de vapeur faut-il faire circuler dans le circuit pour obtenir une puissance mécanique de~\SI{60}{\mega\watt} ?
 	\end{enumerate}
 
@@ -56,10 +56,10 @@
 		\item Quel débit d’air faut-il admettre dans la chaudière pour maintenir une puissance mécanique nette de~\SI{60}{\mega\watt} ?
 		\item Quelle est l’efficacité de la chaudière ?
 		\item Quel est le débit volumique horaire de carburant ?
-		\item Un/e ingénieur/e propose de faire passer le conduit d’air d’admission au travers des gaz d’échappement (sans pourtant les mélanger) pour augmenter la température de l’air avant combustion. Cela vous paraît-il être une bonne idée ?
+		\item Un/e ingénieur/e propose de faire passer le conduit d’air d’admission au travers des gaz d’échappement (sans pourtant les mélanger) pour augmenter la température de l’air avant combustion. Cela vous paraît-il être une bonne~idée ?
 	\end{enumerate}
 	
-
+\onlyframabook{\clearpage}
 \subsubsection{Cycle avec régénération}
 \label{exo_brise_glace}
 
@@ -104,8 +104,8 @@
 	
 	\begin{description}
 		\item [\ref{exo_porcheville_rankine}]
-						\tab 1) Voir les figures~\ref{fig_cycle_rankine_surchauffe} et~\ref{fig_ts_lv_rankine_surchauffe} ;
-						\tab 2) Avec $s_\E = s_\D = \SI{6,5399}{\kilo\joule\per\kilogram}$ et $\eta_\text{T} = \SI{80}{\percent}$, nous obtenons $h_\E = \SI{2287,7}{\kilo\joule\per\kilogram} $ comme à l’exemple~\ref{exemple_turbine_centrale} ;
+						\tab 1) Voir les figures~\ref{fig_cycle_rankine_surchauffe} et~\ref{fig_ts_lv_rankine_surchauffe} p.\pageref{fig_ts_lv_rankine_surchauffe} ;
+						\tab 2) Avec $s_\E = s_\D = \SI{6,5399}{\kilo\joule\per\kilogram}$ et $\eta_\text{T} = \SI{80}{\percent}$, nous obtenons $h_\E = \SI{2287,7}{\kilo\joule\per\kilogram} $ comme à l’exemple~\ref{exemple_turbine_centrale} p.\pageref{exemple_turbine_centrale} ;
 						\tab 3) Avec l’\cref{eq_pompe_liquide} nous obtenons $h_\B = \SI{205,9}{\kilo\joule\per\kilogram}$ comme à l’exemple~\ref{exemple_pompe_centrale} ;
 						\tab 4) $\eta_\text{thermique} = \left|\frac{(h_\E - h_\D) + (h_\B - h_\A)}{(h_\D - h_\B)}\right| = \SI{35,29}{\percent}$ (\ref{def_rendement_moteur}) ;
 						\tab 5) $SSC = \SI[per-mode = symbol]{3,15}{\kilogram\per\kilo\watt\per\hour}$ ;
@@ -119,10 +119,10 @@
 						\tab 6) C’est une excellente idée. On réduit ainsi la chaleur emportée par les gaz d’échappement à la sortie de la chaudière, ce qui a pour effet immédiat d’augmenter $\eta_\text{chaudière}$.
 						
 		\item [\ref{exo_brise_glace}]
-						\tab 1) Avec le schéma des figures figures~\ref{fig_cycle_rankine_surchauffe} et~\ref{fig_ts_lv_rankine_surchauffe}, $h_\A = \SI{340,5}{\kilo\joule\per\kilogram}$, $h_\B = \SI{343,54}{\kilo\joule\per\kilogram}$, $h_\D = \SI{3017,4}{\kilo\joule\per\kilogram}$, $h_\E = \SI{2284,5}{\kilo\joule\per\kilogram}$, ainsi $\eta_\text{thermique} = \SI{27,294}{\percent}$ ;
+						\tab 1) Avec le schéma des figures figures~\ref{fig_cycle_rankine_surchauffe} et~\ref{fig_ts_lv_rankine_surchauffe} p.\pageref{fig_ts_lv_rankine_surchauffe}, $h_\A = \SI{340,5}{\kilo\joule\per\kilogram}$, $h_\B = \SI{343,54}{\kilo\joule\per\kilogram}$, $h_\D = \SI{3017,4}{\kilo\joule\per\kilogram}$, $h_\E = \SI{2284,5}{\kilo\joule\per\kilogram}$, ainsi $\eta_\text{thermique} = \SI{27,294}{\percent}$ ;
 						\tab 2) $SSC = \SI[per-mode = symbol]{4,93}{\kilogram\per\kilo\watt\per\hour}$ ;
-						\tab 3) Voir \cref{fig_cycle_prélèvement_vapeur} ;
-						\tab 4) Voir \cref{fig_ts_lv_prelevement_vapeur} ;
+						\tab 3) Voir \cref{fig_cycle_prélèvement_vapeur} p.\pageref{fig_cycle_prélèvement_vapeur} ;
+						\tab 4) Voir \cref{fig_ts_lv_prelevement_vapeur} p.\pageref{fig_ts_lv_prelevement_vapeur} ;
 						\tab 5) $h_\text{prélèvement} = \SI{2673,9}{\kilo\joule\per\kilogram}$, $h_\text{pré-mélange} = \SI{341,1}{\kilo\joule\per\kilogram}$, $h_\text{post-mélange} = \SI{670,4}{\kilo\joule\per\kilogram}$ : Ainsi la proportion permettant de saturer l’eau après mélange est $z = \SI{14,1}{\percent}$ ;
 						\tab 6) $w_\text{net~2} = \SI{-674,87}{\kilo\joule\per\kilogram}$ (\SI{-9,2}{\percent} : drame !) ;
 						\tab 7) $q_\text{chaud.} = \SI{2344,4}{\kilo\joule\per\kilogram}$, ainsi $\eta_\text{inst.~2} = \SI{28,786}{\percent}$ (\SI{+1,49}{pt} : est-ce vraiment désirable dans cette application ?).
