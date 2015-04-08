@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2015.3.15)  5 APR 2015 20:14
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2015.3.15)  8 APR 2015 21:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2701,7 +2701,7 @@ Package: niceframe v1.1c <2009/31/08> (Marcus Ohlhaut)
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \vocab with arg. spec. 'om' on line 249.
+. Defining document command \vocab with arg. spec. 'om' on line 250.
 .................................................
 
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
@@ -2891,13 +2891,13 @@ Package biblatex Warning: 'babel' detected but 'csquotes' missing.
 
 \@quotelevel=\count466
 \@quotereset=\count467
-No file amphibook.aux.
+(./amphibook.aux)
 \openout1 = `amphibook.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 7.
 LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 7.
 
-(/usr/share/texlive/texmf-dist/tex/latex/newtx/omlnxlmi.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/omlnxlmi.fd
 File: omlnxlmi.fd 2012/05/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
 LaTeX Font Info:    ... okay on input line 7.
@@ -3079,14 +3079,14 @@ Package biblatex Info: Automatic encoding selection.
 \openout5 = `amphibook.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'amphibook.bbl' not found.
-
-No file amphibook.bbl.
+Package biblatex Info: ... file 'amphibook.bbl' found.
+ (./amphibook.bbl)
 Package biblatex Info: Reference section=0 on input line 7.
 Package biblatex Info: Reference segment=0 on input line 7.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hypcap package is loaded.
 Package caption Info: longtable package is loaded.
+
 (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2011/09/12 v1.3 longtable captions (AR)
 )
@@ -3289,14 +3289,14 @@ png>]) (./a/frame_toc.tex
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-
-Package minitoc Warning: W0010
-(minitoc)                No file amphibook.toc. 
-(minitoc)                MINITOCS NOT PREPARED on input line 5.
-
+Package minitoc Info: I0024
+(minitoc)             PREPARING MINITOCS FROM amphibook.toc on input line 5.
 LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
 (Font)              scaled to size 24.88pt on input line 6.
+
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
 \tf@toc=\write8
 \openout8 = `amphibook.toc'.
 
@@ -11446,605 +11446,607 @@ File: images/ts_reversible_irreversible.png Graphic file (type png)
 
 <use images/ts_reversible_irreversible.png>
 Package pdftex.def Info: images/ts_reversible_irreversible.png used on input li
-ne 207.
+ne 208.
 (pdftex.def)             Requested size: 227.62204pt x 227.82831pt.
  [239 <./8/images/ts_reversible_irreversible.png>]
 
-LaTeX Warning: Reference `fig_ts_basics' on page 1 undefined on input line 218.
+LaTeX Warning: Reference `fig_ts_basics' on page 1 undefined on input line 219.
 
 
 <images/ts_basics_1.png, id=3209, 623.91367pt x 616.63467pt>
 File: images/ts_basics_1.png Graphic file (type png)
 
 <use images/ts_basics_1.png>
-Package pdftex.def Info: images/ts_basics_1.png used on input line 222.
+Package pdftex.def Info: images/ts_basics_1.png used on input line 224.
 (pdftex.def)             Requested size: 167.16058pt x 165.20454pt.
 
 <images/ts_basics_2.png, id=3210, 623.91367pt x 616.63467pt>
 File: images/ts_basics_2.png Graphic file (type png)
 
 <use images/ts_basics_2.png>
-Package pdftex.def Info: images/ts_basics_2.png used on input line 223.
+Package pdftex.def Info: images/ts_basics_2.png used on input line 225.
 (pdftex.def)             Requested size: 167.16058pt x 165.20454pt.
 
 
-LaTeX Warning: Reference `fig_ts_basics' on page 1 undefined on input line 231.
+LaTeX Warning: Reference `fig_ts_basics' on page 1 undefined on input line 233.
 
 
 [240 <./8/images/ts_basics_1.png> <./8/images/ts_basics_2.png>]
 
 LaTeX Warning: Reference `ch_principe_fonctionnement_r\IeC {\'e}frig\IeC {\'e}r
-ateur' on page 241 undefined on input line 234.
+ateur' on page 241 undefined on input line 236.
 
 
-LaTeX Warning: Reference `fig_ts_cycle' on page 1 undefined on input line 236.
+LaTeX Warning: Reference `fig_ts_cycle' on page 1 undefined on input line 238.
 
 <images/ts_cycle.png, id=3222, 903.375pt x 905.63344pt>
 File: images/ts_cycle.png Graphic file (type png)
 
 <use images/ts_cycle.png>
-Package pdftex.def Info: images/ts_cycle.png used on input line 240.
-(pdftex.def)             Requested size: 227.62204pt x 228.19043pt.
+Package pdftex.def Info: images/ts_cycle.png used on input line 242.
+(pdftex.def)             Requested size: 179.25244pt x 179.70013pt.
  [241 <./8/images/ts_cycle.png>]
 
-LaTeX Warning: Reference `fig_ts_carnot' on page 1 undefined on input line 247.
+LaTeX Warning: Reference `fig_ts_carnot' on page 1 undefined on input line 249.
 
 
 <images/pv_carnot_gp.png, id=3234, 903.375pt x 895.84688pt>
 File: images/pv_carnot_gp.png Graphic file (type png)
 
 <use images/pv_carnot_gp.png>
-Package pdftex.def Info: images/pv_carnot_gp.png used on input line 251.
-(pdftex.def)             Requested size: 174.2753pt x 172.82355pt.
+Package pdftex.def Info: images/pv_carnot_gp.png used on input line 253.
+(pdftex.def)             Requested size: 179.25244pt x 177.75824pt.
 
 <images/pv_carnot_lv.png, id=3235, 903.375pt x 905.63344pt>
 File: images/pv_carnot_lv.png Graphic file (type png)
 
 <use images/pv_carnot_lv.png>
-Package pdftex.def Info: images/pv_carnot_lv.png used on input line 252.
-(pdftex.def)             Requested size: 174.2753pt x 174.71153pt.
+Package pdftex.def Info: images/pv_carnot_lv.png used on input line 254.
+(pdftex.def)             Requested size: 179.25244pt x 179.70013pt.
 
 <images/ts_carnot.png, id=3236, 903.375pt x 905.63344pt>
 File: images/ts_carnot.png Graphic file (type png)
 
 <use images/ts_carnot.png>
-Package pdftex.def Info: images/ts_carnot.png used on input line 255.
-(pdftex.def)             Requested size: 227.62204pt x 228.19043pt.
+Package pdftex.def Info: images/ts_carnot.png used on input line 257.
+(pdftex.def)             Requested size: 179.25244pt x 179.70013pt.
+ [242] [243 <./8/images/pv_carnot_gp.png> <./8/images/pv_carnot_lv.png> <./8/im
+ages/ts_carnot.png>]
+
+LaTeX Warning: Reference `eq_premier_principe_sf_min' on page 244 undefined on 
+input line 269.
 
 
-LaTeX Warning: Reference `eq_premier_principe_sf_min' on page 242 undefined on 
-input line 267.
-
-
-LaTeX Warning: Reference `eq_q_tds_min' on page 242 undefined on input line 271
+LaTeX Warning: Reference `eq_q_tds_min' on page 244 undefined on input line 273
 .
 
 
-LaTeX Warning: Reference `eq_travail_pdv' on page 242 undefined on input line 2
-71.
+LaTeX Warning: Reference `eq_travail_pdv' on page 244 undefined on input line 2
+73.
 
-[242 <./8/images/pv_carnot_gp.png> <./8/images/pv_carnot_lv.png> <./8/images/ts
-_carnot.png>]
 
 LaTeX Warning: Reference `eq_delta_s_u_p_v_t' on page 1 undefined on input line
- 278.
+ 280.
 
 
-LaTeX Warning: Reference `eq_delta_s_gp_v' on page 243 undefined on input line 
-278.
+LaTeX Warning: Reference `eq_delta_s_gp_v' on page 244 undefined on input line 
+280.
 
 
-LaTeX Warning: Reference `eq_delta_s_gp_p' on page 243 undefined on input line 
-278.
+LaTeX Warning: Reference `eq_delta_s_gp_p' on page 244 undefined on input line 
+280.
 
 
-LaTeX Warning: Reference `eq_principe_de_joule' on page 243 undefined on input 
-line 281.
+LaTeX Warning: Reference `eq_principe_de_joule' on page 244 undefined on input 
+line 283.
 
 
-LaTeX Warning: Reference `eq_pv=RT' on page 243 undefined on input line 281.
+LaTeX Warning: Reference `eq_pv=RT' on page 244 undefined on input line 283.
 
 
-LaTeX Warning: Citation 'clausius1865' on page 243 undefined on input line 295.
+LaTeX Warning: Citation 'clausius1865' on page 244 undefined on input line 297.
 
 
 
-LaTeX Warning: Citation 'clausius1867en' on page 243 undefined on input line 29
-5.
+LaTeX Warning: Citation 'clausius1867en' on page 244 undefined on input line 29
+7.
 
 
-LaTeX Warning: Citation 'clausius1868fr2' on page 243 undefined on input line 2
-95.
+LaTeX Warning: Citation 'clausius1868fr2' on page 244 undefined on input line 2
+97.
 
 
-LaTeX Warning: Reference `eq_delta_s_gp_v' on page 243 undefined on input line 
-297.
+LaTeX Warning: Reference `eq_delta_s_gp_v' on page 244 undefined on input line 
+299.
 
 
-LaTeX Warning: Reference `eq_delta_s_gp_v' on page 243 undefined on input line 
-301.
+LaTeX Warning: Reference `eq_delta_s_gp_v' on page 244 undefined on input line 
+303.
 
 
-LaTeX Warning: Reference `eq_delta_s_gp_p' on page 243 undefined on input line 
-301.
+LaTeX Warning: Reference `eq_delta_s_gp_p' on page 244 undefined on input line 
+303.
+
+[244
+
+]
+
+LaTeX Warning: Reference `eq_delta_s_gp_vcst' on page 245 undefined on input li
+ne 313.
 
 
-LaTeX Warning: Reference `eq_delta_s_gp_vcst' on page 243 undefined on input li
-ne 311.
-
-
-LaTeX Warning: Reference `eq_delta_s_gp_pcste' on page 243 undefined on input l
-ine 311.
+LaTeX Warning: Reference `eq_delta_s_gp_pcste' on page 245 undefined on input l
+ine 313.
 
 
 LaTeX Warning: Reference `fig_ts_gp_isobares_isochores' on page 1 undefined on 
-input line 311.
+input line 313.
 
-<images/ts_gp_isobares_isochores.png, id=3251, 903.375pt x 905.63344pt>
+<images/ts_gp_isobares_isochores.png, id=3269, 903.375pt x 905.63344pt>
 File: images/ts_gp_isobares_isochores.png Graphic file (type png)
 
 <use images/ts_gp_isobares_isochores.png>
 Package pdftex.def Info: images/ts_gp_isobares_isochores.png used on input line
- 315.
+ 318.
 (pdftex.def)             Requested size: 227.62204pt x 228.19043pt.
- [243]
-Package mdframed Info: mdframed works in twoside mode on input line 322.
-
-<images/exe_ts_1.png, id=3266, 274.17897pt x 267.47351pt>
+ [245 <./8/images/ts_gp_isobares_isochores.png>]
+Package mdframed Info: mdframed works in twoside mode on input line 325.
+ <images/exe_ts_1.png, id=3280, 274.17897pt x 267.47351pt>
 File: images/exe_ts_1.png Graphic file (type png)
 
 <use images/exe_ts_1.png>
-Package pdftex.def Info: images/exe_ts_1.png used on input line 327.
+Package pdftex.def Info: images/exe_ts_1.png used on input line 330.
 (pdftex.def)             Requested size: 113.81102pt x 111.028pt.
 
 
-LaTeX Warning: Reference `eq_delta_s_gp_p' on page 1 undefined on input line 32
-8.
+LaTeX Warning: Reference `eq_delta_s_gp_p' on page 1 undefined on input line 33
+1.
 
 File: images/hand.png Graphic file (type png)
 <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 329.
+Package pdftex.def Info: images/hand.png used on input line 332.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 330.
+Package pdftex.def Info: images/hand.png used on input line 333.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 
 
-LaTeX Warning: Reference `ch_entropie_propriete' on page 244 undefined on input
- line 330.
+LaTeX Warning: Reference `ch_entropie_propriete' on page 246 undefined on input
+ line 333.
 
-Package mdframed Info: Not enough space on this page on input line 331.
+Package mdframed Info: Not enough space on this page on input line 334.
 
-LaTeX Warning: Reference `mdf@pagelabel-76' on page 244 undefined on input line
- 331.
+LaTeX Warning: Reference `mdf@pagelabel-76' on page 246 undefined on input line
+ 334.
 
-[244 <./8/images/ts_gp_isobares_isochores.png> <./8/images/exe_ts_1.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 334.
-
-<images/exe_ts_2.png, id=3278, 274.92403pt x 267.47351pt>
+Package mdframed Info: mdframed works in twoside mode on input line 337.
+<images/exe_ts_2.png, id=3281, 274.92403pt x 267.47351pt>
 File: images/exe_ts_2.png Graphic file (type png)
 
 <use images/exe_ts_2.png>
-Package pdftex.def Info: images/exe_ts_2.png used on input line 339.
+Package pdftex.def Info: images/exe_ts_2.png used on input line 342.
 (pdftex.def)             Requested size: 113.81102pt x 110.72598pt.
 
 
 LaTeX Warning: Reference `eq_delta_s_gp_p' on page 1 undefined on input line 34
-0.
+3.
 
 
-LaTeX Warning: Reference `eq_q_tds_maj' on page 1 undefined on input line 342.
+LaTeX Warning: Reference `eq_q_tds_maj' on page 1 undefined on input line 345.
 
 File: images/hand.png Graphic file (type png)
 <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 344.
+Package pdftex.def Info: images/hand.png used on input line 347.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 
 
-LaTeX Warning: Reference `eq_gp_travail_isotherme_sf2' on page 245 undefined on
- input line 344.
+LaTeX Warning: Reference `eq_gp_travail_isotherme_sf2' on page 246 undefined on
+ input line 347.
 
 
-LaTeX Warning: Reference `eq_gp_chaleur_isotherme_sf' on page 245 undefined on 
-input line 344.
+LaTeX Warning: Reference `eq_gp_chaleur_isotherme_sf' on page 246 undefined on 
+input line 347.
 
-Package mdframed Info: Not enough space on this page on input line 345.
 
-LaTeX Warning: Reference `mdf@pagelabel-77' on page 245 undefined on input line
- 345.
+LaTeX Warning: Reference `mdf@pagelabel-77' on page 246 undefined on input line
+ 348.
 
-Package mdframed Info: mdframed works in twoside mode on input line 347.
-<images/exe_ts_3.png, id=3279, 263.00319pt x 267.47351pt>
+[246 <./8/images/exe_ts_1.png> <./8/images/exe_ts_2.png>]
+Package mdframed Info: mdframed works in twoside mode on input line 350.
+
+<images/exe_ts_3.png, id=3293, 263.00319pt x 267.47351pt>
 File: images/exe_ts_3.png Graphic file (type png)
 
 <use images/exe_ts_3.png>
-Package pdftex.def Info: images/exe_ts_3.png used on input line 352.
+Package pdftex.def Info: images/exe_ts_3.png used on input line 355.
 (pdftex.def)             Requested size: 113.81102pt x 115.74599pt.
 
 
 LaTeX Warning: Reference `eq_delta_s_gp_p' on page 1 undefined on input line 35
-3.
+6.
 
 
-LaTeX Warning: Reference `eq_isentropique_horrible2' on page 245 undefined on i
-nput line 361.
+LaTeX Warning: Reference `eq_isentropique_horrible2' on page 247 undefined on i
+nput line 364.
 
 File: images/hand.png Graphic file (type png)
 <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 363.
+Package pdftex.def Info: images/hand.png used on input line 366.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
+Package mdframed Info: Not enough space on this page on input line 367.
 
 
-LaTeX Warning: Reference `mdf@pagelabel-78' on page 245 undefined on input line
- 364.
-
-[245 <./8/images/exe_ts_2.png> <./8/images/exe_ts_3.png>]
-
-LaTeX Warning: Reference `mdf@pagelabel-79' on page 246 undefined on input line
- 364.
+LaTeX Warning: Reference `mdf@pagelabel-78' on page 247 undefined on input line
+ 367.
 
 
-LaTeX Warning: Reference `fig_ts_lv' on page 1 undefined on input line 369.
+LaTeX Warning: Reference `fig_ts_lv' on page 1 undefined on input line 372.
 
 
-LaTeX Warning: Reference `fig_t-v_eau' on page 1 undefined on input line 369.
+LaTeX Warning: Reference `fig_t-v_eau' on page 1 undefined on input line 372.
 
 
-LaTeX Warning: Reference `chap_cinq' on page 1 undefined on input line 370.
+LaTeX Warning: Reference `chap_cinq' on page 1 undefined on input line 373.
 
-<images/ts_lv.png, id=3290, 963.6pt x 745.987pt>
+<images/ts_lv.png, id=3294, 963.6pt x 745.987pt>
 File: images/ts_lv.png Graphic file (type png)
  <use images/ts_lv.png>
-Package pdftex.def Info: images/ts_lv.png used on input line 374.
+Package pdftex.def Info: images/ts_lv.png used on input line 377.
 (pdftex.def)             Requested size: 284.52756pt x 220.26915pt.
 
 
-LaTeX Warning: Reference `fig_t-v_eau' on page 1 undefined on input line 376.
+LaTeX Warning: Reference `fig_t-v_eau' on page 1 undefined on input line 379.
 
 
-LaTeX Warning: Reference `fig_t-v_eau' on page 246 undefined on input line 376.
+LaTeX Warning: Reference `fig_t-v_eau' on page 247 undefined on input line 379.
 
 
 
 LaTeX Warning: Reference `tab_abaque1extraitbis' on page 1 undefined on input l
-ine 380.
+ine 383.
 
 
 LaTeX Warning: Reference `eq_titre_energie_interne' on page 1 undefined on inpu
-t line 434.
+t line 437.
 
-pdfTeX warning (ext4): destination with the same identifier (name{equation.8.3.
-14}) has been already used, duplicate ignored
+[247 <./8/images/exe_ts_3.png>] [248 <./8/images/ts_lv.png>]pdfTeX warning (ext
+4): destination with the same identifier (name{equation.8.3.14}) has been alrea
+dy used, duplicate ignored
 <to be read again> 
                    \relax 
-l.435 		\begin{equation}
+l.438 		\begin{equation}
                         pdfTeX warning (ext4): destination with the same identi
 fier (name{equation.8.3.14}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.435 		\begin{equation}
+l.438 		\begin{equation}
                         pdfTeX warning (ext4): destination with the same identi
 fier (name{equation.8.3.14}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.435 		\begin{equation}
+l.438 		\begin{equation}
                         pdfTeX warning (ext4): destination with the same identi
 fier (name{equation.8.3.14}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.435 		\begin{equation}
-                         [246 <./8/images/ts_lv.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 441.
+l.438 		\begin{equation}
+                        
+Package mdframed Info: mdframed works in twoside mode on input line 444.
 
-<images/exe_ts_4.png, id=3304, 263.00319pt x 267.47351pt>
+<images/exe_ts_4.png, id=3319, 263.00319pt x 267.47351pt>
 File: images/exe_ts_4.png Graphic file (type png)
 
 <use images/exe_ts_4.png>
-Package pdftex.def Info: images/exe_ts_4.png used on input line 446.
+Package pdftex.def Info: images/exe_ts_4.png used on input line 449.
 (pdftex.def)             Requested size: 113.81102pt x 115.74599pt.
 
 
-LaTeX Warning: Reference `eq_titre_energie_interne' on page 247 undefined on in
-put line 448.
+LaTeX Warning: Reference `eq_titre_energie_interne' on page 249 undefined on in
+put line 451.
 
 
 LaTeX Warning: Reference `eq_titre_entropie' on page 1 undefined on input line 
-448.
+451.
 
 File: images/hand.png Graphic file (type png)
 <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 451.
+Package pdftex.def Info: images/hand.png used on input line 454.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
-Package mdframed Info: Not enough space on this page on input line 452.
 
 
-LaTeX Warning: Reference `mdf@pagelabel-80' on page 247 undefined on input line
- 452.
+LaTeX Warning: Reference `mdf@pagelabel-79' on page 249 undefined on input line
+ 455.
 
-[247 <./8/images/exe_ts_4.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 455.
-
-<images/exe_ts_5.png, id=3316, 263.00319pt x 267.47351pt>
+Package mdframed Info: mdframed works in twoside mode on input line 458.
+<images/exe_ts_5.png, id=3320, 263.00319pt x 267.47351pt>
 File: images/exe_ts_5.png Graphic file (type png)
 
 <use images/exe_ts_5.png>
-Package pdftex.def Info: images/exe_ts_5.png used on input line 460.
+Package pdftex.def Info: images/exe_ts_5.png used on input line 463.
 (pdftex.def)             Requested size: 113.81102pt x 115.74599pt.
 
 
-LaTeX Warning: Reference `eq_q_tds_min' on page 248 undefined on input line 467
+LaTeX Warning: Reference `eq_q_tds_min' on page 249 undefined on input line 470
 .
 
 File: images/hand.png Graphic file (type png)
 <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 469.
+Package pdftex.def Info: images/hand.png used on input line 472.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 
 
-LaTeX Warning: Reference `ch_exemple_isotherme_lv_deux' on page 248 undefined o
-n input line 469.
+LaTeX Warning: Reference `ch_exemple_isotherme_lv_deux' on page 249 undefined o
+n input line 472.
 
 
-LaTeX Warning: Reference `ch_exemple_isotherme_lv_deux' on page 248 undefined o
-n input line 469.
+LaTeX Warning: Reference `ch_exemple_isotherme_lv_deux' on page 249 undefined o
+n input line 472.
 
-Package mdframed Info: Not enough space on this page on input line 470.
+Package mdframed Info: Box was splittet wrong
+(mdframed)              on input line 473.
 
-LaTeX Warning: Reference `mdf@pagelabel-81' on page 248 undefined on input line
- 470.
+LaTeX Warning: Reference `mdf@pagelabel-80' on page 249 undefined on input line
+ 473.
 
-Package mdframed Info: mdframed works in twoside mode on input line 473.
-<images/exe_ts_6.png, id=3317, 263.00319pt x 267.47351pt>
+[249 <./8/images/exe_ts_4.png> <./8/images/exe_ts_5.png>]
+
+LaTeX Warning: Reference `mdf@pagelabel-81' on page 250 undefined on input line
+ 473.
+
+Package mdframed Info: mdframed works in twoside mode on input line 476.
+<images/exe_ts_6.png, id=3331, 263.00319pt x 267.47351pt>
 File: images/exe_ts_6.png Graphic file (type png)
 
 <use images/exe_ts_6.png>
-Package pdftex.def Info: images/exe_ts_6.png used on input line 479.
+Package pdftex.def Info: images/exe_ts_6.png used on input line 482.
 (pdftex.def)             Requested size: 113.81102pt x 115.74599pt.
 
 
 LaTeX Warning: Reference `eq_titre_entropie' on page 1 undefined on input line 
-484.
+487.
 
 
-LaTeX Warning: Reference `eq_titre_enthalpie' on page 248 undefined on input li
-ne 484.
+LaTeX Warning: Reference `eq_titre_enthalpie' on page 250 undefined on input li
+ne 487.
 
 File: images/hand.png Graphic file (type png)
 <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 488.
+Package pdftex.def Info: images/hand.png used on input line 491.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 488.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 491.
 
 
-LaTeX Warning: Reference `mdf@pagelabel-82' on page 248 undefined on input line
- 489.
+LaTeX Warning: Reference `mdf@pagelabel-82' on page 250 undefined on input line
+ 492.
 
-[248 <./8/images/exe_ts_5.png> <./8/images/exe_ts_6.png>]
+[250 <./8/images/exe_ts_6.png>]
 
-LaTeX Warning: Reference `mdf@pagelabel-83' on page 249 undefined on input line
- 489.
+LaTeX Warning: Reference `mdf@pagelabel-83' on page 251 undefined on input line
+ 492.
 
-[249]
+[251]
 
-LaTeX Warning: Citation 'clausius1854' on page 250 undefined on input line 501.
-
-
-
-LaTeX Warning: Citation 'clausius1867en' on page 250 undefined on input line 50
-1.
+LaTeX Warning: Citation 'clausius1854' on page 252 undefined on input line 504.
 
 
-LaTeX Warning: Citation 'clausius1868fr4' on page 250 undefined on input line 5
-01.
+
+LaTeX Warning: Citation 'clausius1867en' on page 252 undefined on input line 50
+4.
+
+
+LaTeX Warning: Citation 'clausius1868fr4' on page 252 undefined on input line 5
+04.
 
 
 LaTeX Warning: Reference `fig_expérience_création_entropie' on page 1 undefined
- on input line 505.
+ on input line 508.
 
 
-<images/transfert_chaleur_irreversible.png, id=3335, 409.07547pt x 261.4674pt>
+<images/transfert_chaleur_irreversible.png, id=3347, 409.07547pt x 261.4674pt>
 File: images/transfert_chaleur_irreversible.png Graphic file (type png)
 
 <use images/transfert_chaleur_irreversible.png>
 Package pdftex.def Info: images/transfert_chaleur_irreversible.png used on inpu
-t line 509.
+t line 512.
 (pdftex.def)             Requested size: 227.62204pt x 145.49115pt.
 
 
-LaTeX Warning: Reference `eq_variation_franche_entropie' on page 250 undefined 
-on input line 526.
+LaTeX Warning: Reference `eq_variation_franche_entropie' on page 252 undefined 
+on input line 529.
 
-[250
+[252
 
  <./8/images/transfert_chaleur_irreversible.png>]
 
 LaTeX Warning: Reference `fig_expérience_création_entropie_t-s' on page 1 undef
-ined on input line 531.
+ined on input line 534.
 
-<images/ts_echange_chaleur.png, id=3349, 932.51613pt x 899.87807pt>
+<images/ts_echange_chaleur.png, id=3361, 932.51613pt x 899.87807pt>
 File: images/ts_echange_chaleur.png Graphic file (type png)
 
 <use images/ts_echange_chaleur.png>
-Package pdftex.def Info: images/ts_echange_chaleur.png used on input line 535.
+Package pdftex.def Info: images/ts_echange_chaleur.png used on input line 538.
 (pdftex.def)             Requested size: 284.52756pt x 274.56538pt.
 
 
-LaTeX Warning: Citation 'carnot1824' on page 251 undefined on input line 544.
+LaTeX Warning: Citation 'carnot1824' on page 253 undefined on input line 548.
 
-[251 <./8/images/ts_echange_chaleur.png>]
+[253 <./8/images/ts_echange_chaleur.png>]
 
 LaTeX Warning: Reference `fig_t-s_détentes_compressions' on page 1 undefined on
- input line 556.
+ input line 560.
 
-<images/ts_gp_detente.png, id=3361, 903.375pt x 905.63344pt>
+<images/ts_gp_detente.png, id=3374, 903.375pt x 905.63344pt>
 File: images/ts_gp_detente.png Graphic file (type png)
 
 <use images/ts_gp_detente.png>
-Package pdftex.def Info: images/ts_gp_detente.png used on input line 562.
-(pdftex.def)             Requested size: 170.71523pt x 171.13246pt.
+Package pdftex.def Info: images/ts_gp_detente.png used on input line 565.
+(pdftex.def)             Requested size: 142.26178pt x 142.61038pt.
 
-<images/ts_gp_compression.png, id=3362, 903.375pt x 905.63344pt>
+<images/ts_gp_compression.png, id=3375, 903.375pt x 905.63344pt>
 File: images/ts_gp_compression.png Graphic file (type png)
 
 <use images/ts_gp_compression.png>
-Package pdftex.def Info: images/ts_gp_compression.png used on input line 563.
-(pdftex.def)             Requested size: 170.71523pt x 171.13246pt.
- [252 <./8/images/ts_gp_detente.png> <./8/images/ts_gp_compression.png>]
-Underfull \hbox (badness 1721) in paragraph at lines 575--577
+Package pdftex.def Info: images/ts_gp_compression.png used on input line 566.
+(pdftex.def)             Requested size: 142.26178pt x 142.61038pt.
+ [254 <./8/images/ts_gp_detente.png> <./8/images/ts_gp_compression.png>]
+Underfull \hbox (badness 1721) in paragraph at lines 579--581
 \T1/fxl/m/it/8 corps plus froid vers un corps plus
  []
 
 
-Underfull \hbox (badness 5548) in paragraph at lines 575--577
+Underfull \hbox (badness 5548) in paragraph at lines 579--581
 \T1/fxl/m/it/8 chaud, sans qu'un chan-ge-ment en
  []
 
 
-LaTeX Warning: Citation 'clausius1854' on page 253 undefined on input line 577.
+LaTeX Warning: Citation 'clausius1854' on page 255 undefined on input line 581.
 
 
 
-LaTeX Warning: Citation 'clausius1867en' on page 253 undefined on input line 57
-7.
+LaTeX Warning: Citation 'clausius1867en' on page 255 undefined on input line 58
+1.
 
 
-LaTeX Warning: Citation 'clausius1868fr4' on page 253 undefined on input line 5
-77.
+LaTeX Warning: Citation 'clausius1868fr4' on page 255 undefined on input line 5
+81.
 
 
-LaTeX Warning: Reference `chap_sept' on page 1 undefined on input line 578.
+LaTeX Warning: Reference `chap_sept' on page 1 undefined on input line 582.
 
 
-LaTeX Warning: Reference `ch_\IeC {\'e}volutions_irr_sf' on page 253 undefined 
-on input line 583.
+LaTeX Warning: Reference `ch_\IeC {\'e}volutions_irr_sf' on page 255 undefined 
+on input line 587.
 
-Package mdframed Info: mdframed works in twoside mode on input line 589.
+Package mdframed Info: mdframed works in twoside mode on input line 593.
 
-LaTeX Warning: Reference `mdf@pagelabel-84' on page 253 undefined on input line
- 596.
-
-
-LaTeX Warning: Reference `ch_energie' on page 253 undefined on input line 600.
+LaTeX Warning: Reference `mdf@pagelabel-84' on page 255 undefined on input line
+ 600.
 
 
-LaTeX Warning: Reference `ch_utilite_entropie' on page 253 undefined on input l
-ine 600.
+LaTeX Warning: Reference `ch_energie' on page 255 undefined on input line 604.
 
-[253]
-Package mdframed Info: mdframed works in twoside mode on input line 621.
+
+LaTeX Warning: Reference `ch_utilite_entropie' on page 255 undefined on input l
+ine 604.
+
+[255]
+Package mdframed Info: mdframed works in twoside mode on input line 625.
 
 
 LaTeX Warning: Reference `eq_delta_s_gp_p' on page 1 undefined on input line 63
-2.
+6.
 
-<images/exe_ts_7.png, id=3388, 263.00319pt x 267.47351pt>
+<images/exe_ts_7.png, id=3400, 263.00319pt x 267.47351pt>
 File: images/exe_ts_7.png Graphic file (type png)
 
 <use images/exe_ts_7.png>
-Package pdftex.def Info: images/exe_ts_7.png used on input line 639.
-(pdftex.def)             Requested size: 113.81102pt x 115.74599pt.
+Package pdftex.def Info: images/exe_ts_7.png used on input line 643.
+(pdftex.def)             Requested size: 99.58464pt x 101.27774pt.
 
 
-LaTeX Warning: Reference `mdf@pagelabel-85' on page 254 undefined on input line
- 641.
+LaTeX Warning: Reference `mdf@pagelabel-85' on page 256 undefined on input line
+ 645.
 
-[254 <./8/images/exe_ts_7.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 645.
-
-<images/exe_ts_8.png, id=3399, 263.00319pt x 267.47351pt>
+Package mdframed Info: mdframed works in twoside mode on input line 649.
+<images/exe_ts_8.png, id=3401, 263.00319pt x 267.47351pt>
 File: images/exe_ts_8.png Graphic file (type png)
 
 <use images/exe_ts_8.png>
-Package pdftex.def Info: images/exe_ts_8.png used on input line 662.
+Package pdftex.def Info: images/exe_ts_8.png used on input line 666.
 (pdftex.def)             Requested size: 113.81102pt x 115.74599pt.
-Package mdframed Info: Not enough space on this page on input line 667.
 
 
-LaTeX Warning: Reference `mdf@pagelabel-86' on page 255 undefined on input line
- 667.
+LaTeX Warning: Reference `mdf@pagelabel-86' on page 256 undefined on input line
+ 671.
 
-[255 <./8/images/exe_ts_8.png>]
+[256 <./8/images/exe_ts_7.png>]
 
-LaTeX Warning: Reference `fig_water_jump' on page 1 undefined on input line 683
+LaTeX Warning: Reference `mdf@pagelabel-87' on page 257 undefined on input line
+ 671.
+
+[257 <./8/images/exe_ts_8.png>]
+
+LaTeX Warning: Reference `fig_water_jump' on page 1 undefined on input line 688
 .
 
 
-LaTeX Warning: Citation 'clausius1865' on page 256 undefined on input line 685.
+LaTeX Warning: Citation 'clausius1865' on page 258 undefined on input line 690.
 
 
 
-LaTeX Warning: Citation 'clausius1867en' on page 256 undefined on input line 68
-5.
-
-
-LaTeX Warning: Citation 'clausius1868fr2' on page 256 undefined on input line 6
-85.
-
-
-LaTeX Warning: Citation 'truesdell1980' on page 256 undefined on input line 685
-.
-
-
-LaTeX Warning: Citation 'clausius1865' on page 256 undefined on input line 690.
-
-
-
-LaTeX Warning: Citation 'clausius1867en' on page 256 undefined on input line 69
+LaTeX Warning: Citation 'clausius1867en' on page 258 undefined on input line 69
 0.
 
 
-LaTeX Warning: Citation 'clausius1868fr2' on page 256 undefined on input line 6
+LaTeX Warning: Citation 'clausius1868fr2' on page 258 undefined on input line 6
 90.
 
 
-LaTeX Warning: Reference `eq_augmentation_entropie' on page 1 undefined on inpu
-t line 691.
+LaTeX Warning: Citation 'truesdell1980' on page 258 undefined on input line 690
+.
 
-[256
+
+LaTeX Warning: Citation 'clausius1865' on page 258 undefined on input line 695.
+
+
+
+LaTeX Warning: Citation 'clausius1867en' on page 258 undefined on input line 69
+5.
+
+
+LaTeX Warning: Citation 'clausius1868fr2' on page 258 undefined on input line 6
+95.
+
+
+LaTeX Warning: Reference `eq_augmentation_entropie' on page 1 undefined on inpu
+t line 696.
+
+[258
 
 ]
-Underfull \hbox (badness 2529) in paragraph at lines 710--713
+Underfull \hbox (badness 2529) in paragraph at lines 715--718
 \T1/fxl/m/n/8 té-rieur peut être ar-rangé, de telle
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 710--713
+Underfull \hbox (badness 2503) in paragraph at lines 715--718
 \T1/fxl/m/n/8 Ainsi, avec la dé-fi-ni-tion tech-nique
  []
 
 
-LaTeX Warning: Citation 'feynman1963' on page 257 undefined on input line 713.
+LaTeX Warning: Citation 'feynman1963' on page 259 undefined on input line 718.
 
 
-LaTeX Warning: Citation 'feynman1963fr' on page 257 undefined on input line 713
+LaTeX Warning: Citation 'feynman1963fr' on page 259 undefined on input line 718
 .
 
 
-LaTeX Warning: Reference `ch_second_principe_enonce' on page 257 undefined on i
-nput line 716.
+LaTeX Warning: Reference `ch_second_principe_enonce' on page 259 undefined on i
+nput line 721.
 
 
-LaTeX Warning: Citation 'kelvin1852' on page 257 undefined on input line 724.
+LaTeX Warning: Citation 'kelvin1852' on page 259 undefined on input line 729.
 
-[257]
+[259]
 
 LaTeX Warning: Reference `eq_augmentation_entropie' on page 1 undefined on inpu
-t line 725.
+t line 730.
 
 
-LaTeX Warning: Citation 'asimov1956' on page 258 undefined on input line 735.
+LaTeX Warning: Citation 'asimov1956' on page 260 undefined on input line 740.
 
 
-LaTeX Warning: Citation 'asimov1956fr' on page 258 undefined on input line 735.
+LaTeX Warning: Citation 'asimov1956fr' on page 260 undefined on input line 740.
 
 
 
-LaTeX Warning: Citation 'depondt2001' on page 258 undefined on input line 735.
+LaTeX Warning: Citation 'depondt2001' on page 260 undefined on input line 740.
 
-) (./8/histoire_rumford.tex [258]
+) (./8/histoire_rumford.tex [260]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -12079,15 +12081,15 @@ LaTeX Warning: Citation 'depondt2001' on page 258 undefined on input line 735.
 
 
 
-LaTeX Warning: Citation 'millar1996' on page 259 undefined on input line 7.
+LaTeX Warning: Citation 'millar1996' on page 261 undefined on input line 7.
 
-<images/benjamin_thompson.jpg, id=3439, 219.219pt x 289.08pt>
+<images/benjamin_thompson.jpg, id=3453, 219.219pt x 289.08pt>
 File: images/benjamin_thompson.jpg Graphic file (type jpg)
 
 <use images/benjamin_thompson.jpg>
 Package pdftex.def Info: images/benjamin_thompson.jpg used on input line 14.
 (pdftex.def)             Requested size: 81.98949pt x 108.12054pt.
- [259
+ [261
 
 
  <./8/images/benjamin_thompson.jpg>]))
@@ -12131,39 +12133,39 @@ Package pdftex.def Info: images/benjamin_thompson.jpg used on input line 14.
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
 
-LaTeX Warning: Reference `eq_isentropique_horrible1' on page 260 undefined on i
+LaTeX Warning: Reference `eq_isentropique_horrible1' on page 262 undefined on i
 nput line 4.
 
 
-LaTeX Warning: Reference `eq_isentropique_horrible2' on page 260 undefined on i
+LaTeX Warning: Reference `eq_isentropique_horrible2' on page 262 undefined on i
 nput line 4.
 
 
-LaTeX Warning: Reference `eq_isentropique_horrible3' on page 260 undefined on i
+LaTeX Warning: Reference `eq_isentropique_horrible3' on page 262 undefined on i
 nput line 4.
 
 
-LaTeX Warning: Reference `eq_delta_s_gp_v' on page 260 undefined on input line 
+LaTeX Warning: Reference `eq_delta_s_gp_v' on page 262 undefined on input line 
 5.
 
 
-LaTeX Warning: Reference `eq_delta_s_gp_p' on page 260 undefined on input line 
+LaTeX Warning: Reference `eq_delta_s_gp_p' on page 262 undefined on input line 
 5.
 
 
 LaTeX Warning: Reference `eq_efficacit\IeC {\'e}_moteur_carnot_temp\IeC {\'e}ra
-ture' on page 260 undefined on input line 6.
+ture' on page 262 undefined on input line 6.
 
 
 LaTeX Warning: Reference `eq_efficacit\IeC {\'e}_r\IeC {\'e}frig\IeC {\'e}rateu
-r_carnot_temp\IeC {\'e}rature' on page 260 undefined on input line 6.
+r_carnot_temp\IeC {\'e}rature' on page 262 undefined on input line 6.
 
 
 LaTeX Warning: Reference `eq_efficacit\IeC {\'e}_thermopompe_carnot_temp\IeC {\
-'e}rature' on page 260 undefined on input line 6.
+'e}rature' on page 262 undefined on input line 6.
 
 
-LaTeX Warning: Reference `mdf@pagelabel-87' on page 260 undefined on input line
+LaTeX Warning: Reference `mdf@pagelabel-88' on page 262 undefined on input line
  7.
 
 
@@ -12172,20 +12174,20 @@ ined on input line 19.
 
 
 LaTeX Warning: Reference `fig_exp\IeC {\'e}rience_cr\IeC {\'e}ation_entropie_t-
-s' on page 260 undefined on input line 19.
+s' on page 262 undefined on input line 19.
 
 
 LaTeX Warning: Reference `fig_tsel' on page 1 undefined on input line 25.
 
 
-LaTeX Warning: Reference `exo_retrouver_pv' on page 260 undefined on input line
+LaTeX Warning: Reference `exo_retrouver_pv' on page 262 undefined on input line
  25.
 
 
-LaTeX Warning: Reference `exo_retrouver_pv' on page 260 undefined on input line
+LaTeX Warning: Reference `exo_retrouver_pv' on page 262 undefined on input line
  25.
 
-<images/exo_ts_elementaires1.png, id=3452, 897.09065pt x 899.44728pt>
+<images/exo_ts_elementaires1.png, id=3465, 897.09065pt x 899.44728pt>
 File: images/exo_ts_elementaires1.png Graphic file (type png)
 
 <use images/exo_ts_elementaires1.png>
@@ -12193,7 +12195,7 @@ Package pdftex.def Info: images/exo_ts_elementaires1.png used on input line 29.
 
 (pdftex.def)             Requested size: 145.43385pt x 145.80847pt.
 
-<images/exo_ts_elementaires2.png, id=3453, 897.09065pt x 899.44728pt>
+<images/exo_ts_elementaires2.png, id=3466, 897.09065pt x 899.44728pt>
 File: images/exo_ts_elementaires2.png Graphic file (type png)
 
 <use images/exo_ts_elementaires2.png>
@@ -12211,7 +12213,7 @@ Overfull \hbox (6.50607pt too wide) in paragraph at lines 45--46
 
  []
 
-[260
+[262
 
 
 
@@ -12267,46 +12269,46 @@ Overfull \hbox (1.10109pt too wide) in paragraph at lines 52--53
  []
 
 
-LaTeX Warning: Reference `exo_gp_isotherme' on page 261 undefined on input line
+LaTeX Warning: Reference `exo_gp_isotherme' on page 263 undefined on input line
  63.
 
 
-LaTeX Warning: Reference `exo_gp_isobare_isochore' on page 261 undefined on inp
+LaTeX Warning: Reference `exo_gp_isobare_isochore' on page 263 undefined on inp
 ut line 63.
 
 
-LaTeX Warning: Reference `exo_gp_isobare_isochore' on page 261 undefined on inp
+LaTeX Warning: Reference `exo_gp_isobare_isochore' on page 263 undefined on inp
 ut line 63.
 
 
-LaTeX Warning: Reference `exo_cours_vapeur_isotherme' on page 261 undefined on 
+LaTeX Warning: Reference `exo_cours_vapeur_isotherme' on page 263 undefined on 
 input line 63.
 
 
-LaTeX Warning: Reference `exo_generation_vapeur' on page 261 undefined on input
+LaTeX Warning: Reference `exo_generation_vapeur' on page 263 undefined on input
  line 63.
 
 
-LaTeX Warning: Reference `exo_generation_vapeur' on page 261 undefined on input
+LaTeX Warning: Reference `exo_generation_vapeur' on page 263 undefined on input
  line 63.
 
 
-LaTeX Warning: Reference `exo_moteur_carnot_vapeur' on page 261 undefined on in
+LaTeX Warning: Reference `exo_moteur_carnot_vapeur' on page 263 undefined on in
 put line 64.
 
 
-LaTeX Warning: Reference `exo_moteur_turbine_ideal' on page 261 undefined on in
+LaTeX Warning: Reference `exo_moteur_turbine_ideal' on page 263 undefined on in
 put line 64.
 
 
-LaTeX Warning: Reference `exo_moteur_turbine_ideal' on page 261 undefined on in
+LaTeX Warning: Reference `exo_moteur_turbine_ideal' on page 263 undefined on in
 put line 64.
 
 
 LaTeX Warning: Reference `fig_turbine_uss_hornet' on page 1 undefined on input 
 line 78.
 
-<images/turbine_uss_hornet.jpg, id=3480, 1779.64874pt x 1156.32pt>
+<images/turbine_uss_hornet.jpg, id=3492, 1779.64874pt x 1156.32pt>
 File: images/turbine_uss_hornet.jpg Graphic file (type jpg)
 
 <use images/turbine_uss_hornet.jpg>
@@ -12322,13 +12324,13 @@ Overfull \hbox (6.83348pt too wide) in paragraph at lines 108--109
 LaTeX Warning: Reference `fig_pompe_stockholm' on page 1 undefined on input lin
 e 128.
 
-<images/stockholm_pump.jpg, id=3483, 792.9625pt x 793.96625pt>
+<images/stockholm_pump.jpg, id=3495, 792.9625pt x 793.96625pt>
 File: images/stockholm_pump.jpg Graphic file (type jpg)
 
 <use images/stockholm_pump.jpg>
 Package pdftex.def Info: images/stockholm_pump.jpg used on input line 132.
 (pdftex.def)             Requested size: 145.43385pt x 145.60939pt.
- [261 <./8/images/turbine_uss_hornet.jpg> <./8/images/stockholm_pump.jpg>]
+ [263 <./8/images/turbine_uss_hornet.jpg> <./8/images/stockholm_pump.jpg>]
 Overfull \hbox (15.45683pt too wide) in paragraph at lines 153--156
 \T1/fxl/m/n/10 (-20) En A, le mé-lange liquide-vapeur est à pres-sion de [][][]
 . 
@@ -12341,10 +12343,10 @@ Overfull \hbox (5.90419pt too wide) in paragraph at lines 158--160
  []
 
 
-LaTeX Warning: Reference `exo_transferts_chaleur_irreversibles' on page 262 und
+LaTeX Warning: Reference `exo_transferts_chaleur_irreversibles' on page 264 und
 efined on input line 192.
 
-[262]
+[264]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -12379,10 +12381,10 @@ efined on input line 192.
 
 
 
-LaTeX Warning: Reference `exo_questions_cours' on page 263 undefined on input l
+LaTeX Warning: Reference `exo_questions_cours' on page 265 undefined on input l
 ine 207.
 
-<images/exo_sol_ts_tasse.png, id=3530, 263.00319pt x 267.47351pt>
+<images/exo_sol_ts_tasse.png, id=3542, 263.00319pt x 267.47351pt>
 File: images/exo_sol_ts_tasse.png Graphic file (type png)
 
 <use images/exo_sol_ts_tasse.png>
@@ -12390,55 +12392,267 @@ Package pdftex.def Info: images/exo_sol_ts_tasse.png used on input line 208.
 (pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
 
 
-LaTeX Warning: Reference `ch_entropie_definition' on page 263 undefined on inpu
+LaTeX Warning: Reference `ch_entropie_definition' on page 265 undefined on inpu
 t line 209.
 
 
-LaTeX Warning: Reference `ch_entropie_definition' on page 263 undefined on inpu
+LaTeX Warning: Reference `ch_entropie_definition' on page 265 undefined on inpu
 t line 209.
 
 
-LaTeX Warning: Reference `exemple_delta_entropie_basics' on page 263 undefined 
+LaTeX Warning: Reference `exemple_delta_entropie_basics' on page 265 undefined 
 on input line 210.
 
 
-LaTeX Warning: Reference `exemple_delta_entropie_basics' on page 263 undefined 
+LaTeX Warning: Reference `exemple_delta_entropie_basics' on page 265 undefined 
 on input line 210.
 
 
 LaTeX Warning: Reference `eq_def_capacité_calorifique_massique' on page 1 undef
 ined on input line 211.
 
-)
-Runaway argument?
-{{eq_def_capacitÃ©_calorifique_massique} : $c\ \equiv \ \frac {\diff \ETC.
-./8/exercices_chapitre_8.tex:4: File ended while scanning use of \T@pageref.
-<inserted text> 
-                \par 
-l.4 \input{contenuexercices8.tex}
-                                 
-? 
-[263
+
+LaTeX Warning: Reference `eq_def_capacit\IeC {\'e}_calorifique_massique' on pag
+e 265 undefined on input line 211.
 
 
- <./8/images/exo_sol_ts_tasse.png>]
-
-./8/exercices_chapitre_8.tex:5: LaTeX Error: \begin{description} on input line 
-206 ended by \end{footnotesize}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 \atendofexercices
-                     
-? 
-[264
+LaTeX Warning: Reference `eq_variation_franche_entropie' on page 1 undefined on
+ input line 211.
 
 
+LaTeX Warning: Reference `eq_variation_franche_entropie' on page 265 undefined 
+on input line 211.
 
 
-])
+LaTeX Warning: Reference `exo_ts_variations_elementaires' on page 265 undefined
+ on input line 213.
+
+
+LaTeX Warning: Reference `exo_detente_liquide_vapeur' on page 265 undefined on 
+input line 215.
+
+<images/exo_sol_ts_detente_eau.png, id=3543, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_detente_eau.png Graphic file (type png)
+
+<use images/exo_sol_ts_detente_eau.png>
+Package pdftex.def Info: images/exo_sol_ts_detente_eau.png used on input line 2
+16.
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+
+LaTeX Warning: Reference `exo_chauffage_isotherme_eau' on page 265 undefined on
+ input line 219.
+
+
+<images/exo_sol_ts_chauffage_isotherme_eau.png, id=3544, 263.00319pt x 267.4735
+1pt>
+File: images/exo_sol_ts_chauffage_isotherme_eau.png Graphic file (type png)
+ <use images/exo_sol_ts_chauffage_isotherme_eau.png>
+Package pdftex.def Info: images/exo_sol_ts_chauffage_isotherme_eau.png used on 
+input line 220.
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+
+LaTeX Warning: Reference `exo_diagrammes_ts' on page 265 undefined on input lin
+e 222.
+
+<images/exo_sol_ts_multiples1.png, id=3545, 270.4537pt x 267.47351pt>
+File: images/exo_sol_ts_multiples1.png Graphic file (type png)
+
+<use images/exo_sol_ts_multiples1.png>
+Package pdftex.def Info: images/exo_sol_ts_multiples1.png used on input line 22
+3.
+(pdftex.def)             Requested size: 71.13188pt x 70.34956pt.
+
+<images/exo_sol_ts_multiples2.png, id=3546, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_multiples2.png Graphic file (type png)
+
+<use images/exo_sol_ts_multiples2.png>
+Package pdftex.def Info: images/exo_sol_ts_multiples2.png used on input line 22
+4.
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+<images/exo_sol_ts_multiples3.png, id=3547, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_multiples3.png Graphic file (type png)
+
+<use images/exo_sol_ts_multiples3.png>
+Package pdftex.def Info: images/exo_sol_ts_multiples3.png used on input line 22
+5.
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+<images/exo_sol_ts_multiples4.png, id=3548, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_multiples4.png Graphic file (type png)
+
+<use images/exo_sol_ts_multiples4.png>
+Package pdftex.def Info: images/exo_sol_ts_multiples4.png used on input line 22
+6.
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+<images/exo_sol_ts_multiples5.png, id=3549, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_multiples5.png Graphic file (type png)
+
+<use images/exo_sol_ts_multiples5.png>
+Package pdftex.def Info: images/exo_sol_ts_multiples5.png used on input line 22
+7.
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+<images/exo_sol_ts_multiples6.png, id=3550, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_multiples6.png Graphic file (type png)
+
+<use images/exo_sol_ts_multiples6.png>
+Package pdftex.def Info: images/exo_sol_ts_multiples6.png used on input line 22
+8.
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+Overfull \hbox (23.97493pt too wide) in paragraph at lines 223--229
+[][] [] [] [] [] [] 
+ []
+
+
+LaTeX Warning: Reference `exo_ts_carnot' on page 265 undefined on input line 22
+9.
+
+
+<images/exo_sol_ts_carnot_thermopompe.png, id=3551, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_carnot_thermopompe.png Graphic file (type png)
+
+<use images/exo_sol_ts_carnot_thermopompe.png>
+Package pdftex.def Info: images/exo_sol_ts_carnot_thermopompe.png used on input
+ line 230.
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 231.
+
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 231.
+
+
+LaTeX Warning: Reference `exo_turbine_vapeur_isentropique' on page 265 undefine
+d on input line 232.
+
+
+LaTeX Warning: Reference `exemple_turbine_vapeur_isentropique' on page 265 unde
+fined on input line 233.
+
+
+LaTeX Warning: Reference `exemple_turbine_vapeur_isentropique' on page 265 unde
+fined on input line 233.
+
+
+LaTeX Warning: Reference `exo_sens_transfos_un' on page 265 undefined on input 
+line 234.
+
+<images/exo_sol_ts_bonsens1.png, id=3552, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_bonsens1.png Graphic file (type png)
+
+<use images/exo_sol_ts_bonsens1.png>
+Package pdftex.def Info: images/exo_sol_ts_bonsens1.png used on input line 235.
+
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+
+LaTeX Warning: Reference `eq_delta_s_gp_p' on page 1 undefined on input line 23
+6.
+
+[265
+
+
+ <./8/images/exo_sol_ts_tasse.png> <./8/images/exo_sol_ts_detente_eau.png> <./8
+/images/exo_sol_ts_chauffage_isotherme_eau.png> <./8/images/exo_sol_ts_multiple
+s1.png> <./8/images/exo_sol_ts_multiples2.png> <./8/images/exo_sol_ts_multiples
+3.png> <./8/images/exo_sol_ts_multiples4.png> <./8/images/exo_sol_ts_multiples5
+.png> <./8/images/exo_sol_ts_multiples6.png> <./8/images/exo_sol_ts_carnot_ther
+mopompe.png>]
+
+LaTeX Warning: Reference `exo_sens_transfos_deux' on page 266 undefined on inpu
+t line 237.
+
+<images/exo_sol_ts_bonsens2.png, id=3570, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_bonsens2.png Graphic file (type png)
+
+<use images/exo_sol_ts_bonsens2.png>
+Package pdftex.def Info: images/exo_sol_ts_bonsens2.png used on input line 238.
+
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+Overfull \hbox (11.76698pt too wide) in paragraph at lines 239--240
+|   \T1/fxl/m/n/10 (-20) On sup-pose $\OML/nxlmi/m/it/10 X \OMS/ntxsy/m/n/10 ! 
+\OML/nxlmi/m/it/10 Y$\T1/fxl/m/n/10 (-20) , alors $\U/ntxmia/m/it/10 ^^A\OML/nx
+lmi/m/it/10 s \U/ntxmia/m/it/10 = [] []$
+ []
+
+
+LaTeX Warning: Reference `exo_detente_air_irreversible' on page 266 undefined o
+n input line 240.
+
+
+LaTeX Warning: Reference `eq_delta_s_gp_p' on page 1 undefined on input line 24
+1.
+
+
+LaTeX Warning: Reference `eq_isentropique_horrible2' on page 266 undefined on i
+nput line 241.
+
+
+LaTeX Warning: Reference `eq_isentropique_horrible2' on page 266 undefined on i
+nput line 241.
+
+
+LaTeX Warning: Reference `exo_pompe_air' on page 266 undefined on input line 24
+2.
+
+
+LaTeX Warning: Reference `eq_petite_sfee_deltas_h' on page 266 undefined on inp
+ut line 243.
+
+
+LaTeX Warning: Reference `eq_h_fonction_de_T' on page 266 undefined on input li
+ne 243.
+
+
+LaTeX Warning: Reference `eq_isentropique_horrible2' on page 266 undefined on i
+nput line 244.
+
+
+LaTeX Warning: Reference `exo_cycle_carnot_vapeur' on page 266 undefined on inp
+ut line 246.
+
+<images/exo_sol_ts_carnot_vapeur1.png, id=3571, 263.00319pt x 267.47351pt>
+File: images/exo_sol_ts_carnot_vapeur1.png Graphic file (type png)
+
+<use images/exo_sol_ts_carnot_vapeur1.png>
+Package pdftex.def Info: images/exo_sol_ts_carnot_vapeur1.png used on input lin
+e 247.
+(pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
+
+
+LaTeX Warning: Reference `fig_exo_carnot_circuit_vapeur' on page 1 undefined on
+ input line 248.
+
+
+LaTeX Warning: Reference `fig_exo_carnot_circuit_vapeur' on page 266 undefined 
+on input line 248.
+
+
+LaTeX Warning: Reference `eq_efficacit\IeC {\'e}_moteur_carnot_temp\IeC {\'e}ra
+ture' on page 266 undefined on input line 254.
+
+
+LaTeX Warning: Reference `exo_transferts_chaleur_irreversibles' on page 266 und
+efined on input line 255.
+
+
+Overfull \hbox (9.89438pt too wide) in paragraph at lines 258--259
+|   \T1/fxl/m/n/10 (-20) 3) $[] \U/ntxmia/m/it/10 = [] [] = [] []$
+ []
+
+
+LaTeX Warning: Reference `exo_compressions_detentes_irreversibles' on page 266 
+undefined on input line 260.
+
+) [266 <./8/images/exo_sol_ts_bonsens1.png> <./8/images/exo_sol_ts_bonsens2.png
+> <./8/images/exo_sol_ts_carnot_vapeur1.png>])
 \openout2 = `9/chapitre_9.aux'.
 
  (./9/chapitre_9.tex
@@ -12476,7 +12690,11 @@ l.5 \atendofexercices
 
 
 Chapitre 9.
-[265
+[267
+
+
+
+
 
 
 
@@ -12515,7 +12733,7 @@ Chapitre 9.
 
 Package minitoc Info: I0006
 (minitoc)             amphibook.mtc9 is empty on input line 7.
- [266
+ [268
 
 
 
@@ -12529,7 +12747,7 @@ Underfull \hbox (badness 1158) in paragraph at lines 8--9
  []
 
 
-LaTeX Warning: Citation 'carnot1824' on page 267 undefined on input line 9.
+LaTeX Warning: Citation 'carnot1824' on page 269 undefined on input line 9.
 
 
 LaTeX Warning: Reference `chap_quatre' on page 1 undefined on input line 19.
@@ -12537,95 +12755,95 @@ LaTeX Warning: Reference `chap_quatre' on page 1 undefined on input line 19.
 
 LaTeX Warning: Reference `chap_cinq' on page 1 undefined on input line 19.
 
-[267
+[269
 
 
 ]
 
-LaTeX Warning: Reference `def_rendement_moteur' on page 268 undefined on input 
+LaTeX Warning: Reference `def_rendement_moteur' on page 270 undefined on input 
 line 31.
 
 
 LaTeX Warning: Reference `eq_efficacit\IeC {\'e}_moteur_carnot_temp\IeC {\'e}ra
-ture' on page 268 undefined on input line 31.
+ture' on page 270 undefined on input line 31.
 
 
-LaTeX Warning: Citation 'pambour1839' on page 268 undefined on input line 56.
+LaTeX Warning: Citation 'pambour1839' on page 270 undefined on input line 55.
 
-[268
+[270
 
 ]
 LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
-(Font)              scaled to size 6.1pt on input line 61.
+(Font)              scaled to size 6.1pt on input line 60.
 LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
-(Font)              scaled to size 6.5pt on input line 63.
+(Font)              scaled to size 6.5pt on input line 62.
 LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
-(Font)              scaled to size 5.5pt on input line 63.
- [269] [270]
+(Font)              scaled to size 5.5pt on input line 62.
+ [271] [272]
 
-LaTeX Warning: Reference `chap_trois' on page 1 undefined on input line 91.
-
-
-LaTeX Warning: Reference `eq_petite_sfee_deltas_h' on page 271 undefined on inp
-ut line 94.
+LaTeX Warning: Reference `chap_trois' on page 1 undefined on input line 90.
 
 
-LaTeX Warning: Reference `chap_trois' on page 1 undefined on input line 100.
+LaTeX Warning: Reference `eq_petite_sfee_deltas_h' on page 273 undefined on inp
+ut line 93.
 
 
-LaTeX Warning: Reference `eq_travail_w_r\IeC {\'e}v_so' on page 271 undefined o
-n input line 103.
+LaTeX Warning: Reference `chap_trois' on page 1 undefined on input line 99.
 
-[271
+
+LaTeX Warning: Reference `eq_travail_w_r\IeC {\'e}v_so' on page 273 undefined o
+n input line 102.
+
+[273
 
 pdfTeX warning (ext4): destination with the same identifier (name{equation.9.3.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.127 
+l.126 
       pdfTeX warning (ext4): destination with the same identifier (name{equatio
 n.9.3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.127 
+l.126 
       ]
 
 LaTeX Warning: Reference `eq_travail_w_rév_so' on page 1 undefined on input lin
-e 128.
+e 127.
 
 
-LaTeX Warning: Reference `fig_centrale_pompe1' on page 272 undefined on input l
-ine 128.
+LaTeX Warning: Reference `fig_centrale_pompe1' on page 274 undefined on input l
+ine 127.
 
 
-LaTeX Warning: Reference `fig_centrale_pompe2' on page 272 undefined on input l
-ine 128.
+LaTeX Warning: Reference `fig_centrale_pompe2' on page 274 undefined on input l
+ine 127.
 
-<images/centrale_pompe_photo.jpg, id=3603, 642.4pt x 429.605pt>
-File: images/centrale_pompe_photo.jpg Graphic file (type jpg)
-
-<use images/centrale_pompe_photo.jpg>
-Package pdftex.def Info: images/centrale_pompe_photo.jpg used on input line 132
-.
-(pdftex.def)             Requested size: 340.37236pt x 227.62204pt.
-
-<images/symbole_pompe.png, id=3606, 82.31207pt x 132.68706pt>
+<images/symbole_pompe.png, id=3639, 82.31207pt x 132.68706pt>
 File: images/symbole_pompe.png Graphic file (type png)
 
 <use images/symbole_pompe.png>
-Package pdftex.def Info: images/symbole_pompe.png used on input line 141.
-(pdftex.def)             Requested size: 70.60487pt x 113.81102pt.
+Package pdftex.def Info: images/symbole_pompe.png used on input line 131.
+(pdftex.def)             Requested size: 52.95334pt x 85.35826pt.
+
+<images/centrale_pompe_photo.jpg, id=3642, 642.4pt x 429.605pt>
+File: images/centrale_pompe_photo.jpg Graphic file (type jpg)
+
+<use images/centrale_pompe_photo.jpg>
+Package pdftex.def Info: images/centrale_pompe_photo.jpg used on input line 139
+.
+(pdftex.def)             Requested size: 340.37236pt x 227.62204pt.
 
 
-LaTeX Warning: Reference `eq_travail_w_r\IeC {\'e}v_so' on page 272 undefined o
-n input line 147.
+LaTeX Warning: Reference `eq_travail_w_r\IeC {\'e}v_so' on page 274 undefined o
+n input line 146.
 
-[272 <./9/images/centrale_pompe_photo.jpg> <./9/images/symbole_pompe.png>]
+[274 <./9/images/symbole_pompe.png> <./9/images/centrale_pompe_photo.jpg>]
 Package mdframed Info: mdframed works in twoside mode on input line 155.
 
-<images/exe_ts_pompe.png, id=3618, 263.00319pt x 267.47351pt>
+<images/exe_ts_pompe.png, id=3654, 263.00319pt x 267.47351pt>
 File: images/exe_ts_pompe.png Graphic file (type png)
 
 <use images/exe_ts_pompe.png>
@@ -12646,23 +12864,23 @@ Package pdftex.def Info: images/hand.png used on input line 166.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 
 
-LaTeX Warning: Reference `mdf@pagelabel-88' on page 273 undefined on input line
+LaTeX Warning: Reference `mdf@pagelabel-89' on page 275 undefined on input line
  168.
 
-[273 <./9/images/exe_ts_pompe.png>]
 
-LaTeX Warning: Reference `ch_lv_diagramme_tv' on page 274 undefined on input li
+LaTeX Warning: Reference `ch_lv_diagramme_tv' on page 275 undefined on input li
 ne 176.
 
+[275 <./9/images/exe_ts_pompe.png>]
 
-LaTeX Warning: Reference `fig_centrale_chaudiere1' on page 274 undefined on inp
+LaTeX Warning: Reference `fig_centrale_chaudiere1' on page 276 undefined on inp
 ut line 178.
 
 
-LaTeX Warning: Reference `fig_centrale_chaudiere2' on page 274 undefined on inp
+LaTeX Warning: Reference `fig_centrale_chaudiere2' on page 276 undefined on inp
 ut line 178.
 
-<images/centrale_chaudiere_photo.jpg, id=3630, 308.352pt x 171.039pt>
+<images/centrale_chaudiere_photo.jpg, id=3667, 308.352pt x 171.039pt>
 File: images/centrale_chaudiere_photo.jpg Graphic file (type jpg)
 
 <use images/centrale_chaudiere_photo.jpg>
@@ -12670,329 +12888,353 @@ Package pdftex.def Info: images/centrale_chaudiere_photo.jpg used on input line
  182.
 (pdftex.def)             Requested size: 355.65991pt x 197.28313pt.
 
-<images/symbole_chaudiere.png, id=3634, 234.38919pt x 192.72pt>
+<images/symbole_chaudiere.png, id=3671, 234.38919pt x 192.72pt>
 File: images/symbole_chaudiere.png Graphic file (type png)
 
 <use images/symbole_chaudiere.png>
 Package pdftex.def Info: images/symbole_chaudiere.png used on input line 190.
 (pdftex.def)             Requested size: 113.81102pt x 93.57788pt.
- [274 <./9/images/centrale_chaudiere_photo.jpg> <./9/images/symbole_chaudiere.p
+ [276 <./9/images/centrale_chaudiere_photo.jpg> <./9/images/symbole_chaudiere.p
 ng>]
 
-LaTeX Warning: Reference `fig_centrale_turbine1' on page 275 undefined on input
+LaTeX Warning: Reference `fig_centrale_turbine1' on page 277 undefined on input
  line 210.
 
 
-LaTeX Warning: Reference `fig_centrale_turbine2' on page 275 undefined on input
+LaTeX Warning: Reference `fig_centrale_turbine2' on page 277 undefined on input
  line 210.
 
-<images/centrale_turbine_photo.jpg, id=3647, 904.40742pt x 1238.91429pt>
+<images/centrale_turbine_photo.jpg, id=3683, 904.40742pt x 1238.91429pt>
 File: images/centrale_turbine_photo.jpg Graphic file (type jpg)
 
 <use images/centrale_turbine_photo.jpg>
 Package pdftex.def Info: images/centrale_turbine_photo.jpg used on input line 2
-14.
+52.
 (pdftex.def)             Requested size: 186.92273pt x 256.0748pt.
 File: images/symbole_turbine.png Graphic file (type png)
  <use images/symbole_turbine.png>
-Package pdftex.def Info: images/symbole_turbine.png used on input line 223.
+Package pdftex.def Info: images/symbole_turbine.png used on input line 252.
 (pdftex.def)             Requested size: 113.81102pt x 152.65833pt.
 
-[275 <./9/images/centrale_turbine_photo.jpg>]
+[277 <./9/images/centrale_turbine_photo.jpg>]
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 243.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 267.
 
 
 LaTeX Warning: Reference `eq_puissance_turbine_vapeur' on page 1 undefined on i
-nput line 247.
+nput line 271.
 
-Package mdframed Info: mdframed works in twoside mode on input line 251.
-<images/exe_ts_turbine.png, id=3661, 263.00319pt x 267.47351pt>
+
+LaTeX Warning: Reference `ch_lv_isentropiques' on page 278 undefined on input l
+ine 273.
+
+
+LaTeX Warning: Reference `ch_lv_isentropiques' on page 278 undefined on input l
+ine 273.
+
+Package mdframed Info: mdframed works in twoside mode on input line 275.
+<images/exe_ts_turbine.png, id=3699, 263.00319pt x 267.47351pt>
 File: images/exe_ts_turbine.png Graphic file (type png)
 
 <use images/exe_ts_turbine.png>
-Package pdftex.def Info: images/exe_ts_turbine.png used on input line 256.
+Package pdftex.def Info: images/exe_ts_turbine.png used on input line 280.
 (pdftex.def)             Requested size: 113.81102pt x 115.74599pt.
 
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 257.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 281.
 
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 257.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 281.
 
 
-LaTeX Warning: Reference `ch_melange_liquide_vapeur' on page 276 undefined on i
-nput line 257.
+LaTeX Warning: Reference `ch_melange_liquide_vapeur' on page 278 undefined on i
+nput line 281.
 
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 257.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 281.
 
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 257.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 281.
 
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 259.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 283.
 
 File: images/hand.png Graphic file (type png)
 <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 260.
+Package pdftex.def Info: images/hand.png used on input line 284.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 
 
 LaTeX Warning: Reference `eq_puissance_turbine_vapeur' on page 1 undefined on i
-nput line 260.
+nput line 284.
 
 File: images/hand.png Graphic file (type png)
 <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 261.
+Package pdftex.def Info: images/hand.png used on input line 285.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 File: images/hand.png Graphic file (type png)
  <use images/hand.png>
-Package pdftex.def Info: images/hand.png used on input line 262.
+Package pdftex.def Info: images/hand.png used on input line 286.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 
 
-LaTeX Warning: Reference `exemple_pompe_centrale' on page 276 undefined on inpu
-t line 262.
+LaTeX Warning: Reference `exemple_pompe_centrale' on page 278 undefined on inpu
+t line 286.
 
 
-LaTeX Warning: Reference `mdf@pagelabel-89' on page 276 undefined on input line
- 264.
-
-[276]
-
-LaTeX Warning: Reference `mdf@pagelabel-90' on page 277 undefined on input line
- 264.
+LaTeX Warning: Reference `exemple_pompe_centrale' on page 278 undefined on inpu
+t line 286.
 
 
-LaTeX Warning: Reference `fig_centrale_condenseur1' on page 277 undefined on in
-put line 268.
+LaTeX Warning: Reference `mdf@pagelabel-90' on page 278 undefined on input line
+ 289.
+
+[278]
+
+LaTeX Warning: Reference `mdf@pagelabel-91' on page 279 undefined on input line
+ 289.
 
 
-LaTeX Warning: Reference `fig_centrale_condenseur2' on page 277 undefined on in
-put line 268.
+LaTeX Warning: Reference `fig_centrale_condenseur1' on page 279 undefined on in
+put line 293.
 
 
-LaTeX Warning: Reference `ch_second_principe_machines_thermiques' on page 277 u
-ndefined on input line 268.
+LaTeX Warning: Reference `fig_centrale_condenseur2' on page 279 undefined on in
+put line 293.
 
-<images/centrale_condenseur_photo.jpg, id=3672, 1284.8pt x 738.76pt>
+
+LaTeX Warning: Reference `ch_second_principe_machines_thermiques' on page 279 u
+ndefined on input line 293.
+
+<images/symbole_condenseur.png, id=3709, 219.0pt x 222.942pt>
+File: images/symbole_condenseur.png Graphic file (type png)
+
+<use images/symbole_condenseur.png>
+Package pdftex.def Info: images/symbole_condenseur.png used on input line 297.
+(pdftex.def)             Requested size: 99.58464pt x 101.37753pt.
+
+<images/centrale_condenseur_photo.jpg, id=3712, 1284.8pt x 738.76pt>
 File: images/centrale_condenseur_photo.jpg Graphic file (type jpg)
 
 <use images/centrale_condenseur_photo.jpg>
 Package pdftex.def Info: images/centrale_condenseur_photo.jpg used on input lin
-e 272.
+e 306.
 (pdftex.def)             Requested size: 355.65991pt x 204.50668pt.
 
-<images/cooling_towers.jpg, id=3675, 147.30191pt x 121.98439pt>
+<images/cooling_towers.jpg, id=3715, 147.30191pt x 121.98439pt>
 File: images/cooling_towers.jpg Graphic file (type jpg)
 
 <use images/cooling_towers.jpg>
-Package pdftex.def Info: images/cooling_towers.jpg used on input line 280.
-(pdftex.def)             Requested size: 248.96085pt x 206.1757pt.
+Package pdftex.def Info: images/cooling_towers.jpg used on input line 314.
+(pdftex.def)             Requested size: 213.39812pt x 176.72575pt.
+ [279 <./9/images/exe_ts_turbine.png>] [280 <./9/images/symbole_condenseur.png>
+ <./9/images/centrale_condenseur_photo.jpg> <./9/images/cooling_towers.jpg>] [2
+81]
 
-<images/symbole_condenseur.png, id=3679, 219.0pt x 222.942pt>
-File: images/symbole_condenseur.png Graphic file (type png)
-
-<use images/symbole_condenseur.png>
-Package pdftex.def Info: images/symbole_condenseur.png used on input line 288.
-(pdftex.def)             Requested size: 113.81102pt x 115.86246pt.
- [277 <./9/images/exe_ts_turbine.png>]
-[278 <./9/images/centrale_condenseur_photo.jpg> <./9/images/cooling_towers.jpg>
-] [279 <./9/images/symbole_condenseur.png>]
-
-LaTeX Warning: Reference `ch_cycle_de_carnot' on page 280 undefined on input li
-ne 310.
+LaTeX Warning: Reference `ch_cycle_de_carnot' on page 282 undefined on input li
+ne 335.
 
 
-LaTeX Warning: Reference `fig_machine_vapeur_carnot' on page 280 undefined on i
-nput line 310.
+LaTeX Warning: Reference `fig_machine_vapeur_carnot' on page 282 undefined on i
+nput line 335.
 
 
-LaTeX Warning: Reference `fig_ts_machine_vapeur_carnot' on page 280 undefined o
-n input line 310.
+LaTeX Warning: Reference `fig_ts_machine_vapeur_carnot' on page 282 undefined o
+n input line 335.
 
-<images/circuit_carnot_lv.png, id=3712, 1081.8819pt x 979.9812pt>
+<images/circuit_carnot_lv.png, id=3748, 1081.8819pt x 979.9812pt>
 File: images/circuit_carnot_lv.png Graphic file (type png)
 
 <use images/circuit_carnot_lv.png>
-Package pdftex.def Info: images/circuit_carnot_lv.png used on input line 314.
+Package pdftex.def Info: images/circuit_carnot_lv.png used on input line 339.
 (pdftex.def)             Requested size: 345.51593pt x 312.9803pt.
 
-<images/ts_lv_carnot.png, id=3715, 961.191pt x 744.381pt>
+<images/ts_lv_carnot.png, id=3751, 961.191pt x 744.381pt>
 File: images/ts_lv_carnot.png Graphic file (type png)
 
 <use images/ts_lv_carnot.png>
-Package pdftex.def Info: images/ts_lv_carnot.png used on input line 322.
+Package pdftex.def Info: images/ts_lv_carnot.png used on input line 347.
 (pdftex.def)             Requested size: 284.52756pt x 220.34013pt.
 
 
 LaTeX Warning: Reference `eq_efficacit\IeC {\'e}_moteur_carnot_temp\IeC {\'e}ra
-ture' on page 280 undefined on input line 328.
+ture' on page 282 undefined on input line 353.
 
-[280
+[282
 
  <./9/images/circuit_carnot_lv.png>]
 
-LaTeX Warning: Reference `ch_moteurs_vapeur_compresseurs_et_pompes' on page 281
- undefined on input line 337.
+LaTeX Warning: Reference `ch_moteurs_vapeur_compresseurs_et_pompes' on page 283
+ undefined on input line 362.
 
 
-LaTeX Warning: Reference `fig_machine_vapeur_carnot' on page 281 undefined on i
-nput line 338.
+LaTeX Warning: Reference `ch_moteurs_vapeur_compresseurs_et_pompes' on page 283
+ undefined on input line 362.
 
 
-LaTeX Warning: Reference `fig_ts_machine_vapeur_carnot' on page 281 undefined o
-n input line 338.
+LaTeX Warning: Reference `fig_machine_vapeur_carnot' on page 283 undefined on i
+nput line 363.
 
 
-LaTeX Warning: Reference `fig_cycle_rankine' on page 281 undefined on input lin
-e 341.
+LaTeX Warning: Reference `fig_ts_machine_vapeur_carnot' on page 283 undefined o
+n input line 363.
 
 
-LaTeX Warning: Reference `fig_ts_lv_rankine' on page 281 undefined on input lin
-e 341.
+LaTeX Warning: Reference `fig_cycle_rankine' on page 283 undefined on input lin
+e 366.
+
+
+LaTeX Warning: Reference `fig_ts_lv_rankine' on page 283 undefined on input lin
+e 366.
 
 File: images/circuit_rankine.png Graphic file (type png)
 <use images/circuit_rankine.png>
-Package pdftex.def Info: images/circuit_rankine.png used on input line 345.
+Package pdftex.def Info: images/circuit_rankine.png used on input line 370.
 (pdftex.def)             Requested size: 258.96385pt x 312.9803pt.
 
-<images/ts_lv_rankine.png, id=3731, 961.191pt x 744.381pt>
+<images/ts_lv_rankine.png, id=3767, 961.191pt x 744.381pt>
 File: images/ts_lv_rankine.png Graphic file (type png)
 
 <use images/ts_lv_rankine.png>
-Package pdftex.def Info: images/ts_lv_rankine.png used on input line 353.
+Package pdftex.def Info: images/ts_lv_rankine.png used on input line 378.
 (pdftex.def)             Requested size: 284.52756pt x 220.34013pt.
 
 
-LaTeX Warning: Reference `ch_moteurs_vapeur_compresseurs_et_pompes' on page 281
- undefined on input line 359.
+LaTeX Warning: Reference `ch_moteurs_vapeur_compresseurs_et_pompes' on page 283
+ undefined on input line 384.
 
 
 LaTeX Warning: Reference `fig_machine_vapeur_carnot' on page 1 undefined on inp
-ut line 361.
+ut line 386.
 
 
-LaTeX Warning: Reference `chap_sept' on page 281 undefined on input line 363.
+LaTeX Warning: Reference `chap_sept' on page 283 undefined on input line 388.
 
 
-LaTeX Warning: Reference `chap_huit' on page 281 undefined on input line 363.
+LaTeX Warning: Reference `chap_huit' on page 283 undefined on input line 388.
 
-[281 <./9/images/ts_lv_carnot.png>] [282 <./9/images/ts_lv_rankine.png>]
+[283 <./9/images/ts_lv_carnot.png>] [284 <./9/images/ts_lv_rankine.png>]
 
-LaTeX Warning: Reference `fig_cycle_rankine_surchauffe' on page 283 undefined o
-n input line 386.
+LaTeX Warning: Reference `ch_SSC' on page 285 undefined on input line 397.
 
 
-LaTeX Warning: Reference `fig_ts_lv_rankine_surchauffe' on page 283 undefined o
-n input line 386.
+LaTeX Warning: Reference `ch_SSC' on page 285 undefined on input line 397.
 
-<images/circuit_rankine_surchauffe.png, id=3752, 818.8191pt x 979.9812pt>
+
+LaTeX Warning: Reference `fig_cycle_rankine_surchauffe' on page 285 undefined o
+n input line 411.
+
+
+LaTeX Warning: Reference `fig_ts_lv_rankine_surchauffe' on page 285 undefined o
+n input line 411.
+
+<images/circuit_rankine_surchauffe.png, id=3789, 818.8191pt x 979.9812pt>
 File: images/circuit_rankine_surchauffe.png Graphic file (type png)
 
 <use images/circuit_rankine_surchauffe.png>
 Package pdftex.def Info: images/circuit_rankine_surchauffe.png used on input li
-ne 390.
+ne 415.
 (pdftex.def)             Requested size: 261.50272pt x 312.9803pt.
 
-<images/ts_lv_rankine_surchauffe.png, id=3755, 961.191pt x 744.381pt>
+<images/ts_lv_rankine_surchauffe.png, id=3792, 961.191pt x 744.381pt>
 File: images/ts_lv_rankine_surchauffe.png Graphic file (type png)
 
 <use images/ts_lv_rankine_surchauffe.png>
 Package pdftex.def Info: images/ts_lv_rankine_surchauffe.png used on input line
- 398.
+ 423.
 (pdftex.def)             Requested size: 284.52756pt x 220.34013pt.
- [283] [284 <./9/images/circuit_rankine_surchauffe.png> <./9/images/ts_lv_ranki
+ [285] [286 <./9/images/circuit_rankine_surchauffe.png> <./9/images/ts_lv_ranki
 ne_surchauffe.png>]
 
-LaTeX Warning: Reference `fig_cycle_resurchauffe' on page 285 undefined on inpu
-t line 410.
+LaTeX Warning: Reference `fig_cycle_resurchauffe' on page 287 undefined on inpu
+t line 435.
 
 
-LaTeX Warning: Reference `fig_ts_lv_surchauffe_resurchauffe' on page 285 undefi
-ned on input line 410.
+LaTeX Warning: Reference `fig_ts_lv_surchauffe_resurchauffe' on page 287 undefi
+ned on input line 435.
 
 
-<images/circuit_surchauffe_resurchauffe.png, id=3777, 1126.6893pt x 979.9812pt>
+<images/circuit_surchauffe_resurchauffe.png, id=3813, 1126.6893pt x 979.9812pt>
 File: images/circuit_surchauffe_resurchauffe.png Graphic file (type png)
 <use images/circuit_surchauffe_resurchauffe.png>
 Package pdftex.def Info: images/circuit_surchauffe_resurchauffe.png used on inp
-ut line 414.
+ut line 439.
 (pdftex.def)             Requested size: 359.82588pt x 312.9803pt.
 
-<images/ts_lv_rankine_surchauffe_resurchauffe.png, id=3780, 961.191pt x 744.381
+<images/ts_lv_rankine_surchauffe_resurchauffe.png, id=3816, 961.191pt x 744.381
 pt>
 File: images/ts_lv_rankine_surchauffe_resurchauffe.png Graphic file (type png)
  <use images/ts_lv_rankine_surchauffe_resurchauffe.png>
 Package pdftex.def Info: images/ts_lv_rankine_surchauffe_resurchauffe.png used 
-on input line 422.
+on input line 447.
 (pdftex.def)             Requested size: 284.52756pt x 220.34013pt.
- [285 <./9/images/circuit_surchauffe_resurchauffe.png>]
+ [287 <./9/images/circuit_surchauffe_resurchauffe.png>] [288 <./9/images/ts_lv_
+rankine_surchauffe_resurchauffe.png>]
 
-LaTeX Warning: Reference `fig_circuit_regeneration' on page 286 undefined on in
-put line 439.
+LaTeX Warning: Reference `fig_circuit_regeneration' on page 289 undefined on in
+put line 464.
 
 
-LaTeX Warning: Reference `fig_ts_lv_regeneration' on page 286 undefined on inpu
-t line 439.
+LaTeX Warning: Reference `fig_ts_lv_regeneration' on page 289 undefined on inpu
+t line 464.
 
-<images/circuit_regeneration.png, id=3793, 818.8191pt x 829.6596pt>
+<images/circuit_regeneration.png, id=3837, 818.8191pt x 829.6596pt>
 File: images/circuit_regeneration.png Graphic file (type png)
 
 <use images/circuit_regeneration.png>
-Package pdftex.def Info: images/circuit_regeneration.png used on input line 443
+Package pdftex.def Info: images/circuit_regeneration.png used on input line 468
 .
 (pdftex.def)             Requested size: 308.88055pt x 312.9803pt.
 
-<images/ts_lv_regeneration.png, id=3796, 961.191pt x 744.381pt>
+<images/ts_lv_regeneration.png, id=3840, 961.191pt x 744.381pt>
 File: images/ts_lv_regeneration.png Graphic file (type png)
 
 <use images/ts_lv_regeneration.png>
-Package pdftex.def Info: images/ts_lv_regeneration.png used on input line 451.
+Package pdftex.def Info: images/ts_lv_regeneration.png used on input line 476.
 (pdftex.def)             Requested size: 284.52756pt x 220.34013pt.
-
+ [289 <./9/images/circuit_regeneration.png>] [290 <./9/images/ts_lv_regeneratio
+n.png>]
 
 LaTeX Warning: Reference `fig_cycle_pr\IeC {\'e}l\IeC {\`e}vement_vapeur' on pa
-ge 286 undefined on input line 462.
+ge 291 undefined on input line 488.
 
 
-LaTeX Warning: Reference `fig_ts_lv_prelevement_vapeur' on page 286 undefined o
-n input line 462.
+LaTeX Warning: Reference `fig_ts_lv_prelevement_vapeur' on page 291 undefined o
+n input line 488.
 
-<images/circuit_prelevement.png, id=3799, 848.4498pt x 828.9369pt>
+<images/circuit_prelevement.png, id=3861, 848.4498pt x 828.9369pt>
 File: images/circuit_prelevement.png Graphic file (type png)
 
 <use images/circuit_prelevement.png>
-Package pdftex.def Info: images/circuit_prelevement.png used on input line 466.
+Package pdftex.def Info: images/circuit_prelevement.png used on input line 494.
 
 (pdftex.def)             Requested size: 320.3558pt x 312.9803pt.
 
-<images/ts_lv_prelevement.png, id=3802, 961.191pt x 744.381pt>
+<images/ts_lv_prelevement.png, id=3864, 961.191pt x 744.381pt>
 File: images/ts_lv_prelevement.png Graphic file (type png)
 
 <use images/ts_lv_prelevement.png>
-Package pdftex.def Info: images/ts_lv_prelevement.png used on input line 474.
+Package pdftex.def Info: images/ts_lv_prelevement.png used on input line 504.
 (pdftex.def)             Requested size: 284.52756pt x 220.34013pt.
+ [291
 
+ <./9/images/circuit_prelevement.png>]
 
 LaTeX Warning: Reference `fig_grosse_centrale_vapeur' on page 1 undefined on in
-put line 480.
+put line 512.
 
-[286 <./9/images/ts_lv_rankine_surchauffe_resurchauffe.png>] [287 <./9/images/c
-ircuit_regeneration.png> <./9/images/ts_lv_regeneration.png>] [288 <./9/images/
-circuit_prelevement.png> <./9/images/ts_lv_prelevement.png>] [289]
-<images/circuit_complet.png, id=3841, 1866.0114pt x 1310.9778pt>
+[292 <./9/images/ts_lv_prelevement.png>]
+<images/circuit_complet.png, id=3883, 1866.0114pt x 1310.9778pt>
 File: images/circuit_complet.png Graphic file (type png)
 
 <use images/circuit_complet.png>
-Package pdftex.def Info: images/circuit_complet.png used on input line 487.
+Package pdftex.def Info: images/circuit_complet.png used on input line 519.
 (pdftex.def)             Requested size: 569.05511pt x 399.77763pt.
 
 
-LaTeX Warning: Float too large for page by 17.7518pt on input line 492.
+LaTeX Warning: Float too large for page by 17.7518pt on input line 524.
 
-[290 <./9/images/circuit_complet.png>]) (./9/histoire_turbine.tex
+[293 <./9/images/circuit_complet.png>]) (./9/histoire_turbine.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -13029,7 +13271,7 @@ LaTeX Warning: Float too large for page by 17.7518pt on input line 492.
 
 LaTeX Warning: Reference `fig_turbinia' on page 1 undefined on input line 7.
 
-<images/turbinia.jpg, id=3853, 231.264pt x 162.78818pt>
+<images/turbinia.jpg, id=3895, 231.264pt x 162.78818pt>
 File: images/turbinia.jpg Graphic file (type jpg)
 
 <use images/turbinia.jpg>
@@ -13039,7 +13281,7 @@ Package pdftex.def Info: images/turbinia.jpg used on input line 12.
 
 LaTeX Warning: Reference `fig_twin_wasp' on page 1 undefined on input line 19.
 
-<images/twin_wasp.jpg, id=3857, 1174.3875pt x 963.6pt>
+<images/twin_wasp.jpg, id=3899, 1174.3875pt x 963.6pt>
 File: images/twin_wasp.jpg Graphic file (type jpg)
 
 <use images/twin_wasp.jpg>
@@ -13047,15 +13289,15 @@ Package pdftex.def Info: images/twin_wasp.jpg used on input line 25.
 (pdftex.def)             Requested size: 227.62204pt x 186.76173pt.
 
 
-LaTeX Warning: Reference `eq_pompe_liquide' on page 291 undefined on input line
+LaTeX Warning: Reference `eq_pompe_liquide' on page 294 undefined on input line
  32.
 
 
-LaTeX Warning: Reference `eq_gp_travail_isentropique_so' on page 291 undefined 
+LaTeX Warning: Reference `eq_gp_travail_isentropique_so' on page 294 undefined 
 on input line 32.
 
 
-LaTeX Warning: Reference `eq_isentropique_horrible2' on page 291 undefined on i
+LaTeX Warning: Reference `eq_isentropique_horrible2' on page 294 undefined on i
 nput line 32.
 
 
@@ -13064,24 +13306,24 @@ Underfull \hbox (badness 1769) in paragraph at lines 32--33
  []
 
 
-LaTeX Warning: Reference `ch_cycle_de_rankine' on page 291 undefined on input l
+LaTeX Warning: Reference `ch_cycle_de_rankine' on page 294 undefined on input l
 ine 34.
 
 
-LaTeX Warning: Reference `ch_rapport_des_puissances' on page 291 undefined on i
+LaTeX Warning: Reference `ch_rapport_des_puissances' on page 294 undefined on i
 nput line 34.
 
-[291
+[294
 
 
 
 
  <./9/images/turbinia.jpg> <./9/images/twin_wasp.jpg>]
 
-LaTeX Warning: Reference `ch_turboreacteur' on page 292 undefined on input line
+LaTeX Warning: Reference `ch_turboreacteur' on page 295 undefined on input line
  37.
 
-<images/he_s1.png, id=3870, 433.62pt x 280.4076pt>
+<images/he_s1.png, id=3912, 433.62pt x 280.4076pt>
 File: images/he_s1.png Graphic file (type png)
  <use images/he_s1.png>
 Package pdftex.def Info: images/he_s1.png used on input line 41.
@@ -13091,8 +13333,8 @@ Package pdftex.def Info: images/he_s1.png used on input line 41.
 LaTeX Warning: Reference `fig_trois_avions' on page 1 undefined on input line 5
 2.
 
-[292 <./9/images/he_s1.png (PNG copy)>]
-<images/lockheed_constellation.jpg, id=3879, 433.62pt x 209.87209pt>
+[295 <./9/images/he_s1.png (PNG copy)>]
+<images/lockheed_constellation.jpg, id=3922, 433.62pt x 209.87209pt>
 File: images/lockheed_constellation.jpg Graphic file (type jpg)
 
 <use images/lockheed_constellation.jpg>
@@ -13100,14 +13342,14 @@ Package pdftex.def Info: images/lockheed_constellation.jpg used on input line 5
 6.
 (pdftex.def)             Requested size: 256.0748pt x 123.94514pt.
 
-<images/dhc_comet.jpg, id=3880, 1284.8pt x 636.3775pt>
+<images/dhc_comet.jpg, id=3923, 1284.8pt x 636.3775pt>
 File: images/dhc_comet.jpg Graphic file (type jpg)
 
 <use images/dhc_comet.jpg>
 Package pdftex.def Info: images/dhc_comet.jpg used on input line 57.
 (pdftex.def)             Requested size: 256.0748pt x 126.83627pt.
 
-<images/boeing_707.jpg, id=3881, 1284.8pt x 634.37pt>
+<images/boeing_707.jpg, id=3924, 1284.8pt x 634.37pt>
 File: images/boeing_707.jpg Graphic file (type jpg)
 
 <use images/boeing_707.jpg>
@@ -13119,14 +13361,14 @@ Overfull \hbox (13.75113pt too wide) in paragraph at lines 79--86
  []
 
 
-LaTeX Warning: Citation 'darolles2000' on page 293 undefined on input line 92.
+LaTeX Warning: Citation 'darolles2000' on page 296 undefined on input line 92.
 
 
-LaTeX Warning: Citation 'rollsroyce2005' on page 293 undefined on input line 97
+LaTeX Warning: Citation 'rollsroyce2005' on page 296 undefined on input line 97
 .
 
-[293 <./9/images/lockheed_constellation.jpg> <./9/images/dhc_comet.jpg> <./9/im
-ages/boeing_707.jpg>] [294
+[296 <./9/images/lockheed_constellation.jpg> <./9/images/dhc_comet.jpg> <./9/im
+ages/boeing_707.jpg>] [297
 
 ]))
 \openout2 = `9/exercices_chapitre_9.aux'.
@@ -13171,33 +13413,27 @@ LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
 (Font)              scaled to size 7.3pt on input line 3.
 
 
-LaTeX Warning: Reference `mdf@pagelabel-91' on page 295 undefined on input line
+LaTeX Warning: Reference `mdf@pagelabel-92' on page 298 undefined on input line
  4.
 
 
 LaTeX Warning: Reference `fig_porcheville' on page 1 undefined on input line 19
 .
 
-<images/porcheville.jpg, id=3902, 1284.8pt x 913.4125pt>
+<images/porcheville.jpg, id=3945, 1284.8pt x 913.4125pt>
 File: images/porcheville.jpg Graphic file (type jpg)
 
 <use images/porcheville.jpg>
 Package pdftex.def Info: images/porcheville.jpg used on input line 23.
 (pdftex.def)             Requested size: 227.62204pt x 161.81477pt.
 
-Overfull \hbox (10.18077pt too wide) in paragraph at lines 35--36
+Overfull \hbox (13.70578pt too wide) in paragraph at lines 35--36
 \T1/fxl/m/n/10 (-20) trale; tra-cez le cycle suivi sur un dia-gramme températur
 e-
  []
 
 
-Overfull \hbox (19.93645pt too wide) in paragraph at lines 40--41
-\T1/fxl/m/n/10 (-20) le cir-cuit pour ob-te-nir une puis-sance mé-ca-nique de [
-][][]? 
- []
-
-
-LaTeX Warning: Reference `exo_porcheville_rankine' on page 295 undefined on inp
+LaTeX Warning: Reference `exo_porcheville_rankine' on page 298 undefined on inp
 ut line 47.
 
 
@@ -13207,16 +13443,22 @@ Overfull \hbox (31.52113pt too wide) in paragraph at lines 49--50
  []
 
 
+Overfull \hbox (19.71086pt too wide) in paragraph at lines 56--57
+\T1/fxl/m/n/10 (-20) pour main-te-nir une puis-sance mé-ca-nique nette de [][][
+]? 
+ []
+
+
 LaTeX Warning: Reference `fig_50letpodeby' on page 1 undefined on input line 66
 .
 
-<images/50letpodeby.jpg, id=3905, 1606.0pt x 933.4875pt>
+<images/50letpodeby.jpg, id=3948, 1606.0pt x 933.4875pt>
 File: images/50letpodeby.jpg Graphic file (type jpg)
 
 <use images/50letpodeby.jpg>
 Package pdftex.def Info: images/50letpodeby.jpg used on input line 70.
 (pdftex.def)             Requested size: 312.9803pt x 181.9225pt.
- [295
+ [298
 
 
 
@@ -13224,18 +13466,12 @@ Package pdftex.def Info: images/50letpodeby.jpg used on input line 70.
 
 
  <./9/images/porcheville.jpg> <./9/images/50letpodeby.jpg>]
-Overfull \hbox (7.41682pt too wide) in paragraph at lines 82--84
-[]\T1/fxl/m/n/10 (-20) On dé-fi-nit la consom-ma-tion spé-ci-fique de va-peur c
-omme
- []
-
-
-Overfull \hbox (6.23221pt too wide) in paragraph at lines 99--100
+Overfull \hbox (9.75722pt too wide) in paragraph at lines 99--100
 []\T1/fxl/m/n/10 (-20) Le ren-de-ment de l'ins-tal-la-tion augmente-t-il ou dim
 inue-
  []
 
-[296
+[299
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -13272,19 +13508,27 @@ inue-
 
 
 
-LaTeX Warning: Reference `exo_porcheville_rankine' on page 297 undefined on inp
+LaTeX Warning: Reference `exo_porcheville_rankine' on page 300 undefined on inp
 ut line 106.
 
 
-LaTeX Warning: Reference `fig_cycle_rankine_surchauffe' on page 297 undefined o
+LaTeX Warning: Reference `fig_cycle_rankine_surchauffe' on page 300 undefined o
 n input line 107.
 
 
-LaTeX Warning: Reference `fig_ts_lv_rankine_surchauffe' on page 297 undefined o
+LaTeX Warning: Reference `fig_ts_lv_rankine_surchauffe' on page 300 undefined o
 n input line 107.
 
 
-LaTeX Warning: Reference `exemple_turbine_centrale' on page 297 undefined on in
+LaTeX Warning: Reference `fig_ts_lv_rankine_surchauffe' on page 300 undefined o
+n input line 107.
+
+
+LaTeX Warning: Reference `exemple_turbine_centrale' on page 300 undefined on in
+put line 108.
+
+
+LaTeX Warning: Reference `exemple_turbine_centrale' on page 300 undefined on in
 put line 108.
 
 
@@ -13292,19 +13536,19 @@ LaTeX Warning: Reference `eq_pompe_liquide' on page 1 undefined on input line 1
 09.
 
 
-LaTeX Warning: Reference `exemple_pompe_centrale' on page 297 undefined on inpu
+LaTeX Warning: Reference `exemple_pompe_centrale' on page 300 undefined on inpu
 t line 109.
 
 
-LaTeX Warning: Reference `def_rendement_moteur' on page 297 undefined on input 
+LaTeX Warning: Reference `def_rendement_moteur' on page 300 undefined on input 
 line 110.
 
 
-LaTeX Warning: Reference `exo_porcheville_resurchauffe' on page 297 undefined o
+LaTeX Warning: Reference `exo_porcheville_resurchauffe' on page 300 undefined o
 n input line 113.
 
 
-Overfull \hbox (0.389pt too wide) in paragraph at lines 114--115
+Overfull \hbox (3.91402pt too wide) in paragraph at lines 114--115
 |   \T1/fxl/m/n/10 (-20) 1) $\OML/nxlmi/m/it/10 h[] \U/ntxmia/m/it/10 = [][] []
 $\T1/fxl/m/n/10 (-20) , $\OML/nxlmi/m/it/10 h[] \U/ntxmia/m/it/10 = [][] []$\T1
 /fxl/m/n/10 (-20) , $\OML/nxlmi/m/it/10 h[] \U/ntxmia/m/it/10 = [][] []$\T1/fxl
@@ -13313,15 +13557,19 @@ mia/m/it/10 =
  []
 
 
-LaTeX Warning: Reference `exo_brise_glace' on page 297 undefined on input line 
+LaTeX Warning: Reference `exo_brise_glace' on page 300 undefined on input line 
 121.
 
 
-LaTeX Warning: Reference `fig_cycle_rankine_surchauffe' on page 297 undefined o
+LaTeX Warning: Reference `fig_cycle_rankine_surchauffe' on page 300 undefined o
 n input line 122.
 
 
-LaTeX Warning: Reference `fig_ts_lv_rankine_surchauffe' on page 297 undefined o
+LaTeX Warning: Reference `fig_ts_lv_rankine_surchauffe' on page 300 undefined o
+n input line 122.
+
+
+LaTeX Warning: Reference `fig_ts_lv_rankine_surchauffe' on page 300 undefined o
 n input line 122.
 
 
@@ -13329,15 +13577,18 @@ LaTeX Warning: Reference `fig_cycle_prélèvement_vapeur' on page 1 undefined on
 input line 124.
 
 
+LaTeX Warning: Reference `fig_cycle_pr\IeC {\'e}l\IeC {\`e}vement_vapeur' on pa
+ge 300 undefined on input line 124.
+
+
 LaTeX Warning: Reference `fig_ts_lv_prelevement_vapeur' on page 1 undefined on 
 input line 125.
 
-) [297
 
+LaTeX Warning: Reference `fig_ts_lv_prelevement_vapeur' on page 300 undefined o
+n input line 125.
 
-] [298
-
-
+) [300
 
 
 ])
@@ -13378,7 +13629,11 @@ input line 125.
 
 
 Chapitre 10.
-[299
+[301
+
+
+
+
 
 
 
@@ -13417,7 +13672,7 @@ Chapitre 10.
 
 Package minitoc Info: I0006
 (minitoc)             amphibook.mtc10 is empty on input line 7.
- [300
+ [302
 
 
 
@@ -13427,34 +13682,34 @@ LaTeX Warning: Reference `chap_dix' on page 1 undefined on input line 1.
 
 ) (./10/contenucours10.tex
 
-LaTeX Warning: Reference `ch_demo_second_principe' on page 301 undefined on inp
+LaTeX Warning: Reference `ch_demo_second_principe' on page 303 undefined on inp
 ut line 6.
 
 
-LaTeX Warning: Reference `ch_chaudi\IeC {\`e}re' on page 301 undefined on input
+LaTeX Warning: Reference `ch_chaudi\IeC {\`e}re' on page 303 undefined on input
  line 12.
 
-[301
+[303
 
 
 ]
 
-LaTeX Warning: Reference `def_rendement_moteur' on page 302 undefined on input 
+LaTeX Warning: Reference `def_rendement_moteur' on page 304 undefined on input 
 line 26.
 
 
 LaTeX Warning: Reference `eq_efficacit\IeC {\'e}_moteur_carnot_temp\IeC {\'e}ra
-ture' on page 302 undefined on input line 26.
+ture' on page 304 undefined on input line 26.
 
 
-LaTeX Warning: Reference `ch_evaluation_moteurs_vapeur' on page 302 undefined o
+LaTeX Warning: Reference `ch_evaluation_moteurs_vapeur' on page 304 undefined o
 n input line 28.
 
 
 LaTeX Warning: Reference `fig_rapport_puissances_1' on page 1 undefined on inpu
 t line 35.
 
-<images/marge_travail_1.png, id=3982, 1171.94595pt x 549.83797pt>
+<images/marge_travail_1.png, id=4018, 1171.94595pt x 549.83797pt>
 File: images/marge_travail_1.png Graphic file (type png)
 
 <use images/marge_travail_1.png>
@@ -13465,7 +13720,7 @@ Package pdftex.def Info: images/marge_travail_1.png used on input line 39.
 LaTeX Warning: Reference `fig_rapport_puissances_2' on page 1 undefined on inpu
 t line 45.
 
-<images/marge_travail_2.png, id=3985, 1171.94595pt x 549.83797pt>
+<images/marge_travail_2.png, id=4021, 1171.94595pt x 549.83797pt>
 File: images/marge_travail_2.png Graphic file (type png)
 
 <use images/marge_travail_2.png>
@@ -13476,7 +13731,7 @@ Package pdftex.def Info: images/marge_travail_2.png used on input line 49.
 LaTeX Warning: Reference `fig_rapport_puissances_1' on page 1 undefined on inpu
 t line 51.
 
-[302
+[304
 
  <./10/images/marge_travail_1.png>]
 
@@ -13484,14 +13739,14 @@ LaTeX Warning: Reference `fig_p-v_gp_carnot' on page 1 undefined on input line
 68.
 
 
-LaTeX Warning: Reference `ch_cycle_de_rankine' on page 303 undefined on input l
+LaTeX Warning: Reference `ch_cycle_de_rankine' on page 305 undefined on input l
 ine 68.
 
-[303 <./10/images/marge_travail_2.png>] [304]
+[305 <./10/images/marge_travail_2.png>] [306]
 
-LaTeX Warning: Citation 'carnot1824' on page 305 undefined on input line 100.
+LaTeX Warning: Citation 'carnot1824' on page 307 undefined on input line 100.
 
-[305]
+[307]
 
 LaTeX Warning: Reference `chap_sept' on page 1 undefined on input line 115.
 
@@ -13499,14 +13754,14 @@ LaTeX Warning: Reference `chap_sept' on page 1 undefined on input line 115.
 LaTeX Warning: Reference `fig_cycle_otto' on page 1 undefined on input line 123
 .
 
-<images/pv_gp_otto.png, id=4023, 903.375pt x 895.84688pt>
+<images/pv_gp_otto.png, id=4060, 903.375pt x 895.84688pt>
 File: images/pv_gp_otto.png Graphic file (type png)
 
 <use images/pv_gp_otto.png>
 Package pdftex.def Info: images/pv_gp_otto.png used on input line 127.
 (pdftex.def)             Requested size: 160.04587pt x 158.70294pt.
 
-<images/ts_gp_otto.png, id=4024, 896.59969pt x 898.85812pt>
+<images/ts_gp_otto.png, id=4061, 896.59969pt x 898.85812pt>
 File: images/ts_gp_otto.png Graphic file (type png)
 
 <use images/ts_gp_otto.png>
@@ -13514,14 +13769,14 @@ Package pdftex.def Info: images/ts_gp_otto.png used on input line 128.
 (pdftex.def)             Requested size: 160.04587pt x 160.44336pt.
 
 
-LaTeX Warning: Reference `ch_construction_cycle' on page 306 undefined on input
+LaTeX Warning: Reference `ch_construction_cycle' on page 308 undefined on input
  line 136.
 
 
-LaTeX Warning: Reference `eq_q_gp_sf_isochore' on page 306 undefined on input l
+LaTeX Warning: Reference `eq_q_gp_sf_isochore' on page 308 undefined on input l
 ine 136.
 
-[306
+[308
 
 ]
 
@@ -13529,25 +13784,25 @@ LaTeX Warning: Reference `eq_tmp_rendement_otto' on page 1 undefined on input l
 ine 145.
 
 
-LaTeX Warning: Citation 'diesel1893' on page 307 undefined on input line 158.
+LaTeX Warning: Citation 'diesel1893' on page 309 undefined on input line 158.
 
 
-LaTeX Warning: Citation 'diesel1893en' on page 307 undefined on input line 158.
+LaTeX Warning: Citation 'diesel1893en' on page 309 undefined on input line 158.
 
 
-[307 <./10/images/pv_gp_otto.png> <./10/images/ts_gp_otto.png>]
+[309 <./10/images/pv_gp_otto.png> <./10/images/ts_gp_otto.png>]
 
 LaTeX Warning: Reference `fig_cycle_diesel' on page 1 undefined on input line 1
 62.
 
-<images/pv_gp_diesel.png, id=4054, 912.12347pt x 904.5161pt>
+<images/pv_gp_diesel.png, id=4090, 912.12347pt x 904.5161pt>
 File: images/pv_gp_diesel.png Graphic file (type png)
 
 <use images/pv_gp_diesel.png>
 Package pdftex.def Info: images/pv_gp_diesel.png used on input line 166.
 (pdftex.def)             Requested size: 160.04587pt x 158.70674pt.
 
-<images/ts_gp_diesel.png, id=4055, 905.27684pt x 907.55905pt>
+<images/ts_gp_diesel.png, id=4091, 905.27684pt x 907.55905pt>
 File: images/ts_gp_diesel.png Graphic file (type png)
 
 <use images/ts_gp_diesel.png>
@@ -13555,33 +13810,33 @@ Package pdftex.def Info: images/ts_gp_diesel.png used on input line 167.
 (pdftex.def)             Requested size: 160.04587pt x 160.44545pt.
 
 
-LaTeX Warning: Reference `eq_q_gp_sf_isobare' on page 308 undefined on input li
+LaTeX Warning: Reference `eq_q_gp_sf_isobare' on page 310 undefined on input li
 ne 173.
 
-[308 <./10/images/pv_gp_diesel.png> <./10/images/ts_gp_diesel.png>]
+[310 <./10/images/pv_gp_diesel.png> <./10/images/ts_gp_diesel.png>]
 
-LaTeX Warning: Citation 'diesel1893' on page 309 undefined on input line 182.
+LaTeX Warning: Citation 'diesel1893' on page 311 undefined on input line 182.
 
 
-LaTeX Warning: Citation 'diesel1893en' on page 309 undefined on input line 182.
+LaTeX Warning: Citation 'diesel1893en' on page 311 undefined on input line 182.
 
 
 
 LaTeX Warning: Reference `fig_cycle_otto_reel' on page 1 undefined on input lin
 e 196.
 
-<images/pv_moteur_reel.png, id=4069, 912.88422pt x 904.5161pt>
+<images/pv_moteur_reel.png, id=4105, 912.88422pt x 904.5161pt>
 File: images/pv_moteur_reel.png Graphic file (type png)
 
 <use images/pv_moteur_reel.png>
 Package pdftex.def Info: images/pv_moteur_reel.png used on input line 200.
 (pdftex.def)             Requested size: 284.52756pt x 281.91528pt.
- [309]
+ [311]
 
 LaTeX Warning: Reference `fig_beaucoup_cylindres' on page 1 undefined on input 
 line 210.
 
-<images/curtiss_wright_cyclone.jpg, id=4080, 1248.665pt x 925.4575pt>
+<images/curtiss_wright_cyclone.jpg, id=4116, 1248.665pt x 925.4575pt>
 File: images/curtiss_wright_cyclone.jpg Graphic file (type jpg)
 
 <use images/curtiss_wright_cyclone.jpg>
@@ -13589,22 +13844,22 @@ Package pdftex.def Info: images/curtiss_wright_cyclone.jpg used on input line 2
 14.
 (pdftex.def)             Requested size: 155.94937pt x 115.58838pt.
 
-<images/honda_v12.jpg, id=4081, 1284.8pt x 768.8725pt>
+<images/honda_v12.jpg, id=4117, 1284.8pt x 768.8725pt>
 File: images/honda_v12.jpg Graphic file (type jpg)
 
 <use images/honda_v12.jpg>
 Package pdftex.def Info: images/honda_v12.jpg used on input line 215.
 (pdftex.def)             Requested size: 193.14297pt x 115.58838pt.
- [310 <./10/images/pv_moteur_reel.png> <./10/images/curtiss_wright_cyclone.jpg>
+ [312 <./10/images/pv_moteur_reel.png> <./10/images/curtiss_wright_cyclone.jpg>
  <./10/images/honda_v12.jpg>]
 
 LaTeX Warning: Reference `fig_turbo' on page 1 undefined on input line 225.
 
 
-LaTeX Warning: Reference `ch_generateur_gaz' on page 311 undefined on input lin
+LaTeX Warning: Reference `ch_generateur_gaz' on page 313 undefined on input lin
 e 225.
 
-<images/coupe_turbo.jpg, id=4098, 309.38327pt x 226.71994pt>
+<images/coupe_turbo.jpg, id=4134, 309.38327pt x 226.71994pt>
 File: images/coupe_turbo.jpg Graphic file (type jpg)
 
 <use images/coupe_turbo.jpg>
@@ -13612,10 +13867,10 @@ Package pdftex.def Info: images/coupe_turbo.jpg used on input line 229.
 (pdftex.def)             Requested size: 213.39812pt x 156.38156pt.
 
 
-LaTeX Warning: Reference `ch_intercooling' on page 311 undefined on input line 
+LaTeX Warning: Reference `ch_intercooling' on page 313 undefined on input line 
 235.
 
-[311 <./10/images/coupe_turbo.jpg>]
+[313 <./10/images/coupe_turbo.jpg>]
 
 LaTeX Warning: Reference `chap_trois' on page 1 undefined on input line 240.
 
@@ -13630,24 +13885,24 @@ Underfull \hbox (badness 1874) in paragraph at lines 244--246
  []
 
 
-LaTeX Warning: Citation 'carnot1824' on page 312 undefined on input line 246.
+LaTeX Warning: Citation 'carnot1824' on page 314 undefined on input line 246.
 
 
-LaTeX Warning: Reference `fig_sch\IeC {\'e}ma_compresseur1' on page 312 undefin
+LaTeX Warning: Reference `fig_sch\IeC {\'e}ma_compresseur1' on page 314 undefin
 ed on input line 248.
 
 
-LaTeX Warning: Reference `fig_sch\IeC {\'e}ma_compresseur2' on page 312 undefin
+LaTeX Warning: Reference `fig_sch\IeC {\'e}ma_compresseur2' on page 314 undefin
 ed on input line 248.
 
-<images/photo_compresseur.jpg, id=4108, 1284.8pt x 856.19875pt>
+<images/photo_compresseur.jpg, id=4145, 1284.8pt x 856.19875pt>
 File: images/photo_compresseur.jpg Graphic file (type jpg)
 
 <use images/photo_compresseur.jpg>
 Package pdftex.def Info: images/photo_compresseur.jpg used on input line 253.
 (pdftex.def)             Requested size: 256.0748pt x 170.6488pt.
 
-<images/symbole_compresseur.png, id=4112, 300.14838pt x 402.3681pt>
+<images/symbole_compresseur.png, id=4149, 300.14838pt x 402.3681pt>
 File: images/symbole_compresseur.png Graphic file (type png)
 
 <use images/symbole_compresseur.png>
@@ -13657,9 +13912,9 @@ Package pdftex.def Info: images/symbole_compresseur.png used on input line 261.
 
 
 LaTeX Warning: Reference `def_efficacit\IeC {\'e}_isentropique_turbine' on page
- 312 undefined on input line 267.
+ 314 undefined on input line 267.
 
-[312
+[314
 
  <./10/images/photo_compresseur.jpg>]
 
@@ -13669,7 +13924,7 @@ LaTeX Warning: Command \textquoteright invalid in math mode on input line 280.
 LaTeX Warning: Command \textquoteright invalid in math mode on input line 285.
 
 Package mdframed Info: mdframed works in twoside mode on input line 289.
-<images/exe_ts_compresseur.png, id=4126, 263.00319pt x 267.47351pt>
+<images/exe_ts_compresseur.png, id=4163, 263.00319pt x 267.47351pt>
 File: images/exe_ts_compresseur.png Graphic file (type png)
 
 <use images/exe_ts_compresseur.png>
@@ -13677,7 +13932,7 @@ Package pdftex.def Info: images/exe_ts_compresseur.png used on input line 294.
 (pdftex.def)             Requested size: 113.81102pt x 115.74599pt.
 
 
-LaTeX Warning: Reference `eq_isentropique_horrible2' on page 313 undefined on i
+LaTeX Warning: Reference `eq_isentropique_horrible2' on page 315 undefined on i
 nput line 295.
 
 
@@ -13710,27 +13965,27 @@ LaTeX Warning: Command \textquoteright invalid in math mode on input line 306.
 LaTeX Warning: Command \textquoteright invalid in math mode on input line 306.
 
 
-LaTeX Warning: Reference `mdf@pagelabel-92' on page 313 undefined on input line
+LaTeX Warning: Reference `mdf@pagelabel-93' on page 315 undefined on input line
  309.
 
-[313 <./9/images/symbole_compresseur.png> <./10/images/exe_ts_compresseur.png>]
+[315 <./9/images/symbole_compresseur.png> <./10/images/exe_ts_compresseur.png>]
 
-LaTeX Warning: Reference `mdf@pagelabel-93' on page 314 undefined on input line
+LaTeX Warning: Reference `mdf@pagelabel-94' on page 316 undefined on input line
  309.
 
 
-LaTeX Warning: Reference `ch_refroidissement_turbine' on page 314 undefined on 
+LaTeX Warning: Reference `ch_refroidissement_turbine' on page 316 undefined on 
 input line 312.
 
 
-LaTeX Warning: Reference `fig_chambre_de_combustion1' on page 314 undefined on 
+LaTeX Warning: Reference `fig_chambre_de_combustion1' on page 316 undefined on 
 input line 317.
 
 
-LaTeX Warning: Reference `fig_chambre_de_combustion2' on page 314 undefined on 
+LaTeX Warning: Reference `fig_chambre_de_combustion2' on page 316 undefined on 
 input line 317.
 
-<images/photo_chambre_combustion.jpg, id=4139, 1284.8pt x 856.19875pt>
+<images/photo_chambre_combustion.jpg, id=4175, 1284.8pt x 856.19875pt>
 File: images/photo_chambre_combustion.jpg Graphic file (type jpg)
 
 <use images/photo_chambre_combustion.jpg>
@@ -13738,32 +13993,32 @@ Package pdftex.def Info: images/photo_chambre_combustion.jpg used on input line
  321.
 (pdftex.def)             Requested size: 256.0748pt x 170.6488pt.
 
-<images/symbole_chambre_combustion.png, id=4143, 389.2944pt x 62.634pt>
+<images/symbole_chambre_combustion.png, id=4179, 389.2944pt x 62.634pt>
 File: images/symbole_chambre_combustion.png Graphic file (type png)
 
 <use images/symbole_chambre_combustion.png>
 Package pdftex.def Info: images/symbole_chambre_combustion.png used on input li
 ne 329.
 (pdftex.def)             Requested size: 199.16928pt x 32.04517pt.
- [314 <./10/images/photo_chambre_combustion.jpg> <./10/images/symbole_chambre_c
+ [316 <./10/images/photo_chambre_combustion.jpg> <./10/images/symbole_chambre_c
 ombustion.png>]
 
 LaTeX Warning: Reference `eq_q_gp_so_isobare' on page 1 undefined on input line
  337.
 
 
-LaTeX Warning: Reference `fig_illustration_turbine1' on page 315 undefined on i
+LaTeX Warning: Reference `fig_illustration_turbine1' on page 317 undefined on i
 nput line 347.
 
 
-LaTeX Warning: Reference `fig_illustration_turbine2' on page 315 undefined on i
+LaTeX Warning: Reference `fig_illustration_turbine2' on page 317 undefined on i
 nput line 347.
 
 
-LaTeX Warning: Reference `ch_configurations_turbomachines' on page 315 undefine
+LaTeX Warning: Reference `ch_configurations_turbomachines' on page 317 undefine
 d on input line 347.
 
-<images/photo_turbine.jpg, id=4156, 245.9589pt x 246.6816pt>
+<images/photo_turbine.jpg, id=4192, 245.9589pt x 246.6816pt>
 File: images/photo_turbine.jpg Graphic file (type jpg)
 
 <use images/photo_turbine.jpg>
@@ -13776,11 +14031,11 @@ Package pdftex.def Info: images/symbole_turbine.png used on input line 359.
 
 
 LaTeX Warning: Reference `def_efficacit\IeC {\'e}_isentropique_turbine' on page
- 315 undefined on input line 365.
+ 317 undefined on input line 365.
 
 
 LaTeX Warning: Reference `def_efficacit\IeC {\'e}_isentropique_turbine' on page
- 315 undefined on input line 368.
+ 317 undefined on input line 368.
 
 
 LaTeX Warning: Command \textquoteright invalid in math mode on input line 370.
@@ -13788,30 +14043,30 @@ LaTeX Warning: Command \textquoteright invalid in math mode on input line 370.
 
 LaTeX Warning: Command \textquoteright invalid in math mode on input line 372.
 
-[315pdfTeX warning (ext4): destination with the same identifier (name{equation.
+[317pdfTeX warning (ext4): destination with the same identifier (name{equation.
 10.4.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.379 	\subsection{TuyÃ¨re}
-                           ] [316 <./10/images/photo_turbine.jpg>]
+                           ] [318 <./10/images/photo_turbine.jpg>]
 Underfull \hbox (badness 2922) in paragraph at lines 381--383
 \T1/fxl/m/n/8 le-ment com-pri-més s'échappent par
  []
 
 
-LaTeX Warning: Citation 'gaylussac1807' on page 317 undefined on input line 383
+LaTeX Warning: Citation 'gaylussac1807' on page 319 undefined on input line 383
 .
 
 
-LaTeX Warning: Reference `fig_illustration_tuyere1' on page 317 undefined on in
+LaTeX Warning: Reference `fig_illustration_tuyere1' on page 319 undefined on in
 put line 385.
 
 
-LaTeX Warning: Reference `fig_illustration_tuyere2' on page 317 undefined on in
+LaTeX Warning: Reference `fig_illustration_tuyere2' on page 319 undefined on in
 put line 385.
 
-<images/photo_tuyere.jpg, id=4180, 385.44pt x 240.29774pt>
+<images/photo_tuyere.jpg, id=4216, 385.44pt x 240.29774pt>
 File: images/photo_tuyere.jpg Graphic file (type jpg)
 
 <use images/photo_tuyere.jpg>
@@ -13827,18 +14082,18 @@ LaTeX Warning: Reference `eq_petite_sfee_deltas_h' on page 1 undefined on input
  line 405.
 
 
-LaTeX Warning: Reference `eq_petite_sfee_deltas_h' on page 317 undefined on inp
+LaTeX Warning: Reference `eq_petite_sfee_deltas_h' on page 319 undefined on inp
 ut line 408.
 
 
-LaTeX Warning: Reference `eq_isentropique_horrible1' on page 317 undefined on i
+LaTeX Warning: Reference `eq_isentropique_horrible1' on page 319 undefined on i
 nput line 411.
 
 
-LaTeX Warning: Reference `eq_isentropique_horrible3' on page 317 undefined on i
+LaTeX Warning: Reference `eq_isentropique_horrible3' on page 319 undefined on i
 nput line 411.
 
-[317 <./10/images/photo_tuyere.jpg>]
+[319 <./10/images/photo_tuyere.jpg>]
 Package mdframed Info: mdframed works in twoside mode on input line 419.
 
 Underfull \hbox (badness 2884) in paragraph at lines 421--423
@@ -13847,7 +14102,7 @@ Underfull \hbox (badness 2884) in paragraph at lines 421--423
 t/10.95 c[] \U/ntxmia/m/it/10.95 =
  []
 
-<images/exe_ts_tuyere.png, id=4196, 263.00319pt x 267.47351pt>
+<images/exe_ts_tuyere.png, id=4233, 263.00319pt x 267.47351pt>
 File: images/exe_ts_tuyere.png Graphic file (type png)
 
 <use images/exe_ts_tuyere.png>
@@ -13879,16 +14134,16 @@ Package pdftex.def Info: images/hand.png used on input line 438.
 (pdftex.def)             Requested size: 10.92451pt x 9.39508pt.
 
 
-LaTeX Warning: Reference `mdf@pagelabel-94' on page 318 undefined on input line
+LaTeX Warning: Reference `mdf@pagelabel-95' on page 320 undefined on input line
  442.
 
-[318pdfTeX warning (ext4): destination with the same identifier (name{equation.
+[320pdfTeX warning (ext4): destination with the same identifier (name{equation.
 10.4.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.445 
-       <./10/images/exe_ts_tuyere.png>] [319]
+       <./10/images/exe_ts_tuyere.png>] [321]
 Underfull \hbox (badness 1199) in paragraph at lines 455--457
 \T1/fxl/m/n/8 por-ter de réelle amé-lio-ra-tion quant
  []
@@ -13899,16 +14154,16 @@ Underfull \hbox (badness 1092) in paragraph at lines 455--457
  []
 
 
-LaTeX Warning: Citation 'stodola1904' on page 320 undefined on input line 457.
+LaTeX Warning: Citation 'stodola1904' on page 322 undefined on input line 457.
 
 
-LaTeX Warning: Citation 'stodola1905' on page 320 undefined on input line 457.
+LaTeX Warning: Citation 'stodola1905' on page 322 undefined on input line 457.
 
 
 LaTeX Warning: Reference `fig_générateur_gaz' on page 1 undefined on input line
  477.
 
-<images/circuit_generateur_gaz.png, id=4214, 367.6134pt x 155.1396pt>
+<images/circuit_generateur_gaz.png, id=4251, 367.6134pt x 155.1396pt>
 File: images/circuit_generateur_gaz.png Graphic file (type png)
 
 <use images/circuit_generateur_gaz.png>
@@ -13916,7 +14171,7 @@ Package pdftex.def Info: images/circuit_generateur_gaz.png used on input line 4
 81.
 (pdftex.def)             Requested size: 220.56973pt x 93.08446pt.
 
-<images/ts_gp_generateur_gaz.png, id=4215, 334.24875pt x 310.39964pt>
+<images/ts_gp_generateur_gaz.png, id=4252, 334.24875pt x 310.39964pt>
 File: images/ts_gp_generateur_gaz.png Graphic file (type png)
 
 <use images/ts_gp_generateur_gaz.png>
@@ -13925,35 +14180,35 @@ Package pdftex.def Info: images/ts_gp_generateur_gaz.png used on input line 482
 (pdftex.def)             Requested size: 267.39935pt x 248.32004pt.
 
 
-LaTeX Warning: Reference `ch_turbo' on page 320 undefined on input line 485.
+LaTeX Warning: Reference `ch_turbo' on page 322 undefined on input line 485.
 
-[320
+[322
 
 ]
 
 LaTeX Warning: Reference `fig_turboréacteur' on page 1 undefined on input line 
 496.
 
-<images/circuit_turbojet.png, id=4231, 513.5988pt x 150.3216pt>
+<images/circuit_turbojet.png, id=4267, 513.5988pt x 150.3216pt>
 File: images/circuit_turbojet.png Graphic file (type png)
 
 <use images/circuit_turbojet.png>
 Package pdftex.def Info: images/circuit_turbojet.png used on input line 500.
 (pdftex.def)             Requested size: 308.16165pt x 90.19363pt.
 
-<images/ts_gp_turbojet.png, id=4232, 334.24875pt x 310.39964pt>
+<images/ts_gp_turbojet.png, id=4268, 334.24875pt x 310.39964pt>
 File: images/ts_gp_turbojet.png Graphic file (type png)
 
 <use images/ts_gp_turbojet.png>
 Package pdftex.def Info: images/ts_gp_turbojet.png used on input line 501.
 (pdftex.def)             Requested size: 267.39935pt x 248.32004pt.
- [321 <./10/images/circuit_generateur_gaz.png> <./10/images/ts_gp_generateur_ga
+ [323 <./10/images/circuit_generateur_gaz.png> <./10/images/ts_gp_generateur_ga
 z.png>]
 
 LaTeX Warning: Reference `fig_turbomoteur' on page 1 undefined on input line 51
 7.
 
-<images/circuit_turboprop_generateur.png, id=4247, 719.3274pt x 450.0012pt>
+<images/circuit_turboprop_generateur.png, id=4283, 719.3274pt x 450.0012pt>
 File: images/circuit_turboprop_generateur.png Graphic file (type png)
 
 <use images/circuit_turboprop_generateur.png>
@@ -13961,7 +14216,7 @@ Package pdftex.def Info: images/circuit_turboprop_generateur.png used on input
 line 521.
 (pdftex.def)             Requested size: 431.59976pt x 270.00279pt.
 
-<images/ts_gp_turboprop_generateur.png, id=4248, 334.24875pt x 310.39964pt>
+<images/ts_gp_turboprop_generateur.png, id=4284, 334.24875pt x 310.39964pt>
 File: images/ts_gp_turboprop_generateur.png Graphic file (type png)
 
 <use images/ts_gp_turboprop_generateur.png>
@@ -13972,20 +14227,20 @@ ne 522.
 
 LaTeX Warning: Reference `fig_turbofan' on page 1 undefined on input line 536.
 
-<images/circuit_turbofan.png, id=4254, 635.4942pt x 432.1746pt>
+<images/circuit_turbofan.png, id=4290, 635.4942pt x 432.1746pt>
 File: images/circuit_turbofan.png Graphic file (type png)
 
 <use images/circuit_turbofan.png>
 Package pdftex.def Info: images/circuit_turbofan.png used on input line 540.
 (pdftex.def)             Requested size: 381.29945pt x 259.30676pt.
- [322 <./10/images/circuit_turbojet.png> <./10/images/ts_gp_turbojet.png>] [323
+ [324 <./10/images/circuit_turbojet.png> <./10/images/ts_gp_turbojet.png>] [325
  <./10/images/circuit_turboprop_generateur.png> <./10/images/ts_gp_turboprop_ge
-nerateur.png>] [324 <./10/images/circuit_turbofan.png>]
+nerateur.png>] [326 <./10/images/circuit_turbofan.png>]
 
 LaTeX Warning: Reference `fig_turbine_libre' on page 1 undefined on input line 
 560.
 
-<images/circuit_turbine_libre.png, id=4286, 601.2864pt x 185.493pt>
+<images/circuit_turbine_libre.png, id=4323, 601.2864pt x 185.493pt>
 File: images/circuit_turbine_libre.png Graphic file (type png)
 
 <use images/circuit_turbine_libre.png>
@@ -13993,7 +14248,7 @@ Package pdftex.def Info: images/circuit_turbine_libre.png used on input line 56
 4.
 (pdftex.def)             Requested size: 360.77461pt x 111.29665pt.
 
-<images/ts_gp_turbine_libre.png, id=4287, 334.24875pt x 310.39964pt>
+<images/ts_gp_turbine_libre.png, id=4324, 334.24875pt x 310.39964pt>
 File: images/ts_gp_turbine_libre.png Graphic file (type png)
 
 <use images/ts_gp_turbine_libre.png>
@@ -14005,31 +14260,31 @@ Package pdftex.def Info: images/ts_gp_turbine_libre.png used on input line 565.
 LaTeX Warning: Reference `fig_axes_multiples' on page 1 undefined on input line
  574.
 
-<images/circuit_twin_spool.png, id=4292, 485.1726pt x 186.9384pt>
+<images/circuit_twin_spool.png, id=4329, 485.1726pt x 186.9384pt>
 File: images/circuit_twin_spool.png Graphic file (type png)
 
 <use images/circuit_twin_spool.png>
 Package pdftex.def Info: images/circuit_twin_spool.png used on input line 578.
 (pdftex.def)             Requested size: 291.1058pt x 112.1639pt.
 
-<images/ts_gp_twin_spool.png, id=4293, 334.24875pt x 310.39964pt>
+<images/ts_gp_twin_spool.png, id=4330, 334.24875pt x 310.39964pt>
 File: images/ts_gp_twin_spool.png Graphic file (type png)
 
 <use images/ts_gp_twin_spool.png>
 Package pdftex.def Info: images/ts_gp_twin_spool.png used on input line 579.
 (pdftex.def)             Requested size: 267.39935pt x 248.32004pt.
- [325 <./10/images/circuit_turbine_libre.png> <./10/images/ts_gp_turbine_libre.
-png>] [326 <./10/images/circuit_twin_spool.png> <./10/images/ts_gp_twin_spool.p
+ [327 <./10/images/circuit_turbine_libre.png> <./10/images/ts_gp_turbine_libre.
+png>] [328 <./10/images/circuit_twin_spool.png> <./10/images/ts_gp_twin_spool.p
 ng>]
 
-LaTeX Warning: Reference `ch_criteres_evaluation_moteurs_gaz' on page 327 undef
+LaTeX Warning: Reference `ch_criteres_evaluation_moteurs_gaz' on page 329 undef
 ined on input line 599.
 
 
 LaTeX Warning: Reference `fig_intercooling_réchauffe' on page 1 undefined on in
 put line 601.
 
-<images/circuit_intercooler_rechauffe.png, id=4318, 632.1216pt x 270.2898pt>
+<images/circuit_intercooler_rechauffe.png, id=4354, 632.1216pt x 270.2898pt>
 File: images/circuit_intercooler_rechauffe.png Graphic file (type png)
 
 <use images/circuit_intercooler_rechauffe.png>
@@ -14037,7 +14292,7 @@ Package pdftex.def Info: images/circuit_intercooler_rechauffe.png used on input
  line 605.
 (pdftex.def)             Requested size: 379.27588pt x 162.17513pt.
 
-<images/ts_gp_intercooler_rechauffe.png, id=4319, 334.24875pt x 310.39964pt>
+<images/ts_gp_intercooler_rechauffe.png, id=4355, 334.24875pt x 310.39964pt>
 File: images/ts_gp_intercooler_rechauffe.png Graphic file (type png)
 
 <use images/ts_gp_intercooler_rechauffe.png>
@@ -14046,37 +14301,37 @@ ine 606.
 (pdftex.def)             Requested size: 267.39935pt x 248.32004pt.
 
 
-LaTeX Warning: Reference `eq_isentropique_horrible1' on page 327 undefined on i
+LaTeX Warning: Reference `eq_isentropique_horrible1' on page 329 undefined on i
 nput line 613.
 
 
-LaTeX Warning: Reference `eq_puissance_compresseur' on page 327 undefined on in
+LaTeX Warning: Reference `eq_puissance_compresseur' on page 329 undefined on in
 put line 613.
 
 
-LaTeX Warning: Reference `ch_resurchauffe' on page 327 undefined on input line 
+LaTeX Warning: Reference `ch_resurchauffe' on page 329 undefined on input line 
 615.
 
 
 LaTeX Warning: Reference `fig_intercooler_echangeur' on page 1 undefined on inp
 ut line 619.
 
-<images/circuit_intercooler_echangeur.png, id=4324, 769.9164pt x 322.806pt>
+<images/circuit_intercooler_echangeur.png, id=4360, 769.9164pt x 322.806pt>
 File: images/circuit_intercooler_echangeur.png Graphic file (type png)
 
 <use images/circuit_intercooler_echangeur.png>
 Package pdftex.def Info: images/circuit_intercooler_echangeur.png used on input
  line 623.
 (pdftex.def)             Requested size: 461.9534pt x 193.68509pt.
- [327
+ [329
 
-] [328 <./10/images/circuit_intercooler_rechauffe.png> <./10/images/ts_gp_inter
+] [330 <./10/images/circuit_intercooler_rechauffe.png> <./10/images/ts_gp_inter
 cooler_rechauffe.png>]
 
 LaTeX Warning: Reference `fig_postcombustion' on page 1 undefined on input line
  632.
 
-<images/circuit_postcombustion.png, id=4344, 609.9588pt x 235.6002pt>
+<images/circuit_postcombustion.png, id=4380, 609.9588pt x 235.6002pt>
 File: images/circuit_postcombustion.png Graphic file (type png)
 
 <use images/circuit_postcombustion.png>
@@ -14084,19 +14339,19 @@ Package pdftex.def Info: images/circuit_postcombustion.png used on input line 6
 36.
 (pdftex.def)             Requested size: 365.9781pt x 141.36119pt.
 
-<images/ts_gp_postcombustion.png, id=4345, 432.99965pt x 332.50403pt>
+<images/ts_gp_postcombustion.png, id=4381, 432.99965pt x 332.50403pt>
 File: images/ts_gp_postcombustion.png Graphic file (type png)
 
 <use images/ts_gp_postcombustion.png>
 Package pdftex.def Info: images/ts_gp_postcombustion.png used on input line 637
 .
 (pdftex.def)             Requested size: 346.40019pt x 266.00357pt.
- [329 <./10/images/circuit_intercooler_echangeur.png>]
+ [331 <./10/images/circuit_intercooler_echangeur.png>]
 
 LaTeX Warning: Reference `fig_refroidissement_turbine' on page 1 undefined on i
 nput line 654.
 
-<images/circuit_refroidissement_turbine.png, id=4359, 632.1216pt x 185.493pt>
+<images/circuit_refroidissement_turbine.png, id=4397, 632.1216pt x 185.493pt>
 File: images/circuit_refroidissement_turbine.png Graphic file (type png)
 
 <use images/circuit_refroidissement_turbine.png>
@@ -14104,17 +14359,17 @@ Package pdftex.def Info: images/circuit_refroidissement_turbine.png used on inp
 ut line 658.
 (pdftex.def)             Requested size: 379.27588pt x 111.29665pt.
 
-<images/ts_gp_refroidissement_turbine.png, id=4360, 334.24875pt x 310.39964pt>
+<images/ts_gp_refroidissement_turbine.png, id=4398, 334.24875pt x 310.39964pt>
 File: images/ts_gp_refroidissement_turbine.png Graphic file (type png)
 
 <use images/ts_gp_refroidissement_turbine.png>
 Package pdftex.def Info: images/ts_gp_refroidissement_turbine.png used on input
  line 659.
 (pdftex.def)             Requested size: 267.39935pt x 248.32004pt.
- [330 <./10/images/circuit_postcombustion.png> <./10/images/ts_gp_postcombustio
-n.png>] [331 <./10/images/circuit_refroidissement_turbine.png> <./10/images/ts_
+ [332 <./10/images/circuit_postcombustion.png> <./10/images/ts_gp_postcombustio
+n.png>] [333 <./10/images/circuit_refroidissement_turbine.png> <./10/images/ts_
 gp_refroidissement_turbine.png>]
-<images/circuit_turbofan_complet.png, id=4385, 637.67647pt x 240.40402pt>
+<images/circuit_turbofan_complet.png, id=4421, 637.67647pt x 240.40402pt>
 File: images/circuit_turbofan_complet.png Graphic file (type png)
 
 <use images/circuit_turbofan_complet.png>
@@ -14125,7 +14380,7 @@ Package pdftex.def Info: images/circuit_turbofan_complet.png used on input line
 
 LaTeX Warning: Float too large for page by 68.14618pt on input line 680.
 
-[332 <./10/images/circuit_turbofan_complet.png>]) (./10/histoire_nomad.tex
+[334 <./10/images/circuit_turbofan_complet.png>]) (./10/histoire_nomad.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -14160,28 +14415,28 @@ LaTeX Warning: Float too large for page by 68.14618pt on input line 680.
 
 
 
-LaTeX Warning: Reference `fig_napier_i_circuit' on page 333 undefined on input 
+LaTeX Warning: Reference `fig_napier_i_circuit' on page 335 undefined on input 
 line 9.
 
 
-LaTeX Warning: Reference `fig_napier_i_photos' on page 333 undefined on input l
+LaTeX Warning: Reference `fig_napier_i_photos' on page 335 undefined on input l
 ine 9.
 
-<images/napier_nomad_i_3.png, id=4396, 825.83531pt x 417.81094pt>
+<images/napier_nomad_i_3.png, id=4432, 825.83531pt x 417.81094pt>
 File: images/napier_nomad_i_3.png Graphic file (type png)
 
 <use images/napier_nomad_i_3.png>
 Package pdftex.def Info: images/napier_nomad_i_3.png used on input line 14.
 (pdftex.def)             Requested size: 341.43306pt x 172.73802pt.
 
-<images/napier_nomad_i_1.jpg, id=4401, 385.44pt x 250.536pt>
+<images/napier_nomad_i_1.jpg, id=4437, 385.44pt x 250.536pt>
 File: images/napier_nomad_i_1.jpg Graphic file (type jpg)
 
 <use images/napier_nomad_i_1.jpg>
 Package pdftex.def Info: images/napier_nomad_i_1.jpg used on input line 27.
 (pdftex.def)             Requested size: 227.62204pt x 147.95256pt.
 
-<images/napier_nomad_i_2.jpg, id=4402, 364.66237pt x 385.44pt>
+<images/napier_nomad_i_2.jpg, id=4438, 364.66237pt x 385.44pt>
 File: images/napier_nomad_i_2.jpg Graphic file (type jpg)
 
 <use images/napier_nomad_i_2.jpg>
@@ -14192,7 +14447,7 @@ Package pdftex.def Info: images/napier_nomad_i_2.jpg used on input line 27.
 LaTeX Warning: Reference `fig_napier_ii_circuit' on page 1 undefined on input l
 ine 34.
 
-<images/napier_nomad_ii.png, id=4407, 761.09344pt x 389.20406pt>
+<images/napier_nomad_ii.png, id=4443, 761.09344pt x 389.20406pt>
 File: images/napier_nomad_ii.png Graphic file (type png)
 
 <use images/napier_nomad_ii.png>
@@ -14200,7 +14455,7 @@ Package pdftex.def Info: images/napier_nomad_ii.png used on input line 38.
 (pdftex.def)             Requested size: 341.43306pt x 174.60571pt.
 
 
-LaTeX Warning: Citation 'sammonschatterton1955' on page 333 undefined on input 
+LaTeX Warning: Citation 'sammonschatterton1955' on page 335 undefined on input 
 line 45.
 
 
@@ -14223,7 +14478,7 @@ Underfull \hbox (badness 1983) in paragraph at lines 45--46
 \T1/fxl/m/n/10.95 (+20) et l'en-semble tur-bo-pro-pul-sif sont tous deux
  []
 
-[333
+[335
 
 
 
@@ -14234,13 +14489,13 @@ g> <./10/images/napier_nomad_i_2.jpg>]
 LaTeX Warning: Reference `fig_formulaone_engine' on page 1 undefined on input l
 ine 49.
 
-<images/formulaone_engine.png, id=4421, 1010.2258pt x 391.65677pt>
+<images/formulaone_engine.png, id=4457, 1010.2258pt x 391.65677pt>
 File: images/formulaone_engine.png Graphic file (type png)
 
 <use images/formulaone_engine.png>
 Package pdftex.def Info: images/formulaone_engine.png used on input line 53.
 (pdftex.def)             Requested size: 455.24411pt x 176.4949pt.
- [334 <./10/images/napier_nomad_ii.png (PNG copy)> <./10/images/formulaone_engi
+ [336 <./10/images/napier_nomad_ii.png (PNG copy)> <./10/images/formulaone_engi
 ne.png>]))
 \openout2 = `10/exercices_chapitre_10.aux'.
 
@@ -14282,26 +14537,20 @@ ne.png>]))
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
 
-LaTeX Warning: Reference `eq_isentropique_horrible1' on page 335 undefined on i
+LaTeX Warning: Reference `eq_isentropique_horrible1' on page 337 undefined on i
 nput line 4.
 
 
-LaTeX Warning: Reference `eq_isentropique_horrible2' on page 335 undefined on i
+LaTeX Warning: Reference `eq_isentropique_horrible2' on page 337 undefined on i
 nput line 4.
 
 
-LaTeX Warning: Reference `eq_isentropique_horrible3' on page 335 undefined on i
+LaTeX Warning: Reference `eq_isentropique_horrible3' on page 337 undefined on i
 nput line 4.
 
 
-LaTeX Warning: Reference `mdf@pagelabel-95' on page 335 undefined on input line
+LaTeX Warning: Reference `mdf@pagelabel-96' on page 337 undefined on input line
  5.
-
-
-Overfull \hbox (3.11977pt too wide) in paragraph at lines 14--15
-[]\T1/fxl/m/n/10 (-20) Pourquoi utilise-t-on deux arbres mo-teur concen-triques
-
- []
 
 
 LaTeX Warning: Reference `fig_intercooler_echangeur' on page 1 undefined on inp
@@ -14311,7 +14560,7 @@ ut line 15.
 LaTeX Warning: Reference `fig_photos_moteur_essence' on page 1 undefined on inp
 ut line 23.
 
-<images/photo_continental_io-550.jpg, id=4435, 411.136pt x 255.354pt>
+<images/photo_continental_io-550.jpg, id=4471, 411.136pt x 255.354pt>
 File: images/photo_continental_io-550.jpg Graphic file (type jpg)
 
 <use images/photo_continental_io-550.jpg>
@@ -14319,18 +14568,13 @@ Package pdftex.def Info: images/photo_continental_io-550.jpg used on input line
  28.
 (pdftex.def)             Requested size: 193.91058pt x 120.4372pt.
 
-<images/photo_sr22.jpg, id=4436, 1284.8pt x 854.19125pt>
+<images/photo_sr22.jpg, id=4472, 1284.8pt x 854.19125pt>
 File: images/photo_sr22.jpg Graphic file (type jpg)
 
 <use images/photo_sr22.jpg>
 Package pdftex.def Info: images/photo_sr22.jpg used on input line 28.
 (pdftex.def)             Requested size: 193.91058pt x 128.91823pt.
-
-Overfull \hbox (4.184pt too wide) in paragraph at lines 46--47
-[]\T1/fxl/m/n/10 (-20) Tracez le cycle suivi sur un dia-gramme pression-volume
- []
-
-[335
+ [337
 
 
 
@@ -14355,7 +14599,7 @@ Overfull \hbox (13.24893pt too wide) in paragraph at lines 62--63
 [][]; 
  []
 
-<images/photo_diesel_generateur.jpg, id=4469, 803.0pt x 602.25pt>
+<images/photo_diesel_generateur.jpg, id=4506, 803.0pt x 602.25pt>
 File: images/photo_diesel_generateur.jpg Graphic file (type jpg)
 
 <use images/photo_diesel_generateur.jpg>
@@ -14363,7 +14607,7 @@ Package pdftex.def Info: images/photo_diesel_generateur.jpg used on input line
 69.
 (pdftex.def)             Requested size: 218.1471pt x 163.61133pt.
 
-<images/photo_diesel_propulsion.jpg, id=4470, 803.0pt x 602.25pt>
+<images/photo_diesel_propulsion.jpg, id=4507, 803.0pt x 602.25pt>
 File: images/photo_diesel_propulsion.jpg Graphic file (type jpg)
 
 <use images/photo_diesel_propulsion.jpg>
@@ -14390,19 +14634,19 @@ Overfull \hbox (4.56964pt too wide) in paragraph at lines 111--112
  []
 
 
-Overfull \hbox (21.42871pt too wide) in paragraph at lines 122--123
+Overfull \hbox (24.95372pt too wide) in paragraph at lines 122--123
 []\T1/fxl/m/n/10 (-20) Tracez le cycle suivi par l'air sur un dia-gramme tempér
 ature-
  []
 
-<images/photo_pwc_pw123.jpg, id=4476, 1606.0pt x 638.385pt>
+<images/photo_pwc_pw123.jpg, id=4513, 1606.0pt x 638.385pt>
 File: images/photo_pwc_pw123.jpg Graphic file (type jpg)
 
 <use images/photo_pwc_pw123.jpg>
 Package pdftex.def Info: images/photo_pwc_pw123.jpg used on input line 139.
 (pdftex.def)             Requested size: 218.1471pt x 86.714pt.
 
-<images/photo_dash8.jpg, id=4477, 1284.8pt x 856.19875pt>
+<images/photo_dash8.jpg, id=4514, 1284.8pt x 856.19875pt>
 File: images/photo_dash8.jpg Graphic file (type jpg)
 
 <use images/photo_dash8.jpg>
@@ -14416,8 +14660,8 @@ ine 144.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[336 <./10/images/photo_diesel_generateur.jpg> <./10/images/photo_diesel_propul
-sion.jpg>] <images/photo_pw_j52_1.jpg, id=4507, 790.152pt x 355.3275pt>
+[338 <./10/images/photo_diesel_generateur.jpg> <./10/images/photo_diesel_propul
+sion.jpg>] <images/photo_pw_j52_1.jpg, id=4544, 790.152pt x 355.3275pt>
 File: images/photo_pw_j52_1.jpg Graphic file (type jpg)
 
 <use images/photo_pw_j52_1.jpg>
@@ -14428,22 +14672,22 @@ Package pdftex.def Info: images/photo_pw_j52_1.jpg used on input line 172.
 LaTeX Warning: Reference `fig_exo_turbojet_twin_spool' on page 1 undefined on i
 nput line 182.
 
-[337 <./10/images/photo_pwc_pw123.jpg> <./10/images/photo_dash8.jpg> <./10/imag
+[339 <./10/images/photo_pwc_pw123.jpg> <./10/images/photo_dash8.jpg> <./10/imag
 es/photo_pw_j52_1.jpg>]
 
-LaTeX Warning: Reference `fig_cf6_1' on page 338 undefined on input line 204.
+LaTeX Warning: Reference `fig_cf6_1' on page 340 undefined on input line 204.
 
 
-LaTeX Warning: Reference `fig_cf6_2' on page 338 undefined on input line 204.
+LaTeX Warning: Reference `fig_cf6_2' on page 340 undefined on input line 204.
 
-<images/cf6_cutaway.jpg, id=4530, 690.58pt x 507.8975pt>
+<images/cf6_cutaway.jpg, id=4566, 690.58pt x 507.8975pt>
 File: images/cf6_cutaway.jpg Graphic file (type jpg)
 
 <use images/cf6_cutaway.jpg>
 Package pdftex.def Info: images/cf6_cutaway.jpg used on input line 208.
 (pdftex.def)             Requested size: 284.52756pt x 209.26231pt.
 
-<images/circuit_turbofan_twin_spool.png, id=4533, 595.9866pt x 332.9238pt>
+<images/circuit_turbofan_twin_spool.png, id=4569, 595.9866pt x 332.9238pt>
 File: images/circuit_turbofan_twin_spool.png Graphic file (type png)
 
 <use images/circuit_turbofan_twin_spool.png>
@@ -14456,17 +14700,17 @@ LaTeX Warning: Reference `fig_turbomoteurs_exercice' on page 1 undefined on inp
 ut line 243.
 
 
-LaTeX Warning: Reference `fig_turbomoteurs_exercice' on page 338 undefined on i
+LaTeX Warning: Reference `fig_turbomoteurs_exercice' on page 340 undefined on i
 nput line 255.
 
-<images/circuit_turboshaft_exercice.png, id=4536, 494.15384pt x 443.50308pt>
+<images/circuit_turboshaft_exercice.png, id=4572, 494.15384pt x 443.50308pt>
 File: images/circuit_turboshaft_exercice.png Graphic file (type png)
 
 <use images/circuit_turboshaft_exercice.png>
 Package pdftex.def Info: images/circuit_turboshaft_exercice.png used on input l
 ine 268.
 (pdftex.def)             Requested size: 341.43306pt x 306.45055pt.
- [338 <./10/images/cf6_cutaway.jpg> <./10/images/circuit_turbofan_twin_spool.pn
+ [340 <./10/images/cf6_cutaway.jpg> <./10/images/circuit_turbofan_twin_spool.pn
 g> <./10/images/circuit_turboshaft_exercice.png>]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -14502,7 +14746,7 @@ g> <./10/images/circuit_turboshaft_exercice.png>]
 
 
 
-LaTeX Warning: Reference `exo_cycle_moteur_essence_dix' on page 339 undefined o
+LaTeX Warning: Reference `exo_cycle_moteur_essence_dix' on page 341 undefined o
 n input line 279.
 
 
@@ -14510,29 +14754,29 @@ LaTeX Warning: Reference `fig_cycle_otto' on page 1 undefined on input line 280
 .
 
 
-LaTeX Warning: Reference `eq_isentropique_horrible1' on page 339 undefined on i
+LaTeX Warning: Reference `eq_isentropique_horrible1' on page 341 undefined on i
 nput line 281.
 
 
-LaTeX Warning: Reference `eq_isentropique_horrible1' on page 339 undefined on i
+LaTeX Warning: Reference `eq_isentropique_horrible1' on page 341 undefined on i
 nput line 282.
 
 
-LaTeX Warning: Reference `ch_cycles_pistons_reels' on page 339 undefined on inp
+LaTeX Warning: Reference `ch_cycles_pistons_reels' on page 341 undefined on inp
 ut line 284.
 
 
-LaTeX Warning: Reference `ch_turbo' on page 339 undefined on input line 285.
+LaTeX Warning: Reference `ch_turbo' on page 341 undefined on input line 285.
 
 
 LaTeX Warning: Reference `fig_photos_moteur_essence' on page 1 undefined on inp
 ut line 285.
 
 
-LaTeX Warning: Reference `exo_cycle_moteur_diesel' on page 339 undefined on inp
+LaTeX Warning: Reference `exo_cycle_moteur_diesel' on page 341 undefined on inp
 ut line 286.
 
-<images/exo_sol_ts_diesel.png, id=4560, 263.00319pt x 267.47351pt>
+<images/exo_sol_ts_diesel.png, id=4596, 263.00319pt x 267.47351pt>
 File: images/exo_sol_ts_diesel.png Graphic file (type png)
 
 <use images/exo_sol_ts_diesel.png>
@@ -14540,23 +14784,23 @@ Package pdftex.def Info: images/exo_sol_ts_diesel.png used on input line 287.
 (pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
 
 
-LaTeX Warning: Reference `eq_isentropique_horrible1' on page 339 undefined on i
+LaTeX Warning: Reference `eq_isentropique_horrible1' on page 341 undefined on i
 nput line 288.
 
 
-LaTeX Warning: Reference `eq_isentropique_horrible1' on page 339 undefined on i
+LaTeX Warning: Reference `eq_isentropique_horrible1' on page 341 undefined on i
 nput line 291.
 
 
-LaTeX Warning: Reference `ch_cycle_diesel' on page 339 undefined on input line 
+LaTeX Warning: Reference `ch_cycle_diesel' on page 341 undefined on input line 
 297.
 
 
-LaTeX Warning: Reference `ch_cycles_pistons_reels' on page 339 undefined on inp
+LaTeX Warning: Reference `ch_cycles_pistons_reels' on page 341 undefined on inp
 ut line 297.
 
 
-LaTeX Warning: Reference `exo_cycle_turbopropulseur' on page 339 undefined on i
+LaTeX Warning: Reference `exo_cycle_turbopropulseur' on page 341 undefined on i
 nput line 298.
 
 
@@ -14564,30 +14808,30 @@ LaTeX Warning: Reference `fig_turbomoteur' on page 1 undefined on input line 29
 9.
 
 
-LaTeX Warning: Reference `eq_isentropique_horrible2' on page 339 undefined on i
+LaTeX Warning: Reference `eq_isentropique_horrible2' on page 341 undefined on i
 nput line 300.
 
 
-LaTeX Warning: Reference `eq_puissance_compresseur' on page 339 undefined on in
+LaTeX Warning: Reference `eq_puissance_compresseur' on page 341 undefined on in
 put line 300.
 
 
-LaTeX Warning: Reference `eq_isentropique_horrible2' on page 339 undefined on i
+LaTeX Warning: Reference `eq_isentropique_horrible2' on page 341 undefined on i
 nput line 301.
 
 
-LaTeX Warning: Reference `eq_puissance_turbine_gaz' on page 339 undefined on in
+LaTeX Warning: Reference `eq_puissance_turbine_gaz' on page 341 undefined on in
 put line 301.
 
 
-Overfull \hbox (13.17537pt too wide) in paragraph at lines 302--303
+Overfull \hbox (16.70038pt too wide) in paragraph at lines 302--303
 |   \T1/fxl/m/n/10 (-20) 4) $[] \U/ntxmia/m/it/10 = \OMS/ntxsy/m/n/10 ^^@[] \OM
 L/nxlmi/m/it/10 ^^Q[] \T1/fxl/m/n/10 (-20) (\OML/nxlmi/m/it/10 w[] \T1/fxl/m/n/
 10 (-20) + \OML/nxlmi/m/it/10 w[]\T1/fxl/m/n/10 (-20) ) \U/ntxmia/m/it/10 =
  []
 
 
-LaTeX Warning: Reference `exo_cycle_turboreacteur' on page 339 undefined on inp
+LaTeX Warning: Reference `exo_cycle_turboreacteur' on page 341 undefined on inp
 ut line 304.
 
 
@@ -14598,14 +14842,14 @@ LaTeX Warning: Reference `fig_turboréacteur' on page 1 undefined on input line
 LaTeX Warning: Command \textquoteright invalid in math mode on input line 306.
 
 
-LaTeX Warning: Reference `exemple_tuyere' on page 339 undefined on input line 3
+LaTeX Warning: Reference `exemple_tuyere' on page 341 undefined on input line 3
 07.
 
 
-LaTeX Warning: Reference `exo_cf6_generateur_intercooling' on page 339 undefine
+LaTeX Warning: Reference `exo_cf6_generateur_intercooling' on page 341 undefine
 d on input line 310.
 
-<images/exo_sol_ts_intercooler.png, id=4561, 263.00319pt x 267.47351pt>
+<images/exo_sol_ts_intercooler.png, id=4597, 263.00319pt x 267.47351pt>
 File: images/exo_sol_ts_intercooler.png Graphic file (type png)
 
 <use images/exo_sol_ts_intercooler.png>
@@ -14613,22 +14857,22 @@ Package pdftex.def Info: images/exo_sol_ts_intercooler.png used on input line 3
 11.
 (pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
 
-Overfull \hbox (8.39526pt too wide) in paragraph at lines 316--317
+Overfull \hbox (11.92027pt too wide) in paragraph at lines 316--317
 |   \T1/fxl/m/n/10 (-20) 7) $\OML/nxlmi/m/it/10 M[] \U/ntxmia/m/it/10 = [] []$\
 T1/fxl/m/n/10 (-20) , soit une aug-men-ta-tion de [][][];
  []
 
 
-Overfull \hbox (0.88306pt too wide) in paragraph at lines 317--318
+Overfull \hbox (4.40807pt too wide) in paragraph at lines 317--318
 |   \T1/fxl/m/n/10 (-20) 8) La puis-sance aug-mente de [][][], tan-dis que la c
 onsom-ma-tion aug-mente elle de [][][],
  []
 
-) [339
+) [341
 
 
  <./10/images/exo_sol_ts_diesel.png> <./10/images/exo_sol_ts_intercooler.png>] 
-[340
+[342
 
 
 
@@ -14671,7 +14915,7 @@ onsom-ma-tion aug-mente elle de [][][],
 
 Package minitoc Info: I0006
 (minitoc)             amphibook.mtc11 is empty on input line 11.
- [341
+ [343
 
 
 
@@ -14708,7 +14952,7 @@ Package minitoc Info: I0006
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (./a/contenu_blurb_abaques_vapeur.tex) [342
+ (./a/contenu_blurb_abaques_vapeur.tex) [344
 
 
 
@@ -14750,26 +14994,26 @@ Package minitoc Info: I0006
  (./a/contenu_abaques_vapeur.tex
 LaTeX Font Info:    Font shape `TS1/fxl/m/n' will be
 (Font)              scaled to size 12.0pt on input line 3.
- [343
+ [345
 
 
 
-] [344] [345]
+] [346] [347]
 
 Package longtable Warning: Column widths have changed
 (longtable)                in table .1 on input line 296.
 
-[346] [347]
+[348] [349]
 
 Package longtable Warning: Column widths have changed
 (longtable)                in table .2 on input line 721.
 
-[348] [349]
+[350] [351]
 
 Package longtable Warning: Column widths have changed
 (longtable)                in table .3 on input line 1039.
 
-[350])
+[352])
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -14807,7 +15051,7 @@ LaTeX Font Info:    Font shape `T1/fxl/bx/sl' in size <10.95> not available
 (Font)              Font shape `T1/fxl/b/sl' tried instead on input line 6.
 LaTeX Font Info:    Font shape `T1/fxl/b/sl' will be
 (Font)              scaled to size 10.95pt on input line 6.
-) [351
+) [353
 
 
 
@@ -14815,46 +15059,46 @@ LaTeX Font Info:    Font shape `T1/fxl/b/sl' will be
 ]
 (./a/contenu_annexe_conventions.tex
 
-LaTeX Warning: Reference `ch_conventions_compta_sf' on page 352 undefined on in
+LaTeX Warning: Reference `ch_conventions_compta_sf' on page 354 undefined on in
 put line 4.
 
 
-LaTeX Warning: Reference `ch_conventions_compta_so' on page 352 undefined on in
+LaTeX Warning: Reference `ch_conventions_compta_so' on page 354 undefined on in
 put line 4.
 
 
-LaTeX Warning: Reference `ch_conventions_graphiques' on page 352 undefined on i
+LaTeX Warning: Reference `ch_conventions_graphiques' on page 354 undefined on i
 nput line 4.
 
 
-LaTeX Warning: Reference `ch_valeurs_sp\IeC {\'e}cifiques' on page 352 undefine
+LaTeX Warning: Reference `ch_valeurs_sp\IeC {\'e}cifiques' on page 354 undefine
 d on input line 12.
 
-) [352
+) [354
 
-] (./a/contenu_makingof.tex) [353
+] (./a/contenu_makingof.tex) [355
 
 ] (./a/contenu_remix.tex
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
 (Font)              scaled to size 10.95pt on input line 7.
 
 
-LaTeX Warning: Reference `ch_histoire_degre_chaleur_depondt' on page 354 undefi
+LaTeX Warning: Reference `ch_histoire_degre_chaleur_depondt' on page 356 undefi
 ned on input line 15.
 
 
-LaTeX Warning: Reference `ch_histoire_quantite_chaleur_depondt' on page 354 und
+LaTeX Warning: Reference `ch_histoire_quantite_chaleur_depondt' on page 356 und
 efined on input line 15.
 
 
-LaTeX Warning: Reference `ch_histoire_lavoisier_laplace_depondt' on page 354 un
+LaTeX Warning: Reference `ch_histoire_lavoisier_laplace_depondt' on page 356 un
 defined on input line 15.
 
 
-LaTeX Warning: Reference `ch_histoire_rumford_depondt' on page 354 undefined on
+LaTeX Warning: Reference `ch_histoire_rumford_depondt' on page 356 undefined on
  input line 15.
 
-) [354
+) [356
 
 ])
 \openout2 = `a/frame_bibliographie.aux'.
@@ -14894,11 +15138,11 @@ LaTeX Warning: Reference `ch_histoire_rumford_depondt' on page 354 undefined on
 
  (./a/contenu_bibliographie.tex
 
-LaTeX Warning: Citation 'cengeletal2008en' on page 355 undefined on input line 
+LaTeX Warning: Citation 'cengeletal2008en' on page 357 undefined on input line 
 4.
 
 
-LaTeX Warning: Citation 'cengeletal2008fr' on page 355 undefined on input line 
+LaTeX Warning: Citation 'cengeletal2008fr' on page 357 undefined on input line 
 4.
 
 
@@ -14908,11 +15152,11 @@ n-çais : Çen-gel, Boles & La-croix 2007 [],
  []
 
 
-LaTeX Warning: Citation 'eastopetal1993' on page 355 undefined on input line 5.
+LaTeX Warning: Citation 'eastopetal1993' on page 357 undefined on input line 5.
 
 
 
-LaTeX Warning: Citation 'rogersetal1992' on page 355 undefined on input line 5.
+LaTeX Warning: Citation 'rogersetal1992' on page 357 undefined on input line 5.
 
 
 
@@ -14928,51 +15172,51 @@ s ro-buste Ro-gers & May-hew 1992 [[]]);
  []
 
 
-LaTeX Warning: Citation 'watzky2007' on page 355 undefined on input line 6.
+LaTeX Warning: Citation 'watzky2007' on page 357 undefined on input line 6.
 
 
-LaTeX Warning: Citation 'depondt2001' on page 355 undefined on input line 12.
+LaTeX Warning: Citation 'depondt2001' on page 357 undefined on input line 12.
 
 
-LaTeX Warning: Reference `ch_histoire_degre_chaleur_depondt' on page 355 undefi
+LaTeX Warning: Reference `ch_histoire_degre_chaleur_depondt' on page 357 undefi
 ned on input line 12.
 
 
-LaTeX Warning: Reference `ch_histoire_quantite_chaleur_depondt' on page 355 und
+LaTeX Warning: Reference `ch_histoire_quantite_chaleur_depondt' on page 357 und
 efined on input line 12.
 
 
-LaTeX Warning: Reference `ch_histoire_lavoisier_laplace_depondt' on page 355 un
+LaTeX Warning: Reference `ch_histoire_lavoisier_laplace_depondt' on page 357 un
 defined on input line 12.
 
 
-LaTeX Warning: Reference `ch_histoire_rumford_depondt' on page 355 undefined on
+LaTeX Warning: Reference `ch_histoire_rumford_depondt' on page 357 undefined on
  input line 12.
 
 
-LaTeX Warning: Citation 'feynman1963' on page 355 undefined on input line 13.
+LaTeX Warning: Citation 'feynman1963' on page 357 undefined on input line 13.
 
 
-LaTeX Warning: Citation 'feynman1963fr' on page 355 undefined on input line 13.
-
-
-
-LaTeX Warning: Citation 'gaylussac1807' on page 355 undefined on input line 19.
+LaTeX Warning: Citation 'feynman1963fr' on page 357 undefined on input line 13.
 
 
 
-LaTeX Warning: Citation 'joule1845' on page 355 undefined on input line 19.
+LaTeX Warning: Citation 'gaylussac1807' on page 357 undefined on input line 19.
 
 
-LaTeX Warning: Citation 'carnot1824' on page 355 undefined on input line 20.
+
+LaTeX Warning: Citation 'joule1845' on page 357 undefined on input line 19.
 
 
-LaTeX Warning: Citation 'clausius1854' on page 355 undefined on input line 21.
+LaTeX Warning: Citation 'carnot1824' on page 357 undefined on input line 20.
+
+
+LaTeX Warning: Citation 'clausius1854' on page 357 undefined on input line 21.
 
 
 LaTeX Warning: Empty bibliography on input line 26.
 
-) [355
+) [357
 
 
 
@@ -15018,9 +15262,9 @@ LaTeX Font Info:    Font shape `TS1/fxl/m/n' will be
 (Font)              scaled to size 14.4pt on input line 5.
 
 
-LaTeX Warning: Citation 'pambour1835' on page 356 undefined on input line 9.
+LaTeX Warning: Citation 'pambour1835' on page 358 undefined on input line 9.
 
-[356
+[358
 
 
 
@@ -15040,17 +15284,6 @@ Package minitoc(hints) Warning: W0024
 
 Package longtable Warning: Table widths have changed. Rerun LaTeX.
 
-
-./amphibook.tex:70: LaTeX Error: \begin{spacing} on input line 1 ended by \end{
-document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70 \end{document}
-                   
-? 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
 (./amphibook.aux (./a/frame_beginningstuff.aux)
@@ -15089,21 +15322,17 @@ Package logreq Info: Writing requests to 'amphibook.run.xml'.
 \openout1 = `amphibook.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 1 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 58332 strings out of 494719
- 1022086 string characters out of 3175276
- 1520901 words of memory out of 3000000
- 56502 multiletter control sequences out of 15000+200000
- 1301107 words of font info for 1915 fonts, out of 3000000 for 9000
+ 58398 strings out of 494719
+ 1024377 string characters out of 3175276
+ 1521155 words of memory out of 3000000
+ 56556 multiletter control sequences out of 15000+200000
+ 1300525 words of font info for 1910 fonts, out of 3000000 for 9000
  248 hyphenation exceptions out of 8191
- 101i,24n,109p,1504b,3438s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.58} has been referenced b
-ut does not exist, replaced by a fixed one
+ 101i,24n,109p,1504b,2506s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.58} has been referenced but does not ex
+ist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.57} has been referenced but does not exis
 t, replaced by a fixed one
@@ -15299,10 +15528,10 @@ s/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsy5.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/newtx/txsy7.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/txfonts/txsyc.pfb>
-Output written on amphibook.pdf (356 pages, 39643766 bytes).
+Output written on amphibook.pdf (358 pages, 39732061 bytes).
 PDF statistics:
- 5348 PDF objects out of 6186 (max. 8388607)
- 4334 compressed objects within 44 object streams
- 1543 named destinations out of 1728 (max. 500000)
- 174896 words of extra memory for PDF output out of 184870 (max. 10000000)
+ 5384 PDF objects out of 6186 (max. 8388607)
+ 4344 compressed objects within 44 object streams
+ 1545 named destinations out of 1728 (max. 500000)
+ 174956 words of extra memory for PDF output out of 184870 (max. 10000000)
 

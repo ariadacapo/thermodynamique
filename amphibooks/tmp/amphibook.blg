@@ -1,16 +1,16 @@
 [0] Config.pm:300> INFO - This is Biber 0.9.9
 [0] Config.pm:303> INFO - Logfile is 'amphibook.blg'
-[1] biber:145> INFO - === Sun Apr  5, 2015, 20:29:24
+[1] biber:145> INFO - === Wed Apr  8, 2015, 21:26:13
 [1] Biber.pm:271> INFO - Reading 'amphibook.bcf'
-[30] Biber.pm:586> INFO - Found 49 citekeys in bib section 0
-[42] Biber.pm:2585> INFO - Processing bib section 0
-[66] Biber.pm:2677> INFO - Looking for bibtex format file '/home/olivier/aero/global/publishing/latex/sty/thermobib.bib' for section 0
-[69] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
-[93] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
-[93] bibtex.pm:704> INFO - Found BibTeX data source '/home/olivier/aero/global/publishing/latex/sty/thermobib.bib'
-[268] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
-[268] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
-[382] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
-[382] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
-[441] bbl.pm:427> INFO - Writing 'amphibook.bbl' with encoding 'UTF-8'
-[444] bbl.pm:498> INFO - Output to amphibook.bbl
+[23] Biber.pm:586> INFO - Found 49 citekeys in bib section 0
+[34] Biber.pm:2585> INFO - Processing bib section 0
+[57] Biber.pm:2677> INFO - Looking for bibtex format file '/home/olivier/aero/global/publishing/latex/sty/thermobib.bib' for section 0
+[59] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
+[80] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
+[81] bibtex.pm:704> INFO - Found BibTeX data source '/home/olivier/aero/global/publishing/latex/sty/thermobib.bib'
+[249] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
+[249] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
+[371] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
+[372] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
+[430] bbl.pm:427> INFO - Writing 'amphibook.bbl' with encoding 'UTF-8'
+[433] bbl.pm:498> INFO - Output to amphibook.bbl
