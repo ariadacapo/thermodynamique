@@ -202,7 +202,8 @@
 
 		Alors, nous allons pouvoir représenter les évolutions sur un \vocab[diagramme!température-entropie]{diagramme température-entropie}\index{température-entropie, diagramme}. L’aire sous la courbe d’une évolution représentera la chaleur transmise si l’évolution est réversible, mais pas si elle est irréversible, comme montré en \cref{fig_ts_reversible_irreversible}.
 
-		\begin{figure}
+		\onlyamphibook{\begin{figure}}
+		\onlyframabook{\begin{figure}[h!]}
 			\begin{center}
 				\includegraphics[width=8cm]{images/ts_reversible_irreversible.png}
 			\end{center}
@@ -217,7 +218,8 @@
 
 		Lorsque le fluide reçoit ou fournit du travail de façon adiabatique réversible, alors $\Delta s = \int \frac{\diff q}{T} = 0$ puisque l’évolution est réversible et que $\diff q = 0$. Une transformation adiabatique réversible se fait donc à entropie constante --\ elle est iso-entropique, ce que nous appelons \vocab[évolutions!isentropiques]{isentropique}\index{isentropiques, évolutions}. Nous la représenterons ainsi par un trajet vertical sur les diagrammes température-entropie (\cref{fig_ts_basics}).
 
-		\begin{figure}
+		\onlyamphibook{\begin{figure}}
+		\onlyframabook{\begin{figure}[h!]}
 			\begin{center}
 				\includegraphics[width=0.47\textwidth]{images/ts_basics_1.png}
 				\includegraphics[width=0.47\textwidth]{images/ts_basics_2.png}
@@ -237,22 +239,22 @@
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=8cm]{images/ts_cycle.png}
+				\includegraphics[width=6.3cm]{images/ts_cycle.png}
 			\end{center}
 			\supercaption{Cycle thermodynamique au cours duquel de la chaleur a été absorbée, et donc transformée en travail. Lorsque le trajet est effectué dans le sens inverse, de la chaleur est rejetée (et du travail absorbé) par le fluide.}{schéma \cczero \oc}
 			\label{fig_ts_cycle}
 		\end{figure}
 
-		\clearfloats
+		\onlyamphibook{\clearfloats}
 		Enfin, nous notons avec joie que le cycle de Carnot, constitué de deux phases isothermes ($T = \text{cste}$) séparées par deux phases isentropiques ($s = \text{cste}$), gagne beaucoup à être représenté sur un diagramme température-entropie, comme montré en \cref{fig_ts_carnot}.
 
 		\begin{figure}[htb]%handmade
 			\begin{center}
-				\includegraphics[width=0.49\textwidth]{images/pv_carnot_gp.png}
-				\includegraphics[width=0.49\textwidth]{images/pv_carnot_lv.png}
-				\vspace{1cm}
+				\includegraphics[width=6.3cm]{images/pv_carnot_gp.png}
+				\includegraphics[width=6.3cm]{images/pv_carnot_lv.png}
+				\vspace{0.5cm}
 				
-				\includegraphics[width=8cm]{images/ts_carnot.png}
+				\includegraphics[width=6.3cm]{images/ts_carnot.png}
 			\end{center}
 			\supercaption{Cycle moteur de Carnot, sur un diagramme $p-v$ pour un gaz parfait (gauche), sur un diagramme $p-v$ pour un liquide-vapeur (droite), et sur un diagramme $T-s$ (bas). Quel que soit le fluide utilisé, le diagramme température-entropie reste le même.}{schéma \cczero \oc}
 			\label{fig_ts_carnot}
@@ -310,7 +312,8 @@
 
 		Ces deux équations~\ref{eq_delta_s_gp_vcst} et~\ref{eq_delta_s_gp_pcste} nous permettent de tracer des courbes isochores (à volume constant) et isobares (à pression constante) pour un gaz parfait sur un diagramme $T-s$, comme montré en \cref{fig_ts_gp_isobares_isochores}.
 
-		\begin{figure}
+		\onlyamphibook{\begin{figure}}
+		\onlyframabook{\begin{figure}[h!]}
 			\begin{center}
 				\includegraphics[width=8cm]{images/ts_gp_isobares_isochores.png}
 			\end{center}
@@ -318,7 +321,7 @@
 			\label{fig_ts_gp_isobares_isochores}
 		\end{figure}
 
-		\clearfloats
+		\clearfloats\onlyframabook{\clearpage}
 		\begin{anexample}
 			Quelle est la variation d’entropie spécifique d’une masse de~\SI{2}{\kilogram} d’air, lorsqu’elle est chauffée à pression constante de~\SI{2}{\bar}, depuis \SI{10}{\degreeCelsius} jusqu’à~\SI{100}{\degreeCelsius} ?
 			
@@ -489,7 +492,7 @@
 		\end{anexample}
 
 
-
+\onlyframabook{\clearpage}
 \section{Prédire le sens des transformations}
 
 	Nous voilà au concept central qui a ouvert les portes de la physique à la thermodynamique. À partir des quantifications des variations d’entropie, nous sommes capables de décrire le sens des transformations, c’est-à-dire de prouver par exemple qu’un état B vient \emph{après} un état A.
@@ -539,13 +542,14 @@
 			\label{fig_expérience_création_entropie_t-s}
 		\end{figure}
 
-		\thermoquotebegin{0}
+		\onlyframabook{\clearfloats}%handmade
+		\onlyamphibook{\thermoquotebegin{O}}\onlyframabook{\thermoquotetopbegin{O}}
 			\emph{Partout où il existe une différence de température, il peut y avoir production de puissance motrice}. Réciproquement partout où l’on peut consommer de cette puissance, il est possible de faire naître une différence de température, il est possible d’occasioner une rupture d’équilibre dans le calorique.
 		\thermoquoteend{Sadi Carnot, 1824~\cite{carnot1824}}{}		
 		Tout gradient de température donne lieu à une irréversibilité, et se traduit par une augmentation de l’entropie totale. \\
 		On peut se représenter un flux de chaleur entre deux sources de températures différentes par une opportunité perdue de produire un travail -- ce qui sera sans doute source d’anxiété pour l’étudiant/e comme pour l’ingénieur/e. En plaçant une machine de Carnot entre les corps A et B, aucune irréversibilité n’aurait eu lieu et $\diff s_{[A+B]}$ serait nul. En plaçant une machine thermique de faible rendement, $\diff s_{[A+B]}$ serait faible ; le cas ci-dessus où le transfert de chaleur se fait sans machine est le cas limite où aucun travail n’est produit.
 		
-		\dontbreakpage%handmade
+		\onlyamphibook{\dontbreakpage}%handmade
 
 	\subsection{Irréversibilités lors des compressions et détentes adiabatiques}
 
@@ -553,14 +557,14 @@
 
 		En pratique, toute détente ou compression se fait en présence d’irréversibilités internes. Comme la durée de l’évolution est finie (contrairement aux évolutions prescrites par Carnot), il y aura nécessairement des déséquilibres de pression au sein du fluide. Ces déséquilibres font apparaître de la turbulence interne, qui provoque la transformation d’énergie cinétique en chaleur, par frottement.
 
-		Ainsi, une compression adiabatique réelle provoque plus d’échauffement du fluide qu’une compression adiabatique réversible (\cref{fig_t-s_détentes_compressions}) : une partie du travail fourni est entièrement convertie en chaleur, au travers des frottements internes.
-
-		Par le même phénomène, une détente adiabatique réelle abaisse moins la température qu’une détente adiabatique réversible. À chaque fois, l’entropie est augmentée bien qu’aucun transfert de chaleur $\diff q$ n’ait eu lieu.
+		Ainsi, une compression adiabatique réelle provoque plus d’échauffement du fluide qu’une compression adiabatique réversible (\cref{fig_t-s_détentes_compressions}) : une partie du travail fourni est entièrement convertie en chaleur, au travers des frottements internes. Par le même phénomène, une détente adiabatique réelle abaisse moins la température qu’une détente adiabatique réversible. À chaque fois, l’entropie est augmentée bien qu’aucun transfert de chaleur $\diff q$ n’ait eu lieu.
 		
-		\begin{figure}
+		\onlyamphibook{\begin{figure}}
+		\onlyframabook{\begin{figure}[h!]}
 			\begin{center}
-				\includegraphics[width=0.48\textwidth]{images/ts_gp_detente.png}
-				\includegraphics[width=0.48\textwidth]{images/ts_gp_compression.png}
+				\includegraphics[width=0.4\textwidth]{images/ts_gp_detente.png}
+				\includegraphics[width=0.4\textwidth]{images/ts_gp_compression.png}
+				\onlyframabook{\vspace{-0.5cm}}%handmade
 			\end{center}
 			\supercaption{Détente et compression adiabatiques théoriques (isentropiques, traits continus)
 		et réelles (traits pointillés).\\
@@ -636,7 +640,7 @@
 					Nous avons donc $\Delta s > \int_X^Y \left(\frac{\diff q}{T}\right)_\text{chemin réel}$ et l’évolution est irréversible. Si nous voulions revenir en arrière, de $Y$ à $X$, nous serions obligés de retirer de la chaleur.
 					
 					L’évolution peut être représentée de façon qualitative sur un diagramme $T-s$ ainsi :
-						\begin{center}\includegraphics[width=4cm]{images/exe_ts_7.png}\end{center}
+						\begin{center}\onlyframabook{\vspace{-0.1cm}}\includegraphics[width=3.5cm]{images/exe_ts_7.png}\onlyframabook{\vspace{0.1cm}}\end{center}
 				\end{answer}
 		\end{anexample}
 
@@ -666,6 +670,7 @@
 				\end{answer}
 		\end{anexample}
 
+\onlyframabook{\clearpage}
 \section{L’entropie, le temps, et l’univers}
 
 	\subsection{L’entropie pour l’ingénieur}
