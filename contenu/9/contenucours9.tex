@@ -20,7 +20,7 @@
 
 	Ainsi, la quasi-totalité des moteurs pour lesquels l’apport de chaleur ne peut être fait à l’intérieur de l’air fonctionne avec de l’eau. Ces sources de chaleur rendant difficile leur utilisation dans les transports, il s’agit le plus souvent d’installations statiques utilisées pour générer du courant électrique : une configuration qui permet d’importantes économies d’échelle dans le stockage et le transport de l’énergie. L’ensemble de ces facteurs justifie le développement de centrales à vapeur de plusieurs \si{gigawatts} électriques de puissance ($\SI{1}{\giga\watt} = \SI{e9}{\watt}$), ce qui fait d’elles les moteurs thermiques les plus puissants au monde.
 
-
+\onlyframabook{\clearpage}
 \section{Critères d’évaluation des moteurs}
 \label{ch_evaluation_moteurs_vapeur}
 
@@ -50,8 +50,7 @@
 		
 		L’efficacité d’un moteur n’est pas le seul paramètre dont nous tenons compte dans l’évaluation économique de son utilisation : les coûts associés à son entretien ou à la supervision de son opération, et bien sûr les frais d’acquisition, sont également déterminants. Ces dépenses ne sont calculables que si nous rentrons dans des détails technologiques qui dépassent le cadre de notre étude de la thermodynamique.
 		
-		\onlyamphibook{\thermoquotebegin{O}}
-		\onlyframabook{\thermoquotetopbegin{O}}
+		\thermoquotebegin{O}
 			\jecourte La charge convenable à la production du maximum \emph{absolu} d’effet utile, dans les machines à détente, n’est pas la charge maximum dont est capable la machine. \jecourte Si l’on veut que la machine mette en mouvement la plus grande charge dont elle est capable, il faut la faire travailler sans détente ; mais cette charge n’est pas celle qui produit le maximum \emph{absolu} d’effet utile.
 		\thermoquoteend{François-Marie Guyonneau de Pambour, 1839~\cite{pambour1839}}{\onlyframabook{\vspace{-1em}}}%handmade
 		Malgré cela, nous pouvons déjà évaluer de façon primitive la taille et le coût d’acquisition d’un moteur en calculant sa \vocab[puissance!nette spécifique]{puissance nette spécifique} $w_\net$. Pour qu’il puisse être peu encombrant, il est en effet souhaitable qu’un moteur génère une puissance nette importante pour un débit de masse donné : il peut même être souhaitable de compromettre pour cela l’efficacité thermique.
@@ -129,19 +128,19 @@
 
 		\begin{figure}
 			\begin{center}
+				\includegraphics[height=3cm]{images/symbole_pompe.png}
+			\end{center}
+			\supercaption{Schéma de principe d’une pompe à eau.}{schéma \cczero \oc}
+			\label{fig_centrale_pompe2}
+		\end{figure}
+
+		\begin{figure}
+			\begin{center}
 				\includegraphics[height=8cm]{images/centrale_pompe_photo.jpg}
 			\end{center}
 			\supercaption{Photo d’une pompe du fabricant \textsc{ksb} menant \SI{2500}{\tonne\per\hour} d’eau à~\SI{350}{\bar} dans une centrale à vapeur.\\
 			Les pompes à liquide sont usuellement alimentées par un moteur électrique, mais ce modèle est alimenté mécaniquement par la turbine et doit ainsi fonctionner sur une plus grande plage de vitesses. Sa puissance maximale est de~\SI{38}{\mega\watt} ; la puissance de la turbine entraînée dépasse \SI{800}{\mega\watt}.}{Photo \ccbysa \wcfile{Kesselspeisepumpe Kraftwerk Niederaussem.jpg}{KSB Aktiengesellschaft, Frankenthal}}
 			\label{fig_centrale_pompe1}
-		\end{figure}
-
-		\begin{figure}
-			\begin{center}
-				\includegraphics[height=3cm]{images/symbole_pompe.png}
-			\end{center}
-			\supercaption{Schéma de principe d’une pompe à eau.}{schéma \cczero \oc}
-			\label{fig_centrale_pompe2}
 		\end{figure}
 
 		La puissance spécifique requise pour comprimer un débit de fluide d’une pression $p_A$ à une pression $p_B$, lorsque l’évolution est réversible, s’exprime à partir de la relation \ref{eq_travail_w_rév_so}. Comme le volume massique $v_L$  de l’eau liquide pure saturée (environ $v_L = \SI{1e-3}{\metre\cubed\per\kilogram}$) varie très peu avec sa pression, nous pouvons écrire :
@@ -152,6 +151,7 @@
 			\item dans le cas d’une pompe approximativement réversible et fonctionnant avec de l’eau liquide.
 		\end{description}
 
+			\onlyframabook{\clearfloats}
 		 	\begin{anexample}
 		 	\label{exemple_pompe_centrale}
 		 		Dans une centrale, une pompe est alimentée par un débit de~\SI{35}{\kilogram\per\second} d’eau liquide saturée à~\SI{0,5}{\bar}. L’eau est comprimée de façon approximativement isentropique jusqu’à \SI{40}{\bar}. Quelle est la puissance consommée ?
@@ -209,6 +209,30 @@
 
 		La turbine (figures~\ref{fig_centrale_turbine1} et~\ref{fig_centrale_turbine2}) est la pièce maîtresse de toute centrale à vapeur. Longue de plusieurs dizaines de mètres dans les installations modernes, elle est équilibrée avec grand soin, mise en place dans son coffrage et, si elle fait l’objet d’attention adéquate (minimisation des gradients de température, lubrification avancée), peut délivrer de la puissance mécanique pendant plusieurs dizaines d’années sans aucune interruption.
 
+\onlyframabook{%handmade niveau "tu veux pas savoir"
+%\begin{landscape}
+\begin{minipage}[b]{0.45\linewidth}
+	\begin{center}
+			\includegraphics[height=9cm]{images/centrale_turbine_photo.jpg}
+		\end{center}
+	\captionsetup{singlelinecheck=off}
+   \captionof{figure}[ding-dong]{Turbine d’une centrale à vapeur de taille moyenne.\\
+		Au fur et à mesure que l’eau traverse la turbine, elle perd de l’énergie sous forme de travail et son volume spécifique augmente, ce qui nécessite des pales toujours plus grandes.\begin{credits}\wcfile{SteamTurbine.jpg}{Photo} \ccbysa MAN SE\end{credits}}
+		\label{fig_centrale_turbine1}
+
+\end{minipage}\hspace{1cm}%
+\begin{minipage}[b]{0.45\linewidth}
+	\begin{center}
+		\includegraphics[width=4cm]{images/symbole_turbine.png}
+	\end{center}
+	\captionsetup{singlelinecheck=off}
+   \captionof{figure}[ding-dong]{Représentation schématique d’une turbine à vapeur.\begin{credits}schéma \ccbysa \olivier\end{credits}}
+	\label{fig_centrale_turbine2}\vspace{1.25cm}
+\end{minipage}\vspace{0.5cm}
+%\end{landscape}
+}%fin onlyframabook
+
+\onlyamphibook{%handmade aaaaannnnnd... this is how it’s done:
 		\begin{figure}
 			\begin{center}
 				\includegraphics[height=9cm]{images/centrale_turbine_photo.jpg}
@@ -225,7 +249,7 @@
 			\supercaption{Représentation schématique d’une turbine à vapeur.}{schéma \ccbysa \olivier}
 			\label{fig_centrale_turbine2}
 		\end{figure}
-		
+}%fin onlyamphibook
 
 		L’efficacité d’une turbine se mesure en comparant sa puissance avec celle d’une turbine idéale (une turbine qui serait isentropique). Nous nommons ce paramètre l’\vocab[efficacité!isentropique]{efficacité isentropique}\index{turbine!efficacité isentropique}\index{isentropique, efficacité} $\eta_\text{T}$ :
 		\begin{equation}
@@ -253,19 +277,29 @@
 			Une turbine d’efficacité isentropique \SI{85}{\percent} reçoit \SI{35}{\kilogram\per\second} d’eau à~\SI{40}{\bar} et~\SI{600}{\degreeCelsius}. Elle détend l’eau jusqu’à \SI{0,5}{\bar}. Quelle est la puissance développée ?
 				\begin{answer}
 					L’évolution peut être représentée de façon qualitative sur un diagramme température-entropie ainsi :
-						\begin{center}\includegraphics[width=4cm]{images/exe_ts_turbine.png}\end{center}
-					Nous commençons par imaginer que nous sommes dotés --\ irrépressible fantasme de thermodynamicien/ne !-- d’une turbine isentropique entre ces deux mêmes pressions. Dans l’abaque~n°1 à~\SI{4}{\mega\pascal}, nous lisons $h_\A = \SI{3674,9}{\kilo\joule\per\kilogram}$ et $s_\A = \SI{7,3705}{\kilo\joule\per\kelvin\per\kilogram}$. La vapeur à la sortie de cette turbine hypothétique (en B’) a la même entropie : $s_{\B’} = s_\A$, et nous constatons que $s_{\B’} < s_{V \SI{0,05}{\mega\pascal}}$ : l’eau est partiellement condensée. Le calcul du titre (\S\ref{ch_melange_liquide_vapeur}) nous permet de calculer la valeur de son enthalpie : $h_{\B’} = h_{L \SI{0,05}{\mega\pascal}} + \frac{s_{\B’} - s_{L \SI{0,05}{\mega\pascal}}}{s_{LV \SI{0,05}{\mega\pascal}}} h_{LV \SI{0,05}{\mega\pascal}} = \SI{2566,3}{\kilo\joule\per\kilogram}$.
+						\begin{center}\onlyframabook{\vspace{-0.2cm}}\includegraphics[width=4cm]{images/exe_ts_turbine.png}\onlyframabook{\vspace{-0.2cm}}\end{center}
+					Nous commençons par imaginer que nous sommes dotés --\ irrépressible fantasme de thermodynamicien/ne !\ -- d’une turbine isentropique entre ces deux mêmes pressions. Dans l’abaque~n°1 à~\SI{4}{\mega\pascal}, nous lisons $h_\A = \SI{3674,9}{\kilo\joule\per\kilogram}$ et $s_\A = \SI{7,3705}{\kilo\joule\per\kelvin\per\kilogram}$. La vapeur à la sortie de cette turbine hypothétique (en B’) a la même entropie : $s_{\B’} = s_\A$, et nous constatons que $s_{\B’} < s_{V \SI{0,05}{\mega\pascal}}$ : l’eau est partiellement condensée. Le calcul du titre (\S\ref{ch_melange_liquide_vapeur}) nous permet de calculer la valeur de son enthalpie : $h_{\B’} = h_{L \SI{0,05}{\mega\pascal}} + \frac{s_{\B’} - s_{L \SI{0,05}{\mega\pascal}}}{s_{LV \SI{0,05}{\mega\pascal}}} h_{LV \SI{0,05}{\mega\pascal}} = \SI{2566,3}{\kilo\joule\per\kilogram}$.
 					
 					Le retour à la réalité est douloureux : la turbine réelle ne développe que \SI{85}{\percent} de la puissance de cette turbine hypothétique, ainsi $\dot{W}_\text{turbine réelle} = \dot{m} \ \eta_\text{T} \ (h_{\B’} - h_\A) = \num{35} \times \num{0,85} \times (\num{2566,3e3} - \num{3674,9e3}) = \SI{-32 980}{\kilo\watt} = \SI{-32,98}{\mega\watt}$.
 						\begin{remark}L’\cref{eq_puissance_turbine_vapeur} nous permet de calculer l’enthalpie $h_\B$ réellement obtenue la sortie de la turbine : $h_\B = \frac{\dot W_\text{turbine}}{\dot m} + h_\A = \SI{2732,6}{\kilo\joule\per\kilogram}$, ce qui est très utile pour calculer ensuite la puissance du condenseur. Un coup d’œil à l’abaque~n°2 nous montre que $h_\B > h_{V \SI{0,05}{\mega\pascal}}$ : la vapeur est donc sèche tout le long de sa détente.\end{remark}
 						\begin{remark}Les \SI{15}{\percent} de puissance manquants dans l’arbre mécanique de la turbine sont transférés sous forme de chaleur et turbulence à l’eau pendant sa détente dans la turbine.\end{remark}
 						\begin{remark}La puissance de la turbine est deux cents fois plus importante que la puissance consommée par la pompe de l’exemple~\ref{exemple_pompe_centrale} p.\pageref{exemple_pompe_centrale} entre ces deux mêmes pressions.\end{remark}
 				\end{answer}
+				\onlyframabook{\vspace{-0.4cm}}
 		\end{anexample}
 
 	\subsection{Condenseur}
 
 		Le condenseur (figures~\ref{fig_centrale_condenseur1} et~\ref{fig_centrale_condenseur2}), composant le moins glorieux de l’installation, est en charge de rejeter toute la chaleur dont l’ingénieur/e ne sait plus faire usage (\S\ref{ch_second_principe_machines_thermiques}). L’eau y est toujours refroidie à pression constante, ce qui ne nécessite pas de pièce mobile.
+
+		\begin{figure}
+			\begin{center}
+				\includegraphics[width=3.5cm]{images/symbole_condenseur.png}
+			\end{center}
+			\supercaption{Représentation schématique d’un condenseur.\\
+			L’eau du circuit thermodynamique y pénètre par le haut, dans un état proche de la vapeur saturée. Elle en ressort par le bas à l’état liquide. L’extraction de chaleur est usuellement assurée par un circuit d’eau secondaire (schématisé en bleu) qui, elle, est mise en contact avec l’atmosphère.}{schéma \ccbysa \olivier}
+			\label{fig_centrale_condenseur2}
+		\end{figure}
 
 		\begin{figure}
 			\begin{center}
@@ -277,19 +311,10 @@
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=0.7\textwidth]{images/cooling_towers.jpg}
+				\includegraphics[width=0.6\textwidth]{images/cooling_towers.jpg}
 			\end{center}
 			\supercaption{Cheminées de refroidissement de la centrale à charbon de Eggborough (1967, \SI{1960}{\mega\watt}) au Royaume-Uni. Dans ces cheminées, la chaleur prélevée à l’eau du circuit dans le condenseur est évacuée dans l’atmosphère. Ce refroidissement est effectué au moyen d’un circuit d’eau secondaire, qui est mis en contact avec l’atmosphère et s’y évapore partiellement.}{\wcfile{Eggborough cooling towers ^1 - geograph.org.uk - 844420.jpg}{Photo} \ccbysa \href{http://www.geograph.org.uk/profile/15341}{Steve Fareham}}
 			\label{fig_centrale_condenseur1}
-		\end{figure}
-
-		\begin{figure}
-			\begin{center}
-				\includegraphics[width=3.5cm]{images/symbole_condenseur.png}
-			\end{center}
-			\supercaption{Représentation schématique d’un condenseur.\\
-			L’eau du circuit thermodynamique y pénètre par le haut, dans un état proche de la vapeur saturée. Elle en ressort par le bas à l’état liquide. L’extraction de chaleur est usuellement assurée par un circuit d’eau secondaire (schématisé en bleu) qui, elle, est mise en contact avec l’atmosphère.}{schéma \ccbysa \olivier}
-			\label{fig_centrale_condenseur2}
 		\end{figure}
 
 		Technologiquement, le condenseur est un élément simple : on met simplement la canalisation de vapeur en contact avec un circuit de température basse. Usuellement, ce circuit de refroidissement est constitué d’eau extérieure provenant d’une rivière ou de la mer,\footnote{Il y a deux intérêts à l’utilisation d’un circuit de refroidissement secondaire. D’une part, on peut abaisser la pression dans le condenseur à un niveau plus bas que celui de la pression atmosphérique et ainsi réduire la température minimale du cycle. D’autre part, l’eau du circuit thermodynamique, épurée au prix d’efforts considérables, n’est pas perdue dans l’atmosphère.}
@@ -459,24 +484,31 @@
 
 		En pratique hélas, un tel dispositif est difficile à réaliser. En effet, la transmission réversible de chaleur est complexe à mettre en place dans la turbine, élément dont la conception et la fabrication sont déjà très coûteuses. De plus, le refroidissement de la vapeur réduit son titre, augmentant la quantité d’eau liquide érodant les pièces de la turbine.
 
-		Pour mettre en place la régénération, on a donc recours à la technique de \vocab[turbine!prélèvement]{\mbox{prélèvement} turbine}. De la vapeur est ponctionnée depuis la turbine, et mélangée à l’eau liquide en sortie de pompe (figures~\ref{fig_cycle_prélèvement_vapeur} et~\ref{fig_ts_lv_prelevement_vapeur}). On obtient ainsi un transfert de chaleur qu’il est aisé de mettre en œuvre.
+		\clearpage
+		Pour mettre en place la régénération, on a donc recours à la technique de \vocab[turbine!prélèvement]{\mbox{prélèvement} turbine}. De la vapeur est ponctionnée depuis la turbine, et mélangée à l’eau liquide en sortie de pompe (figures~\ref{fig_cycle_prélèvement_vapeur} et~\ref{fig_ts_lv_prelevement_vapeur}). On obtient ainsi un transfert de chaleur plus facile à mettre en œuvre.
 
-		\begin{figure}
+		\onlyamphibook{\begin{figure}}
+		\onlyframabook{\begin{figure}[h!]}
 			\begin{center}
+				\onlyframabook{\vspace{-0.5cm}}
 				\includegraphics[height=11cm]{images/circuit_prelevement.png}
+				\onlyframabook{\vspace{-0.5cm}}
 			\end{center}
 			\supercaption{Circuit d’une centrale à vapeur avec prélèvement de vapeur. La vapeur extraite prématurément de la turbine est utilisée pour réchauffer l’eau liquide pendant le pompage.}{schéma \ccbysa \olivier}
 			\label{fig_cycle_prélèvement_vapeur}
 		\end{figure}
-
-		\begin{figure}
+		\onlyamphibook{\begin{figure}}
+		\onlyframabook{\begin{figure}[h!]}
 			\begin{center}
+				\onlyframabook{\vspace{-0.5cm}}
 				\includegraphics[width=10cm]{images/ts_lv_prelevement.png}
+				\onlyframabook{\vspace{-0.5cm}}
 			\end{center}
-			\supercaption{Diagramme température-entropie d’une centrale à vapeur avec prélèvement de vapeur.}{schéma \cczero \oc}
+			\supercaption{Diagramme température-entropie d’une centrale avec prélèvement de vapeur.}{schéma \cczero \oc}
 			\label{fig_ts_lv_prelevement_vapeur}
 		\end{figure}
 
+		\clearfloats
 		En pratique, de nombreux prélèvements\index{turbine!prélèvement}\index{prélèvements turbine} (judicieusement appelés \vocabe{bleeds}, ou «~saignements~» en anglais) sont effectués dans les circuits de centrale à vapeur, pour contrôler les flux de chaleur (\cref{fig_grosse_centrale_vapeur}). Ils permettent accessoirement, par le biais de vannes de décharge, de réguler précisément les débits de masse et adapter ainsi rapidement la puissance de l’installation à la demande.
 
 		\begin{landscape}
