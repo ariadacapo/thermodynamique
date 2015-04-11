@@ -1,14 +1,16 @@
 \section{Ébullition et liquéfaction}
 
 	\subsection{Qu’est-ce qu’un liquide ?}
+	\index{liquide!définition}
 	
 		Un liquide est un fluide (c’est-à-dire un corps sans forme définie) dont les molécules sont très rapprochées, mais libres de se déplacer les unes par rapport aux~autres.
 	
 		\thermoquotebegin{O}
 La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit le même office que dans le chauffage des bains par la vapeur, à l’exception que dans le cas où nous sommes son mouvement est rendu utile.
-		\thermoquoteend{Sadi Carnot, 1824}{\textit{Réflexions sur la puissance motrice du feu et des machines propres à développer cette puissance}~\cite{carnot1824}}
+		\thermoquoteend{Sadi Carnot, 1824}{\textit{Réflexions sur la puissance motrice du feu et des machines propres à développer cette puissance}~\cite{carnot1824}\index{Carnot!Sadi}}
 		Concrètement, on obtient un liquide à partir d’un gaz en ralentissant et rapprochant ses molécules. Il n’y a pas de réaction chimique en jeu. Ainsi, de l’eau liquide et de la vapeur d’eau sont constituées de la même matière (des mêmes molécules) : elle est seulement assemblée différemment.
 		
+		\index{tension de surface}
 		Par rapport aux gaz, les liquides présentent deux différences importantes :
 			\begin{itemize}
 				\item Ils sont pratiquement \vocab[incompressibilité]{incompressibles}, c’est-à-dire que leur volume spécifique~$v$ varie très peu lorsqu’on les compresse\footnote{Piège classique, le terme \emph{incompressible} ne veut pas dire que la pression est constante ou uniforme (bien au contraire). Il signifie seulement que le volume spécifique $v$ (et \textit{de facto} la masse volumique $\rho$) restent constants.} ;
@@ -37,6 +39,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 		
 		
 	\subsection{Comment se représenter la liquéfaction et l’ébullition ?}
+	\index{liquéfaction}\index{ébullition}\index{phase, changements de}
 		
 		Lorsque nous avions exploré le modèle du gaz parfait en \S\ref{ch_gaz_parfait_kezako}, nous nous étions représentés les molécules comme de très petites boules de billard en mouvement chaotique, se percutant sans jamais s’attirer (\cref{fig_gaz_boules}). En réalité, les molécules sont soumises à des forces d’attraction respectives qui affectent beaucoup leur comportement.
 		
@@ -84,15 +87,17 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 
 \onlyframabook{\clearpage}
 \section{Description qualitative des propriétés de l’eau}
+\index{eau!description qualitative des propriétés}
 
 
 	\subsection{Les limites du gaz parfait}
+	\index{gaz parfait!limites de validité}
 
 		\thermoquotebegin{O}
 		Les gaz font preuve dans leur comportement, en particulier dans les relations de volume, température et de pression exprimées par les lois de Mariotte et Gay-lussac, de tant de régularité qu’ils nous amènent à la notion que l’attraction mutuelle des particules, qui a lieu dans les corps solides et fluides, est annulée dans leur cas ; de sorte que bien qu’avec les solides et liquides la chaleur nécessaire à provoquer une expansion doit surmonter une résistance interne et une résistance externe, seule la seconde a un effet dans le cas des gaz.
-		\thermoquoteend{Rudolf Clausius, 1850~\mbox{\cite{clausius1850, clausius1850en, clausius1868fr1}}}{\vspace{3em}} %handmade vspace
+		\thermoquoteend{Rudolf Clausius, 1850~\mbox{\cite{clausius1850, clausius1850en, clausius1868fr1}}}{\vspace{3em}\index{Clausius!Rudolf}} %handmade vspace
 		
-		Au fur et à mesure que l’on ralentit et rapproche les molécules d’un gaz les unes des autres, le modèle du gaz parfait décrit de plus en plus mal ses propriétés. On observe un seuil en dessous duquel on observe la liquéfaction et l’ébullition, c’est-à-dire la coexistence des deux phases liquide et gazeuse ; ce seuil est décrit en termes de température et de pression qui sont dites \vocab[critiques, pression et température]{critiques}\index{température!critique}\index{pression!critique}. Les températures et pressions critiques de quelques fluides courants sont indiquées dans le \cref{tab_exemples_températures_pressions_critiques}. Notons que l’air, mélange de plusieurs gaz, verra différentes substances de sa composition se condenser à différentes températures.
+		Au fur et à mesure que l’on ralentit et rapproche les molécules d’un gaz les unes des autres, le modèle du gaz parfait décrit de plus en plus mal ses propriétés. On observe un seuil en dessous duquel on observe la liquéfaction et l’ébullition, c’est-à-dire la coexistence des deux phases liquide et gazeuse ; ce seuil est décrit en termes de température et de pression qui sont dites \vocab[critique, pression]{critiques}\index{critique, température}\index{température!critique}\index{pression!critique}. Les températures et pressions critiques de quelques fluides courants sont indiquées dans le \cref{tab_exemples_températures_pressions_critiques}. Notons que l’air, mélange de plusieurs gaz, verra différentes substances de sa composition se condenser à différentes températures.
 
 		\onlyamphibook{\begin{table}}
 		\onlyframabook{\begin{table}[h!]}
@@ -120,7 +125,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 
 
 	\subsection{Le diagramme température-volume ($T$-$v$)}
-	\label{ch_lv_diagramme_tv}
+	\label{ch_lv_diagramme_tv}\index{température-volume, diagramme}\index{diagramme!température-volume}
 
 		Observons la température et le volume d’une masse d’eau pure que l’on chauffe continûment, alors qu’elle est placée dans un récipient à pression constante (\cref{fig_changement_phase}). On mesure alors la température de l’eau en fonction de son volume (\cref{fig_T-v_construction_1}).
 
@@ -148,18 +153,18 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 
 		\onlyamphibook{\thermoquotebegin{O}}\onlyframabook{\thermoquotetopbegin{O}}
 		La vapeur peut être considérée à l’instant même de sa formation dans la chaudière, et encore en contact avec le liquide dont elle émane, ou bien séparée de ce même liquide ; et selon chacun de ces cas, ses propriétés sont différentes.
-		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1839}{\textit{Théorie de la machine à vapeur}~\cite{pambour1839}\vspace{-1em}}%handmade
+		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1839\index{Pambour, François-Marie Guyonneau de}}{\textit{Théorie de la machine à vapeur}~\cite{pambour1839}\vspace{-1em}}%handmade
 
 		Puis, soudainement, alors que le volume continue de croître, la température cesse d’augmenter. Le mélange dans le cylindre est alors di-phasique : une partie est liquide, et l’autre gazeuse. L’ajout de chaleur ne provoque aucune augmentation de température (contrairement à un gaz parfait), mais seulement la transformation de liquide en vapeur : c’est l’ébullition.
 
-		Dans cet état, la substance est appelée \vocab{mélange liquide-vapeur}\index{liquide-vapeur, mélange}\footnote{Rigoureusement, le mélange est nommé \vocab{mélange liquide-vapeur saturé}\index{saturé, mélange liquide-vapeur}, puisqu’il est composé de \vocab[liquide!saturé]{liquide saturé}\index{saturé, liquide} (parfois dit \vocab[liquide!saturant]{saturant}\index{saturant, liquide}) et de \vocab[vapeur!saturée]{vapeur saturée}\index{saturée, vapeur} (parfois dite \vocab[vapeur!saturante]{saturante}\index{saturante, vapeur}). En anglais : \vocabe{wet~vapour}.}\nolinebreak.
+		Dans cet état, la substance est appelée \vocab{mélange liquide-vapeur}\index{liquide-vapeur, mélange}\footnote{Rigoureusement, le mélange est nommé \vocab[mélange liquide-vapeur!saturé]{mélange liquide-vapeur saturé}\index{saturé, mélange liquide-vapeur}, puisqu’il est composé de \vocab[liquide!saturé]{liquide saturé}\index{saturé, liquide} (parfois dit \vocab[liquide!saturant]{saturant}\index{saturant, liquide}) et de \vocab[vapeur!saturée]{vapeur saturée}\index{saturée, vapeur} (parfois dite \vocab[vapeur!saturante]{saturante}\index{saturante, vapeur}). En anglais : \vocabe{wet~vapour}.}\nolinebreak.
 
 		Enfin, lorsque la dernière goutte de liquide a été transformée en vapeur, la température reprend son augmentation au fur et à mesure que l’on apporte de la chaleur. Le fluide est alors dans un état dit de \vocab[vapeur!sèche]{vapeur sèche}\footnote{\vocab[vapeur!sèche]{Vapeur sèche} ou \vocab[vapeur!surchauffée]{surchauffée}\index{surchauffée, vapeur}.}\nolinebreak.%(en anglais : \vocabe{superheated} ou \vocabe{dry vapour})
 
 		\clearfloats %handmade
 		\onlyamphibook{\thermoquotetopbegin{O}}\onlyframabook{\thermoquotebegin{O}}%handmade
 		L’eau ne pouvant se vaporiser sous une haute pression qu’en vertu d’une température plus élevée, on a lieu de penser que, toutes circonstances égales d’ailleurs, la machine doit être capable de vaporiser moins d’eau sous une pression plus considérable.
-		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1835}{\textit{Traité théorique et pratique des machines locomotives}~\cite{pambour1835}\onlyamphibook{\vspace{4em}}\onlyframabook{\vspace{1em}}} %handmade vspace
+		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1835\index{Pambour, François-Marie Guyonneau de}}{\textit{Traité théorique et pratique des machines locomotives}~\cite{pambour1835}\onlyamphibook{\vspace{4em}}\onlyframabook{\vspace{1em}}} %handmade vspace
 		L’expérience peut être renouvelée à des pressions différentes (\cref{fig_T-v_construction_2}). Lorsque la pression que l’on impose augmente, on observe deux faits importants :
 		\begin{itemize}
 			\item La température de changement de phase augmente ;
@@ -176,7 +181,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 
 		Au-dessus d’une certaine pression nommée \vocab[pression!critique]{pression critique}\index{critique, pression} $p_\text{cr.}$, le changement de phase se fait de façon indistincte et il n’y a plus de plage de température constante. Le liquide devient vapeur sans bouillir !
 
-		Au final, on peut relier entre eux tous les points de changement de phase, à toutes les pressions différentes : on obtient une courbe nommée \vocab[courbe!de saturation]{courbe de saturation}\index{saturation, courbe de}\footnote{La courbe de saturation est parfois divisée arbitrairement en deux parties nommées \vocab[courbe!de rosée]{courbe de rosée}\index{rosée, courbe de} à droite et \vocab[courbe!d’ébullition]{courbe d’ébullition}\index{ébullition, courbe d’} à gauche.}. Toutes ces informations peuvent être regroupées sur un diagramme température-volume ($T$-$v$) représenté en \cref{fig_t-v_eau}, qui décrit bien les propriétés des mélanges liquide-vapeur. L’étudiant/e est encouragé/e à s’entraîner à le reproduire.
+		Au final, on peut relier entre eux tous les points de changement de phase, à toutes les pressions différentes : on obtient une courbe nommée \vocab[courbe!de saturation]{courbe de saturation}\index{saturation!courbe de}\footnote{La courbe de saturation est parfois divisée arbitrairement en deux parties nommées \vocab[courbe!de rosée]{courbe de rosée}\index{rosée, courbe de} à droite et \vocab[courbe!d’ébullition]{courbe d’ébullition}\index{ébullition, courbe d’} à gauche.}. Toutes ces informations peuvent être regroupées sur un diagramme température-volume ($T$-$v$) représenté en \cref{fig_t-v_eau}, qui décrit bien les propriétés des mélanges liquide-vapeur. L’étudiant/e est encouragé/e à s’entraîner à le reproduire.
 
 		\begin{figure}
 			\begin{center}
@@ -188,7 +193,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 
 
 	\subsection{Le diagramme pression-volume ($p$-$v$)}
-	\label{ch_lv_bain_marie}
+	\label{ch_lv_bain_marie}\index{pression-volume, diagramme}\index{diagramme!pression-volume}
 
 		Pour bien cerner le phénomène de changement de phase, imaginons maintenant une expérience légèrement différente.
 		
@@ -206,8 +211,9 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 
 		\thermoquotebegin{O}
 		Lorsque la vapeur, après avoir été formée dans une chaudière, continue d’être en contact avec son eau de génération, on observe que la même température correspond invariablement à la même pression et réciproquement. Il est alors impossible d’augmenter sa température, sans qu’aussitôt sa pression et sa densité augmentent spontanément.
-		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1839}{\textit{Théorie de la machine à vapeur}~\cite{pambour1839}}
+		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1839\index{Pambour, François-Marie Guyonneau de}}{\textit{Théorie de la machine à vapeur}~\cite{pambour1839}}
 		
+		\index{température!critique}\index{critique, température}
 		Si l’on reproduit l’expérience à différentes températures, on constate que plus la température est haute, plus la plage de changement de phase est courte. Au-dessus d’une température, dite critique ($T_\text{cr.}$), la plage disparaît tout à fait.
 
 		Le comportement d’un liquide-vapeur peut être ainsi décrit sur un diagramme pression-volume ($p-v$) comme montré en \cref{fig_p-v_eau}. L’étudiant/e est également encouragé/e à reconstruire ce schéma.
@@ -223,6 +229,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 	
 			
 	\subsection{Pièges pour l’étudiant/e}
+	\index{température!énergie et}\index{énergie!température et}
 	
 		La notion la plus importante à retenir du comportement des liquides-vapeurs est que contrairement aux gaz parfaits, \emph{la température y est complètement déréglée}. Elle ne dicte plus simplement les autres propriétés.
 		
@@ -260,10 +267,11 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 
 
 \section{Quantification des propriétés de l’eau}
+\index{eau!description quantitative des propriétés}
 
 		\thermoquotebegin{O}
 			Aussi voyons-nous que des mathématiciens très distingués ont proposé, sur le mouvement du piston dans les machines à vapeur, des formules analytiques qui seraient très vraies, si effectivement les choses se passaient dans la machine comme ils le supposent ; mais qui, faute d’un point de départ vrai dans le calcul, tombent d’elles-mêmes en présence des faits. De là résulte encore que dans la pratique les proportions de ces machines n’ont été déterminées que par des essais multipliés, et que l’art de les construire ne procède encore que par tâtonnement et par imitation.
-		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1835}{\textit{Traité théorique et pratique des machines locomotives}~\cite{pambour1835}}
+		\thermoquoteend{François-Marie Guyonneau de~Pambour, 1835\index{Pambour, François-Marie Guyonneau de}}{\textit{Traité théorique et pratique des machines locomotives}~\cite{pambour1835}}
 	Pour un liquide/vapeur, il n’existe pas de moyen simple de quantifier l’énergie interne~$u$ et l’enthalpie~$h$ qui nous intéressent tant. En effet, à partir de $p$ et $v$, on ne peut pas calculer la température ($p v \not\propto T$) et à partir de $T$, on ne peut pas calculer $u$ et $h$ ($u \not\propto T$ et $h \not\propto T$).
 	
 	\begin{itemize}
@@ -272,6 +280,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 	\end{itemize}
 
 	\subsection{Liquide comprimé et vapeur sèche}
+	\index{liquide!comprimé}\index{vapeur!sèche}
  		
 		Commençons par chauffer une quantité fixe d’eau liquide en maintenant sa pression constante, comme nous l’avons fait en \cref{fig_changement_phase}. Pour chaque température, nous mesurons $v$, $u$, et $h$\footnote{Ainsi que $s$, mais c’est une surprise que nous gardons pour le \courshuitshort…}. L’expérience est ensuite reconduite pour une pression différente.
 		
@@ -373,6 +382,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 
 	\onlyframabook{\clearpage}%handmade
 	\subsection{Points de saturation}
+	\label{ch_points_saturation}\index{saturation!points de}\index{liquide!saturé}\index{vapeur!saturée}
 	
 		Pour quantifier précisément les propriétés de l’eau lorsqu’elle change de phase, nous utilisons les abaques~n°2 et~n°3. Les propriétés de l’eau sous forme de liquide saturé (indice $L$) et de vapeur saturée (indice $V$) y sont tabulées pour chaque température.
 		
@@ -485,13 +495,13 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 			\end{anexample}
 
 		\onlyamphibook{\clearpage}%handmade
-		On note au passage que le terme $h_{LV} \equiv h_L - h_V$ est parfois nommé \vocab[chaleur!de vaporisation]{chaleur de vaporisation}\index{vaporisation, chaleur de}\footnote{En effet, pour une évaporation en système fermé à une température donnée, $q_\text{évap.} = \Delta u - w_\text{évap.} = (u_V - u_L) - p_\text{sat} (v_V - v_L) = h_{LV} $ (on obtient le même résultat en système ouvert).}\nolinebreak.
+		On note au passage que le terme $h_{LV} \equiv h_L - h_V$ est parfois nommé \vocab[chaleur!de vaporisation]{chaleur de vaporisation}\index{vaporisation, chaleur de} ou \vocab[chaleur!latente]{chaleur latente}\footnote{En effet, pour une évaporation en système fermé à une température donnée, $q_\text{évap.} = \Delta u - w_\text{évap.} = (u_V - u_L) - p_\text{sat} (v_V - v_L) = h_{LV} $ (on obtient le même résultat en système ouvert).}\nolinebreak.
 
 
 
 
 	\subsection{Le mélange liquide-vapeur}
-	\label{ch_melange_liquide_vapeur}
+	\label{ch_melange_liquide_vapeur}\index{mélange liquide-vapeur}
 	
 		Nous voulons enfin quantifier les propriétés de l’eau \emph{entre} les points de saturation, c’est-à-dire lorsqu’elle n’est que partiellement liquide. L’expérience montre que l’eau se comporte alors de façon linéaire, et ses propriétés peuvent être quantifiées simplement.
 
@@ -511,6 +521,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 			\label{fig_notion_de_titre}
 		\end{figure}
 		
+		\index{enthalpie!d’un liquide-vapeur}
 		Nous pouvons maintenant exprimer les propriétés $u$, $h$, et $v$ en fonction du titre :
 
 		\begin{description}
@@ -537,6 +548,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 				\end{figure}
 			} %end item
 
+			\index{énergie!interne d’un liquide-vapeur}
 			\item[L’énergie interne $u$]{d’un mélange liquide vapeur se quantifie exactement de la même manière :
 				\begin{equation}
 					u_x = u_L + x \ u_{LV}
@@ -549,7 +561,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 				\end{equationterms}
 			} %end item
 
-			\clearfloats %handmade
+			\clearfloats\index{volume!spécifique d’un mélange liquide-vapeur}\index{mélange liquide-vapeur!volume spécifique d’un} %handmade
 			\item[Le volume spécifique]{d’un mélange liquide-vapeur, enfin, se quantifie encore plus simplement. Le volume total du mélange est égal au volume du gaz plus celui du liquide, et donc :
 				\begin{equation*}
 					v_x = (1-x) v_L + x \ v_V
@@ -658,6 +670,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 			\label{fig_lv_pression_constante_pv}
 		\end{figure}	
 
+		\index{chaleur!en évolution isobare}\index{travail!en évolution isobare}
 		En système fermé, nous avons $q_{1\to2} + w_{1\to2} = \Delta u$ (\ref{eq_premier_principe_sf_min}). Si l’évolution est réversible, la chaleur et le travail peuvent être chacun quantifiés :
 		\begin{IEEEeqnarray}{rCl}
 			w_{1\to2} 	& = & - \int _1^2 p \diff v = -p_\text{cste} \int _1^2 \diff v	\nonumber \\
@@ -746,6 +759,7 @@ pharaonique. Pour s’en affranchir, il faudra monter en température : ce sera 
 			\item Dans un système ouvert, la situation est plus complexe. On doit compresser le liquide/vapeur pendant qu’on le réchauffe pour éviter que son volume n’augmente ; de même, pour éviter que son volume ne baisse en le refroidissant, il faut le détendre.
 		\end{itemize}	
 		
+		\index{chaleur!en évolution isochore}\index{travail!en évolution isochore}
 		En système fermé, nous avons $q_{1\to2} + w_{1\to2} = \Delta u$. La chaleur et le travail peuvent être chacun quantifiés :
 		\begin{IEEEeqnarray}{rCl}
 			w_{1\to2} 	& = & - \int _1^2 p \diff v	\nonumber \\
@@ -805,6 +819,7 @@ pharaonique. Pour s’en affranchir, il faudra monter en température : ce sera 
 			\label{fig_pv_lv_isotherme}
 		\end{figure}
 
+		\index{chaleur!en évolution isotherme}\index{travail!en évolution isotherme}
 		Lorsque le fluide est en mélange de phases (au centre de la courbe de saturation), l’évolution à température constante se fait aussi à pression constante, comme décrit en section~\S\ref{ch_lv_isobare} plus haut. Pour quantifier les transferts d’énergie, nous n’avons qu’à nous référer aux équations~\ref{eq_lv_travail_isobare} et~\ref{eq_lv_chaleur_isobare}.
 
 		Par contre, dès que l’on franchit la courbe de saturation, rien ne va plus. Lorsque la saturation est atteinte, la pression se met à décroître et nous n’avons pas de moyen analytique de décrire cette évolution.
@@ -846,7 +861,7 @@ pharaonique. Pour s’en affranchir, il faudra monter en température : ce sera 
 		
 		\thermoquotebegin{O}
 		On me permettra peut-être ici de me référer à un fait prouvé par Rankine et moi-même : lorsqu’une quantité de vapeur, à sa masse volumique maximale et incluse par une surface impénétrable à la chaleur, se détend et par cette manière déplace une partie mobile de cette surface cloisonnante, par exemple un piston, avec sa pleine force d’expansion, une partie de la vapeur doit se condenser~\jecourte.
-		\thermoquoteend{Rudolf Clausius, 1856}{\textit{Über die Anwendung der mechanischen Wärmetheorie auf~die Dampfmaschine}~\cite{clausius1856}\onlyamphibook{\vspace{8em}}} %handmade vspace
+		\thermoquoteend{Rudolf Clausius, 1856\index{Clausius!Rudolf}}{\textit{Über die Anwendung der mechanischen Wärmetheorie auf~die Dampfmaschine}~\cite{clausius1856}\onlyamphibook{\vspace{8em}}} %handmade vspace
 
 		Une évolution adiabatique \emph{réversible}\index{évolutions!adiabatiques réversibles}\index{adiabatiques réversibles, évolutions} est effectuée infiniment lentement. Un piston dans un cylindre devra pour cela être déplacé infiniment lentement, et une turbine en flux continu devra pour cela être infiniment longue. Les évolutions adiabatiques servent de référence, d’objectif théorique, pour quantifier les performances des turbines réelles, que nous étudierons au \coursneufshort.
 		
@@ -868,7 +883,7 @@ pharaonique. Pour s’en affranchir, il faudra monter en température : ce sera 
 			\label{fig_pv_lv_isentropique}
 		\end{figure}
 
-		
+		\index{chaleur!en évolution isentropique}\index{travail!en évolution isentropique}
 		Dans n’importe quelle évolution adiabatique, le transfert de chaleur est nul :
 		\begin{equation}
 			q_{1\to2} = 0
@@ -911,6 +926,7 @@ pharaonique. Pour s’en affranchir, il faudra monter en température : ce sera 
 
 
 	\subsection{Évolutions arbitraires}
+	\index{évolutions!arbitraires}
 	
 		Il faut bien garder en tête que l’on peut en pratique faire évoluer les propriétés d’un liquide/vapeur \emph{de n’importe quelle façon arbitraire} (\cref{fig_lv_pv_moustache}), tout comme avec un gaz.
 		
