@@ -2,6 +2,7 @@
 
 	\subsection{Le manomètre comme thermomètre}
 	\label{ch_le_manomètre_comme_thermomètre}
+	\index{pression!comme mesure de température}\index{manomètre!en tant que thermomètre}
 
 		Commençons par le plus important :
 
@@ -19,10 +20,10 @@
 		\subsection{Définition : l’équation d’état}
 
 			\onlyframabook{\thermoquotebegin{O}}\onlyamphibook{\thermoquotetopbegin{O}}%handmade
-			Le changement de température occasioné dans les gaz par le changement de volume peut être regardé comme l’un des faits les plus importans de la physique, à cause des nombreuses conséquences qu’il entraîne, et en même temps comme l’un des plus difficiles à éclaircir et à mesurer par des expériences décisives. Il semble présenter dans plusieurs circonstances des anomalies singulières.\nolinebreak\makebox(18,5){\color{gray}\scalebox{2}{»}}\par\vspace{-0.3cm}\begin{flushright}Sadi Carnot, 1824~\cite{carnot1824}\end{flushright}%français tel quel dans le texte original
+			Le changement de température occasioné dans les gaz par le changement de volume peut être regardé comme l’un des faits les plus importans de la physique, à cause des nombreuses conséquences qu’il entraîne, et en même temps comme l’un des plus difficiles à éclaircir et à mesurer par des expériences décisives. Il semble présenter dans plusieurs circonstances des anomalies singulières.\nolinebreak\makebox(18,5){\color{gray}\scalebox{2}{»}}\par\vspace{-0.3cm}\begin{flushright}Sadi Carnot, 1824~\cite{carnot1824}\index{Carnot!Sadi}\end{flushright}%français tel quel dans le texte original
 		\makebox(18,5){\color{gray}\scalebox{2}{«}}
 		M. S. Carnot, évitant l’emploi de l’analyse mathématique, arrive par une série de raisonnemens délicats et difficiles à saisir, à des résultats qui se déduisent sans peine d’une loi plus générale, que je vais chercher à établir.
-		\thermoquoteend{Émile Clapeyron, 1834~\cite{clapeyron1834}}{}
+		\thermoquoteend{Émile Clapeyron, 1834~\cite{clapeyron1834}\index{Clapeyron!Benoît Paul Émile}}{}
 		Nous appellerons \vocab[gaz parfait!définition]{gaz parfait} (ou \vocab[gaz!idéal]{gaz idéal}) un fluide à l’état gazeux dont le multiple de la pression et du volume, $p v$, reste proportionnel à sa température. La constante de proportionnalité est nommée \vocab{constante du gaz}\index{gaz!constante d’un}, et notée~$R$ ; elle dépend de la nature du~gaz.
 		\begin{equation}
 			p v = R T
@@ -46,6 +47,7 @@
 			\item et \tab $m$ \tab la masse de gaz considérée (\si{\kilogram}).
 		\end{equationterms}
 		
+		\index{quantité de matière}\index{moles (quantité de matière)}
 		Il est aussi possible d’exprimer l’\cref{eq_pV=mRT} en fonction de la quantité de matière en \si{moles}.\footnote{Dans les ouvrages tels que celui d’Alexandre Watzky~\cite{watzky2007}, la constante en \si{\joule\per\kelvin\per\kilogram} est notée~$r$. La grandeur notée $R = \SI{8,3143}{\joule\per\kelvin\per\mole}$ est universelle, et les gaz adoptent des valeurs de $r$ différentes en fonction de leur masse molaire $M \equiv \frac{m}{n}$. Dans le présent ouvrage, nous ne quantifions pas les quantités de matière.}
 		 Parce qu’elle est indissociable du concept de température absolue, il a fallu 150 ans pour que cette équation prenne sa forme définitive : celle que lui a donnée \wf{Émile Clapeyron} en 1834~\cite{clapeyron1834}.
 
@@ -70,6 +72,7 @@
 
 	\subsection{Que représente un gaz parfait ?}
 	\label{ch_gaz_parfait_kezako}
+	\index{gaz parfait!concept général}
 
 		Le gaz parfait est le modèle le plus simple que l’on puisse imaginer pour représenter le comportement d’un gaz.
 		
@@ -93,10 +96,11 @@
 		
 	\subsection{Que ne représente pas un gaz parfait ?}
 	\label{ch_pas_gaz_parfait}
+	\index{gaz parfait!limites de validité}
 	
 		\thermoquotebegin{O}
 			Quiconque veut étudier les propriétés de la matière dans un problème réel peut désirer partir en écrivant les équations fondamentales et puis essayer de les résoudre mathématiquement. Bien qu’il y ait des gens qui essayent d’emprunter une telle approche, ces personnes sont des ratés de ce domaine ; les véritables réussites sont le fait de ceux qui partent d’un point de vue \emph{physique}, de ceux qui ont une idée approximative de l’endroit où ils vont et qui commencent en faisant la bonne approximation, sachant ce qui est grand et ce qui est petit dans une situation donnée qui est compliquée.
-		\thermoquoteend{Richard Feynman, 1963}{\textit{The Feynman Lectures on \mbox{Physics}} \mbox{\cite{feynman1963, feynman1963fr}}\vspace{-2em}}%handmade
+		\thermoquoteend{Richard Feynman, 1963}{\textit{The Feynman Lectures on \mbox{Physics}} \mbox{\cite{feynman1963, feynman1963fr}\index{Feynman, Richard}}\vspace{-2em}}%handmade
 	
 		Le comportement des molécules lorsqu’elles sont proches les unes des autres est en réalité très complexe, car les forces d’attraction y jouent un rôle déterminant. L’influence de ces forces est d’autant plus grande que les molécules sont lentes et structurellement complexes (l’interaction entre deux molécules d’hydrocarbone, par exemple, est plus difficile à modéliser que l’interaction entre deux molécules d’hélium).
 
@@ -113,6 +117,7 @@
 
 
 	\subsection{Limites du modèle}
+	\index{gaz parfait!limites de validité}
 
 		Il ne faudra pas longtemps à l’étudiant/e pour trouver les limites de l’\cref{eq_pV=mRT}, qui indique qu’une masse non-nulle de gaz parfait occupe \textit{un volume nul} à température nulle. Strictement parlant, le gaz parfait ne peut pas exister --\ le modèle mathématique perd son sens à très basse température puisqu’il ne tient pas compte du volume des molécules elles-mêmes.
 
@@ -137,6 +142,7 @@
 \section{Propriétés des gaz parfaits}
 
 	\subsection{Deux capacités calorifiques importantes}
+	\index{calorifique, capacité}\index{capacité!calorifique d’un gaz parfait}\index{chaleur!massique d’un gaz parfait}
 
 		Nous avons déjà abordé la notion de capacité calorifique (ou «~chaleur massique~»), au premier chapitre (\ref{eq_def_capacité_calorifique_massique}). Elle se définit comme la quantité de chaleur nécessaire pour augmenter d’un Kelvin\footnote{Ou d’un degré Celsius, ces différences de température étant égales.}
 		la température d’un kilo du corps. On a ainsi :
@@ -189,6 +195,7 @@
 
 	\subsection{Différence des chaleurs massiques}
 	\label{ch_difference_chaleur_massiques}
+	\index{chaleur!massique, différence entre les}\index{capacité!calorifique, différence entre les}
 
 		Le grand nombre d’équations que nous abordons rend utile, mais pas indispensable, cette courte section \ref{ch_difference_chaleur_massiques}. Pour l’ingénieur/e, il n’a d’autre intérêt que de permettre d’alléger l’écriture des relations de la section suivante.
 
@@ -235,7 +242,8 @@
 
 
 	\subsection{Quotient des chaleurs massiques}
-
+	\index{chaleur!massique, rapport entre les}\index{capacité!calorifique, rapport entre les}\index{gamma ($\gamma$) (gaz parfait)}
+	
 		Le ratio des chaleurs massiques à pression et à volume constants est nommé $\gamma $. Ainsi :
 		\begin{equation}
 			\gamma \equiv \frac{c_p}{c_v}
@@ -247,12 +255,13 @@
 		
 \onlyframabook{\clearpage}%handmade
 \section{Énergie et température}
+\index{température!énergie et}\index{énergie!température et}
 
 	\subsection{Contexte historique}
 	
 		\onlyframabook{\thermoquotebegin{O}%handmade citation remontée d’un paragraphe dans le framabook, sinon la mise en page est cassée
 			M’étant assuré de ce fait important, que plus un espace est vide, et plus il s’en dégage de la chaleur lorsque l’air extérieur y pénètre, j’ai cherché à déterminer, par des expériences exactes, quelle relation il y avoit entre le calorique absorbé dans l’un des récipiens et celui dégagé dans l’autre, et comment ces variations de température dépendoient de celles de la variation de la densité de l’air.
-		\thermoquoteend{Louis Joseph Gay-Lussac, 1807~\cite{gaylussac1807}}{\vspace{-1em}}} %handmade vspace
+		\thermoquoteend{Louis Joseph Gay-Lussac, 1807~\cite{gaylussac1807}}{\vspace{-1em}\index{Gay-Lussac!Louis Joseph}}} %handmade vspace
 	
 		Au tout début du \textsc{xix}\ieme siècle ont lieu les premiers travaux de recherche visant à explorer la notion de température. La communauté scientifique s’intéresse alors beaucoup aux gaz -- on s’aperçoit qu’il y a \emph{deux} manières de faire augmenter leur température : en les chauffant, mais aussi en les comprimant.
 		
@@ -260,14 +269,16 @@
 			M’étant assuré de ce fait important, que plus un espace est vide, et plus il s’en dégage de la chaleur lorsque l’air extérieur y pénètre, j’ai cherché à déterminer, par des expériences exactes, quelle relation il y avoit entre le calorique absorbé dans l’un des récipiens et celui dégagé dans l’autre, et comment ces variations de température dépendoient de celles de la variation de la densité de l’air.
 		\thermoquoteend{Louis Joseph Gay-Lussac, 1807~\cite{gaylussac1807}}{\vspace{1em}}} %handmade vspace
 		
-		Le français \wf{Louis Joseph Gay-Lussac} cherche à comprendre pourquoi la température d’un gaz chute lorsqu’il se détend (il cherche en fait, selon les concepts d’alors, à identifier la source du \textit{calorique} et les raisons pour lesquelles il s’écoule). Il s’efforce ainsi de produire des détentes de gaz aussi simples que possible, et d’y mesurer la température. Une trentaine d’années plus tard, l’anglais \wf{James Prescott Joule} reprend et approfondit ces expériences\footnote{Les travaux méticuleux de Joule mèneront à la première expression formelle du premier principe de la thermodynamique, et à la fin de la théorie du \vocab{calorique} selon laquelle la chaleur était un fluide très peu dense et invisible. Ils vaudront à son nom de famille l’utilisation que l’on sait aujourd’hui.} ; mais cette fois, en quantifiant la chaleur en tant qu’\textit{équivalence de travail}. Ces expériences avec ballons de gaz et thermomètres sont tout sauf spectaculaires -- mais elles vont jouer un rôle pivot en thermodynamique, parce qu’elles permettent de distinguer pour la première fois chaleur, travail, énergie et température.
+		\index{Joule!James Prescott}\index{Gay-Lussac!Louis Joseph}\index{calorique (fluide, hist.)}
+		Le français \wf{Louis Joseph Gay-Lussac} cherche à comprendre pourquoi la température d’un gaz chute lorsqu’il se détend (il cherche en fait, selon les concepts d’alors, à identifier la source du \textit{calorique} et les raisons pour lesquelles il s’écoule). Il s’efforce ainsi de produire des détentes de gaz aussi simples que possible, et d’y mesurer la température. Une trentaine d’années plus tard, l’anglais \wf{James Prescott Joule} reprend et approfondit ces expériences\footnote{Les travaux méticuleux de Joule mèneront à la première expression formelle du premier principe de la thermodynamique, et à la fin de la théorie du \vocab[calorique (fluide, hist.)]{calorique} selon laquelle la chaleur était un fluide très peu dense et invisible. Ils vaudront à son nom de famille l’utilisation que l’on sait aujourd’hui.} ; mais cette fois, en quantifiant la chaleur en tant qu’\textit{équivalence de travail}. Ces expériences avec ballons de gaz et thermomètres sont tout sauf spectaculaires -- mais elles vont jouer un rôle pivot en thermodynamique, parce qu’elles permettent de distinguer pour la première fois chaleur, travail, énergie et température.
 
 	\subsection{La loi de Joule}
 	\label{ch_principe_de_joule}
+	\index{Joule!principe de}\index{Joule!loi de}\index{Joule!détente de Gay-Lussac et}\index{Gay-Lussac!détente de Joule et}
 
 		\thermoquotebegin{O}
 			J’ai pris deux ballons à deux tubulures, chacun de douze litres de capacité. A l’une des tubulures de chaque ballon étoit adapté un robinet, et à l’autre un thermomètre à alcool très-sensible, dont les degrés centigrades pouvoient être facilement divisés en centièmes. \jecourte Le vide étant fait dans les deux ballons, et m’étant assuré qu’ils le retenoient exactement, je remplissois l’un d’eux avec le gaz sur lequel je voulois opérer. Environ douze heures après, j’établissois entre eux une communication au moyen d’un tuyau de plomb, et en ouvrant les robinets, le gaz se précipitoit alors dans le ballon vide jusqu’à ce que l’équilibre de pression fût rétablit de part et d’autre. Pendant ce tems, le thermomètre éprouvoit des variations que je notois avec soin.
-		\thermoquoteend{Louis Joseph Gay-Lussac, 1807~\cite{gaylussac1807}}{\onlyamphibook{\vspace{-1em}}} %handmade vspace
+		\thermoquoteend{Louis Joseph Gay-Lussac, 1807~\cite{gaylussac1807}}{\index{Gay-Lussac! Louis Joseph}\onlyamphibook{\vspace{-1em}}} %handmade vspace
 		Dans leur expérience la plus remarquable, Joule et Gay-Lussac cherchent à faire varier la pression et le volume d’un gaz \textit{sans lui transférer de chaleur ou de travail}. Pour cela, ils laissent un gaz comprimé se détendre dans un second récipient vide (\cref{fig_detente_joule}). Le travail effectué est nul, car aucune surface n’a été déplacée – l’évolution est entièrement irréversible. La température est mesurée et… il ne se passe rien ! Joule et Gay-Lussac ne mesurent ni transfert de chaleur, ni variation de température.
 
 		\begin{figure}
@@ -283,7 +294,8 @@
 
 		Joule effectue une multitude d’expériences différentes au cours desquelles il observe que quel que soit le travail fourni, la relation entre énergie interne (qui ne varie qu’avec travail et chaleur) et température reste sensiblement la même --\ et il suggère que pour un gaz parfait, elle reste toujours identique.
 
-		Ce postulat est connu sous le nom de \vocab[Joule!loi de]{loi de Joule}\index{loi de Joule} et est posé comme vrai pour tout gaz parfait. On peut le résumer ainsi :
+		\index{énergie!interne d’un gaz parfait}\index{température!d’un gaz parfait}\index{gaz parfait!énergie interne d’un}
+		Ce postulat est connu sous le nom de \vocab[Joule!loi de]{loi de Joule}\index{loi de Joule}\index{Joule!principe de} et est posé comme vrai pour tout gaz parfait. On peut le résumer ainsi :
 
 		\begin{trucimportant}
 			La température d’un gaz parfait ne varie qu’avec son énergie interne.
@@ -292,7 +304,7 @@
 
 		\onlyamphibook{\thermoquotetopbegin{O}}\onlyframabook{\thermoquotebegin{O}}%handmade
 La différence entre les moyennes des expansions et des expériences-témoin étant exactement telle que ce que à quoi nous avons attribué l’effet croissant de la température ambiante dans le dernier cas, nous arrivons à la conclusion qu’\emph{il n’y a pas de changement de température lorsque l’on laisse l’air se détendre d’une façon telle qu’il ne développe pas de puissance mécanique}.
-		\thermoquoteend{James Joule, 1845~\cite{joule1845}}{\vspace{-1em}}
+		\thermoquoteend{James Prescott Joule, 1845~\cite{joule1845}}{\vspace{-1em}\index{Joule!James Prescott}}
 		Mathématiquement, nous pouvons l’écrire ainsi :
 		\begin{equation}
 			u = f(T)
@@ -334,6 +346,7 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 
 
 	\subsection{Enthalpie d’un gaz parfait}
+	\index{enthalpie!d’un gaz parfait}\index{gaz parfait!enthalpie d’un}
 
 		Parce que nous venons de lier l’énergie interne $u$ à la température et que le produit $p v$ dépend lui aussi de la température, nous pouvons désormais facilement exprimer l’enthalpie $h$ d’un gaz parfait en fonction de la température uniquement.
 
@@ -384,6 +397,7 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 
 \section{Transformations élémentaires réversibles}
 \label{ch_gp_evolutions_elementaires}
+\index{évolutions!d’un gaz parfait}
 
 	Nous nous proposons ici de calculer les propriétés d’un gaz parfait, ainsi que les transferts d’énergie en jeu, lorsqu’on le comprime ou détend selon des contraintes entièrement arbitraires de volume, pression ou température.
 
@@ -430,7 +444,7 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 			\frac{T}{v} = \text{constante}
 		\end{equation}
 		
-		
+		\index{chaleur!en évolution isobare}\index{travail!en évolution isobare}
 		En système fermé, nous avons $q_{1\to2} + w_{1\to2} = \Delta u$ (\ref{eq_premier_principe_sf_min}) et, si l’évolution est réversible, la chaleur et le travail peuvent être facilement reliés à la température :
 		\begin{IEEEeqnarray}{rCl}
 			w_{1\to2} 	& = & - \int _1^2 p \diff v = -p_\text{cste} \int _1^2 \diff v = -p_\text{cste} \ \Delta v	\nonumber \\
@@ -514,6 +528,7 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 			\frac{T}{p} = \text{constante} \label{eq_gp_isochore}
 		\end{equation}
 		
+		\index{chaleur!en évolution isochore}\index{travail!en évolution isochore}
 		En système fermé, nous avons $q_{1\to2} + w_{1\to2} = \Delta u$ et, si l’évolution est réversible, la chaleur et le travail peuvent être facilement reliés à la température.
 
 		Le volume ne variant pas, le travail est bien sûr nul :
@@ -571,8 +586,8 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 	
 		\onlyamphibook{\thermoquotebegin{O}}
 		\onlyframabook{\thermoquotetopbegin{O}}%handmade
-			Il est facile d’imaginer une petite quantité de combustible gazeux ou liquide, ou bien de la poussière de charbon, que l’on insèrerait dans un volume d’air comprimé et très chaud, et qui brûlerait suite à un allumage séparé ou spontané. Le piston est chassé en même temps de sorte qu’aucune augmentation de température n’ait lieu, car la chaleur développée par chaque particule de combustible est instanément absorbée par le refroidissement dû à l’expansion. De cette façon l’ensemble de la chaleur est transformée en travail.
-		\thermoquoteend{Rudolf Diesel, 1893}{\textit{Theorie und Konstruktion eines rationellen Wärmemotors zum Ersatz der Dampfmaschinen und der heute bekannten Verbrennungsmotoren}~\mbox{\cite{diesel1893,diesel1893en}}\onlyframabook{\vspace{5em}}\onlyamphibook{\vspace{4em}}} %handmade vspace
+			Il est facile d’imaginer une petite quantité de combustible gazeux ou liquide, ou bien de la poussière de charbon, que l’on insérerait dans un volume d’air comprimé et très chaud, et qui brûlerait suite à un allumage séparé ou spontané. Le piston est chassé en même temps de sorte qu’aucune augmentation de température n’ait lieu, car la chaleur développée par chaque particule de combustible est instantanément absorbée par le refroidissement dû à l’expansion. De cette façon l’ensemble de la chaleur est transformée en travail.
+		\thermoquoteend{Rudolf Diesel, 1893\index{Diesel!Rudolf}}{\textit{Theorie und Konstruktion eines rationellen Wärmemotors zum Ersatz der Dampfmaschinen und der heute bekannten Verbrennungsmotoren}~\mbox{\cite{diesel1893,diesel1893en}}\onlyframabook{\vspace{5em}}\onlyamphibook{\vspace{4em}}} %handmade vspace
 		Il est possible de chauffer ou refroidir un gaz en maintenant sa température constante (\cref{fig_gp_température_constante}). Une évolution à température constante est dite \vocab[évolutions!isothermes]{isotherme}\index{isothermes, évolutions}.
 		
 		\begin{figure}
@@ -601,7 +616,7 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 			\label{eq_gp_isotherme}
 		\end{equation}
 		
-
+		\index{chaleur!en évolution isotherme}\index{travail!en évolution isotherme}
 		En système fermé, nous avons $q_{1\to2} + w_{1\to2} = \Delta u$, et, si l’évolution est réversible, la chaleur et le travail peuvent être reliés aux propriétés du gaz, non sans une certaine difficulté toutefois.
 		\begin{IEEEeqnarray}{rCl}
 			w_{1\to2} 	& = & - \int _1^2 p \diff v = - \int \frac{R \ T_\text{cste}}{v} \diff v = - R \ T_\text{cste} \int_1^2 \frac{1}{v} \diff v = - R \ T_\text{cste} [\ln v]_{v_1}^{v_2} \nonumber \\
@@ -615,7 +630,7 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 		\onlyframabook{\vspace{\intextsep}}\thermoquotebegin{O}
 			\emph{Lorsqu’un gaz varie de volume sans changer de température, les quantités de chaleur absorbées ou dégagées par ce gaz sont en progression arithmétique, si les accroissemens ou les réductions de volume se trouvent être en progression géométrique.}
 			Lorsque l’on comprime un litre d’air maintenu à la température 10° et qu’on le réduit à 1/2 litre, il se dégage une certaine quantité de chaleur. Cette quantité se trouvera toujours la même si l’on réduit de nouveau le volume de 1/2 litre à de 1/4 de litre, de 1/4 de litre à 1/8, ainsi de suite.
-		\thermoquoteend{Sadi Carnot, 1824~\cite{carnot1824}}{}
+		\thermoquoteend{Sadi Carnot, 1824~\cite{carnot1824}\index{Carnot!Sadi}}{}
 		On peut aussi exprimer le travail en fonction de la pression, puisqu’avec l’\cref{eq_gp_isotherme} on~a :
 		\begin{equation*}
 			\frac{v_1}{v_2} = \frac{p_2}{p_1}
@@ -705,7 +720,7 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 			\label{fig_gp_isentropique_pv}
 		\end{figure}
 
-		
+		\index{chaleur!en évolution isentropique}\index{travail!en évolution isentropique}
 		En système fermé, nous avons $q_{1\to2} + w_{1\to2} = \Delta u$ et, si l’évolution est réversible, la chaleur et le travail sont quantifiés sans la moindre difficulté :
 		\begin{equation}
 			q_{1\to2} = 0
@@ -802,6 +817,7 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 
 		
 	\subsection{Évolutions arbitraires}
+	\index{évolutions!arbitraires}
 	
 		Il faut bien garder en tête que l’on peut en pratique faire évoluer les propriétés d’un gaz \emph{de n’importe quelle façon arbitraire} (\cref{fig_gp_pv_coeur}).
 		

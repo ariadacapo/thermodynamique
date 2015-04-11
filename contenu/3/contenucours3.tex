@@ -1,5 +1,5 @@
 \section{Pourquoi utiliser un système ouvert ?}
-\index{système!fermé vs. ouvert}
+\index{système!fermé, utilité de}\index{système!ouvert, utilité de}
 
 	Dans de nombreuses machines, le fluide utilisé pour transférer de la chaleur et du travail circule de façon continue. Il peut alors être difficile d’identifier une quantité de masse fixe pour en faire un système fermé et y quantifier les transferts d’énergie. Par exemple, dans une tuyère de turboréacteur, l’air se détend et accélère continûment : à un instant donné il n’y a pas de volume identifiable qui aurait \emph{une} vitesse ou \emph{une} pression particulière.
 	
@@ -9,10 +9,11 @@
 \label{ch_conventions_compta_so}
 
 	\subsection{Le système ouvert}
+	\index{système!fermé, conventions de signe}
 
 		\thermoquotebegin{O}
 			Les difficultés de construction qui doivent être surmontées dans un moteur à gaz puissant, à cause des pressions énormes sur les pistons et de la dilatation des culasses (gare aux fissures !) sont bien connues. Une turbine à gaz sûre serait, de ce point de vue, une amélioration.
-		\thermoquoteend{Aurel Stodola, 1904}{\textit{Die Dampfturbinen}~\cite{stodola1904, stodola1905}\vspace{3em}} %handmade vspace
+		\thermoquoteend{Aurel Stodola, 1904}{\textit{Die Dampfturbinen}~\cite{stodola1904, stodola1905}\vspace{3em}\index{Stodola!Aurel}} %handmade vspace
 		Nous appelons \vocab[système!ouvert, définition]{système ouvert} un sujet d’étude arbitraire dont les frontières sont perméables à la masse (\cref{fig_systeme_ouvert}). En général, son volume peut changer, et il peut posséder plusieurs entrées et sorties, chacune avec un débit et une pression différents.
 
 		\onlyframabook{\begin{figure}}
@@ -34,6 +35,7 @@
 
 	\dontbreakpage %handmade, pour éviter un drôle de saut de page
 	\subsection{Conventions de signe}
+	\index{système!fermé, conventions de signe}
 
 		Tout comme pour les systèmes ouverts, nous allons nous placer du point de vue du système pour quantifier les transferts :
 			\begin{itemize}
@@ -45,10 +47,12 @@
 
 
 \section{Le premier principe dans un système ouvert}
+\index{système!ouvert, premier principe}
 
 	Nous avons vu que dans un système fermé le principe de conservation de l’énergie se traduisait par l’expression $q + w = \Delta u$ (\ref{eq_premier_principe_sf_maj}). Dans un système ouvert, la situation est un peu différente et nous devons tenir compte d’autres formes d’énergie.
 
 	\subsection{Entrer et sortir du système : le travail d’écoulement}
+	\index{travail!d’écoulement}\index{travail!d’insertion}\index{travail!d’extraction}
 
 		Imaginons un système ouvert en régime continu contenant une petite pompe à eau. Pour insérer l’eau dans la pompe à une pression donnée, il faut fournir de l’énergie au système. Au contraire, pour repousser l’eau à l’extérieur (à une pression plus haute), le système doit fournir de l’énergie. Comment quantifier cette énergie ?
 
@@ -189,7 +193,7 @@
 
 		\thermoquotebegin{O}
 			La diminution de la teneur en chaleur est égale à la valeur équivalente en chaleur du “travail utile” reçu, plus la chaleur transmise à l’extérieur plus l’augmentation en énergie cinétique par kilogramme de vapeur.
-		\thermoquoteend{Aurel Stodola, 1904\\{\tiny(où la «~teneur en chaleur~» $\lambda$ n’est pas encore nommée \textit{enthalpie})}}{\textit{Die Dampfturbinen}~\cite{stodola1904, stodola1905}\vspace{1em}} %handmade vspace
+		\thermoquoteend{Aurel Stodola, 1904\\{\tiny(où la «~teneur en chaleur~» $\lambda$ n’est pas encore nommée \textit{enthalpie})}}{\textit{Die Dampfturbinen}~\cite{stodola1904, stodola1905}\vspace{1em}\index{Stodola!Aurel}} %handmade vspace
 		En pratique, le terme \textit{enthalpie} est souvent utilisé même s’il s’agit d’enthalpie massique ; le symbole et le contexte permettent de préciser de quelle variable il s’agit.
 
 		En faisant usage du concept d’enthalpie, les équations~\ref{eq_grande_sfee} et~\ref{eq_petite_sfee_deltas} s’allègent pour devenir :
@@ -223,6 +227,7 @@
 \section{Quantifier le travail avec un système ouvert}
 
 	\subsection{Travail d’un fluide en évolution lente}
+	\index{travail!en système ouvert, en évolution lente}\index{système!ouvert, travail en évolution lente}
 
 		Nous avons vu que lorsque le fluide évolue lentement, le travail effectué par un système fermé est quantifiable en effectuant l’intégrale $-\int p \diff v$ (\ref{eq_travail_pdv}). Avec un système ouvert, l’expression est un peu différente. Pour la développer, nous nous proposons d’étudier la compression en continu d’un fluide qui traverse un compresseur.
 
@@ -372,6 +377,8 @@
 
 
 	\subsection{Travail d’un fluide en évolution rapide}
+	\index{travail!en système ouvert, en évolution rapide}\index{système!ouvert, travail en évolution rapide}
+	
 	
 		Lorsque le fluide évolue de façon rapide (ce qui est toujours le cas en pratique), nous retrouvons les phénomènes que nous avons décrits au chapitre précédent (\S\ref{ch_évolutions_irr_sf}) : la pression exercée sur les parois mobiles ne correspond plus à la pression «~moyenne~» à l’intérieur du fluide. Le travail à fournir dans les compressions est plus grand et le travail réceptionné pendant les détentes est plus faible que lors des évolutions lentes.
 		
@@ -408,6 +415,7 @@
 		\end{anexample}
 	
 \section{Quantifier la chaleur avec un système ouvert}
+\index{chaleur!calcul en système ouvert}\index{système!ouvert, calcul de chaleur}
 
 	Avec un système ouvert nous allons utiliser la même méthode qu’avec un système fermé : comme nous ne savons pas quantifier les transferts de chaleur directement, nous allons toujours procéder par déduction.
 	Mathématiquement, nous ne faisons que réutiliser l’\cref{eq_grande_sfee_deltas_h} pour obtenir :

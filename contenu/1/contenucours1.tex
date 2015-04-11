@@ -35,7 +35,7 @@
 
 			\thermoquotebegin{O}
 			Il est important de réaliser que dans la physique d’aujourd’hui, nous n’avons aucune connaissance de ce \emph{qu’est} l’énergie. Nous n’avons pas de représentation comme quoi l’énergie viendrait en petit paquets d’une certaine quantité. Cependant des formules permettent de calculer une quantité numérique, et lorsque nous les additionnons toutes, nous obtenons toujours le même nombre. C’est une chose abstraite en cela qu’elle ne nous donne pas le mécanisme ou les \emph{raisons} des différentes formules.
-		\thermoquoteend{Richard Feynman, 1963}{\textit{The Feynman Lectures on \mbox{Physics}} \mbox{\cite{feynman1963, feynman1963fr}}\onlyframabook{\vspace{-1em}}}
+		\thermoquoteend{Richard Feynman, 1963}{\textit{The Feynman Lectures on \mbox{Physics}} \mbox{\cite{feynman1963, feynman1963fr}}\onlyframabook{\vspace{-1em}}\index{Feynman, Richard}}
 
 		\index{univers!énergie de l’}
 		On peut aussi écrire que «~l’énergie de l’univers est constante~», ou «~l’énergie se conserve toujours~» : elle ne peut être ni créée ni détruite. Autrement dit, lorsqu’un objet reçoit un \si{joule} d’énergie, il peut soit l’emmagasiner, soit le re-fournir à l’extérieur ; mais en aucun cas il ne peut le détruire.
@@ -71,6 +71,7 @@
 		D’une façon générale, l’ingénieur/e thermodynamicien/ne souhaite capter de la chaleur à des corps qu’il/elle veut refroidir, ou bien fournir du travail à des corps qu’il/elle veut déplacer. Nous allons donc étudier en détail ces transferts.
 	
 	\subsection{La puissance}
+	\index{Watt!unité}
 
 		La \vocab{puissance} représente un débit d’énergie dans le temps. Son unité \textsc{si} est le \si{joule} \si{par} \si{seconde}, c’est-à-dire le \si{watt} (\si{\watt}) :
 		\begin{equation}
@@ -266,7 +267,7 @@
 	\end{figure}
 
 		\clearfloats
-		\begin{anexample}\index{ressorts, compression de}
+		\begin{anexample}\index{ressorts, compression de}\index{travail!d’un ressort}
 			Un ressort est comprimé depuis une longueur de~\SI{30}{\centi\metre} jusqu’à une longueur de~\SI{5}{\centi\metre}. Le ressort est tel qu’il exerce une force (en \si{newtons}) indépendante de sa longueur et égale à :
 				\begin{equation*}
 					F_{(l)} = \SI{6e3}{\newton}
@@ -281,7 +282,7 @@
 				\end{answer}
 		\end{anexample}
 		
-		\begin{anexample}\index{ressorts, compression de}
+		\begin{anexample}\index{ressorts, compression de}\index{travail!d’un ressort}
 			Un autre ressort est comprimé depuis une longueur de~\SI{30}{\centi\metre} jusqu’à une longueur de~\SI{5}{\centi\metre}. Il est tel qu’il exerce une force (en \si{\newton}) liée à sa longueur $l$ (en~\si{\metre}) par la relation :
 				\begin{equation*}
 					F_{(l)} = \num{9e3} - \num{14e3} \ l
@@ -295,7 +296,7 @@
 				\end{answer}
 		\end{anexample}
 		
-		\begin{anexample}\index{ressorts, compression de}
+		\begin{anexample}\index{ressorts, compression de}\index{travail!d’un ressort}
 			Un dernier ressort est comprimé depuis une longueur de~\SI{30}{\centi\metre} jusqu’à une longueur de~\SI{5}{\centi\metre}. Il est tel qu’il exerce une force (en~\si{\newton}) liée à sa longueur $l$ (en~\si{\metre}) par la relation :
 				\begin{equation*}
 					F_{(l)} = \num{14e3} - \num{12e3} \ l^{\num{0,3}}
@@ -395,7 +396,7 @@
 			Ces circonstances \jecourte nécessitent une comparaison entre travail et chaleur, qu’il nous faut effectuer en partant de l’hypothèse divergente que la production de travail est due non seulement à un changement dans la \emph{distribution} de la chaleur, mais aussi à une \emph{consommation} de celle-ci ; et inversément, que par la consommation de travail la chaleur puisse être \emph{produite}.
 		\thermoquoteend{Rudolf Clausius, 1850~\mbox{\cite{clausius1850, clausius1850en, clausius1868fr1}}\onlyframabook{\vspace{-1cm}}}{}%handmade
 
-		Lorsque l’on met deux corps de températures différentes en contact, leurs températures ont tendance à s’égaliser au cours d’un transfert spontané d’énergie. Nous appelons cette forme d’énergie \vocab{chaleur}.
+		Lorsque l’on met deux corps de températures différentes en contact, leurs températures ont tendance à s’égaliser au cours d’un transfert spontané d’énergie. Nous appelons cette forme d’énergie \vocab{chaleur}.\index{chaleur!nature de la}
 
 		La chaleur, notée $Q$, est \textbf{une forme d’énergie} (mesurée en \si{joules}). À l’échelle macroscopique, c’est un transfert d’énergie sous forme chaotique. On peut le provoquer de plusieurs façons, dont les plus pertinentes pour l’ingénieur/e sont :
 
@@ -412,11 +413,11 @@
 
 		\end{itemize}
 		
-		De même que l’on note $Q$ la chaleur (\si{\joule}), on note $q$ la \vocab[chaleur!spécifique]{chaleur spécifique} (\si{\joule\per\kilogram}).
+		De même que l’on note $Q$ la chaleur (\si{\joule}), on note $q$ la \vocab[chaleur!spécifique]{chaleur spécifique}\index{chaleur!massique} (\si{\joule\per\kilogram}).
 		
 		\index{calorique (fluide, hist.)}\index{chaleur!conservation (ou non)}\index{microscopique, échelle}
 		La notion de chaleur est très difficile à appréhender. On l’a longtemps crue être un fluide (le \textit{calorique}) de densité très faible, capable d’imprégner tous les matériaux. Cette théorie a été abandonnée au milieu du \textsc{xix}\ieme siècle, lorsque l’on a mis en évidence que \textit{la chaleur n’est pas conservée}, c’est-à-dire qu’elle a une capacité à disparaître ou apparaître. Par exemple, un moteur en marche reçoit de la chaleur (par combustion) mais il en rejette moins qu’il n’en a reçu. Il en transforme une partie en travail, que l’on utilise par exemple pour propulser un véhicule. \\
-		À l’échelle microscopique (lorsque l’on considère le mouvement individuel des particules) les concepts de température et de chaleur sont plus difficiles encore à définir ; mais cela dépasse le domaine d’étude de cet ouvrage\footnote{Pour mieux définir les frontières entre les échelles macroscopique et microscopique dans la thermodynamique de l’ingénieur, les étudiants les plus rigoureux pourront par exemple consulter l’ouvrage d’Alexandre Watzky~\cite{watzky2007}. Richard Feynman~\cite{feynman1963, feynman1963fr} explore à plusieurs reprises ces changements d’échelle et leurs implications.}\nolinebreak.
+		À l’échelle microscopique (lorsque l’on considère le mouvement individuel des particules) les concepts de température et de chaleur sont plus difficiles encore à définir ; mais cela dépasse le domaine d’étude de cet ouvrage\footnote{Pour mieux définir les frontières entre les échelles macroscopique et microscopique dans la thermodynamique de l’ingénieur, les étudiants les plus rigoureux pourront par exemple consulter l’ouvrage d’Alexandre Watzky~\cite{watzky2007}. Richard Feynman~\cite{feynman1963, feynman1963fr} explore à plusieurs reprises ces changements d’échelle et leurs implications.\index{Feynman, Richard}}\nolinebreak.
 
 
 	\subsection{La capacité thermique}
