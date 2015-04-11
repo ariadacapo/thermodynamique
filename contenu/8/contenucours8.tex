@@ -1,10 +1,12 @@
+\index{entropie|(}
 \section{Le concept de l’entropie}
 
 	\subsection{À quoi sert l’entropie ?}
-	\label{ch_utilite_entropie}
+	\label{ch_utilite_entropie}\index{entropie!concept}\index{énergie}
 	
 		Au tout début du \coursun, nous avions vu que nous pouvions conceptualiser l’\vocab{énergie} comme étant «~une grandeur qui ne varie jamais lorsque les choses évoluent~». Ainsi, nous utilisons les quantifications de l’énergie pour déterminer les limites du possible : par exemple, nous savons qu’avec~\SI{500}{\joule}, un corps immobile de masse~\SI{10}{\kilogram} ne peut pas atteindre une vitesse supérieure à~\SI{10}{\metre\per\second}.
 	
+		\index{impossibilité (physique)}
 		Pourtant, notre intuition et notre expérience quotidienne nous apprennent que beaucoup de transformations ne peuvent avoir lieu que dans un seul sens (\cref{fig_water_jump}). Par exemple, il y a autant d’énergie dans un verre d’eau au rebord d’une table que dans ce même verre brisé avec cette même eau renversée sur le sol. Or nous savons, ou plus exactement, nous avons la conviction profonde, qu’il est \emph{possible} que le verre tombe et se casse, mais \emph{impossible} que les éclats et l’eau sur le sol se rassemblent spontanément en un verre plein sur la table.\\
 		Ainsi, la quantification de l’énergie n’est pas entièrement suffisante pour déterminer \emph{ce qui est possible}. Nous souhaiterions pouvoir en plus prédire de façon absolue et quantitative le sens dans lequel l’énergie peut ou ne peut pas être transformée.
 		\begin{figure}
@@ -20,6 +22,7 @@
 		L’\vocab{entropie} a été pensée pour répondre à ce questionnement. À la fin de ce chapitre, nous disposerons d’un outil permettant de \emph{calculer} le sens d’une évolution, c’est-à-dire de prédire mathématiquement laquelle de deux situations séparées dans le temps doit avoir eu lieu avant l’autre.
 
 	\subsection{Comment déterminer le sens d’une transformation ?}
+	\index{évolutions!sens des}
 	
 		Dans le vocabulaire de la thermodynamique, le concept d’une «~évolution à sens unique~» est bien sûr nommé \vocab{irréversibilité}. Nous avions déjà abordé l'irréversibilité en section \S\ref{ch_évolutions_irr_sf}, où nous avions déterminé qu’elle avait deux causes principales :
 			\begin{itemize}
@@ -29,9 +32,10 @@
 		
 		Les transformations irréversibles dans les fluides conduisent invariablement à des états où la température, la pression ou le volume sont plus grands qu’ils ne l’auraient été avec une transformation réversible.
 		
+		\index{chaleur!dans les irréversibilités}
 		\thermoquotebegin{O}
 			Pour cela nous imaginons qu’après la transformation que nous souhaitons étudier de cette façon, la masse est ramenée à son état initial par une opération réversible. De cette façon, nous obtenons un petit processus cyclique, à laquelle l’équation (II) s’applique aussi bien qu’à l’ensemble. Si [le long de ce processus] l’on connaît également les quantités de chaleur qu’a reçues la masse pendant ce dernier ainsi que les températures auxquelles elles correspondent, alors l’intégrale négative $-\int \frac{\diff Q}{T}$ nous donne la transformation non-compensée impliquée pendant celui-ci.
-		\thermoquoteend{Rudolf Clausius, 1856~\cite{clausius1856, clausius1867en,clausius1868fr3}}{}
+		\thermoquoteend{Rudolf Clausius, 1856~\cite{clausius1856, clausius1867en,clausius1868fr3}\index{Clausius!Rudolf}}{}
 		Pour quantifier l’irréversibilité d’une évolution, nous allons quantifier \emph{la chaleur qu’il faudrait retirer au corps pour le ramener dans son état initial de manière réversible}. En lui soustrayant la chaleur qui a été effectivement transmise, nous obtenons en quelque sorte la chaleur qui a été inutilement créée pendant l’évolution.\\
 		Or, plus la température à laquelle cette chaleur créée est basse, moins elle peut être transformée en travail (\S\ref{ch_efficacité_moteur_carnot}). Nous allons ainsi «~pénaliser~» le coût en chaleur en le divisant par la température.
 		
@@ -42,14 +46,14 @@
 	\subsection{L’entropie est une propriété}
 	\label{ch_entropie_propriete}
 	
-		Commençons par admettre le fait que l’entropie est une \vocab[propriété physique]{propriété} physique\footnote{On dit aussi \vocab{variable physique} ou \vocab{variable thermodynamique}.}, c’est-à-dire quelque chose qui caractérise l’état d’un système. Dit autrement : si l’on considère une portion de l’univers à un moment donné (un système), nous trouvons que ce système a une masse, un volume, une température : ce sont ses propriétés, des descriptions absolues de son état. L’entropie est une de ces propriétés.
+		Commençons par admettre le fait que l’entropie est une \vocab[propriété physique]{propriété} physique\footnote{On dit aussi \vocab[variable thermodynamique]{variable physique} ou \vocab{variable thermodynamique}.}, c’est-à-dire quelque chose qui caractérise l’état d’un système. Dit autrement : si l’on considère une portion de l’univers à un moment donné (un système), nous trouvons que ce système a une masse, un volume, une température : ce sont ses propriétés, des descriptions absolues de son état. L’entropie est une de ces propriétés.
 		
 		Par contraste, nous pourrions dire que la chaleur, le travail ou le courant électrique ne sont pas des propriétés : ce ne sont pas des quantités qui décrivent un objet, mais plutôt un transfert entre deux objets.
 
 		Nous penserons donc toujours à l’entropie comme étant l’entropie «~\emph{de quelque chose}~» (peut-être comme nous dirions la couleur, la température «~de quelque chose~»). Nous dirons par exemple «~ce corps a de l’entropie~» ou «~l’entropie de ce corps augmente/diminue~», et non pas «~nous prenons/donnons de l’entropie à ce~corps~».
 	
 	\subsection{Définition}
-	\label{ch_entropie_definition}
+	\label{ch_entropie_definition}\index{entropie!définition}
 	
 		On nomme \vocab{entropie} une propriété physique notée $S$.
 		
@@ -137,6 +141,7 @@
 			
 				\item L’\cref{eq_variation_franche_entropie} ne permet pas de calculer l’entropie d’un système, mais seulement \emph{sa variation} lorsqu’il évolue. En fait, on ne sait pas calculer l’entropie d’un corps arbitraire ! Nous verrons que cela n’a pas d’importance pour l’ingénieur/e.
 		
+				\index{entropie!mesure (impossibilité)}
 				\item Tout comme l’énergie, l’entropie est invisible, inodore, impalpable et inaudible. Il n’existe pas d’instrument capable de la mesurer. Nous ne pouvons que calculer ses variations.
 
 				\item On ne peut calculer les variations d’entropie que le long d’évolutions réversibles, ce qui est une limitation très importante (aucune évolution réelle intéressante pour l’ingénieur/e n’est réversible). Cependant, il existe toujours de multiples façons réversibles, toutes équivalentes, de reproduire l’état final d’une évolution irréversible.
@@ -148,6 +153,7 @@
 \label{ch_variations_entropie}
 
 	\subsection{Analogie avec le volume}
+	\index{entropie!analogie avec le volume}
 	
 		Nous avons vu au \coursdeux que lorsque l’évolution est réversible, le travail fourni par un fluide lorsque son volume varie s’exprime selon l’\cref{eq_travail_pdV} :
 		\begin{equation}
@@ -213,6 +219,7 @@
 
 	
 	\subsection{Les diagrammes température-entropie}
+	\index{diagramme!pression-volume}\index{diagramme!température-entropie}\index{pression-volume, diagramme}\index{température-entropie, diagramme}
 	
 		Après six chapitres de bons et loyaux services, nous rangeons le diagramme pression-volume sur l’étagère, car il est temps de mettre à profit notre nouvel outil : le diagramme température-entropie. Même s’il est un peu plus abstrait, le diagramme $T-s$ est très utile pour décrire ce qui se passe à l’intérieur des machines car il est facile à tracer et il nous permet de visualiser directement \emph{l’irréversibilité}, qui est toujours indésirable pour l’ingénieur/e.
 
@@ -232,7 +239,7 @@
 
 		Lorsque le système perd de la chaleur, son entropie décroît et nous nous déplacerons de droite à gauche sur les diagrammes $T-s$ (\cref{fig_ts_basics}).
 
-		\clearfloats
+		\clearfloats\index{cycle!thermodynamique}
 		Notons aussi que lorsqu’un fluide parcourt un cycle complet, la température à laquelle l’entropie diminue peut être inférieure à la température à laquelle elle augmente (tout comme pour le volume avec la pression). Le transfert net de chaleur est alors négatif : le fluide a \emph{absorbé} de la chaleur qui aura été transformée en travail. En suivant le circuit inverse, le fluide sera source de chaleur : c’est le principe du réfrigérateur (\S\ref{ch_principe_fonctionnement_réfrigérateur}).
 		
 		Lorsque les évolutions sont réversibles, cette chaleur nette est représentée par l’aire enclose par le trajet effectué par le fluide sur un diagramme température-entropie (\cref{fig_ts_cycle}).
@@ -245,7 +252,7 @@
 			\label{fig_ts_cycle}
 		\end{figure}
 
-		\onlyamphibook{\clearfloats}
+		\onlyamphibook{\clearfloats}\index{Carnot!cycle de}\index{diagramme!pression-volume}\index{diagramme!température-entropie}\index{pression-volume, diagramme}\index{température-entropie, diagramme}
 		Enfin, nous notons avec joie que le cycle de Carnot, constitué de deux phases isothermes ($T = \text{cste}$) séparées par deux phases isentropiques ($s = \text{cste}$), gagne beaucoup à être représenté sur un diagramme température-entropie, comme montré en \cref{fig_ts_carnot}.
 
 		\begin{figure}[htb]%handmade
@@ -262,7 +269,7 @@
 
 	
 	\subsection{Variations d’entropie d’un gaz parfait}
-	\label{ch_delta_s_gaz_parfaits}
+	\label{ch_delta_s_gaz_parfaits}\index{entropie!d’un gaz parfait, variations d’}\index{gaz parfait!variations d’entropie d’un}
 	
 		À partir de maintenant, nous souhaitons pouvoir quantifier la variation d’entropie des fluides pour n’importe quelle évolution arbitraire. Dans le cas d’un gaz parfait, cette quantification est en fait étonnamment simple.
 	
@@ -294,7 +301,7 @@
 
 			\thermoquotebegin{O}	
 				Dans l’expression obtenue, la différence $S - S_0$ est de nouveau entièrement déterminée si les états de départ et d’arrivée sont connus, et nous ne devons prêter attention à la manière dont s’est déroulé le passage de l’un vers l’autre que lorsque nous formons l’intégrale $\int \frac{\diff Q}{T}$.
-			\thermoquoteend{Rudolf Clausius, 1865~\cite{clausius1865,clausius1867en,clausius1868fr2}}{}
+			\thermoquoteend{Rudolf Clausius, 1865~\cite{clausius1865,clausius1867en,clausius1868fr2}\index{Clausius!Rudolf}}{}
 
 		Cette équation est intéressante parce qu’elle nous indique que la variation d’entropie $\Delta s$ pendant une évolution de $1$ à $2$ ne dépend que des états initial et final. Même si nous avons commencé cette démonstration le long d’une évolution réversible nous obtenons une expression~\ref{eq_delta_s_gp_v} dans laquelle le chemin utilisé n’apparaît~pas.
 		
@@ -368,6 +375,7 @@
 
 
 	\subsection{Variations d’entropie d’un liquide/vapeur}
+	\index{entropie!d’un liquide-vapeur, variations d’}\index{liquide-vapeur!variations d’entropie d’un}
 	
 		Pour un liquide/vapeur, les variations ne peuvent pas être calculées car il n’existe pas de modèle mathématique simple pour modéliser la température en fonction des autres propriétés. La courbe de saturation et le chemin d’une évolution à pression constante sont représentés en \cref{fig_ts_lv} ; cette figure~ressemble très fortement au diagramme température-volume que nous avions tracé en \cref{fig_t-v_eau}.
 		Pour quantifier les valeurs de $s$, nous allons procéder exactement comme avec l’énergie interne $u$ au \courscinqshort~: en les tabulant.
@@ -494,17 +502,20 @@
 
 \onlyframabook{\clearpage}
 \section{Prédire le sens des transformations}
+\index{évolutions!sens des}
 
 	Nous voilà au concept central qui a ouvert les portes de la physique à la thermodynamique. À partir des quantifications des variations d’entropie, nous sommes capables de décrire le sens des transformations, c’est-à-dire de prouver par exemple qu’un état B vient \emph{après} un état A.
 
 	\subsection{Irréversibilités lors des transferts de chaleur}
+	\index{irréversibilité!lors des transferts de chaleur}\index{chaleur!transferts irréversibles}
 
 		\thermoquotebegin{O}
 			Si l’on appelle équivalentes deux transformations que l’on peut remplacer l’une par l’autre sans par là nécessiter un changement permanent, alors \jecourte le transfert de la quantité de chaleur $Q$ de la température $t_1$ à la température $t_2$ a la valeur équivalence $Q \left( \frac{1}{T_2} - \frac{1}{T_1}\right)$ \jecourte
-		\thermoquoteend{Rudolf Clausius, 1854~\cite{clausius1854,clausius1867en,clausius1868fr4}}{}
+		\thermoquoteend{Rudolf Clausius, 1854~\cite{clausius1854,clausius1867en,clausius1868fr4}\index{Clausius!Rudolf}}{}
 		
 		Pour nous féliciter d’avoir dépassé déjà la moitié du chapitre, nous nous munissons d’une tasse brûlante de thé. Notre intérêt pour la thermodynamique primant sur la boisson, nous collons notre tasse tout contre une bouteille d’eau fraîche. Ce que nous avons sous les yeux n’est autre qu’une source d’entropie --\ et elle mérite toute notre attention.
 
+		\index{entropie!création d’}
 		Notre tasse A est à température $T_\A$, plus haute que $T_\B$, la température de la bouteille d’eau (\cref{fig_expérience_création_entropie}). Les deux corps sont mis en contact et une quantité de chaleur infinitésimale $\diff q$ passe de~A vers~B.
 
 		\begin{figure}
@@ -545,18 +556,21 @@
 		\onlyframabook{\clearfloats}%handmade
 		\onlyamphibook{\thermoquotebegin{O}}\onlyframabook{\thermoquotetopbegin{O}}
 			\emph{Partout où il existe une différence de température, il peut y avoir production de puissance motrice}. Réciproquement partout où l’on peut consommer de cette puissance, il est possible de faire naître une différence de température, il est possible d’occasioner une rupture d’équilibre dans le calorique.
-		\thermoquoteend{Sadi Carnot, 1824~\cite{carnot1824}}{}		
+		\thermoquoteend{Sadi Carnot, 1824~\cite{carnot1824}\index{Carnot!Sadi}}{}		
+		\index{température!gradient de}
 		Tout gradient de température donne lieu à une irréversibilité, et se traduit par une augmentation de l’entropie totale. \\
 		On peut se représenter un flux de chaleur entre deux sources de températures différentes par une opportunité perdue de produire un travail -- ce qui sera sans doute source d’anxiété pour l’étudiant/e comme pour l’ingénieur/e. En plaçant une machine de Carnot entre les corps A et B, aucune irréversibilité n’aurait eu lieu et $\diff s_{[A+B]}$ serait nul. En plaçant une machine thermique de faible rendement, $\diff s_{[A+B]}$ serait faible ; le cas ci-dessus où le transfert de chaleur se fait sans machine est le cas limite où aucun travail n’est produit.
 		
 		\onlyamphibook{\dontbreakpage}%handmade
 
 	\subsection{Irréversibilités lors des compressions et détentes adiabatiques}
+	\index{irréversibilité!lors des compressions et détentes}\index{adiabatiques, évolutions}\index{adiabatiques irréversibles, évolutions}\index{chaleur!lors des irréversibilités}\index{irréversibilité!lors des transferts de travail}\index{travail!transferts irréversibles}
 
 		Un second type de transformation donne lieu à des irréversibilités, et donc à une augmentation de l’entropie totale : c’est le transfert de travail dans les fluides.
 
 		En pratique, toute détente ou compression se fait en présence d’irréversibilités internes. Comme la durée de l’évolution est finie (contrairement aux évolutions prescrites par Carnot), il y aura nécessairement des déséquilibres de pression au sein du fluide. Ces déséquilibres font apparaître de la turbulence interne, qui provoque la transformation d’énergie cinétique en chaleur, par frottement.
 
+		\index{entropie!création d’}
 		Ainsi, une compression adiabatique réelle provoque plus d’échauffement du fluide qu’une compression adiabatique réversible (\cref{fig_t-s_détentes_compressions}) : une partie du travail fourni est entièrement convertie en chaleur, au travers des frottements internes. Par le même phénomène, une détente adiabatique réelle abaisse moins la température qu’une détente adiabatique réversible. À chaque fois, l’entropie est augmentée bien qu’aucun transfert de chaleur $\diff q$ n’ait eu lieu.
 		
 		\onlyamphibook{\begin{figure}}
@@ -575,15 +589,19 @@
 		
 
 	\subsection{Le second principe et l’entropie}
+	\index{principes de la thermodynamique!second, expression avec l’entropie}
 
 		\thermoquotebegin{O}
 			\emph{La chaleur ne peut passer d’un corps plus froid vers un corps plus chaud, sans qu’un changement en connexion avec ce transfert n’ait lieu simultanément.}
 		\thermoquoteend{Rudolf Clausius, 1854~\cite{clausius1854,clausius1867en,clausius1868fr4}}{}
 		Nous avons admis au \courssept que la chaleur ne se déplaçait spontanément que vers une température plus basse --\ un postulat que nous nommons \textit{second principe}. Nous pouvons maintenant formuler cette affirmation avec une expression mathématique.
 	
-		\begin{description}
+		\begin{description}	
+			\index{irréversibilité!lors des transferts de chaleur}\index{chaleur!transferts irréversibles}\index{température!gradient de}
 			\item[Lors d’un transfert de chaleur] d’un corps à température $T_A$ vers un autre à température $T_B$, la variation globale d’entropie $\Delta s = \frac{-q}{T_\A} + \frac{q}{T_\B }$ est nécessairement nulle ou positive car $T_A$ est nécessairement égale ou supérieure à $T_B$.
 			
+			
+			\index{irréversibilité!lors des transferts de travail}\index{travail!transferts irréversibles}
 			\item[Lors d’un transfert de travail] toute irréversibilité donne lieu à une température finale plus haute qu’elle n’aurait pu l’être (cf. \S\ref{ch_évolutions_irr_sf}). L’obtention du même état final avec un chemin réversible demande donc un apport de chaleur, c’est-à-dire un terme $\int \left(\frac{\diff Q}{T}\right)_\text{rév.}$ positif. Une irréversibilité se traduit donc par une augmentation de l’entropie globale.
 			
 		\end{description}
@@ -601,9 +619,11 @@
 
 		On peut toujours réduire l’entropie d’un système pour la ramener à sa valeur initiale (il suffit pour cela de ramener le système lui-même à son état initial, quelle que soit la manière de procéder), mais cela se fera nécessairement au prix d’une augmentation \emph{au moins aussi grande} de celle d’un autre système.
 		
+		\index{énergie!concept}\index{entropie!concept}
 		Nous pourrions également dire, de la même façon que nous avions décrit l’énergie comme «~une grandeur qui ne varie pas lors des transformations~» (\S\ref{ch_energie}), que l’entropie est conceptualisée comme «~une grandeur qui augmente toujours lors des transformations~». C’est l’indicateur que nous recherchions en \S\ref{ch_utilite_entropie} pour pouvoir déterminer le sens des transformations.
 
 	\subsection{Prédire le sens des transformations}
+	\index{évolutions!sens des}
 	
 		Si l’on veut montrer qu’un système ne peut aller que d’un état A à un état B, c’est-à-dire que l’évolution est irréversible, il nous faut procéder de la façon suivante :
 	
@@ -674,6 +694,7 @@
 \section{L’entropie, le temps, et l’univers}
 
 	\subsection{L’entropie pour l’ingénieur}
+	\index{entropie!concept}
 
 		Nous avons vu que l’entropie, de la même façon que l’énergie, est un concept dont la quantification des variations permet de déterminer les transformations qui sont \emph{possibles}. Il s’agit donc fondamentalement d’un concept de physicien/ne. Pour l’ingénieur/e, l’entropie est :
 		\begin{itemize}
@@ -684,15 +705,18 @@
 	À chaque fois que nous donnons lieu à une augmentation de l’entropie globale, il nous faut au final effectuer un rejet de chaleur indésirable. Ainsi, ces quantifications de $\Delta s$ nous permettent de mesurer la qualité des détentes, compressions, refroidissements et réchauffements que nous effectuons avec les fluides dans nos~machines.
 
 	\subsection{Contexte : le sens du temps}
+	\index{évolutions!sens des}
 				
 		Les exemples que nous avons étudiés dans ce chapitre pour déterminer le sens des transformations sont très académiques, toutefois la démarche reste valide pour toute transformation : une pierre jetée dans un étang, une assiette qui se casse en tombant, etc. Si nous revenons aux trois photos de la~\cref{fig_water_jump}, nous pourrions en retrouver l’ordre en déterminant les états initial et final de l’eau autour de la plongeuse, et en comparant $\Delta s$ à l’intégrale $\int \left(\frac{\diff q}{T}\right)_\text{chemin réel}$ réalisée pendant l’entrée dans l’eau.
 		
+		\index{Clausius!Rudolf}\index{Reech, Ferdinand}\index{Rankine, William}
 		C’est ce désir de retrouver l’ordre absolu dans lequel se succèdent les états, c’est-à-dire le sens du temps, qui a mené le physicien allemand \wf{Rudolf Clausius} jusqu’à proposer le concept d’\vocab[entropie!création du concept]{entropie} en 1865 dans une publication magistrale --\ \textit{Über verschiedene für die Anwendung bequeme Formen der Hauptgleichungen der mechanischen Wärmetheorie}~\cite{clausius1865,clausius1867en,clausius1868fr2}. Concluant une décennie de travail autour de la grandeur $\frac{Q}{T}$, il y formalise un concept que ses condisciples français \wf{Ferdinand Reech} et écossais \wf{William Rankine} n’avaient qu’effleuré~\cite{truesdell1980}, et y rassemble l’ensemble des connaissances contemporaines de sa discipline.
 		
 		\onlyamphibook{\thermoquotebegin{O}}
 		\onlyframabook{\thermoquotetopbegin{O}}
 			J’ai intentionnellement formé le mot \vocab{entropie} de sorte qu’il soit aussi similaire au mot \vocab{énergie} que possible, parce que les sens physiques des deux grandeurs nommées par ces mots sont si étroitement liées qu’il m’a semblé qu’une cetraine similarité dans leurs désignations était désirable.
-		\thermoquoteend{Rudolf Clausius, 1865~\cite{clausius1865,clausius1867en,clausius1868fr2}}{\onlyframabook{\vspace{-1em}}\onlyamphibook{\vspace{-1cm}}}%handmade
+		\thermoquoteend{Rudolf Clausius, 1865~\cite{clausius1865,clausius1867en,clausius1868fr2}\index{Clausius!Rudolf}}{\onlyframabook{\vspace{-1em}}\onlyamphibook{\vspace{-1cm}}}%handmade
+		\index{entropie!étymologie}
 		Clausius forge le mot \textit{en-tropie} à partir du grec ancien \textit{tropè} \textgreek{τροπή} (révolution, changement), ce qui, couplé à son ton autoritaire, ne fait rien pour gagner l’enthousiasme de ses contemporains. Mais le concept est si puissant, et l’\cref{eq_augmentation_entropie} si simple, qu’ils sont universellement acceptés.
 		
 		Ainsi, après un siècle d’efforts, la physique de la chaleur a rattrapé la technologie des moteurs. Nous voilà capables de décrire entièrement et de façon quantitative le comportement des corps sans devoir nous pencher sur celui de leurs constituants, tels que les molécules, atomes ou particules sub-atomiques : l’entropie était la dernière pièce manquante de ce que nous appelons aujourd’hui la \vocab[macroscopique, échelle]{thermodynamique macroscopique}.
@@ -703,6 +727,7 @@
 	
 		Passé Clausius, le développement de la thermodynamique n’intéresse plus guère les ingénieurs, mais les physiciens ne sont pas rassasiés. Il nous reste en effet un problème, car si nous avons bien \emph{décrit} le phénomène d’irréversibilité, nous n’avons toujours pas \emph{expliqué} son origine à l’intérieur de corps constitués de particules dont les évolutions (un incessant bourdonnement de collisions, à base de forces d’attraction et de répulsion), \emph{elles}, sont parfaitement réversibles.
 		
+		\index{Boltzmann!Ludwig}\index{Boltzmann!entropie selon}
 		Il ne faudra que dix ans pour que la réponse soit formalisée : l’autrichien \wf{Ludwig Boltzmann} propose en 1875 une \vocab[entropie!définition microscopique]{définition microscopique}\index{microscopique, échelle}\index{entropie!selon Boltzmann} de l’entropie :
 			\begin{equation}
 				S \equiv k \ln \lambda
@@ -715,26 +740,31 @@
 		\thermoquotebegin{O}
 		Nous mesurons le «~dés\-or\-dre~» par le nombre de manières dont l’intérieur peut être arrangé, de telle sorte que de l’extérieur cela apparaisse la même chose. \emph{Le logarithme de ce nombre de manières est l’entropie}.\\
 Ainsi, avec la définition technique ci-dessus du désordre, nous pouvons comprendre la proposition. Premièrement, l’entropie mesure le désordre. Deuxièmement, l’univers va toujours de «~l’ordre~» vers le «~désordre~», ainsi l’entropie augmente toujours. L’ordre n’est pas un ordre au sens où nous aimons l’arrangement, mais au sens où le nombre de manières différentes à notre disposition pour obtenir quelque chose de toujours extérieurement identique, est relativement restreint.
-		\thermoquoteend{Richard Feynman, 1963~\cite{feynman1963, feynman1963fr}}{\onlyframabook{\vspace{-3em}}}%handmade
+		\thermoquoteend{Richard Feynman, 1963~\cite{feynman1963, feynman1963fr}\index{Feynman, Richard}}{\onlyframabook{\vspace{-3em}}}%handmade
 		Ainsi pour Boltzmann l’entropie est une mesure de la probabilité du système d’être dans l’état où on l’observe. Plus la configuration est probable (homogénéité de la pression et de la température), plus l’entropie est grande.
 		
+		\index{impossibilité (physique)}\index{probabilité (physique)}
 		À l’échelle macroscopique, nous avions décrit le second principe comme une impossibilité (\S\ref{ch_second_principe_enonce}) : un objet de température homogène ne peut pas voir spontanément une extrémité se refroidir et l’autre se réchauffer. Selon Boltzmann, un tel événement n’est pas strictement impossible, mais seulement très improbable. L’état où les molécules les plus rapides sont toutes rassemblées à une extrémité, et les plus lentes à l’autre, est bien moins probable (entropie plus faible) qu’un état où elles sont réparties de façon homogène (entropie plus grande).
 		
+		\index{statistique!thermodynamique,}
 		Cette approche a non seulement le mérite de raccrocher notre discipline avec la théorie atomique --\ et nous parlerons dès lors de \vocab[microscopique, échelle]{thermodynamique microscopique} et \vocab[thermodynamique statistique]{statistique}\ -- mais elle va aussi ouvrir la porte de la théorie de l’information. En effet, la résolution et la précision avec lesquelles on évalue l’état d’un système affectent le nombre de configurations possibles que l’on peut lui attribuer. Voici le concept de l’\vocab[information (physique)]{information} rattaché à d’autres propriétés physiques : un résultat impressionnant pour une discipline qui ne visait qu’à explorer ce que voulait dire~«~chaud~» !
 		
 	\subsection{L’entropie et l’univers}
+	\index{univers!énergie de l’}\index{univers!entropie de l’}
 	
 		\thermoquotebegin{O}
 			Pendant une durée de temps finie dans le passé, la terre a dû être --et dans une durée de temps à venir elle devra l’être encore-- impropre à l’habitat de l’homme tel qu’il est présentement constitué, à moins que des opérations aient été ou soient réalisées qui sont impossibles selon les lois qui régissent les opérations ayant lieu aujourd’hui dans le monde matériel.
-		\thermoquoteend{William Thomson, 1852~\cite{kelvin1852}}{}
+		\thermoquoteend{William Thomson, 1852~\cite{kelvin1852}\index{Kelvin!William Thomson}}{}
 		Nous quittons l’entropie sur une question ouverte. Dans la mesure où l’on pense l’univers comme étant un ensemble fini, c’est-à-dire comme à un système isolé contenant une quantité fixe d’énergie, peut-on lui appliquer l’\cref{eq_augmentation_entropie} : $\Delta s_\text{univers} > 0$ lorsque le temps passe ? L’univers tend-il vers une température minimale homogène finale ? Clausius est sans équivoque : il termine aussitôt son article de 1865 par l’affirmation :
 			
-			\begin{quote}
-				Si l’on imagine que l’on ait calculé d’une manière conséquente pour l’univers entier […] la quantité que j’ai nommée \vocab{entropie} pour un corps particulier, ainsi que la quantité désignée sous le nom d’\vocab{énergie} et dont le sens est plus facile à saisir, on pourra exprimer très simplement, sous la forme suivante, les lois fondamentales de l’univers qui correspondent aux deux principes essentiels de la théorie mécanique de la chaleur :
+			\begin{quote}\index{Clausius!Rudolf}
+				Si l’on imagine que l’on ait calculé d’une manière conséquente pour l’univers entier […] la quantité que j’ai nommée \vocab{entropie} pour un corps particulier, ainsi que la quantité désignée sous le nom d’\vocab[énergie!concept]{énergie} et dont le sens est plus facile à saisir, on pourra exprimer très simplement, sous la forme suivante, les lois fondamentales de l’univers qui correspondent aux deux principes essentiels de la théorie mécanique de la chaleur :
 					\begin{enumerate}
 						\item L’énergie de l’univers est constante.
 						\item L’entropie de l’univers tend vers un maximum.
 					\end{enumerate}
 			\end{quote}
 		
+		\index{Asimov, Isaac}\index{Depondt, Philippe}
 		La théorie des réfrigérateurs et des moteurs est-elle apte à prévoir la fin du monde ? Pour explorer cette question de façon ludique, l’étudiant/e pourra lire \textit{L’ultime question} d’Isaac \mbox{Asimov}~\cite{asimov1956,asimov1956fr} ou \textit{L’entropie et tout ça} de Philippe \mbox{Depondt}~\cite{depondt2001}. Pour une réponse plus formelle, il faudra se reporter à un bon manuel de physique.
+\index{entropie|)}

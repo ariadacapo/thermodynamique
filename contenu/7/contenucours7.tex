@@ -1,9 +1,10 @@
+\index{principes de la thermodynamique!second|(}
 \section{Le second principe}
 
 	\subsection{Énoncé}
 	\label{ch_second_principe_enonce}
 
-		Le \vocab[principes de la thermodynamique!second]{second principe de la thermodynamique} s’exprime ainsi :
+		Le \vocab[principes de la thermodynamique!second, énoncé]{second principe de la thermodynamique} s’exprime ainsi :
 
 		\begin{principe}
 			La chaleur ne se déplace spontanément que vers une température plus basse.
@@ -11,6 +12,7 @@
 
 		On peut préciser cette affirmation de la façon suivante :
 
+		\index{chaleur!transfert vers une température plus haute}
 		\begin{trucimportant}
 			Le transfert de chaleur vers une température plus haute\linebreak
 			ne peut se faire sans apport d’énergie.
@@ -31,7 +33,7 @@
 		En effet, si la température n’est que le niveau d’agitation des particules, alors rien n’empêche \textit{a priori} celle-ci d’augmenter localement même si la température ambiante est plus faible\footnote{L’étudiant/e curieux/se pourra explorer cette idée en étudiant l’expérience intrigante du \textit{\wfd{Démon de Maxwell}{démon de Maxwell}}, qui ouvre les portes vers de nombreux nouveaux concepts.}. Il a fallu un demi-siècle de travail ardu aux thermodynamiciens pour répondre à cela de façon satisfaisante\footnote{C’est l’application des probabilités et statistiques à la thermodynamique, et en particulier le travail de Ludwig Boltzmann (\S\ref{ch_entropie_boltzmann}), qui permettra de la réconcilier avec la vision mécanistique Newtonienne du monde, au cours du \textsc{xx}\ieme siècle.}. Il ne s’agit pas d’un problème trivial.
 		\end{itemize}
 
-		Dans notre étude et depuis notre point de vue d’ingénieur/e, nous accepterons le postulat ci-dessus comme une évidence, sans chercher ni à le justifier, ni à~l’expliquer.
+		Dans notre étude et depuis notre point de vue d’ingénieur/e, nous accepterons le postulat ci-dessus comme une évidence, sans chercher ni à le justifier, ni à~l’\mbox{expliquer}.
 		
 		
 	\subsection{Principe zéro et troisième principe}
@@ -44,7 +46,7 @@
 \label{ch_second_principe_machines_thermiques}
 
 	\subsection{Tous les moteurs rejettent de la chaleur}
-	\label{ch_demo_second_principe}
+	\label{ch_demo_second_principe}\index{efficacité!maximale des machines}\index{moteur!principe de fonctionnement}\index{cycle!thermodynamique, faiblesse du rendement}
 
 		Imaginons qu’on veuille créer du travail en prenant de la chaleur à un objet «~chaud~», c’est-à-dire à haute température : par exemple, \SI{100}{\degreeCelsius}, comme montré en \cref{fig_démo_second_principe_1}. On accole à cet objet un cylindre empli d’un fluide, et on laisse le fluide pousser sur un piston au fur et à mesure qu’il reçoit de la chaleur.
 
@@ -60,8 +62,8 @@
 
 		\thermoquotebegin{O}
 			D’après ce principe, il ne suffit pas, pour donner naissance à la puissance motrice, de produire de la chaleur : il faut encore se procurer du froid ; sans lui la chaleur serait inutile.\\
-			Et en effet, si l’on ne rencontrait autour de soi que des corps aussi chauds que nos foyers, comment parviendrait-on à condenser la vapeur ? Où la placerait-on une fois qu’elle aurait pris naissance ? Il ne faudrait pas croire que l’on pût, ainsi que cela se pratique dans certaines machines, la rejeter dans l’atmosphère : l’atmosphère ne la recevrait pas. Il ne la reçoit, dans l’état actuel des choses, que parce qu’il remplit pour elle l’office d’un vaste condenseur, parce qu’il se trouve à une température plus froide : autrement il en serait bientôt rempli, ou plutôt il en serait d’avance saturé.%
-		\thermoquoteend{Sadi Carnot, 1824~\cite{carnot1824}}{\onlyframabook{\vspace{2em}}}%handmade
+			Et en effet, si l’on ne rencontrait autour de soi que des corps aussi chauds que nos foyers, comment parviendrait-on à condenser la vapeur ? Où la placerait-on une fois qu’elle aurait pris naissance ? Il ne faudrait pas croire que l’on pût, ainsi que cela se pratique dans certaines machines, la rejeter dans l’atmosphère : l’atmosphère ne la recevrait pas. Il ne la reçoit, dans l’état actuel des choses, que parce qu’il remplit pour elle l’office d’un vaste condenseur, parce qu’il se trouve à une température plus froide : autrement il en serait bientôt rempli, ou plutôt il en serait d’avance \mbox{saturé}.%
+		\thermoquoteend{Sadi Carnot, 1824~\cite{carnot1824}\index{Carnot!Sadi}}{\onlyframabook{\vspace{2em}}}%handmade
 
 		Malheureusement, \emph{la seule façon} d’extraire de la chaleur du gaz est de le mettre en contact avec un corps plus «~froid~», comme montré en \cref{fig_démo_second_principe_2}. En particulier, il est impossible de restituer la chaleur accumulée dans le gaz au corps «~chaud~» --\ il faudrait pour cela que la température du gaz soit plus grande que lui\footnote{Notons qu’en poussant le raisonnement à ses limites, le moteur pourrait recevoir et fournir la chaleur à température constante. Mais alors, le travail à fournir pour ramener le fluide à son état initial serait exactement le même que celui développé pendant la détente : le cycle ne transformerait effectivement pas de chaleur en travail, et ne présenterait alors pas d’intérêt pratique.}. Cette chaleur accumulée est donc irrémédiablement perdue.
 
@@ -110,7 +112,8 @@
 		Le second principe a des conséquences particulières pour chacun des deux grands types de machines thermiques :
 
 		\begin{description}
-
+			
+			\index{principes de la thermodynamique!second, appliqué aux moteurs}\index{moteur!rendement maximal d’un}\index{moteur!principe de fonctionnement}
 			\item[Un moteur]{prélève de la chaleur à une source à haute température ($\dot Q_{TH} > 0$) et produit un travail ($\dot W_\net < 0$, \cref{fig_moteur_exemple_valeurs}). Nous venons de voir que si nous voulons effectuer cette transformation en continu, nous n’avons d’autre choix que de rejeter de la chaleur dans un réservoir à basse température ($\dot Q_{TB} < 0$).
 
 			\onlyamphibook{\begin{figure}}
@@ -149,7 +152,7 @@
 
 		}%end item
 
-		\clearfloats
+		\clearfloats\index{principes de la thermodynamique!second, appliqué aux réfrigérateurs (ou climatiseurs)}\index{réfrigérateur!rendement maximal d’un}\index{climatiseur!rendement maximal d’un}\index{pompe à chaleur!rendement maximal d’une}\index{cycle!de réfrigération}
 		\item[Un réfrigérateur, un climatiseur ou une pompe à chaleur]{a un fonctionnement inverse à celui des moteurs. Ces machines extraient de la chaleur d’une source à basse température ($\dot Q_{TB} > 0$) pour la rejeter dans un réservoir à plus haute température ($\dot Q_{TH} < 0$, \cref{fig_refrigerateur_exemplevaleurs}). Une conséquence inévitable est qu’elles consomment pour cela du travail ($\dot W_\net > 0$).
 
 			Appliqué à un réfrigérateur, le second principe s’exprime ainsi :
@@ -180,7 +183,7 @@
 
 
 \section{Le cycle de Carnot}
-\label{ch_cycle_de_carnot}
+\label{ch_cycle_de_carnot}\index{Carnot!cycle de|(}\index{cycle!de Carnot|(}
 
 	\subsection{Un peu de contexte}
 	\label{ch_contexte_cycle_carnot}
@@ -189,6 +192,7 @@
 			Pour envisager dans toute sa généralité le principe de la production du mouvement par la chaleur, il faut le concevoir indépendamment d’aucun mécanisme, d’aucun agent particulier ; il faut établir des raisonnemens applicables, non seulement aux machines à vapeur, mais à toute machine à feu imaginable, quelle que soit la substance mise en œuvre et quelle que soit la manière dont on agisse sur~elle.
 		\thermoquoteend{Sadi Carnot, 1824~\cite{carnot1824}}{}
 
+		\index{Carnot!Sadi}\index{moteur!rendement maximal d’un}
 		Au début du \textsc{xix}\ieme siècle, un jeune polytechnicien parisien nommé \wfd{Sadi Carnot (physicien)}{Sadi Carnot} s’est intéressé au fonctionnement des moteurs thermiques, alors en plein essor. Carnot recherchait \emph{la quantité maximale de travail} qu’il est possible de générer à partir d’une quantité donnée de~charbon.
 
 		La démarche de Carnot a ceci d’intéressant qu’il a fait entièrement abstraction de l’aspect technologique pour rechercher les principes sous-jacents au fonctionnement des moteurs. C’est d’autant plus difficile qu’à l’époque ceux-ci fonctionnent en utilisant l’ébullition et la condensation de la vapeur, et que la notion de \emph{cycle} n’était pas encore acquise --\ pas plus que la notion de conservation de l’énergie. Cette abstraction et la clarté de son écriture ont consacré son unique œuvre, \textit{Réflexions sur la puissance motrice du feu et sur les machines propres à développer cette puissance}, 1824~\cite{carnot1824}, dans l’histoire de la physique.
@@ -198,13 +202,14 @@
 
 
 	\subsection{Concept de machine réversible}
-	\label{ch_concept_machine_reversible}
+	\label{ch_concept_machine_reversible}\index{réversibilité}\index{réversible vs. inversable}\index{inversable vs. réversible}
 
+		\index{Carnot!Sadi, raisonnement de}
 		Carnot recherche le moteur théorique dont l’efficacité est maximale. Il imagine une façon unique de transformer chaleur en travail et travail en chaleur. Sa machine peut fonctionner dans les deux sens : en tant que moteur ou bien en tant que réfrigérateur.
 
 		\thermoquotebegin{O}
 			Ce maximum [de travail] jouit en effet de la propriété que, par sa \emph{consommation}, on peut faire passer du corps froid B au corps chaud A la même quantité de chaleur que celle qui a passé de A en B pour sa \emph{production}.
-		\thermoquoteend{Rudolf Clausius, 1850~\cite{clausius1850, clausius1850en, clausius1868fr1}}{}
+		\thermoquoteend{Rudolf Clausius, 1850~\cite{clausius1850, clausius1850en, clausius1868fr1}\index{Clausius!Rudolf}}{}
 		
 		En termes thermodynamiques, la machine qu’il conceptualise est non seulement \vocab[inversable vs. réversible]{inversable}, c’est-à-dire qu’on peut changer le sens de circulation du fluide pour changer sa fonction (tels de nombreux climatiseurs domestiques disponibles dans le commerce aujourd’hui), mais elle est aussi \vocab[réversible vs. inversable]{réversible}\index{réversibilité} : en inversant son fonctionnement, tous les flux de chaleur sont exactement opposés. De cette façon, si son réfrigérateur est alimenté par son moteur, alors les flux seront exactement compensés, comme représenté en \cref{fig_deux_machines_de_carnot}.
 
@@ -240,10 +245,12 @@
 
 		\thermoquotebegin{O}
 			Mais pour tirer des machines à haute pression des résultats vraiment avantageux, il faut que la chute du calorique y soit mise à profit le mieux possible. Il ne suffit pas que la vapeur prenne naissance à une température élevée : il faut encore que par l’extension de son volume elle arrive à une température assez basse. Le caractère d’une bonne machine à vapeur doit donc être non seulement d’employer la vapeur sous une forte pression, mais \emph{de l’employer sous des pressions successives très-variables, très-différentes les unes des autres, et progressivement décroissantes}.
-		\thermoquoteend{Sadi Carnot, 1824~\cite{carnot1824}}{}
+		\thermoquoteend{Sadi Carnot, 1824~\cite{carnot1824}\index{Carnot!Sadi}}{}
 		
+		\index{Carnot!Sadi, raisonnement de}
 		Nous avons donc vu que l’efficacité maximale d’une machine est atteinte lorsque son fonctionnement est réversible. À partir de ce constat, Carnot raisonne de la façon suivante :
 
+		\index{évolutions!isentropiques}\index{isentropiques, évolutions}\index{évolutions!adiabatiques réversibles}\index{adiabatiques réversibles, évolutions}\index{évolutions!isothermes}\index{isothermes, évolutions}
 		\begin{enumerate}
 			\item Toutes les machines thermiques fonctionnent avec la dilatation et la contraction d’un corps soumis alternativement à deux températures ;
 			\item Pour qu’ils soient réversibles, c’est-à-dire pour pouvoir être effectués dans le sens inverse, tous les transferts de chaleur doivent être effectués avec des différences de température infinitésimales : ces transformations seront alors \emph{isothermes} ;
@@ -272,6 +279,7 @@
 			\renewcommand\topsep{3cm}
 
 			\item \textbf{Compression adiabatique réversible de 1 à 2}
+				\index{évolutions!isentropiques}\index{isentropiques, évolutions}\index{évolutions!adiabatiques réversibles}\index{adiabatiques réversibles, évolutions}
 
 				Dans cette étape, nous souhaitons amener le fluide jusqu’à une haute température sans lui apporter de chaleur.
 				
@@ -284,6 +292,7 @@
 			% again
 			\renewcommand\labelitemi{\includegraphics[width=3cm]{images/illustration_th.png}}
 			\item \textbf{Chauffage isotherme de 2 à 3}
+				\index{évolutions!isothermes}\index{isothermes, évolutions}
 				
 				Dans cette étape, nous souhaitons capter une quantité $Q_{TH}$ de chaleur de la source à haute température.
 
@@ -293,7 +302,8 @@
 
 			% Baby one more time
 			\renewcommand\labelitemi{\includegraphics[width=3cm]{images/illustration_adiabatique.png}}
-			\item \textbf{Détente adiabatique de 3 à 4}
+			\item \textbf{Détente adiabatique réversible de 3 à 4}
+				\index{évolutions!isentropiques}\index{isentropiques, évolutions}\index{évolutions!adiabatiques réversibles}\index{adiabatiques réversibles, évolutions}
 
 				Dans cette étape, nous souhaitons faire chuter la température du fluide jusqu’à celle de la source froide ($T_B$).
 
@@ -304,6 +314,7 @@
 			% one last time
 			\renewcommand\labelitemi{\includegraphics[width=3cm]{images/illustration_tb.png}}
 			\item \textbf{Refroidissement isotherme de 4 à~1}
+				\index{évolutions!isothermes}\index{isothermes, évolutions}
 
 				Dans cette dernière étape, nous souhaitons rejeter une quantité $Q_{TB}$ de chaleur dans le puits à basse température.
 				
@@ -377,7 +388,7 @@
 
 		\onlyamphibook{\thermoquotebegin{O}}\onlyframabook{\thermoquotetopbegin{O}}
 			Pour utiliser complètement la force motrice dont on peut disposer, il faudrait que la détente fût poussée jusqu’à ce que la température de la vapeur se réduisît à celle du condenseur; mais des considérations pratiques tirées de la manière dont on utilise dans les arts la force motrice du feu, s’opposent à ce que l’on atteigne cette limite.
-		\thermoquoteend{Émile Clapeyron, 1834~\cite{clapeyron1834}}{\onlyframabook{\vspace{-2em}}}
+		\thermoquoteend{Émile Clapeyron, 1834~\cite{clapeyron1834}\index{Clapeyron!Benoît Paul Émile}}{\onlyframabook{\vspace{-2em}}}
 
 		Le fait qu’aucune de ces étapes ne soit réalisable en pratique n’aura pas échappé à l’étudiant/e perspicace : pour que toutes ces phases soient réversibles, il faut que le mouvement du piston soit infiniment lent, et qu'ainsi le fluide parcoure le cycle en une durée de temps infinie. Le moteur de Carnot atteint donc l’efficacité maximale avec une puissance infiniment faible.
 		
@@ -443,13 +454,16 @@
 			\supercaption{Diagramme pression-volume pour un cycle de Carnot inversé, c’est-à-dire en mode de réfrigération (réfrigérateur ou pompe à chaleur), avec un gaz parfait.}{schéma \cczero \oc}
 			\label{fig_p-v_gp_carnot_inversé}
 		\end{figure}
+\index{cycle!de Carnot|)}\index{Carnot!cycle de|)}%whew
 
 \section{L’échelle de température thermodynamique}
 \label{ch_echelle_temperature_thermodynamique}
+\index{température!échelle|(}\index{température!thermodynamique|(}
 
 
 	\subsection{L’essentiel à retenir}
 	
+		\index{température!selon Kelvin}\index{Kelvin!William Thomson, température selon}
 		Kelvin définit une échelle de température, dite de \vocab[température!absolue]{température absolue}\index{température!thermodynamique}\index{température!selon Kelvin}. À l’intérieur d’une machine de Carnot, le rapport des températures maximale $T_H$ et minimale $T_B$ est défini comme égal au rapport des débits sous forme de chaleur, c’est-à-dire :
 		\begin{equation}
 			\left| \frac{\dot Q_{TH}}{\dot Q_{TB}} \right| \equiv \frac{T_H}{T_\B } \tag{\ref{def_échelle_température_kelvin}}
@@ -467,6 +481,7 @@
 
 	\subsection{Qu’est-ce qu’une échelle en physique ?}
 	
+		\index{température!zéro}\index{échelle (physique)}
 		Pour quantifier une propriété en physique (par exemple, quantifier «~la masse~» ou «~la couleur~»), il faut avoir défini trois choses :
 		
 		\begin{description}
@@ -479,7 +494,8 @@
 	\subsection{Les limites des thermomètres de Celsius et Fahrenheit}
 	\label{thermometres_celsius_fahrenheit}
 	
-		Au début du \textsc{xix}\ieme siècle, les deux échelles de température que nous utilisons aujourd’hui dans la vie courante, celles du suédois \wf{Anders Celsius} et de l’allemand \wf{Gabriel Fahrenheit}, sont déjà en usage. Qu’en est-il de ces deux échelles d’un point de vue physique ?\index{température!selon Kelvin}\index{température!selon Fahrenheit}
+		\index{Celsius!Anders|(}\index{Celsius!température selon|(}\index{température!selon Celsius|(}\index{Fahrenheit!Gabriel|(}\index{Fahrenheit!température selon|(}\index{température!selon Fahrenheit|(}
+		Au début du \textsc{xix}\ieme siècle, les deux échelles de température que nous utilisons aujourd’hui dans la vie courante, celles du suédois \wf{Anders Celsius} et de l’allemand \wf{Gabriel Fahrenheit}, sont déjà en usage. Qu’en est-il de ces deux échelles d’un point de vue physique ?
 			
 		\begin{itemize}
 			\item Le degré zéro est plutôt facile à définir (c’est le point où les corps sont entièrement figés, incapables de fournir de la chaleur) mais ni Fahrenheit ni Celsius ne sont capables de le situer avec certitude ;
@@ -489,21 +505,25 @@
 			\footnote{Cette graduation est probablement choisie pour se recaler facilement sur sa \emph{première} graduation, étalonnée sur le gel de l’eau pure (32) et la température du corps humain (96). Des étalons fort difficiles à reproduire !}.
 		\end{itemize}
 		
+		\index{échelle (physique)}
 		Le principal problème avec ces deux échelles est que la température n’est bien définie que dans le domaine d’existence des thermomètres à liquide. Quel que soit le fluide utilisé (mercure, alcool, eau), il finit toujours par geler ou bouillir quelque part ; et les graduations ne donnent alors plus d’information utile. Par exemple, Celsius ne peut pas \emph{définir} ou même décrire ce qui permet de reconnaître une température de~\SI{1200}{\celsius}.
 		
 		En plus de cela, les deux échelles sont peu intuitives à utiliser en dessous du gel de l’eau. Pour peu que l’on admette, par exemple, que \SI{40}{\celsius} puisse être «~deux fois plus de température~» que \SI{20}{\celsius}, alors à quoi correspondrait une température deux fois plus haute que \SI{-10}{\celsius} ?\footnote{Cela revient à poser la question : peut-on écrire $\frac{\SI{40}{\celsius}}{\SI{20}{\celsius}}$ et est-ce égal à $\frac{\SI{80}{\celsius}}{\SI{40}{\celsius}}$ ? La réponse moderne à cette question est non.}
-		
+				\index{Celsius!Anders|)}\index{Celsius!température selon|)}\index{température!selon Celsius|)}\index{Fahrenheit!Gabriel|)}\index{Fahrenheit!température selon|)}\index{température!selon Fahrenheit|)}
 	
 	\subsection{Le thermomètre de William Thomson}
 	
+		\index{Kelvin!William Thomson}
 		\wfd{William Thomson (Lord Kelvin)}{William Thomson}, ingénieur et physicien écossais, a bien compris ces limites. Il va proposer une échelle de température qui, elle, ne dépend pas du comportement d’un fluide dans un tube.
 
+		\index{Carnot!cycle de}\index{cycle!de Carnot}
 		Thomson s’intéresse de près au cycle de Carnot et il raisonne de la façon suivante : La seule propriété qui confère l’efficacité maximale au moteur de Carnot est le fait qu’il soit réversible. Autrement dit, toutes les machines fondées sur ce cycle et opérant entre deux températures données auront la même efficacité —\ quels que soient leur carburant, leur cylindrée, leur configuration, ou leur puissance\footnote{On pourrait par exemple «~allonger~» tant qu’on veut les phases de détente isotherme : rien ne fixe \textit{a~priori} l’état 3 décrit en \cref{fig_carnot_quatre_etapes}).}. On pourrait donc se servir de l’efficacité d’un moteur de Carnot comme mesure de la température.
 		
 		\thermoquotebegin{O}
 			Les valeurs absolues de deux températures sont l’une par rapport à l’autre en proportion de la chaleur reçue à la chaleur rejetée dans un moteur thermo-dynamique parfait travaillant avec une source et un refroidisseur aux plus haute et basse températures respectivement.
-		\thermoquoteend{William Thomson, 1854~\cite{kelvin1854}}{\onlyframabook{\vspace{-3em}}}
-		La proposition de Thomson est la suivante : soit un corps à une température~$T_1$ (par exemple de mille unités, comme montré en \cref{fig_échelle_température_kelvin}). On y attache un moteur de Carnot, qui va fournir du travail et rejeter de la chaleur à température plus basse $T_2$. Cette température $T_2$ est deux fois plus faible que $T_1$ si le moteur rejette la moitié de la chaleur qu’il reçoit ; elle est quatre fois plus faible lorsqu’il en rejette le quart, etc. En termes mathématiques, Thomson propose\footnote{En fait, ce n’est pas si simple. Thomson propose d’abord (en 1848 \cite{kelvin1848}) une échelle dans laquelle $\frac{\dot Q_{TH}}{\dot Q_{TB}}$ est proportionnel à la \emph{différence} des températures ; ce qui en fait une échelle logarithmique de notre point de vue actuel. Il se ravise avec l’aide de James Prescott Joule pour obtenir la proposition~\ref{def_échelle_température_kelvin} six ans plus tard~\cite{kelvinjoule1854}.} :
+		\thermoquoteend{William Thomson, 1854~\cite{kelvin1854}\index{Kelvin!William Thomson}}{\onlyframabook{\vspace{-3em}}}
+		\index{Kelvin!température selon}\index{température!selon Kelvin}%
+		La proposition de Thomson est la suivante : soit un corps à une température~$T_1$ (par exemple de mille unités, comme montré en \cref{fig_échelle_température_kelvin}). On y attache un moteur de Carnot, qui va fournir du travail et rejeter de la chaleur à température plus basse $T_2$. Cette température $T_2$ est deux fois plus faible que $T_1$ si le moteur rejette la moitié de la chaleur qu’il reçoit ; elle est quatre fois plus faible lorsqu’il en rejette le quart, etc. En termes mathématiques, Thomson propose\footnote{En fait, ce n’est pas si simple. Thomson propose d’abord (en 1848 \cite{kelvin1848}) une échelle dans laquelle $\frac{\dot Q_{TH}}{\dot Q_{TB}}$ est proportionnel à la \emph{différence} des températures ; ce qui en fait une échelle logarithmique de notre point de vue actuel. Il se ravise avec l’aide de James Prescott Joule\index{Joule!James Prescott} pour obtenir la proposition~\ref{def_échelle_température_kelvin} six ans plus tard~\cite{kelvinjoule1854}.} :
 		\begin{equation}
 			\left| \frac{\dot Q_{TH}}{\dot Q_{TB}} \right| \equiv \frac{T_H}{T_\B }
 			\label{def_échelle_température_kelvin}
@@ -522,6 +542,7 @@
 			\label{fig_échelle_température_kelvin}
 		\end{figure}
 
+		\index{Kelvin!température selon}\index{température!selon Kelvin}%
 		Avec une simple manipulation des équations~\ref{def_échelle_température_kelvin} et~\ref{eq_premier_principe_machines}, on peut reformuler la définition de Kelvin comme suit :
 
 		\begin{trucimportant}
@@ -536,14 +557,15 @@
 		
 		
 	\subsection{Zéro absolu et synchronisation des échelles}
+	\index{température!zéro}\index{Kelvin!température selon}\index{température!selon Kelvin}\index{Celsius!température selon}\index{température!selon Celsius}%
 	
-		Thomson dispose donc d’une \vocab{échelle} —\ une méthode permettant de définir une température «~deux fois plus élevée~».
+		Thomson dispose donc d’une \vocab[échelle (physique)]{échelle} —\ une méthode permettant de définir une température «~deux fois plus élevée~».
 		
 		Le zéro de cette échelle correspond bien au degré zéro de température, puisqu’avec l’expérience de la \cref{fig_échelle_température_kelvin} on dispose alors d’un «~gouffre~» de température zéro qui permet de détendre les gaz jusqu’à zéro température (on peut ainsi convertir toute l’énergie interne d’un fluide en travail\footnote{On peut prendre une machine de Carnot avec $T_\B = \SI{0}{\kelvin}$. Le transfert de chaleur à la source froide est alors inutile puisque l’on a effectué une détente infinie ($3 \to 4$) pour obtenir une température de zéro. $Q_{TB}$ est alors nul, et on retrouve bien un rendement de~\SI{100}{\percent}.}).
 		
 		\thermoquotebegin{O}
 			Cette convention particulière est que la différence de température entre les points de gel et d’ébullition de l’eau sous atmosphère standard est appelée 100 degrés.
-		\thermoquoteend{William Thomson, 1854~\cite{kelvin1854}}{\onlyframabook{\vspace{-1em}}}%handmade
+		\thermoquoteend{William Thomson, 1854~\cite{kelvin1854}\index{Kelvin!William Thomson}}{\onlyframabook{\vspace{-1em}}}%handmade
 
 		Reste le choix d’un étalon. Thomson revient au thermomètre de Celsius et prend le même point de référence (le gel de l’eau pure à pression atmosphérique). Observant que la contraction et la dilatation des fluides reste proportionnelle à leur variation de température absolue, il attribue à ce point de référence une valeur qui permet de conserver la même graduation thermométrique que Celsius. Pour cela, il faut que les températures \SI{100}{\celsius} et~\SI{0}{\celsius}, dont on sait qu’elles permettent un rendement maximal de~\SI{26,8}{\percent}, correspondent à des températures en \si{\kelvin} espacées de 100 unités. Le calcul est simple --\ l’étudiant/e est d’ailleurs encouragé/e à le reproduire\ -- et Thomson obtient la relation :
 			\begin{equation}
@@ -551,6 +573,7 @@
 			\label{eq_synchro_température}
 			\end{equation}
 		
+		\index{Kelvin!unité}
 		William Thomson, alors déjà lancé dans une carrière de scientifique époustouflante,  a trente ans lorsqu’il publie son échelle de température en 1854. En 1892 il sera sacré \textit{Premier Baron Kelvin}\footnote{On dira même \textit{The Right Honourable First Lord Kelvin of Largs, of the Order of Merit, the Royal Victorian Order, and of Her Majesty's Most Honourable Privy Council} !} ; c’est sous ce nom qu’il est connu aujourd’hui. L’unité \textit{Kelvin} (\si{\kelvin}) est officiellement attribuée à la température absolue en 1948.
 		
 		Le travail de Kelvin permet donc de séparer définitivement le concept de température des fluides réels ou imaginaires comme auparavant avec l’ébullition de l’eau ou le volume des gaz parfaits (\S\ref{ch_définition_température_cours1} \& \S\ref{ch_le_manomètre_comme_thermomètre}) ; la voilà rattachée à une expérience physique précise et quantitative.
@@ -564,21 +587,22 @@
 					\begin{remark}On voit ici que Kelvin s’est servi de la machine de Carnot comme thermomètre. Pour en construire la graduation, il a effectué cette expérience entre les deux étalons \SI{100}{\degreeCelsius} et~\SI{0}{\degreeCelsius}, et fait en sorte de les séparer par cent intervalles en unités absolues.\end{remark}
 		\end{anexample}
 
+\index{température!échelle|)}\index{température!thermodynamique|)}%whew
 
 \section{Efficacité maximale des machines}
-\label{ch_efficacite_maximale_machines}
+\label{ch_efficacite_maximale_machines}\index{efficacité!maximale des machines}
 	
 	La définition de la température détaillée en~\ref{def_échelle_température_kelvin} nous permet de revenir aux machines thermiques et d’apporter une réponse simple aux questions que se posait~Carnot.
 
 	\subsection{Efficacité du moteur de Carnot}
-	\label{ch_efficacité_moteur_carnot}
+	\label{ch_efficacité_moteur_carnot}\index{efficacité!maximale d’un moteur}\index{moteur!rendement maximal d’un}
 
 		\thermoquotebegin{O}
 			Ainsi nous sommes conduits à établir la proposition générale que voici :
-\emph{La puissance motrice de la chaleur est indépendante des agens mis en œuvre pour la réaliser ; sa quantité est fixée uniquement par les températures des corps entre lesquels se fait en dernier résultat le transport du calorique}.\nolinebreak\makebox(18,5){\color{gray}\scalebox{2}{»}}\par\vspace{-0.3cm}\begin{flushright}Sadi Carnot, 1824~\cite{carnot1824}\end{flushright}
+\emph{La puissance motrice de la chaleur est indépendante des agens mis en œuvre pour la réaliser ; sa quantité est fixée uniquement par les températures des corps entre lesquels se fait en dernier résultat le transport du calorique}.\nolinebreak\makebox(18,5){\color{gray}\scalebox{2}{»}}\par\vspace{-0.3cm}\begin{flushright}Sadi Carnot, 1824\index{Carnot!Sadi}~\cite{carnot1824}\end{flushright}
 		\makebox(18,5){\color{gray}\scalebox{2}{«}}
 			Notre objectif doit être toujours \emph{d’augmenter les températures et les pressions jusqu’à leurs limites pratiques les plus hautes}.
-		\thermoquoteend{Rudolf Diesel, 1893~\cite{diesel1893, diesel1893en}}{\onlyframabook{\vspace{-3em}}}
+		\thermoquoteend{Rudolf Diesel, 1893~\cite{diesel1893, diesel1893en}\index{Diesel!Rudolf}}{\onlyframabook{\vspace{-3em}}}
 
 		Lors du chapitre précédent (\S\ref{ch_rendement_moteur}), nous avons vu que le rendement d’un moteur était le rapport entre le travail produit (transfert utile, $\dot W_\net$) et la chaleur reçue (dépense énergétique, $\dot Q_\text{in}$ ). Nous avions transformé cette expression en une autre dont l’appréhension était moins facile :
 		\begin{equation}
@@ -631,7 +655,7 @@
 
 
 	\subsection{Efficacité du réfrigérateur de Carnot}
-	\label{ch_efficacite_refrigerateur_carnot}
+	\label{ch_efficacite_refrigerateur_carnot}\index{efficacité!maximale d’un réfrigérateur}\index{efficacité!maximale d’un climatiseur}\index{climatiseur!rendement maximal d’un}\index{réfrigérateur!rendement maximal d’un}
 
 		Nous avons vu au (\S\ref{ch_rendement_réfrigérateur}) que l’efficacité d’un réfrigérateur était la comparaison entre la chaleur extraite de la source froide (transfert utile, $\dot Q_\text{in}$ ) et le travail consommé (dépense énergétique, $\dot W_\net$).  Nous avions exprimé cette efficacité avec l’obscure expression :
 		\begin{equation}
@@ -664,6 +688,7 @@
 
 
 	\subsection{Efficacité de la thermopompe de Carnot}
+	\index{efficacité!maximale d’une pompe à chaleur}\index{pompe à chaleur!rendement maximal d’une}
 
 		Nous avions vu au \S\ref{ch_rendement_thermopompe} que le rendement (ou «~\textsc{cop}~») d’une pompe à chaleur est défini comme le rapport de la chaleur fournie à haute température sur le travail consommé~(\ref{def_rendement_thermopompe}). Nous avions alors transformé cette définition avec l’expression :
 		\begin{equation}
@@ -692,3 +717,4 @@
 		 			L’efficacité maximale serait atteinte avec une pompe à chaleur réversible, ce qui nous permettrait d’obtenir, avec l’\cref{eq_efficacité_thermopompe_carnot_température}, $\eta_\text{thermopompe} = \eta_\text{thermopompe Carnot} = \frac{1}{1 - \frac{T_B}{T_H}} = \frac{1}{1 - \frac{\num{-5}\plustwoseventhree}{\num{120}\plustwoseventhree}} = \num{3,15}$.
 		 		\end{answer}
 		 \end{anexample}
+\index{principes de la thermodynamique!second|)}

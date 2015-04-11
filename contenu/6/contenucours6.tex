@@ -14,7 +14,7 @@
 
 	Nous utilisons de larges flèches blanches pour représenter \emph{le sens physique des transferts}. Nous ne modifions pas notre convention de signe (les transferts sont positifs vers le système et négatifs lorsqu’ils en proviennent), mais seulement la convention graphique pour les orienter, afin de rendre la visualisation des transferts dans les machines plus intuitive.
 
-	La somme algébrique du travail reçu $W_\inn$ et fourni $W_\out$ par une machine est nommé le \vocab[travail!net]{travail net} $W_\net$. Le travail net peut être positif (reçu par la machine de l’extérieur) ou négatif (fourni par la machine à l’extérieur), selon le type d’application.
+	La somme algébrique du travail reçu $W_\inn$ et fourni $W_\out$ par une machine est nommé le \vocab[travail!net]{travail net} $W_\net$. Le travail net peut être positif (reçu par la machine de l’extérieur) ou négatif (fourni par la machine à l’extérieur), selon le type d’\mbox{application}.
 	\begin{IEEEeqnarray}{rCl}
 		W_\net 			& \equiv & W_\inn + W_\out 					\nonumber \\
 		\dot W_\net 	& \equiv & \dot W_\inn + \dot W_\out 	\nonumber \\
@@ -35,7 +35,7 @@
 \section{Transformer chaleur et travail}
 
 	\subsection{Construire des cycles thermodynamiques}
-	\label{ch_construction_cycle}
+	\label{ch_construction_cycle}\index{cycle!thermodynamique}
 
 		Nous souhaitons comparer différentes manières de transformer travail et chaleur. Pour que ces comparaisons soient valables, il faut que nous tenions toujours compte de \emph{toutes} les transformations subies par le fluide jusqu’à ce qu’il soit revenu à son état initial.
 
@@ -43,11 +43,11 @@
 		
 		Un second exemple est celui d’un moteur automobile, qui rejette de la chaleur emportée par les gaz d’échappement. Pour tenir compte de cette énergie perdue, nous comptabilisons la chaleur qu’il faudrait prélever aux gaz pour les ramener à la température d’entrée du moteur. Ce refroidissement imaginaire a lieu en dehors du moteur en pratique, mais d’un point de vue thermodynamique, il fait partie intégrante du processus de transformation énergétique.
 
-		Ainsi, à chaque fois que nous allons analyser le fonctionnement d’une machine thermique, nous allons prendre soin de poursuivre l’évolution du fluide jusqu’à le ramener à son état initial (même température, même pression, même énergie interne, etc.). Nous disons alors qu’il a parcouru un \vocab[cycle]{cycle thermodynamique} (\S\ref{ch_premier_principe_sf}).
+		Ainsi, à chaque fois que nous allons analyser le fonctionnement d’une machine thermique, nous allons prendre soin de poursuivre l’évolution du fluide jusqu’à le ramener à son état initial (même température, même pression, même énergie interne, etc.). Nous disons alors qu’il a parcouru un \vocab[cycle!thermodynamique]{cycle thermodynamique} (\S\ref{ch_premier_principe_sf}).
 
 
 	\subsection{Produire un travail à partir de chaleur}
-	\label{ch_principe_fonctionnement_moteur}
+	\label{ch_principe_fonctionnement_moteur}\index{moteur!principe de fonctionnement}\index{chaleur!transformation en travail}
 
 		Commençons par comprimer un fluide : nous augmentons sa pression et réduisons son volume spécifique, ce qui nous demande un certain travail. Après cela, chauffons ce fluide : sa pression et son volume ont tendance à augmenter. En détendant le fluide jusqu’à sa pression initiale, nous allons récupérer un travail plus grand que celui que nous avons investi à l’aller. Pour pouvoir enfin ramener le fluide à son état initial, il faut le refroidir.
 
@@ -88,7 +88,7 @@
 
 
 	\subsection{Extraire de la chaleur avec du travail}
-	\label{ch_principe_fonctionnement_réfrigérateur}
+	\label{ch_principe_fonctionnement_réfrigérateur}\index{réfrigérateur!principe de fonctionnement}\index{pompe à chaleur!principe de fonctionnement}\index{chaleur!transfert vers une température plus haute}\index{cycle!de réfrigération}
 
 			Lorsque l’on fournit du travail à un fluide, sa température augmente\footnote{Ce n’est pas strictement vrai pour les liquides/vapeurs qui, comme nous l’avons vu dans le \courscinq, connaissent une phase à température constante entre leurs points de saturation – toutefois, ils suivent cette tendance générale hors de cette plage de propriétés.} et il peut ainsi fournir de la chaleur à un corps qui était initialement à plus haute température («~plus chaud~») que lui.
 
@@ -135,7 +135,7 @@
 			\clearfloats\onlyframabook{\clearpage}
 			Les cycles de réfrigération ont deux grands types d’application :
 			\begin{description}
-				\item[Les pompes à chaleur]\index{pompe à chaleur} appelées aussi \vocab[thermopompe]{thermopompes} (\cref{fig_agencement_thermopompe}) sont agencées de façon à rejeter la chaleur vers un corps à haute température, le plus souvent une habitation ;
+				\item[Les pompes à chaleur]\index{pompe à chaleur} appelées aussi \vocab[pompe à chaleur]{thermopompes} (\cref{fig_agencement_thermopompe}) sont agencées de façon à rejeter la chaleur vers un corps à haute température, le plus souvent une habitation ;
 				\item[Les réfrigérateurs et climatiseurs]\index{réfrigérateur}\index{climatiseur} (\cref{fig_agencement_refrigerateur_climatiseur}) sont agencés de façon à extraire de la chaleur d’un corps à basse température, le plus souvent une chambre froide.
 			\end{description}
 
@@ -187,7 +187,7 @@
 
 
 	\subsection{Rendement d’un moteur}
-	\label{ch_rendement_moteur}
+	\label{ch_rendement_moteur}\index{moteur!rendement d’un}\index{efficacité!d’un moteur}
 
 		La fonction d’un moteur thermique, comme ceux que l’on trouve à bord des automobiles ou dans les centrales électriques, est de produire du travail, c’est-à-dire une quantité $\dot W_\net$ négative (\cref{fig_transferts_moteur}). La dépense engendrée pour générer ce travail est la chaleur qu’il reçoit, c’est-à-dire la quantité $\dot Q_\inn$ (provenant usuellement de la combustion de carburant ou de la fission de noyaux atomiques).
 
@@ -231,7 +231,7 @@
 
 
 	\subsection{Rendement d’un réfrigérateur ou d’un climatiseur}
-	\label{ch_rendement_réfrigérateur}
+	\label{ch_rendement_réfrigérateur}\index{climatiseur!rendement d’un}\index{réfrigérateur!rendement d’un}\index{efficacité!d’un climatiseur}\index{efficacité!d’un réfrigérateur}
 
 		La fonction d’un réfrigérateur ou d’un climatiseur est d’extraire de la chaleur, c’est-à-dire de générer une puissance $\dot Q_\inn$ (chaleur extraite chaque seconde du compartiment à refroidir) de signe positif. Ce transfert (\cref{fig_transferts_réfrigérateur}) est rendu possible par l’apport au réfrigérateur d’un travail, $\dot W_\net$ , une «~dépense~» nécessairement~\mbox{positive}.
 
@@ -274,7 +274,7 @@
 
 
 	\subsection{Rendement d’une pompe à chaleur}
-	\label{ch_rendement_thermopompe}
+	\label{ch_rendement_thermopompe}\index{pompe à chaleur!rendement d’une}\index{efficacité!d’une pompe à chaleur}
 
 		Une pompe à chaleur fonctionne exactement de la même manière qu’un climatiseur. Sa fonction est de générer un transfert $\dot Q_\out$ vers la section «~chaude~» (usuellement l’intérieur d’une habitation). Ce transfert, représenté en \cref{fig_transferts_thermopompe}, est rendu possible par l’apport à la thermopompe de $\dot W_\net$ , une «~dépense~» nécessairement positive.
 
@@ -314,11 +314,11 @@
 
 
 	\onlyframabook{\clearpage}
-	\subsection{De la faible performance des machines}
+	\subsection{De la faible performance des machines}\index{cycle!thermodynamique, faiblesse du rendement}
 
 		\thermoquotebegin{O}
 			L’on a souvent agité la question de savoir si la puissance motrice de la chaleur est limitée, ou si elle est sans bornes ; si les perfectionnements possibles des machines à feu ont un terme assignable, terme que la nature des choses empêche de dépasser par quelque moyen que ce soit, ou si au contraire ces perfectionnemens sont susceptibles d’une extension indéfinie…
-		\thermoquoteend{Sadi Carnot, 1824~\cite{carnot1824}}{\onlyframabook{\vspace{-1em}}}
+		\thermoquoteend{Sadi Carnot, 1824~\cite{carnot1824}\cite{Carnot!Sadi}}{\onlyframabook{\vspace{-1em}}}
 
 		Dans tous les cas que nous avons étudiés plus haut, pour chaque cycle, nous avons inclus un transfert indésirable. Dans le cycle moteur, une partie de l’énergie est gâchée sous forme de rejet de chaleur ($\dot Q_\out$). Dans les cycles de réfrigération, on doit apporter du travail ($\dot W_\inn$) pour effectuer un transfert de chaleur qui \textit{a priori} aurait pu sembler «~gratuit~» ($\dot Q_\out$ étant alors égal à $\dot Q_\inn$).
 
