@@ -195,7 +195,8 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 
 		La prise en compte de ces facteurs, ainsi que la poursuite d’objectifs liés au confort d’utilisation et à la maîtrise de la pollution atmosphérique, font que le cycle obtenu à l’intérieur d’un cylindre de moteur en pratique pourra par exemple ressembler à celui représenté en \cref{fig_cycle_otto_reel}. Dans le secteur automobile en particulier, l’adoption de l’injection directe et l’augmentation des taux de compression sur les moteurs essence pour diminuer leur consommation et leurs émissions a brouillé la distinction essence/Diesel -- les moteurs essence sont désormais plus proches du concept de Rudolf Diesel que de celui de Nikolaus Otto.
 
-		\begin{figure}
+		\onlyamphibook{\begin{figure}}
+		\onlyframabook{\begin{figure}[h!]}
 			\begin{center}
 				\includegraphics[width=8cm]{images/pv_moteur_reel.png}
 			\end{center}
@@ -209,7 +210,8 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 
 		Un défaut important des moteurs à mouvement alternatif est que l’irréversibilité des compressions et détentes augmente fortement avec la vitesse d’évolution des pistons dans les cylindres. L’approche traditionnelle pour contourner ce problème est de multiplier le nombre de cylindres fonctionnant simultanément dans le moteur (\cref{fig_beaucoup_cylindres}). De cette façon, on peut réduire le débattement parcouru par chaque piston pour un volume de cylindrée donné. Un avantage associé à cette approche est que le mouvement des pièces mécaniques est mieux équilibré (et le moteur plus~mélodieux !).
 		
-		\begin{figure}
+		\onlyamphibook{\begin{figure}}
+		\onlyframabook{\begin{figure}[h!]}
 			\begin{center}
 				\includegraphics[height=0.325\textwidth]{images/curtiss_wright_cyclone.jpg}
 				\includegraphics[height=0.325\textwidth]{images/honda_v12.jpg}
@@ -224,7 +226,8 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 	
 		Une solution couramment adoptée pour cela est celle de la \vocab{turbocompression}. Elle consiste à déléguer une partie du travail de compression et de détente à un petit appareil nommé \vocab{turbo}, qui apporte avec lui les avantages de compacité et de légèreté des turbomachines (\cref{fig_turbo}). Le compresseur du turbo est alimenté par sa turbine, qui fonctionne avec les gaz d’échappement (nous étudions ce système plus bas en~\S\ref{ch_generateur_gaz}). La turbocompression permet de réduire la taille et la vitesse d’un moteur pour une puissance donnée.
 		
-		\begin{figure}
+		\onlyamphibook{\begin{figure}}
+		\onlyframabook{\begin{figure}[h!]}
 			\begin{center}
 				\includegraphics[width=0.6\textwidth]{images/coupe_turbo.jpg}
 			\end{center}
@@ -234,7 +237,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 		
 		Comme l’utilisation d’un turbo affecte négativement la réactivité d’un moteur, on peut permettre à l’air d’admission de le contourner pendant les variations de régime. De plus, les variations de température dans le turbo peuvent être compensées par refroidissement avant insertion dans les cylindres (nous étudions cette technique plus bas en~\S\ref{ch_intercooling}). Ces procédés font des moteurs modernes des systèmes thermodynamiques complexes capables d’effectuer une large gamme de cycles très différents en fonction des conditions d’utilisation.
 
-\onlyframabook{\clearpage}%handmade ici saut de page, sinon la citation de Carnot casse tout
+
 \section{Composants des turbomachines}
 
 	Avant de nous plonger dans les cycles des moteurs à turbines, nous nous proposons de rappeler brièvement le fonctionnement de leurs principaux composants. Comme les turbomachines fonctionnent en régime permanent, nous ferons à partir d’ici systématiquement appel aux notions du \courstrois.
@@ -258,7 +261,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=3cm]{images/symbole_compresseur.png}
+				\includegraphics[width=4cm]{images/symbole_compresseur.png}
 			\end{center}
 			\supercaption{Représentation schématique d’un compresseur à air.}{schéma \ccbysa \olivier}
 			\label{fig_schéma_compresseur2}
@@ -326,7 +329,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=7cm]{images/symbole_chambre_combustion.png}
+				\includegraphics[width=6cm]{images/symbole_chambre_combustion.png}
 			\end{center}
 			\supercaption{Représentation schématique d’une chambre de combustion.}{schéma \cczero \oc}
 			\label{fig_chambre_de_combustion2}
@@ -350,13 +353,13 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 			\begin{center}
 				\includegraphics[width=9cm]{images/photo_turbine.jpg}%\hspace{0.2cm}
 			\end{center}
-			\supercaption{Turbine d’un turbomoteur générateur. La turbine photographiée, une \textit{Siemens} \textsc{sgt5}, peut accepter un débit d’air et d’eau de~\SI{690}{\kilogram\per\second}. Elle transmet une puissance à l’arbre d’environ \SI{500}{\mega\watt}.}{\wcfile{Gasturbine_Montage01.jpg}{photo} \ccbysa Siemens Pressebild}
+			\supercaption{Turbine d’un turbomoteur générateur. La turbine photographiée, une \textit{Siemens} \textsc{sgt5}, peut accepter un débit d’air et d’eau de~\SI{690}{\kilogram\per\second}. Elle transmet une puissance à l’arbre d’environ~\SI{500}{\mega\watt}.}{\wcfile{Gasturbine_Montage01.jpg}{photo} \ccbysa Siemens Pressebild}
 			\label{fig_illustration_turbine1}
 		\end{figure}
 
 		\begin{figure}
 			\begin{center}
-				\includegraphics[width=3cm]{images/symbole_turbine.png}
+				\includegraphics[width=4cm]{images/symbole_turbine.png}
 			\end{center}
 			\supercaption{Représentation schématique d’une turbine à gaz.}{schéma \ccbysa \olivier}
 			\label{fig_illustration_turbine2}
@@ -390,7 +393,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 			\begin{center}
 				\includegraphics[width=8cm]{images/photo_tuyere.jpg}
 			\end{center}
-			\supercaption{Les tuyères de deux \textit{General Electric} \textsc{f404} équipant un avion de combat. La géométrie de la tuyère, d’importance capitale en mécanique des fluides, n’est pas abordée dans ce document.}{\wcfile{1280px-Swiss_F-18_Hornet.jpg}{photo} \ccbysa par \href{http ://www.flickr.com/people/39270009@N02}{Peng Chen}}
+			\supercaption{Les tuyères de deux \textit{General Electric} \textsc{f404} équipant un avion de combat. La géométrie de la tuyère, d’importance capitale en mécanique des fluides, n’est pas abordée dans cet ouvrage.}{\wcfile{1280px-Swiss_F-18_Hornet.jpg}{photo} \ccbysa par \href{http ://www.flickr.com/people/39270009@N02}{Peng Chen}}
 			\label{fig_illustration_tuyere1}
 		\end{figure}
 
@@ -425,6 +428,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 					$T_\B = T_\A \left(\frac{p_\B}{p_\A}\right)^{\frac{\gamma - 1}{\gamma}}
 					 			= (400 + \num{273,15}) \left(\frac{1}{2}\right)^{\frac{\num{0,333}}{\num{1,333}}}
 					 			= \SI{566,1}{\kelvin} = \SI{293}{\degreeCelsius}$.
+					 			
 					Une telle évolution peut être représentée de façon qualitative sur un diagramme $T-s$ ainsi :
 						\begin{center}\includegraphics[width=4cm]{images/exe_ts_tuyere.png}\end{center}
 					Avec l’\cref{eq_vitesses_tuyere} la vitesse de sortie serait donc:\\
@@ -516,7 +520,8 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 
 		L’arbre moteur fournit alors du travail, que l’on peut utiliser pour alimenter une hélice propulsive (cas d’un \vocab{turbopropulseur}) ou un élément externe comme une génératrice ou une pompe (cas d’un \vocab{turbomoteur}), comme montré en \cref{fig_turbomoteur}.
 
-		\begin{figure}
+		\onlyamphibook{\begin{figure}}
+		\onlyframabook{\begin{figure}[h!]}
 			\begin{center}
 				\includegraphics[scale=0.6]{images/circuit_turboprop_generateur.png}\vspace{0.5cm}
 				\includegraphics[scale=0.6]{images/ts_gp_turboprop_generateur.png}
@@ -600,7 +605,8 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 		
 		Pour réduire la puissance consommée par le compresseur, on a parfois recours au \vocab{refroidissement intermédiaire} (ou \vocab{intercooling}). La compression est interrompue et l’air est refroidi avant de poursuivre la compression (\cref{fig_intercooling_réchauffe}).
 
-		\begin{figure}
+		\onlyamphibook{\begin{figure}}
+		\onlyframabook{\begin{figure}[h!]}
 			\begin{center}
 				\includegraphics[scale=0.6]{images/circuit_intercooler_rechauffe.png}\vspace{1cm}
 				\includegraphics[scale=0.6]{images/ts_gp_intercooler_rechauffe.png}
@@ -618,7 +624,8 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 
 		Pour réduire la perte de rendement dans les moteurs au sol, il est parfois possible de récupérer de la chaleur des gaz d’échappement pour réchauffer l’air à la sortie du compresseur, et ainsi soulager la chambre de combustion à moindres frais énergétiques. L’échangeur de chaleur est parfois appelé \vocab{économiseur} (\cref{fig_intercooler_echangeur}) ; il est laissé à l’étudiant/e le loisir de retracer le cycle suivi sur un diagramme température-entropie et de retrouver les conditions nécessaires à son \mbox{fonctionnement}.
 		
-		\begin{figure}
+		\onlyamphibook{\begin{figure}}
+		\onlyframabook{\begin{figure}[h!]}
 			\begin{center}
 				\includegraphics[scale=0.6]{images/circuit_intercooler_echangeur.png}
 			\end{center}
