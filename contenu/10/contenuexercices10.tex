@@ -12,7 +12,7 @@
 		\item Quel avantage le cycle de Diesel présente-t-il sur le cycle d’Otto ?
 		\item Représentez le cycle suivi par l’air dans un turboréacteur simple flux monoturbine sur un diagramme pression-volume et sur un diagramme température-entropie, de façon qualitative.
 		\item Pourquoi utilise-t-on deux arbres moteur concentriques (et donc deux ensembles \{compresseur + turbine\}) dans certaines turbomachines ?
-		\item Représentez le cycle suivi par l’air dans un turbomoteur à refroidisseur intermédiaire et échangeur économiseur (\cref{fig_intercooler_echangeur}) sur un diagramme température-entropie, de façon qualitative.
+		\item Représentez le cycle suivi par l’air dans un turbomoteur à refroidisseur intermédiaire et échangeur économiseur (\cref{fig_intercooler_echangeur}) sur un diagramme température-entropie, de façon \mbox{qualitative}.
 	\end{enumerate}
 
 \onlyamphibook{\pagebreak}
@@ -48,7 +48,7 @@
 		\item Quelle est la quantité de chaleur rejetée lors du refroidissement ?
 		\item Quel est le rendement de ce cycle moteur théorique ?
 		\item En pratique, l’évolution de l’air sur le diagramme pression-volume est fort différente du cycle décrit par Otto. Proposez deux raisons expliquant cela.
-		\item On constate que lorsque l’appareil gagne de l’altitude, la puissance que le moteur peut fournir baisse très significativement. Quelle modification peut-on apporter au moteur pour compenser cela ?
+		\item On constate que lorsque l’appareil gagne de l’altitude, la puissance que le moteur peut fournir baisse très significativement. Quelle modification peut-on apporter au moteur pour compenser ce phénomène ?
 	\end{enumerate}
 
 
@@ -56,7 +56,7 @@
 \label{exo_cycle_moteur_diesel}
 \wherefrom{[partiel 2010, 8pts]}
 
-	Un moteur à pistons-cylindres utilisé pour propulser un navire (\cref{fig_photos_moteur_diesel}) est suralimenté par un turbocompresseur qui augmente la pression et la température de l’air d’admission à partir d’énergie extraite des gaz d’échappement (le turbocompresseur est une pièce ne nécessitant aucun apport extérieur d’énergie sous forme de travail ou de chaleur). Le moteur a ainsi les caractéristiques de fonctionnement suivantes :
+	Un moteur à pistons-cylindres utilisé pour propulser un navire (\cref{fig_photos_moteur_diesel}) est suralimenté par un turbocompresseur qui augmente la pression et la température de l’air d’admission à partir d’énergie extraite des gaz d’échappement (le turbocompresseur est une pièce ne nécessitant aucun apport extérieur d’énergie sous forme de travail ou de chaleur, \textit{cf.} \S\ref{ch_turbo} p.\pageref{ch_turbo}). Le moteur a ainsi les caractéristiques de fonctionnement suivantes :
 	\begin{itemize}
 		\item l’air admis dans les cylindres est à~\SI{115}{\degreeCelsius} et~\SI{3}{\bar} ;
 		\item la chaleur spécifique fournie chaque cycle est de~\SI{1250}{\kilo\joule\per\kilogram} ;
@@ -85,7 +85,7 @@
 		\item Tracez le cycle thermodynamique suivi sur un diagramme pression-volume ou température-entropie, de façon qualitative et en y indiquant tous les transferts de chaleur et de travail.
 		\item Quelle est la température de l’air à la fin de la compression ?
 		\item Quelle est la température des gaz à la fin de la combustion ?
-		\item Quelle est la pression maximale atteinte dans le moteur ?
+		\item Quelle est la pression maximale atteinte dans le~\mbox{moteur} ?
 		\item Quelle est la température à la fin de la détente ?
 		\item Quel est le rendement du moteur ?
 		\item Il est aisé de montrer qu’à taux de compression égal, un cycle Diesel est moins efficace qu’un cycle dit «~à essence~» (cycle d’Otto). Pourquoi est-il alors utilisé ?
@@ -277,34 +277,34 @@
 	
 	\begin{description}
 		\item [\ref{exo_cycle_moteur_essence_dix}]
-			\tab 1) Voir \cref{fig_cycle_otto} ;
+			\tab 1) Voir \cref{fig_cycle_otto} p.\pageref{fig_cycle_otto} ;
 	 		\tab 2) $T_\B = T_\A \left(\frac{v_\A}{v_\B}\right)^{\gamma_\text{air} - 1} = \SI{640,6}{\kelvin} = \SI{367,5}{\degreeCelsius}$ (\ref{eq_isentropique_horrible1}) et $T_\C = \frac{q_\text{combustion}}{c_{v \text{(gaz)}}} + \frac{c_{v \text{(air)}}}{c_{v \text{(gaz)}}} T_\B = \SI{1166,3}{\kelvin} = \SI{893,3}{\degreeCelsius}$ ;
 	 		\tab 3) $T_\D = \SI{610,16}{\kelvin} = \SI{337}{\degreeCelsius}$ (\ref{eq_isentropique_horrible1}) ainsi $q_\fromdtoa = c_{v \text{(gaz)}} (T_\D - T_\A) = \SI{-260,1}{\kilo\joule\per\kilogram}$ ;
 	 		\tab 4) $\eta_\text{moteur} = \frac{q_\net}{q_\inn} = \SI{47,99}{\percent}$ (valeur purement théorique, car compressions et détentes réversibles : en pratique, viser plutôt \SI{35}{\percent}) ;
-	 		\tab 5) Voir \S\ref{ch_cycles_pistons_reels} ;
-	 		\tab 6) La puissance diminue car la masse volumique de l’air atmosphérique diminue avec l’altitude. Pour augmenter $\dot m_\text{air}$ on peut par exemple installer un système de turbocompression (cf. \S\ref{ch_turbo}) comme représenté en \cref{fig_photos_moteur_essence}.
+	 		\tab 5) Voir \S\ref{ch_cycles_pistons_reels} p.\pageref{ch_cycles_pistons_reels} ;
+	 		\tab 6) La puissance diminue car la masse volumique de l’air atmosphérique diminue avec l’altitude. Pour augmenter $\dot m_\text{air}$ on peut par exemple installer un système de turbocompression (cf. \S\ref{ch_turbo} p.\pageref{ch_turbo}) comme représenté en \cref{fig_photos_moteur_essence}.
 	 	\item [\ref{exo_cycle_moteur_diesel}]
 	 		\includegraphics[width=\solutiondiagramwidth]{images/exo_sol_ts_diesel.png}
 	 		\tab 2) $T_\B = \SI{1205,5}{\kelvin} = \SI{932,4}{\degreeCelsius}$ (\ref{eq_isentropique_horrible1}) ;
 	 		\tab 3) $T_\C = \frac{q_\text{combustion}}{c_{p \text{(gaz)}}} + \frac{c_{p \text{(air)}}}{c_{p \text{(gaz)}}} T_\B = \SI{1984,7}{\kelvin} = \SI{1711,6}{\degreeCelsius}$ ;
 	 		\tab 4) $p_\C = p_\B = \SI{158,4}{\bar}$ ;
-	 		\tab 5) Avec l’\ref{eq_isentropique_horrible1}, $\frac{T_\D}{T_\C}
+	 		\tab 5) Avec l’équation \ref{eq_isentropique_horrible1}, $\frac{T_\D}{T_\C}
 	 				= \left(\frac{v_\D}{v_\C}\right)^{\gamma_\text{gaz} - 1}
 	 				= \left(\frac{v_\A}{v_\B} \frac{v_\B}{v_\C}\right)^{\gamma_\text{gaz} - 1}
 	 				= \left[\epsilon \frac{R_\text{air}}{R_\text{gaz}} \frac{T_\B}{T_\C}\right]^{\gamma_\text{gaz} - 1}$
 	 				Ainsi $T_\D = \SI{952,7}{\kelvin} = \SI{679,5}{\kelvin}$ (attention ces gaz doivent encore alimenter la turbine du turbo avant d’être éjectés dans l’atmosphère).
 	 		\tab 6) $\eta_\text{moteur} = \frac{q_\net}{q_\inn} = \SI{48,06}{\percent}$ (valeur proche de la réalité car ces moteurs sont très lents et la combustion peut être faite à plus haute température encore) ;
-	 		\tab 7) Voir les sections \S\ref{ch_cycle_diesel} et \S\ref{ch_cycles_pistons_reels}.
+	 		\tab 7) Voir les sections \S\ref{ch_cycle_diesel} p.\pageref{ch_cycle_diesel} et \S\ref{ch_cycles_pistons_reels} p.\pageref{ch_cycles_pistons_reels}.
 		\item [\ref{exo_cycle_turbopropulseur}]
-			\tab 1) Voir \cref{fig_turbomoteur} ;
+			\tab 1) Voir \cref{fig_turbomoteur} p.\pageref{fig_turbomoteur} ;
 	 		\tab 2) $T_\B = \SI{6442,8}{\kelvin} = \SI{369,6}{\degreeCelsius}$ (\ref{eq_isentropique_horrible2} \& \ref{eq_puissance_compresseur}) ;
 	 		\tab 3) $T_\D = \SI{976,9}{\kelvin} = \SI{703,8}{\degreeCelsius}$ (\ref{eq_isentropique_horrible2} \& \ref{eq_puissance_turbine_gaz}) ;
 	 		\tab 4) $\dot W_\text{hélices} = - \dot m \ \eta_\text{transmission} \ (w_\text{turbine} + w_\text{compresseur}) = \SI{+1,517}{\mega\watt}$ (avec une efficacité thermique avant transmission de~\SI{27,6}{\percent}, valeur un peu plus faible que la réalité) ;
 	 		\tab 5) Une possibilité : augmenter $\dot m_\text{air moteur}$ sans modifier les températures. Alors, $\dot m_\text{entrée~moteur~2} = \SI{5,774}{\kilogram\per\second}$ (\SI{+0,174}{\kilogram\per\second}).
 		\item [\ref{exo_cycle_turboreacteur}]
-			\tab 1) Voir \cref{fig_turboréacteur} ;
+			\tab 1) Voir \cref{fig_turboréacteur} p.\pageref{fig_turboréacteur} ;
 	 		\tab 2) $T_\B = \SI{785,2}{\kelvin}$, ainsi $T_\D = \SI{861,1}{\kelvin}$ et $T_{\D’} = \SI{783,6}{\kelvin}$ : $p_\D = \SI{3,13}{\bar}$ ;
-	 		\tab 3) En négligeant $C_\D$ et avec une détente complète et réversible, $C_\E = \SI{714,3}{\metre\per\second}$ (les remarques faites en exemple \ref{exemple_tuyere} s’appliquent ici) ;
+	 		\tab 3) En négligeant $C_\D$ et avec une détente complète et réversible, $C_\E = \SI{714,3}{\metre\per\second}$ (les remarques faites en exemple \ref{exemple_tuyere} p.\pageref{exemple_tuyere} s’appliquent ici) ;
 	 		\tab 4) La température en début de combustion descend à $T_3 = \SI{774,2}{\kelvin}$, la température en sortie de turbine est $T_6 = \SI{870,7}{\kelvin}$, et ainsi la pression en entrée de tuyère monte à $p_6 = \SI{4,684}{\bar}$ ;
 	 		\tab 5) Gare aux tympans : $C_7= \SI{811,3}{\metre\per\second}$ (les mêmes remarques s’appliquent ici).
 	 	\item [\ref{exo_cf6_generateur_intercooling}]
