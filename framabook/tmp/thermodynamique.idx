@@ -13,7 +13,7 @@
 \indexentry {énergie!masse|hyperpage}{4}
 \indexentry {énergie!rayonnante|hyperpage}{4}
 \indexentry {énergie!interne|hyperpage}{4}
-\indexentry {chaleur|hyperpage}{4}
+\indexentry {chaleur (concept)|hyperpage}{4}
 \indexentry {travail|hyperpage}{4}
 \indexentry {macroscopique, échelle|hyperpage}{4}
 \indexentry {Watt!unité|hyperpage}{4}
@@ -40,7 +40,6 @@
 \indexentry {turbulence|hyperpage}{8}
 \indexentry {travail|hyperpage}{8}
 \indexentry {force|hyperpage}{8}
-\indexentry {déplacement|hyperpage}{8}
 \indexentry {diagramme!force-distance|hyperpage}{9}
 \indexentry {force-distance, diagramme|hyperpage}{9}
 \indexentry {ressorts, compression de|hyperpage}{9}
@@ -56,18 +55,17 @@
 \indexentry {température!absolue|hyperpage}{11}
 \indexentry {Celsius!degrés (échelle)|hyperpage}{11}
 \indexentry {Kelvin!unité|hyperpage}{11}
-\indexentry {chaleur|hyperpage}{12}
-\indexentry {chaleur|hyperpage}{12}
+\indexentry {chaleur!concept|hyperpage}{12}
+\indexentry {chaleur!concept|hyperpage}{12}
 \indexentry {chaleur!nature de la|hyperpage}{12}
 \indexentry {chaleur!spécifique|hyperpage}{12}
 \indexentry {chaleur!massique|hyperpage}{12}
 \indexentry {calorique (fluide, hist.)|hyperpage}{12}
 \indexentry {chaleur!conservation (ou non)|hyperpage}{12}
 \indexentry {microscopique, échelle|hyperpage}{12}
-\indexentry {thermique, capacité|hyperpage}{13}
-\indexentry {calorifique, capacité|hyperpage}{13}
 \indexentry {capacité!thermique|hyperpage}{13}
-\indexentry {capacité!calorifique|hyperpage}{13}
+\indexentry {capacité!thermique|hyperpage}{13}
+\indexentry {capacité!thermique|hyperpage}{13}
 \indexentry {capacité!thermique massique|hyperpage}{13}
 \indexentry {ébullition|hyperpage}{13}
 \indexentry {Feynman, Richard|hyperpage}{13}
@@ -79,12 +77,23 @@
 \indexentry {Depondt, Philippe|hyperpage}{16}
 \indexentry {Aristote|hyperpage}{16}
 \indexentry {thermomètre! genèse|hyperpage}{16}
+\indexentry {atmosphère, pression de l’|hyperpage}{16}
+\indexentry {pression!atmosphérique|hyperpage}{16}
+\indexentry {atmosphère, pression de l’|hyperpage}{17}
+\indexentry {pression!atmosphérique|hyperpage}{17}
+\indexentry {atmosphère, pression de l’|hyperpage}{17}
+\indexentry {pression!atmosphérique|hyperpage}{17}
 \indexentry {température!zéro|hyperpage}{18}
 \indexentry {température!échelle de|hyperpage}{18}
 \indexentry {Amontons, Guillaume|hyperpage}{18}
+\indexentry {atmosphère, pression de l’|hyperpage}{18}
+\indexentry {pression!atmosphérique|hyperpage}{18}
 \indexentry {Réaumur, René-Antoine Ferchault de|hyperpage}{19}
 \indexentry {Fahrenheit! Daniel Gabriel|hyperpage}{19}
-\indexentry {Celsius! Anders|hyperpage}{19}
+\indexentry {Celsius!Anders|hyperpage}{19}
+\indexentry {chaudière|hyperpage}{23}
+\indexentry {chaudière!efficacité|hyperpage}{23}
+\indexentry {système!fermé|(hyperindexformat{\textbf }}{26}
 \indexentry {système!fermé, utilité de|hyperpage}{26}
 \indexentry {système!ouvert, utilité de|hyperpage}{26}
 \indexentry {système!fermé vs. ouvert|hyperpage}{26}
@@ -96,6 +105,8 @@
 \indexentry {énergie!interne, variation de|hyperpage}{28}
 \indexentry {Clausius!Rudolf|hyperpage}{29}
 \indexentry {principes de la thermodynamique!premier, forme différentielle|hyperpage}{29}
+\indexentry {$\delta $ (symbole)|hyperpage}{29}
+\indexentry {Delta (symbole)|hyperpage}{29}
 \indexentry {cycle!thermodynamique|hyperpage}{29}
 \indexentry {principes de la thermodynamique!premier, appliqué à un cycle|hyperpage}{29}
 \indexentry {travail!calcul en système fermé|hyperpage}{30}
@@ -104,6 +115,7 @@
 \indexentry {volume|hyperpage}{30}
 \indexentry {pression!jaugée|hyperpage}{31}
 \indexentry {pression!atmosphérique|hyperpage}{31}
+\indexentry {atmosphère, pression de l’|hyperpage}{31}
 \indexentry {ressorts!compression de|hyperpage}{31}
 \indexentry {diagramme!pression-volume|hyperpage}{32}
 \indexentry {pression-volume, diagramme|hyperpage}{32}
@@ -111,24 +123,30 @@
 \indexentry {ressorts!compression de|hyperpage}{33}
 \indexentry {travail!en système fermé, en évolution lente|hyperpage}{34}
 \indexentry {système!fermé, travail en évolution lente|hyperpage}{34}
-\indexentry {Clapeyron! Benoît Paul Émile|hyperpage}{34}
+\indexentry {Clapeyron!Benoît Paul Émile|hyperpage}{34}
 \indexentry {volume!spécifique|hyperpage}{34}
 \indexentry {ressorts!modélisation des gaz|hyperpage}{35}
 \indexentry {Pambour, François-Marie Guyonneau de|hyperpage}{36}
 \indexentry {évolutions!adiabatiques|hyperpage}{36}
-\indexentry {adiabatiques, évolutions|hyperpage}{36}
+\indexentry {adiabatiques!évolutions|hyperpage}{36}
 \indexentry {travail!en système fermé, en évolution rapide|hyperpage}{39}
+\indexentry {travail!transferts iréversibles|hyperpage}{39}
 \indexentry {système!fermé, travail en évolution rapide|hyperpage}{39}
 \indexentry {Pambour, François-Marie Guyonneau de|hyperpage}{39}
 \indexentry {irréversibilité|hyperpage}{41}
 \indexentry {ressorts!modélisation des gaz|hyperpage}{41}
 \indexentry {chaleur!transformation de travail en|hyperpage}{41}
+\indexentry {chaleur!lors des irréversibilités|hyperpage}{41}
 \indexentry {travail!transformation en chaleur|hyperpage}{41}
-\indexentry {réversibilité|hyperpage}{44}
-\indexentry {irréversibilité!vs. réversibilité|hyperpage}{44}
+\indexentry {réversibilité!concept|hyperpage}{44}
+\indexentry {irréversibilité!concept|hyperpage}{44}
 \indexentry {Feynman, Richard|hyperpage}{44}
+\indexentry {réversibilité|hyperpage}{44}
+\indexentry {chaleur!transferts réversibles|hyperpage}{44}
+\indexentry {travail!transferts réversibles|hyperpage}{44}
 \indexentry {chaleur!calcul en système fermé|hyperpage}{45}
 \indexentry {système!fermé, calcul de chaleur|hyperpage}{45}
+\indexentry {système!fermé|)hyperindexformat{\textbf }}{45}
 \indexentry {moteur!compound|hyperpage}{46}
 \indexentry {compound (agencement moteur)|hyperpage}{46}
 \indexentry {condenseur|hyperpage}{46}
@@ -137,9 +155,19 @@
 \indexentry {compound (agencement moteur)!quadruple|hyperpage}{47}
 \indexentry {Otto!cycle d’|hyperpage}{51}
 \indexentry {cycle!d’Otto|hyperpage}{51}
-\indexentry {Diesel!moteur|hyperpage}{52}
+\indexentry {moteur!alternatif|hyperpage}{52}
+\indexentry {compression (temps moteur)|hyperpage}{52}
+\indexentry {temps moteur!compression|hyperpage}{52}
+\indexentry {admission (temps moteur)|hyperpage}{52}
+\indexentry {temps moteur!admission|hyperpage}{52}
+\indexentry {échappement (temps moteur)|hyperpage}{52}
+\indexentry {temps moteur!échappement|hyperpage}{52}
+\indexentry {détente (temps moteur)|hyperpage}{52}
+\indexentry {temps moteur!détente|hyperpage}{52}
+\indexentry {temps moteur!quatre temps|hyperpage}{52}
 \indexentry {pompe à chaleur|hyperpage}{53}
-\indexentry {cycle!de réfrigération|hyperpage}{53}
+\indexentry {cycle!de réfrigération (ou climatisation)|hyperpage}{53}
+\indexentry {système!ouvert|(hyperindexformat{\textbf }}{58}
 \indexentry {système!fermé, utilité de|hyperpage}{58}
 \indexentry {système!ouvert, utilité de|hyperpage}{58}
 \indexentry {système!fermé vs. ouvert|hyperpage}{58}
@@ -147,9 +175,6 @@
 \indexentry {Stodola!Aurel|hyperpage}{58}
 \indexentry {système!ouvert, définition|hyperpage}{58}
 \indexentry {régime continu|hyperpage}{59}
-\indexentry {continu, régime|hyperpage}{59}
-\indexentry {permanent, régime|hyperpage}{59}
-\indexentry {stationnaire, régime|hyperpage}{59}
 \indexentry {système!fermé, conventions de signe|hyperpage}{59}
 \indexentry {système!ouvert, premier principe|hyperpage}{59}
 \indexentry {travail!d’écoulement|hyperpage}{59}
@@ -157,22 +182,25 @@
 \indexentry {travail!d’extraction|hyperpage}{59}
 \indexentry {élément de fluide|hyperpage}{59}
 \indexentry {fluide, élément de|hyperpage}{59}
-\indexentry {régime!permanent|hyperpage}{59}
-\indexentry {régime!stationnaire|hyperpage}{59}
+\indexentry {régime continu|hyperpage}{59}
+\indexentry {régime continu|hyperpage}{59}
+\indexentry {continu, régime|hyperpage}{59}
 \indexentry {puissance!d’insertion|hyperpage}{60}
 \indexentry {puissance!d’extraction|hyperpage}{60}
 \indexentry {puissance!d’écoulement|hyperpage}{60}
 \indexentry {enthalpie!spécifique|hyperpage}{63}
 \indexentry {spécifique!enthalpie|hyperpage}{63}
-\indexentry {enthalpie|hyperpage}{63}
+\indexentry {enthalpie!définition|hyperpage}{63}
 \indexentry {Stodola!Aurel|hyperpage}{63}
 \indexentry {travail!en système ouvert, en évolution lente|hyperpage}{64}
 \indexentry {système!ouvert, travail en évolution lente|hyperpage}{64}
-\indexentry {cycle|hyperpage}{68}
+\indexentry {cycle!thermodynamique|hyperpage}{68}
 \indexentry {travail!en système ouvert, en évolution rapide|hyperpage}{69}
+\indexentry {travail!transferts iréversibles|hyperpage}{69}
 \indexentry {système!ouvert, travail en évolution rapide|hyperpage}{69}
 \indexentry {chaleur!calcul en système ouvert|hyperpage}{71}
 \indexentry {système!ouvert, calcul de chaleur|hyperpage}{71}
+\indexentry {système!ouvert|)hyperindexformat{\textbf }}{71}
 \indexentry {chaleur!degré vs. quantité|hyperpage}{72}
 \indexentry {Depondt, Philippe|hyperpage}{72}
 \indexentry {Black, Joseph|hyperpage}{72}
@@ -182,30 +210,32 @@
 \indexentry {sensible, chaleur (hist.)|hyperpage}{72}
 \indexentry {calorique (fluide, hist.)|hyperpage}{73}
 \indexentry {postcombustion|hyperpage}{76}
+\indexentry {gaz parfait|(hyperindexformat{\textbf }}{82}
 \indexentry {pression!comme mesure de température|hyperpage}{82}
 \indexentry {manomètre!en tant que thermomètre|hyperpage}{82}
 \indexentry {Carnot!Sadi|hyperpage}{82}
 \indexentry {Clapeyron!Benoît Paul Émile|hyperpage}{82}
 \indexentry {gaz parfait!définition|hyperpage}{82}
-\indexentry {gaz!idéal|hyperpage}{82}
+\indexentry {gaz parfait!définition|hyperpage}{82}
 \indexentry {constante du gaz|hyperpage}{82}
 \indexentry {gaz!constante d’un|hyperpage}{82}
+\indexentry {gaz parfait!constante d’un|hyperpage}{82}
+\indexentry {R (constante d’un gaz)|hyperpage}{82}
 \indexentry {équation d’état|hyperpage}{82}
 \indexentry {loi des gaz parfaits|hyperpage}{82}
 \indexentry {quantité de matière|hyperpage}{82}
 \indexentry {moles (quantité de matière)|hyperpage}{82}
+\indexentry {r (constante universelle des gaz|hyperpage}{82}
 \indexentry {gaz parfait!concept général|hyperpage}{83}
 \indexentry {gaz parfait!limites de validité|hyperpage}{84}
 \indexentry {Feynman, Richard|hyperpage}{84}
 \indexentry {gaz parfait!limites de validité|hyperpage}{85}
+\indexentry {gaz parfait!modélisations alternatives|hyperpage}{85}
 \indexentry {Van der Waals, équation de|hyperpage}{85}
-\indexentry {calorifique, capacité|hyperpage}{85}
-\indexentry {capacité!calorifique d’un gaz parfait|hyperpage}{85}
-\indexentry {chaleur!massique d’un gaz parfait|hyperpage}{85}
-\indexentry {chaleur!massique, différence entre les|hyperpage}{87}
-\indexentry {capacité!calorifique, différence entre les|hyperpage}{87}
-\indexentry {chaleur!massique, rapport entre les|hyperpage}{88}
-\indexentry {capacité!calorifique, rapport entre les|hyperpage}{88}
+\indexentry {capacité!thermique|hyperpage}{85}
+\indexentry {gaz parfait!capacités thermiques|hyperpage}{85}
+\indexentry {capacité!thermique, différence entre les|hyperpage}{87}
+\indexentry {capacité!thermique, rapport entre les|hyperpage}{88}
 \indexentry {gamma ($\gamma $) (gaz parfait)|hyperpage}{88}
 \indexentry {température!énergie et|hyperpage}{89}
 \indexentry {énergie!température et|hyperpage}{89}
@@ -213,18 +243,18 @@
 \indexentry {Joule!James Prescott|hyperpage}{89}
 \indexentry {Gay-Lussac!Louis Joseph|hyperpage}{89}
 \indexentry {calorique (fluide, hist.)|hyperpage}{89}
-\indexentry {Joule!principe de|hyperpage}{89}
 \indexentry {Joule!loi de|hyperpage}{89}
 \indexentry {Joule!détente de Gay-Lussac et|hyperpage}{89}
 \indexentry {Gay-Lussac!détente de Joule et|hyperpage}{89}
-\indexentry {Gay-Lussac! Louis Joseph|hyperpage}{89}
+\indexentry {Gay-Lussac!Louis Joseph|hyperpage}{89}
+\indexentry {chaleur!lors des irréversibilités|hyperpage}{89}
+\indexentry {travail!lors des irréversiblités|hyperpage}{89}
 \indexentry {énergie!interne d’un gaz parfait|hyperpage}{89}
 \indexentry {température!d’un gaz parfait|hyperpage}{89}
 \indexentry {gaz parfait!énergie interne d’un|hyperpage}{89}
 \indexentry {calorique (fluide, hist.)|hyperpage}{89}
 \indexentry {Joule!loi de|hyperpage}{90}
 \indexentry {loi de Joule|hyperpage}{90}
-\indexentry {Joule!principe de|hyperpage}{90}
 \indexentry {Joule!James Prescott|hyperpage}{90}
 \indexentry {enthalpie!d’un gaz parfait|hyperpage}{91}
 \indexentry {gaz parfait!enthalpie d’un|hyperpage}{91}
@@ -235,6 +265,8 @@
 \indexentry {isobares, évolutions|hyperpage}{93}
 \indexentry {chaleur!en évolution isobare|hyperpage}{93}
 \indexentry {travail!en évolution isobare|hyperpage}{93}
+\indexentry {pression!atmosphérique|hyperpage}{95}
+\indexentry {amosphère, pression de l’|hyperpage}{95}
 \indexentry {évolutions!isochores|hyperpage}{96}
 \indexentry {isochores, évolutions|hyperpage}{96}
 \indexentry {chaleur!en évolution isochore|hyperpage}{96}
@@ -246,14 +278,15 @@
 \indexentry {travail!en évolution isotherme|hyperpage}{100}
 \indexentry {Carnot!Sadi|hyperpage}{100}
 \indexentry {évolutions!adiabatiques|hyperpage}{102}
-\indexentry {adiabatiques, évolutions|hyperpage}{102}
+\indexentry {adiabatiques!évolutions|hyperpage}{102}
 \indexentry {évolutions!adiabatiques réversibles|hyperpage}{102}
-\indexentry {adiabatiques réversibles, évolutions|hyperpage}{102}
+\indexentry {adiabatiques!réversibles, évolutions|hyperpage}{102}
 \indexentry {évolutions!isentropiques|hyperpage}{103}
 \indexentry {isentropiques, évolutions|hyperpage}{103}
 \indexentry {chaleur!en évolution isentropique|hyperpage}{103}
 \indexentry {travail!en évolution isentropique|hyperpage}{103}
 \indexentry {évolutions!arbitraires|hyperpage}{106}
+\indexentry {gaz parfait|)hyperindexformat{\textbf }}{106}
 \indexentry {Depondt, Philippe|hyperpage}{107}
 \indexentry {Lavoisier, Antoine|hyperpage}{107}
 \indexentry {Laplace, Pierre-Simon de|hyperpage}{107}
@@ -265,21 +298,24 @@
 \indexentry {point mort bas|hyperpage}{111}
 \indexentry {point mort haut|hyperpage}{111}
 \indexentry {turboréacteur|hyperpage}{112}
-\indexentry {liquide-vapeur|(hyperpage}{116}
+\indexentry {liquides-vapeurs|(hyperindexformat{\textbf }}{116}
 \indexentry {liquide!définition|hyperpage}{116}
 \indexentry {Carnot!Sadi|hyperpage}{116}
 \indexentry {tension de surface|hyperpage}{116}
 \indexentry {incompressibilité|hyperpage}{116}
 \indexentry {phase, changements de|hyperpage}{116}
+\indexentry {changement de phase|hyperpage}{116}
 \indexentry {changement de phase|hyperpage}{117}
 \indexentry {liquéfaction|hyperpage}{117}
 \indexentry {ébullition|hyperpage}{117}
 \indexentry {phase, changements de|hyperpage}{117}
-\indexentry {eau!description qualitative des propriétés|hyperpage}{120}
+\indexentry {changement de phase|hyperpage}{117}
+\indexentry {liquides-vapeurs!utilisation industrielle|hyperpage}{119}
+\indexentry {eau!description qualitative des propriétés|(hyperpage}{120}
 \indexentry {gaz parfait!limites de validité|hyperpage}{120}
 \indexentry {Clausius!Rudolf|hyperpage}{120}
-\indexentry {critique, pression|hyperpage}{120}
-\indexentry {critique, température|hyperpage}{120}
+\indexentry {critique!pression|hyperpage}{120}
+\indexentry {critique!température|hyperpage}{120}
 \indexentry {température!critique|hyperpage}{120}
 \indexentry {pression!critique|hyperpage}{120}
 \indexentry {température-volume, diagramme|hyperpage}{120}
@@ -290,21 +326,18 @@
 \indexentry {liquide!sous-refroidi|hyperpage}{120}
 \indexentry {Pambour, François-Marie Guyonneau de|hyperpage}{121}
 \indexentry {mélange liquide-vapeur|hyperpage}{121}
-\indexentry {liquide-vapeur, mélange|hyperpage}{121}
-\indexentry {mélange liquide-vapeur!saturé|hyperpage}{121}
-\indexentry {saturé, mélange liquide-vapeur|hyperpage}{121}
+\indexentry {liquides-vapeurs!mélange liquide-vapeur|hyperpage}{121}
+\indexentry {mélange liquide-vapeur|hyperpage}{121}
 \indexentry {liquide!saturé|hyperpage}{121}
-\indexentry {saturé, liquide|hyperpage}{121}
-\indexentry {liquide!saturant|hyperpage}{121}
-\indexentry {saturant, liquide|hyperpage}{121}
+\indexentry {saturé!liquide|hyperpage}{121}
+\indexentry {liquide!saturé|hyperpage}{121}
 \indexentry {vapeur!saturée|hyperpage}{121}
-\indexentry {saturée, vapeur|hyperpage}{121}
-\indexentry {vapeur!saturante|hyperpage}{121}
-\indexentry {saturante, vapeur|hyperpage}{121}
+\indexentry {saturé(e)!vapeur|hyperpage}{121}
+\indexentry {vapeur!saturée|hyperpage}{121}
 \indexentry {vapeur!sèche|hyperpage}{122}
 \indexentry {Pambour, François-Marie Guyonneau de|hyperpage}{122}
 \indexentry {pression!critique|hyperpage}{122}
-\indexentry {critique, pression|hyperpage}{122}
+\indexentry {critique!pression|hyperpage}{122}
 \indexentry {courbe!de saturation|hyperpage}{122}
 \indexentry {saturation!courbe de|hyperpage}{122}
 \indexentry {vapeur!sèche|hyperpage}{122}
@@ -317,13 +350,18 @@
 \indexentry {pression-volume, diagramme|hyperpage}{123}
 \indexentry {diagramme!pression-volume|hyperpage}{123}
 \indexentry {température!critique|hyperpage}{123}
-\indexentry {critique, température|hyperpage}{123}
+\indexentry {critique!température|hyperpage}{123}
 \indexentry {Pambour, François-Marie Guyonneau de|hyperpage}{123}
 \indexentry {température!énergie et|hyperpage}{125}
 \indexentry {énergie!température et|hyperpage}{125}
+\indexentry {enthalpie!température et|hyperpage}{125}
 \indexentry {buée|hyperpage}{125}
-\indexentry {eau!description quantitative des propriétés|hyperpage}{126}
+\indexentry {eau!description qualitative des propriétés|)}{126}
+\indexentry {eau!description quantitative des propriétés|(hyperpage}{126}
+\indexentry {abaques de vapeur|(hyperpage}{126}
+\indexentry {liquides-vapeurs!propriétés tabulées (abaques)|(hyperpage}{126}
 \indexentry {Pambour, François-Marie Guyonneau de|hyperpage}{126}
+\indexentry {liquides-vapeurs!propriétés tabulées (abaques)|hyperpage}{126}
 \indexentry {abaques de vapeur|hyperpage}{126}
 \indexentry {vapeur!abaques de|hyperpage}{126}
 \indexentry {liquide!comprimé|hyperpage}{126}
@@ -332,9 +370,11 @@
 \indexentry {saturation!points de|hyperpage}{129}
 \indexentry {liquide!saturé|hyperpage}{129}
 \indexentry {vapeur!saturée|hyperpage}{129}
+\indexentry {saturé(e)!vapeur|hyperpage}{129}
 \indexentry {chaleur!de vaporisation|hyperpage}{131}
 \indexentry {vaporisation, chaleur de|hyperpage}{131}
 \indexentry {chaleur!latente|hyperpage}{131}
+\indexentry {latente, chaleur|hyperpage}{131}
 \indexentry {mélange liquide-vapeur|hyperpage}{131}
 \indexentry {titre|hyperpage}{131}
 \indexentry {vapeur!titre de|hyperpage}{131}
@@ -342,6 +382,11 @@
 \indexentry {énergie!interne d’un liquide-vapeur|hyperpage}{132}
 \indexentry {volume!spécifique d’un mélange liquide-vapeur|hyperpage}{133}
 \indexentry {mélange liquide-vapeur!volume spécifique d’un|hyperpage}{133}
+\indexentry {eau!description quantitative des propriétés|)}{134}
+\indexentry {abaques de vapeur|)}{134}
+\indexentry {liquides-vapeurs!propriétés tabulées (abaques)|)}{134}
+\indexentry {atmosphère, pression de l’|hyperpage}{135}
+\indexentry {pression!atmosphérique|hyperpage}{135}
 \indexentry {évolutions!isobares|hyperpage}{135}
 \indexentry {isobares, évolutions|hyperpage}{135}
 \indexentry {chaleur!en évolution isobare|hyperpage}{135}
@@ -357,20 +402,23 @@
 \indexentry {entropie|hyperpage}{141}
 \indexentry {entropie|hyperpage}{142}
 \indexentry {évolutions!adiabatiques|hyperpage}{142}
-\indexentry {adiabatiques, évolutions|hyperpage}{142}
+\indexentry {adiabatiques!évolutions|hyperpage}{142}
 \indexentry {Clausius!Rudolf|hyperpage}{142}
 \indexentry {évolutions!adiabatiques réversibles|hyperpage}{142}
-\indexentry {adiabatiques réversibles, évolutions|hyperpage}{142}
+\indexentry {adiabatiques!réversibles, évolutions|hyperpage}{142}
 \indexentry {chaleur!en évolution isentropique|hyperpage}{142}
 \indexentry {travail!en évolution isentropique|hyperpage}{142}
+\indexentry {travail!transferts iréversibles|hyperpage}{142}
 \indexentry {entropie|hyperpage}{144}
 \indexentry {évolutions!isentropiques|hyperpage}{144}
 \indexentry {isentropiques, évolutions|hyperpage}{144}
 \indexentry {évolutions!arbitraires|hyperpage}{144}
-\indexentry {liquide-vapeur|)}{144}
+\indexentry {liquides-vapeurs|)hyperindexformat{\textbf }}{144}
 \indexentry {cheval-vapeur (unité)|hyperpage}{145}
 \indexentry {Newcomen, moteur|hyperpage}{145}
 \indexentry {moteur!Newcomen|hyperpage}{145}
+\indexentry {atmosphère, pression de l’|hyperpage}{146}
+\indexentry {pression!atmosphérique|hyperpage}{146}
 \indexentry {Watt!James|hyperpage}{146}
 \indexentry {moteur!de Boulton \& Watt|hyperpage}{146}
 \indexentry {Boulton, Matthew|hyperpage}{147}
@@ -378,19 +426,24 @@
 \indexentry {Watt!unité|hyperpage}{148}
 \indexentry {moteur!Newcomen|hyperpage}{151}
 \indexentry {Newcomen, moteur|hyperpage}{151}
+\indexentry {cycle!thermodynamique|(hyperindexformat{\textbf }}{156}
+\indexentry {puissance!nette|hyperpage}{156}
+\indexentry {énergie!transfert net|hyperpage}{156}
 \indexentry {travail!net|hyperpage}{156}
 \indexentry {chaleur!nette|hyperpage}{156}
 \indexentry {travail!net|hyperpage}{156}
 \indexentry {cycle!thermodynamique|hyperpage}{157}
 \indexentry {cycle!thermodynamique|hyperpage}{157}
 \indexentry {moteur!principe de fonctionnement|hyperpage}{157}
-\indexentry {chaleur!transformation en travail|hyperpage}{157}
 \indexentry {réfrigérateur!principe de fonctionnement|hyperpage}{159}
 \indexentry {pompe à chaleur!principe de fonctionnement|hyperpage}{159}
 \indexentry {chaleur!transfert vers une température plus haute|hyperpage}{159}
-\indexentry {cycle!de réfrigération|hyperpage}{159}
-\indexentry {cycle!de réfrigération|hyperpage}{159}
+\indexentry {cycle!de réfrigération (ou climatisation)|hyperpage}{159}
+\indexentry {cycle!de réfrigération (ou climatisation)|hyperpage}{159}
 \indexentry {détendeur|hyperpage}{160}
+\indexentry {Joule!détente de Gay-Lussac et|hyperpage}{160}
+\indexentry {Gay-Lussac!détente de Joule et|hyperpage}{160}
+\indexentry {travail!lors des irréversiblités|hyperpage}{160}
 \indexentry {pompe à chaleur|hyperpage}{162}
 \indexentry {pompe à chaleur|hyperpage}{162}
 \indexentry {réfrigérateur|hyperpage}{162}
@@ -406,10 +459,13 @@
 \indexentry {efficacité!d’un climatiseur|hyperpage}{165}
 \indexentry {efficacité!d’un réfrigérateur|hyperpage}{165}
 \indexentry {coefficient of performance (COP)|hyperpage}{166}
-\indexentry {COP|hyperpage}{166}
+\indexentry {COP (coefficient of performance)|hyperpage}{166}
 \indexentry {pompe à chaleur!rendement d’une|hyperpage}{166}
 \indexentry {efficacité!d’une pompe à chaleur|hyperpage}{166}
+\indexentry {COP (coefficient of performance)|hyperpage}{166}
+\indexentry {coefficient of performance (COP)|hyperpage}{166}
 \indexentry {cycle!thermodynamique, faiblesse du rendement|hyperpage}{168}
+\indexentry {cycle!thermodynamique|)hyperindexformat{\textbf }}{168}
 \indexentry {moteur!à combustion interne|hyperpage}{169}
 \indexentry {combustion interne, moteur à|hyperpage}{169}
 \indexentry {moteur!à quatre temps|hyperpage}{169}
@@ -441,7 +497,8 @@
 \indexentry {cycle!de réfrigération (ou climatisation)|hyperpage}{177}
 \indexentry {climatiseur|hyperpage}{177}
 \indexentry {pompe à chaleur|hyperpage}{177}
-\indexentry {principes de la thermodynamique!second|(hyperpage}{186}
+\indexentry {chaleur!échangeur|hyperpage}{177}
+\indexentry {principes de la thermodynamique!second|(hyperindexformat{\textbf }}{186}
 \indexentry {principes de la thermodynamique!second, énoncé|hyperpage}{186}
 \indexentry {chaleur!transfert vers une température plus haute|hyperpage}{186}
 \indexentry {principes de la thermodynamique!zéro|hyperpage}{187}
@@ -457,13 +514,19 @@
 \indexentry {Kelvin-Planck, corrolaire de|hyperpage}{190}
 \indexentry {principes de la thermodynamique!second, appliqué aux réfrigérateurs (ou climatiseurs)|hyperpage}{191}
 \indexentry {réfrigérateur!rendement maximal d’un|hyperpage}{191}
+\indexentry {efficacité!d’un réfrigérateur|hyperpage}{191}
+\indexentry {efficacité!maximale d’un réfrigérateur|hyperpage}{191}
 \indexentry {climatiseur!rendement maximal d’un|hyperpage}{191}
+\indexentry {efficacité!d’un climatiseur|hyperpage}{191}
+\indexentry {efficacité!maximale d’un climatiseur|hyperpage}{191}
+\indexentry {efficacité!d’une pompe à chaleur|hyperpage}{191}
+\indexentry {efficacité!maximale d’une pompe à chaleur|hyperpage}{191}
 \indexentry {pompe à chaleur!rendement maximal d’une|hyperpage}{191}
-\indexentry {cycle!de réfrigération|hyperpage}{191}
+\indexentry {cycle!de réfrigération (ou climatisation)|hyperpage}{191}
 \indexentry {principes de la thermodynamique!second, corrolaire de Clausius|hyperpage}{191}
 \indexentry {Clausius!corrolaire de|hyperpage}{191}
-\indexentry {Carnot!cycle de|(hyperpage}{191}
-\indexentry {cycle!de Carnot|(hyperpage}{191}
+\indexentry {Carnot!cycle de|(hyperindexformat{\textbf }}{191}
+\indexentry {cycle!de Carnot|(hyperindexformat{\textbf }}{191}
 \indexentry {Carnot!Sadi|hyperpage}{191}
 \indexentry {moteur!rendement maximal d’un|hyperpage}{191}
 \indexentry {réversibilité|hyperpage}{192}
@@ -480,20 +543,20 @@
 \indexentry {évolutions!isentropiques|hyperpage}{194}
 \indexentry {isentropiques, évolutions|hyperpage}{194}
 \indexentry {évolutions!adiabatiques réversibles|hyperpage}{194}
-\indexentry {adiabatiques réversibles, évolutions|hyperpage}{194}
+\indexentry {adiabatiques!réversibles, évolutions|hyperpage}{194}
 \indexentry {évolutions!isothermes|hyperpage}{194}
 \indexentry {isothermes, évolutions|hyperpage}{194}
 \indexentry {cycle!de Carnot|hyperpage}{195}
 \indexentry {évolutions!isentropiques|hyperpage}{195}
 \indexentry {isentropiques, évolutions|hyperpage}{195}
 \indexentry {évolutions!adiabatiques réversibles|hyperpage}{195}
-\indexentry {adiabatiques réversibles, évolutions|hyperpage}{195}
+\indexentry {adiabatiques!réversibles, évolutions|hyperpage}{195}
 \indexentry {évolutions!isothermes|hyperpage}{195}
 \indexentry {isothermes, évolutions|hyperpage}{195}
 \indexentry {évolutions!isentropiques|hyperpage}{195}
 \indexentry {isentropiques, évolutions|hyperpage}{195}
 \indexentry {évolutions!adiabatiques réversibles|hyperpage}{195}
-\indexentry {adiabatiques réversibles, évolutions|hyperpage}{195}
+\indexentry {adiabatiques!réversibles, évolutions|hyperpage}{195}
 \indexentry {évolutions!isothermes|hyperpage}{196}
 \indexentry {isothermes, évolutions|hyperpage}{196}
 \indexentry {Clapeyron!Benoît Paul Émile|hyperpage}{199}
@@ -503,10 +566,10 @@
 \indexentry {temps moteur!deux temps|hyperpage}{200}
 \indexentry {moteur!à quatre temps|hyperpage}{200}
 \indexentry {temps moteur!quatre temps|hyperpage}{200}
-\indexentry {cycle!de Carnot|)}{201}
-\indexentry {Carnot!cycle de|)}{201}
-\indexentry {température!échelle|(hyperpage}{201}
-\indexentry {température!thermodynamique|(hyperpage}{201}
+\indexentry {cycle!de Carnot|)hyperindexformat{\textbf }}{201}
+\indexentry {Carnot!cycle de|)hyperindexformat{\textbf }}{201}
+\indexentry {température!échelle de|(hyperindexformat{\textbf }}{201}
+\indexentry {température!thermodynamique|(hyperindexformat{\textbf }}{201}
 \indexentry {température!selon Kelvin|hyperpage}{201}
 \indexentry {Kelvin!William Thomson, température selon|hyperpage}{201}
 \indexentry {température!absolue|hyperpage}{201}
@@ -517,14 +580,14 @@
 \indexentry {Celsius!Anders|(hyperpage}{202}
 \indexentry {Celsius!température selon|(hyperpage}{202}
 \indexentry {température!selon Celsius|(hyperpage}{202}
-\indexentry {Fahrenheit!Gabriel|(hyperpage}{202}
+\indexentry {Fahrenheit!Daniel Gabriel|(hyperpage}{202}
 \indexentry {Fahrenheit!température selon|(hyperpage}{202}
 \indexentry {température!selon Fahrenheit|(hyperpage}{202}
 \indexentry {échelle (physique)|hyperpage}{203}
 \indexentry {Celsius!Anders|)}{203}
 \indexentry {Celsius!température selon|)}{203}
 \indexentry {température!selon Celsius|)}{203}
-\indexentry {Fahrenheit!Gabriel|)}{203}
+\indexentry {Fahrenheit!Daniel Gabriel|)}{203}
 \indexentry {Fahrenheit!température selon|)}{203}
 \indexentry {température!selon Fahrenheit|)}{203}
 \indexentry {Kelvin!William Thomson|hyperpage}{203}
@@ -547,9 +610,9 @@
 \indexentry {échelle (physique)|hyperpage}{205}
 \indexentry {Kelvin!William Thomson|hyperpage}{205}
 \indexentry {Kelvin!unité|hyperpage}{205}
-\indexentry {température!échelle|)}{206}
-\indexentry {température!thermodynamique|)}{206}
-\indexentry {efficacité!maximale des machines|hyperpage}{206}
+\indexentry {température!échelle de|)hyperindexformat{\textbf }}{206}
+\indexentry {température!thermodynamique|)hyperindexformat{\textbf }}{206}
+\indexentry {efficacité!maximale des machines|(hyperpage}{206}
 \indexentry {efficacité!maximale d’un moteur|hyperpage}{206}
 \indexentry {moteur!rendement maximal d’un|hyperpage}{206}
 \indexentry {Carnot!Sadi|hyperpage}{206}
@@ -560,13 +623,24 @@
 \indexentry {réfrigérateur!rendement maximal d’un|hyperpage}{208}
 \indexentry {efficacité!maximale d’une pompe à chaleur|hyperpage}{209}
 \indexentry {pompe à chaleur!rendement maximal d’une|hyperpage}{209}
-\indexentry {principes de la thermodynamique!second|)}{210}
-\indexentry {Diesel!Rudolf|(hyperpage}{211}
+\indexentry {efficacité!maximale des machines|)}{210}
+\indexentry {principes de la thermodynamique!second|)hyperindexformat{\textbf }}{210}
+\indexentry {Diesel!Rudolf|(hyperindexformat{\textbf }}{211}
+\indexentry {isothermes, évolutions|hyperpage}{211}
+\indexentry {évolutions!isothermes|hyperpage}{211}
+\indexentry {injection directe|hyperpage}{211}
+\indexentry {auto-inflammation|hyperpage}{211}
+\indexentry {combustible!auto-inflammation|hyperpage}{211}
+\indexentry {injection directe|hyperpage}{211}
+\indexentry {pression!maximale d’un moteur|hyperpage}{212}
+\indexentry {moteur!pression maximale d’un|hyperpage}{212}
 \indexentry {Diesel!moteur|hyperpage}{212}
-\indexentry {Diesel!Rudolf|)}{214}
+\indexentry {Diesel!Rudolf|)hyperindexformat{\textbf }}{214}
 \indexentry {Carnot!cycle de|hyperpage}{216}
+\indexentry {cycle!de Carnot|hyperpage}{216}
 \indexentry {Carnot!cycle de|hyperpage}{216}
-\indexentry {entropie|(hyperpage}{222}
+\indexentry {cycle!de Carnot|hyperpage}{216}
+\indexentry {entropie|(hyperindexformat{\textbf }}{222}
 \indexentry {entropie!concept|hyperpage}{222}
 \indexentry {énergie|hyperpage}{222}
 \indexentry {énergie|hyperpage}{222}
@@ -574,8 +648,12 @@
 \indexentry {entropie|hyperpage}{222}
 \indexentry {entropie|hyperpage}{222}
 \indexentry {évolutions!sens des|hyperpage}{223}
-\indexentry {irréversibilité|hyperpage}{223}
-\indexentry {chaleur!dans les irréversibilités|hyperpage}{223}
+\indexentry {irréversibilité (concept)|hyperpage}{223}
+\indexentry {travail!transformation en chaleur|hyperpage}{223}
+\indexentry {chaleur!transformation de travail en|hyperpage}{223}
+\indexentry {chaleur!transferts irréversibles|hyperpage}{223}
+\indexentry {chaleur!lors des irréversibilités|hyperpage}{223}
+\indexentry {irréversibilité!quantification|hyperpage}{223}
 \indexentry {Clausius!Rudolf|hyperpage}{223}
 \indexentry {propriété physique|hyperpage}{223}
 \indexentry {variable thermodynamique|hyperpage}{223}
@@ -584,10 +662,13 @@
 \indexentry {entropie|hyperpage}{224}
 \indexentry {entropie!spécifique|hyperpage}{224}
 \indexentry {spécifique!entropie|hyperpage}{224}
+\indexentry {chaleur!lors des irréversibilités|hyperpage}{226}
+\indexentry {chaleur!transferts réversibles|hyperpage}{226}
 \indexentry {entropie!mesure (impossibilité)|hyperpage}{226}
 \indexentry {entropie!analogie avec le volume|hyperpage}{226}
 \indexentry {diagramme!température-entropie|hyperpage}{228}
 \indexentry {température-entropie, diagramme|hyperpage}{228}
+\indexentry {chaleur!lors des irréversibilités|hyperpage}{228}
 \indexentry {diagramme!pression-volume|hyperpage}{228}
 \indexentry {diagramme!température-entropie|hyperpage}{228}
 \indexentry {pression-volume, diagramme|hyperpage}{228}
@@ -596,6 +677,7 @@
 \indexentry {isentropiques, évolutions|hyperpage}{229}
 \indexentry {cycle!thermodynamique|hyperpage}{229}
 \indexentry {Carnot!cycle de|hyperpage}{229}
+\indexentry {cycle!de Carnot|hyperpage}{229}
 \indexentry {diagramme!pression-volume|hyperpage}{229}
 \indexentry {diagramme!température-entropie|hyperpage}{229}
 \indexentry {pression-volume, diagramme|hyperpage}{229}
@@ -604,7 +686,11 @@
 \indexentry {gaz parfait!variations d’entropie d’un|hyperpage}{231}
 \indexentry {Clausius!Rudolf|hyperpage}{231}
 \indexentry {entropie!d’un liquide-vapeur, variations d’|hyperpage}{235}
-\indexentry {liquide-vapeur!variations d’entropie d’un|hyperpage}{235}
+\indexentry {liquides-vapeurs!variations d’entropie d’un|hyperpage}{235}
+\indexentry {mélange liquide-vapeur!entropie d’un|hyperpage}{235}
+\indexentry {abaques de vapeur|hyperpage}{235}
+\indexentry {liquides-vapeurs!propriétés tabulées (abaques)|hyperpage}{235}
+\indexentry {titre|hyperpage}{235}
 \indexentry {évolutions!sens des|hyperpage}{239}
 \indexentry {irréversibilité!lors des transferts de chaleur|hyperpage}{239}
 \indexentry {chaleur!transferts irréversibles|hyperpage}{239}
@@ -613,8 +699,7 @@
 \indexentry {température!gradient de|hyperpage}{241}
 \indexentry {Carnot!Sadi|hyperpage}{241}
 \indexentry {irréversibilité!lors des compressions et détentes|hyperpage}{241}
-\indexentry {adiabatiques, évolutions|hyperpage}{241}
-\indexentry {adiabatiques irréversibles, évolutions|hyperpage}{241}
+\indexentry {adiabatiques!irréversibles, évolutions|hyperpage}{241}
 \indexentry {chaleur!lors des irréversibilités|hyperpage}{241}
 \indexentry {irréversibilité!lors des transferts de travail|hyperpage}{241}
 \indexentry {travail!transferts irréversibles|hyperpage}{241}
@@ -636,7 +721,7 @@
 \indexentry {Clausius!Rudolf|hyperpage}{245}
 \indexentry {Reech, Ferdinand|hyperpage}{245}
 \indexentry {Rankine, William|hyperpage}{245}
-\indexentry {entropie!création du concept|hyperpage}{245}
+\indexentry {entropie!concept|hyperpage}{245}
 \indexentry {entropie!étymologie|hyperpage}{245}
 \indexentry {entropie|hyperpage}{246}
 \indexentry {énergie|hyperpage}{246}
@@ -650,7 +735,7 @@
 \indexentry {Feynman, Richard|hyperpage}{246}
 \indexentry {impossibilité (physique)|hyperpage}{246}
 \indexentry {probabilité (physique)|hyperpage}{246}
-\indexentry {statistique!thermodynamique,|hyperpage}{246}
+\indexentry {statistique!thermodynamique|hyperpage}{246}
 \indexentry {microscopique, échelle|hyperpage}{246}
 \indexentry {thermodynamique statistique|hyperpage}{246}
 \indexentry {information (physique)|hyperpage}{247}
@@ -662,105 +747,502 @@
 \indexentry {énergie!concept|hyperpage}{247}
 \indexentry {Asimov, Isaac|hyperpage}{247}
 \indexentry {Depondt, Philippe|hyperpage}{247}
-\indexentry {entropie|)}{247}
+\indexentry {entropie|)hyperindexformat{\textbf }}{247}
 \indexentry {chaleur!poids de la|hyperpage}{248}
 \indexentry {Rumford, Benjamin Thompson|hyperpage}{248}
 \indexentry {chaleur!conservation (ou non)|hyperpage}{248}
 \indexentry {chaleur!transformation de travail en|hyperpage}{248}
+\indexentry {chaleur!lors des irréversibilités|hyperpage}{248}
 \indexentry {Depondt, Philippe|hyperpage}{248}
 \indexentry {Lavoisier, Marie|hyperpage}{248}
 \indexentry {Lavoisier, Antoine|hyperpage}{248}
 \indexentry {Carnot!cycle de|hyperpage}{251}
-\indexentry {efficacité!thermique|hyperpage}{259}
-\indexentry {rendement|hyperpage}{259}
+\indexentry {cycle!de Carnot|hyperpage}{251}
+\indexentry {cycle!moteur à vapeur|(hyperindexformat{\textbf }}{258}
+\indexentry {moteur!cycles vapeur|(hyperindexformat{\textbf }}{258}
+\indexentry {liquides-vapeur!cycles moteur|(hyperindexformat{\textbf }}{258}
+\indexentry {Carnot!Sadi|hyperpage}{258}
+\indexentry {liquides-vapeurs!utilisation industrielle|hyperpage}{258}
+\indexentry {combustible|hyperpage}{258}
+\indexentry {chaleur!sources de|hyperpage}{258}
+\indexentry {capacité!thermique volumique|hyperpage}{258}
+\indexentry {moteur!critères d’évaluation|hyperpage}{259}
+\indexentry {moteur!rendement d’un|hyperpage}{259}
+\indexentry {efficacité!d’un moteur|hyperpage}{259}
+\indexentry {efficacité!maximale d’un moteur|hyperpage}{259}
+\indexentry {efficacité!d’un moteur|hyperpage}{259}
 \indexentry {efficacité!de préparation|hyperpage}{259}
-\indexentry {efficacité!de chaudière|hyperpage}{259}
+\indexentry {efficacité!d’une chaudière|hyperpage}{259}
 \indexentry {efficacité!de transmission|hyperpage}{259}
-\indexentry {efficacité!de génératrice|hyperpage}{259}
+\indexentry {efficacité!d’une génératrice|hyperpage}{259}
 \indexentry {efficacité!globale|hyperpage}{259}
+\indexentry {Pambour, François-Marie Guyonneau de|hyperpage}{260}
 \indexentry {puissance!nette spécifique|hyperpage}{260}
-\indexentry {consommation spécifique|hyperpage}{260}
+\indexentry {SSC (Specific Steam Consumption)|hyperpage}{260}
+\indexentry {consommation spécifique (de vapeur)|hyperpage}{260}
 \indexentry {spécifique!consommation|hyperpage}{260}
 \indexentry {Specific Steam Consumption (SSC)|hyperpage}{260}
+\indexentry {écologique, impact|hyperpage}{260}
+\indexentry {environnement, impact sur|hyperpage}{260}
+\indexentry {chaleur!sources de|hyperpage}{260}
+\indexentry {combustible|hyperpage}{260}
+\indexentry {moteur!à vapeur, composants des|hyperpage}{261}
+\indexentry {isothermes, évolutions|hyperpage}{261}
+\indexentry {évolutions!isothermes|hyperpage}{261}
+\indexentry {isentropiques, évolutions|hyperpage}{261}
+\indexentry {évolutions!isentropiques|hyperpage}{261}
+\indexentry {adiabatiques!réversibles, évolutions|hyperpage}{261}
+\indexentry {évolutions!adiabatiques réversibles|hyperpage}{261}
+\indexentry {chaleur!transferts réversibles|hyperpage}{261}
+\indexentry {travail!transferts réversibles|hyperpage}{261}
+\indexentry {compresseur|hyperpage}{262}
+\indexentry {pompe|hyperpage}{262}
+\indexentry {incompressibilité|hyperpage}{262}
+\indexentry {chaudière|hyperpage}{264}
+\indexentry {efficacité!d’une chaudière|hyperpage}{264}
+\indexentry {pression!maximale d’un moteur|hyperpage}{264}
+\indexentry {moteur!pression maximale d’un|hyperpage}{264}
+\indexentry {turbine|hyperpage}{265}
+\indexentry {efficacité!d’une turbine|hyperpage}{266}
 \indexentry {efficacité!isentropique|hyperpage}{266}
 \indexentry {turbine!efficacité isentropique|hyperpage}{266}
 \indexentry {isentropique, efficacité|hyperpage}{266}
+\indexentry {turbine!puissance d’une|hyperpage}{266}
+\indexentry {puissance!d’une turbine|hyperpage}{266}
+\indexentry {courbe!de saturation|hyperpage}{266}
+\indexentry {saturation!courbe de|hyperpage}{266}
+\indexentry {condenseur|hyperpage}{268}
+\indexentry {température!minimale d’un moteur|hyperpage}{268}
+\indexentry {moteur!température minimale d’un|hyperpage}{268}
+\indexentry {pression!atmosphérique|hyperpage}{268}
+\indexentry {atmosphère, pression de l’|hyperpage}{268}
+\indexentry {puissance!d’un condenseur|hyperpage}{269}
+\indexentry {condenseur!puissance d’un|hyperpage}{269}
+\indexentry {Carnot!cycle de|hyperpage}{269}
+\indexentry {cycle!de Carnot|hyperpage}{269}
+\indexentry {Rankine!cycle de|hyperpage}{271}
 \indexentry {cycle!de Rankine|hyperpage}{271}
-\indexentry {surchauffe|hyperpage}{273}
-\indexentry {resurchauffe|hyperpage}{275}
-\indexentry {régénération|hyperpage}{276}
+\indexentry {Carnot!cycle de|hyperpage}{271}
+\indexentry {cycle!de Carnot|hyperpage}{271}
+\indexentry {Rankine!William John Macquorn|hyperpage}{271}
+\indexentry {Rankine!cycle de|hyperpage}{271}
+\indexentry {cycle!de Rankine|hyperpage}{271}
+\indexentry {efficacité!d’une chaudière|hyperpage}{272}
+\indexentry {efficacité!d’un moteur|hyperpage}{272}
+\indexentry {moteur!rendement d’un|hyperpage}{272}
+\indexentry {chaudière!efficacité|hyperpage}{272}
+\indexentry {surchauffe (procédé)|hyperpage}{273}
+\indexentry {Rankine!cycle surchauffé de|hyperpage}{273}
+\indexentry {cycle!de Rankine surchauffé|hyperpage}{273}
+\indexentry {SSC (Specific Steam Consumption)|hyperpage}{273}
+\indexentry {Specific Steam Consumption (SSC)|hyperpage}{273}
+\indexentry {consommation spécifique (de vapeur)|hyperpage}{273}
+\indexentry {pression!de saturation|hyperpage}{273}
+\indexentry {pression!maximale d’un moteur|hyperpage}{273}
+\indexentry {moteur!pression maximale d’un|hyperpage}{273}
+\indexentry {surchauffée, vapeur|hyperpage}{273}
+\indexentry {surchauffe (procédé)|hyperpage}{273}
+\indexentry {efficacité!d’un moteur|hyperpage}{273}
+\indexentry {moteur!rendement d’un|hyperpage}{273}
+\indexentry {température!maximale d’un moteur|hyperpage}{273}
+\indexentry {moteur!température maximale d’un|hyperpage}{273}
+\indexentry {resurchauffe (procédé)|hyperpage}{275}
+\indexentry {Rankine!cycle resurchauffé de|hyperpage}{275}
+\indexentry {surchauffée, vapeur|hyperpage}{275}
+\indexentry {resurchauffe (procédé)|hyperpage}{275}
+\indexentry {température!maximale d’un moteur|hyperpage}{275}
+\indexentry {moteur!température maximale d’un|hyperpage}{275}
+\indexentry {efficacité!d’un moteur|hyperpage}{275}
+\indexentry {moteur!rendement d’un|hyperpage}{275}
+\indexentry {régénération (procédé)|hyperpage}{276}
+\indexentry {régénération (procédé)|hyperpage}{276}
+\indexentry {Carnot!cycle de|hyperpage}{276}
+\indexentry {cycle!de Carnot|hyperpage}{276}
+\indexentry {efficacité!d’un moteur|hyperpage}{276}
+\indexentry {efficacité!maximale d’un moteur|hyperpage}{276}
+\indexentry {moteur!rendement maximal d’un|hyperpage}{276}
+\indexentry {chaleur!transferts réversibles|hyperpage}{276}
+\indexentry {titre|hyperpage}{276}
+\indexentry {prélèvement!en turbine|hyperpage}{278}
 \indexentry {turbine!prélèvement|hyperpage}{278}
 \indexentry {turbine!prélèvement|hyperpage}{279}
-\indexentry {prélèvements turbine|hyperpage}{279}
+\indexentry {prélèvement en turbine|hyperpage}{279}
+\indexentry {cycle!moteur à vapeur|)hyperindexformat{\textbf }}{281}
+\indexentry {moteur!cycles vapeur|)hyperindexformat{\textbf }}{281}
+\indexentry {liquides-vapeur!cycles moteur|)hyperindexformat{\textbf }}{281}
+\indexentry {turbine!histoire de la|hyperpage}{281}
+\indexentry {turbomachine (moteur à turbine)|hyperpage}{281}
+\indexentry {moteur!à turbine (turbomachine)|hyperpage}{281}
+\indexentry {Turbinia (navire)|hyperpage}{281}
+\indexentry {Parsons, Charles Algernon|hyperpage}{281}
 \indexentry {turbine!moteur à (turbomachine)|hyperpage}{281}
+\indexentry {von Ohain, Hans|hyperpage}{281}
+\indexentry {Ohain, Hans von|hyperpage}{281}
+\indexentry {Whittle, Frank|hyperpage}{281}
+\indexentry {efficacité!isentropique|hyperpage}{282}
+\indexentry {turbine!efficacité d’une|hyperpage}{282}
+\indexentry {compresseur!efficacité d’un|hyperpage}{282}
+\indexentry {efficacité!d’un compresseur|hyperpage}{282}
+\indexentry {efficacité!d’une turbine|hyperpage}{282}
 \indexentry {marge de travail|hyperpage}{282}
 \indexentry {travail!marge de|hyperpage}{282}
+\indexentry {von Ohain, Hans|hyperpage}{282}
+\indexentry {Ohain, Hans von|hyperpage}{282}
+\indexentry {Whittle, Frank|hyperpage}{282}
+\indexentry {fiabilité|hyperpage}{282}
+\indexentry {moteur!fiabilité d’un|hyperpage}{282}
 \indexentry {turboréacteur|hyperpage}{282}
 \indexentry {turboréacteur!à simple flux|hyperpage}{282}
+\indexentry {puissance|hyperpage}{283}
 \indexentry {coefficient de traînée|hyperpage}{283}
 \indexentry {traînée, coefficient de|hyperpage}{283}
+\indexentry {poussée!spécifique|hyperpage}{283}
+\indexentry {spécifique!poussée|hyperpage}{283}
+\indexentry {puissance!spécifique|hyperpage}{283}
+\indexentry {spécifique!puissance|hyperpage}{283}
+\indexentry {compresseur!centrifuge|hyperpage}{283}
+\indexentry {Darolles, Jacques|hyperpage}{285}
+\indexentry {fiabilité|hyperpage}{285}
+\indexentry {moteur!fiabilité d’un|hyperpage}{285}
+\indexentry {Rankine!cycle surchauffé de|hyperpage}{286}
+\indexentry {cycle!de Rankine surchauffé|hyperpage}{286}
+\indexentry {surchauffe (procédé)|hyperpage}{286}
+\indexentry {Rankine!cycle resurchauffé de|hyperpage}{286}
+\indexentry {cycle!de Rankine resurchauffé|hyperpage}{286}
+\indexentry {resurchauffe (procédé)|hyperpage}{286}
+\indexentry {régénération (procédé)|hyperpage}{287}
+\indexentry {surchauffe (procédé)|hyperpage}{287}
+\indexentry {Rankine!cycle surchauffé de|hyperpage}{287}
+\indexentry {cycle!de Rankine surchauffé|hyperpage}{287}
+\indexentry {cycle!moteur à gaz|(hyperindexformat{\textbf }}{290}
+\indexentry {moteur!cycles à gaz|(hyperindexformat{\textbf }}{290}
+\indexentry {combustion interne, moteur à|(hyperindexformat{\textbf }}{290}
+\indexentry {moteur!à combustion interne|(hyperindexformat{\textbf }}{290}
+\indexentry {condenseur|hyperpage}{290}
+\indexentry {puissance!spécifique (d’un moteur)|hyperpage}{290}
 \indexentry {moteur!à combustion interne|hyperpage}{290}
 \indexentry {combustion interne, moteur à|hyperpage}{290}
-\indexentry {efficacité!thermique|hyperpage}{290}
+\indexentry {combustible|hyperpage}{290}
+\indexentry {chaleur!sources de|hyperpage}{290}
+\indexentry {moteur!critères d’évaluation|hyperpage}{290}
+\indexentry {moteur!rendement d’un|hyperpage}{290}
+\indexentry {efficacité!d’un moteur|hyperpage}{290}
+\indexentry {efficacité!maximale d’un moteur|hyperpage}{290}
+\indexentry {efficacité!d’un moteur|hyperpage}{290}
+\indexentry {marge de travail|(hyperindexformat{\textbf }}{291}
+\indexentry {travail!marge de|(hyperpage}{291}
+\indexentry {travail!transferts irréversibles|hyperpage}{291}
+\indexentry {irréversibilité!lors des transferts de travail|hyperpage}{291}
 \indexentry {marge de travail|hyperpage}{291}
-\indexentry {travail!marge de|hyperpage}{291}
+\indexentry {efficacité!d’une turbine|hyperpage}{291}
+\indexentry {turbine!efficacité isentropique|hyperpage}{291}
+\indexentry {efficacité!isentropique|hyperpage}{291}
+\indexentry {isentropique, efficacité|hyperpage}{291}
 \indexentry {marge de travail|hyperpage}{291}
 \indexentry {marge bénéficiaire nette|hyperpage}{292}
-\indexentry {poussée spécifique|hyperpage}{293}
+\indexentry {marge de travail|)hyperindexformat{\textbf }}{293}
+\indexentry {travail!marge de|)}{293}
+\indexentry {poussée!spécifique|hyperpage}{293}
 \indexentry {spécifique!poussée|hyperpage}{293}
-\indexentry {puissance!spécifique|hyperpage}{293}
+\indexentry {puissance!spécifique (d’un moteur) (d’un moteur)|hyperpage}{293}
 \indexentry {spécifique!puissance|hyperpage}{293}
+\indexentry {écologique, impact|hyperpage}{293}
+\indexentry {environnement, impact sur|hyperpage}{293}
+\indexentry {Carnot!Sadi|hyperpage}{294}
+\indexentry {moteur!critères d’évaluation|hyperpage}{294}
+\indexentry {moteur!alternatif|hyperpage}{294}
+\indexentry {isothermes, évolutions|hyperpage}{294}
+\indexentry {évolutions!isothermes|hyperpage}{294}
+\indexentry {efficacité!d’un moteur|hyperpage}{294}
+\indexentry {moteur!rendement d’un|hyperpage}{294}
+\indexentry {température!maximale d’un moteur|hyperpage}{294}
+\indexentry {moteur!température maximale d’un|hyperpage}{294}
+\indexentry {Otto!cycle d’|(hyperindexformat{\textbf }}{294}
+\indexentry {cycle!d’Otto|(hyperindexformat{\textbf }}{294}
+\indexentry {Otto!Nikolaus|hyperpage}{294}
 \indexentry {moteur!à essence|hyperpage}{294}
 \indexentry {essence, moteur à|hyperpage}{294}
 \indexentry {cycle!d’Otto|hyperpage}{295}
 \indexentry {Otto!cycle d’|hyperpage}{295}
+\indexentry {évolutions!isochores|hyperpage}{295}
+\indexentry {isochores, évolutions|hyperpage}{295}
+\indexentry {isentropiques, évolutions|hyperpage}{295}
+\indexentry {évolutions!isentropiques|hyperpage}{295}
+\indexentry {adiabatiques!réversibles, évolutions|hyperpage}{295}
+\indexentry {évolutions!adiabatiques réversibles|hyperpage}{295}
+\indexentry {Otto!Gustav|hyperpage}{295}
 \indexentry {allumage commandé|hyperpage}{295}
 \indexentry {taux de compression|hyperpage}{295}
 \indexentry {compression, taux de|hyperpage}{295}
+\indexentry {taux de compression|hyperpage}{296}
+\indexentry {compression, taux de|hyperpage}{296}
+\indexentry {auto-inflammation|hyperpage}{296}
+\indexentry {combustible!auto-inflammation|hyperpage}{296}
+\indexentry {Otto!cycle d’|)hyperindexformat{\textbf }}{296}
+\indexentry {cycle!d’Otto|)hyperindexformat{\textbf }}{296}
+\indexentry {Diesel!cycle|(hyperindexformat{\textbf }}{296}
+\indexentry {cycle!de Diesel|(hyperindexformat{\textbf }}{296}
+\indexentry {Diesel!Rudolf|hyperpage}{296}
 \indexentry {moteur!Diesel|hyperpage}{296}
 \indexentry {Diesel!moteur|hyperpage}{296}
+\indexentry {isobares, évolutions|hyperpage}{296}
+\indexentry {évolutions!isobares|hyperpage}{296}
+\indexentry {isentropiques, évolutions|hyperpage}{296}
+\indexentry {évolutions!isentropiques|hyperpage}{296}
+\indexentry {adiabatiques!réversibles, évolutions|hyperpage}{296}
+\indexentry {évolutions!adiabatiques réversibles|hyperpage}{296}
+\indexentry {auto-inflammation|hyperpage}{297}
+\indexentry {combustible!auto-inflammation|hyperpage}{297}
+\indexentry {taux de compression|hyperpage}{297}
+\indexentry {compression, taux de|hyperpage}{297}
 \indexentry {injection directe|hyperpage}{297}
+\indexentry {Diesel!cycle|)hyperindexformat{\textbf }}{297}
+\indexentry {cycle!de Diesel|)hyperindexformat{\textbf }}{297}
+\indexentry {moteur!cycle réel|hyperpage}{297}
+\indexentry {cycle!réel d’un moteur|hyperpage}{297}
+\indexentry {temps moteur!vidange|hyperpage}{297}
+\indexentry {vidange (temps moteur)|hyperpage}{297}
+\indexentry {irréversibilité|hyperpage}{297}
+\indexentry {écologique, impact|hyperpage}{298}
+\indexentry {environnement, impact sur|hyperpage}{298}
+\indexentry {injection directe|hyperpage}{298}
+\indexentry {compression, taux de|hyperpage}{298}
+\indexentry {taux de compression|hyperpage}{298}
+\indexentry {turbocompression|hyperpage}{298}
+\indexentry {irréversibilité!lors des transferts de travail|hyperpage}{298}
+\indexentry {travail!transferts irréversibles|hyperpage}{298}
+\indexentry {générateur à gaz|hyperpage}{299}
+\indexentry {gaz!générateur à|hyperpage}{299}
+\indexentry {gaz!d’échappement|hyperpage}{299}
 \indexentry {turbocompression|hyperpage}{299}
-\indexentry {turbo|hyperpage}{299}
+\indexentry {turbocompression|hyperpage}{299}
+\indexentry {intercooling|hyperpage}{299}
+\indexentry {refroidissement intermédiaire|hyperpage}{299}
+\indexentry {gaz!d’échappement|hyperpage}{300}
+\indexentry {moteur!à gaz, composants des|hyperpage}{300}
+\indexentry {turbomachine (moteur à turbine)|hyperpage}{300}
+\indexentry {turbine!moteur à (turbomachine)|hyperpage}{300}
+\indexentry {moteur!à turbine (turbomachine)|hyperpage}{300}
+\indexentry {compresseur|hyperpage}{300}
+\indexentry {Carnot!Sadi|hyperpage}{300}
 \indexentry {compresseur!axial|hyperpage}{300}
 \indexentry {compresseur!centrifuge|hyperpage}{300}
+\indexentry {isentropiques, évolutions|hyperpage}{300}
+\indexentry {évolutions!isentropiques|hyperpage}{300}
+\indexentry {adiabatiques!réversibles, évolutions|hyperpage}{300}
+\indexentry {évolutions!adiabatiques réversibles|hyperpage}{300}
+\indexentry {chaleur!transferts réversibles|hyperpage}{300}
+\indexentry {travail!transferts réversibles|hyperpage}{300}
 \indexentry {couche limite|hyperpage}{300}
 \indexentry {efficacité!isentropique|hyperpage}{301}
-\indexentry {compresseur!efficacité isentropique|hyperpage}{301}
+\indexentry {compresseur!efficacité d’un|hyperpage}{301}
 \indexentry {isentropique, efficacité|hyperpage}{301}
+\indexentry {compresseur!puissance d’un|hyperpage}{301}
+\indexentry {puissance!d’un compresseur|hyperpage}{301}
+\indexentry {prélèvement!en compresseur|hyperpage}{302}
+\indexentry {compresseur!prélèvement|hyperpage}{302}
+\indexentry {turbine!refroidissement|hyperpage}{302}
+\indexentry {refroidissement turbine|hyperpage}{302}
+\indexentry {combustion!chambre de|hyperpage}{303}
+\indexentry {chambre de combustion|hyperpage}{303}
+\indexentry {isochores, évolutions|hyperpage}{303}
+\indexentry {évolutions!isochores|hyperpage}{303}
+\indexentry {température!maximale d’un moteur|hyperpage}{303}
+\indexentry {moteur!température maximale d’un|hyperpage}{303}
+\indexentry {puissance!d’une chambre de combustion|hyperpage}{303}
+\indexentry {gaz!d’échappement|hyperpage}{303}
+\indexentry {gaz parfait!modélisation des gaz brûlés|hyperpage}{303}
+\indexentry {combustible|hyperpage}{304}
+\indexentry {turbine|hyperpage}{304}
+\indexentry {efficacité!d’une turbine|hyperpage}{304}
 \indexentry {efficacité!isentropique|hyperpage}{305}
 \indexentry {turbine!efficacité isentropique|hyperpage}{305}
 \indexentry {isentropique, efficacité|hyperpage}{305}
+\indexentry {turbine!puissance d’une|hyperpage}{305}
+\indexentry {puissance!d’une turbine|hyperpage}{305}
+\indexentry {tuyère|(hyperpage}{305}
+\indexentry {poussée|hyperpage}{305}
+\indexentry {Gay-Lussac!Louis Joseph|hyperpage}{305}
 \indexentry {tuyère|hyperpage}{305}
+\indexentry {isentropiques, évolutions|hyperpage}{305}
+\indexentry {évolutions!isentropiques|hyperpage}{305}
+\indexentry {adiabatiques!réversibles, évolutions|hyperpage}{305}
+\indexentry {évolutions!adiabatiques réversibles|hyperpage}{305}
+\indexentry {chaleur!transferts réversibles|hyperpage}{305}
+\indexentry {travail!transferts réversibles|hyperpage}{305}
+\indexentry {pression!atmosphérique|hyperpage}{306}
+\indexentry {atmosphère, pression de l’|hyperpage}{306}
+\indexentry {irréversibilité|hyperpage}{307}
+\indexentry {pression!atmosphérique|hyperpage}{307}
+\indexentry {atmosphère, pression de l’|hyperpage}{307}
+\indexentry {compressibilité des écoulements|hyperpage}{307}
+\indexentry {écoulements compressibles|hyperpage}{307}
 \indexentry {entrée d’air|hyperpage}{308}
 \indexentry {diffuseur|hyperpage}{308}
+\indexentry {tuyère|)}{308}
+\indexentry {turbomachine (moteur à turbine)!configurations|(hyperpage}{308}
+\indexentry {moteur!à turbine (turbomachine)!configurations|(hyperpage}{308}
+\indexentry {turbomachine (moteur à turbine)!intérêt|hyperpage}{308}
+\indexentry {moteur!à turbine (turbomachine)!intérêt|hyperpage}{308}
+\indexentry {Stodola!Aurel|hyperpage}{308}
 \indexentry {turbomachine|hyperpage}{308}
+\indexentry {turboréacteur|hyperpage}{308}
+\indexentry {poussée!spécifique|hyperpage}{308}
+\indexentry {spécifique!poussée|hyperpage}{308}
+\indexentry {puissance!spécifique (d’un moteur) (d’un moteur)|hyperpage}{308}
+\indexentry {spécifique!puissance|hyperpage}{308}
+\indexentry {réactivité d’un moteur|hyperpage}{308}
+\indexentry {moteur!réactivité|hyperpage}{308}
+\indexentry {générateur à gaz|(hyperpage}{308}
+\indexentry {gaz!générateur à|(hyperpage}{308}
 \indexentry {générateur à gaz|hyperpage}{308}
 \indexentry {gaz!générateur à|hyperpage}{308}
-\indexentry {turbo|hyperpage}{309}
+\indexentry {turbocompression|hyperpage}{309}
+\indexentry {générateur à gaz|)}{309}
+\indexentry {gaz!générateur à|)}{309}
 \indexentry {turbine!à gaz (turbomachine)|hyperpage}{309}
 \indexentry {turboréacteur|hyperpage}{310}
-\indexentry {turbojet|hyperpage}{310}
 \indexentry {turboréacteur!à simple flux|hyperpage}{310}
+\indexentry {turbopropulseur|(hyperindexformat{\textbf }}{311}
+\indexentry {turbomoteur|(hyperindexformat{\textbf }}{311}
 \indexentry {turbopropulseur|hyperpage}{311}
 \indexentry {turbomoteur|hyperpage}{311}
+\indexentry {turbopropulseur|)hyperindexformat{\textbf }}{312}
+\indexentry {turbomoteur|)hyperindexformat{\textbf }}{312}
+\indexentry {turboréacteur!à double flux|(hyperindexformat{\textbf }}{312}
+\indexentry {turbofan|(hyperindexformat{\textbf }}{312}
 \indexentry {turbofan|hyperpage}{312}
-\indexentry {turboréacteur!à soufflante|hyperpage}{312}
+\indexentry {turboréacteur!à double flux|hyperpage}{312}
 \indexentry {turboréacteur!à double flux|hyperpage}{312}
 \indexentry {taux de dilution|hyperpage}{313}
 \indexentry {dilution, taux de|hyperpage}{313}
+\indexentry {turbofan|)hyperindexformat{\textbf }}{313}
+\indexentry {turboréacteur!à double flux|)hyperindexformat{\textbf }}{313}
 \indexentry {turbine!libre|hyperpage}{313}
+\indexentry {réactivité d’un moteur|hyperpage}{313}
+\indexentry {moteur!réactivité|hyperpage}{313}
+\indexentry {turbine!multiples|hyperpage}{314}
 \indexentry {axes multiples (turbomachine)|hyperpage}{314}
+\indexentry {turbomachine (moteur à turbine)!configurations|)}{314}
+\indexentry {moteur!à turbine (turbomachine)!configurations|)}{314}
+\indexentry {turbomachine (moteur à turbine)!modification des cycles|(hyperpage}{315}
+\indexentry {moteur!à turbine (turbomachine)!modification des cycles|(hyperpage}{315}
+\indexentry {cycle!des turbomachines, modifications|(hyperpage}{315}
+\indexentry {travail!marge de|hyperpage}{315}
+\indexentry {marge de travail|hyperpage}{315}
+\indexentry {puissance!spécifique (d’un moteur)|hyperpage}{315}
+\indexentry {spécifique!puissance|hyperpage}{315}
 \indexentry {refroidissement intermédiaire|hyperpage}{315}
 \indexentry {intercooling|hyperpage}{315}
-\indexentry {intercooler|hyperpage}{315}
+\indexentry {intercooling|hyperpage}{315}
+\indexentry {réchauffe (turbomachine)|hyperpage}{315}
 \indexentry {réchauffe (turbomachine)|hyperpage}{316}
+\indexentry {efficacité!d’un moteur|hyperpage}{316}
+\indexentry {moteur!rendement d’un|hyperpage}{316}
+\indexentry {chaleur!échangeur|hyperpage}{316}
+\indexentry {gaz!d’échappement|hyperpage}{316}
 \indexentry {économiseur|hyperpage}{316}
+\indexentry {gaz!d’échappement|hyperpage}{316}
 \indexentry {postcombustion|hyperpage}{316}
+\indexentry {poussée!spécifique|hyperpage}{317}
+\indexentry {spécifique!poussée|hyperpage}{317}
+\indexentry {efficacité!d’un moteur|hyperpage}{317}
+\indexentry {moteur!rendement d’un|hyperpage}{317}
+\indexentry {refroidissement turbine|hyperpage}{318}
+\indexentry {turbine!refroidissement|hyperpage}{318}
+\indexentry {prélèvement!en compresseur|hyperpage}{318}
+\indexentry {compresseur!prélèvement|hyperpage}{318}
+\indexentry {efficacité!d’un moteur|hyperpage}{318}
+\indexentry {moteur!rendement d’un|hyperpage}{318}
+\indexentry {température!maximale d’un moteur|hyperpage}{318}
+\indexentry {moteur!température maximale d’un|hyperpage}{318}
 \indexentry {température!d’entrée turbine|hyperpage}{318}
+\indexentry {turbofan|hyperpage}{320}
+\indexentry {turboréacteur!à double flux|hyperpage}{320}
+\indexentry {turbomachine (moteur à turbine)!modification des cycles|)}{321}
+\indexentry {moteur!à turbine (turbomachine)!modification des cycles|)}{321}
+\indexentry {cycle!des turbomachines, modifications|)}{321}
+\indexentry {cycle!moteur à gaz|)hyperindexformat{\textbf }}{321}
+\indexentry {moteur!cycles à gaz|)hyperindexformat{\textbf }}{321}
+\indexentry {combustion interne, moteur à|(hyperindexformat{\textbf }}{321}
+\indexentry {moteur!à combustion interne|(hyperindexformat{\textbf }}{321}
+\indexentry {Napier Nomad (moteur)|hyperpage}{321}
+\indexentry {Diesel!moteur|hyperpage}{321}
+\indexentry {temps moteur!deux temps|hyperpage}{321}
+\indexentry {injection directe|hyperpage}{321}
+\indexentry {réactivité d’un moteur|hyperpage}{321}
+\indexentry {moteur!réactivité|hyperpage}{321}
+\indexentry {refroidissement intermédiaire|hyperpage}{321}
+\indexentry {intercooling|hyperpage}{321}
+\indexentry {turbopropulseur|hyperpage}{321}
+\indexentry {turbo-compound|hyperpage}{321}
+\indexentry {Diesel!turbo-compound|hyperpage}{321}
+\indexentry {température!maximale d’un moteur|hyperpage}{321}
+\indexentry {moteur!température maximale d’un|hyperpage}{321}
+\indexentry {efficacité!d’un moteur|hyperpage}{322}
+\indexentry {moteur!rendement d’un|hyperpage}{322}
+\indexentry {puissance!spécifique|hyperpage}{322}
+\indexentry {spécifique!puissance|hyperpage}{322}
+\indexentry {écologique, impact|hyperpage}{323}
+\indexentry {environnement, impact sur|hyperpage}{323}
+\indexentry {turbocompression|hyperpage}{323}
+\indexentry {Otto!cycle d’|hyperpage}{324}
+\indexentry {moteur!à essence|hyperpage}{324}
+\indexentry {Diesel!moteur|hyperpage}{325}
+\indexentry {Diesel!cycle|hyperpage}{325}
+\indexentry {turbocompression|hyperpage}{325}
+\indexentry {moteur!Diesel|hyperpage}{325}
+\indexentry {turbopropulseur|hyperpage}{325}
+\indexentry {prélèvement!en compresseur|hyperpage}{326}
+\indexentry {compresseur!prélèvement|hyperpage}{326}
+\indexentry {turboréacteur!à simple flux|hyperpage}{326}
+\indexentry {axes multiples (turbomachine)|hyperpage}{326}
+\indexentry {turbine!multiples|hyperpage}{326}
+\indexentry {turbomoteur|hyperpage}{327}
+\indexentry {intercooling|hyperpage}{327}
+\indexentry {axes multiples (turbomachine)|hyperpage}{327}
+\indexentry {turbine!multiples|hyperpage}{327}
+\indexentry {abaques de vapeur|(hyperindexformat{\textbf }}{332}
+\indexentry {liquides-vapeurs!propriétés tabulées (abaques)|(hyperindexformat{\textbf }}{332}
+\indexentry {abaques de vapeur|)hyperindexformat{\textbf }}{339}
+\indexentry {liquides-vapeurs!propriétés tabulées (abaques)|)hyperindexformat{\textbf }}{339}
 \indexentry {pression!indiquée|hyperpage}{340}
 \indexentry {pression!réelle|hyperpage}{340}
 \indexentry {pression!atmosphérique|hyperpage}{340}
 \indexentry {atmosphère, pression de l’|hyperpage}{340}
 \indexentry {manomètre!jaugé|hyperpage}{340}
 \indexentry {pression!jaugée|hyperpage}{340}
+\indexentry {conventions graphiques et de signe|hyperpage}{341}
+\indexentry {signe, conventions de|hyperpage}{341}
+\indexentry {graphiques, conventions|hyperpage}{341}
+\indexentry {notation, conventions de|hyperpage}{341}
+\indexentry {$\equiv $ (symbole)|hyperpage}{341}
+\indexentry {$\dot ~$ (point, symbole)|hyperpage}{341}
+\indexentry {$\Delta $ (symbole)|hyperpage}{341}
+\indexentry {Delta (symbole)|hyperpage}{341}
+\indexentry {calorifique, capacité|hyperindexformat{\see {capacité thermique}}}{350}
+\indexentry {chaleur!massique|hyperindexformat{\seealso {capacité thermique}}}{350}
+\indexentry {chaleur!transformation en travail|hyperindexformat{\see {moteur, principe de fonctionnement}}}{350}
+\indexentry {chaleur!échangeur|hyperindexformat{\seealso {chaudière}}}{350}
+\indexentry {chaleur!transfert vers une température plus haute|hyperindexformat{\seealso {climatiseur, pompe à chaleur}}}{350}
+\indexentry {centrale à vapeur|hyperindexformat{\see {moteur à vapeur}}}{350}
+\indexentry {carburant|hyperindexformat{\see {combustible}}}{350}
+\indexentry {eau|hyperindexformat{\see {liquides-vapeurs}}}{350}
+\indexentry {efficacité!thermique|hyperindexformat{\see {efficacité d’un moteur, efficacité d’une pompe à chaleur, efficacité d’un réfrigérateur, efficacité d’un climatiseur, COP (coefficient of performance)}}}{350}
+\indexentry {essence, moteur à|hyperindexformat{\see {Otto, cycle d’}}}{350}
+\indexentry {Guyonneau de Pambour|hyperindexformat{\see {Pambour, François Marie Guyonnau de}}}{350}
+\indexentry {Thomson, William|hyperindexformat{\see {Kelvin, William Thomson}}}{350}
+\indexentry {massique|hyperindexformat{\see {spécifique}}}{350}
+\indexentry {moteur!à essence|hyperindexformat{\see {cycle d’Otto}}}{350}
+\indexentry {permanent, régime|hyperindexformat{\see {régime continu}}}{350}
+\indexentry {stationnaire, régime|hyperindexformat{\see {régime continu}}}{350}
+\indexentry {rendement|hyperindexformat{\see {efficacité}}}{350}
+\indexentry {suralimentation|hyperindexformat{\see {turbocompression}}}{350}
+\indexentry {saturant!liquide|hyperindexformat{\see {liquide saturé}}}{350}
+\indexentry {liquide!saturant|hyperindexformat{\see {liquide saturé}}}{350}
+\indexentry {saturante!vapeur|hyperindexformat{\see {vapeur saturée}}}{350}
+\indexentry {vapeur!saturante|hyperindexformat{\see {vapeur saturée}}}{350}
+\indexentry {thermique, capacité|hyperindexformat{\see {capacité thermique}}}{350}
+\indexentry {thermomètre|hyperindexformat{\seealso {température, échelle de}}}{350}
+\indexentry {volume!constant (évolutions)|hyperindexformat{\see {évolutions isochores}}}{350}
+\indexentry {gaz!idéal|hyperindexformat{\see {gaz parfait}}}{350}

@@ -1,19 +1,34 @@
 \begin{theindex}
 
-  \item abaques de vapeur, \hyperpage{126}
-  \item adiabatiques irréversibles, évolutions, \hyperpage{241}
-  \item adiabatiques réversibles, évolutions, \hyperpage{102}, 
-		\hyperpage{142}, \hyperpage{194, 195}
-  \item adiabatiques, évolutions, \hyperpage{36}, \hyperpage{102}, 
-		\hyperpage{142}, \hyperpage{241}
-  \item admission (temps moteur), \hyperpage{170}
+  \item $\Delta $ (symbole), \hyperpage{341}
+  \item $\delta $ (symbole), \hyperpage{29}
+  \item $\dot ~$ (point, symbole), \hyperpage{341}
+  \item $\equiv $ (symbole), \hyperpage{341}
+
+  \indexspace
+
+  \item abaques de vapeur, \hyperpage{126--134}, \hyperpage{235}, 
+		\hyperindexformat{\textbf }{332--339}
+  \item adiabatiques
+    \subitem irréversibles, évolutions, \hyperpage{241}
+    \subitem réversibles, évolutions, \hyperpage{102}, 
+		\hyperpage{142}, \hyperpage{194, 195}, \hyperpage{261}, 
+		\hyperpage{295, 296}, \hyperpage{300}, \hyperpage{305}
+    \subitem évolutions, \hyperpage{36}, \hyperpage{102}, 
+		\hyperpage{142}
+  \item admission (temps moteur), \hyperpage{52}, \hyperpage{170}
   \item admission par carter, \hyperpage{171}
   \item allumage commandé, \hyperpage{295}
   \item Amontons, Guillaume, \hyperpage{18}
+  \item amosphère, pression de l’, \hyperpage{95}
   \item Aristote, \hyperpage{16}
   \item Asimov, Isaac, \hyperpage{247}
-  \item atmosphère, pression de l’, \hyperpage{340}
-  \item axes multiples (turbomachine), \hyperpage{314}
+  \item atmosphère, pression de l’, \hyperpage{16--18}, 
+		\hyperpage{31}, \hyperpage{135}, \hyperpage{146}, 
+		\hyperpage{268}, \hyperpage{306, 307}, \hyperpage{340}
+  \item auto-inflammation, \hyperpage{211}, \hyperpage{296, 297}
+  \item axes multiples (turbomachine), \hyperpage{314}, 
+		\hyperpage{326, 327}
 
   \indexspace
 
@@ -26,34 +41,39 @@
 
   \indexspace
 
-  \item calorifique, capacité, \hyperpage{13}, \hyperpage{85}
+  \item calorifique, capacité, 
+		\hyperindexformat{\see {capacité thermique}}{350}
   \item calorique (fluide, hist.), \hyperpage{12}, \hyperpage{73}, 
 		\hyperpage{89}, \hyperpage{192}
   \item capacité
-    \subitem calorifique, \hyperpage{13}
-    \subitem calorifique d’un gaz parfait, \hyperpage{85}
-    \subitem calorifique, différence entre les, \hyperpage{87}
-    \subitem calorifique, rapport entre les, \hyperpage{88}
-    \subitem thermique, \hyperpage{13}
+    \subitem thermique, \hyperpage{13}, \hyperpage{85}
     \subitem thermique massique, \hyperpage{13}
+    \subitem thermique volumique, \hyperpage{258}
+    \subitem thermique, différence entre les, \hyperpage{87}
+    \subitem thermique, rapport entre les, \hyperpage{88}
+  \item carburant, \hyperindexformat{\see {combustible}}{350}
   \item Carnot
-    \subitem cycle de, \hyperpage{191--201}, \hyperpage{203}, 
-		\hyperpage{216}, \hyperpage{229}, \hyperpage{251}
+    \subitem cycle de, \hyperindexformat{\textbf }{191--201}, 
+		\hyperpage{203}, \hyperpage{216}, \hyperpage{229}, 
+		\hyperpage{251}, \hyperpage{269}, \hyperpage{271}, 
+		\hyperpage{276}
     \subitem Sadi, \hyperpage{82}, \hyperpage{100}, \hyperpage{116}, 
 		\hyperpage{188}, \hyperpage{191}, \hyperpage{194}, 
-		\hyperpage{206}, \hyperpage{241}
+		\hyperpage{206}, \hyperpage{241}, \hyperpage{258}, 
+		\hyperpage{294}, \hyperpage{300}
     \subitem Sadi, raisonnement de, \hyperpage{192}, \hyperpage{194}
   \item Celsius
-    \subitem  Anders, \hyperpage{19}
-    \subitem Anders, \hyperpage{202--203}
+    \subitem Anders, \hyperpage{19}, \hyperpage{202--203}
     \subitem degrés (échelle), \hyperpage{11}
     \subitem température selon, \hyperpage{202--203}, \hyperpage{205}
-  \item chaleur, \hyperpage{4}, \hyperpage{12}
+  \item centrale à vapeur, 
+		\hyperindexformat{\see {moteur à vapeur}}{350}
+  \item chaleur
     \subitem calcul en système fermé, \hyperpage{45}
     \subitem calcul en système ouvert, \hyperpage{71}
+    \subitem concept, \hyperpage{12}
     \subitem conservation (ou non), \hyperpage{12}, \hyperpage{107}, 
 		\hyperpage{248}
-    \subitem dans les irréversibilités, \hyperpage{223}
     \subitem de vaporisation, \hyperpage{131}
     \subitem degré vs. quantité, \hyperpage{72}
     \subitem en évolution isentropique, \hyperpage{103}, 
@@ -63,31 +83,44 @@
     \subitem en évolution isotherme, \hyperpage{100}, \hyperpage{139}
     \subitem latente, \hyperpage{72}, \hyperpage{131}
     \subitem libre (hist.), \hyperpage{107}
-    \subitem lors des irréversibilités, \hyperpage{241}
-    \subitem massique, \hyperpage{12}
-    \subitem massique d’un gaz parfait, \hyperpage{85}
-    \subitem massique, différence entre les, \hyperpage{87}
-    \subitem massique, rapport entre les, \hyperpage{88}
+    \subitem lors des irréversibilités, \hyperpage{41}, 
+		\hyperpage{89}, \hyperpage{223}, \hyperpage{226}, 
+		\hyperpage{228}, \hyperpage{241}, \hyperpage{248}
+    \subitem massique, \hyperpage{12}, 
+		\hyperindexformat{\seealso {capacité thermique}}{350}
     \subitem nature de la, \hyperpage{12}, \hyperpage{107}
     \subitem nette, \hyperpage{156}
     \subitem poids de la, \hyperpage{248}
     \subitem sensible (hist.), \hyperpage{72}
+    \subitem sources de, \hyperpage{258}, \hyperpage{260}, 
+		\hyperpage{290}
     \subitem spécifique, \hyperpage{12}
     \subitem transfert vers une température plus haute, 
-		\hyperpage{159}, \hyperpage{186}
-    \subitem transferts irréversibles, \hyperpage{239}, 
-		\hyperpage{242}
+		\hyperpage{159}, \hyperpage{186}, 
+		\hyperindexformat{\seealso {climatiseur, pompe à chaleur}}{350}
+    \subitem transferts irréversibles, \hyperpage{223}, 
+		\hyperpage{239}, \hyperpage{242}
+    \subitem transferts réversibles, \hyperpage{44}, \hyperpage{226}, 
+		\hyperpage{261}, \hyperpage{276}, \hyperpage{300}, 
+		\hyperpage{305}
     \subitem transformation de travail en, \hyperpage{41}, 
-		\hyperpage{248}
-    \subitem transformation en travail, \hyperpage{157}
-  \item changement de phase, \hyperpage{117}
+		\hyperpage{223}, \hyperpage{248}
+    \subitem transformation en travail, 
+		\hyperindexformat{\see {moteur, principe de fonctionnement}}{350}
+    \subitem échangeur, \hyperpage{177}, \hyperpage{316}, 
+		\hyperindexformat{\seealso {chaudière}}{350}
+  \item chaleur (concept), \hyperpage{4}
+  \item chambre de combustion, \hyperpage{303}
+  \item changement de phase, \hyperpage{116, 117}
   \item chaud (physique), \hyperpage{14}
+  \item chaudière, \hyperpage{23}, \hyperpage{264}
+    \subitem efficacité, \hyperpage{23}, \hyperpage{272}
   \item chauffer (physique), \hyperpage{14}
   \item cheval-vapeur (unité), \hyperpage{4}, \hyperpage{145}, 
 		\hyperpage{148}
   \item Clapeyron
-    \subitem  Benoît Paul Émile, \hyperpage{34}
-    \subitem Benoît Paul Émile, \hyperpage{82}, \hyperpage{199}
+    \subitem Benoît Paul Émile, \hyperpage{34}, \hyperpage{82}, 
+		\hyperpage{199}
   \item Clausius
     \subitem corrolaire de, \hyperpage{191}
     \subitem Rudolf, \hyperpage{29}, \hyperpage{120}, \hyperpage{142}, 
@@ -98,45 +131,72 @@
     \subitem rendement maximal d’un, \hyperpage{191}, \hyperpage{208}
   \item coefficient de traînée, \hyperpage{283}
   \item coefficient of performance (COP), \hyperpage{166}
-  \item combustion interne, moteur à, \hyperpage{169}, \hyperpage{290}
+  \item combustible, \hyperpage{258}, \hyperpage{260}, \hyperpage{290}, 
+		\hyperpage{304}
+    \subitem auto-inflammation, \hyperpage{211}, \hyperpage{296, 297}
+  \item combustion
+    \subitem chambre de, \hyperpage{303}
+  \item combustion interne, moteur à, \hyperpage{169}, \hyperpage{290}, 
+		\hyperindexformat{\textbf }{290}
   \item compound (agencement moteur), \hyperpage{46, 47}
     \subitem double, \hyperpage{47}
     \subitem quadruple, \hyperpage{47}
-  \item compresseur
+  \item compresseur, \hyperpage{262}, \hyperpage{300}
     \subitem axial, \hyperpage{300}
-    \subitem centrifuge, \hyperpage{300}
-    \subitem efficacité isentropique, \hyperpage{301}
-  \item compression (temps moteur), \hyperpage{170}
-  \item compression, taux de, \hyperpage{295}
+    \subitem centrifuge, \hyperpage{283}, \hyperpage{300}
+    \subitem efficacité d’un, \hyperpage{282}, \hyperpage{301}
+    \subitem prélèvement, \hyperpage{302}, \hyperpage{318}, 
+		\hyperpage{326}
+    \subitem puissance d’un, \hyperpage{301}
+  \item compressibilité des écoulements, \hyperpage{307}
+  \item compression (temps moteur), \hyperpage{52}, \hyperpage{170}
+  \item compression, taux de, \hyperpage{295--298}
   \item comprimé, liquide, \hyperpage{120}
-  \item condenseur, \hyperpage{46}
-  \item consommation spécifique, \hyperpage{260}
+  \item condenseur, \hyperpage{46}, \hyperpage{268}, \hyperpage{290}
+    \subitem puissance d’un, \hyperpage{269}
+  \item consommation spécifique (de vapeur), \hyperpage{260}, 
+		\hyperpage{273}
   \item constante du gaz, \hyperpage{82}
   \item continu, régime, \hyperpage{59}
-  \item COP, \hyperpage{166}
+  \item conventions graphiques et de signe, \hyperpage{341}
+  \item COP (coefficient of performance), \hyperpage{166}
   \item couche limite, \hyperpage{300}
   \item courbe
     \subitem de rosée, \hyperpage{122}
-    \subitem de saturation, \hyperpage{122}
+    \subitem de saturation, \hyperpage{122}, \hyperpage{266}
     \subitem d’ébullition, \hyperpage{122}
-  \item critique, pression, \hyperpage{120}, \hyperpage{122}
-  \item critique, température, \hyperpage{120}, \hyperpage{123}
-  \item cycle, \hyperpage{68}
-    \subitem de Carnot, \hyperpage{191--201}, \hyperpage{203}
+  \item critique
+    \subitem pression, \hyperpage{120}, \hyperpage{122}
+    \subitem température, \hyperpage{120}, \hyperpage{123}
+  \item cycle
+    \subitem de Carnot, \hyperpage{195}, 
+		\hyperindexformat{\textbf }{191--201}, \hyperpage{203}, 
+		\hyperpage{216}, \hyperpage{229}, \hyperpage{251}, 
+		\hyperpage{269}, \hyperpage{271}, \hyperpage{276}
+    \subitem de Diesel, \hyperindexformat{\textbf }{296--297}
     \subitem de Rankine, \hyperpage{176}, \hyperpage{271}
-    \subitem de réfrigération, \hyperpage{53}, \hyperpage{159}, 
-		\hyperpage{191}
-    \subitem de réfrigération (ou climatisation), 
-		\hyperpage{176, 177}
-    \subitem d’Otto, \hyperpage{51}, \hyperpage{295}
-    \subitem thermodynamique, \hyperpage{29}, \hyperpage{157}, 
+    \subitem de Rankine resurchauffé, \hyperpage{286}
+    \subitem de Rankine surchauffé, \hyperpage{273}, 
+		\hyperpage{286, 287}
+    \subitem de réfrigération (ou climatisation), \hyperpage{53}, 
+		\hyperpage{159}, \hyperpage{176, 177}, \hyperpage{191}
+    \subitem des turbomachines, modifications, \hyperpage{315--321}
+    \subitem d’Otto, \hyperpage{51}, \hyperpage{295}, 
+		\hyperindexformat{\textbf }{294--296}
+    \subitem moteur à gaz, \hyperindexformat{\textbf }{290--321}
+    \subitem moteur à vapeur, \hyperindexformat{\textbf }{258--281}
+    \subitem réel d’un moteur, \hyperpage{297}
+    \subitem thermodynamique, \hyperpage{29}, \hyperpage{68}, 
+		\hyperpage{157}, \hyperindexformat{\textbf }{156--168}, 
 		\hyperpage{229}
     \subitem thermodynamique, faiblesse du rendement, \hyperpage{168}, 
 		\hyperpage{187}
 
   \indexspace
 
+  \item Darolles, Jacques, \hyperpage{285}
   \item Day, Joseph, \hyperpage{171}
+  \item Delta (symbole), \hyperpage{29}, \hyperpage{341}
   \item Depondt, Philippe, \hyperpage{16}, \hyperpage{72}, 
 		\hyperpage{107}, \hyperpage{247, 248}
   \item diagramme
@@ -146,49 +206,68 @@
     \subitem température-entropie, \hyperpage{228, 229}
     \subitem température-volume, \hyperpage{120}
   \item Diesel
-    \subitem moteur, \hyperpage{52}, \hyperpage{111}, \hyperpage{212}, 
-		\hyperpage{296}
+    \subitem cycle, \hyperindexformat{\textbf }{296--297}, 
+		\hyperpage{325}
+    \subitem moteur, \hyperpage{111}, \hyperpage{212}, \hyperpage{296}, 
+		\hyperpage{321}, \hyperpage{325}
     \subitem Rudolf, \hyperpage{100}, \hyperpage{111}, \hyperpage{206}, 
-		\hyperpage{211--214}
+		\hyperindexformat{\textbf }{211--214}, \hyperpage{296}
+    \subitem turbo-compound, \hyperpage{321}
   \item diffuseur, \hyperpage{308}
   \item dilution, taux de, \hyperpage{313}
-  \item déplacement, \hyperpage{8}
   \item détendeur, \hyperpage{160}
-  \item détente (temps moteur), \hyperpage{170}
+  \item détente (temps moteur), \hyperpage{52}, \hyperpage{170}
 
   \indexspace
 
-  \item eau
-    \subitem description qualitative des propriétés, \hyperpage{120}
-    \subitem description quantitative des propriétés, \hyperpage{126}
+  \item eau, \hyperindexformat{\see {liquides-vapeurs}}{350}
+    \subitem description qualitative des propriétés, 
+		\hyperpage{120--126}
+    \subitem description quantitative des propriétés, 
+		\hyperpage{126--134}
   \item efficacité, \hyperpage{163}
-    \subitem de chaudière, \hyperpage{259}
-    \subitem de génératrice, \hyperpage{259}
     \subitem de préparation, \hyperpage{259}
     \subitem de transmission, \hyperpage{259}
-    \subitem d’un climatiseur, \hyperpage{165}
-    \subitem d’un moteur, \hyperpage{164}
-    \subitem d’un réfrigérateur, \hyperpage{165}
-    \subitem d’une pompe à chaleur, \hyperpage{166}
+    \subitem d’un climatiseur, \hyperpage{165}, \hyperpage{191}
+    \subitem d’un compresseur, \hyperpage{282}
+    \subitem d’un moteur, \hyperpage{164}, \hyperpage{259}, 
+		\hyperpage{272, 273}, \hyperpage{275, 276}, 
+		\hyperpage{290}, \hyperpage{294}, \hyperpage{316--318}, 
+		\hyperpage{322}
+    \subitem d’un réfrigérateur, \hyperpage{165}, \hyperpage{191}
+    \subitem d’une chaudière, \hyperpage{259}, \hyperpage{264}, 
+		\hyperpage{272}
+    \subitem d’une génératrice, \hyperpage{259}
+    \subitem d’une pompe à chaleur, \hyperpage{166}, \hyperpage{191}
+    \subitem d’une turbine, \hyperpage{266}, \hyperpage{282}, 
+		\hyperpage{291}, \hyperpage{304}
     \subitem globale, \hyperpage{259}
-    \subitem isentropique, \hyperpage{266}, \hyperpage{301}, 
-		\hyperpage{305}
-    \subitem maximale des machines, \hyperpage{187}, \hyperpage{206}
-    \subitem maximale d’un climatiseur, \hyperpage{208}
-    \subitem maximale d’un moteur, \hyperpage{206}
-    \subitem maximale d’un réfrigérateur, \hyperpage{208}
-    \subitem maximale d’une pompe à chaleur, \hyperpage{209}
-    \subitem thermique, \hyperpage{259}, \hyperpage{290}
-  \item enthalpie, \hyperpage{63}
+    \subitem isentropique, \hyperpage{266}, \hyperpage{282}, 
+		\hyperpage{291}, \hyperpage{301}, \hyperpage{305}
+    \subitem maximale des machines, \hyperpage{187}, 
+		\hyperpage{206--210}
+    \subitem maximale d’un climatiseur, \hyperpage{191}, 
+		\hyperpage{208}
+    \subitem maximale d’un moteur, \hyperpage{206}, \hyperpage{259}, 
+		\hyperpage{276}, \hyperpage{290}
+    \subitem maximale d’un réfrigérateur, \hyperpage{191}, 
+		\hyperpage{208}
+    \subitem maximale d’une pompe à chaleur, \hyperpage{191}, 
+		\hyperpage{209}
+    \subitem thermique, 
+		\hyperindexformat{\see {efficacité d’un moteur, efficacité d’une pompe à chaleur, efficacité d’un réfrigérateur, efficacité d’un climatiseur, COP (coefficient of performance)}}{350}
+  \item enthalpie
+    \subitem définition, \hyperpage{63}
     \subitem d’un gaz parfait, \hyperpage{91}
     \subitem d’un liquide-vapeur, \hyperpage{131}
     \subitem spécifique, \hyperpage{63}
-    \subitem température et, \hyperpage{91}
+    \subitem température et, \hyperpage{91}, \hyperpage{125}
   \item entropie, \hyperpage{128}, \hyperpage{141, 142}, 
-		\hyperpage{144}, \hyperpage{222--247}
+		\hyperpage{144}, \hyperpage{222}, \hyperpage{224}, 
+		\hyperpage{246}, \hyperpage{247}, 
+		\hyperindexformat{\textbf }{222--247}
     \subitem analogie avec le volume, \hyperpage{226}
     \subitem concept, \hyperpage{222}, \hyperpage{242}, \hyperpage{245}
-    \subitem création du concept, \hyperpage{245}
     \subitem création d’, \hyperpage{239}, \hyperpage{241}
     \subitem définition, \hyperpage{224}
     \subitem définition microscopique, \hyperpage{246}
@@ -199,18 +278,21 @@
     \subitem spécifique, \hyperpage{224}
     \subitem étymologie, \hyperpage{245}
   \item entrée d’air, \hyperpage{308}
-  \item environnement, impact sur, \hyperpage{173}
-  \item essence, moteur à, \hyperpage{294}
+  \item environnement, impact sur, \hyperpage{173}, \hyperpage{260}, 
+		\hyperpage{293}, \hyperpage{298}, \hyperpage{323}
+  \item essence, moteur à, \hyperpage{294}, 
+		\hyperindexformat{\see {Otto, cycle d’}}{350}
 
   \indexspace
 
   \item Fahrenheit
     \subitem  Daniel Gabriel, \hyperpage{19}
-    \subitem Gabriel, \hyperpage{202--203}
+    \subitem Daniel Gabriel, \hyperpage{202--203}
     \subitem température selon, \hyperpage{202--203}
   \item feu (physique), \hyperpage{15}
   \item Feynman, Richard, \hyperpage{3}, \hyperpage{13}, \hyperpage{44}, 
 		\hyperpage{84}, \hyperpage{246}
+  \item fiabilité, \hyperpage{282}, \hyperpage{285}
   \item fluide, élément de, \hyperpage{59}
   \item force, \hyperpage{8}
     \subitem conservative, \hyperpage{3}
@@ -221,55 +303,71 @@
 
   \item gamma ($\gamma $) (gaz parfait), \hyperpage{88}
   \item Gay-Lussac
-    \subitem  Louis Joseph, \hyperpage{89}
-    \subitem détente de Joule et, \hyperpage{89}
-    \subitem Louis Joseph, \hyperpage{89}
+    \subitem détente de Joule et, \hyperpage{89}, \hyperpage{160}
+    \subitem Louis Joseph, \hyperpage{89}, \hyperpage{305}
   \item gaz
     \subitem constante d’un, \hyperpage{82}
-    \subitem générateur à, \hyperpage{308}
-    \subitem idéal, \hyperpage{82}
-  \item gaz parfait
+    \subitem d’échappement, \hyperpage{299, 300}, \hyperpage{303}, 
+		\hyperpage{316}
+    \subitem générateur à, \hyperpage{299}, \hyperpage{308--309}
+    \subitem idéal, \hyperindexformat{\see {gaz parfait}}{350}
+  \item gaz parfait, \hyperindexformat{\textbf }{82--106}
+    \subitem capacités thermiques, \hyperpage{85}
     \subitem concept général, \hyperpage{83}
+    \subitem constante d’un, \hyperpage{82}
     \subitem définition, \hyperpage{82}
     \subitem enthalpie d’un, \hyperpage{91}
     \subitem limites de validité, \hyperpage{84, 85}, \hyperpage{120}
+    \subitem modélisation des gaz brûlés, \hyperpage{303}
+    \subitem modélisations alternatives, \hyperpage{85}
     \subitem variations d’entropie d’un, \hyperpage{231}
     \subitem énergie interne d’un, \hyperpage{89}
-  \item générateur à gaz, \hyperpage{308}
+  \item graphiques, conventions, \hyperpage{341}
+  \item Guyonneau de Pambour, 
+		\hyperindexformat{\see {Pambour, François Marie Guyonnau de}}{350}
+  \item générateur à gaz, \hyperpage{299}, \hyperpage{308--309}
 
   \indexspace
 
   \item impossibilité (physique), \hyperpage{222}, \hyperpage{243}, 
 		\hyperpage{246}
-  \item incompressibilité, \hyperpage{116}
+  \item incompressibilité, \hyperpage{116}, \hyperpage{262}
   \item information (physique), \hyperpage{247}
-  \item injection directe, \hyperpage{297}
-  \item intercooler, \hyperpage{315}
-  \item intercooling, \hyperpage{315}
+  \item injection directe, \hyperpage{211}, \hyperpage{297, 298}, 
+		\hyperpage{321}
+  \item intercooling, \hyperpage{299}, \hyperpage{315}, \hyperpage{321}, 
+		\hyperpage{327}
   \item inversable vs. réversible, \hyperpage{163}, \hyperpage{176}, 
 		\hyperpage{192}
-  \item irréversibilité, \hyperpage{41}, \hyperpage{223}
+  \item irréversibilité, \hyperpage{41}, \hyperpage{297}, 
+		\hyperpage{307}
+    \subitem concept, \hyperpage{44}
     \subitem lors des compressions et détentes, \hyperpage{241}
     \subitem lors des transferts de chaleur, \hyperpage{239}, 
 		\hyperpage{242}
-    \subitem lors des transferts de travail, \hyperpage{241, 242}
-    \subitem vs. réversibilité, \hyperpage{44}
-  \item isentropique, efficacité, \hyperpage{266}, \hyperpage{301}, 
-		\hyperpage{305}
+    \subitem lors des transferts de travail, \hyperpage{241, 242}, 
+		\hyperpage{291}, \hyperpage{298}
+    \subitem quantification, \hyperpage{223}
+  \item irréversibilité (concept), \hyperpage{223}
+  \item isentropique, efficacité, \hyperpage{266}, \hyperpage{291}, 
+		\hyperpage{301}, \hyperpage{305}
   \item isentropiques, évolutions, \hyperpage{103}, \hyperpage{144}, 
-		\hyperpage{194, 195}, \hyperpage{229}
-  \item isobares, évolutions, \hyperpage{93}, \hyperpage{135}
-  \item isochores, évolutions, \hyperpage{96}, \hyperpage{138}
+		\hyperpage{194, 195}, \hyperpage{229}, \hyperpage{261}, 
+		\hyperpage{295, 296}, \hyperpage{300}, \hyperpage{305}
+  \item isobares, évolutions, \hyperpage{93}, \hyperpage{135}, 
+		\hyperpage{296}
+  \item isochores, évolutions, \hyperpage{96}, \hyperpage{138}, 
+		\hyperpage{295}, \hyperpage{303}
   \item isothermes, évolutions, \hyperpage{98}, \hyperpage{139}, 
-		\hyperpage{194--196}
+		\hyperpage{194--196}, \hyperpage{211}, \hyperpage{261}, 
+		\hyperpage{294}
 
   \indexspace
 
   \item Joule
-    \subitem détente de Gay-Lussac et, \hyperpage{89}
+    \subitem détente de Gay-Lussac et, \hyperpage{89}, \hyperpage{160}
     \subitem James Prescott, \hyperpage{89, 90}, \hyperpage{204}
     \subitem loi de, \hyperpage{89, 90}
-    \subitem principe de, \hyperpage{89, 90}
     \subitem unité, \hyperpage{2}
 
   \indexspace
@@ -286,18 +384,23 @@
   \indexspace
 
   \item Laplace, Pierre-Simon de, \hyperpage{107}
-  \item latente, chaleur, \hyperpage{72}
+  \item latente, chaleur, \hyperpage{72}, \hyperpage{131}
   \item Lavoisier, Antoine, \hyperpage{107}, \hyperpage{248}
   \item Lavoisier, Marie, \hyperpage{248}
   \item liquide
     \subitem comprimé, \hyperpage{120}, \hyperpage{126}
     \subitem définition, \hyperpage{116}
-    \subitem saturant, \hyperpage{121}
+    \subitem saturant, \hyperindexformat{\see {liquide saturé}}{350}
     \subitem saturé, \hyperpage{121}, \hyperpage{129}
     \subitem sous-refroidi, \hyperpage{120}
-  \item liquide-vapeur, \hyperpage{116--144}
+  \item liquides-vapeur
+    \subitem cycles moteur, \hyperindexformat{\textbf }{258--281}
+  \item liquides-vapeurs, \hyperindexformat{\textbf }{116--144}
+    \subitem mélange liquide-vapeur, \hyperpage{121}
+    \subitem propriétés tabulées (abaques), \hyperpage{126--134}, 
+		\hyperpage{235}, \hyperindexformat{\textbf }{332--339}
+    \subitem utilisation industrielle, \hyperpage{119}, \hyperpage{258}
     \subitem variations d’entropie d’un, \hyperpage{235}
-  \item liquide-vapeur, mélange, \hyperpage{121}
   \item liquéfaction, \hyperpage{117}
   \item loi de Joule, \hyperpage{90}
   \item loi des gaz parfaits, \hyperpage{82}
@@ -310,52 +413,89 @@
     \subitem jaugé, \hyperpage{340}
   \item marge bénéficiaire nette, \hyperpage{292}
   \item marge de travail, \hyperpage{200}, \hyperpage{282}, 
-		\hyperpage{291}
+		\hyperpage{291}, \hyperindexformat{\textbf }{291--293}, 
+		\hyperpage{315}
   \item masse
     \subitem débit de, \hyperpage{6}
     \subitem quantité de, \hyperpage{5}
-  \item massique
+  \item massique, \hyperindexformat{\see {spécifique}}{350}
     \subitem grandeur, notion de, \hyperpage{5}
     \subitem puissance, \hyperpage{5}
     \subitem énergie, \hyperpage{5}
   \item microscopique, échelle, \hyperpage{12}, \hyperpage{246}
   \item moles (quantité de matière), \hyperpage{82}
   \item moteur
+    \subitem alternatif, \hyperpage{52}, \hyperpage{294}
     \subitem compound, \hyperpage{46}
+    \subitem critères d’évaluation, \hyperpage{259}, 
+		\hyperpage{290}, \hyperpage{294}
+    \subitem cycle réel, \hyperpage{297}
+    \subitem cycles vapeur, \hyperindexformat{\textbf }{258--281}
+    \subitem cycles à gaz, \hyperindexformat{\textbf }{290--321}
     \subitem de Boulton \& Watt, \hyperpage{146}
-    \subitem Diesel, \hyperpage{296}
+    \subitem Diesel, \hyperpage{296}, \hyperpage{325}
+    \subitem fiabilité d’un, \hyperpage{282}, \hyperpage{285}
     \subitem Newcomen, \hyperpage{145}, \hyperpage{151}
+    \subitem pression maximale d’un, \hyperpage{212}, \hyperpage{264}, 
+		\hyperpage{273}
     \subitem principe de fonctionnement, \hyperpage{26}, 
 		\hyperpage{157}, \hyperpage{187}, \hyperpage{189}
-    \subitem rendement d’un, \hyperpage{164}
+    \subitem rendement d’un, \hyperpage{164}, \hyperpage{259}, 
+		\hyperpage{272, 273}, \hyperpage{275}, \hyperpage{290}, 
+		\hyperpage{294}, \hyperpage{316--318}, \hyperpage{322}
     \subitem rendement maximal d’un, \hyperpage{189}, \hyperpage{191}, 
-		\hyperpage{206}
-    \subitem à combustion interne, \hyperpage{169}, \hyperpage{290}
+		\hyperpage{206}, \hyperpage{276}
+    \subitem réactivité, \hyperpage{308}, \hyperpage{313}, 
+		\hyperpage{321}
+    \subitem température maximale d’un, \hyperpage{273}, 
+		\hyperpage{275}, \hyperpage{294}, \hyperpage{303}, 
+		\hyperpage{318}, \hyperpage{321}
+    \subitem température minimale d’un, \hyperpage{268}
+    \subitem à combustion interne, \hyperpage{169}, \hyperpage{290}, 
+		\hyperindexformat{\textbf }{290}
     \subitem à deux temps, \hyperpage{169}, \hyperpage{200}
-    \subitem à essence, \hyperpage{294}
+    \subitem à essence, \hyperpage{294}, \hyperpage{324}, 
+		\hyperindexformat{\see {cycle d’Otto}}{350}
+    \subitem à gaz, composants des, \hyperpage{300}
     \subitem à quatre temps, \hyperpage{169}, \hyperpage{200}
+    \subitem à turbine (turbomachine), \hyperpage{281}, 
+		\hyperpage{300}
+      \subsubitem configurations, \hyperpage{308--314}
+      \subsubitem intérêt, \hyperpage{308}
+      \subsubitem modification des cycles, \hyperpage{315--321}
+    \subitem à vapeur, composants des, \hyperpage{261}
   \item mélange liquide-vapeur, \hyperpage{121}, \hyperpage{131}
-    \subitem saturé, \hyperpage{121}
+    \subitem entropie d’un, \hyperpage{235}
     \subitem volume spécifique d’un, \hyperpage{133}
 
   \indexspace
 
+  \item Napier Nomad (moteur), \hyperpage{321}
   \item Newcomen, moteur, \hyperpage{145}, \hyperpage{151}
+  \item notation, conventions de, \hyperpage{341}
 
   \indexspace
 
+  \item Ohain, Hans von, \hyperpage{281, 282}
   \item Otto
-    \subitem cycle d’, \hyperpage{51}, \hyperpage{295}
+    \subitem cycle d’, \hyperpage{51}, \hyperpage{295}, 
+		\hyperindexformat{\textbf }{294--296}, \hyperpage{324}
+    \subitem Gustav, \hyperpage{295}
+    \subitem Nikolaus, \hyperpage{294}
 
   \indexspace
 
   \item pack de conditionnement, \hyperpage{177}
   \item Pambour, François-Marie Guyonneau de, \hyperpage{36}, 
-		\hyperpage{39}, \hyperpage{121--123}, \hyperpage{126}
-  \item permanent, régime, \hyperpage{59}
+		\hyperpage{39}, \hyperpage{121--123}, \hyperpage{126}, 
+		\hyperpage{260}
+  \item Parsons, Charles Algernon, \hyperpage{281}
+  \item permanent, régime, 
+		\hyperindexformat{\see {régime continu}}{350}
   \item phase, changements de, \hyperpage{116, 117}
   \item point mort bas, \hyperpage{111}
   \item point mort haut, \hyperpage{111}
+  \item pompe, \hyperpage{262}
   \item pompe à chaleur, \hyperpage{53}, \hyperpage{162}, 
 		\hyperpage{177}
     \subitem principe de fonctionnement, \hyperpage{159}
@@ -364,13 +504,20 @@
 		\hyperpage{209}
   \item postcombustion, \hyperpage{76}, \hyperpage{316}
   \item pot de détente accordé, \hyperpage{171}
-  \item poussée spécifique, \hyperpage{293}
+  \item poussée, \hyperpage{305}
+    \subitem spécifique, \hyperpage{283}, \hyperpage{293}, 
+		\hyperpage{308}, \hyperpage{317}
   \item pression, \hyperpage{30}
-    \subitem atmosphérique, \hyperpage{31}, \hyperpage{340}
+    \subitem atmosphérique, \hyperpage{16--18}, \hyperpage{31}, 
+		\hyperpage{95}, \hyperpage{135}, \hyperpage{146}, 
+		\hyperpage{268}, \hyperpage{306, 307}, \hyperpage{340}
     \subitem comme mesure de température, \hyperpage{82}
     \subitem critique, \hyperpage{120}, \hyperpage{122}
+    \subitem de saturation, \hyperpage{273}
     \subitem indiquée, \hyperpage{340}
     \subitem jaugée, \hyperpage{31}, \hyperpage{340}
+    \subitem maximale d’un moteur, \hyperpage{212}, \hyperpage{264}, 
+		\hyperpage{273}
     \subitem réelle, \hyperpage{340}
   \item pression-volume, diagramme, \hyperpage{32}, \hyperpage{123}, 
 		\hyperpage{228, 229}
@@ -378,7 +525,7 @@
     \subitem premier, \hyperpage{3}
     \subitem premier, appliqué à un cycle, \hyperpage{29}
     \subitem premier, forme différentielle, \hyperpage{29}
-    \subitem second, \hyperpage{186--210}
+    \subitem second, \hyperindexformat{\textbf }{186--210}
     \subitem second, appliqué aux moteurs, \hyperpage{189}
     \subitem second, appliqué aux réfrigérateurs (ou climatiseurs), 
 		\hyperpage{191}
@@ -390,14 +537,28 @@
     \subitem zéro, \hyperpage{187}
   \item probabilité (physique), \hyperpage{246}
   \item propriété physique, \hyperpage{223}
-  \item prélèvements turbine, \hyperpage{279}
-  \item puissance, \hyperpage{4}
+  \item prélèvement
+    \subitem en compresseur, \hyperpage{302}, \hyperpage{318}, 
+		\hyperpage{326}
+    \subitem en turbine, \hyperpage{278}
+  \item prélèvement en turbine, \hyperpage{279}
+  \item puissance, \hyperpage{4}, \hyperpage{283}
     \subitem d’extraction, \hyperpage{60}
     \subitem d’insertion, \hyperpage{60}
+    \subitem d’un compresseur, \hyperpage{301}
+    \subitem d’un condenseur, \hyperpage{269}
+    \subitem d’une chambre de combustion, \hyperpage{303}
+    \subitem d’une turbine, \hyperpage{266}, \hyperpage{305}
     \subitem d’écoulement, \hyperpage{60}
     \subitem massique, \hyperpage{5}
+    \subitem nette, \hyperpage{156}
     \subitem nette spécifique, \hyperpage{260}
-    \subitem spécifique, \hyperpage{5, 6}, \hyperpage{293}
+    \subitem spécifique, \hyperpage{5, 6}, \hyperpage{283}, 
+		\hyperpage{322}
+    \subitem spécifique (d’un moteur), \hyperpage{290}, 
+		\hyperpage{315}
+    \subitem spécifique (d’un moteur) (d’un moteur), 
+		\hyperpage{293}, \hyperpage{308}
 
   \indexspace
 
@@ -405,66 +566,89 @@
 
   \indexspace
 
+  \item R (constante d’un gaz), \hyperpage{82}
+  \item r (constante universelle des gaz, \hyperpage{82}
   \item Rankine
-    \subitem cycle de, \hyperpage{176}
+    \subitem cycle de, \hyperpage{176}, \hyperpage{271}
+    \subitem cycle resurchauffé de, \hyperpage{275}, \hyperpage{286}
+    \subitem cycle surchauffé de, \hyperpage{273}, 
+		\hyperpage{286, 287}
+    \subitem William John Macquorn, \hyperpage{271}
   \item Rankine, William, \hyperpage{245}
   \item Reech, Ferdinand, \hyperpage{245}
-  \item refroidissement intermédiaire, \hyperpage{315}
-  \item rendement, \hyperpage{163}, \hyperpage{259}
+  \item refroidissement intermédiaire, \hyperpage{299}, 
+		\hyperpage{315}, \hyperpage{321}
+  \item refroidissement turbine, \hyperpage{302}, \hyperpage{318}
+  \item rendement, \hyperpage{163}, 
+		\hyperindexformat{\see {efficacité}}{350}
   \item ressorts
     \subitem compression de, \hyperpage{31}, \hyperpage{33}
     \subitem modélisation des gaz, \hyperpage{30}, \hyperpage{35}, 
 		\hyperpage{41}
   \item ressorts, compression de, \hyperpage{9, 10}
-  \item resurchauffe, \hyperpage{275}
+  \item resurchauffe (procédé), \hyperpage{275}, \hyperpage{286}
   \item rosée, courbe de, \hyperpage{122}
   \item Rumford, Benjamin Thompson, \hyperpage{248}
+  \item réactivité d’un moteur, \hyperpage{308}, \hyperpage{313}, 
+		\hyperpage{321}
   \item Réaumur, René-Antoine Ferchault de, \hyperpage{19}
-  \item réchauffe (turbomachine), \hyperpage{316}
+  \item réchauffe (turbomachine), \hyperpage{315, 316}
   \item réfrigérateur, \hyperpage{162}
     \subitem principe de fonctionnement, \hyperpage{159}
     \subitem rendement d’un, \hyperpage{165}
     \subitem rendement maximal d’un, \hyperpage{191}, \hyperpage{208}
-  \item régime
-    \subitem permanent, \hyperpage{59}
-    \subitem stationnaire, \hyperpage{59}
   \item régime continu, \hyperpage{59}
-  \item régénération, \hyperpage{276}
+  \item régénération (procédé), \hyperpage{276}, \hyperpage{287}
   \item réversibilité, \hyperpage{44}, \hyperpage{192}, 
 		\hyperpage{243}
+    \subitem concept, \hyperpage{44}
   \item réversible vs. inversable, \hyperpage{163}, \hyperpage{176}, 
 		\hyperpage{192}
 
   \indexspace
 
-  \item saturant, liquide, \hyperpage{121}
-  \item saturante, vapeur, \hyperpage{121}
+  \item saturant
+    \subitem liquide, \hyperindexformat{\see {liquide saturé}}{350}
+  \item saturante
+    \subitem vapeur, \hyperindexformat{\see {vapeur saturée}}{350}
   \item saturation
-    \subitem courbe de, \hyperpage{122}
+    \subitem courbe de, \hyperpage{122}, \hyperpage{266}
     \subitem points de, \hyperpage{129}
-  \item saturé, liquide, \hyperpage{121}
-  \item saturé, mélange liquide-vapeur, \hyperpage{121}
-  \item saturée, vapeur, \hyperpage{121}
+  \item saturé
+    \subitem liquide, \hyperpage{121}
+  \item saturé(e)
+    \subitem vapeur, \hyperpage{121}, \hyperpage{129}
   \item sensible, chaleur (hist.), \hyperpage{72}
+  \item signe, conventions de, \hyperpage{341}
   \item sous-refroidi, liquide, \hyperpage{120}
-  \item Specific Steam Consumption (SSC), \hyperpage{260}
+  \item Specific Steam Consumption (SSC), \hyperpage{260}, 
+		\hyperpage{273}
   \item spécifique
     \subitem consommation, \hyperpage{260}
     \subitem enthalpie, \hyperpage{63}
     \subitem entropie, \hyperpage{224}
     \subitem grandeur, notion de, \hyperpage{5}
-    \subitem poussée, \hyperpage{293}
-    \subitem puissance, \hyperpage{5}, \hyperpage{293}
+    \subitem poussée, \hyperpage{283}, \hyperpage{293}, 
+		\hyperpage{308}, \hyperpage{317}
+    \subitem puissance, \hyperpage{5}, \hyperpage{283}, \hyperpage{293}, 
+		\hyperpage{308}, \hyperpage{315}, \hyperpage{322}
     \subitem énergie, \hyperpage{5}
     \subitem énergie cinétique, \hyperpage{7}
-  \item stationnaire, régime, \hyperpage{59}
+  \item SSC (Specific Steam Consumption), \hyperpage{260}, 
+		\hyperpage{273}
+  \item stationnaire, régime, 
+		\hyperindexformat{\see {régime continu}}{350}
   \item statistique
-    \subitem thermodynamique,, \hyperpage{246}
+    \subitem thermodynamique, \hyperpage{246}
   \item Stodola
-    \subitem Aurel, \hyperpage{58}, \hyperpage{63}
-  \item surchauffe, \hyperpage{273}
-  \item surchauffée, vapeur, \hyperpage{122}
+    \subitem Aurel, \hyperpage{58}, \hyperpage{63}, \hyperpage{308}
+  \item suralimentation, 
+		\hyperindexformat{\see {turbocompression}}{350}
+  \item surchauffe (procédé), \hyperpage{273}, \hyperpage{286, 287}
+  \item surchauffée, vapeur, \hyperpage{122}, \hyperpage{273}, 
+		\hyperpage{275}
   \item système
+    \subitem fermé, \hyperindexformat{\textbf }{26--45}
     \subitem fermé vs. ouvert, \hyperpage{26}, \hyperpage{58}
     \subitem fermé, calcul de chaleur, \hyperpage{45}
     \subitem fermé, conventions de signe, \hyperpage{58, 59}
@@ -474,6 +658,7 @@
     \subitem fermé, utilité de, \hyperpage{26}, \hyperpage{58}
     \subitem férmé, conventions de signe, \hyperpage{28}
     \subitem férmé, premier principe, \hyperpage{28}
+    \subitem ouvert, \hyperindexformat{\textbf }{58--71}
     \subitem ouvert, calcul de chaleur, \hyperpage{71}
     \subitem ouvert, définition, \hyperpage{58}
     \subitem ouvert, premier principe, \hyperpage{59}
@@ -483,14 +668,18 @@
 
   \indexspace
 
-  \item taux de compression, \hyperpage{295}
+  \item taux de compression, \hyperpage{295--298}
   \item taux de dilution, \hyperpage{313}
   \item temps moteur
-    \subitem admission, \hyperpage{170}
-    \subitem compression, \hyperpage{170}
-    \subitem deux temps, \hyperpage{169}, \hyperpage{200}
-    \subitem détente, \hyperpage{170}
-    \subitem quatre temps, \hyperpage{169}, \hyperpage{200}
+    \subitem admission, \hyperpage{52}, \hyperpage{170}
+    \subitem compression, \hyperpage{52}, \hyperpage{170}
+    \subitem deux temps, \hyperpage{169}, \hyperpage{200}, 
+		\hyperpage{321}
+    \subitem détente, \hyperpage{52}, \hyperpage{170}
+    \subitem quatre temps, \hyperpage{52}, \hyperpage{169}, 
+		\hyperpage{200}
+    \subitem vidange, \hyperpage{297}
+    \subitem échappement, \hyperpage{52}
   \item température, \hyperpage{11}
     \subitem absolue, \hyperpage{11}, \hyperpage{201}, 
 		\hyperpage{204, 205}
@@ -500,23 +689,32 @@
     \subitem enthalpie et, \hyperpage{91}
     \subitem gradient de, \hyperpage{241, 242}
     \subitem maximale, \hyperpage{11}
+    \subitem maximale d’un moteur, \hyperpage{273}, \hyperpage{275}, 
+		\hyperpage{294}, \hyperpage{303}, \hyperpage{318}, 
+		\hyperpage{321}
+    \subitem minimale d’un moteur, \hyperpage{268}
     \subitem selon Celsius, \hyperpage{202--203}, \hyperpage{205}
     \subitem selon Fahrenheit, \hyperpage{202--203}
     \subitem selon Kelvin, \hyperpage{201}, \hyperpage{203--205}
-    \subitem thermodynamique, \hyperpage{201--206}
+    \subitem thermodynamique, \hyperpage{201}, \hyperpage{205}, 
+		\hyperindexformat{\textbf }{201--206}
     \subitem zéro, \hyperpage{11}, \hyperpage{18}, \hyperpage{202}, 
 		\hyperpage{205}
-    \subitem échelle, \hyperpage{201--206}
-    \subitem échelle de, \hyperpage{18}
+    \subitem échelle de, \hyperpage{18}, 
+		\hyperindexformat{\textbf }{201--206}
     \subitem énergie et, \hyperpage{89}, \hyperpage{125}
   \item température-entropie, diagramme, \hyperpage{228, 229}
   \item température-volume, diagramme, \hyperpage{120}
   \item tension de surface, \hyperpage{116}
-  \item thermique, capacité, \hyperpage{13}
+  \item thermique, capacité, 
+		\hyperindexformat{\see {capacité thermique}}{350}
   \item thermodynamique statistique, \hyperpage{246}
-  \item thermomètre, \hyperpage{15}
+  \item thermomètre, \hyperpage{15}, 
+		\hyperindexformat{\seealso {température, échelle de}}{350}
     \subitem  genèse, \hyperpage{16}
-  \item titre, \hyperpage{131}
+  \item Thomson, William, 
+		\hyperindexformat{\see {Kelvin, William Thomson}}{350}
+  \item titre, \hyperpage{131}, \hyperpage{235}, \hyperpage{276}
   \item travail, \hyperpage{4}, \hyperpage{8}
     \subitem calcul en système fermé, \hyperpage{30}
     \subitem d’extraction, \hyperpage{59}
@@ -532,32 +730,56 @@
     \subitem en évolution isobare, \hyperpage{93}, \hyperpage{135}
     \subitem en évolution isochore, \hyperpage{96}, \hyperpage{138}
     \subitem en évolution isotherme, \hyperpage{100}, \hyperpage{139}
+    \subitem lors des irréversiblités, \hyperpage{89}, 
+		\hyperpage{160}
     \subitem marge de, \hyperpage{200}, \hyperpage{282}, 
-		\hyperpage{291}
+		\hyperpage{291--293}, \hyperpage{315}
     \subitem net, \hyperpage{156}
-    \subitem transferts irréversibles, \hyperpage{241, 242}
-    \subitem transformation en chaleur, \hyperpage{41}
+    \subitem transferts irréversibles, \hyperpage{241, 242}, 
+		\hyperpage{291}, \hyperpage{298}
+    \subitem transferts iréversibles, \hyperpage{39}, \hyperpage{69}, 
+		\hyperpage{142}
+    \subitem transferts réversibles, \hyperpage{44}, \hyperpage{261}, 
+		\hyperpage{300}, \hyperpage{305}
+    \subitem transformation en chaleur, \hyperpage{41}, \hyperpage{223}
   \item traînée, coefficient de, \hyperpage{283}
-  \item turbine
-    \subitem efficacité isentropique, \hyperpage{266}, \hyperpage{305}
+  \item turbine, \hyperpage{265}, \hyperpage{304}
+    \subitem efficacité d’une, \hyperpage{282}
+    \subitem efficacité isentropique, \hyperpage{266}, \hyperpage{291}, 
+		\hyperpage{305}
+    \subitem histoire de la, \hyperpage{281}
     \subitem libre, \hyperpage{313}
-    \subitem moteur à (turbomachine), \hyperpage{281}
+    \subitem moteur à (turbomachine), \hyperpage{281}, \hyperpage{300}
+    \subitem multiples, \hyperpage{314}, \hyperpage{326, 327}
     \subitem prélèvement, \hyperpage{278, 279}
+    \subitem puissance d’une, \hyperpage{266}, \hyperpage{305}
+    \subitem refroidissement, \hyperpage{302}, \hyperpage{318}
     \subitem à gaz (turbomachine), \hyperpage{309}
-  \item turbo, \hyperpage{299}, \hyperpage{309}
-  \item turbocompression, \hyperpage{299}
-  \item turbofan, \hyperpage{312}
-  \item turbojet, \hyperpage{310}
+  \item Turbinia (navire), \hyperpage{281}
+  \item turbo-compound, \hyperpage{321}
+  \item turbocompression, \hyperpage{298, 299}, \hyperpage{309}, 
+		\hyperpage{323}, \hyperpage{325}
+  \item turbofan, \hyperpage{312}, 
+		\hyperindexformat{\textbf }{312--313}, \hyperpage{320}
   \item turbomachine, \hyperpage{308}
-  \item turbomoteur, \hyperpage{175}, \hyperpage{311}
-  \item turbopropulseur, \hyperpage{311}
+  \item turbomachine (moteur à turbine), \hyperpage{281}, 
+		\hyperpage{300}
+    \subitem configurations, \hyperpage{308--314}
+    \subitem intérêt, \hyperpage{308}
+    \subitem modification des cycles, \hyperpage{315--321}
+  \item turbomoteur, \hyperpage{175}, \hyperpage{311}, 
+		\hyperindexformat{\textbf }{311--312}, \hyperpage{327}
+  \item turbopropulseur, \hyperpage{311}, 
+		\hyperindexformat{\textbf }{311--312}, \hyperpage{321}, 
+		\hyperpage{325}
   \item turboréacteur, \hyperpage{112}, \hyperpage{282}, 
-		\hyperpage{310}
-    \subitem à double flux, \hyperpage{312}
-    \subitem à simple flux, \hyperpage{282}, \hyperpage{310}
-    \subitem à soufflante, \hyperpage{312}
+		\hyperpage{308}, \hyperpage{310}
+    \subitem à double flux, \hyperpage{312}, 
+		\hyperindexformat{\textbf }{312--313}, \hyperpage{320}
+    \subitem à simple flux, \hyperpage{282}, \hyperpage{310}, 
+		\hyperpage{326}
   \item turbulence, \hyperpage{8}
-  \item tuyère, \hyperpage{305}
+  \item tuyère, \hyperpage{305--308}
 
   \indexspace
 
@@ -570,32 +792,39 @@
   \item Van der Waals, équation de, \hyperpage{85}
   \item vapeur
     \subitem abaques de, \hyperpage{126}
-    \subitem saturante, \hyperpage{121}
+    \subitem saturante, \hyperindexformat{\see {vapeur saturée}}{350}
     \subitem saturée, \hyperpage{121}, \hyperpage{129}
     \subitem surchauffée, \hyperpage{122}
     \subitem sèche, \hyperpage{122}, \hyperpage{126}
     \subitem titre de, \hyperpage{131}
   \item vaporisation, chaleur de, \hyperpage{131}
   \item variable thermodynamique, \hyperpage{223}
+  \item vidange (temps moteur), \hyperpage{297}
   \item volume, \hyperpage{30}
+    \subitem constant (évolutions), 
+		\hyperindexformat{\see {évolutions isochores}}{350}
     \subitem spécifique, \hyperpage{34}
     \subitem spécifique d’un mélange liquide-vapeur, 
 		\hyperpage{133}
+  \item von Ohain, Hans, \hyperpage{281, 282}
 
   \indexspace
 
   \item Watt
     \subitem James, \hyperpage{146}
     \subitem unité, \hyperpage{4}, \hyperpage{148}
+  \item Whittle, Frank, \hyperpage{281, 282}
 
   \indexspace
 
   \item ébullition, \hyperpage{13}, \hyperpage{117}
   \item ébullition, courbe d’, \hyperpage{122}
-  \item échappement (temps moteur), \hyperpage{170}
+  \item échappement (temps moteur), \hyperpage{52}, \hyperpage{170}
   \item échelle (physique), \hyperpage{202, 203}, \hyperpage{205}
-  \item écologique, impact, \hyperpage{173}
+  \item écologique, impact, \hyperpage{173}, \hyperpage{260}, 
+		\hyperpage{293}, \hyperpage{298}, \hyperpage{323}
   \item économiseur, \hyperpage{316}
+  \item écoulements compressibles, \hyperpage{307}
   \item élément de fluide, \hyperpage{59}
   \item énergie, \hyperpage{2}, \hyperpage{222}, \hyperpage{246}
     \subitem chimique, \hyperpage{4}
@@ -613,21 +842,26 @@
     \subitem rayonnante, \hyperpage{4}
     \subitem spécifique, \hyperpage{5}
     \subitem température et, \hyperpage{89}, \hyperpage{125}
+    \subitem transfert net, \hyperpage{156}
     \subitem transformations, \hyperpage{2}
   \item équation d’état, \hyperpage{82}
   \item évolutions
     \subitem adiabatiques, \hyperpage{36}, \hyperpage{102}, 
 		\hyperpage{142}
     \subitem adiabatiques réversibles, \hyperpage{102}, 
-		\hyperpage{142}, \hyperpage{194, 195}
+		\hyperpage{142}, \hyperpage{194, 195}, \hyperpage{261}, 
+		\hyperpage{295, 296}, \hyperpage{300}, \hyperpage{305}
     \subitem arbitraires, \hyperpage{106}, \hyperpage{144}
     \subitem d’un gaz parfait, \hyperpage{92}
     \subitem isentropiques, \hyperpage{103}, \hyperpage{144}, 
-		\hyperpage{194, 195}, \hyperpage{229}
-    \subitem isobares, \hyperpage{93}, \hyperpage{135}
-    \subitem isochores, \hyperpage{96}, \hyperpage{138}
+		\hyperpage{194, 195}, \hyperpage{229}, \hyperpage{261}, 
+		\hyperpage{295, 296}, \hyperpage{300}, \hyperpage{305}
+    \subitem isobares, \hyperpage{93}, \hyperpage{135}, \hyperpage{296}
+    \subitem isochores, \hyperpage{96}, \hyperpage{138}, 
+		\hyperpage{295}, \hyperpage{303}
     \subitem isothermes, \hyperpage{98}, \hyperpage{139}, 
-		\hyperpage{194--196}
+		\hyperpage{194--196}, \hyperpage{211}, \hyperpage{261}, 
+		\hyperpage{294}
     \subitem sens des, \hyperpage{223}, \hyperpage{239}, 
 		\hyperpage{242}, \hyperpage{245}
 
