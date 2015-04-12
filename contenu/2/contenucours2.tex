@@ -1,3 +1,4 @@
+\index{système!fermé|(textbf}
 \section{Pourquoi utiliser un système fermé ?}
 \index{système!fermé, utilité de}\index{système!ouvert, utilité de}
 
@@ -204,7 +205,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 			\SI{1}{bar} \equiv \SI{1e5}{\pascal}
 			\end{equation}
 
-			\index{pression!jaugée}\index{pression!atmosphérique}
+			\index{pression!jaugée}\index{pression!atmosphérique}\index{atmosphère, pression de l’}
 			Notons que la pression atmosphérique à faible altitude est de l’ordre du bar ($p_{\text{atm.std.}} \equiv \SI{1}{atm} \equiv \SI{1,01325}{bar}$). Attention, les manomètres indiquent souvent une pression jaugée, qui n’est pas la pression réelle. Cette différence est décrite dans l’annexe \ref{ch_annexe_pression}.
 			}% end item
 
@@ -285,9 +286,8 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 	\index{travail!en système fermé, en évolution lente}\index{système!fermé, travail en évolution lente}
 
 		\onlyframabook{\thermoquotebegin{O}%handmade dans le framabook, la citation plus haut qu’elle ne devrait l’être, sinon tout est cassé
-\index{Clapeyron! Benoît Paul Émile}%
 			Cela posé, prenons un gaz quelconque à la température $T$ \jecourte; représentons son volume $v_o$ par l’abscisse \textsc{ab}, et sa pression par l’ordonnée \textsc{cb}.\jecourte Le gaz, pendant sa dilatation, aura développé une quantité d’action mécanique qui aura pour valeur l’intégrale du produit de la pression, par la différentielle du volume, et qui sera représentée géométriquement par la surface comprise entre l’axe des abscisses, les deux coordonnées \textsc{cb}, \textsc{de}, et de la portion d’hyperbole~\textsc{ce}.
-		\thermoquoteend{Benoît Paul Émile Clapeyron, 1834\\ {\tiny(le premier diagramme $p-v$…)}}{\textit{Mémoire sur la puissance motrice de~la~chaleur}~\cite{clapeyron1834}\vspace{3em}}} %handmade vspace
+		\thermoquoteend{Benoît Paul Émile Clapeyron, 1834\index{Clapeyron!Benoît Paul Émile}\\ {\tiny(le premier diagramme $p-v$…)}}{\textit{Mémoire sur la puissance motrice de~la~chaleur}~\cite{clapeyron1834}\vspace{3em}}} %handmade vspace
 		Lorsque l’on comprime un fluide, les molécules qui le composent sont plus rapprochées les unes des autres (\cref{fig_molécules_compression_lente}) et les collisions entre elles et contre les parois deviennent plus fréquentes. À l’échelle macroscopique, cette augmentation se traduit par une augmentation de la pression.
 		
 		\begin{figure}
@@ -323,9 +323,8 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 		\end{equationterms}
 		
 		\onlyamphibook{\thermoquotebegin{O}%handmade la citation là où elle devrait bien être.
-\index{Clapeyron, Benoît Paul Émile}
 			Cela posé, prenons un gaz quelconque à la température $T$ \jecourte; représentons son volume $v_o$ par l’abscisse \textsc{ab}, et sa pression par l’ordonnée \textsc{cb}.\jecourte Le gaz, pendant sa dilatation, aura développé une quantité d’action mécanique qui aura pour valeur l’intégrale du produit de la pression, par la différentielle du volume, et qui sera représentée géométriquement par la surface comprise entre l’axe des abscisses, les deux coordonnées \textsc{cb}, \textsc{de}, et de la portion d’hyperbole~\textsc{ce}.
-		\thermoquoteend{Benoît Paul Émile Clapeyron, 1834\\ {\tiny(le premier diagramme $p-v$…)}}{\textit{Mémoire sur la puissance motrice de~la~chaleur}~\cite{clapeyron1834}\vspace{6em}}} %handmade vspace
+		\thermoquoteend{Benoît Paul Émile Clapeyron, 1834\index{Clapeyron,Benoît Paul Émile}\\ {\tiny(le premier diagramme $p-v$…)}}{\textit{Mémoire sur la puissance motrice de~la~chaleur}~\cite{clapeyron1834}\vspace{6em}}} %handmade vspace
 		Sur un graphique représentant la pression en fonction du volume spécifique, ce travail $w_\fromatob$ est représenté par la surface sous la courbe de A à B, exactement comme la \cref{fig_p-v_ressort}. La forme de la courbe, c’est-à-dire la relation entre $p$ et $v$ au fur et à mesure de l’évolution, déterminera la quantité $w_\fromatob$ .
 
 		\begin{figure}
@@ -347,7 +346,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 
 		Lorsqu’on apporte de la chaleur au fluide pendant qu’on le comprime, on «~durcit~» son comportement, et la pression augmente plus rapidement (\cref{fig_p-v_ajout_retrait_chaleur}). À~l’inverse, lorsqu’on lui prélève de la chaleur pendant la compression, la pression augmente moins rapidement. Ces transferts de chaleur font donc varier la quantité de travail à fournir pour comprimer le fluide entre deux volumes donnés.
 		
-		Le cas où l’on apporte pas de chaleur est nommé \vocab[évolutions!adiabatiques]{\mbox{adiabatique}}\index{adiabatiques, évolutions} : $Q = 0$. Attention : adiabatique ne veut pas dire «~à température constante~». Lorsque l’on comprime un fluide sans apport de chaleur, sa température augmente. Dans un moteur diesel, par exemple, l’air dans les cylindres peut atteindre \SI{900}{\degreeCelsius} avant la combustion -- ce qui est désirable, comme nous le verrons au \courssept.
+		Le cas où l’on apporte pas de chaleur est nommé \vocab[évolutions!adiabatiques]{\mbox{adiabatique}}\index{adiabatiques!évolutions} : $Q = 0$. Attention : adiabatique ne veut pas dire «~à température constante~». Lorsque l’on comprime un fluide sans apport de chaleur, sa température augmente. Dans un moteur diesel, par exemple, l’air dans les cylindres peut atteindre \SI{900}{\degreeCelsius} avant la combustion -- ce qui est désirable, comme nous le verrons au \courssept.
 
 		\begin{figure}
 			\begin{center}
@@ -419,7 +418,7 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 
 	\subsection{Travail d’un fluide en évolution rapide}
 	\label{ch_évolutions_irr_sf}
-	\index{travail!en système fermé, en évolution rapide}\index{système!fermé, travail en évolution rapide}
+	\index{travail!en système fermé, en évolution rapide}\index{travail!transferts iréversibles}\index{système!fermé, travail en évolution rapide}
 
 		\thermoquotebegin{O}\index{Pambour, François-Marie Guyonneau de}
 			Nous avons dit qu’à l’origine du mouvement l’équilibre de pression s’établit entre la chaudière et le cylindre, mais à mesure que la vitesse du piston s’accroît, celui-ci fuit en quelque sorte devant la vapeur sans lui donner le temps d’établir cet équilibre, et la pression dans le cylindre baisse \mbox{nécessairement}.
@@ -459,10 +458,10 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 			\label{fig_piston_fluide_rapide}
 		\end{figure}
 
-\index{ressorts!modélisation des gaz}
+		\index{ressorts!modélisation des gaz}
 		On pourrait ainsi dire que lorsqu’on le comprime et détend brutalement, un fluide se comporte comme un ressort «~fragile~», à l’intérieur duquel quelque chose se modifie : il n’est pas capable de rendre toute l’énergie mécanique qu’il a emmagasinée.
 
-\index{chaleur!transformation de travail en}\index{travail!transformation en chaleur}
+		\index{chaleur!transformation de travail en}\index{chaleur!lors des irréversibilités}\index{travail!transformation en chaleur}
 		Si le travail reçu n’est pas égal au travail restitué, alors où est passé l’excédent d’énergie ? Ce surcroît d’énergie, fourni sous forme de travail par le piston, est \emph{transformé en chaleur à l’intérieur du fluide} pendant les mouvements.
 
 		\onlyamphibook{\clearfloats}%handmade encore une fois, sinon c’est trop b****lique
@@ -513,7 +512,7 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 
 \onlyframabook{\clearpage}%handmade
 	\subsection{La réversibilité}
-	\label{ch_reversibilite}\index{réversibilité}\index{irréversibilité!vs. réversibilité}
+	\label{ch_reversibilite}\index{réversibilité!concept}\index{irréversibilité!concept}
 	
 		Prenons quelques instants pour réfléchir sur ce que nous venons de décrire. À chaque fois que nous comprimons un fluide «~trop vite~», il se passe quelque chose qui nous empêche de récupérer notre travail.
 		
@@ -526,6 +525,7 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 
 		En attendant, nous admettrons qu’il faut respecter trois conditions pour qu’une évolution soit réversible :
 
+		\index{réversibilité}\index{chaleur!transferts réversibles}\index{travail!transferts réversibles}
 		\begin{enumerate}
 			\item L’évolution doit se faire sans friction. Il ne doit pas y avoir de frottement dans les éléments mécaniques (par exemple, entre piston et cylindre).
 			\item La pression dans le fluide doit être homogène. Le mouvement des parois doit donc être infiniment lent, et le fluide doit évoluer sans turbulence.
@@ -549,3 +549,4 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 	\end{equationterms}
 		
 		Toute la difficulté pour quantifier un transfert de chaleur est maintenant de prédire et quantifier le changement de l’énergie interne, $\Delta U$. Pour les gaz, $U$ est quasiment proportionnelle à la température ; pour les liquides et vapeurs, la relation est plus complexe. Nous apprendrons à quantifier l’énergie dans les fluides aux chapitres \coursquatreplural et \courscinqplural.
+\index{système!fermé|)textbf}

@@ -1,3 +1,4 @@
+\index{cycle!thermodynamique|(textbf}
 \section{Conventions graphiques}
 \label{ch_conventions_graphiques}
 
@@ -48,7 +49,7 @@
 
 
 	\subsection{Produire un travail à partir de chaleur}
-	\label{ch_principe_fonctionnement_moteur}\index{moteur!principe de fonctionnement}\index{chaleur!transformation en travail}
+	\label{ch_principe_fonctionnement_moteur}\index{moteur!principe de fonctionnement}
 
 		Commençons par comprimer un fluide : nous augmentons sa pression et réduisons son volume spécifique, ce qui nous demande un certain travail. Après cela, chauffons ce fluide : sa pression et son volume ont tendance à augmenter. En détendant le fluide jusqu’à sa pression initiale, nous allons récupérer un travail plus grand que celui que nous avons investi à l’aller. Pour pouvoir enfin ramener le fluide à son état initial, il faut le refroidir.
 
@@ -89,13 +90,13 @@
 
 
 	\subsection{Extraire de la chaleur avec du travail}
-	\label{ch_principe_fonctionnement_réfrigérateur}\index{réfrigérateur!principe de fonctionnement}\index{pompe à chaleur!principe de fonctionnement}\index{chaleur!transfert vers une température plus haute}\index{cycle!de réfrigération}
+	\label{ch_principe_fonctionnement_réfrigérateur}\index{réfrigérateur!principe de fonctionnement}\index{pompe à chaleur!principe de fonctionnement}\index{chaleur!transfert vers une température plus haute}\index{cycle!de réfrigération (ou climatisation)}
 
 			Lorsque l’on fournit du travail à un fluide, sa température augmente\footnote{Ce n’est pas strictement vrai pour les liquides/vapeurs qui, comme nous l’avons vu dans le \courscinq, connaissent une phase à température constante entre leurs points de saturation – toutefois, ils suivent cette tendance générale hors de cette plage de propriétés.} et il peut ainsi fournir de la chaleur à un corps qui était initialement à plus haute température («~plus chaud~») que lui.
 
 			À l’inverse, lorsque l’on détend un fluide, sa température baisse et il peut ainsi capter de la chaleur à un corps qui était initialement «~plus froid~» que lui.
 
-			En effectuant ces étapes l’une après l’autre, nous obtenons un \vocab[cycle!de réfrigération]{cycle de \mbox{réfrigération}} : une machine capable de prélever de la chaleur à basse température et de la rejeter à haute température. Un tel cycle est représenté en \cref{fig_refrigerateur_climatiseur_thermopompe_so} (étapes séparées dans l’espace) et \ref{fig_refrigerateur_climatiseur_thermopompe_sf} (étapes séparées dans le temps).
+			En effectuant ces étapes l’une après l’autre, nous obtenons un \vocab[cycle!de réfrigération (ou climatisation)]{cycle de \mbox{réfrigération}} : une machine capable de prélever de la chaleur à basse température et de la rejeter à haute température. Un tel cycle est représenté en \cref{fig_refrigerateur_climatiseur_thermopompe_so} (étapes séparées dans l’espace) et \ref{fig_refrigerateur_climatiseur_thermopompe_sf} (étapes séparées dans le temps).
 			
 			Un examen attentif de ces deux figures réserve une surprise de taille : il s’agit exactement du même agencement que pour un moteur ! La seule différence porte sur les températures de fonctionnement. La température atteinte pendant la compression doit être \textbf{supérieure à la température haute $T_H$}, et la température atteinte pendant la détente doit être \textbf{inférieure à la température basse $T_B$}. Si ces conditions ne sont pas respectées, alors les transferts de chaleur ne peuvent pas se faire dans le sens voulu.
 			
@@ -120,6 +121,7 @@
 
 			En pratique dans les systèmes de réfrigération, on a souvent recours à une astuce pour faire chuter la température : au lieu d’une turbine, on utilise une simple soupape (parfois appelée \vocab{détendeur}). Cet élément sans pièce mobile ne permet pas de dégager de travail (il augmente donc la puissance consommée par la machine), mais il est beaucoup plus simple de fabrication et d’utilisation.
 
+			\index{Joule!détente de Gay-Lussac et}\index{Gay-Lussac!détente de Joule et}\index{travail!lors des irréversiblités}
 			La soupape, en termes thermodynamiques, permet d’effectuer une détente entièrement irréversible, augmentant le volume et baissant la pression sans extraire de travail. Si l’on utilisait un gaz parfait, cela n’aurait aucun effet sur la température\footnote{Revoir à ce propos les expériences de Joule et Gay-Lussac étudiées en \S\ref{ch_principe_de_joule} p.\pageref{ch_principe_de_joule}.} et donc aucun intérêt ; mais lorsque l’on utilise des liquides/vapeurs, la détente en soupape est un moyen technologiquement simple de faire chuter la température. Cette modification est décrite en \cref{fig_principe_du_réfrigérateur_soupape}.
 
 		\onlyamphibook{\begin{figure}}
@@ -325,3 +327,4 @@
 		Dans tous les cas que nous avons étudiés plus haut, pour chaque cycle, nous avons inclus un transfert indésirable. Dans le cycle moteur, une partie de l’énergie est gâchée sous forme de rejet de chaleur ($\dot Q_\out$). Dans les cycles de réfrigération, on doit apporter du travail ($\dot W_\inn$) pour effectuer un transfert de chaleur qui \textit{a priori} aurait pu sembler «~gratuit~» ($\dot Q_\out$ étant alors égal à $\dot Q_\inn$).
 
 		L’étudiant/e en ingénierie s’indignera certainement de la place qu’occupent ces pertes dans ce chapitre --\ et des timides rendements atteints par les machines décrites en exemple. Pourquoi les rendements calculés dans les exemples et dans les exercices qui suivent sont-ils si faibles, et surtout, comment concevoir des cycles de plus grande efficacité ? Nous aurons soin et à cœur de répondre à ces questions au \courssept.
+\index{cycle!thermodynamique|)textbf}

@@ -1,3 +1,4 @@
+\index{gaz parfait|(textbf}
 \section{Définition}
 
 	\subsection{Le manomètre comme thermomètre}
@@ -24,7 +25,7 @@
 		\makebox(18,5){\color{gray}\scalebox{2}{«}}
 		M. S. Carnot, évitant l’emploi de l’analyse mathématique, arrive par une série de raisonnemens délicats et difficiles à saisir, à des résultats qui se déduisent sans peine d’une loi plus générale, que je vais chercher à établir.
 		\thermoquoteend{Émile Clapeyron, 1834~\cite{clapeyron1834}\index{Clapeyron!Benoît Paul Émile}}{}
-		Nous appellerons \vocab[gaz parfait!définition]{gaz parfait} (ou \vocab[gaz!idéal]{gaz idéal}) un fluide à l’état gazeux dont le multiple de la pression et du volume, $p v$, reste proportionnel à sa température. La constante de proportionnalité est nommée \vocab{constante du gaz}\index{gaz!constante d’un}, et notée~$R$ ; elle dépend de la nature du~gaz.
+		Nous appellerons \vocab[gaz parfait!définition]{gaz parfait} (ou \vocab[gaz parfait!définition]{gaz idéal}) un fluide à l’état gazeux dont le multiple de la pression et du volume, $p v$, reste proportionnel à sa température. La constante de proportionnalité est nommée \vocab{constante du gaz}\index{gaz!constante d’un}\index{gaz parfait!constante d’un}\index{R (constante d’un gaz)}, et notée~$R$ ; elle dépend de la nature du~gaz.
 		\begin{equation}
 			p v = R T
 			\label{eq_pv=RT}
@@ -47,7 +48,7 @@
 			\item et \tab $m$ \tab la masse de gaz considérée (\si{\kilogram}).
 		\end{equationterms}
 		
-		\index{quantité de matière}\index{moles (quantité de matière)}
+		\index{quantité de matière}\index{moles (quantité de matière)}\index{r (constante universelle des gaz}
 		Il est aussi possible d’exprimer l’\cref{eq_pV=mRT} en fonction de la quantité de matière en \si{moles}.\footnote{Dans les ouvrages tels que celui d’Alexandre Watzky~\cite{watzky2007}, la constante en \si{\joule\per\kelvin\per\kilogram} est notée~$r$. La grandeur notée $R = \SI{8,3143}{\joule\per\kelvin\per\mole}$ est universelle, et les gaz adoptent des valeurs de $r$ différentes en fonction de leur masse molaire $M \equiv \frac{m}{n}$. Dans le présent ouvrage, nous ne quantifions pas les quantités de matière.}
 		 Parce qu’elle est indissociable du concept de température absolue, il a fallu 150 ans pour que cette équation prenne sa forme définitive : celle que lui a donnée \wf{Émile Clapeyron} en 1834~\cite{clapeyron1834}.
 
@@ -117,7 +118,7 @@
 
 
 	\subsection{Limites du modèle}
-	\index{gaz parfait!limites de validité}
+	\index{gaz parfait!limites de validité}\index{gaz parfait!modélisations alternatives}
 
 		Il ne faudra pas longtemps à l’étudiant/e pour trouver les limites de l’\cref{eq_pV=mRT}, qui indique qu’une masse non-nulle de gaz parfait occupe \textit{un volume nul} à température nulle. Strictement parlant, le gaz parfait ne peut pas exister --\ le modèle mathématique perd son sens à très basse température puisqu’il ne tient pas compte du volume des molécules elles-mêmes.
 
@@ -142,7 +143,7 @@
 \section{Propriétés des gaz parfaits}
 
 	\subsection{Deux capacités calorifiques importantes}
-	\index{calorifique, capacité}\index{capacité!calorifique d’un gaz parfait}\index{chaleur!massique d’un gaz parfait}
+	\index{capacité!thermique}\index{gaz parfait!capacités thermiques}
 
 		Nous avons déjà abordé la notion de capacité calorifique (ou «~chaleur massique~»), au premier chapitre (\ref{eq_def_capacité_calorifique_massique}). Elle se définit comme la quantité de chaleur nécessaire pour augmenter d’un Kelvin\footnote{Ou d’un degré Celsius, ces différences de température étant égales.}
 		la température d’un kilo du corps. On a ainsi :
@@ -195,7 +196,7 @@
 
 	\subsection{Différence des chaleurs massiques}
 	\label{ch_difference_chaleur_massiques}
-	\index{chaleur!massique, différence entre les}\index{capacité!calorifique, différence entre les}
+	\index{capacité!thermique, différence entre les}
 
 		Le grand nombre d’équations que nous abordons rend utile, mais pas indispensable, cette courte section \ref{ch_difference_chaleur_massiques}. Pour l’ingénieur/e, il n’a d’autre intérêt que de permettre d’alléger l’écriture des relations de la section suivante.
 
@@ -242,7 +243,7 @@
 
 
 	\subsection{Quotient des chaleurs massiques}
-	\index{chaleur!massique, rapport entre les}\index{capacité!calorifique, rapport entre les}\index{gamma ($\gamma$) (gaz parfait)}
+	\index{capacité!thermique, rapport entre les}\index{gamma ($\gamma$) (gaz parfait)}
 	
 		Le ratio des chaleurs massiques à pression et à volume constants est nommé $\gamma $. Ainsi :
 		\begin{equation}
@@ -274,12 +275,12 @@
 
 	\subsection{La loi de Joule}
 	\label{ch_principe_de_joule}
-	\index{Joule!principe de}\index{Joule!loi de}\index{Joule!détente de Gay-Lussac et}\index{Gay-Lussac!détente de Joule et}
+	\index{Joule!loi de}\index{Joule!détente de Gay-Lussac et}\index{Gay-Lussac!détente de Joule et}
 
 		\thermoquotebegin{O}
 			J’ai pris deux ballons à deux tubulures, chacun de douze litres de capacité. A l’une des tubulures de chaque ballon étoit adapté un robinet, et à l’autre un thermomètre à alcool très-sensible, dont les degrés centigrades pouvoient être facilement divisés en centièmes. \jecourte Le vide étant fait dans les deux ballons, et m’étant assuré qu’ils le retenoient exactement, je remplissois l’un d’eux avec le gaz sur lequel je voulois opérer. Environ douze heures après, j’établissois entre eux une communication au moyen d’un tuyau de plomb, et en ouvrant les robinets, le gaz se précipitoit alors dans le ballon vide jusqu’à ce que l’équilibre de pression fût rétablit de part et d’autre. Pendant ce tems, le thermomètre éprouvoit des variations que je notois avec soin.
-		\thermoquoteend{Louis Joseph Gay-Lussac, 1807~\cite{gaylussac1807}}{\index{Gay-Lussac! Louis Joseph}\onlyamphibook{\vspace{-1em}}} %handmade vspace
-		Dans leur expérience la plus remarquable, Joule et Gay-Lussac cherchent à faire varier la pression et le volume d’un gaz \textit{sans lui transférer de chaleur ou de travail}. Pour cela, ils laissent un gaz comprimé se détendre dans un second récipient vide (\cref{fig_detente_joule}). Le travail effectué est nul, car aucune surface n’a été déplacée – l’évolution est entièrement irréversible. La température est mesurée et… il ne se passe rien ! Joule et Gay-Lussac ne mesurent ni transfert de chaleur, ni variation de température.
+		\thermoquoteend{Louis Joseph Gay-Lussac, 1807~\cite{gaylussac1807}}{\index{Gay-Lussac!Louis Joseph}\onlyamphibook{\vspace{-1em}}} %handmade vspace
+		Dans leur expérience la plus remarquable, Joule et Gay-Lussac cherchent à faire varier la pression et le volume d’un gaz \emph{sans lui transférer de chaleur ou de travail}. Pour cela, ils laissent un gaz comprimé se détendre dans un second récipient vide (\cref{fig_detente_joule}). Le travail effectué est nul, car aucune surface n’a été déplacée – l’évolution est entièrement irréversible. La température est mesurée et… il ne se passe rien ! Joule et Gay-Lussac ne mesurent ni transfert de chaleur, ni variation de température.\index{chaleur!lors des irréversibilités}\index{travail!lors des irréversiblités}
 
 		\begin{figure}
 			%\onlyframabook{\vspace{1.5em}}%handmade pour faire tenir la citation sur le côté
@@ -295,7 +296,7 @@
 		Joule effectue une multitude d’expériences différentes au cours desquelles il observe que quel que soit le travail fourni, la relation entre énergie interne (qui ne varie qu’avec travail et chaleur) et température reste sensiblement la même --\ et il suggère que pour un gaz parfait, elle reste toujours identique.
 
 		\index{énergie!interne d’un gaz parfait}\index{température!d’un gaz parfait}\index{gaz parfait!énergie interne d’un}
-		Ce postulat est connu sous le nom de \vocab[Joule!loi de]{loi de Joule}\index{loi de Joule}\index{Joule!principe de} et est posé comme vrai pour tout gaz parfait. On peut le résumer ainsi :
+		Ce postulat est connu sous le nom de \vocab[Joule!loi de]{loi de Joule}\index{loi de Joule} et est posé comme vrai pour tout gaz parfait. On peut le résumer ainsi :
 
 		\begin{trucimportant}
 			La température d’un gaz parfait ne varie qu’avec son énergie interne.
@@ -487,7 +488,7 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 		\begin{anexample}
 			Pour l’air, on mesure $c_{p\text{(air)}} = \SI{1005}{\joule\per\kilogram\per\kelvin}$, $c_{v\text{(air)}} = \SI{718}{\joule\per\kilogram\per\kelvin}$, $R_\text{air} = \SI{287}{\joule\per\kilogram\per\kelvin}$.
 			Combien faut-il d’énergie pour chauffer l’air dans un appartement de~\SI{30}{\metre\squared} depuis \SI{10}{\degreeCelsius} jusqu’à \SI{20}{\degreeCelsius} ?
-				\begin{answer}
+				\begin{answer}\index{pression!atmosphérique}\index{amosphère, pression de l’}
 					Le réchauffement se fera vraisemblablement à pression constante (à moins que l’appartement ne soit fermé hermétiquement, la pression sera partout atmosphérique et l’air «~fuira~» sous les portes). Nous supposons une pression de~\SI{1}{\bar} et une hauteur de plafond de~\SI{2,5}{\metre}. Nous utilisons un système fermé englobant tout l’air réchauffé.
 					
 					Nous avons un volume de~\SI{75}{\metre\cubed}, ce qui mène la masse totale d’air à $m_\A = \frac{p_\A \ V_\A}{R \ T_\A} = \frac{\num{1e5} \times \num{75}}{\num{287} \times (\num{10} + \num{273,15})} = \SI{92,29}{\kilogram}$.\\
@@ -698,7 +699,7 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 	\subsection{Évolutions adiabatiques réversibles}
 	\label{ch_gp_isentropiques}
 
-		Une évolution \vocab[évolutions!adiabatiques]{adiabatique}\index{adiabatiques, évolutions} est une évolution au cours de laquelle il n’y a aucun transfert de chaleur (\cref{fig_gp_isentropique}). On peut forcer cela en recouvrant le récipient ou le conduit de gaz que l’on compresse ou détend avec une épaisse couche d’isolant thermique.
+		Une évolution \vocab[évolutions!adiabatiques]{adiabatique}\index{adiabatiques!évolutions} est une évolution au cours de laquelle il n’y a aucun transfert de chaleur (\cref{fig_gp_isentropique}). On peut forcer cela en recouvrant le récipient ou le conduit de gaz que l’on compresse ou détend avec une épaisse couche d’isolant thermique.
 		
 		\begin{figure}
 			\begin{center}
@@ -708,7 +709,7 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 			\label{fig_gp_isentropique}
 		\end{figure}
 		
-		Une évolution \vocab[évolutions!adiabatiques réversibles]{adiabatique réversible}\index{adiabatiques réversibles, évolutions} est effectuée infiniment lentement. Un piston dans un cylindre devra pour cela être déplacé infiniment lentement, et un compresseur en flux continu devra pour cela être infiniment long. Plus tard, dans le \courshuit, nous appellerons ces transformations \vocab[évolutions!isentropiques]{isentropiques}\index{isentropiques, évolutions}.
+		Une évolution \vocab[évolutions!adiabatiques réversibles]{adiabatique réversible}\index{adiabatiques!réversibles, évolutions} est effectuée infiniment lentement. Un piston dans un cylindre devra pour cela être déplacé infiniment lentement, et un compresseur en flux continu devra pour cela être infiniment long. Plus tard, dans le \courshuit, nous appellerons ces transformations \vocab[évolutions!isentropiques]{isentropiques}\index{isentropiques, évolutions}.
 		
 		Attention, même s’il n’y a strictement aucun transfert de chaleur, la température est nécessairement amenée à varier dans une telle évolution, puisque le travail est non-nul. Cette variation de température est d’ailleurs très souvent l’effet escompté, comme nous pourrons le voir au \courssept.
 
@@ -830,3 +831,4 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 		\end{figure}
 		
 		Nous nous sommes concentrés sur quatre évolutions particulières des gaz parfaits, parce qu’elles jouent chacune un rôle important, pour les physiciens comme pour les ingénieur/es, dans la conception des machines thermiques. Cela ne doit toutefois pas limiter notre façon de «~penser~» un gaz et ses transformations. En contrôlant astucieusement les transferts de chaleur et de travail, nous pouvons bien sûr provoquer n’importe quelle évolution arbitraire.
+\index{gaz parfait|)textbf}

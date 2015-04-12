@@ -1,4 +1,4 @@
-\index{entropie|(}
+\index{entropie|(textbf}
 \section{Le concept de l’entropie}
 
 	\subsection{À quoi sert l’entropie ?}
@@ -24,15 +24,15 @@
 	\subsection{Comment déterminer le sens d’une transformation ?}
 	\index{évolutions!sens des}
 	
-		Dans le vocabulaire de la thermodynamique, le concept d’une «~évolution à sens unique~» est bien sûr nommé \vocab{irréversibilité}. Nous avions déjà abordé l'irréversibilité en section \S\ref{ch_évolutions_irr_sf}, où nous avions déterminé qu’elle avait deux causes principales :
+		Dans le vocabulaire de la thermodynamique, le concept d’une «~évolution à sens unique~» est bien sûr nommé \vocab[irréversibilité (concept)]{irréversibilité}. Nous avions déjà abordé l'irréversibilité en section \S\ref{ch_évolutions_irr_sf}, où nous avions déterminé qu’elle avait deux causes principales :
 			\begin{itemize}
-				\item La transformation d’un travail en chaleur, par frottement et turbulence ;
-				\item La transmission d’une quantité de chaleur entre deux corps de températures différentes.
+				\item La transformation d’un travail en chaleur, par frottement et turbulence ;\index{travail!transformation en chaleur}\index{chaleur!transformation de travail en}
+				\item La transmission d’une quantité de chaleur entre deux corps de températures différentes.\index{chaleur!transferts irréversibles}
 			\end{itemize}
 		
 		Les transformations irréversibles dans les fluides conduisent invariablement à des états où la température, la pression ou le volume sont plus grands qu’ils ne l’auraient été avec une transformation réversible.
 		
-		\index{chaleur!dans les irréversibilités}
+		\index{chaleur!lors des irréversibilités}\index{irréversibilité!quantification}
 		\thermoquotebegin{O}
 			Pour cela nous imaginons qu’après la transformation que nous souhaitons étudier de cette façon, la masse est ramenée à son état initial par une opération réversible. De cette façon, nous obtenons un petit processus cyclique, à laquelle l’équation (II) s’applique aussi bien qu’à l’ensemble. Si [le long de ce processus] l’on connaît également les quantités de chaleur qu’a reçues la masse pendant ce dernier ainsi que les températures auxquelles elles correspondent, alors l’intégrale négative $-\int \frac{\diff Q}{T}$ nous donne la transformation non-compensée impliquée pendant celui-ci.
 		\thermoquoteend{Rudolf Clausius, 1856~\cite{clausius1856, clausius1867en,clausius1868fr3}\index{Clausius!Rudolf}}{}
@@ -126,7 +126,7 @@
 					= -(S_B - S_A)
 					= \SI{+6,6}{\joule\per\kelvin}$.
 						\begin{remark}Le $\Delta S$ correspond à la variation réelle de l’entropie ; mais il est calculé le long d’un chemin imaginaire.\end{remark}
-						\begin{remark} Ici nous voyons que la chaleur transférée en réalité n’a pas d’importance. C’est la chaleur «~qu’il aurait fallu transférer~» qui nous intéresse.\end{remark}
+						\begin{remark} Ici nous voyons que la chaleur transférée en réalité n’a pas d’importance. C’est la chaleur «~qu’il aurait fallu transférer~» qui nous intéresse.\end{remark}\index{chaleur!lors des irréversibilités}\index{chaleur!transferts réversibles}
 						\begin{remark} Ici, pour simplifier l’exercice, le gaz retourne exactement à son état originel~A. S’il arrivait à un état différent, nous pourrions tout de même calculer la variation d’entropie, comme nous apprendrons à le faire en section \S\ref{ch_delta_s_gaz_parfaits}.\end{remark}
 						\begin{remark}Dans cette évolution irréversible de B à A, c’est la différence entre $\int_\B^\A \left( \frac{\diff Q}{T} \right)_\text{rév.} = \SI{+6,6}{\joule\per\kelvin}$ et $\int_\B^\A \left( \frac{\diff Q}{T} \right)_\text{réel} = \frac{\num{+1000}}{\num{30}+\num{273,15}} =  \SI{+3,3}{\joule\per\kelvin}$ qui va nous permettre de mesurer l’irréversibilité, c’est-à-dire de montrer qu’avec un transfert de~\SI{1}{\kilo\joule} on peut aller de B à A mais pas de A à B.\end{remark}
 				\end{answer}
@@ -206,7 +206,7 @@
 				\item où l’indice \textit{rév.} spécifie que l’intégration se fait le long d’un chemin réversible.
 			\end{equationterms}
 
-		Alors, nous allons pouvoir représenter les évolutions sur un \vocab[diagramme!température-entropie]{diagramme température-entropie}\index{température-entropie, diagramme}. L’aire sous la courbe d’une évolution représentera la chaleur transmise si l’évolution est réversible, mais pas si elle est irréversible, comme montré en \cref{fig_ts_reversible_irreversible}.
+		Alors, nous allons pouvoir représenter les évolutions sur un \vocab[diagramme!température-entropie]{diagramme température-entropie}\index{température-entropie, diagramme}. L’aire sous la courbe d’une évolution représentera la chaleur transmise si l’évolution est réversible, mais pas si elle est irréversible, comme montré en \cref{fig_ts_reversible_irreversible}.\index{chaleur!lors des irréversibilités}
 
 		\onlyamphibook{\begin{figure}}
 		\onlyframabook{\begin{figure}[h!]}
@@ -252,7 +252,7 @@
 			\label{fig_ts_cycle}
 		\end{figure}
 
-		\onlyamphibook{\clearfloats}\index{Carnot!cycle de}\index{diagramme!pression-volume}\index{diagramme!température-entropie}\index{pression-volume, diagramme}\index{température-entropie, diagramme}
+		\onlyamphibook{\clearfloats}\index{Carnot!cycle de}\index{cycle!de Carnot}\index{diagramme!pression-volume}\index{diagramme!température-entropie}\index{pression-volume, diagramme}\index{température-entropie, diagramme}
 		Enfin, nous notons avec joie que le cycle de Carnot, constitué de deux phases isothermes ($T = \text{cste}$) séparées par deux phases isentropiques ($s = \text{cste}$), gagne beaucoup à être représenté sur un diagramme température-entropie, comme montré en \cref{fig_ts_carnot}.
 
 		\begin{figure}[htb]%handmade
@@ -375,7 +375,7 @@
 
 
 	\subsection{Variations d’entropie d’un liquide/vapeur}
-	\index{entropie!d’un liquide-vapeur, variations d’}\index{liquide-vapeur!variations d’entropie d’un}\index{abaques de vapeur}
+	\index{entropie!d’un liquide-vapeur, variations d’}\index{liquides-vapeurs!variations d’entropie d’un}\index{mélange liquide-vapeur!entropie d’un}\index{abaques de vapeur}\index{liquides-vapeurs!propriétés tabulées (abaques)}
 	
 		Pour un liquide/vapeur, les variations ne peuvent pas être calculées car il n’existe pas de modèle mathématique simple pour modéliser la température en fonction des autres propriétés. La courbe de saturation et le chemin d’une évolution à pression constante sont représentés en \cref{fig_ts_lv} ; cette figure~ressemble très fortement au diagramme température-volume que nous avions tracé en \cref{fig_t-v_eau}.
 		Pour quantifier les valeurs de $s$, nous allons procéder exactement comme avec l’énergie interne $u$ au \courscinqshort~: en les tabulant.
@@ -564,7 +564,7 @@
 		\onlyamphibook{\dontbreakpage}%handmade
 
 	\subsection{Irréversibilités lors des compressions et détentes adiabatiques}
-	\index{irréversibilité!lors des compressions et détentes}\index{adiabatiques, évolutions}\index{adiabatiques irréversibles, évolutions}\index{chaleur!lors des irréversibilités}\index{irréversibilité!lors des transferts de travail}\index{travail!transferts irréversibles}
+	\index{irréversibilité!lors des compressions et détentes}\index{adiabatiques!irréversibles, évolutions}\index{chaleur!lors des irréversibilités}\index{irréversibilité!lors des transferts de travail}\index{travail!transferts irréversibles}
 
 		Un second type de transformation donne lieu à des irréversibilités, et donc à une augmentation de l’entropie totale : c’est le transfert de travail dans les fluides.
 
@@ -710,7 +710,7 @@
 		Les exemples que nous avons étudiés dans ce chapitre pour déterminer le sens des transformations sont très académiques, toutefois la démarche reste valide pour toute transformation : une pierre jetée dans un étang, une assiette qui se casse en tombant, etc. Si nous revenons aux trois photos de la~\cref{fig_water_jump}, nous pourrions en retrouver l’ordre en déterminant les états initial et final de l’eau autour de la plongeuse, et en comparant $\Delta s$ à l’intégrale $\int \left(\frac{\diff q}{T}\right)_\text{chemin réel}$ réalisée pendant l’entrée dans l’eau.
 		
 		\index{Clausius!Rudolf}\index{Reech, Ferdinand}\index{Rankine, William}
-		C’est ce désir de retrouver l’ordre absolu dans lequel se succèdent les états, c’est-à-dire le sens du temps, qui a mené le physicien allemand \wf{Rudolf Clausius} jusqu’à proposer le concept d’\vocab[entropie!création du concept]{entropie} en 1865 dans une publication magistrale --\ \textit{Über verschiedene für die Anwendung bequeme Formen der Hauptgleichungen der mechanischen Wärmetheorie}~\cite{clausius1865,clausius1867en,clausius1868fr2}. Concluant une décennie de travail autour de la grandeur $\frac{Q}{T}$, il y formalise un concept que ses condisciples français \wf{Ferdinand Reech} et écossais \wf{William Rankine} n’avaient qu’effleuré~\cite{truesdell1980}, et y rassemble l’ensemble des connaissances contemporaines de sa discipline.
+		C’est ce désir de retrouver l’ordre absolu dans lequel se succèdent les états, c’est-à-dire le sens du temps, qui a mené le physicien allemand \wf{Rudolf Clausius} jusqu’à proposer le concept d’\vocab[entropie!concept]{entropie} en 1865 dans une publication magistrale --\ \textit{Über verschiedene für die Anwendung bequeme Formen der Hauptgleichungen der mechanischen Wärmetheorie}~\cite{clausius1865,clausius1867en,clausius1868fr2}. Concluant une décennie de travail autour de la grandeur $\frac{Q}{T}$, il y formalise un concept que ses condisciples français \wf{Ferdinand Reech} et écossais \wf{William Rankine} n’avaient qu’effleuré~\cite{truesdell1980}, et y rassemble l’ensemble des connaissances contemporaines de sa discipline.
 		
 		\onlyamphibook{\thermoquotebegin{O}}
 		\onlyframabook{\thermoquotetopbegin{O}}
@@ -746,7 +746,7 @@ Ainsi, avec la définition technique ci-dessus du désordre, nous pouvons compre
 		\index{impossibilité (physique)}\index{probabilité (physique)}
 		À l’échelle macroscopique, nous avions décrit le second principe comme une impossibilité (\S\ref{ch_second_principe_enonce}) : un objet de température homogène ne peut pas voir spontanément une extrémité se refroidir et l’autre se réchauffer. Selon Boltzmann, un tel événement n’est pas strictement impossible, mais seulement très improbable. L’état où les molécules les plus rapides sont toutes rassemblées à une extrémité, et les plus lentes à l’autre, est bien moins probable (entropie plus faible) qu’un état où elles sont réparties de façon homogène (entropie plus grande).
 		
-		\index{statistique!thermodynamique,}
+		\index{statistique!thermodynamique}
 		Cette approche a non seulement le mérite de raccrocher notre discipline avec la théorie atomique --\ et nous parlerons dès lors de \vocab[microscopique, échelle]{thermodynamique microscopique} et \vocab[thermodynamique statistique]{statistique}\ -- mais elle va aussi ouvrir la porte de la théorie de l’information. En effet, la résolution et la précision avec lesquelles on évalue l’état d’un système affectent le nombre de configurations possibles que l’on peut lui attribuer. Voici le concept de l’\vocab[information (physique)]{information} rattaché à d’autres propriétés physiques : un résultat impressionnant pour une discipline qui ne visait qu’à explorer ce que voulait dire~«~chaud~» !
 		
 	\subsection{L’entropie et l’univers}
@@ -767,4 +767,4 @@ Ainsi, avec la définition technique ci-dessus du désordre, nous pouvons compre
 		
 		\index{Asimov, Isaac}\index{Depondt, Philippe}
 		La théorie des réfrigérateurs et des moteurs est-elle apte à prévoir la fin du monde ? Pour explorer cette question de façon ludique, l’étudiant/e pourra lire \textit{L’ultime question} d’Isaac \mbox{Asimov}~\cite{asimov1956,asimov1956fr} ou \textit{L’entropie et tout ça} de Philippe \mbox{Depondt}~\cite{depondt2001}. Pour une réponse plus formelle, il faudra se reporter à un bon manuel de physique.
-\index{entropie|)}
+\index{entropie|)textbf}

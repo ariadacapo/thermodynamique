@@ -1,4 +1,4 @@
-\index{cycles!moteur à vapeur|(}\index{moteur!cycles vapeur|(}
+\index{cycle!moteur à vapeur|(textbf}\index{moteur!cycles vapeur|(textbf}\index{liquides-vapeurs!cycles moteur|(textbf}
 \section{Pourquoi utiliser un moteur à vapeur ?}
 
 	\thermoquotebegin{O}
@@ -14,10 +14,10 @@
 		\item Il y a une perte inévitable d’une partie de la chaleur fournie à la machine, au-dessus de la chaudière.
 	\end{itemize}
 
-	\index{liquide-vapeur!utilisation industrielle}\index{combustible}\index{chaleur!sources de}
+	\index{liquides-vapeurs!utilisation industrielle}\index{combustible}\index{chaleur!sources de}
 	Pourquoi, alors, s’intéresser au fonctionnement des moteurs à vapeur ? La réponse est que beaucoup de sources de chaleur ne permettent pas d’apporter de la chaleur directement à l’intérieur du fluide moteur. En fin de combustion, le charbon, le bois, des déchets ménagers ou agricoles, par exemple, laissent des résidus importants qu’il est impensable de faire circuler dans une turbine. Les réactions nucléaires, quant à elles, ne peuvent pas être effectuées directement au sein de l’air. L’exploitation de ces sources, qui constituent une part importante des sources mondiales d’énergie, nécessite donc d’aller prélever la chaleur à l’extérieur du moteur.
 
-	\index{capacité!calorifique volumique}\index{calorifique, capacité}
+	\index{capacité!thermique volumique}
 	Les liquides ont une excellente capacité calorifique volumique en comparaison à celle de l’air (celle de l’eau est environ mille fois supérieure%
 		\footnote{Il est laissé à l’étudiant/e l’exercice de retrouver ces valeurs, à l’aide des \coursquatre et \courscinq.}) : il s’agit donc de médiums compacts pour prélever de la chaleur d’une source externe. Parmi eux, l’eau est la plus abondante et certainement la moins difficile à manipuler.
 
@@ -32,14 +32,14 @@
 	\subsection{Rendement thermique et rendement global}
 
 		\index{moteur!rendement d’un}\index{efficacité!d’un moteur}\index{efficacité!maximale d’un moteur}
-		Le paramètre que nous avons appris à quantifier jusqu’ici est bien sûr l’\vocab[efficacité!thermique]{efficacité thermique}\index{rendement} $\eta_\text{moteur} \equiv \left| \frac{\dot{W}_\net}{\dot{Q}_\inn} \right|$ (\ref{def_rendement_moteur}) que nous cherchons toujours à faire tendre vers son maximum théorique, $\eta _{moteur Carnot} = 1 - \frac{T_\text{min.}}{T_\text{max.}}$ (\ref{eq_efficacité_moteur_carnot_température}).
+		Le paramètre que nous avons appris à quantifier jusqu’ici est bien sûr l’\vocab[efficacité!d’un moteur]{efficacité thermique} du moteur $\eta_\text{moteur} \equiv \left| \frac{\dot{W}_\net}{\dot{Q}_\inn} \right|$ (\ref{def_rendement_moteur}) que nous cherchons toujours à faire tendre vers son maximum théorique, $\eta _{moteur Carnot} = 1 - \frac{T_\text{min.}}{T_\text{max.}}$ (\ref{eq_efficacité_moteur_carnot_température}).
 		
 		Il ne faut toutefois pas oublier que la transformation de chaleur en travail n’est qu’une des nombreuses opérations en jeu dans la production d’électricité :
 		\begin{itemize}
 			\item La préparation du combustible (raffinement et réchauffement de mazout, pulvérisation du charbon, séparation des sables bitumeux) peut elle-même demander de l’énergie, ce que nous pouvons évaluer avec une efficacité $\eta_\text{préparation}$ ;\index{efficacité!de préparation}
-			\item Dans la chaudière, le transfert énergétique depuis la source de chaleur vers l’eau peut se faire incomplètement (une partie de la chaleur étant éventuellement perdue avec les gaz d’échappement), ce que nous pouvons évaluer avec une efficacité $\eta_\text{chaudière}$ ;\index{efficacité!de chaudière}
+			\item Dans la chaudière, le transfert énergétique depuis la source de chaleur vers l’eau peut se faire incomplètement (une partie de la chaleur étant éventuellement perdue avec les gaz d’échappement), ce que nous pouvons évaluer avec une efficacité $\eta_\text{chaudière}$ ;\index{efficacité!d’une chaudière}
 			\item La transmission d’énergie mécanique depuis la turbine vers la génératrice, éventuellement à l’aide d’un multiplicateur, entraîne des pertes par frottement que nous évaluons avec une efficacité $\eta_\text{transmission}$ ;\index{efficacité!de transmission}
-			\item La génération de puissance électrique à partir de travail mécanique se fait elle aussi avec des pertes aboutissant à la production de chaleur, que nous évaluons avec une efficacité $\eta_\text{génératrice}$.\index{efficacité!de génératrice}
+			\item La génération de puissance électrique à partir de travail mécanique se fait elle aussi avec des pertes aboutissant à la production de chaleur, que nous évaluons avec une efficacité $\eta_\text{génératrice}$.\index{efficacité!d’une génératrice}
 		\end{itemize}
 		
 		Ainsi, l’\vocab[efficacité!globale]{efficacité globale} $\eta_\text{globale}$ de la production d’énergie électrique à la sortie de la centrale, qui compare l’énergie électrique produite à la chaleur effectivement dépensée pour la générer (c’est-à-dire son coût marginal énergétique), est le produit de toutes ces efficacités :
@@ -60,7 +60,7 @@
 		Malgré cela, nous pouvons déjà évaluer de façon primitive la taille et le coût d’acquisition d’un moteur en calculant sa \vocab[puissance!nette spécifique]{puissance nette spécifique} $w_\net$. Pour qu’il puisse être peu encombrant, il est en effet souhaitable qu’un moteur génère une puissance nette importante pour un débit de masse donné : il peut même être souhaitable de compromettre pour cela l’efficacité thermique.
 			
 		\index{SSC (Specific Steam Consumption)}
-		Dans l’industrie, l’usage est plutôt de mesurer le paramètre inverse, que nous nommons \vocab[consommation spécifique]{consommation \mbox{spécifique}}\index{spécifique!consommation}. Cette consommation indique le débit de vapeur nécessaire pour fournir un watt de puissance utile. Nous la notons $SSC$ (pour l’anglais \vocabe{Specific Steam Consumption}\index{Specific Steam Consumption (SSC)}) :
+		Dans l’industrie, l’usage est plutôt de mesurer le paramètre inverse, que nous nommons \vocab[consommation spécifique (de vapeur)]{consommation \mbox{spécifique}}\index{spécifique!consommation}. Cette consommation indique le débit de vapeur nécessaire pour fournir un watt de puissance utile. Nous la notons $SSC$ (pour l’anglais \vocabe{Specific Steam Consumption}\index{Specific Steam Consumption (SSC)}) :
 		\begin{equation}
 			\mathit{SSC} \equiv \frac{1}{|w_\net|}
 		\end{equation}
@@ -114,7 +114,7 @@
 
 		Notons enfin que d’une façon générale, dans les équipements fonctionnant en régime continu, nous choisissons de séparer dans l’espace les transferts de chaleur et transferts de travail. Cela réduit grandement la complexité des machines.
 
-		\begin{itemize}\index{isothermes, évolutions}\index{évolutions!isothermes}\index{isentropiques, évolutions}\index{évolutions!isentropiques}\index{adiabatiques réversibles, évolutions}\index{évolutions!adiabatiques réversibles}\index{chaleur!transferts réversibles}\index{travail!transferts réversibles}
+		\begin{itemize}\index{isothermes, évolutions}\index{évolutions!isothermes}\index{isentropiques, évolutions}\index{évolutions!isentropiques}\index{adiabatiques!réversibles, évolutions}\index{évolutions!adiabatiques réversibles}\index{chaleur!transferts réversibles}\index{travail!transferts réversibles}
 			\item L’apport ou l’extraction de chaleur se fait donc préférablement sans transfert de travail, c’est-à-dire à pression constante (transformations isobares). Idéalement, ces transferts se feront à température constante (transformations isothermes).
 			\item L’apport ou l’extraction de travail, nécessitant une variation de pression et le mouvement de pièces mécaniques au sein du fluide, se fait donc préférablement sans transfert de chaleur (transformations adiabatiques). Idéalement, ces transferts se feront sans augmentation d’entropie (transformations \mbox{isentropiques}).
 		\end{itemize}
@@ -331,7 +331,7 @@
 			\label{fig_centrale_condenseur3}
 		\end{figure}
 
-		\index{température!minimale d’un moteur}\index{moteur!température minimale d’un}
+		\index{température!minimale d’un moteur}\index{moteur!température minimale d’un}\index{pression!atmosphérique}\index{atmosphère, pression de l’}
 		Technologiquement, le condenseur est un élément simple : on met simplement la canalisation de vapeur en contact avec un circuit de température basse. Usuellement, ce circuit de refroidissement est constitué d’eau extérieure provenant d’une rivière ou de la mer,\footnote{Il y a deux intérêts à l’utilisation d’un circuit de refroidissement secondaire. D’une part, on peut abaisser la pression dans le condenseur à un niveau plus bas que celui de la pression atmosphérique et ainsi réduire la température minimale du cycle. D’autre part, l’eau du circuit thermodynamique, épurée au prix d’efforts considérables, n’est pas perdue dans l’atmosphère.}
 		qui sera refroidie ensuite par évaporation dans les larges cheminées que l’on aperçoit aux abords des centrales. Comme la pression de la vapeur à l’intérieur du condenseur est souvent très basse (jusqu’à~\SI{0,1}{\bar}) pour abaisser la température minimale du cycle de la centrale, il faut veiller à l’étanchéité du condenseur pour éviter que de l’air ou de l’eau extérieurs ne s’insèrent dans le circuit principal.
 
@@ -344,10 +344,10 @@
 
 
 \section{Cycles moteurs à vapeur}
-\label{ch_cycles_moteurs_vapeur}\index{cycle!d’un moteur à vapeur}\index{liquide-vapeur!cycles moteur}
+\label{ch_cycles_moteurs_vapeur}
 
 	\subsection{Le cycle de Carnot}
-	\index{Carnot!cycle de}
+	\index{Carnot!cycle de}\index{cycle!de Carnot}
 
 		Comme le cycle de Carnot que nous avons étudié au \S\ref{ch_cycle_de_carnot} nous sert de référence dans la conception des moteurs, nous débutons notre étude par celui-ci. La température d’un mélange liquide-vapeur reste constante lorsqu’on le chauffe à pression constante, aussi la réalisation de transferts de chaleur isothermes (caractéristique importante du cycle de Carnot) est relativement aisée avec la vapeur. Une machine à vapeur basée sur un cycle de Carnot est schématisée en figures~\ref{fig_machine_vapeur_carnot} et~\ref{fig_ts_machine_vapeur_carnot}.
 
@@ -405,7 +405,7 @@
 		
 		Toutefois, cette économie d’énergie n’est pas sans contrepartie : à la sortie de la pompe (point B), l’eau est à température bien plus faible qu’elle ne l’était à la sortie du compresseur en \cref{fig_machine_vapeur_carnot}. C’est \emph{la chaudière} qui devra ramener l’eau à l’état de liquide saturé. Autrement dit, il faut fournir une dépense supplémentaire considérable sous forme de chaleur pour compenser la baisse de puissance de compression.
 
-		\index{efficacité!d’une chaudière}\index{efficacité!thermique}\index{efficacité!d’un moteur}\index{moteur!rendement d’un}\index{chaudière!efficacité}
+		\index{efficacité!d’une chaudière}\index{efficacité!d’un moteur}\index{moteur!rendement d’un}\index{chaudière!efficacité}
 		On peut remarquer qu’une partie importante de la chaleur fournie par la chaudière (c’est-à-dire $q_\text{chaudière} = h_\C - h_B$ ) n’est plus apportée à la température maximale du cycle. Nous avons vu aux chapitres~\sept et~\huit qu’un apport de chaleur à basse température se traduit toujours par un rendement plus faible.\\
 		Toutefois, en pratique, cet apport de chaleur peut rendre possible l’exploitation de sources de chaleur à basse température, comme les gaz d’échappement qui étaient auparavant rejetés au-dessus de la chaudière. Ainsi, dans certains cas, la chute du rendement thermodynamique ($\eta_\text{moteur}$) peut être compensée par une augmentation du rendement de la chaudière ($\eta_\text{chaudière}$), qui peut extraire plus d’énergie au combustible pour le transmettre à la vapeur.
 		
@@ -416,7 +416,7 @@
 	\subsection{La surchauffe}
 	\index{surchauffe (procédé)}\index{Rankine!cycle surchauffé de}\index{cycle!de Rankine surchauffé}
 
-		\index{SSC (Specific Steam Consumption}\index{Specific Steam Consumption (SSC)}
+		\index{SSC (Specific Steam Consumption)}\index{Specific Steam Consumption (SSC)}\index{consommation spécifique (de vapeur)}
 		Pour réduire la consommation spécifique ($SSC$, \textit{cf.} \S\ref{ch_SSC} p.\pageref{ch_SSC}) d’une centrale, il est souhaitable d’augmenter la puissance développée par la turbine pour un débit de vapeur donné. Pour cela, il existe plusieurs options :
 
 		\begin{itemize}
@@ -508,7 +508,7 @@
 			\label{fig_ts_lv_regeneration}
 		\end{figure}
 
-		\index{Carnot!cycle de}\index{efficacité!d’un moteur}\index{efficacité!maximale d’un moteur}\index{moteur!rendement maximal d’un}
+		\index{Carnot!cycle de}\index{cycle!de Carnot}\index{efficacité!d’un moteur}\index{efficacité!maximale d’un moteur}\index{moteur!rendement maximal d’un}
 		Dans le cas limite où toute la chaleur utilisée lors de la régénération est transmise avec une différence de température infiniment faible, le cycle est réversible et le rendement du moteur de Carnot est atteint même si l’on ne suit pas à proprement parler le cycle de Carnot.
 
 		\index{chaleur!transferts réversibles}\index{titre}
@@ -539,7 +539,7 @@
 		\end{figure}
 
 		\clearfloats
-		En pratique, de nombreux prélèvements\index{turbine!prélèvement}\index{prélèvements turbine} (judicieusement appelés \vocabe{bleeds}, ou «~saignements~» en anglais) sont effectués dans les circuits de centrale à vapeur, pour contrôler les flux de chaleur (\cref{fig_grosse_centrale_vapeur}). Ils permettent accessoirement, par le biais de vannes de décharge, de réguler précisément les débits de masse et adapter ainsi rapidement la puissance de l’installation à la demande.
+		En pratique, de nombreux prélèvements\index{turbine!prélèvement}\index{prélèvement en turbine} (judicieusement appelés \vocabe{bleeds}, ou «~saignements~» en anglais) sont effectués dans les circuits de centrale à vapeur, pour contrôler les flux de chaleur (\cref{fig_grosse_centrale_vapeur}). Ils permettent accessoirement, par le biais de vannes de décharge, de réguler précisément les débits de masse et adapter ainsi rapidement la puissance de l’installation à la demande.
 
 		\begin{landscape}
 		\begin{figure}
@@ -553,4 +553,4 @@
 			\label{fig_grosse_centrale_vapeur}
 		\end{figure}
 		\end{landscape}
-\index{cycles!moteur à vapeur|)}\index{moteur!cycles vapeur|)}
+\index{cycle!moteur à vapeur|)textbf}\index{moteur!cycles vapeur|)textbf}\index{liquides-vapeurs!cycles moteur|)textbf}
