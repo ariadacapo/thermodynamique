@@ -1,20 +1,23 @@
+\index{cycles!moteur à vapeur|(}\index{moteur!cycles vapeur|(}
 \section{Pourquoi utiliser un moteur à vapeur ?}
 
 	\thermoquotebegin{O}
-		L’on a essayé à diverses reprises de faire agir la chaleur sur l’air atmosphérique pour donner naissance à la puissance motrice. ce gaz présente, relativement à la vapeur d’eau, des avantages et des inconvéniens que nous allons exmaminer.
+		L’on a essayé à diverses reprises de faire agir la chaleur sur l’air atmosphérique pour donner naissance à la puissance motrice. ce gaz présente, relativement à la vapeur d’eau, des avantages et des inconvéniens que nous allons examiner.
 		
 	1°. Il présente, relativement à la vapeur d’eau, un avantage notable en ce qu’ayant à volume égal une capacité pour la chaleur beaucoup moindre, il se refroidirait davantage par une extension semblable au volume. \jecourte Or on a vu de quelle importance il était d’occasionner, par les changemens de volume, les plus grands changemens possibles dans la température.
 	
 	2°. La vapeur d’eau ne peut être formée que par l’intermédiaire d’une chaudière, tandis que l’air atmosphérique pourrait être échauffé immédiatement par une combustion exécutée dans son sein. On éviterait ainsi une perte considérable, non seulement dans la quantité de chaleur, mais encore dans son degré thermométrique.
-	\thermoquoteend{Sadi Carnot, 1824~\cite{carnot1824}}{\onlyframabook{\vspace{-1em}}}		
+	\thermoquoteend{Sadi Carnot, 1824~\cite{carnot1824}\index{Carnot!Sadi}}{\onlyframabook{\vspace{-1em}}}		
 	L’utilisation de l’eau comme fluide moteur dans une machine a indubitablement de nombreux inconvénients. En particulier, contrairement aux moteurs à combustion interne :
 	\begin{itemize}
 		\item Il est nécessaire soit de recycler l’eau dans la machine (et donc de la refroidir), soit de trouver une source continue d’eau pure pour la faire \mbox{fonctionner} ;
 		\item Il y a une perte inévitable d’une partie de la chaleur fournie à la machine, au-dessus de la chaudière.
 	\end{itemize}
 
+	\index{liquide-vapeur!utilisation industrielle}\index{combustible}\index{chaleur!sources de}
 	Pourquoi, alors, s’intéresser au fonctionnement des moteurs à vapeur ? La réponse est que beaucoup de sources de chaleur ne permettent pas d’apporter de la chaleur directement à l’intérieur du fluide moteur. En fin de combustion, le charbon, le bois, des déchets ménagers ou agricoles, par exemple, laissent des résidus importants qu’il est impensable de faire circuler dans une turbine. Les réactions nucléaires, quant à elles, ne peuvent pas être effectuées directement au sein de l’air. L’exploitation de ces sources, qui constituent une part importante des sources mondiales d’énergie, nécessite donc d’aller prélever la chaleur à l’extérieur du moteur.
 
+	\index{capacité!calorifique volumique}\index{calorifique, capacité}
 	Les liquides ont une excellente capacité calorifique volumique en comparaison à celle de l’air (celle de l’eau est environ mille fois supérieure%
 		\footnote{Il est laissé à l’étudiant/e l’exercice de retrouver ces valeurs, à l’aide des \coursquatre et \courscinq.}) : il s’agit donc de médiums compacts pour prélever de la chaleur d’une source externe. Parmi eux, l’eau est la plus abondante et certainement la moins difficile à manipuler.
 
@@ -22,12 +25,13 @@
 
 \onlyframabook{\clearpage}
 \section{Critères d’évaluation des moteurs}
-\label{ch_evaluation_moteurs_vapeur}
+\label{ch_evaluation_moteurs_vapeur}\index{moteur!critères d’évaluation}
 
 	Plusieurs paramètres sont pris en compte dans l’évaluation de la performance et de la valeur des moteurs à vapeur.
 
 	\subsection{Rendement thermique et rendement global}
 
+		\index{moteur!rendement d’un}\index{efficacité!d’un moteur}\index{efficacité!maximale d’un moteur}
 		Le paramètre que nous avons appris à quantifier jusqu’ici est bien sûr l’\vocab[efficacité!thermique]{efficacité thermique}\index{rendement} $\eta_\text{moteur} \equiv \left| \frac{\dot{W}_\net}{\dot{Q}_\inn} \right|$ (\ref{def_rendement_moteur}) que nous cherchons toujours à faire tendre vers son maximum théorique, $\eta _{moteur Carnot} = 1 - \frac{T_\text{min.}}{T_\text{max.}}$ (\ref{eq_efficacité_moteur_carnot_température}).
 		
 		Il ne faut toutefois pas oublier que la transformation de chaleur en travail n’est qu’une des nombreuses opérations en jeu dans la production d’électricité :
@@ -52,9 +56,10 @@
 		
 		\thermoquotebegin{O}
 			\jecourte La charge convenable à la production du maximum \emph{absolu} d’effet utile, dans les machines à détente, n’est pas la charge maximum dont est capable la machine. \jecourte Si l’on veut que la machine mette en mouvement la plus grande charge dont elle est capable, il faut la faire travailler sans détente ; mais cette charge n’est pas celle qui produit le maximum \emph{absolu} d’effet utile.
-		\thermoquoteend{François-Marie Guyonneau de Pambour, 1839~\cite{pambour1839}}{\onlyframabook{\vspace{-1em}}}%handmade
+		\thermoquoteend{François-Marie Guyonneau de Pambour, 1839~\cite{pambour1839}\index{Pambour, François-Marie Guyonneau de}}{\onlyframabook{\vspace{-1em}}}%handmade
 		Malgré cela, nous pouvons déjà évaluer de façon primitive la taille et le coût d’acquisition d’un moteur en calculant sa \vocab[puissance!nette spécifique]{puissance nette spécifique} $w_\net$. Pour qu’il puisse être peu encombrant, il est en effet souhaitable qu’un moteur génère une puissance nette importante pour un débit de masse donné : il peut même être souhaitable de compromettre pour cela l’efficacité thermique.
 			
+		\index{SSC (Specific Steam Consumption)}
 		Dans l’industrie, l’usage est plutôt de mesurer le paramètre inverse, que nous nommons \vocab[consommation spécifique]{consommation \mbox{spécifique}}\index{spécifique!consommation}. Cette consommation indique le débit de vapeur nécessaire pour fournir un watt de puissance utile. Nous la notons $SSC$ (pour l’anglais \vocabe{Specific Steam Consumption}\index{Specific Steam Consumption (SSC)}) :
 		\begin{equation}
 			\mathit{SSC} \equiv \frac{1}{|w_\net|}
@@ -69,6 +74,7 @@
 		%Plus le débit massique est grand, plus les composants --\ la chaudière et la turbine en particulier\ --   devront être volumineux et coûteux. La consommation spécifique permet ainsi de comparer sommairement le coût et la taille d’installations.
 
 	\subsection{Impact écologique}
+	\index{écologique, impact}\index{environnement, impact sur}\index{chaleur!sources de}\index{combustible}
 	
 		La production de chaleur dans les moteurs thermodynamiques est au centre des grands défis écologiques de notre siècle. Une étude approfondie dépasse le cadre de ce livre, aussi retiendrons-nous seulement que l’impact écologique de cet approvisionnement en chaleur peut être réparti en trois grandes familles :
 		\begin{itemize}
@@ -81,6 +87,7 @@
 
 
 \section{Composants des installations à vapeur}
+\index{moteur!à vapeur, composants des}
 
 	Avant d’étudier la construction des cycles thermodynamiques à vapeur, nous révisons brièvement le mode de fonctionnement des composants les plus courants des centrales.
 
@@ -107,7 +114,7 @@
 
 		Notons enfin que d’une façon générale, dans les équipements fonctionnant en régime continu, nous choisissons de séparer dans l’espace les transferts de chaleur et transferts de travail. Cela réduit grandement la complexité des machines.
 
-		\begin{itemize}
+		\begin{itemize}\index{isothermes, évolutions}\index{évolutions!isothermes}\index{isentropiques, évolutions}\index{évolutions!isentropiques}\index{adiabatiques réversibles, évolutions}\index{évolutions!adiabatiques réversibles}\index{chaleur!transferts réversibles}\index{travail!transferts réversibles}
 			\item L’apport ou l’extraction de chaleur se fait donc préférablement sans transfert de travail, c’est-à-dire à pression constante (transformations isobares). Idéalement, ces transferts se feront à température constante (transformations isothermes).
 			\item L’apport ou l’extraction de travail, nécessitant une variation de pression et le mouvement de pièces mécaniques au sein du fluide, se fait donc préférablement sans transfert de chaleur (transformations adiabatiques). Idéalement, ces transferts se feront sans augmentation d’entropie (transformations \mbox{isentropiques}).
 		\end{itemize}
@@ -115,7 +122,7 @@
 
 
 	\subsection{Compresseurs et pompes}
-	\label{ch_moteurs_vapeur_compresseurs_et_pompes}
+	\label{ch_moteurs_vapeur_compresseurs_et_pompes}\index{compresseur}\index{pompe}
 
 		La compression sans transfert de chaleur d’un fluide en régime continu nécessite un transfert de travail :
 		\begin{equation}
@@ -143,6 +150,7 @@
 			\label{fig_centrale_pompe1}
 		\end{figure}
 
+		\index{incompressibilité}
 		La puissance spécifique requise pour comprimer un débit de fluide d’une pression $p_A$ à une pression $p_B$, lorsque l’évolution est réversible, s’exprime à partir de la relation \ref{eq_travail_w_rév_so}. Comme le volume massique $v_L$  de l’eau liquide pure saturée (environ $v_L = \SI{1e-3}{\metre\cubed\per\kilogram}$) varie très peu avec sa pression, nous pouvons écrire :
 		\begin{equation}
 			w_\text{pompe~liquide} \approx v_L \int_\A^\B \diff p = v_L (p_\B - p_\A ) \label{eq_pompe_liquide}
@@ -168,13 +176,14 @@
 		 	\end{anexample}
 
 	\subsection{Chaudière}
-	\label{ch_chaudière}
+	\label{ch_chaudière}\index{chaudière}\index{efficacité!d’une chaudière}
 
 		Dans les centrales à vapeur, les apports de chaleur se font à pression constante. L’eau du circuit thermodynamique est réchauffée par contact avec une autre canalisation : d’air dans le cas des centrales à combustion (déchets, charbon, gaz), ou d’eau (d’un circuit secondaire) dans le cas des centrales nucléaires%
 		\footnote{Nous utilisons un deuxième circuit d’eau pour éviter de faire passer l’eau du circuit thermodynamique à haute pression dans le cœur même du réacteur.}\nolinebreak.
 
 		L’extraordinaire comportement des fluides lorsqu’ils changent de phase tourne ici à notre avantage : en mélange di-phasique, une évolution à pression constante se fait aussi à température constante (\S\ref{ch_lv_diagramme_tv}),	ce qui nous permet de nous rapprocher des conditions prescrites par Carnot sans avoir recours à la moindre pièce mobile.
 		
+		\index{pression!maximale d’un moteur}\index{moteur!pression maximale d’un}
 		Parce qu’elle fonctionne à haute pression (au delà de~\SI{60}{\bar} dans les installations modernes) et qu’elle est le théâtre de transferts de chaleur et gradients de température importants, la chaudière est un élément coûteux et lourd (figures~\ref{fig_centrale_chaudiere1} et~\ref{fig_centrale_chaudiere2}), même si son principe de fonctionnement est simple.
 
 		\begin{figure}
@@ -206,6 +215,7 @@
 	\dontbreakpage%handmade (mais keskifélalatek?)
 
 	\subsection{Turbine}
+	\index{turbine}
 
 		La turbine (figures~\ref{fig_centrale_turbine1} et~\ref{fig_centrale_turbine2}) est la pièce maîtresse de toute centrale à vapeur. Longue de plusieurs dizaines de mètres dans les installations modernes, elle est équilibrée avec grand soin, mise en place dans son coffrage et, si elle fait l’objet d’attention adéquate (minimisation des gradients de température, lubrification avancée), peut délivrer de la puissance mécanique pendant plusieurs dizaines d’années sans aucune interruption.
 
@@ -251,6 +261,7 @@
 		\end{figure}
 }%fin onlyamphibook
 
+		\index{efficacité!d’une turbine}
 		L’efficacité d’une turbine se mesure en comparant sa puissance avec celle d’une turbine idéale (une turbine qui serait isentropique). Nous nommons ce paramètre l’\vocab[efficacité!isentropique]{efficacité isentropique}\index{turbine!efficacité isentropique}\index{isentropique, efficacité} $\eta_\text{T}$ :
 		\begin{equation}
 			\eta_\text{T} \equiv \frac{\dot{W}_\text{turbine réelle}}{\dot{W}_\text{turbine isentropique}}
@@ -262,6 +273,7 @@
 			\item et \tab $\dot{W}_\text{turbine isentropique}$ 	\tab la puissance d’une turbine isentropique fonctionnant avec le même débit de masse et entre les deux mêmes pressions.
 		\end{equationterms}
 
+		\index{turbine!puissance d’une}\index{puissance!d’une turbine}
 		La puissance réelle, quant à elle, s’exprime toujours en fonction des propriétés du fluide à l’entrée et à la sortie de la turbine :
 		\begin{equation}
 			\dot{W}_\text{turbine réelle} = \dot{m} \ (h_{2 \text{réel}} - h_1) = \dot m \ \eta_\text{T} \ (h_{2’} - h_1)
@@ -270,6 +282,7 @@
 
 		Nous utilisons l’\cref{eq_puissance_turbine_vapeur} pour prévoir l’état de la vapeur à la sortie de n’importe quelle turbine dont la puissance et l’efficacité isentropique sont connues.
 
+		\index{courbe!de saturation}\index{saturation!courbe de}
 		Un paramètre important qui doit être surveillé est le titre de l’eau, en particulier dans les derniers étages. En effet, nous avons déjà vu en section \S\ref{ch_lv_isentropiques} p.\pageref{ch_lv_isentropiques} que les courbes isentropiques finissent toujours par croiser la courbe de saturation : dans une détente isentropique, la vapeur finit toujours par se condenser. Les gouttelettes liquides, beaucoup plus denses que la vapeur qui les entoure, percutent alors violemment les pales et en provoquent l’érosion. L’ingénieur/e thermodynamicien/ne veillera ainsi à garder un haut titre, usuellement sans descendre en deçà de~\SI{95}{\percent}.
 
 		\begin{anexample}
@@ -289,6 +302,7 @@
 		\end{anexample}
 
 	\subsection{Condenseur}
+	\index{condenseur}
 
 		Le condenseur (figures~\ref{fig_centrale_condenseur1} et~\ref{fig_centrale_condenseur2}), composant le moins glorieux de l’installation, est en charge de rejeter toute la chaleur dont l’ingénieur/e ne sait plus faire usage (\S\ref{ch_second_principe_machines_thermiques}). L’eau y est toujours refroidie à pression constante, ce qui ne nécessite pas de pièce mobile.
 
@@ -298,7 +312,7 @@
 			\end{center}
 			\supercaption{Représentation schématique d’un condenseur.\\
 			L’eau du circuit thermodynamique y pénètre par le haut, dans un état proche de la vapeur saturée. Elle en ressort par le bas à l’état liquide. L’extraction de chaleur est usuellement assurée par un circuit d’eau secondaire (schématisé en bleu) qui, elle, est mise en contact avec l’atmosphère.}{schéma \ccbysa \olivier}
-			\label{fig_centrale_condenseur2}
+			\label{fig_centrale_condenseur1}
 		\end{figure}
 
 		\begin{figure}
@@ -306,7 +320,7 @@
 				\includegraphics[width=\textwidth]{images/centrale_condenseur_photo.jpg}
 			\end{center}
 			\supercaption{Un condenseur dans lequel la chaleur est évacuée directement dans l’atmosphère, par conduction forcée à l’aide de ventilateurs.}{\wcfile{Cenk_Endustri_Field_Erected_Industrial_Cooling_Tower.JPG}{Photo} \ccbysa Cenk Endustri}
-			\label{fig_centrale_condenseur1}
+			\label{fig_centrale_condenseur2}
 		\end{figure}
 
 		\begin{figure}
@@ -314,12 +328,14 @@
 				\includegraphics[width=0.6\textwidth]{images/cooling_towers.jpg}
 			\end{center}
 			\supercaption{Cheminées de refroidissement de la centrale à charbon de Eggborough (1967, \SI{1960}{\mega\watt}) au Royaume-Uni. Dans ces cheminées, la chaleur prélevée à l’eau du circuit dans le condenseur est évacuée dans l’atmosphère. Ce refroidissement est effectué au moyen d’un circuit d’eau secondaire, qui est mis en contact avec l’atmosphère et s’y évapore partiellement.}{\wcfile{Eggborough cooling towers ^1 - geograph.org.uk - 844420.jpg}{Photo} \ccbysa \href{http://www.geograph.org.uk/profile/15341}{Steve Fareham}}
-			\label{fig_centrale_condenseur1}
+			\label{fig_centrale_condenseur3}
 		\end{figure}
 
+		\index{température!minimale d’un moteur}\index{moteur!température minimale d’un}
 		Technologiquement, le condenseur est un élément simple : on met simplement la canalisation de vapeur en contact avec un circuit de température basse. Usuellement, ce circuit de refroidissement est constitué d’eau extérieure provenant d’une rivière ou de la mer,\footnote{Il y a deux intérêts à l’utilisation d’un circuit de refroidissement secondaire. D’une part, on peut abaisser la pression dans le condenseur à un niveau plus bas que celui de la pression atmosphérique et ainsi réduire la température minimale du cycle. D’autre part, l’eau du circuit thermodynamique, épurée au prix d’efforts considérables, n’est pas perdue dans l’atmosphère.}
 		qui sera refroidie ensuite par évaporation dans les larges cheminées que l’on aperçoit aux abords des centrales. Comme la pression de la vapeur à l’intérieur du condenseur est souvent très basse (jusqu’à~\SI{0,1}{\bar}) pour abaisser la température minimale du cycle de la centrale, il faut veiller à l’étanchéité du condenseur pour éviter que de l’air ou de l’eau extérieurs ne s’insèrent dans le circuit principal.
 
+		\index{puissance!d’un condenseur}\index{condenseur!puissance d’un}
 		La puissance perdue par la vapeur dans le condenseur s’exprime selon :
 		\begin{equation}
 			\dot{Q}_\text{condenseur} = \dot{m} \ (h_2 - h_1)
@@ -328,9 +344,10 @@
 
 
 \section{Cycles moteurs à vapeur}
-\label{ch_cycles_moteurs_vapeur}
+\label{ch_cycles_moteurs_vapeur}\index{cycle!d’un moteur à vapeur}\index{liquide-vapeur!cycles moteur}
 
 	\subsection{Le cycle de Carnot}
+	\index{Carnot!cycle de}
 
 		Comme le cycle de Carnot que nous avons étudié au \S\ref{ch_cycle_de_carnot} nous sert de référence dans la conception des moteurs, nous débutons notre étude par celui-ci. La température d’un mélange liquide-vapeur reste constante lorsqu’on le chauffe à pression constante, aussi la réalisation de transferts de chaleur isothermes (caractéristique importante du cycle de Carnot) est relativement aisée avec la vapeur. Une machine à vapeur basée sur un cycle de Carnot est schématisée en figures~\ref{fig_machine_vapeur_carnot} et~\ref{fig_ts_machine_vapeur_carnot}.
 
@@ -354,15 +371,17 @@
 
 
 	\subsection{Le cycle de Rankine}
-	\label{ch_cycle_de_rankine}
+	\label{ch_cycle_de_rankine}\index{Rankine!cycle de}\index{cycle!de Rankine}
 
-		En pratique, l’utilisation du cycle de Carnot comme ci-haut pose plusieurs difficultés :
+		\index{Carnot!cycle de}\index{cycle!de Carnot}
+		En pratique, l’utilisation du cycle de Carnot comme décrit plus haut pose plusieurs \mbox{difficultés} :
 
 		\begin{itemize}
 			\item La compression d’un mélange di-phasique est technologiquement difficile (\S\ref{ch_moteurs_vapeur_compresseurs_et_pompes} p.\pageref{ch_moteurs_vapeur_compresseurs_et_pompes}) ;
 			\item Dans le condenseur, il est difficile d’interrompre la condensation à un endroit précis (le point A en figures~\ref{fig_machine_vapeur_carnot} et~\ref{fig_ts_machine_vapeur_carnot} plus haut, dont le titre est proche mais différent de~zéro).
 		\end{itemize}
 
+		\index{Rankine!William John Macquorn}
 		\wed{William John Macquorn Rankine}{William Rankine}, ingénieur anglo-saxon, propose en 1859 une modification du cycle en poursuivant la condensation jusqu’à saturation et en ne compressant l’eau qu’à l’état liquide. Une machine basée sur ce cycle est décrite en figures~\ref{fig_cycle_rankine} et~\ref{fig_ts_lv_rankine}.
 
 		\begin{figure}
@@ -381,10 +400,12 @@
 			\label{fig_ts_lv_rankine}
 		\end{figure}
 
+		\index{Rankine!cycle de}
 		Le \vocab[cycle!de Rankine]{cycle de Rankine} utilise donc une pompe à eau liquide plutôt qu’un compresseur en mélange liquide/vapeur. Technologiquement, une pompe est plus simple à concevoir, fabriquer et mettre en œuvre qu’un compresseur. Autre avantage, la compression d’un liquide est plusieurs dizaines de fois plus économe en énergie que celle du mélange (\S\ref{ch_moteurs_vapeur_compresseurs_et_pompes}).
 		
 		Toutefois, cette économie d’énergie n’est pas sans contrepartie : à la sortie de la pompe (point B), l’eau est à température bien plus faible qu’elle ne l’était à la sortie du compresseur en \cref{fig_machine_vapeur_carnot}. C’est \emph{la chaudière} qui devra ramener l’eau à l’état de liquide saturé. Autrement dit, il faut fournir une dépense supplémentaire considérable sous forme de chaleur pour compenser la baisse de puissance de compression.
 
+		\index{efficacité!d’une chaudière}\index{efficacité!thermique}\index{efficacité!d’un moteur}\index{moteur!rendement d’un}\index{chaudière!efficacité}
 		On peut remarquer qu’une partie importante de la chaleur fournie par la chaudière (c’est-à-dire $q_\text{chaudière} = h_\C - h_B$ ) n’est plus apportée à la température maximale du cycle. Nous avons vu aux chapitres~\sept et~\huit qu’un apport de chaleur à basse température se traduit toujours par un rendement plus faible.\\
 		Toutefois, en pratique, cet apport de chaleur peut rendre possible l’exploitation de sources de chaleur à basse température, comme les gaz d’échappement qui étaient auparavant rejetés au-dessus de la chaudière. Ainsi, dans certains cas, la chute du rendement thermodynamique ($\eta_\text{moteur}$) peut être compensée par une augmentation du rendement de la chaudière ($\eta_\text{chaudière}$), qui peut extraire plus d’énergie au combustible pour le transmettre à la vapeur.
 		
@@ -393,10 +414,13 @@
 		
 
 	\subsection{La surchauffe}
+	\index{surchauffe (procédé)}\index{Rankine!cycle surchauffé de}\index{cycle!de Rankine surchauffé}
 
+		\index{SSC (Specific Steam Consumption}\index{Specific Steam Consumption (SSC)}
 		Pour réduire la consommation spécifique ($SSC$, \textit{cf.} \S\ref{ch_SSC} p.\pageref{ch_SSC}) d’une centrale, il est souhaitable d’augmenter la puissance développée par la turbine pour un débit de vapeur donné. Pour cela, il existe plusieurs options :
 
 		\begin{itemize}
+			\index{pression!de saturation}\index{pression!maximale d’un moteur}\index{moteur!pression maximale d’un}
 			\item Augmenter l’enthalpie à l’entrée de la turbine (c’est-à-dire augmenter la pression de saturation dans la chaudière). \\
 			Malheureusement, cela impose à la chaudière d’être plus résistante et plus coûteuse ; de plus, cela réduit la quantité de chaleur spécifique qu’il est possible d’y apporter, puisque l’enthalpie de vaporisation $h_{LV}$ décroît avec la température ;
 
@@ -407,7 +431,8 @@
 			Cela permet d’utiliser pleinement les capacités de la turbine, dont les limites métallurgiques (généralement autour de~\SI{1000}{\kelvin}) dépassent déjà souvent celles des chaudières.
 		\end{itemize}
 
-		C’est cette dernière option qui est très souvent choisie. On nomme cette modification la \vocab{surchauffe} : la vapeur est surchauffée à la sortie de la chaudière%
+		\index{surchauffée, vapeur}
+		C’est cette dernière option qui est très souvent choisie. On nomme cette modification la \vocab[surchauffe (procédé)]{surchauffe} : la vapeur est surchauffée à la sortie de la chaudière%
 		\footnote{La surchauffe pourrait théoriquement être effectuée dans la chaudière même ; cependant, la densité de la vapeur surchauffée étant relativement faible, il est plus aisé de la mettre en contact avec les gaz les plus chauds en dehors (et en dessous) de la chaudière.}, à pression constante, à travers une série de tubes portés à plus haute température (figures~\ref{fig_cycle_rankine_surchauffe} et~\ref{fig_ts_lv_rankine_surchauffe}).
 
 		\begin{figure}
@@ -426,13 +451,15 @@
 			\label{fig_ts_lv_rankine_surchauffe}
 		\end{figure}
 
+		\index{efficacité!d’un moteur}\index{moteur!rendement d’un}\index{température!maximale d’un moteur}\index{moteur!température maximale d’un}
 		L’avantage principal de cette modification est qu’elle permet une diminution de la consommation spécifique peu complexe à mettre en œuvre. Autre avantage, l’augmentation de la température moyenne à laquelle la chaleur est apportée tend à augmenter le rendement thermodynamique. Enfin, il devient possible de décaler la plage d’utilisation de la turbine entièrement dans le domaine de la vapeur surchauffée : l’érosion des pales par l’eau liquide est ainsi évitée. De fait, toutes les installations à vapeur modernes utilisent un circuit de surchauffe.
 
 
 	\subsection{La resurchauffe}
-	\label{ch_resurchauffe}
+	\label{ch_resurchauffe}\index{resurchauffe (procédé)}\index{Rankine!cycle resurchauffé de}
 
-		Pour augmenter à nouveau la puissance de l’installation sans augmenter le débit de vapeur (et donc sa taille globale et le coût de la chaudière), il est possible de chauffer une deuxième fois la vapeur avant sa sortie de la turbine (figures~\ref{fig_cycle_resurchauffe} et~\ref{fig_ts_lv_surchauffe_resurchauffe}). C’est ce que l’on appelle la \vocab{resurchauffe}.
+		\index{surchauffée, vapeur}
+		Pour augmenter à nouveau la puissance de l’installation sans augmenter le débit de vapeur (et donc sa taille globale et le coût de la chaudière), il est possible de chauffer une deuxième fois la vapeur avant sa sortie de la turbine (figures~\ref{fig_cycle_resurchauffe} et~\ref{fig_ts_lv_surchauffe_resurchauffe}). C’est ce que l’on appelle la \vocab[resurchauffe (procédé)]{resurchauffe}.
 
 		\begin{figure}
 			\begin{center}
@@ -450,18 +477,20 @@
 			\label{fig_ts_lv_surchauffe_resurchauffe}
 		\end{figure}
 
+		\index{température!maximale d’un moteur}\index{moteur!température maximale d’un}
 		Avec cette modification, la détente dans la turbine est interrompue et la vapeur est conduite dans une nouvelle série de tubes pour porter à nouveau sa température à haute température (usuellement aux limites métallurgiques de la turbine). La détente est alors complétée jusqu’à la pression du condenseur.
 
+		\index{efficacité!d’un moteur}\index{moteur!rendement d’un}
 		Le rendement global de l’installation est augmenté si la température moyenne de chauffage l’est aussi ; il faut donc choisir avec soin la pression de la resurchauffe. La consommation spécifique, elle, est diminuée dans tous les cas, avec les avantages décrits plus haut.
 
 
 
 	\subsection{La régénération}
-	\label{ch_regeneration}
+	\label{ch_regeneration}\index{régénération (procédé)}
 
 		Lorsque Rankine a modifié le cycle de Carnot, il a réduit le travail à fournir pour compresser l’eau et augmenté la chaleur nécessaire pour l’amener en entrée de turbine. En contrepartie, le rendement thermodynamique a diminué : en effet, lorsque l’eau pénètre dans la chaudière, sa température est désormais très faible. Elle reçoit de la chaleur de façon non-réversible.
 
-		Pour augmenter la réversibilité du cycle (et donc son rendement), il est possible de réchauffer l’eau progressivement, en utilisant la chaleur en provenance de la turbine (où la température de la vapeur varie). Cette technique est nommée \vocab{régénération}. On peut ainsi imaginer un cycle comme décrit en figures~\ref{fig_circuit_regeneration} et~\ref{fig_ts_lv_regeneration} ci-dessous, où l’eau liquide en sortie de pompe est réchauffée progressivement en refroidissant la turbine.
+		Pour augmenter la réversibilité du cycle (et donc son rendement), il est possible de réchauffer l’eau progressivement, en utilisant la chaleur en provenance de la turbine (où la température de la vapeur varie). Cette technique est nommée \vocab[régénération (procédé)]{régénération}. On peut ainsi imaginer un cycle comme décrit en figures~\ref{fig_circuit_regeneration} et~\ref{fig_ts_lv_regeneration} ci-dessous, où l’eau liquide en sortie de pompe est réchauffée progressivement en refroidissant la turbine.
 
 		\begin{figure}
 			\begin{center}
@@ -479,12 +508,13 @@
 			\label{fig_ts_lv_regeneration}
 		\end{figure}
 
-
+		\index{Carnot!cycle de}\index{efficacité!d’un moteur}\index{efficacité!maximale d’un moteur}\index{moteur!rendement maximal d’un}
 		Dans le cas limite où toute la chaleur utilisée lors de la régénération est transmise avec une différence de température infiniment faible, le cycle est réversible et le rendement du moteur de Carnot est atteint même si l’on ne suit pas à proprement parler le cycle de Carnot.
 
+		\index{chaleur!transferts réversibles}\index{titre}
 		En pratique hélas, un tel dispositif est difficile à réaliser. En effet, la transmission réversible de chaleur est complexe à mettre en place dans la turbine, élément dont la conception et la fabrication sont déjà très coûteuses. De plus, le refroidissement de la vapeur réduit son titre, augmentant la quantité d’eau liquide érodant les pièces de la turbine.
 
-		\clearpage
+		\clearpage\index{prélèvement!en turbine}
 		Pour mettre en place la régénération, on a donc recours à la technique de \vocab[turbine!prélèvement]{\mbox{prélèvement} turbine}. De la vapeur est ponctionnée depuis la turbine, et mélangée à l’eau liquide en sortie de pompe (figures~\ref{fig_cycle_prélèvement_vapeur} et~\ref{fig_ts_lv_prelevement_vapeur}). On obtient ainsi un transfert de chaleur plus facile à mettre en œuvre.
 
 		\onlyamphibook{\begin{figure}}
@@ -523,3 +553,4 @@
 			\label{fig_grosse_centrale_vapeur}
 		\end{figure}
 		\end{landscape}
+\index{cycles!moteur à vapeur|)}\index{moteur!cycles vapeur|)}
