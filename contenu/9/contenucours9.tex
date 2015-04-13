@@ -1,4 +1,4 @@
-\index{cycle!moteur à vapeur|(textbf}\index{moteur!cycles vapeur|(textbf}\index{liquides-vapeurs!cycles moteur|(textbf}
+\index{cycle!moteur à vapeur|(textbf}\index{moteur!cycles vapeur|(textbf}\index{vapeur!cycles moteur|(textbf}\index{liquides-vapeurs!cycles moteur|(textbf}
 \section{Pourquoi utiliser un moteur à vapeur ?}
 
 	\thermoquotebegin{O}
@@ -114,7 +114,7 @@
 
 		Notons enfin que d’une façon générale, dans les équipements fonctionnant en régime continu, nous choisissons de séparer dans l’espace les transferts de chaleur et transferts de travail. Cela réduit grandement la complexité des machines.
 
-		\begin{itemize}\index{isothermes, évolutions}\index{évolutions!isothermes}\index{isentropiques, évolutions}\index{évolutions!isentropiques}\index{adiabatiques!réversibles, évolutions}\index{évolutions!adiabatiques réversibles}\index{chaleur!transferts réversibles}\index{travail!transferts réversibles}
+		\begin{itemize}\index{isothermes, évolutions}\index{évolutions!isothermes}\index{isentropiques, évolutions}\index{évolutions!isentropiques}\index{adiabatiques!réversibles, évolutions}\index{évolutions!adiabatiques réversibles}\index{travail!transferts réversibles}
 			\item L’apport ou l’extraction de chaleur se fait donc préférablement sans transfert de travail, c’est-à-dire à pression constante (transformations isobares). Idéalement, ces transferts se feront à température constante (transformations isothermes).
 			\item L’apport ou l’extraction de travail, nécessitant une variation de pression et le mouvement de pièces mécaniques au sein du fluide, se fait donc préférablement sans transfert de chaleur (transformations adiabatiques). Idéalement, ces transferts se feront sans augmentation d’entropie (transformations \mbox{isentropiques}).
 		\end{itemize}
@@ -176,7 +176,7 @@
 		 	\end{anexample}
 
 	\subsection{Chaudière}
-	\label{ch_chaudière}\index{chaudière}\index{efficacité!d’une chaudière}
+	\label{ch_chaudière}\index{chaudière|(textbf}\index{efficacité!d’une chaudière}
 
 		Dans les centrales à vapeur, les apports de chaleur se font à pression constante. L’eau du circuit thermodynamique est réchauffée par contact avec une autre canalisation : d’air dans le cas des centrales à combustion (déchets, charbon, gaz), ou d’eau (d’un circuit secondaire) dans le cas des centrales nucléaires%
 		\footnote{Nous utilisons un deuxième circuit d’eau pour éviter de faire passer l’eau du circuit thermodynamique à haute pression dans le cœur même du réacteur.}\nolinebreak.
@@ -211,6 +211,7 @@
 		\end{equation}
 
 		La différence de masse volumique entre les deux phases dans la chaudière fait qu’il est difficile de surchauffer la vapeur en présence de liquide (le liquide, plus dense et donc au fond de la chaudière, est en effet plus à même d’absorber la chaleur à haute température). Nous considérerons ainsi toujours que l’eau est sous forme de vapeur saturée (indice~$V$) à la sortie de la chaudière.
+	\index{chaudière|)textbf}
 		
 	\dontbreakpage%handmade (mais keskifélalatek?)
 
@@ -282,7 +283,7 @@
 
 		Nous utilisons l’\cref{eq_puissance_turbine_vapeur} pour prévoir l’état de la vapeur à la sortie de n’importe quelle turbine dont la puissance et l’efficacité isentropique sont connues.
 
-		\index{courbe!de saturation}\index{saturation!courbe de}
+		\index{courbe!de saturation}\index{saturation!courbe de}\index{titre}\index{vapeur!titre de}
 		Un paramètre important qui doit être surveillé est le titre de l’eau, en particulier dans les derniers étages. En effet, nous avons déjà vu en section \S\ref{ch_lv_isentropiques} p.\pageref{ch_lv_isentropiques} que les courbes isentropiques finissent toujours par croiser la courbe de saturation : dans une détente isentropique, la vapeur finit toujours par se condenser. Les gouttelettes liquides, beaucoup plus denses que la vapeur qui les entoure, percutent alors violemment les pales et en provoquent l’érosion. L’ingénieur/e thermodynamicien/ne veillera ainsi à garder un haut titre, usuellement sans descendre en deçà de~\SI{95}{\percent}.
 
 		\begin{anexample}
@@ -431,9 +432,9 @@
 			Cela permet d’utiliser pleinement les capacités de la turbine, dont les limites métallurgiques (généralement autour de~\SI{1000}{\kelvin}) dépassent déjà souvent celles des chaudières.
 		\end{itemize}
 
-		\index{surchauffée, vapeur}
+		\index{vapeur!sèche}
 		C’est cette dernière option qui est très souvent choisie. On nomme cette modification la \vocab[surchauffe (procédé)]{surchauffe} : la vapeur est surchauffée à la sortie de la chaudière%
-		\footnote{La surchauffe pourrait théoriquement être effectuée dans la chaudière même ; cependant, la densité de la vapeur surchauffée étant relativement faible, il est plus aisé de la mettre en contact avec les gaz les plus chauds en dehors (et en dessous) de la chaudière.}, à pression constante, à travers une série de tubes portés à plus haute température (figures~\ref{fig_cycle_rankine_surchauffe} et~\ref{fig_ts_lv_rankine_surchauffe}).
+		\footnote{La surchauffe pourrait théoriquement être effectuée dans la chaudière même ; cependant, la densité de la vapeur sèche étant relativement faible, il est plus aisé de la mettre en contact avec les gaz les plus chauds en dehors (et en dessous) de la chaudière.}, à pression constante, à travers une série de tubes portés à plus haute température (figures~\ref{fig_cycle_rankine_surchauffe} et~\ref{fig_ts_lv_rankine_surchauffe}).
 
 		\begin{figure}
 			\begin{center}
@@ -452,13 +453,13 @@
 		\end{figure}
 
 		\index{efficacité!d’un moteur}\index{moteur!rendement d’un}\index{température!maximale d’un moteur}\index{moteur!température maximale d’un}
-		L’avantage principal de cette modification est qu’elle permet une diminution de la consommation spécifique peu complexe à mettre en œuvre. Autre avantage, l’augmentation de la température moyenne à laquelle la chaleur est apportée tend à augmenter le rendement thermodynamique. Enfin, il devient possible de décaler la plage d’utilisation de la turbine entièrement dans le domaine de la vapeur surchauffée : l’érosion des pales par l’eau liquide est ainsi évitée. De fait, toutes les installations à vapeur modernes utilisent un circuit de surchauffe.
+		L’avantage principal de cette modification est qu’elle permet une diminution de la consommation spécifique peu complexe à mettre en œuvre. Autre avantage, l’augmentation de la température moyenne à laquelle la chaleur est apportée tend à augmenter le rendement thermodynamique. Enfin, il devient possible de décaler la plage d’utilisation de la turbine entièrement dans le domaine de la vapeur sèche : l’érosion des pales par l’eau liquide est ainsi évitée. De fait, toutes les installations à vapeur modernes utilisent un circuit de surchauffe.
 
 
 	\subsection{La resurchauffe}
 	\label{ch_resurchauffe}\index{resurchauffe (procédé)}\index{Rankine!cycle resurchauffé de}
 
-		\index{surchauffée, vapeur}
+		\index{vapeur!sèche}
 		Pour augmenter à nouveau la puissance de l’installation sans augmenter le débit de vapeur (et donc sa taille globale et le coût de la chaudière), il est possible de chauffer une deuxième fois la vapeur avant sa sortie de la turbine (figures~\ref{fig_cycle_resurchauffe} et~\ref{fig_ts_lv_surchauffe_resurchauffe}). C’est ce que l’on appelle la \vocab[resurchauffe (procédé)]{resurchauffe}.
 
 		\begin{figure}
@@ -511,7 +512,7 @@
 		\index{Carnot!cycle de}\index{cycle!de Carnot}\index{efficacité!d’un moteur}\index{efficacité!maximale d’un moteur}\index{moteur!rendement maximal d’un}
 		Dans le cas limite où toute la chaleur utilisée lors de la régénération est transmise avec une différence de température infiniment faible, le cycle est réversible et le rendement du moteur de Carnot est atteint même si l’on ne suit pas à proprement parler le cycle de Carnot.
 
-		\index{chaleur!transferts réversibles}\index{titre}
+		\index{chaleur!transferts réversibles}\index{titre}\index{vapeur!titre de}
 		En pratique hélas, un tel dispositif est difficile à réaliser. En effet, la transmission réversible de chaleur est complexe à mettre en place dans la turbine, élément dont la conception et la fabrication sont déjà très coûteuses. De plus, le refroidissement de la vapeur réduit son titre, augmentant la quantité d’eau liquide érodant les pièces de la turbine.
 
 		\clearpage\index{prélèvement!en turbine}
@@ -553,4 +554,4 @@
 			\label{fig_grosse_centrale_vapeur}
 		\end{figure}
 		\end{landscape}
-\index{cycle!moteur à vapeur|)textbf}\index{moteur!cycles vapeur|)textbf}\index{liquides-vapeurs!cycles moteur|)textbf}
+\index{cycle!moteur à vapeur|)textbf}\index{moteur!cycles vapeur|)textbf}\index{vapeur!cycles moteur|)textbf}\index{liquides-vapeurs!cycles moteur|)textbf}

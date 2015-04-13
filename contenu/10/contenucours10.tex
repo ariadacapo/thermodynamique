@@ -81,7 +81,7 @@
 	\subsection{Poussée et puissance spécifiques}
 	\label{ch_poussee_puissance_specifiques}
 
-		Nous utilisons les concepts de \vocab{poussée!spécifique}\index{spécifique!poussée} $\frac{P}{\dot m}$ et \vocab[puissance!spécifique (d’un moteur) (d’un moteur)]{puissance spécifique}\index{spécifique!puissance} $w_\net$, c’est-à-dire la poussée et la puissance du moteur divisées par le débit d’air qui le traverse, pour comparer sommairement les cycles moteurs entre eux. Il est souvent désirable d’augmenter ces paramètres dans les applications où un grand rapport puissance/poids est recherché.
+		Nous utilisons les concepts de \vocab{poussée!spécifique}\index{spécifique!poussée} $\frac{P}{\dot m}$ et \vocab[puissance!spécifique (d’un moteur)]{puissance spécifique}\index{spécifique!puissance} $w_\net$, c’est-à-dire la poussée et la puissance du moteur divisées par le débit d’air qui le traverse, pour comparer sommairement les cycles moteurs entre eux. Il est souvent désirable d’augmenter ces paramètres dans les applications où un grand rapport puissance/poids est recherché.
 
 		Ainsi par exemple, sur un moteur aéronautique, une augmentation du rendement n’est pas toujours justifiée si elle provoque une augmentation du poids ou de l’encombrement. Un aéronef plus lourd doit fournir une plus grande portance, ce qui augmente la traînée… et donc la poussée, et la puissance nécessaire pour la~générer.
 
@@ -263,7 +263,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 
 
 \section{Composants des turbomachines}
-\index{moteur!à gaz, composants des}\index{turbomachine (moteur à turbine)}\index{turbine!moteur à (turbomachine)}\index{moteur!à turbine (turbomachine)}
+\index{moteur!à gaz, composants des}\index{turbomachine (moteur à turbine)}
 
 	Avant de nous plonger dans les cycles des moteurs à turbines, nous nous proposons de rappeler brièvement le fonctionnement de leurs principaux composants. Comme les turbomachines fonctionnent en régime permanent, nous ferons à partir d’ici systématiquement appel aux notions du \courstrois.
 
@@ -293,7 +293,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 			\label{fig_schéma_compresseur2}
 		\end{figure}
 
-		\index{isentropiques, évolutions}\index{évolutions!isentropiques}\index{adiabatiques!réversibles, évolutions}\index{évolutions!adiabatiques réversibles}\index{chaleur!transferts réversibles}\index{travail!transferts réversibles}
+		\index{isentropiques, évolutions}\index{évolutions!isentropiques}\index{adiabatiques!réversibles, évolutions}\index{évolutions!adiabatiques réversibles}\index{travail!transferts réversibles}
 		Tout comme nous l’avons fait pour la turbine (\ref{def_efficacité_isentropique_turbine}), nous quantifions l’efficacité d’un compresseur en comparant sa puissance avec celle d’un compresseur idéal (un compresseur qui serait isentropique). Nous nommons ce paramètre l’\vocab[efficacité!isentropique]{efficacité isentropique}\index{compresseur!efficacité d’un}\index{isentropique, efficacité} du compresseur $\eta_\C$ :
 		\begin{equation}
 			\eta_\C \equiv \frac{\dot W_\text{compresseur isentropique}}{\dot W_\text{compresseur réel}}
@@ -368,7 +368,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 		\index{température!maximale d’un moteur}\index{moteur!température maximale d’un}
 		Aucun travail n’est apporté dans la chambre de combustion, et la pression y reste approximativement constante.	Comme l’apport de chaleur se fait au sein du gaz même, la température maximale du cycle n’est pas limitée par la transmission de chaleur à travers une paroi solide. La température maximale de l’air peut même dépasser celle de fonte des parois de la chambre, qui sont isolées avec plusieurs couches d’air comprimé. Cela permet un gain de température par rapport aux installations à vapeur qui avoisine usuellement \SI{200}{\kelvin}.
 
-		\index{puissance!d’une chambre de combustion}\index{gaz!d’échappement}\index{gaz parfait!modélisation des gaz brûlés}%\index{chambre de combustion!puissance}
+		\index{puissance!d’une chambre de combustion}\index{gaz!d’échappement}\index{gaz parfait!modélisation des gaz brûlés}\index{gaz!brûlés, modélisation par un gaz parfait}
 		La puissance délivrée dans la chambre de combustion se quantifie plutôt facilement avec une modification de l’\cref{eq_q_gp_so_isobare} pour tenir compte du changement des propriétés de l’air pendant la combustion, qui fait augmenter la valeur de $c_p$ de~\SI{10}{\percent} environ :
 		\begin{equation}
 			q_\text{chambre} = h_\B - h_\A = c_{p \text{(gaz)}} T_\B \ - \ c_{p \text{(air)}} T_\A
@@ -425,7 +425,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 		\index{poussée}
 		La \vocab{tuyère} est un simple conduit sans pièce mobile (figures~\ref{fig_illustration_tuyere1} et~\ref{fig_illustration_tuyere2}). Elle permet au gaz de se détendre, et ainsi d’accélérer vers l’arrière du moteur. C’est cette augmentation de la vitesse du gaz (différence entre vitesse à l’entrée et à la sortie) qui est à l’origine de la poussée fournie par un moteur.
 
-		\index{isentropiques, évolutions}\index{évolutions!isentropiques}\index{adiabatiques!réversibles, évolutions}\index{évolutions!adiabatiques réversibles}\index{chaleur!transferts réversibles}\index{travail!transferts réversibles}
+		\index{isentropiques, évolutions}\index{évolutions!isentropiques}\index{adiabatiques!réversibles, évolutions}\index{évolutions!adiabatiques réversibles}\index{travail!transferts réversibles}
 		Il n’y a aucun apport de chaleur ou de travail dans la tuyère : si l’on néglige les frottements, l’énergie du gaz est conservée. La tuyère est le seul élément du moteur pour lequel la variation d’énergie cinétique doit être impérativement prise en compte.
 
 		\begin{figure}
@@ -503,7 +503,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 			La turbine à vapeur, sans apporter de réelle amélioration quant à la dépense de vapeur, est entrée dans l’industrie grâce à la simplicité de sa construction, et il en sera de même pour la turbine à gaz, qui est de construction plus simple que le moteur à gaz, pour peu qu’elle puisse seulement dépasser les moteurs à vapeur en efficacité.
 		\thermoquoteend{Aurel Stodola, 1904,~\cite{stodola1904, stodola1905}\index{Stodola!Aurel}}{\onlyframabook{\vspace{-1em}}}
 
-		Les \vocab[turbomachine]{turbomachines}, c’est-à-dire les machines transférant de l’énergie entre un fluide et un axe en rotation\footnote{Les turbomachines sont souvent appelées «~turbines à gaz~», surtout en anglais où \vocabe{gas turbine}\index{turbine!à gaz (turbomachine)} dénote toute la machine et non seulement son composant.}, présentent deux grands avantages par rapport aux moteurs à pistons :
+		Les \vocab[turbomachine (moteur à turbine)]{turbomachines}, c’est-à-dire les machines transférant de l’énergie entre un fluide et un axe en rotation\footnote{Les turbomachines sont souvent appelées «~turbines à gaz~», surtout en anglais où \vocabe{gas turbine}\index{turbine!à gaz (turbomachine)} dénote toute la machine et non seulement son composant.}, présentent deux grands avantages par rapport aux moteurs à pistons :
 
 		\begin{itemize}
 			\item Le rapport puissance-poids des turbomachines est environ trois fois supérieur, car le nombre de pièces mobiles est réduit, et leur mouvement très simple, ce qui permet de les alléger ;
@@ -513,7 +513,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 			\item Dans le cas de la propulsion aéronautique, le fluide moteur peut être utilisé comme médium de propulsion lui-même. Il suffit de laisser l’air sortir de la turbine avec une pression résiduelle et de le laisser se détendre dans une tuyère. On obtient alors une poussée par réaction (égale au débit de masse multiplié par sa vitesse) : c’est le principe du turboréacteur.\index{turboréacteur}
 		\end{itemize}
 
-		\index{poussée!spécifique}\index{spécifique!poussée}\index{puissance!spécifique (d’un moteur) (d’un moteur)}\index{spécifique!puissance}
+		\index{poussée!spécifique}\index{spécifique!poussée}\index{puissance!spécifique (d’un moteur)}\index{spécifique!puissance}
 		Ainsi, ce type de machine est inégalable lorsque de grandes puissances sont requises avec contrainte d’espace ou de poids.
 
 		\index{réactivité d’un moteur}\index{moteur!réactivité}

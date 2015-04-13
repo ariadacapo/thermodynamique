@@ -346,7 +346,7 @@ Une paroi mobile permet de la comprimer ; nous lui ferons également recevoir et
 
 		Lorsqu’on apporte de la chaleur au fluide pendant qu’on le comprime, on «~durcit~» son comportement, et la pression augmente plus rapidement (\cref{fig_p-v_ajout_retrait_chaleur}). À~l’inverse, lorsqu’on lui prélève de la chaleur pendant la compression, la pression augmente moins rapidement. Ces transferts de chaleur font donc varier la quantité de travail à fournir pour comprimer le fluide entre deux volumes donnés.
 		
-		Le cas où l’on apporte pas de chaleur est nommé \vocab[évolutions!adiabatiques]{\mbox{adiabatique}}\index{adiabatiques!évolutions} : $Q = 0$. Attention : adiabatique ne veut pas dire «~à température constante~». Lorsque l’on comprime un fluide sans apport de chaleur, sa température augmente. Dans un moteur diesel, par exemple, l’air dans les cylindres peut atteindre \SI{900}{\degreeCelsius} avant la combustion -- ce qui est désirable, comme nous le verrons au \courssept.
+		Le cas où l’on apporte pas de chaleur est nommé \vocab[évolutions!adiabatiques|textbf]{\mbox{adiabatique}}\index{adiabatiques!évolutions|textbf} : $Q = 0$. Attention : adiabatique ne veut pas dire «~à température constante~». Lorsque l’on comprime un fluide sans apport de chaleur, sa température augmente. Dans un moteur diesel, par exemple, l’air dans les cylindres peut atteindre \SI{900}{\degreeCelsius} avant la combustion -- ce qui est désirable, comme nous le verrons au \courssept.
 
 		\begin{figure}
 			\begin{center}
@@ -418,7 +418,7 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 
 	\subsection{Travail d’un fluide en évolution rapide}
 	\label{ch_évolutions_irr_sf}
-	\index{travail!en système fermé, en évolution rapide}\index{travail!transferts iréversibles}\index{système!fermé, travail en évolution rapide}
+	\index{travail!en système fermé, en évolution rapide}\index{travail!transferts iréversibles}\index{système!fermé, travail en évolution rapide}\index{chaleur!lors des irréversibilités|(}
 
 		\thermoquotebegin{O}\index{Pambour, François-Marie Guyonneau de}
 			Nous avons dit qu’à l’origine du mouvement l’équilibre de pression s’établit entre la chaudière et le cylindre, mais à mesure que la vitesse du piston s’accroît, celui-ci fuit en quelque sorte devant la vapeur sans lui donner le temps d’établir cet équilibre, et la pression dans le cylindre baisse \mbox{nécessairement}.
@@ -493,7 +493,7 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 		Par contre, le travail fourni ou reçu par le fluide ne peut plus être simplement calculé par intégrale puisque la pression à l’intérieur du cylindre n’est pas du tout homogène. C’est la pression à la surface du piston qui permettrait de calculer ce travail. Malheureusement, aucune relation mathématique simple ne permet de décrire cette relation entre pression et volume. Il faut effectuer une mesure expérimentale à chaque fois.
 		
 			
-			\begin{anexample}
+			\begin{anexample}\index{adiabatiques!irréversibles, évolutions}\index{chaleur!transformation de travail en}\index{travail!transformation en chaleur}
 				On enferme un gaz dans un cylindre hermétique et on effectue des allers-retours entre deux volumes donnés avec le piston, sans transférer de chaleur. Au départ, les allers-retours sont très lents. Ensuite, on effectue les allers-retours de façon très rapide.
 				
 				Quelle sera l’allure des évolutions sur un diagramme pression-volume ?
@@ -509,6 +509,7 @@ Plus on lui apporte de chaleur pendant la compression, plus la pression augmente
 						Ainsi, le volume s’élève progressivement sur le diagramme pression-volume : l’excédent de travail investi pendant les compressions, et le défaut de travail récupéré pendant la détente, se traduisent par une augmentation de l’énergie interne du gaz, dont la température augmente continuellement.
 					\end{answer}
 			\end{anexample}
+	\index{chaleur!lors des irréversibilités|)}
 
 \onlyframabook{\clearpage}%handmade
 	\subsection{La réversibilité}

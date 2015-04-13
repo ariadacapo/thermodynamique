@@ -25,7 +25,7 @@
 		\makebox(18,5){\color{gray}\scalebox{2}{«}}
 		M. S. Carnot, évitant l’emploi de l’analyse mathématique, arrive par une série de raisonnemens délicats et difficiles à saisir, à des résultats qui se déduisent sans peine d’une loi plus générale, que je vais chercher à établir.
 		\thermoquoteend{Émile Clapeyron, 1834~\cite{clapeyron1834}\index{Clapeyron!Benoît Paul Émile}}{}
-		Nous appellerons \vocab[gaz parfait!définition]{gaz parfait} (ou \vocab[gaz parfait!définition]{gaz idéal}) un fluide à l’état gazeux dont le multiple de la pression et du volume, $p v$, reste proportionnel à sa température. La constante de proportionnalité est nommée \vocab{constante du gaz}\index{gaz!constante d’un}\index{gaz parfait!constante d’un}\index{R (constante d’un gaz)}, et notée~$R$ ; elle dépend de la nature du~gaz.
+		Nous appellerons \vocab[gaz parfait!définition|textbf]{gaz parfait} (ou \vocab[gaz parfait!définition|textbf]{gaz idéal}) un fluide à l’état gazeux dont le multiple de la pression et du volume, $p v$, reste proportionnel à sa température. La constante de proportionnalité est nommée \vocab{constante du gaz}\index{gaz!constante d’un}\index{gaz parfait!constante d’un}\index{R (constante d’un gaz)}, et notée~$R$ ; elle dépend de la nature du~gaz.
 		\begin{equation}
 			p v = R T
 			\label{eq_pv=RT}
@@ -48,7 +48,7 @@
 			\item et \tab $m$ \tab la masse de gaz considérée (\si{\kilogram}).
 		\end{equationterms}
 		
-		\index{quantité de matière}\index{moles (quantité de matière)}\index{r (constante universelle des gaz}
+		\index{quantité de matière}\index{moles (quantité de matière)}
 		Il est aussi possible d’exprimer l’\cref{eq_pV=mRT} en fonction de la quantité de matière en \si{moles}.\footnote{Dans les ouvrages tels que celui d’Alexandre Watzky~\cite{watzky2007}, la constante en \si{\joule\per\kelvin\per\kilogram} est notée~$r$. La grandeur notée $R = \SI{8,3143}{\joule\per\kelvin\per\mole}$ est universelle, et les gaz adoptent des valeurs de $r$ différentes en fonction de leur masse molaire $M \equiv \frac{m}{n}$. Dans le présent ouvrage, nous ne quantifions pas les quantités de matière.}
 		 Parce qu’elle est indissociable du concept de température absolue, il a fallu 150 ans pour que cette équation prenne sa forme définitive : celle que lui a donnée \wf{Émile Clapeyron} en 1834~\cite{clapeyron1834}.
 
@@ -118,7 +118,7 @@
 
 
 	\subsection{Limites du modèle}
-	\index{gaz parfait!limites de validité}\index{gaz parfait!modélisations alternatives}
+	\index{gaz parfait!limites de validité}\index{gaz parfait!modélisations alternatives}\index{équation d’état!alternatives}
 
 		Il ne faudra pas longtemps à l’étudiant/e pour trouver les limites de l’\cref{eq_pV=mRT}, qui indique qu’une masse non-nulle de gaz parfait occupe \textit{un volume nul} à température nulle. Strictement parlant, le gaz parfait ne peut pas exister --\ le modèle mathématique perd son sens à très basse température puisqu’il ne tient pas compte du volume des molécules elles-mêmes.
 
@@ -383,6 +383,7 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 
 
 	\subsection{Interlude : Que retenir du gaz parfait jusqu’ici ?}
+	\index{gaz parfait!énergie interne d’un}\index{énergie!interne d’un gaz parfait}\index{gaz parfait!enthalpie d’un}\index{enthalpie!d’un gaz parfait}\index{température!enthalpie et}\index{enthalpie!température et}\index{température!énergie interne et}\index{énergie!interne, température et}
 
 		Le gaz parfait est un modèle pour quantifier la température d’un gaz. Selon ce modèle, les trois principales formes d’énergie que nous avons utilisées jusqu’à présent —~l’énergie interne~$u$, l’enthalpie spécifique~$h$ et le terme~$p v$~— sont directement proportionnelles à la température~$T$ :
 		\begin{IEEEeqnarray*}{rClC}
@@ -398,7 +399,7 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 
 \section{Transformations élémentaires réversibles}
 \label{ch_gp_evolutions_elementaires}
-\index{évolutions!d’un gaz parfait}
+\index{évolutions!d’un gaz parfait|(}
 
 	Nous nous proposons ici de calculer les propriétés d’un gaz parfait, ainsi que les transferts d’énergie en jeu, lorsqu’on le comprime ou détend selon des contraintes entièrement arbitraires de volume, pression ou température.
 
@@ -488,7 +489,7 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 		\begin{anexample}
 			Pour l’air, on mesure $c_{p\text{(air)}} = \SI{1005}{\joule\per\kilogram\per\kelvin}$, $c_{v\text{(air)}} = \SI{718}{\joule\per\kilogram\per\kelvin}$, $R_\text{air} = \SI{287}{\joule\per\kilogram\per\kelvin}$.
 			Combien faut-il d’énergie pour chauffer l’air dans un appartement de~\SI{30}{\metre\squared} depuis \SI{10}{\degreeCelsius} jusqu’à \SI{20}{\degreeCelsius} ?
-				\begin{answer}\index{pression!atmosphérique}\index{amosphère, pression de l’}
+				\begin{answer}\index{pression!atmosphérique}\index{atmosphère, pression de l’}
 					Le réchauffement se fera vraisemblablement à pression constante (à moins que l’appartement ne soit fermé hermétiquement, la pression sera partout atmosphérique et l’air «~fuira~» sous les portes). Nous supposons une pression de~\SI{1}{\bar} et une hauteur de plafond de~\SI{2,5}{\metre}. Nous utilisons un système fermé englobant tout l’air réchauffé.
 					
 					Nous avons un volume de~\SI{75}{\metre\cubed}, ce qui mène la masse totale d’air à $m_\A = \frac{p_\A \ V_\A}{R \ T_\A} = \frac{\num{1e5} \times \num{75}}{\num{287} \times (\num{10} + \num{273,15})} = \SI{92,29}{\kilogram}$.\\
@@ -831,4 +832,5 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 		\end{figure}
 		
 		Nous nous sommes concentrés sur quatre évolutions particulières des gaz parfaits, parce qu’elles jouent chacune un rôle important, pour les physiciens comme pour les ingénieur/es, dans la conception des machines thermiques. Cela ne doit toutefois pas limiter notre façon de «~penser~» un gaz et ses transformations. En contrôlant astucieusement les transferts de chaleur et de travail, nous pouvons bien sûr provoquer n’importe quelle évolution arbitraire.
+\index{évolutions!d’un gaz parfait|)}
 \index{gaz parfait|)textbf}
