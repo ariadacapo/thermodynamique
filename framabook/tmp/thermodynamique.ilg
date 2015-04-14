@@ -1,69 +1,66 @@
 This is makeindex, version 2.15 [TeX Live 2012] (kpathsea + Thai support).
-Scanning input file thermodynamique.idx.....done (1248 entries accepted, 0 rejected).
-Sorting entries.............done (14452 comparisons).
+Scanning input file thermodynamique.idx....
+!! Input index error (file = thermodynamique.idx, line = 2):
+   -- Illegal null field.
+.
+!! Input index error (file = thermodynamique.idx, line = 1159):
+   -- Illegal null field.
+done (1302 entries accepted, 2 rejected).
+Sorting entries.............done (14736 comparisons).
 Generating output file thermodynamique.ind....
-## Warning (input = thermodynamique.idx, line = 924; output = thermodynamique.ind, line = 139):
+## Warning (input = thermodynamique.idx, line = 56; output = thermodynamique.ind, line = 76):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thermodynamique.idx, line = 973; output = thermodynamique.ind, line = 144):
    -- Inconsistent page encapsulator hyperpage within range.
 
-## Warning (input = thermodynamique.idx, line = 1167; output = thermodynamique.ind, line = 139):
-   -- Extra range opening operator (.
-
-## Warning (input = thermodynamique.idx, line = 919; output = thermodynamique.ind, line = 139):
-   -- Unmatched range opening operator (.
-
-## Warning (input = thermodynamique.idx, line = 549; output = thermodynamique.ind, line = 172):
+## Warning (input = thermodynamique.idx, line = 577; output = thermodynamique.ind, line = 178):
    -- Inconsistent page encapsulator hyperpage within range.
 
-## Warning (input = thermodynamique.idx, line = 965; output = thermodynamique.ind, line = 184):
+## Warning (input = thermodynamique.idx, line = 1014; output = thermodynamique.ind, line = 190):
    -- Inconsistent page encapsulator hyperpage within range.
 
-## Warning (input = thermodynamique.idx, line = 435; output = thermodynamique.ind, line = 190):
+## Warning (input = thermodynamique.idx, line = 461; output = thermodynamique.ind, line = 196):
    -- Inconsistent page encapsulator hyperpage within range.
 
-## Warning (input = thermodynamique.idx, line = 648; output = thermodynamique.ind, line = 266):
+## Warning (input = thermodynamique.idx, line = 687; output = thermodynamique.ind, line = 275):
    -- Inconsistent page encapsulator hyperpage within range.
 
-## Warning (input = thermodynamique.idx, line = 662; output = thermodynamique.ind, line = 266):
+## Warning (input = thermodynamique.idx, line = 701; output = thermodynamique.ind, line = 275):
    -- Inconsistent page encapsulator hyperpage within range.
 
-## Warning (input = thermodynamique.idx, line = 726; output = thermodynamique.ind, line = 267):
+## Warning (input = thermodynamique.idx, line = 770; output = thermodynamique.ind, line = 276):
    -- Inconsistent page encapsulator hyperpage within range.
 
-## Warning (input = thermodynamique.idx, line = 746; output = thermodynamique.ind, line = 267):
+## Warning (input = thermodynamique.idx, line = 790; output = thermodynamique.ind, line = 276):
    -- Inconsistent page encapsulator hyperpage within range.
 
-## Warning (input = thermodynamique.idx, line = 941; output = thermodynamique.ind, line = 416):
+## Warning (input = thermodynamique.idx, line = 985; output = thermodynamique.ind, line = 428):
    -- Inconsistent page encapsulator hyperpage within range.
 
-## Warning (input = thermodynamique.idx, line = 923; output = thermodynamique.ind, line = 454):
+## Warning (input = thermodynamique.idx, line = 972; output = thermodynamique.ind, line = 466):
    -- Inconsistent page encapsulator hyperpage within range.
 
-## Warning (input = thermodynamique.idx, line = 1168; output = thermodynamique.ind, line = 454):
-   -- Extra range opening operator (.
-
-## Warning (input = thermodynamique.idx, line = 920; output = thermodynamique.ind, line = 454):
-   -- Unmatched range opening operator (.
-
-## Warning (input = thermodynamique.idx, line = 966; output = thermodynamique.ind, line = 481):
+## Warning (input = thermodynamique.idx, line = 1015; output = thermodynamique.ind, line = 493):
    -- Inconsistent page encapsulator hyperpage within range.
 
-## Warning (input = thermodynamique.idx, line = 576; output = thermodynamique.ind, line = 699):
+## Warning (input = thermodynamique.idx, line = 147; output = thermodynamique.ind, line = 615):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thermodynamique.idx, line = 604; output = thermodynamique.ind, line = 707):
    -- Inconsistent page encapsulator hyperpage within range.
 
-## Warning (input = thermodynamique.idx, line = 604; output = thermodynamique.ind, line = 699):
+## Warning (input = thermodynamique.idx, line = 632; output = thermodynamique.ind, line = 707):
    -- Inconsistent page encapsulator hyperpage within range.
 .
-## Warning (input = thermodynamique.idx, line = 1114; output = thermodynamique.ind, line = 762):
+## Warning (input = thermodynamique.idx, line = 1155; output = thermodynamique.ind, line = 783):
    -- Inconsistent page encapsulator hyperpage within range.
 
-## Warning (input = thermodynamique.idx, line = 1109; output = thermodynamique.ind, line = 770):
+## Warning (input = thermodynamique.idx, line = 1154; output = thermodynamique.ind, line = 785):
    -- Inconsistent page encapsulator hyperpage within range.
 
-## Warning (input = thermodynamique.idx, line = 1108; output = thermodynamique.ind, line = 772):
+## Warning (input = thermodynamique.idx, line = 1161; output = thermodynamique.ind, line = 790):
    -- Inconsistent page encapsulator hyperpage within range.
-
-## Warning (input = thermodynamique.idx, line = 1115; output = thermodynamique.ind, line = 777):
-   -- Inconsistent page encapsulator hyperpage within range.
-done (868 lines written, 21 warnings).
+done (893 lines written, 18 warnings).
 Output written in thermodynamique.ind.
 Transcript written in thermodynamique.ilg.
