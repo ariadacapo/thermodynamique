@@ -1,9 +1,9 @@
 \atstartofhistorysection
 \section[Un peu d’histoire : de la turbine à vapeur à la turbine à gaz]{Un peu d’histoire :\onlyamphibook{\\} De la turbine à vapeur\onlyamphibook{\\} à la turbine à gaz}
-\label{ch_histoire_turbine}\index{turbine!histoire de la}\index{turbomachine (moteur à turbine)}
+\label{ch_histoire_turbine}\index{turbine!histoire}\index{turbomachine (moteur à turbine)!histoire}
 
 \index{Turbinia (navire)}\index{Parsons, Charles Algernon}
-Au début du \textsc{xx}\ieme siècle, la \vocab[turbomachine (moteur à turbine)]{turbine} a remplacé les pistons et cylindres dans tous les moteurs à vapeur. 
+Au début du \textsc{xx}\ieme siècle, la \vocab[turbomachine (moteur à turbine)!histoire]{turbine} a remplacé les pistons et cylindres dans tous les moteurs à vapeur. 
 Une turbine est une pièce de géométrie complexe, sensible aux imperfections de fabrication, ce qui rend sa construction plus délicate que celle de pistons cylindriques. En contrepartie, on obtient un moteur d’agencement simple, vibrant peu, et plus facile à assembler, entretenir et lubrifier, ce qui permet d’augmenter sa puissance ou de réduire son volume. L’ingénieur anglais \wf{Charles Algernon Parsons} le démontre de façon spectaculaire en 1897 avec la \textit{Turbinia} (\cref{fig_turbinia}), premier navire en son genre et si rapide qu’aucun bâtiment militaire ne parvient à le rattraper. Dix ans plus tard, toute la \textit{Royal Navy} est propulsée avec des turbines.
 
 	\onlyframabook{\begin{figure}}
@@ -32,7 +32,7 @@ Dans l’univers des moteurs à gaz, la situation est tout autre : jusqu’à la
 
 La mise au point d’un moteur à turbine est bien plus difficile pour les gaz que pour la vapeur. Certes, l’air (ou les gaz brûlés) et la vapeur sèche ont des propriétés très similaires : ainsi une turbine à vapeur fonctionne très bien avec de l’air comprimé. La difficulté se trouve à l’autre extrémité du moteur. Dans les moteurs à vapeur la compression de l’eau est faite à l’état liquide, ce qui est très économe. Compresser de l’eau à \SI{10}{\degreeCelsius} de \num{1} à \SI{10}{\bar}, par exemple, ne requiert que $w_\fromatob \approx v_L (p_\B - p_\A ) = \num{0,001} (10 - 1) \times \num{e5} = \SI{900}{\joule\per\kilogram}$ (\ref{eq_pompe_liquide}). Par contraste, faire de même avec de l’air demande une puissance spécifique minimale de $w_\fromatob = c_p \Delta T = c_p \left( T_\A \left(p_\B/p_\A\right)^\frac{\gamma - 1}{\gamma} - T_\A \right) = \num{1005} \left(\num{283,15} \left(10\right)^\frac{\num{0,4}}{\num{1,4}} - \num{283,15} \right) = \SI{265}{\kilo\joule\per\kilogram}$ (\ref{eq_gp_travail_isentropique_so} \& \ref{eq_isentropique_horrible2}), soit presque trois cents fois plus !
 
-\index{efficacité!isentropique}\index{turbine!efficacité d’une}\index{compresseur!efficacité d’un}\index{efficacité!d’un compresseur}\index{efficacité!d’une turbine}
+\index{efficacité!isentropique}\index{turbine!efficacité isentropique}\index{compresseur!efficacité isentropique}\index{efficacité!d’un compresseur}\index{efficacité!d’une turbine}
 Nous avons vu en \S\ref{ch_cycle_de_rankine} que la compression liquide n’est pas sans contrepartie – elle doit être compensée par une plus grande puissance à la chaudière et réduit le rendement thermodynamique — mais elle facilite grandement la mise au point du moteur. Comme la quasi-totalité de la puissance nette du moteur provient de la turbine, une détente peu réversible ou incomplète n’affecte «~que~» la puissance et le rendement du moteur. Dans une turbomachine à gaz, en revanche, la turbine alimente aussi le compresseur : elle joue donc un rôle double. Tant qu’elle ne dégage pas une puissance suffisante pour égaler celle du compresseur, le moteur ne fonctionne pas du tout. L’efficacité isentropique de la turbine et du compresseur deviennent de fait des paramètres primordiaux (nous y reviendrons en \S\ref{ch_rapport_des_puissances} avec la notion de \vocab{marge de travail}\index{travail!marge de}) et il s’ensuit que la mise au point de la turbomachine à gaz est une entreprise ambitieuse.
 
 \index{von Ohain, Hans}\index{Ohain, Hans von}\index{Whittle, Frank}\index{fiabilité}\index{moteur!fiabilité d’un}
