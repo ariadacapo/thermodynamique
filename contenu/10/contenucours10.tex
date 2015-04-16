@@ -38,7 +38,7 @@
 		\index{travail!transferts irréversibles}\index{irréversibilité!lors des transferts de travail}
 		Dans un moteur en fonctionnement, l’irréversibilité des compressions et détentes n’est pas indépendante de la vitesse. Lorsqu’ils fonctionnent hors de leur plage de fonctionnement optimale, les moteurs voient ainsi leur puissance spécifique diminuer. Les irréversibilités peuvent même réduire le rendement à zéro, le moteur tournant alors sans produire de travail utile (exactement comme un moteur automobile débrayé). La \vocab{marge de travail} est un concept qui permet d’évaluer la robustesse d’un cycle à l’augmentation de ces irréversibilités.
 
-		\index{efficacité!d’une turbine}\index{turbine!efficacité isentropique}\index{efficacité!isentropique}\index{isentropique, efficacité}
+		\index{efficacité!d’une turbine}\index{turbine!efficacité isentropique}\index{efficacité!isentropique}\index{isentropique(s)!efficacité}
 		Pour aborder ce concept, étudions premièrement le cas d’un moteur dont la compression et la détente sont réversibles. Les transferts énergétiques du cycle sont décrits en \cref{fig_rapport_puissances_1}. Si au lieu d’être idéale, la turbine de ce premier moteur se voyait soudainement affublée d’un rendement isentropique de~\SI{95}{\percent}, elle ne fournirait plus que \SI{95}{\watt}. La puissance effective du moteur passerait alors de~\num{10}~à~\SI{5}{\watt} --\ une réduction de~\SI{50}{\percent}.
 
 		\begin{figure}
@@ -133,7 +133,7 @@ Les moteurs à mouvement alternatif (souvent dits «~à pistons-cylindres~») ad
 	
 		\index{Otto!Nikolaus}
 		On doit à l’ingénieur allemand \wf{Nikolaus Otto}, en 1864, la mise au point du moteur que l’on connaît aujourd’hui sous le nom de «~\vocab[]{moteur à essence}~». Le cycle de principe de ce moteur, appelé \vocab[cycle!d’Otto]{cycle d’Otto}\index{Otto!cycle d’}, est constitué de deux phases isentropiques encadrées par deux phases isochores ; il est décrit en \cref{fig_cycle_otto}.
-		\index{évolutions!isochores}\index{isochores, évolutions}\index{isentropiques, évolutions}\index{évolutions!isentropiques}\index{adiabatiques!réversibles, évolutions}\index{évolutions!adiabatiques réversibles}
+		\index{évolutions!isochores}\index{isochores, évolutions}\index{isentropique(s)!évolutions}\index{évolutions!isentropiques}\index{adiabatiques!réversibles, évolutions}\index{évolutions!adiabatiques réversibles}
 		
 		\begin{figure}
 			\begin{center}
@@ -152,13 +152,13 @@ Les moteurs à mouvement alternatif (souvent dits «~à pistons-cylindres~») ad
 			\eta_\text{Otto} = \left| \frac{-q_\text{combustion} - q_\text{refroidissement}}{q_\text{combustion}} \right| = 1 + \frac{q_\text{refroidissement}}{q_\text{combustion}} = 1 + \left( \frac{T_\A - T_\D}{T_\C - T_\B } \right) \label{eq_tmp_rendement_otto}
 		\end{equation}
 
-		En définissant le \vocab{taux de compression}\index{compression, taux de} $r_v$ comme :
+		En définissant le \vocab{taux de compression}\index{compression, taux de} $\epsilon$ comme :
 		\begin{equation}
-			r_v \equiv \frac{v_\A}{v_\B}
+			\epsilon \equiv \frac{v_\A}{v_\B}
 		\end{equation}
 		il est possible de montrer que l’\cref{eq_tmp_rendement_otto} peut être reformulée pour exprimer le rendement selon :
 		\begin{equation}
-			\eta_\text{Otto} = 1 - \frac{1}{r_v^{\gamma -1}}
+			\eta_\text{Otto} = 1 - \frac{1}{\epsilon^{\gamma -1}}
 		\end{equation}
 
 		\index{taux de compression}\index{compression, taux de}\index{auto-inflammation}\index{combustible!auto-inflammation}
@@ -175,7 +175,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 		
 		Fruit du travail patient et soigneux de son inventeur, l’ingénieur allemand \wf{Rudolf Diesel} (\S\ref{ch_histoire_diesel}), le \vocab[Diesel!moteur]{moteur \mbox{Diesel}} propulse aujourd’hui l’écrasante majorité des transports commerciaux sur route et sur mer.
 
-		\index{isobares, évolutions}\index{évolutions!isobares}\index{isentropiques, évolutions}\index{évolutions!isentropiques}\index{adiabatiques!réversibles, évolutions}\index{évolutions!adiabatiques réversibles}
+		\index{isobares, évolutions}\index{évolutions!isobares}\index{isentropique(s)!évolutions}\index{évolutions!isentropiques}\index{adiabatiques!réversibles, évolutions}\index{évolutions!adiabatiques réversibles}
 		D’un point de vue strictement thermodynamique, le cycle de Diesel théorique ne diffère de celui d’Otto que par son mode de combustion : l’apport de chaleur se fait à pression constante et non à volume constant, comme montré en \cref{fig_cycle_diesel}.
 
 		\begin{figure}
@@ -265,7 +265,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 \section{Composants des turbomachines}
 \index{turbomachine (moteur à turbine)!composants}
 
-	Avant de nous plonger dans les cycles des moteurs à turbines, nous nous proposons de rappeler brièvement le fonctionnement de leurs principaux composants. Comme les turbomachines fonctionnent en régime permanent, nous ferons à partir d’ici systématiquement appel aux notions du \courstrois.
+	Avant de nous plonger dans les cycles des moteurs à turbines, nous nous proposons de rappeler brièvement le fonctionnement de leurs principaux composants. Comme les turbomachines fonctionnent en régime continu, nous ferons à partir d’ici systématiquement appel aux notions du \courstrois.
 
 	\subsection{Compresseur}
 	\index{compresseur}
@@ -293,8 +293,8 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 			\label{fig_schéma_compresseur2}
 		\end{figure}
 
-		\index{isentropiques, évolutions}\index{évolutions!isentropiques}\index{adiabatiques!réversibles, évolutions}\index{évolutions!adiabatiques réversibles}\index{travail!transferts réversibles}
-		Tout comme nous l’avons fait pour la turbine (\ref{def_efficacité_isentropique_turbine}), nous quantifions l’efficacité d’un compresseur en comparant sa puissance avec celle d’un compresseur idéal (un compresseur qui serait isentropique). Nous nommons ce paramètre l’\vocab[efficacité!isentropique]{efficacité isentropique}\index{compresseur!efficacité d’un}\index{isentropique, efficacité} du compresseur $\eta_\C$ :
+		\index{isentropique(s)!évolutions}\index{évolutions!isentropiques}\index{adiabatiques!réversibles, évolutions}\index{évolutions!adiabatiques réversibles}\index{travail!transferts réversibles}
+		Tout comme nous l’avons fait pour la turbine (\ref{def_efficacité_isentropique_turbine}), nous quantifions l’efficacité d’un compresseur en comparant sa puissance avec celle d’un compresseur idéal (un compresseur qui serait isentropique). Nous nommons ce paramètre l’\vocab[efficacité!isentropique]{efficacité isentropique}\index{compresseur!efficacité d’un}\index{isentropique(s)!efficacité} du compresseur $\eta_\C$ :
 		\begin{equation}
 			\eta_\C \equiv \frac{\dot W_\text{compresseur isentropique}}{\dot W_\text{compresseur réel}}
 			\label{def_efficacité_isentropique_compresseur}
@@ -400,7 +400,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 		\end{figure}
 
 		\index{efficacité!d’une turbine}
-		Tout comme pour les liquides/vapeurs (\ref{def_efficacité_isentropique_turbine}), nous mesurons la performance d’une turbine en quantifiant son \vocab[efficacité!isentropique]{efficacité isentropique}\index{turbine!efficacité isentropique}\index{isentropique, efficacité} $\eta_\text{T}$ :
+		Tout comme pour les liquides/vapeurs (\ref{def_efficacité_isentropique_turbine}), nous mesurons la performance d’une turbine en quantifiant son \vocab[efficacité!isentropique]{efficacité isentropique}\index{turbine!efficacité isentropique}\index{isentropique(s)!efficacité} $\eta_\text{T}$ :
 		\begin{equation}
 			\eta_\text{T} \equiv \frac{\dot W_\text{Turbine réelle}}{\dot W_\text{Turbine isentropique}}	  \tag{\ref{def_efficacité_isentropique_turbine}}
 		\end{equation}
@@ -425,7 +425,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 		\index{poussée}
 		La \vocab{tuyère} est un simple conduit sans pièce mobile (figures~\ref{fig_illustration_tuyere1} et~\ref{fig_illustration_tuyere2}). Elle permet au gaz de se détendre, et ainsi d’accélérer vers l’arrière du moteur. C’est cette augmentation de la vitesse du gaz (différence entre vitesse à l’entrée et à la sortie) qui est à l’origine de la poussée fournie par un moteur.
 
-		\index{isentropiques, évolutions}\index{évolutions!isentropiques}\index{adiabatiques!réversibles, évolutions}\index{évolutions!adiabatiques réversibles}\index{travail!transferts réversibles}
+		\index{isentropique(s)!évolutions}\index{évolutions!isentropiques}\index{adiabatiques!réversibles, évolutions}\index{évolutions!adiabatiques réversibles}\index{travail!transferts réversibles}
 		Il n’y a aucun apport de chaleur ou de travail dans la tuyère : si l’on néglige les frottements, l’énergie du gaz est conservée. La tuyère est le seul élément du moteur pour lequel la variation d’énergie cinétique doit être impérativement prise en compte.
 
 		\begin{figure}
@@ -565,7 +565,7 @@ Le combustible, ainsi, ne doit pas être précédemment mélangé à l’air, ma
 
 		Plutôt que d’utiliser une tuyère comme dans un turboréacteur, il est possible de poursuivre la détente dans la turbine jusqu’à la pression atmosphérique. La puissance fournie par la turbine est alors \emph{supérieure} à la puissance consommée par le compresseur.
 
-		L’arbre moteur fournit alors du travail, que l’on peut utiliser pour alimenter une hélice propulsive (cas d’un \vocab{turbopropulseur}) ou un élément externe comme une génératrice ou une pompe (cas d’un \vocab{turbomoteur}), comme montré en \cref{fig_turbomoteur}.
+		L’arbre moteur fournit alors du travail, que l’on peut utiliser pour alimenter une hélice propulsive (cas d’un \vocab{turbopropulseur}) ou un élément externe comme une génératrice ou une pompe (cas d’un \vocab{turbomoteur}), comme montré en \cref{fig_turbomoteur}. Le cycle de ces machines est parfois appelé \vocab[cycle!de Brayton]{cycle de Brayton}.\index{Brayton, cycle de}
 
 		\onlyamphibook{\begin{figure}}
 		\onlyframabook{\begin{figure}[h!]}

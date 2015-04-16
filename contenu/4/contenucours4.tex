@@ -12,6 +12,7 @@
 			permettant de prédire la température d’un gaz en fonction de sa pression.
 		\end{trucimportant}
 
+		\index{masse!volumique}
 		Le modèle du gaz parfait définit de lui-même une échelle de température. On propose de mesurer très simplement la température absolue $T$ avec un manomètre, en stipulant qu’elle est directement proportionnelle à la pression $p$ et inversement proportionnelle à la masse volumique $\rho$.
 
 		On peut ainsi dire que le gaz parfait ne décrit pas la réalité des choses, que ce n’est pas un principe physique, mais bien seulement un modèle simplifié du comportement des gaz. Sa plage de validité est limitée et floue.
@@ -38,7 +39,7 @@
 			\item et \tab $R$ \tab la constante du gaz considéré (\si{\joule\per\kelvin\per\kilogram}).
 		\end{equationterms}
 
-		L’\cref{eq_pv=RT} est nommée \vocab[équation d’état]{équation d’état des gaz parfaits}\index{loi des gaz parfaits}. Elle peut également être exprimée en fonction de la masse :
+		L’\cref{eq_pv=RT} est nommée \vocab[équation d’état]{équation d’état des gaz parfaits}\index{loi(s)!des gaz parfaits}. Elle peut également être exprimée en fonction de la masse :
 		\begin{equation}
 			p V = m R T
 			\label{eq_pV=mRT}
@@ -61,7 +62,7 @@
 					\begin{remark}La seule épine dans cette équation concerne les unités, qu’il faut bien convertir en \textsc{si} : $\SI{200}{\liter} = \SI{0,2}{\metre\cubed}$ et $\SI{3}{\bar} = \SI{3e5}{\pascal}$. La température est toujours en \si{kelvins}. \end{remark}
 			\end{anexample}
 
-			\begin{anexample}
+			\begin{anexample}\index{masse!volumique}\index{volume!spécifique}
 				L’air atmosphérique peut être modélisé par un gaz parfait avec $R_\text{air} = \SI{287}{\joule\per\kilogram\per\kelvin}$. Aux conditions ambiantes (\SI{1}{\bar}, \SI{20}{\degreeCelsius}), quels sont le volume spécifique et la masse volumique de l’atmosphère ?
 				\begin{answer}
 					Nous partons de l’\cref{eq_pv=RT} pour exprimer le volume spécifique : $v = \frac{R \ T}{p} = \frac{\num{287} \times (\num{20} + \num{273,15})}{\num{1e5}} = \SI{0,841}{\metre\cubed\per\kilogram}$. La masse volumique suit simplement : $\rho = \frac{1}{v} = \SI{1,189}{\kilogram\per\metre\cubed}$.
@@ -251,7 +252,7 @@
 			\label{def_gamma}
 		\end{equation}
 
-		En retournant à la \cref{fig_cp_et_cv} il apparaît rapidement que $c_p$ doit être supérieur à $c_v$ ; ainsi $\gamma$ est toujours supérieur à~\num{1}. Nous retenons $\gamma_\text{air} = \num{1,4}$.
+		En retournant à la \cref{fig_cp_et_cv} il apparaît rapidement que $c_p$ doit être supérieur à~$c_v$ ; ainsi $\gamma$ est toujours supérieur à~\num{1}. Nous retenons $\gamma_\text{air} = \num{1,4}$.
 		
 		
 \onlyframabook{\clearpage}%handmade
@@ -710,7 +711,7 @@ La différence entre les moyennes des expansions et des expériences-témoin ét
 			\label{fig_gp_isentropique}
 		\end{figure}
 		
-		Une évolution \vocab[évolutions!adiabatiques réversibles]{adiabatique réversible}\index{adiabatiques!réversibles, évolutions} est effectuée infiniment lentement. Un piston dans un cylindre devra pour cela être déplacé infiniment lentement, et un compresseur en flux continu devra pour cela être infiniment long. Plus tard, dans le \courshuit, nous appellerons ces transformations \vocab[évolutions!isentropiques]{isentropiques}\index{isentropiques, évolutions}.
+		Une évolution \vocab[évolutions!adiabatiques réversibles]{adiabatique réversible}\index{adiabatiques!réversibles, évolutions} est effectuée infiniment lentement. Un piston dans un cylindre devra pour cela être déplacé infiniment lentement, et un compresseur en flux continu devra pour cela être infiniment long. Plus tard, dans le \courshuit, nous appellerons ces transformations \vocab[évolutions!isentropiques]{isentropiques}\index{isentropique(s)!évolutions}.
 		
 		Attention, même s’il n’y a strictement aucun transfert de chaleur, la température est nécessairement amenée à varier dans une telle évolution, puisque le travail est non-nul. Cette variation de température est d’ailleurs très souvent l’effet escompté, comme nous pourrons le voir au \courssept.
 

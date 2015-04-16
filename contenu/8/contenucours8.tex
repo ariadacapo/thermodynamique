@@ -22,7 +22,7 @@
 		L’\vocab{entropie} a été pensée pour répondre à ce questionnement. À la fin de ce chapitre, nous disposerons d’un outil permettant de \emph{calculer} le sens d’une évolution, c’est-à-dire de prédire mathématiquement laquelle de deux situations séparées dans le temps doit avoir eu lieu avant l’autre.
 
 	\subsection{Comment déterminer le sens d’une transformation ?}
-	\index{évolutions!sens des}
+	\index{évolutions!sens des}\index{sens!des évolutions}
 	
 		Dans le vocabulaire de la thermodynamique, le concept d’une «~évolution à sens unique~» est bien sûr nommé \vocab[irréversibilité!concept]{irréversibilité}. Nous avions déjà abordé l'irréversibilité en section \S\ref{ch_évolutions_irr_sf}, où nous avions déterminé qu’elle avait deux causes principales :
 			\begin{itemize}
@@ -223,7 +223,7 @@
 	
 		Après six chapitres de bons et loyaux services, nous rangeons le diagramme pression-volume sur l’étagère, car il est temps de mettre à profit notre nouvel outil : le diagramme température-entropie. Même s’il est un peu plus abstrait, le diagramme $T-s$ est très utile pour décrire ce qui se passe à l’intérieur des machines car il est facile à tracer et il nous permet de visualiser directement \emph{l’irréversibilité}, qui est toujours indésirable pour l’ingénieur/e.
 
-		Lorsque le fluide reçoit ou fournit du travail de façon adiabatique réversible, alors $\Delta s = \int \frac{\diff q}{T} = 0$ puisque l’évolution est réversible et que $\diff q = 0$. Une transformation adiabatique réversible se fait donc à entropie constante --\ elle est iso-entropique, ce que nous appelons \vocab[évolutions!isentropiques]{isentropique}\index{isentropiques, évolutions}\index{évolutions!adiabatiques réversibles}. Nous la représenterons ainsi par un trajet vertical sur les diagrammes température-entropie (\cref{fig_ts_basics}).
+		Lorsque le fluide reçoit ou fournit du travail de façon adiabatique réversible, alors $\Delta s = \int \frac{\diff q}{T} = 0$ puisque l’évolution est réversible et que $\diff q = 0$. Une transformation adiabatique réversible se fait donc à entropie constante --\ elle est iso-entropique, ce que nous appelons \vocab[évolutions!isentropiques]{isentropique}\index{isentropique(s)!évolutions}\index{évolutions!adiabatiques réversibles}. Nous la représenterons ainsi par un trajet vertical sur les diagrammes température-entropie (\cref{fig_ts_basics}).
 
 		\onlyamphibook{\begin{figure}}
 		\onlyframabook{\begin{figure}[h!]}
@@ -502,7 +502,7 @@
 
 \onlyframabook{\clearpage}
 \section{Prédire le sens des transformations}
-\index{évolutions!sens des}\index{irréversibilité!quantification|(}
+\index{évolutions!sens des}\index{sens!des évolutions}\index{irréversibilité!quantification|(}
 
 	Nous voilà au concept central qui a ouvert les portes de la physique à la thermodynamique. À partir des quantifications des variations d’entropie, nous sommes capables de décrire le sens des transformations, c’est-à-dire de prouver par exemple qu’un état B vient \emph{après} un état A.
 
@@ -623,7 +623,7 @@
 		Nous pourrions également dire, de la même façon que nous avions décrit l’énergie comme «~une grandeur qui ne varie pas lors des transformations~» (\S\ref{ch_energie}), que l’entropie est conceptualisée comme «~une grandeur qui augmente toujours lors des transformations~». C’est l’indicateur que nous recherchions en \S\ref{ch_utilite_entropie} pour pouvoir déterminer le sens des transformations.
 
 	\subsection{Prédire le sens des transformations}
-	\index{évolutions!sens des}
+	\index{évolutions!sens des}\index{sens!des évolutions}
 	
 		Si l’on veut montrer qu’un système ne peut aller que d’un état A à un état B, c’est-à-dire que l’évolution est irréversible, il nous faut procéder de la façon suivante :
 	
@@ -640,6 +640,7 @@
 				\item Si $\int \left(\frac{\diff q}{T}\right)_\text{chemin réel} > \int \left(\frac{\diff q}{T}\right)_\text{rév.}$, alors la transformation «~réelle~» décrite est \vocab[impossibilité (physique)]{impossible}. Elle ne peut avoir lieu que dans le sens inverse (B $\to$ A).
 			\end{itemize}
 		
+		\index{sens!du temps}
 		Nous pouvons donc, au moins pour quelques cas simples, retrouver mathématiquement le sens du temps -- une subtilité que l’on n’attendait pas de la part d’ingénieurs préoccupés par leur consommation de combustible !
 
 		\begin{anexample}
@@ -706,7 +707,7 @@
 	À chaque fois que nous donnons lieu à une augmentation de l’entropie globale, il nous faut au final effectuer un rejet de chaleur indésirable. Ainsi, ces quantifications de $\Delta s$ nous permettent de mesurer la qualité des détentes, compressions, refroidissements et réchauffements que nous effectuons avec les fluides dans nos~machines.
 
 	\subsection{Contexte : le sens du temps}
-	\index{évolutions!sens des}
+	\index{évolutions!sens des}\index{sens!des évolutions}\index{sens!du temps}
 				
 		Les exemples que nous avons étudiés dans ce chapitre pour déterminer le sens des transformations sont très académiques, toutefois la démarche reste valide pour toute transformation : une pierre jetée dans un étang, une assiette qui se casse en tombant, etc. Si nous revenons aux trois photos de la~\cref{fig_water_jump}, nous pourrions en retrouver l’ordre en déterminant les états initial et final de l’eau autour de la plongeuse, et en comparant $\Delta s$ à l’intégrale $\int \left(\frac{\diff q}{T}\right)_\text{chemin réel}$ réalisée pendant l’entrée dans l’eau.
 		
