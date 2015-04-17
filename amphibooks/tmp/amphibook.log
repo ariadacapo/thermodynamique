@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2015.3.15)  8 APR 2015 21:35
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2015.3.15)  17 APR 2015 19:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2701,7 +2701,7 @@ Package: niceframe v1.1c <2009/31/08> (Marcus Ohlhaut)
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \vocab with arg. spec. 'om' on line 250.
+. Defining document command \vocab with arg. spec. 'om' on line 254.
 .................................................
 
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
@@ -2863,23 +2863,92 @@ Package minitoc Info: I0010
 (/usr/share/texlive/texmf-dist/tex/latex/minitoc/french.mld
 File: french.mld 2006/03/21
 ))
-\c@anexamplecounter=\count465
+(/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/index/index.sty
+Package: index 2004/01/20 v4.2beta Improved index support (dmj)
+\@indexbox=\insert233
+\indexproofstyle=\toks44
+
+
+LaTeX Warning: Command \markboth  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \markright  has changed.
+               Check if current package is valid.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count465
+\mult@box=\box71
+\multicol@leftmargin=\dimen372
+\c@unbalance=\count466
+\c@collectmore=\count467
+\doublecol@number=\count468
+\multicoltolerance=\count469
+\multicolpretolerance=\count470
+\full@width=\dimen373
+\page@free=\dimen374
+\premulticols=\dimen375
+\postmulticols=\dimen376
+\multicolsep=\skip185
+\multicolbaselineskip=\skip186
+\partial@page=\box72
+\last@line=\box73
+\mult@rightbox=\box74
+\mult@grightbox=\box75
+\mult@gfirstbox=\box76
+\mult@firstbox=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\c@columnbadness=\count471
+\c@finalcolumnbadness=\count472
+\last@try=\dimen377
+\multicolovershoot=\dimen378
+\multicolundershoot=\dimen379
+\mult@nat@firstbox=\box95
+\colbreak@box=\box96
+\multicol@sort@counter=\count473
+)
+\c@anexamplecounter=\count474
 
 
 Package hyperref Warning: Option `pdftex' has already been used,
-(hyperref)                setting the option has no effect on input line 400.
+(hyperref)                setting the option has no effect on input line 415.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 400.
+Package hyperref Info: Option `colorlinks' set `true' on input line 415.
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 400.
+(hyperref)                setting the option has no effect on input line 415.
 
-Package hyperref Info: Option `unicode' set `false' on input line 400.
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 400.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 400.
+Package hyperref Info: Option `unicode' set `false' on input line 415.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 415.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 415.
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/hypcap.sty
 Package: hypcap 2011/02/16 v1.11 Adjusting the anchors of captions (HO)
 ) (./a/steer.tex)
+\idxtitle@default=\toks45
+\tf@default=\write8
+\openout8 = `amphibook.idx'.
+
+Package index Info: Writing index file amphibook.idx on input line 7.
 Package biblatex Info: Trying to load language 'french'...
 Package biblatex Info: ... file 'french.lbx' found.
 (/usr/share/texmf/tex/latex/biblatex/lbx/french.lbx
@@ -2889,8 +2958,8 @@ File: french.lbx 2011/11/13 v1.7 biblatex localization
 Package biblatex Warning: 'babel' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count466
-\@quotereset=\count467
+\@quotelevel=\count475
+\@quotereset=\count476
 (./amphibook.aux (./a/frame_beginningstuff.aux) (./0/chapitre_intro.aux)
 (./1/chapitre_1.aux) (./1/exercices_chapitre_1.aux) (./2/chapitre_2.aux)
 (./2/exercices_chapitre_2.aux) (./3/chapitre_3.aux)
@@ -2904,12 +2973,6 @@ LaTeX Warning: Label `1' multiply defined.
 (./7/exercices_chapitre_7.aux) (./8/chapitre_8.aux)
 (./8/exercices_chapitre_8.aux) (./9/chapitre_9.aux
 
-LaTeX Warning: Label `fig_centrale_condenseur1' multiply defined.
-
-
-LaTeX Warning: Label `fig_centrale_condenseur1@cref' multiply defined.
-
-
 LaTeX Warning: Label `fig_turbinia' multiply defined.
 
 
@@ -2917,76 +2980,75 @@ LaTeX Warning: Label `fig_turbinia@cref' multiply defined.
 
 ) (./9/exercices_chapitre_9.aux) (./10/chapitre_10.aux)
 (./10/exercices_chapitre_10.aux) (./a/frame_annexes.aux)
-(./a/frame_bibliographie.aux) (./a/contenu_epitaphe.aux))
+(./a/frame_bibliographie.aux) (./a/frame_index.aux) (./a/contenu_epitaphe.aux))
 \openout1 = `amphibook.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 7.
-LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 7.
-
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 8.
+LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/omlnxlmi.fd
 File: omlnxlmi.fd 2012/05/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 7.
-LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 7.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 8.
+LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 8.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/omsntxsy.fd
 File: omsntxsy.fd 2012/04/10 Fontinst v1.933 font definitions for OMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/ntxex/m/n on input line 7.
-LaTeX Font Info:    Try loading font information for OMX+ntxex on input line 7.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/ntxex/m/n on input line 8.
+LaTeX Font Info:    Try loading font information for OMX+ntxex on input line 8.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/omxntxex.fd
 File: omxntxex.fd 2012/04/18 Fontinst v1.933 font definitions for OMX/ntxex.
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 7.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 7.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 8.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 7.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 7.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 8.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/lgrcmr.fd
 File: lgrcmr.fd 2008/06/17 v2.3 Greek Computer Modern
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 7.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Try loading font information for T1+fxl on input line 7.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Try loading font information for T1+fxl on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/libertine-legacy/t1fxl.fd
 File: t1fxl.fd 2011/06/06 scaled font definitions for libertine T1/fxl (Nm).
 )
 LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
-(Font)              scaled to size 12.0pt on input line 7.
-LaTeX Info: Redefining \degres on input line 7.
-LaTeX Info: Redefining \dots on input line 7.
-LaTeX Info: Redefining \up on input line 7.
+(Font)              scaled to size 12.0pt on input line 8.
+LaTeX Info: Redefining \degres on input line 8.
+LaTeX Info: Redefining \dots on input line 8.
+LaTeX Info: Redefining \up on input line 8.
 
 
 Package tabfigures Warning: There is no \figureversion to support tabular figur
-es on input line 7.
+es on input line 8.
 
-LaTeX Info: Redefining \microtypecontext on input line 7.
+LaTeX Info: Redefining \microtypecontext on input line 8.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -3002,17 +3064,17 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count468
-\scratchdimen=\dimen372
-\scratchbox=\box71
-\nofMPsegments=\count469
-\nofMParguments=\count470
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count471
-\MPscratchDim=\dimen373
-\MPnumerator=\count472
-\makeMPintoPDFobject=\count473
-\everyMPtoPDFconversion=\toks45
+\scratchcounter=\count477
+\scratchdimen=\dimen380
+\scratchbox=\box97
+\nofMPsegments=\count478
+\nofMParguments=\count479
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count480
+\MPscratchDim=\dimen381
+\MPnumerator=\count481
+\makeMPintoPDFobject=\count482
+\everyMPtoPDFconversion=\toks47
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -3031,23 +3093,23 @@ e
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \multfootnote with arg. spec. 's+m' on line 7.
+. Defining document command \multfootnote with arg. spec. 's+m' on line 8.
 .................................................
 
 *************************************************
 * LaTeX warning: "xparse/redefine-command"
 * 
-* Redefining document command \footnote with arg. spec. 'so+m' on line 7.
+* Redefining document command \footnote with arg. spec. 'so+m' on line 8.
 *************************************************
 *************************************************
 * LaTeX warning: "xparse/redefine-command"
 * 
-* Redefining document command \footnotemark with arg. spec. 'so' on line 7.
+* Redefining document command \footnotemark with arg. spec. 'so' on line 8.
 *************************************************
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \innernote with arg. spec. 'so+m' on line 7.
+. Defining document command \innernote with arg. spec. 'so+m' on line 8.
 .................................................
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -3085,19 +3147,19 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box72
-Package hyperref Info: Link coloring ON on input line 7.
+\AtBeginShipoutBox=\box98
+Package hyperref Info: Link coloring ON on input line 8.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count474
+\c@section@level=\count483
 )
-LaTeX Info: Redefining \ref on input line 7.
-LaTeX Info: Redefining \pageref on input line 7.
-LaTeX Info: Redefining \nameref on input line 7.
+LaTeX Info: Redefining \ref on input line 8.
+LaTeX Info: Redefining \pageref on input line 8.
+LaTeX Info: Redefining \nameref on input line 8.
 
 ABD: EveryShipout initializing macros
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -3107,14 +3169,21 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'amphibook.bbl' found.
- (./amphibook.bbl)
-Package biblatex Info: Reference section=0 on input line 7.
-Package biblatex Info: Reference segment=0 on input line 7.
+ (./amphibook.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Carnot!Sadi
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
+Package biblatex Info: Reference section=0 on input line 8.
+Package biblatex Info: Reference segment=0 on input line 8.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hypcap package is loaded.
 Package caption Info: longtable package is loaded.
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2011/09/12 v1.3 longtable captions (AR)
 )
 Package caption Info: wrapfig package is loaded.
@@ -3134,12 +3203,12 @@ File: siunitx-abbreviations.cfg 2012/05/03 v2.5c siunitx: Abbreviated units
 ) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/config/siunitx-binary.cfg
 File: siunitx-binary.cfg 2012/05/03 v2.5c siunitx: Binary units
 )
-\c@minilofdepth=\count475
-\c@minilotdepth=\count476
-\c@partlofdepth=\count477
-\c@partlotdepth=\count478
-\c@sectlofdepth=\count479
-\c@sectlotdepth=\count480
+\c@minilofdepth=\count484
+\c@minilotdepth=\count485
+\c@partlofdepth=\count486
+\c@partlotdepth=\count487
+\c@sectlofdepth=\count488
+\c@sectlotdepth=\count489
 Package minitoc(hints) Info: I0049
 (minitoc(hints))             ==> You requested the hints option. 
 (minitoc(hints))             Some hints are eventually given below.
@@ -3173,16 +3242,16 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                --- It may be the consequence 
 (minitoc(hints))                of loading the ``hyperref'' package.
 
-\c_siunitx_mathsf_int=\count481
+\c_siunitx_mathsf_int=\count490
 LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
-(Font)              scaled to size 8.8pt on input line 7.
+(Font)              scaled to size 8.8pt on input line 8.
 LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
-(Font)              scaled to size 6.6pt on input line 7.
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 7.
+(Font)              scaled to size 6.6pt on input line 8.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 8.
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 7.
+LaTeX Font Info:    Try loading font information for U+msa on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
@@ -3190,7 +3259,7 @@ File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 (/home/olivier/aero/global/publishing/latex/sty/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 7.
+LaTeX Font Info:    Try loading font information for U+msb on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -3198,28 +3267,28 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 (/home/olivier/aero/global/publishing/latex/sty/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 7.
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Font Info:    Try loading font information for T1+fxb on input line 7.
+LaTeX Font Info:    Try loading font information for T1+fxb on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/libertine-legacy/t1fxb.fd
 File: t1fxb.fd 2011/06/06 scaled font definitions for libertine T1/fxb (Nm).
 )
 LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
-(Font)              scaled to size 12.0pt on input line 7.
+(Font)              scaled to size 12.0pt on input line 8.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `fxb' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
-(Font)              scaled to size 8.8pt on input line 7.
+(Font)              scaled to size 8.8pt on input line 8.
 LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
-(Font)              scaled to size 6.6pt on input line 7.
-\c_siunitx_mathtt_int=\count482
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 7.
+(Font)              scaled to size 6.6pt on input line 8.
+\c_siunitx_mathtt_int=\count491
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -3377,12 +3446,15 @@ nation with the same identifier (name{equation.10.8.12}) has been already used,
 l.55 \subsubsection{Moteur Diesel}
                                    <./10/images/photo_continental_io-550.jpg> <
 ./10/images/photo_sr22.jpg>]
+LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
+(Font)              scaled to size 10.0pt on input line 59.
+
 Overfull \hbox (14.56143pt too wide) in paragraph at lines 62--63
 []\T1/fxl/m/n/10 (-20) la cha-leur spé-ci-fique four-nie chaque cycle est de []
 [][]; 
  []
 
-<images/photo_diesel_generateur.jpg, id=69, 803.0pt x 602.25pt>
+<images/photo_diesel_generateur.jpg, id=71, 803.0pt x 602.25pt>
 File: images/photo_diesel_generateur.jpg Graphic file (type jpg)
 
 <use images/photo_diesel_generateur.jpg>
@@ -3390,7 +3462,7 @@ Package pdftex.def Info: images/photo_diesel_generateur.jpg used on input line
 69.
 (pdftex.def)             Requested size: 216.96585pt x 162.71994pt.
 
-<images/photo_diesel_propulsion.jpg, id=70, 803.0pt x 602.25pt>
+<images/photo_diesel_propulsion.jpg, id=72, 803.0pt x 602.25pt>
 File: images/photo_diesel_propulsion.jpg Graphic file (type jpg)
 
 <use images/photo_diesel_propulsion.jpg>
@@ -3403,7 +3475,13 @@ Underfull \hbox (badness 8038) in paragraph at lines 73--73
 ie-sel six cy-lindres
  []
 
-<images/circuit_turboprop.png, id=76, 539.616pt x 240.9pt>
+
+Overfull \hbox (11.46994pt too wide) in paragraph at lines 88--89
+[]\T1/fxl/m/n/10 (-20) Quelle est la pres-sion maxi-male at-teinte dans le []? 
+
+ []
+
+<images/circuit_turboprop.png, id=78, 539.616pt x 240.9pt>
 File: images/circuit_turboprop.png Graphic file (type png)
 
 <use images/circuit_turboprop.png>
@@ -3415,18 +3493,18 @@ Overfull \hbox (5.88214pt too wide) in paragraph at lines 111--112
  [][][])
  []
 
-<images/photo_pwc_pw123.jpg, id=80, 1606.0pt x 638.385pt>
+<images/photo_pwc_pw123.jpg, id=82, 1606.0pt x 638.385pt>
 File: images/photo_pwc_pw123.jpg Graphic file (type jpg)
 
 <use images/photo_pwc_pw123.jpg>
-Package pdftex.def Info: images/photo_pwc_pw123.jpg used on input line 139.
+Package pdftex.def Info: images/photo_pwc_pw123.jpg used on input line 140.
 (pdftex.def)             Requested size: 216.96585pt x 86.2367pt.
 
-<images/photo_dash8.jpg, id=81, 1284.8pt x 856.19875pt>
+<images/photo_dash8.jpg, id=83, 1284.8pt x 856.19875pt>
 File: images/photo_dash8.jpg Graphic file (type jpg)
 
 <use images/photo_dash8.jpg>
-Package pdftex.def Info: images/photo_dash8.jpg used on input line 139.
+Package pdftex.def Info: images/photo_dash8.jpg used on input line 140.
 (pdftex.def)             Requested size: 216.96585pt x 144.58508pt.
 
 
@@ -3434,42 +3512,39 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [338 <./10/images/photo_diesel_generateur.jpg> <./10/images/photo_diesel_propul
 sion.jpg> <./10/images/circuit_turboprop.png>]
-<images/photo_pw_j52_1.jpg, id=115, 790.152pt x 355.3275pt>
+<images/photo_pw_j52_1.jpg, id=118, 790.152pt x 355.3275pt>
 File: images/photo_pw_j52_1.jpg Graphic file (type jpg)
 
 <use images/photo_pw_j52_1.jpg>
-Package pdftex.def Info: images/photo_pw_j52_1.jpg used on input line 172.
+Package pdftex.def Info: images/photo_pw_j52_1.jpg used on input line 173.
 (pdftex.def)             Requested size: 241.07481pt x 108.40996pt.
  [339 <./10/images/photo_pwc_pw123.jpg> <./10/images/photo_dash8.jpg> <./10/ima
 ges/photo_pw_j52_1.jpg>]
-LaTeX Font Info:    Font shape `T1/fxl/m/it' will be
-(Font)              scaled to size 10.0pt on input line 204.
-
-<images/cf6_cutaway.jpg, id=142, 690.58pt x 507.8975pt>
+<images/cf6_cutaway.jpg, id=147, 690.58pt x 507.8975pt>
 File: images/cf6_cutaway.jpg Graphic file (type jpg)
 
 <use images/cf6_cutaway.jpg>
-Package pdftex.def Info: images/cf6_cutaway.jpg used on input line 208.
+Package pdftex.def Info: images/cf6_cutaway.jpg used on input line 209.
 (pdftex.def)             Requested size: 284.52756pt x 209.26231pt.
 
-<images/circuit_turbofan_twin_spool.png, id=145, 595.9866pt x 332.9238pt>
+<images/circuit_turbofan_twin_spool.png, id=150, 595.9866pt x 332.9238pt>
 File: images/circuit_turbofan_twin_spool.png Graphic file (type png)
 
 <use images/circuit_turbofan_twin_spool.png>
 Package pdftex.def Info: images/circuit_turbofan_twin_spool.png used on input l
-ine 217.
+ine 218.
 (pdftex.def)             Requested size: 284.52756pt x 158.94307pt.
 LaTeX Font Info:    Font shape `T1/fxl/bx/n' in size <10> not available
-(Font)              Font shape `T1/fxl/b/n' tried instead on input line 234.
+(Font)              Font shape `T1/fxl/b/n' tried instead on input line 235.
 LaTeX Font Info:    Font shape `T1/fxl/b/n' will be
-(Font)              scaled to size 10.0pt on input line 234.
+(Font)              scaled to size 10.0pt on input line 235.
 
-<images/circuit_turboshaft_exercice.png, id=150, 494.15384pt x 443.50308pt>
+<images/circuit_turboshaft_exercice.png, id=155, 494.15384pt x 443.50308pt>
 File: images/circuit_turboshaft_exercice.png Graphic file (type png)
 
 <use images/circuit_turboshaft_exercice.png>
 Package pdftex.def Info: images/circuit_turboshaft_exercice.png used on input l
-ine 268.
+ine 269.
 (pdftex.def)             Requested size: 341.43306pt x 306.45055pt.
  [340 <./10/images/cf6_cutaway.jpg> <./10/images/circuit_turbofan_twin_spool.pn
 g> <./10/images/circuit_turboshaft_exercice.png>]
@@ -3506,43 +3581,37 @@ g> <./10/images/circuit_turboshaft_exercice.png>]
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-<images/exo_sol_ts_diesel.png, id=186, 263.00319pt x 267.47351pt>
+<images/exo_sol_ts_diesel.png, id=193, 263.00319pt x 267.47351pt>
 File: images/exo_sol_ts_diesel.png Graphic file (type png)
 
 <use images/exo_sol_ts_diesel.png>
-Package pdftex.def Info: images/exo_sol_ts_diesel.png used on input line 287.
+Package pdftex.def Info: images/exo_sol_ts_diesel.png used on input line 288.
 (pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
 
-Overfull \hbox (2.59422pt too wide) in paragraph at lines 291--296
-|   \T1/fxl/m/n/10 (-20) 5) Avec l'[][]4/36[][], $[] \U/ntxmia/m/it/10 = [][] =
- [][] =
- []
-
-
-Overfull \hbox (16.70038pt too wide) in paragraph at lines 302--303
+Overfull \hbox (16.70038pt too wide) in paragraph at lines 303--304
 |   \T1/fxl/m/n/10 (-20) 4) $[] \U/ntxmia/m/it/10 = \OMS/ntxsy/m/n/10 ^^@[] \OM
 L/nxlmi/m/it/10 ^^Q[] \T1/fxl/m/n/10 (-20) (\OML/nxlmi/m/it/10 w[] \T1/fxl/m/n/
 10 (-20) + \OML/nxlmi/m/it/10 w[]\T1/fxl/m/n/10 (-20) ) \U/ntxmia/m/it/10 =
  []
 
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 306.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 307.
 
-<images/exo_sol_ts_intercooler.png, id=201, 263.00319pt x 267.47351pt>
+<images/exo_sol_ts_intercooler.png, id=213, 263.00319pt x 267.47351pt>
 File: images/exo_sol_ts_intercooler.png Graphic file (type png)
 
 <use images/exo_sol_ts_intercooler.png>
 Package pdftex.def Info: images/exo_sol_ts_intercooler.png used on input line 3
-11.
+12.
 (pdftex.def)             Requested size: 71.13188pt x 72.34125pt.
 
-Overfull \hbox (11.92027pt too wide) in paragraph at lines 316--317
+Overfull \hbox (11.92027pt too wide) in paragraph at lines 317--318
 |   \T1/fxl/m/n/10 (-20) 7) $\OML/nxlmi/m/it/10 M[] \U/ntxmia/m/it/10 = [] []$\
 T1/fxl/m/n/10 (-20) , soit une aug-men-ta-tion de [][][];
  []
 
 
-Overfull \hbox (4.40807pt too wide) in paragraph at lines 317--318
+Overfull \hbox (4.40807pt too wide) in paragraph at lines 318--319
 |   \T1/fxl/m/n/10 (-20) 8) La puis-sance aug-mente de [][][], tan-dis que la c
 onsom-ma-tion aug-mente elle de [][][],
  []
@@ -3568,8 +3637,8 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the amphibook.log file.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
 (./amphibook.aux (./a/frame_beginningstuff.aux) (./0/chapitre_intro.aux)
 (./1/chapitre_1.aux) (./1/exercices_chapitre_1.aux) (./2/chapitre_2.aux)
 (./2/exercices_chapitre_2.aux) (./3/chapitre_3.aux)
@@ -3583,10 +3652,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
 (./10/exercices_chapitre_10.aux)
 Package cleveref Info: loaded `french' language definitions on input line 50.
  (./a/frame_annexes.aux)
-(./a/frame_bibliographie.aux) (./a/contenu_epitaphe.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 70.
-
+(./a/frame_bibliographie.aux) (./a/frame_index.aux) (./a/contenu_epitaphe.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 73.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.78548pt have occurred.
@@ -3597,16 +3665,16 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to 'amphibook.run.xml'.
 \openout1 = `amphibook.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
  ) 
 Here is how much of TeX's memory you used:
- 52763 strings out of 494719
- 913263 string characters out of 3175276
- 1263378 words of memory out of 3000000
- 54220 multiletter control sequences out of 15000+200000
- 612516 words of font info for 627 fonts, out of 3000000 for 9000
+ 52968 strings out of 494719
+ 916377 string characters out of 3175276
+ 1271981 words of memory out of 3000000
+ 54402 multiletter control sequences out of 15000+200000
+ 613228 words of font info for 634 fonts, out of 3000000 for 9000
  248 hyphenation exceptions out of 8191
- 101i,20n,109p,1078b,1302s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 101i,20n,109p,1078b,1304s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{anexamplecounter.10.2} has been referenced but do
 es not exist, replaced by a fixed one
 
@@ -3623,9 +3691,6 @@ pdfTeX warning (dest): name{figure.caption.19} has been referenced but does not
  exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{subsection.10.3.3} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.10.3.5} has been referenced but does not
  exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{subsection.10.3.4} has been referenced but does not
@@ -3648,6 +3713,9 @@ t exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{figure.caption.253} has been referenced but does no
 t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.10.3.5} has been referenced but does not
+ exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{figure.caption.251} has been referenced but does no
 t exist, replaced by a fixed one
@@ -3681,10 +3749,10 @@ xfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr
 hare/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/newtx/txsy5.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/newtx/txsy7.pfb>
-Output written on amphibook.pdf (6 pages, 2405587 bytes).
+Output written on amphibook.pdf (6 pages, 2409351 bytes).
 PDF statistics:
- 296 PDF objects out of 1000 (max. 8388607)
- 255 compressed objects within 3 object streams
+ 307 PDF objects out of 1000 (max. 8388607)
+ 266 compressed objects within 3 object streams
  80 named destinations out of 1000 (max. 500000)
  97878 words of extra memory for PDF output out of 106986 (max. 10000000)
 

@@ -1,18 +1,18 @@
-[1] Config.pm:300> INFO - This is Biber 0.9.9
+[0] Config.pm:300> INFO - This is Biber 0.9.9
 [1] Config.pm:303> INFO - Logfile is 'thermodynamique.blg'
-[2] biber:145> INFO - === Tue Apr 14, 2015, 21:48:06
-[3] Biber.pm:271> INFO - Reading 'thermodynamique.bcf'
-[29] Biber.pm:586> INFO - Found 50 citekeys in bib section 0
-[44] Biber.pm:2585> INFO - Processing bib section 0
-[74] Biber.pm:2677> INFO - Looking for bibtex format file 'annexes/thermobib.bib' for section 0
-[77] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
-[117] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
-[117] bibtex.pm:704> INFO - Found BibTeX data source 'annexes/thermobib.bib'
-[186] Utils.pm:168> WARN - I didn't find a database entry for 'Carnot!Sadi' (section 0)
-[297] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
-[297] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
-[401] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
-[401] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
-[466] bbl.pm:427> INFO - Writing 'thermodynamique.bbl' with encoding 'UTF-8'
-[469] bbl.pm:498> INFO - Output to thermodynamique.bbl
-[470] Biber.pm:106> INFO - WARNINGS: 1
+[1] biber:145> INFO - === Fri Apr 17, 2015, 19:51:53
+[2] Biber.pm:271> INFO - Reading 'thermodynamique.bcf'
+[37] Biber.pm:586> INFO - Found 50 citekeys in bib section 0
+[55] Biber.pm:2585> INFO - Processing bib section 0
+[105] Biber.pm:2677> INFO - Looking for bibtex format file 'annexes/thermobib.bib' for section 0
+[108] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
+[143] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
+[144] bibtex.pm:704> INFO - Found BibTeX data source 'annexes/thermobib.bib'
+[228] Utils.pm:168> WARN - I didn't find a database entry for 'Carnot!Sadi' (section 0)
+[412] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
+[413] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
+[534] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
+[535] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
+[597] bbl.pm:427> INFO - Writing 'thermodynamique.bbl' with encoding 'UTF-8'
+[600] bbl.pm:498> INFO - Output to thermodynamique.bbl
+[601] Biber.pm:106> INFO - WARNINGS: 1
