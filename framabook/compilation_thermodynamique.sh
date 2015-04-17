@@ -3,7 +3,6 @@
 # Script pour automatiser la compilation du Framabook de thermodynamique
 # Attention — écrit selon la méthode de la Rhâche par un complet amateur
 # Doit être configuré pour fonctionner
-# Mise à jour du 2014-10-17
 
 
 # CONFIGURATION
@@ -58,7 +57,7 @@ bibtex thermodynamique.aux
 biber thermodynamique
 
 # makeindex potasse l’index à partir des références \index{} du contenu
-makeindex thermodynamique
+makeindex -s styles\ thermo/indexstyle.ist thermodynamique
 
 # Deuxième compilation, permet de finaliser :
 # 	grande table des matières,
@@ -78,7 +77,7 @@ mv thermodynamique.log tmp/thermodynamique_compil1.log	# pour les curieux
 pdflatex -file-line-error thermodynamique.tex | colout -t latex
 bibtex thermodynamique.aux
 biber thermodynamique
-makeindex thermodynamique
+makeindex -s styles\ thermo/indexstyle.ist thermodynamique
 
 
 # Si le nombre de pages supplémentaires dans la compilation n°2 n’est pas pair,
