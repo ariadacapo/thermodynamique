@@ -2,9 +2,9 @@
 \section{Le concept de l’entropie}
 
 	\subsection{À quoi sert l’entropie ?}
-	\label{ch_utilite_entropie}\index{entropie!concept}\index{énergie!concept}
+	\label{ch_utilite_entropie}\index{entropie!concept}\index{energie@énergie!concept}
 	
-		Au tout début du \coursun, nous avions vu que nous pouvions conceptualiser l’\vocab[énergie!concept]{énergie} comme étant «~une grandeur qui ne varie jamais lorsque les choses évoluent~». Ainsi, nous utilisons les quantifications de l’énergie pour déterminer les limites du possible : par exemple, nous savons qu’avec~\SI{500}{\joule}, un corps immobile de masse~\SI{10}{\kilogram} ne peut pas atteindre une vitesse supérieure à~\SI{10}{\metre\per\second}.
+		Au tout début du \coursun, nous avions vu que nous pouvions conceptualiser l’\vocab[energie@énergie!concept]{énergie} comme étant «~une grandeur qui ne varie jamais lorsque les choses évoluent~». Ainsi, nous utilisons les quantifications de l’énergie pour déterminer les limites du possible : par exemple, nous savons qu’avec~\SI{500}{\joule}, un corps immobile de masse~\SI{10}{\kilogram} ne peut pas atteindre une vitesse supérieure à~\SI{10}{\metre\per\second}.
 	
 		\index{impossibilité (physique)}
 		Pourtant, notre intuition et notre expérience quotidienne nous apprennent que beaucoup de transformations ne peuvent avoir lieu que dans un seul sens (\cref{fig_water_jump}). Par exemple, il y a autant d’énergie dans un verre d’eau au rebord d’une table que dans ce même verre brisé avec cette même eau renversée sur le sol. Or nous savons, ou plus exactement, nous avons la conviction profonde, qu’il est \emph{possible} que le verre tombe et se casse, mais \emph{impossible} que les éclats et l’eau sur le sol se rassemblent spontanément en un verre plein sur la table.\\
@@ -22,7 +22,7 @@
 		L’\vocab{entropie} a été pensée pour répondre à ce questionnement. À la fin de ce chapitre, nous disposerons d’un outil permettant de \emph{calculer} le sens d’une évolution, c’est-à-dire de prédire mathématiquement laquelle de deux situations séparées dans le temps doit avoir eu lieu avant l’autre.
 
 	\subsection{Comment déterminer le sens d’une transformation ?}
-	\index{évolutions!sens des}\index{sens!des évolutions}
+	\index{evolutions@évolutions!sens des}\index{sens!des évolutions}
 	
 		Dans le vocabulaire de la thermodynamique, le concept d’une «~évolution à sens unique~» est bien sûr nommé \vocab[irréversibilité!concept]{irréversibilité}. Nous avions déjà abordé l'irréversibilité en section \S\ref{ch_évolutions_irr_sf}, où nous avions déterminé qu’elle avait deux causes principales :
 			\begin{itemize}
@@ -153,7 +153,7 @@
 \label{ch_variations_entropie}
 
 	\subsection{Analogie avec le volume}
-	\index{entropie!analogie avec le volume}
+	\index{entropie!analogie avec le volume}\index{température!entropie et}
 	
 		Nous avons vu au \coursdeux que lorsque l’évolution est réversible, le travail fourni par un fluide lorsque son volume varie s’exprime selon l’\cref{eq_travail_pdV} :
 		\begin{equation}
@@ -223,7 +223,7 @@
 	
 		Après six chapitres de bons et loyaux services, nous rangeons le diagramme pression-volume sur l’étagère, car il est temps de mettre à profit notre nouvel outil : le diagramme température-entropie. Même s’il est un peu plus abstrait, le diagramme $T-s$ est très utile pour décrire ce qui se passe à l’intérieur des machines car il est facile à tracer et il nous permet de visualiser directement \emph{l’irréversibilité}, qui est toujours indésirable pour l’ingénieur/e.
 
-		Lorsque le fluide reçoit ou fournit du travail de façon adiabatique réversible, alors $\Delta s = \int \frac{\diff q}{T} = 0$ puisque l’évolution est réversible et que $\diff q = 0$. Une transformation adiabatique réversible se fait donc à entropie constante --\ elle est iso-entropique, ce que nous appelons \vocab[évolutions!isentropiques]{isentropique}\index{isentropique(s)!évolutions}\index{évolutions!adiabatiques réversibles}. Nous la représenterons ainsi par un trajet vertical sur les diagrammes température-entropie (\cref{fig_ts_basics}).
+		Lorsque le fluide reçoit ou fournit du travail de façon adiabatique réversible, alors $\Delta s = \int \frac{\diff q}{T} = 0$ puisque l’évolution est réversible et que $\diff q = 0$. Une transformation adiabatique réversible se fait donc à entropie constante --\ elle est iso-entropique, ce que nous appelons \vocab[evolutions@évolutions!isentropiques]{isentropique}\index{isentropique(s)!évolutions}\index{evolutions@évolutions!adiabatiques réversibles}. Nous la représenterons ainsi par un trajet vertical sur les diagrammes température-entropie (\cref{fig_ts_basics}).
 
 		\onlyamphibook{\begin{figure}}
 		\onlyframabook{\begin{figure}[h!]}
@@ -502,7 +502,7 @@
 
 \onlyframabook{\clearpage}
 \section{Prédire le sens des transformations}
-\index{évolutions!sens des}\index{sens!des évolutions}\index{irréversibilité!quantification|(}
+\index{evolutions@évolutions!sens des}\index{sens!des évolutions}\index{irréversibilité!quantification|(}
 
 	Nous voilà au concept central qui a ouvert les portes de la physique à la thermodynamique. À partir des quantifications des variations d’entropie, nous sommes capables de décrire le sens des transformations, c’est-à-dire de prouver par exemple qu’un état B vient \emph{après} un état A.
 
@@ -619,11 +619,11 @@
 
 		On peut toujours réduire l’entropie d’un système pour la ramener à sa valeur initiale (il suffit pour cela de ramener le système lui-même à son état initial, quelle que soit la manière de procéder), mais cela se fera nécessairement au prix d’une augmentation \emph{au moins aussi grande} de celle d’un autre système.
 		
-		\index{énergie!concept}\index{entropie!concept}
+		\index{energie@énergie!concept}\index{entropie!concept}
 		Nous pourrions également dire, de la même façon que nous avions décrit l’énergie comme «~une grandeur qui ne varie pas lors des transformations~» (\S\ref{ch_energie}), que l’entropie est conceptualisée comme «~une grandeur qui augmente toujours lors des transformations~». C’est l’indicateur que nous recherchions en \S\ref{ch_utilite_entropie} pour pouvoir déterminer le sens des transformations.
 
 	\subsection{Prédire le sens des transformations}
-	\index{évolutions!sens des}\index{sens!des évolutions}
+	\index{evolutions@évolutions!sens des}\index{sens!des évolutions}
 	
 		Si l’on veut montrer qu’un système ne peut aller que d’un état A à un état B, c’est-à-dire que l’évolution est irréversible, il nous faut procéder de la façon suivante :
 	
@@ -635,7 +635,7 @@
 
 		Il y a trois possibilités :
 			\begin{itemize}
-				\item Si les deux intégrales sont égales, alors la transformation réelle est \vocab[réversibilité]{réversible} : elle peut avoir lieu dans les deux sens.
+				\item Si les deux intégrales sont égales, alors la transformation réelle est \vocab[reversibilite@réversibilité]{réversible} : elle peut avoir lieu dans les deux sens.
 				\item Si $\int \left(\frac{\diff q}{T}\right)_\text{chemin réel} < \int \left(\frac{\diff q}{T}\right)_\text{rév.}$, alors la transformation réelle est \vocab[réversibilité]{irréversible}. Elle ne peut avoir lieu que depuis A vers B.
 				\item Si $\int \left(\frac{\diff q}{T}\right)_\text{chemin réel} > \int \left(\frac{\diff q}{T}\right)_\text{rév.}$, alors la transformation «~réelle~» décrite est \vocab[impossibilité (physique)]{impossible}. Elle ne peut avoir lieu que dans le sens inverse (B $\to$ A).
 			\end{itemize}
@@ -707,7 +707,7 @@
 	À chaque fois que nous donnons lieu à une augmentation de l’entropie globale, il nous faut au final effectuer un rejet de chaleur indésirable. Ainsi, ces quantifications de $\Delta s$ nous permettent de mesurer la qualité des détentes, compressions, refroidissements et réchauffements que nous effectuons avec les fluides dans nos~machines.
 
 	\subsection{Contexte : le sens du temps}
-	\index{évolutions!sens des}\index{sens!des évolutions}\index{sens!du temps}
+	\index{evolutions@évolutions!sens des}\index{sens!des évolutions}\index{sens!du temps}
 				
 		Les exemples que nous avons étudiés dans ce chapitre pour déterminer le sens des transformations sont très académiques, toutefois la démarche reste valide pour toute transformation : une pierre jetée dans un étang, une assiette qui se casse en tombant, etc. Si nous revenons aux trois photos de la~\cref{fig_water_jump}, nous pourrions en retrouver l’ordre en déterminant les états initial et final de l’eau autour de la plongeuse, et en comparant $\Delta s$ à l’intégrale $\int \left(\frac{\diff q}{T}\right)_\text{chemin réel}$ réalisée pendant l’entrée dans l’eau.
 		
@@ -716,9 +716,9 @@
 		
 		\onlyamphibook{\thermoquotebegin{O}}
 		\onlyframabook{\thermoquotetopbegin{O}}
-			J’ai intentionnellement formé le mot \vocab{entropie} de sorte qu’il soit aussi similaire au mot \vocab[énergie!concept]{énergie} que possible, parce que les sens physiques des deux grandeurs nommées par ces mots sont si étroitement liées qu’il m’a semblé qu’une cetraine similarité dans leurs désignations était désirable.
+			J’ai intentionnellement formé le mot \vocab{entropie} de sorte qu’il soit aussi similaire au mot \vocab[energie@énergie!concept]{énergie} que possible, parce que les sens physiques des deux grandeurs nommées par ces mots sont si étroitement liées qu’il m’a semblé qu’une cetraine similarité dans leurs désignations était désirable.
 		\thermoquoteend{Rudolf Clausius, 1865~\cite{clausius1865,clausius1867en,clausius1868fr2}\index{Clausius!Rudolf}}{\onlyframabook{\vspace{-1em}}\onlyamphibook{\vspace{-1cm}}}%handmade
-		\index{entropie!étymologie}
+		\index{entropie!etymo@étymologie}
 		Clausius forge le mot \textit{en-tropie} à partir du grec ancien \textit{tropè} \textgreek{τροπή} (révolution, changement), ce qui, couplé à son ton autoritaire, ne fait rien pour gagner l’enthousiasme de ses contemporains. Mais le concept est si puissant, et l’\cref{eq_augmentation_entropie} si simple, qu’ils sont universellement acceptés.
 		
 		Ainsi, après un siècle d’efforts, la physique de la chaleur a rattrapé la technologie des moteurs. Nous voilà capables de décrire entièrement et de façon quantitative le comportement des corps sans devoir nous pencher sur celui de leurs constituants, tels que les molécules, atomes ou particules sub-atomiques : l’entropie était la dernière pièce manquante de ce que nous appelons aujourd’hui la \vocab[macroscopique, échelle]{thermodynamique macroscopique}.
@@ -752,7 +752,7 @@ Ainsi, avec la définition technique ci-dessus du désordre, nous pouvons compre
 		Cette approche a non seulement le mérite de raccrocher notre discipline avec la théorie atomique --\ et nous parlerons dès lors de \vocab[microscopique, échelle]{thermodynamique microscopique} et \vocab[thermodynamique statistique]{statistique}\ -- mais elle va aussi ouvrir la porte de la théorie de l’information. En effet, la résolution et la précision avec lesquelles on évalue l’état d’un système affectent le nombre de configurations possibles que l’on peut lui attribuer. Voici le concept de l’\vocab[information (physique)]{information} rattaché à d’autres propriétés physiques : un résultat impressionnant pour une discipline qui ne visait qu’à explorer ce que voulait dire~«~chaud~» !
 		
 	\subsection{L’entropie et l’univers}
-	\index{univers!énergie de l’}\index{univers!entropie de l’}
+	\index{univers!energie@énergie de l’}\index{univers!entropie de l’}
 	
 		\thermoquotebegin{O}
 			Pendant une durée de temps finie dans le passé, la terre a dû être --et dans une durée de temps à venir elle devra l’être encore-- impropre à l’habitat de l’homme tel qu’il est présentement constitué, à moins que des opérations aient été ou soient réalisées qui sont impossibles selon les lois qui régissent les opérations ayant lieu aujourd’hui dans le monde matériel.
@@ -760,7 +760,7 @@ Ainsi, avec la définition technique ci-dessus du désordre, nous pouvons compre
 		Nous quittons l’entropie sur une question ouverte. Dans la mesure où l’on pense l’univers comme étant un ensemble fini, c’est-à-dire comme à un système isolé contenant une quantité fixe d’énergie, peut-on lui appliquer l’\cref{eq_augmentation_entropie} : $\Delta s_\text{univers} > 0$ lorsque le temps passe ? L’univers tend-il vers une température minimale homogène finale ? Clausius est sans équivoque : il termine aussitôt son article de 1865 par l’affirmation :
 			
 			\begin{quote}\index{Clausius!Rudolf}
-				Si l’on imagine que l’on ait calculé d’une manière conséquente pour l’univers entier […] la quantité que j’ai nommée \vocab{entropie} pour un corps particulier, ainsi que la quantité désignée sous le nom d’\vocab[énergie!concept]{énergie} et dont le sens est plus facile à saisir, on pourra exprimer très simplement, sous la forme suivante, les lois fondamentales de l’univers qui correspondent aux deux principes essentiels de la théorie mécanique de la chaleur :
+				Si l’on imagine que l’on ait calculé d’une manière conséquente pour l’univers entier […] la quantité que j’ai nommée \vocab{entropie} pour un corps particulier, ainsi que la quantité désignée sous le nom d’\vocab[energie@énergie!concept]{énergie} et dont le sens est plus facile à saisir, on pourra exprimer très simplement, sous la forme suivante, les lois fondamentales de l’univers qui correspondent aux deux principes essentiels de la théorie mécanique de la chaleur :
 					\begin{enumerate}
 						\item L’énergie de l’univers est constante.
 						\item L’entropie de l’univers tend vers un maximum.
