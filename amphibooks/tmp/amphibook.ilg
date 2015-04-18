@@ -15,30 +15,30 @@ Scanning input file amphibook.idx....
 !! Input index error (file = amphibook.idx, line = 192):
    -- Illegal null field.
 
-!! Input index error (file = amphibook.idx, line = 328):
+!! Input index error (file = amphibook.idx, line = 330):
    -- Illegal null field.
 
-!! Input index error (file = amphibook.idx, line = 359):
+!! Input index error (file = amphibook.idx, line = 361):
    -- Illegal null field.
-!! Input index error (file = amphibook.idx, line = 360):
+!! Input index error (file = amphibook.idx, line = 362):
    -- Illegal null field.
 .
-!! Input index error (file = amphibook.idx, line = 1040):
+!! Input index error (file = amphibook.idx, line = 1043):
    -- Illegal null field.
 
-!! Input index error (file = amphibook.idx, line = 1182):
+!! Input index error (file = amphibook.idx, line = 1185):
    -- Illegal null field.
-done (1357 entries accepted, 9 rejected).
-Sorting entries..............done (15544 comparisons).
+done (1360 entries accepted, 9 rejected).
+Sorting entries..............done (15317 comparisons).
 Generating output file amphibook.ind....
-## Warning (input = amphibook.idx, line = 151; output = amphibook.ind, line = 340):
+## Warning (input = amphibook.idx, line = 151; output = amphibook.ind, line = 341):
    -- Conflicting entries: multiple encaps for the same page under same key.
 
-## Warning (input = amphibook.idx, line = 662; output = amphibook.ind, line = 449):
+## Warning (input = amphibook.idx, line = 665; output = amphibook.ind, line = 450):
    -- Conflicting entries: multiple encaps for the same page under same key.
 .
-## Warning (input = amphibook.idx, line = 1187; output = amphibook.ind, line = 722):
+## Warning (input = amphibook.idx, line = 1189; output = amphibook.ind, line = 723):
    -- Conflicting entries: multiple encaps for the same page under same key.
-done (765 lines written, 3 warnings).
+done (766 lines written, 3 warnings).
 Output written in amphibook.ind.
 Transcript written in amphibook.ilg.

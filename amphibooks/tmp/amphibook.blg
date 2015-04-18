@@ -1,18 +1,18 @@
 [0] Config.pm:300> INFO - This is Biber 0.9.9
 [0] Config.pm:303> INFO - Logfile is 'amphibook.blg'
-[1] biber:145> INFO - === Fri Apr 17, 2015, 19:43:55
+[1] biber:145> INFO - === Sat Apr 18, 2015, 20:36:47
 [1] Biber.pm:271> INFO - Reading 'amphibook.bcf'
-[22] Biber.pm:586> INFO - Found 50 citekeys in bib section 0
-[33] Biber.pm:2585> INFO - Processing bib section 0
-[55] Biber.pm:2677> INFO - Looking for bibtex format file '/home/olivier/aero/global/publishing/latex/sty/thermobib.bib' for section 0
-[57] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
-[78] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
-[79] bibtex.pm:704> INFO - Found BibTeX data source '/home/olivier/aero/global/publishing/latex/sty/thermobib.bib'
-[129] Utils.pm:168> WARN - I didn't find a database entry for 'Carnot!Sadi' (section 0)
-[239] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
-[240] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
-[386] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
-[386] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
-[486] bbl.pm:427> INFO - Writing 'amphibook.bbl' with encoding 'UTF-8'
-[491] bbl.pm:498> INFO - Output to amphibook.bbl
-[492] Biber.pm:106> INFO - WARNINGS: 1
+[23] Biber.pm:586> INFO - Found 50 citekeys in bib section 0
+[36] Biber.pm:2585> INFO - Processing bib section 0
+[59] Biber.pm:2677> INFO - Looking for bibtex format file '/home/olivier/aero/global/publishing/latex/sty/thermobib.bib' for section 0
+[61] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
+[83] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
+[83] bibtex.pm:704> INFO - Found BibTeX data source '/home/olivier/aero/global/publishing/latex/sty/thermobib.bib'
+[137] Utils.pm:168> WARN - I didn't find a database entry for 'Carnot!Sadi' (section 0)
+[263] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
+[263] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
+[365] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
+[365] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.utf8'
+[420] bbl.pm:427> INFO - Writing 'amphibook.bbl' with encoding 'UTF-8'
+[424] bbl.pm:498> INFO - Output to amphibook.bbl
+[424] Biber.pm:106> INFO - WARNINGS: 1
