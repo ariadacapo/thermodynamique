@@ -65,7 +65,15 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
   		\label{fig_billard_faible_vitesse}
 		\end{figure}
 
-		Ce modèle simpliste est une bonne première approche pour décrire le phénomène de liquéfaction. Lorsque l’on réduit l’énergie cinétique des molécules d’un gaz (par refroidissement), passé un seuil critique elles s’assemblent de façon beaucoup plus compacte, tout en continuant à se percuter à la même vitesse moyenne (température inchangée). Plus l’on prélève de chaleur au gaz, plus le nombre de molécules en interaction compacte augmente. Elles forment de petits groupes ; s’ils sont suffisemment nombreux, les groupes de~\num{e14} molécules (cent mille milliards) diffusent la lumière et forment une suspension visible à l’œil nu. Dès que le nombre de molécules atteint \num{e21} l’œil humain peut identifier des gouttes de liquide.
+		Ce modèle simpliste est une bonne première approche pour décrire le phénomène de liquéfaction. Lorsque l’on réduit l’énergie cinétique des molécules d’un gaz (par refroidissement), passé un seuil critique elles s’assemblent de façon beaucoup plus compacte, tout en continuant à se percuter à la même vitesse moyenne (température inchangée). Plus l’on prélève de chaleur au gaz, plus le nombre de molécules en interaction compacte augmente. Elles forment de petits groupes ; s’ils sont suffisamment nombreux, les groupes de~\num{e14}~molécules (cent mille milliards) diffusent la lumière et forment une suspension visible à l’œil nu. Les gouttelettes de diamètre \SI{0,1}{\milli\metre} comptent environ \num{e16}~molécules.
+		\begin{comment}
+			From https://www.wolframalpha.com/input/?i=water+molecule : water molar mass 18 g/mol
+			Et 6,022E23 molécules/mol
+				Donc une densité moléculaire de 3,3456E25 molécules/kg
+			From http://apollo.lsc.vsc.edu/~wintelsw/MET1010LOL/chapter07/ & http://www.geog.ucsb.edu/~joel/g110_w08/lecture_notes/precip_processes/precip_processes.html : radius of small cloud drop (visible suspension) 10 micrometers = 10E-6 m ; nucleus 0.1 micrometers = 1E-7 m ; typical raindrop r=1000 micrometers = 1mm.
+				soit volume goutte nuage :						1.33E-15 m3 donc m = 1.33E-12 kg soit 4.46E13 molécules 		1
+				et volume d’une petite goutte r=0,1mm :	1.33E-12 m3 donc m = 1.33E-09 kg soit 4.46E16 molécules
+		\end{comment}
 		
 		On peut ainsi liquéfier n’importe quel gaz en le refroidissant et réduisant son volume. La température et la pression à atteindre pour la liquéfaction dépendent de la taille et de la géométrie des molécules qui le composent. Dans les sections suivantes, nous allons quantifier précisément les quantités d’énergie et les gammes de propriétés nécessaires pour vaporiser et liquéfier l’eau.\onlyframabook{\dontbreakpage}
 	
@@ -711,7 +719,7 @@ La vapeur n’est ici qu’un moyen de transporter le calorique ; elle remplit l
 		\end{equationterms}
 
 
-		\begin{anexample}
+		\begin{anexample}\label{exemple_lv_isobare}
 			Combien de travail et de chaleur faut-il pour chauffer lentement \SI{2}{\kilogram} d’eau liquide saturée à pression constante (\SI{3}{\bar}), jusqu’à ce que le volume atteigne~\SI{1}{\metre\cubed} ?
 			
 				\begin{answer}
@@ -839,7 +847,7 @@ pharaonique. Pour s’en affranchir, il faudra monter en température : ce sera 
 				\begin{answer}
 				On observe d’abord l’état final. Le volume final sera $v_2 = \frac{V_2}{m} = \SI{0,5}{\metre\cubed\per\kilogram} $, ce qui est inférieur à $v_V$ à notre température. Conclusion : même à la fin du réchauffement, l’eau sera toujours partiellement liquide.
 				
-				L’évolution se fera donc aussi à pression constante (à la pression de saturation, $p_{\text{sat.} \SI{130}{\degreeCelsius}} = \SI{0,27028}{\mega\pascal} $). Le calcul est exactement le même que pour l’exemple développé en \S\ref{ch_lv_isobare}. On obtient un titre de~\num{0,749}, une quantité de travail $W_{1\to2} = \SI{-269,7}{\kilo\joule}$ et de chaleur $Q_{1\to2} = \SI{+3256,2}{\kilo\joule}$.				
+				L’évolution se fera donc aussi à pression constante (à la pression de saturation, $p_{\text{sat.} \SI{130}{\degreeCelsius}} = \SI{0,27028}{\mega\pascal} $). Le calcul est exactement le même que pour l’exemple~\ref{exemple_lv_isobare} p.\pageref{exemple_lv_isobare}. On obtient un titre de~\num{0,749}, une quantité de travail $W_{1\to2} = \SI{-269,7}{\kilo\joule}$ et de chaleur $Q_{1\to2} = \SI{+3256,2}{\kilo\joule}$.				
 				
 				\begin{remark}Tant que l’on est en mélange liquide/vapeur (sous la courbe de saturation), température constante = pression constante. Aucun problème.\end{remark}\end{answer}
 			\end{anexample}
