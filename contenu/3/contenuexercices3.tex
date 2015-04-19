@@ -1,15 +1,5 @@
 \subsubsection{Turbine à vapeur}
 \label{exo_turbine_vapeur}
-
-	\begin{figure}
-		\begin{center}
-			\includegraphics[height=0.45\textwidth, max height=0.5\columnwidth]{images/symbole_turbine.png}
-			\hspace{0.5cm}
-			\includegraphics[height=0.45\textwidth, max height=0.5\columnwidth]{images/steam_turbine_siemens.jpg}
-		\end{center}
-		\supercaption{Schéma de principe et photo d’une turbine à vapeur.}{schéma \cczero \oc ; \wcfile{Dampfturbine Laeufer01.jpg}{photo} \ccbysa Siemens Pressebild}
-		\label{fig_turbine_vapeur}
-	\end{figure}
 	
 	Une turbine à vapeur (\cref{fig_turbine_vapeur}) équipe une petite centrale électrique alimentée par la combustion de matières organiques végétales.
 	
@@ -38,21 +28,34 @@
 		\item Quel débit de vapeur faut-il admettre pour générer une puissance de~\SI{4}{\mega\watt} ?
 	\end{enumerate}
 
+	\begin{figure}[h!]
+		\begin{center}
+			\includegraphics[height=0.45\textwidth, max height=0.5\columnwidth]{images/symbole_turbine.png}
+			\hspace{0.5cm}
+			\includegraphics[height=0.45\textwidth, max height=0.5\columnwidth]{images/steam_turbine_siemens.jpg}
+		\end{center}
+		\supercaption{Schéma de principe et photo d’une turbine à vapeur.}{schéma \cczero \oc ; \wcfile{Dampfturbine Laeufer01.jpg}{photo} \ccbysa Siemens Pressebild}
+		\label{fig_turbine_vapeur}
+	\end{figure}
 
-
+\onlyframabook{\pagebreak}% b.... de m....
 \subsubsection{Génératrice de courant électrique}
 \label{exo_generatrice_electrique}
 
 	Dans une installation portative génératrice d’électricité, le générateur électrique est entraîné par un axe mécanique. Le long de cet axe, on trouve un compresseur à air et une turbine (\cref{fig_elgen}).
-	\begin{figure}
+	Ce type d’installation, parfois simplement nommé «~turbine à gaz~», est particulièrement compact et efficace ; il nécessite par contre l’emploi de carburants raffinés.
+	
+	\onlyframabook{\begin{figure}[h!]}
+	\onlyamphibook{\begin{figure}}
 		\begin{center}
 			\includegraphics[width=\textwidth]{images/circuit_generateur.png}
+			\onlyframabook{\vspace{-1cm}}%handmade
 		\end{center}
 		\supercaption{Schéma de principe d’une turbomachine génératrice d’électricité.}{schéma \ccbysa \olivier}
 		\label{fig_elgen}
 	\end{figure}	
-	Ce type d’installation, parfois simplement nommé «~turbine à gaz~», est particulièrement compact et efficace ; il nécessite par contre l’emploi de carburants raffinés.
 
+	\clearfloats
 	Le compresseur porte l’air depuis les conditions atmosphériques jusqu’à une forte pression et une haute température.
 	
 	Entrée du compresseur :		
@@ -198,14 +201,6 @@
 
 	Pour augmenter la poussée qu’elle génère, on modifie la tuyère de l’exercice~\ref{exo_tuyere_turboreacteur} pour y ajouter un appareillage de réchauffe (la réchauffe est souvent appelée \vocab{postcombustion}, cf. \S\ref{ch_postcombustion} p.\pageref{ch_postcombustion}). Il s’agit d’un ensemble de brûleurs qui permettent une seconde combustion de carburant dans le moteur, juste avant que l’air n’entame sa détente dans la tuyère (\cref{fig_afterburner}). Après la seconde combustion, l’air effectue sa détente et son accélération jusqu’à la pression atmosphérique.
 
-	\begin{figure}
-		\begin{center}
-			\includegraphics[width=9cm, max width=0.8\columnwidth]{images/postcombustion.png}
-		\end{center}
-		\supercaption{Schéma de principe d’un système de postcombustion. Son fonctionnement est étudié en \S\ref{ch_postcombustion} p.\pageref{ch_postcombustion}}{schéma \ccbysa \olivier}
-		\label{fig_afterburner}
-	\end{figure}
-
 	À l’entrée, les conditions sont identiques à celles indiquées dans l’exercice~\ref{exo_tuyere_turboreacteur}.
 	
 	La puissance spécifique apportée sous forme de chaleur par les brûleurs atteint \SI{1322,5}{\kilo\joule\per\kilogram}. Le carburant brûlé a une capacité calorifique massique de~\SI{30}{\mega\joule\per\kilogram}. La combustion se fait à pression constante et elle n’augmente pas l’énergie cinétique du gaz.
@@ -218,6 +213,14 @@
 		\item Quel est le débit volumique d’air après son accélération finale ?
 		\item Quelle est l’efficacité de la postcombustion, c’est à dire le rapport entre l’augmentation de l’énergie cinétique des gaz et l’augmentation de la puissance à apporter sous forme de chaleur ?
 	\end{enumerate}
+	
+	\begin{figure}[h!]
+		\begin{center}
+			\includegraphics[width=9cm, max width=0.8\columnwidth]{images/postcombustion.png}
+		\end{center}
+		\supercaption{Schéma de principe d’un système de postcombustion. Son fonctionnement est étudié en \S\ref{ch_postcombustion} p.\pageref{ch_postcombustion}}{schéma \ccbysa \olivier}
+		\label{fig_afterburner}
+	\end{figure}
 
 	
 \subsubsection{Turbine à vapeur}
