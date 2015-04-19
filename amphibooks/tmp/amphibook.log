@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2015.3.15)  18 APR 2015 20:45
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2015.3.15)  19 APR 2015 12:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3172,21 +3172,14 @@ Package biblatex Info: ... file 'amphibook.bbl' found.
  (./amphibook.bbl
 LaTeX Font Info:    Font shape `T1/fxl/m/n' will be
 (Font)              scaled to size 10.0pt on input line 41.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Carnot!Sadi
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
 )
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hypcap package is loaded.
 Package caption Info: longtable package is loaded.
- (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2011/09/12 v1.3 longtable captions (AR)
 )
 Package caption Info: wrapfig package is loaded.
@@ -3412,7 +3405,7 @@ LaTeX Font Info:    Font shape `T1/fxb/m/n' will be
 LaTeX Font Warning: Font shape `T1/cmtt/m/n' in size <6.5> not available
 (Font)              size <6> substituted on input line 37.
 
-[337
+[335
 
 
 
@@ -3511,7 +3504,7 @@ Package pdftex.def Info: images/photo_dash8.jpg used on input line 140.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[338 <./10/images/photo_diesel_generateur.jpg> <./10/images/photo_diesel_propul
+[336 <./10/images/photo_diesel_generateur.jpg> <./10/images/photo_diesel_propul
 sion.jpg> <./10/images/circuit_turboprop.png>]
 <images/photo_pw_j52_1.jpg, id=118, 790.152pt x 355.3275pt>
 File: images/photo_pw_j52_1.jpg Graphic file (type jpg)
@@ -3519,7 +3512,7 @@ File: images/photo_pw_j52_1.jpg Graphic file (type jpg)
 <use images/photo_pw_j52_1.jpg>
 Package pdftex.def Info: images/photo_pw_j52_1.jpg used on input line 173.
 (pdftex.def)             Requested size: 241.07481pt x 108.40996pt.
- [339 <./10/images/photo_pwc_pw123.jpg> <./10/images/photo_dash8.jpg> <./10/ima
+ [337 <./10/images/photo_pwc_pw123.jpg> <./10/images/photo_dash8.jpg> <./10/ima
 ges/photo_pw_j52_1.jpg>]
 <images/cf6_cutaway.jpg, id=147, 690.58pt x 507.8975pt>
 File: images/cf6_cutaway.jpg Graphic file (type jpg)
@@ -3547,7 +3540,7 @@ File: images/circuit_turboshaft_exercice.png Graphic file (type png)
 Package pdftex.def Info: images/circuit_turboshaft_exercice.png used on input l
 ine 269.
 (pdftex.def)             Requested size: 341.43306pt x 306.45055pt.
- [340 <./10/images/cf6_cutaway.jpg> <./10/images/circuit_turbofan_twin_spool.pn
+ [338 <./10/images/cf6_cutaway.jpg> <./10/images/circuit_turbofan_twin_spool.pn
 g> <./10/images/circuit_turboshaft_exercice.png>]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -3617,11 +3610,11 @@ Overfull \hbox (4.40807pt too wide) in paragraph at lines 318--319
 onsom-ma-tion aug-mente elle de [][][],
  []
 
-) [341
+) [339
 
 
  <./10/images/exo_sol_ts_diesel.png> <./10/images/exo_sol_ts_intercooler.png>] 
-[342
+[340
 
 
 
@@ -3669,11 +3662,11 @@ Package logreq Info: Writing requests to 'amphibook.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
  ) 
 Here is how much of TeX's memory you used:
- 52970 strings out of 494719
- 916422 string characters out of 3175276
- 1272094 words of memory out of 3000000
- 54404 multiletter control sequences out of 15000+200000
- 613228 words of font info for 634 fonts, out of 3000000 for 9000
+ 52975 strings out of 494719
+ 916483 string characters out of 3175276
+ 1272081 words of memory out of 3000000
+ 54403 multiletter control sequences out of 15000+200000
+ 613810 words of font info for 639 fonts, out of 3000000 for 9000
  248 hyphenation exceptions out of 8191
  101i,20n,109p,1078b,1304s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{anexamplecounter.10.2} has been referenced but do
@@ -3750,7 +3743,7 @@ xfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr
 hare/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/newtx/txsy5.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/newtx/txsy7.pfb>
-Output written on amphibook.pdf (6 pages, 2409353 bytes).
+Output written on amphibook.pdf (6 pages, 2409385 bytes).
 PDF statistics:
  307 PDF objects out of 1000 (max. 8388607)
  266 compressed objects within 3 object streams
