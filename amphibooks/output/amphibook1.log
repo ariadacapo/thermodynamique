@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2015.3.15)  19 APR 2015 11:44
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2015.3.15)  22 APR 2015 09:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2701,7 +2701,7 @@ Package: niceframe v1.1c <2009/31/08> (Marcus Ohlhaut)
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \vocab with arg. spec. 'om' on line 254.
+. Defining document command \vocab with arg. spec. 'om' on line 255.
 .................................................
 
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
@@ -15521,14 +15521,14 @@ No file amphibook.ind.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot twoside 
-* h-part:(L,W,R)=(142.26378pt, 312.98032pt, 142.26378pt)
+* h-part:(L,W,R)=(149.37697pt, 298.75394pt, 149.37697pt)
 * v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=312.98032pt
+* \textwidth=298.75394pt
 * \textheight=745.46223pt
-* \oddsidemargin=69.99379pt
-* \evensidemargin=69.99379pt
+* \oddsidemargin=77.10698pt
+* \evensidemargin=77.10698pt
 * \topmargin=-29.59087pt
 * \headheight=0.0pt
 * \headsep=0.0pt
@@ -15547,8 +15547,6 @@ No file amphibook.ind.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Font shape `TS1/fxl/m/n' will be
-(Font)              scaled to size 14.4pt on input line 5.
 
 
 LaTeX Warning: Citation 'pambour1835' on page 357 undefined on input line 9.
@@ -15613,13 +15611,13 @@ Package logreq Info: Writing requests to 'amphibook.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
  ) 
 Here is how much of TeX's memory you used:
- 58620 strings out of 494719
- 1027795 string characters out of 3175276
- 1527840 words of memory out of 3000000
- 56748 multiletter control sequences out of 15000+200000
- 1301966 words of font info for 1923 fonts, out of 3000000 for 9000
+ 58571 strings out of 494719
+ 1027237 string characters out of 3175276
+ 1527852 words of memory out of 3000000
+ 56749 multiletter control sequences out of 15000+200000
+ 1295641 words of font info for 1881 fonts, out of 3000000 for 9000
  248 hyphenation exceptions out of 8191
- 101i,24n,109p,1504b,2512s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 101i,24n,109p,1504b,2514s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.58} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -15817,10 +15815,10 @@ s/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsy5.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/newtx/txsy7.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/txfonts/txsyc.pfb>
-Output written on amphibook.pdf (357 pages, 39736587 bytes).
+Output written on amphibook.pdf (357 pages, 39736623 bytes).
 PDF statistics:
  5388 PDF objects out of 6186 (max. 8388607)
  4349 compressed objects within 44 object streams
  1544 named destinations out of 1728 (max. 500000)
- 174964 words of extra memory for PDF output out of 184870 (max. 10000000)
+ 174452 words of extra memory for PDF output out of 184870 (max. 10000000)
 

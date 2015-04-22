@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2015.3.15)  19 APR 2015 12:02
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2015.3.15)  22 APR 2015 09:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2701,7 +2701,7 @@ Package: niceframe v1.1c <2009/31/08> (Marcus Ohlhaut)
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \vocab with arg. spec. 'om' on line 254.
+. Defining document command \vocab with arg. spec. 'om' on line 255.
 .................................................
 
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
@@ -2971,14 +2971,8 @@ LaTeX Warning: Label `1' multiply defined.
 ) (./5/exercices_chapitre_5.aux) (./6/chapitre_6.aux)
 (./6/exercices_chapitre_6.aux) (./7/chapitre_7.aux)
 (./7/exercices_chapitre_7.aux) (./8/chapitre_8.aux)
-(./8/exercices_chapitre_8.aux) (./9/chapitre_9.aux
-
-LaTeX Warning: Label `fig_turbinia' multiply defined.
-
-
-LaTeX Warning: Label `fig_turbinia@cref' multiply defined.
-
-) (./9/exercices_chapitre_9.aux) (./10/chapitre_10.aux)
+(./8/exercices_chapitre_8.aux) (./9/chapitre_9.aux)
+(./9/exercices_chapitre_9.aux) (./10/chapitre_10.aux)
 (./10/exercices_chapitre_10.aux) (./a/frame_annexes.aux)
 (./a/frame_bibliographie.aux) (./a/frame_index.aux) (./a/contenu_epitaphe.aux))
 \openout1 = `amphibook.aux'.
@@ -3662,10 +3656,10 @@ Package logreq Info: Writing requests to 'amphibook.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
  ) 
 Here is how much of TeX's memory you used:
- 52975 strings out of 494719
- 916483 string characters out of 3175276
- 1272081 words of memory out of 3000000
- 54403 multiletter control sequences out of 15000+200000
+ 52978 strings out of 494719
+ 916516 string characters out of 3175276
+ 1272162 words of memory out of 3000000
+ 54406 multiletter control sequences out of 15000+200000
  613810 words of font info for 639 fonts, out of 3000000 for 9000
  248 hyphenation exceptions out of 8191
  101i,20n,109p,1078b,1304s stack positions out of 5000i,500n,10000p,200000b,50000s
