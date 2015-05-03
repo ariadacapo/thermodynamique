@@ -1,6 +1,0 @@
-%%%% mise en forme de l’index %%%%
-headings_flag 1
-heading_prefix "\\textbf\{\\large " %gras et gros
-heading_suffix "\}\\dontbreakpage\\vspace{-0.4cm}" %fermeture instruction gras et gros + ne pas faire de saut de page (ne marche pas?)
-symhead_positive "" %pas de titre "symbol" pour les symboles
-\vadjust{\nobreak} %empêcher les sauts de colonne dans les item
